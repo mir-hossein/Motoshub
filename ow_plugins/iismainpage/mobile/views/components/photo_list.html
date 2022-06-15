@@ -1,0 +1,21 @@
+{style}
+.owm_photo_list {
+padding: 7px 8px;
+}
+.owm_photo_list_item {
+width: calc(50% - 16px);
+margin: 8px 8px;
+}
+.owm_photo_list_item img {
+visibility: visible;
+max-width: 100% !important;
+}
+{/style}
+{if !$no_content}
+<div class="photo_section">
+    {capture assign='img'}data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=={/capture}
+    {foreach from=$photos item='p'}{strip}<div class="owm_photo_list_item" data-ref="{$p.id}"><a href="{url_for_route for="view_photo:[id=>`$p.id`]"}" style="background-image: url({$p.url})"><img src="{$p.url}"{if !empty($p.description)} alt="{$p.description|escape}"{/if} /></a></div>{/strip}{/foreach}
+</div>
+{else}
+<div class="ow_nocontent">{$no_content}</div>
+{/if}

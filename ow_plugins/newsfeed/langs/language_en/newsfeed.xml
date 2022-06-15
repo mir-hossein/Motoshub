@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="newsfeed" label="Newsfeed" language_tag="en" language_label="English">
+    <key name="activity_string_self_status_like">
+        <value>liked their status</value>
+    </key>
+    <key name="activity_string_status_comment">
+    <value>commented on this status</value>
+    </key>
+    <key name="activity_string_status_like">
+        <value>liked this content</value>
+    </key>
+    <key name="activity_string_status_self_comment">
+        <value>commented on their status</value>
+    </key>
+    <key name="admin_allow_comments_label">
+    <value>Enable comments</value>
+    </key>
+    <key name="admin_allow_likes_label">
+    <value>Enable likes</value>
+    </key>
+    <key name="admin_comments_count_desc">
+        <value>Number of item comments shown by default in expanded mode.</value>
+    </key>
+    <key name="admin_comments_count_label">
+        <value>Expanded comments</value>
+    </key>
+    <key name="admin_customization_legend">
+        <value>Here you may control which type of content is shown in newsfeed. Please note that any changes will be applied to _new_ content only.</value>
+    </key>
+    <key name="admin_features_expanded_label">
+        <value>Expanded likes and comments by default</value>
+    </key>
+    <key name="admin_index_status_label">
+        <value>Enable status updates on index page</value>
+    </key>
+    <key name="admin_menu_item_customization">
+        <value>Content</value></key>
+    <key name="admin_menu_item_settings">
+        <value>Settings</value>
+    </key>
+    <key name="admin_page_heading">
+        <value>Newsfeed Plugin Settings</value>
+    </key>
+    <key name="admin_page_title">
+        <value>Newsfeed  Plugin Settings</value>
+    </key>
+    <key name="admin_save_btn">
+        <value>Save</value>
+    </key>
+    <key name="admin_settings_title">
+        <value>Settings</value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>Allow status updates comments</value>
+    </key>
+    <key name="auth_action_label_allow_status_update">
+        <value>Allow status updates</value>
+    </key>
+    <key name="auth_group_label">
+    <value>Newsfeed</value>
+    </key>
+    <key name="comment_btn_label">
+        <value>Comment</value>
+    </key>
+    <key name="content_group_label">
+        <value>Newsfeed</value>
+    </key>
+    <key name="content_status_label">
+        <value>Status update</value>
+    </key>
+    <key name="customization_changed">
+        <value>Settings saved</value>
+    </key>
+    <key name="customization_not_changed">
+        <value>Settings not changed</value>
+    </key>
+    <key name="delete_feed_item_label">
+        <value>Delete post</value>
+    </key>
+    <key name="delete_feed_item_user_label">
+        <value>Delete user</value>
+    </key>
+    <key name="email_notifications_empty_status_comment">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; commented on your status: {$comment}</value>
+    </key>
+    <key name="email_notifications_empty_status_like">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; likes your status.</value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>Newsfeed</value>
+    </key>
+    <key name="email_notifications_setting_status_comment">
+        <value>Someone comments on my status</value>
+    </key>
+    <key name="email_notifications_setting_status_like">
+        <value>Someone likes my status</value>
+    </key>
+    <key name="email_notifications_setting_user_status">
+        <value>Someone writes on my wall</value>
+    </key>
+    <key name="email_notifications_status_comment">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; commented on your "&lt;a href="{$url}"&gt;{$status}&lt;/a&gt;" status: {$comment}</value>
+    </key>
+    <key name="email_notifications_status_like">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; likes your "&lt;a href="{$url}"&gt;status&lt;/a&gt;".</value>
+    </key>
+    <key name="empty_feed_message">
+        <value>No items</value>
+    </key>
+    <key name="feed_action_deleted_message">
+        <value>Item deleted</value>
+    </key>
+    <key name="feed_activity_users">
+        <value>Total users: &lt;span class="ow_txt_value"&gt;{$usersCount}&lt;/span&gt;</value>
+    </key>
+    <key name="feed_delete_item_label">
+        <value>Delete post</value>
+    </key>
+    <key name="feed_likes_1_label">
+        <value>{$user1} likes this</value>
+    </key>
+    <key name="feed_likes_2_label">
+        <value>{$user1} and {$user2} like this</value>
+    </key>
+    <key name="feed_likes_3_label">
+        <value>{$user1}, {$user2} and {$user3} like this</value>
+    </key>
+    <key name="feed_likes_list_label">
+        <value>&lt;a href="{$url}"&gt;{$count} members&lt;/a&gt; like this</value>
+    </key>
+    <key name="feed_view_more_btn">
+        <value>View More</value>
+    </key>
+    <key name="follow_button">
+        <value>Follow</value>
+    </key>
+    <key name="follow_complete_message">
+        <value>You are now following {$username}</value>
+    </key>
+    <key name="guest_like_error">
+        <value>You need to sign in to like this.</value>
+    </key>
+    <key name="item_deleted_feedback">
+        <value>Item deleted</value>
+    </key>
+    <key name="like_btn_label">
+        <value>Like</value>
+    </key>
+    <key name="mobile_disabled_actions_message">
+        <value>This is not available on mobile yet. Try &lt;a href="{$desktopUrl}"&gt;desktop version&lt;/a&gt;.</value>
+    </key>
+    <key name="newsfeed_feed">
+        <value>Newsfeed</value>
+    </key>
+    <key name="notifications_user_status">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; wrote on your wall: {$status}</value>
+    </key>
+    <key name="privacy_action_view_my_feed">
+        <value>View my profile Newsfeed</value>
+    </key>
+    <key name="save_customization_btn_label">
+        <value>Save</value>
+    </key>
+    <key name="settings_updated">
+        <value>Settings updated</value>
+    </key>
+    <key name="status_add_string">
+        <value>updated their status</value>
+    </key>
+    <key name="status_btn_label">
+        <value>Send</value>
+    </key>
+    <key name="status_field_invintation">
+        <value>What’s happening?</value>
+    </key>
+    <key name="string_users_and_delim">
+        <value>and</value>
+    </key>
+    <key name="unfollow_button">
+        <value>Unfollow</value>
+    </key>
+    <key name="unfollow_complete_message">
+        <value>You are no longer following {$username}</value>
+    </key>
+    <key name="unlike_btn_label">
+        <value>Unlike</value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>Comment newsfeed</value>
+    </key>
+    <key name="view_more_count_label">
+        <value>+{$count} more</value>
+    </key>
+    <key name="widget_feed_title">
+        <value>Newsfeed</value>
+    </key>
+    <key name="widget_settings_count">
+        <value>Items to show</value>
+    </key>
+    <key name="widget_settings_view_more">
+        <value>View more</value>
+    </key>
+    <key name="error_retrieving_url">
+        <value>
+            Error retrieving source URL.
+        </value>
+    </key>
+    <key name="ajax_floatbox_like_users">
+        <value>
+            likes
+        </value>
+    </key>
+</prefix>

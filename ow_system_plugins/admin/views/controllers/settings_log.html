@@ -1,0 +1,93 @@
+{*
+
+/**
+* Copyright (c) 2018, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+
+{form name='logSettingsForm'}
+
+<table class="ow_table_1 ow_form">
+    <tr class="ow_tr_first">
+        <th class="ow_name ow_txtleft">
+            <span class="ow_section_icon ow_ic_monitor">{text key='admin+file_log_settings'}</span>
+        </th>
+        <th class="ow_name ow_txtleft">{input name='file_log_enabled'}</th>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='file_log_level'}</td>
+        <td class="ow_value">{input name='file_log_level'}{error name='file_log_level'}</td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"}">
+        <td class="ow_label">{label name='file_output_format'}</td>
+        <td class="ow_value">{input name='file_output_format'}{error name='file_output_format'}</td>
+    </tr>
+
+    <tr class="ow_tr_first">
+        <th class="ow_name ow_txtleft">
+            <span class="ow_section_icon ow_ic_monitor">{text key='admin+stdout_log_settings'}</span>
+        </th>
+        <th class="ow_name ow_txtleft">{input name='stdout_log_enabled'}</th>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='stdout_log_level'}</td>
+        <td class="ow_value">{input name='stdout_log_level'}{error name='stdout_log_level'}</td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"}">
+        <td class="ow_label">{label name='stdout_output_format'}</td>
+        <td class="ow_value">{input name='stdout_output_format'}{error name='stdout_output_format'}</td>
+    </tr>
+
+    <tr class="ow_tr_first">
+        <th class="ow_name ow_txtleft">
+            <span class="ow_section_icon ow_ic_monitor">{text key='admin+elastic_log_settings'}</span>
+        </th>
+        <th class="ow_name ow_txtleft">{input name='elastic_log_enabled'}</th>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='elastic_log_level'}</td>
+        <td class="ow_value">{input name='elastic_log_level'}{error name='elastic_log_level'}</td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='elastic_host'}</td>
+        <td class="ow_value">{input name='elastic_host'}{error name='elastic_host'}</td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='elastic_port'}</td>
+        <td class="ow_value">{input name='elastic_port'}{error name='elastic_port'}</td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="ow_right">{submit name='save' class='ow_ic_save'}</div>
+        </td>
+        <td>{desc name='file_output_format'}</td>
+    </tr>
+</table>
+{/form}
+
+{form name='testForm'}
+<table class="ow_table_1 ow_form">
+    <tr class="ow_tr_first">
+        <th class="ow_name ow_txtleft" colspan="3">
+            <span class="ow_section_icon ow_ic_monitor">{text key='admin+heading_log_test'}</span>
+        </th>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='title'}</td>
+        <td class="ow_value">{input name='title'}{error name='title'}</td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt2, ow_alt1"} ow_tr_first">
+        <td class="ow_label">{label name='log_level'}</td>
+        <td class="ow_value">{input name='log_level'}{error name='log_level'}</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="ow_right">{submit name='save' class='ow_ic_save'}</div>
+        </td>
+        <td></td>
+    </tr>
+</table>
+{/form}

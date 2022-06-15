@@ -1,0 +1,20 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_1" d="m2,1.770116l16,0l0,16.172413l-16,0l0,-16.172413z" fill="#a2acb3"/>
+  <path stroke="null" id="svg_2" d="m3,2.678161l14,0l0,14.264368l-14,0l0,-14.264368z" fill="#fff"/>
+  <path stroke="null" id="svg_3" d="m4,3.850576l12,0l0,12.091953l-12,0l0,-12.091953z" fill="#a2acb3"/>
+  <g id="svg_4" fill="#fff">
+   <path stroke="null" id="svg_12" d="m5.804601,13.574712l8.425284,0l0,1l-8.425284,0l0,-1z"/>
+   <path stroke="null" id="svg_13" d="m5.804605,5.325224l8.42528,0l0,1l-8.42528,0l0,-1z"/>
+   <path stroke="null" id="svg_14" d="m5.804605,7.360263l8.42528,0l0,1l-8.42528,0l0,-1z"/>
+   <path stroke="null" id="svg_15" d="m5.804605,9.481892l8.42528,0l0,1l-8.42528,0l0,-1z"/>
+   <path stroke="null" id="svg_16" d="m5.804605,11.386023l8.42528,0l0,1l-8.42528,0l0,-1z"/>
+  </g>
+ </g>
+</svg>

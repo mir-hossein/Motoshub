@@ -1,0 +1,40 @@
+{*
+
+/**
+* Copyright (c) 2017, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+
+{if !empty($list)}
+{foreach from=$list item=item name='user_list'}
+    {assign var='dto' value=$item.dto}
+    {assign var='actions' value=$item.actions}
+    {assign var='id' value=$dto->id}
+    <div class="owm_content_list_item owm_list_item_with_image">
+        <div class="owm_user_list_item">
+            {decorator name='avatar_item' data=$avatars[$id]}
+            <div class="owm_user_list_info owm_remark">
+                <div class="owm_user_list_name">
+                    <a href="{$avatars[$id]['url']}">{$displayNameList[$id]}</a>
+                </div>
+            </div>
+            <div class="owm_btn_list owm_std_margin_bottom clearfix">
+            {foreach from=$actions item=action}
+                <div class="owm_btn_list_item_wrap owm_float_right">
+                    <a class="owm_btn_list_item" href="{$action.href}" id="{$action.id}">
+                        <span class="owm_btn_list_item_c">{$action.label}</span>
+                    </a>
+                </div>
+            {/foreach}
+            </div>
+            {if !empty($onlineInfo) && $onlineInfo[$id] }
+                <div class="owm_profile_online">  </div>
+            {/if}
+        </div>
+    </div>
+{/foreach}
+{else}
+    <div class="ow_nocontent">{text key="base+user_no_users"}</div>
+{/if}

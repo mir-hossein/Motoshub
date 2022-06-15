@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisdatabackup" label="iisdatabackup" language_tag="fa-IR" language_label="فارسی">
+    <key name="deadline_label">
+        <value>
+            مدت زمان نگهداری داده های پشتیبان (بر حسب ماه)
+        </value>
+    </key>
+    <key name="deadline_for_saving_data_time">
+        <value>
+            {$value} ماه
+        </value>
+    </key>
+    <key name="deadline_for_saving_data_always">
+        <value>
+            برای همیشه
+        </value>
+    </key>
+    <key name="newsfeed_status">
+        <value>
+            وضعیت‌های کاربران (به جز آخرین وضعیت)
+        </value>
+    </key>
+    <key name="newsfeed_action">
+        <value>
+            اعمال انجام شده کاربران در تازه‌ها
+        </value>
+    </key>
+    <key name="action_remove">
+        <value>حذف</value>
+    </key>
+    <key name="action_update">
+        <value>بروزرسانی</value>
+    </key>
+    <key name="returnToSetting">
+        <value>بازگشت به تنظیمات</value>
+    </key>
+    <key name="setting_label">
+        <value>تنظیمات داده‌های پشتیبانی شده</value>
+    </key>
+    <key name="form_data_label">
+        <value>نمایش داده‌های پشتیبانی شده</value>
+    </key>
+    <key name="tables_label">
+        <value>انتخاب جدول مورد نظر</value>
+    </key>
+    <key name="numberOfData_label">
+        <value>تعداد داده‌های قابل نمایش</value>
+    </key>
+    <key name="showFormData">
+        <value>نمایش داده‌ها</value>
+    </key>
+    <key name="base_avatar">
+        <value>آواتار‌های کاربران</value>
+    </key>
+    <key name="base_comment">
+        <value>نظرات کاربران</value>
+    </key>
+    <key name="base_mail">
+        <value>رایانامه‌ها</value>
+    </key>
+    <key name="base_question_data">
+        <value>سوالات پاسخ داده شده توسط کابران</value>
+    </key>
+    <key name="base_tag">
+        <value>برچسب‌ها</value>
+    </key>
+    <key name="base_entity_tag">
+        <value>موارد به همراه برچسب‌ها</value>
+    </key>
+    <key name="base_user_reset_password">
+        <value>تغییر گذرواژه کاربران</value>
+    </key>
+    <key name="cover_photo">
+        <value>عکس‌های سرصفحه کاربران</value>
+    </key>
+    <key name="forum_post">
+        <value>نوشته‌های انجمن</value>
+    </key>
+    <key name="forum_post_attachment">
+        <value>ضمیمه‌های نوشته‌های انجمن</value>
+    </key>
+    <key name="forum_section">
+        <value>بخش‌های انجمن</value>
+    </key>
+    <key name="forum_topic">
+        <value>موضوعات انجمن</value>
+    </key>
+    <key name="mailbox_attachment">
+        <value>ضمیمه‌های رایانامه</value>
+    </key>
+    <key name="mailbox_message">
+        <value>پیام‌های رایانامه</value>
+    </key>
+    <key name="photo">
+        <value>عکس‌ها</value>
+    </key>
+    <key name="photo_album">
+        <value>آلبوم عکس‌ها</value>
+    </key>
+    <key name="video_clip">
+        <value>فیلم‌ها</value>
+    </key>
+    <key name="event_item">
+        <value>رویدادها</value>
+    </key>
+    <key name="backup_timestamp">
+        <value>زمان پشتیبان</value>
+    </key>
+    <key name="backup_action">
+        <value>نوع عملیات</value>
+    </key>
+    <key name="backup_pk_id">
+        <value>شناسه</value>
+    </key>
+    <key name="admin_page_heading">
+        <value>تنظیمات افزونه پشتیبانی از داده ها</value>
+    </key>
+    <key name="admin_page_title">
+        <value>تنظیمات افزونه پشتیبانی از داده ها</value>
+    </key>
+</prefix>

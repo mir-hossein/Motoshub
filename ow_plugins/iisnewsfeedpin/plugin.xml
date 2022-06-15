@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>برجسته کردن تازه‌ها</name>
+    <key>iisnewsfeedpin</key>
+    <description>
+        با نصب این افزونه این امکان فراهم می‌شود تا تازه‌ها را برجسته کرد.
+    </description>
+    <author>Seyed Ismail Mirvakili</author>
+    <authorEmail>seiedesmaeel@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10848</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>published</item>
+    </category>
+</plugin>

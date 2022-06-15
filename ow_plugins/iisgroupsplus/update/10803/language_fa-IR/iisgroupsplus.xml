@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="fa-IR" language_label="فارسی">
+	<key name="choose_category">
+        <value>
+			انتخاب دسته
+        </value>
+    </key>
+</prefix>

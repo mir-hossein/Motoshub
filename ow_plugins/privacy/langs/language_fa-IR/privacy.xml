@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="privacy" label="Privacy" language_tag="fa-IR" language_label="فارسی">
+<key name="action_action_data_not_changed">
+	<value>
+		تنظیمات ذخیره نشده‌اند.
+	</value>
+</key>
+<key name="action_action_data_was_saved">
+	<value>
+		سامانه در حال اعمال تنظیماتی است که شما تغییر داده‌اید. این مسئله می‌تواند مقداری زمان‌بر باشد.
+	</value>
+</key>
+<key name="bottom warning">
+	<value>
+		اعمال این تنظیمات ممکن است زمان‌بر باشد.
+	</value>
+</key>
+<key name="no_items">
+	<value>
+		موردی وجود ندارد.
+	</value>
+</key>
+<key name="privacy_description">
+	<value>
+		شما در اینجا می‌توانید حق دسترسی به محتوای خود برای دیگر کاربران را تنظیم کنید
+	</value>
+</key>
+<key name="privacy_everybody">
+	<value>
+		همه
+	</value>
+</key>
+<key name="privacy_index">
+	<value>
+		حریم خصوصی
+	</value>
+</key>
+<key name="privacy_no_permission_heading">
+	<value>
+		خصوصی
+	</value>
+</key>
+<key name="privacy_no_permission_message">
+	<value>
+		{$display_name} اجازه نداده است تا این محتوا به اشتراک گذاشته شود.
+	</value>
+</key>
+<key name="privacy_only_for_me">
+	<value>
+		فقط خودم
+	</value>
+</key>
+<key name="privacy_submit_button">
+	<value>
+		ذخیره
+	</value>
+</key>
+<key name="no_permission_message">
+	<value>
+		شما اجازه مشاهده این صفحه را ندارید
+	</value>
+</key>
+</prefix>

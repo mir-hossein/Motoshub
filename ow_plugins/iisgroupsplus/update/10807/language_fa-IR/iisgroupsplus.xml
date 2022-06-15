@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="email_notification_section_label">
+        <value>
+           گروه‌ها
+        </value>
+    </key>
+    <key name="email_notifications_setting_file">
+        <value>
+            فایلی در گروه ایجاد شد
+        </value>
+    </key>
+	<key name="notif_add_file_string">
+        <value>
+         &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt;  فایل جدید &lt;a href="{$fileUrl}"&gt;{$fileName}&lt;/a&gt;  را در &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt; بارگذاری کرد
+        </value>
+    </key>
+</prefix>

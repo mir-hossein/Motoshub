@@ -1,0 +1,97 @@
+
+{$menu}
+<div id="list-table" class="owm_news_table_2 owm_news_divTable " align="center">
+	{if count($list) > 0}
+	<div class="owm_news_divTableBody ">
+		<div class="owm_news_divTableRow">
+			<div class="owm_news_divTableCell owm_news_divTableCellTopChild "  id="news-post-title"><p>{text key="iisnews+manage_page_entry_title"}</p></div>
+			<div class="owm_news_divTableCell owm_news_divTableCellTopChild " id="news-post-date"><p>	{text key="iisnews+manage_page_last_updated"}</p></div>
+			<div class="owm_news_divTableCell owm_news_divTableCellTopChild" id="news-post-status"><p>{text key="iisnews+manage_page_status"}</p></div>
+			<div class="owm_news_divTableCell owm_news_divTableCellTopChild  " id="news-post-action" style=" margin-top:0px;"><p>{text key="iisnews+manage_comment_page_actions"}</p></div>
+		</div>
+
+
+		{foreach from=$list item='post' name='post'}
+
+		<div class="owm_news_divTableRow">
+			<div class="owm_news_divTableCell owm_news_handle_large owm_news_divTableCellBottomChild" >
+				<a class="owm_news_post_a" href="{url_for_route for="entry:[id=>`$post->id`]"}">
+					{$post->title}
+				</a>
+			</div>
+			<div class="owm_news_divTableCell owm_news_divTableCellBottomChild" ><p>{format_date timestamp=$post->timestamp}</p>
+			</div>
+			<div class="owm_news_divTableCell owm_news_divTableCellBottomChild"><p>{$status}</p>
+			</div>
+			<div class="owm_news_divTableCell owm_news_divTableCellBottomChild">
+				<div >
+					<a href="{url_for for="IISNEWS_MCTRL_Save:index:[id=>`$post->id`]"}?back-to={$thisUrl}" class="ow_lbutton">{text key="base+edit"}</a>
+					{if isset($codes[$post->id])}
+					<a href="{url_for for="IISNEWS_MCTRL_Save:delete:[id=>`$post->id`,code=>`$codes[$post->id]`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='iisnews+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{else}
+					<a href="{url_for for="IISNEWS_MCTRL_Save:delete:[id=>`$post->id`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='iisnews+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{/if}
+				</div>
+			</div>
+		</div>
+		{/foreach}
+		{else}
+
+			<div class="owm_news_center"><p>{text key='iisnews+no_entrys'}</p></div>
+
+		{/if}
+	</div>
+
+
+	{if count($list) > 0}
+	<div class="owm_news_divTableBody_220 ">
+		{foreach from=$list item='post' name='post'}
+
+		<div class="owm_news_divTableRow">
+			<div class="owm_news_divTableCell owm_news_divTableCellTopChild " ><p>{text key="iisnews+manage_page_entry_title"}</p></div>
+			<div class="owm_news_divTableCell owm_news_divTableCellTopChild owm_news_handle_large"><a class="owm_news_post_a" href="{url_for_route for="entry:[id=>`$post->id`]"}">
+				{$post->title}
+			</a> </div>
+		</div>
+
+		<div class="owm_news_divTableRow">
+			<div class="owm_news_divTableCell "  >	<p>{text key="iisnews+manage_page_last_updated"}</p></div>
+			<div class="owm_news_divTableCell "  ><p>{format_date timestamp=$post->timestamp}</p>	</div>
+
+		</div>
+
+		<div class="owm_news_divTableRow">
+			<div class="owm_news_divTableCell"><p>{text key="iisnews+manage_page_status"}</p></div>
+			<div class="owm_news_divTableCell"><p>{$status}</p></div>
+
+		</div>
+
+		<div class="owm_news_divTableRow">
+			<div class="owm_news_divTableCell owm_news_divTableCellBottomChild" style=" margin-top:0px;"><p>{text key="iisnews+manage_comment_page_actions"}</p></div>
+			<div class="owm_news_divTableCell owm_news_divTableCellBottomChild ">
+				<div >
+					<a href="{url_for for="IISNEWS_MCTRL_Save:index:[id=>`$post->id`]"}?back-to={$thisUrl}" class="ow_lbutton">{text key="base+edit"}</a>
+					{if isset($codes[$post->id])}
+					<a href="{url_for for="IISNEWS_MCTRL_Save:delete:[id=>`$post->id`,code=>`$codes[$post->id]`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='iisnews+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{else}
+					<a href="{url_for for="IISNEWS_MCTRL_Save:delete:[id=>`$post->id`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='iisnews+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{/if}
+				</div>
+			</div>
+		</div>
+		<br/>
+
+		{/foreach}
+		{else}
+
+			<div class="owm_news_center owm_news_divTableBody_220"><p>{text key='iisnews+no_entrys'}</p></div>
+
+		{/if}
+	</div>
+
+
+
+</div>
+
+<br />
+{$paging}

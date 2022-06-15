@@ -1,0 +1,67 @@
+{*
+
+/**
+ * Copyright (c) 2016, Yaser Alimardany
+ * All rights reserved.
+ */
+
+*}
+
+<div class="ow_std_margin clearfix">
+    {form name="settings"}
+        <table class="ow_table_1 ow_form" style="margin: 0">
+            <tbody>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {text key="iisblockingip+captcha_activate_label"}
+                    </td>
+                    <td class="ow_value">
+                        {input name='loginCaptcha'}
+                        {error name='loginCaptcha'}
+                    </td>
+                </tr>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {label name='tryCountCaptcha'}
+                    </td>
+                    <td class="ow_value">
+                        {input name='tryCountCaptcha'}
+                        {error name='tryCountCaptcha'}
+                    </td>
+                </tr>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {text key="iisblockingip+block_activate_label"}
+                    </td>
+                    <td class="ow_value">
+                        {input name='block'}
+                        {error name='block'}
+                    </td>
+                </tr>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {label name='tryCountBlock'}
+                    </td>
+                    <td class="ow_value">
+                        {input name='tryCountBlock'}
+                        {error name='tryCountBlock'}
+                    </td>
+                </tr>
+                <tr class="ow_alt2">
+                    <td width="1" class="ow_label">
+                        {label name='expTime'}
+                    </td>
+                    <td class="ow_value">
+                        {input name='expTime'}
+                        {error name='expTime'}
+                    </td>
+                </tr>
+                <tr class="ow_tr_last ow_center">
+                    <td colspan="2">
+                        {submit name='save'}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    {/form}
+</div>

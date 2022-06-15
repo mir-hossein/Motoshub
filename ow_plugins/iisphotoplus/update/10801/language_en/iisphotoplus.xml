@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisphotoplus" label="iisphotoplus" language_tag="en" language_label="English">
+    <key name="list_type_label_photo_friends">
+        <value>Friends Photos</value>
+    </key>
+</prefix>

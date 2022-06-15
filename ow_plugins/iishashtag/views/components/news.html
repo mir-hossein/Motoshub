@@ -1,0 +1,23 @@
+{if empty($list)}
+    <div class="ow_anno ow_stdmargin ow_center ow_ic_warning">{text key="base+empty_list"}</div>
+{else}
+    {foreach from=$list item='entry'}
+    {assign var=dto value=$entry.dto}
+    {*-- decorator data*}
+    {assign var=userId value=$dto->getAuthorId()}
+
+    {capture assign='info_string'}
+    <a href="{$entry.url}">{$dto->getTitle()}</a>
+    {/capture}
+
+    {capture assign='content'}
+    {$entry.text}{if $entry.showMore}... <a class="ow_lbutton" href="{$entry.url}">{text key='iisnews+more'}</a>{/if}
+    {/capture}
+    {assign var='id' value=$dto->getId()}
+
+    {*~~ decorator data*}
+    {decorator name='ipc' infoString=$info_string addClass="ow_stdmargin" content=$content toolbar=$entry.toolbar data=$entry}
+    {/foreach}
+    {if $paging}<center>{$paging}</center>{/if}
+{/if}
+

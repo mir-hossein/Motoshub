@@ -1,0 +1,110 @@
+/*
+Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+
+.cke_editable
+{
+	font-size: 14px;
+	line-height: 1.7;
+
+	/* Fix for missing scrollbars with RTL texts. (#10488) */
+	word-wrap: break-word;
+}
+
+body {
+    font-family:'IRANSans-web';
+}
+@font-face {
+    font-family: 'Yekan';
+    src: url('font/yekan/BYekan.eot');
+    src: url('font/yekan/BYekan.woff') format('woff');
+    src: url('font/yekan/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+	src: url('font/IRANSans/IRANSans-Bold.eot?#') format('eot'),  /* IE6–8 */
+	url('font/IRANSans/IRANSans-Bold.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+	url('font/IRANSans/IRANSans-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: bold;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+	src: url('font/IRANSans/IRANSans-UltraLight.eot?#') format('eot'),  /* IE6–8 */
+	url('font/IRANSans/IRANSans-UltraLight.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+	url('font/IRANSans/IRANSans-UltraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'IRANSans-web';
+	src: url('font/IRANSans/IRANSans-Light-Expanded.eot?#') format('eot'),  /* IE6–8 */
+	url('font/IRANSans/IRANSans-Light-Expanded.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+	url('font/IRANSans/IRANSans-Light-Expanded.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: 300;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+	src: url('font/IRANSans/IRANSANSExpanded.eot?#') format('eot'),  /* IE6–8 */
+	url('font/IRANSans/IRANSANSExpanded.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+	url('font/IRANSans/IRANSANSExpanded.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: normal;
+}
+
+blockquote
+{
+	font-style: italic;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+	box-shadow: 5px 5px 10px lightgray;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+figure
+{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}

@@ -1,0 +1,41 @@
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section' name='contentMenu'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+
+<div class="ow_automargin ow_superwide">
+    {form name='versionsForm'}
+    <table class="ow_table_1 ow_form">
+        <tr>
+            <td class="ow_label">{label name="type"}</td>
+            <td class="ow_value">{input name="type"} {error name='type'}</td>
+        </tr>
+        <tr>
+            <td class="ow_label">{label name="version_name"}</td>
+            <td class="ow_value">{input name="version_name"} {error name='version_name'}</td>
+        </tr>
+        <tr>
+            <td class="ow_label">{label name="version_code"}</td>
+            <td class="ow_value">{input name="version_code"} {error name='version_code'}</td>
+        </tr>
+        <tr>
+            <td class="ow_label">{label name="url"}</td>
+            <td class="ow_value">{input name="url"}</td>
+        </tr>
+        <tr>
+            <td class="ow_label">{label name="message"}</td>
+            <td class="ow_value">{input name="message"}</td>
+        </tr>
+        <tr>
+            <td class="ow_label">{label name="file"}</td>
+            <td class="ow_value">{input name="file"}</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="ow_submit">{submit name="saveSettings" class='ow_ic_save'}</td>
+        </tr>
+    </table>
+    {/form}
+</div>

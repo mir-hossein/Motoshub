@@ -1,0 +1,28 @@
+{*
+/**
+* @author Atena Gholamzade <xpara2x.ag@gmail.com>
+* @since 2.0
+*/
+*}
+<div class="ow_center">
+{form name='move-topic-form'}
+
+{input name='group-id'}
+
+
+<b>{error name='group-id'}</b><br /><br />
+    {input name='topic-id'}
+<div class="ow_submit">{submit name='save'}</div>
+
+{/form}
+
+</div>
+
+<script>
+    $('*[name="move-topic-form"]').submit(function( e ) {
+        owForms['move-topic-form'].bind('success', function(url){
+            location.reload();
+        });
+    });
+</script>
+

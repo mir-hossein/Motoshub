@@ -1,0 +1,17 @@
+<div class="owm_anno owm_info owm_padding">{$countInfo}</div>
+{if !$isEmpty}
+    <div>
+        <div class="owm_photo_block">
+            <div class="owm_photo_list">
+                <div class="owm_photo_list_tr clearfix" id="photo-list-cont">{$photos}</div>
+            </div>
+            {if $loadMore}
+            <div class="owm_photo_list_load_more owm_bg_color_3">
+                <a href="javascript://" id="btn-photo-load-more" class="owm_sidebar_load_more_with_text owm_preloader">{text key='base+more'}</a>
+            </div>
+            {/if}
+        </div>
+    </div>
+{else}
+    <!--<div class="ow_nocontent">{text key='base+empty_list'}</div>-->
+{/if}

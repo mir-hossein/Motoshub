@@ -1,0 +1,24 @@
+<div class="owm_sidebar_msg_block owm_notification_block">
+    <div class="owm_sidebar_msg_block_cap">
+        <h3>
+            {text key='notifications+console_item_label'}
+            <!-- by Issa Annamoradnejad
+                added button to "view all" -->
+            {if isset($viewAll) }
+            <span class="owm_notification_block_view_all_btn_wrap"><a href="{$viewAll.url}" class="owm_notification_block_view_all_btn">{$viewAll.label}</a></span>
+            {/if}
+        </h3>
+    </div>
+    <div class="owm_sidebar_msg_block_cont">
+        <ul class="owm_sidebar_msg_list" id="notifications-list">
+            {$itemsCmp}
+        </ul>
+        {if $loadMore}
+        <ul class="owm_sidebar_msg_list">
+            <li class="owm_padding owm_sidebar_msg_load_more">
+                <a href="javascript://" id="notifications-load-more" class="owm_sidebar_load_more owm_sidebar_load_more_with_text owm_preloader">{text key='base+more'}</a>
+            </li>
+        </ul>
+        {/if}
+    </div>
+</div>

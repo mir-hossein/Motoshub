@@ -1,0 +1,11 @@
+.jconfirm .jconfirm-box {
+  &.jconfirm-type-orange {
+    border-top-color: $primary_color !important;
+  }
+  .jconfirm-buttons button.btn-orange {
+    background-color: $button_color !important;
+    &:hover {
+      background-color: $button_hover_color !important;
+    }
+  }
+}

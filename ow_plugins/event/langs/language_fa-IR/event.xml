@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="event" label="Event" language_tag="fa-IR" language_label="فارسی">
+
+    <key name="accept_request">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="add_event_meta_description">
+        <value>
+            طرح یک ملاقات با کاربران {$site_name}
+        </value>
+    </key>
+    <key name="add_form_date_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_date_label">
+        <value>
+            شروع
+        </value>
+    </key>
+    <key name="add_form_desc_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_desc_label">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="add_form_empty_image_error_message">
+        <value>
+            فیلد خالی برای تصویر
+        </value>
+    </key>
+    <key name="add_form_end_date_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_end_date_label">
+        <value>
+            تاریخ و زمان اتمام
+        </value>
+    </key>
+    <key name="add_form_image_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_image_label">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="add_form_invalid_end_date_error_message">
+        <value>
+            تاریخ پایان نامعتبر است
+        </value>
+    </key>
+    <key name="add_form_location_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_location_label">
+        <value>
+            مکان
+        </value>
+    </key>
+    <key name="add_form_submit_label">
+        <value>
+            اضافه کردن
+        </value>
+    </key>
+    <key name="add_form_success_message">
+        <value>
+            رویداد اضافه شد
+        </value>
+    </key>
+    <key name="add_form_title_desc">
+        <value>
+            &amp;nbsp
+        </value>
+    </key>
+    <key name="add_form_title_label">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_label">
+        <value>
+            چه کسی می‌تواند دعوت کند
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_option_creator">
+        <value>
+            فقط سازنده رویداد
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_option_participants">
+        <value>
+            شرکت‌کنندگان
+        </value>
+    </key>
+    <key name="add_form_who_can_view_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_who_can_view_label">
+        <value>
+            چه کسی می‌تواند مشاهده کند
+        </value>
+    </key>
+    <key name="add_form_who_can_view_option_anybody">
+        <value>
+            هرکس
+        </value>
+    </key>
+    <key name="add_form_who_can_view_option_invit_only">
+        <value>
+            فقط با دعوت‌نامه
+        </value>
+    </key>
+    <key name="add_new_button_label">
+        <value>
+            افزودن رویداد جدید
+        </value>
+    </key>
+    <key name="add_new_link_label">
+        <value>
+            رویداد
+        </value>
+    </key>
+    <key name="add_page_heading">
+        <value>
+            ساخت رویداد جدید
+        </value>
+    </key>
+    <key name="add_page_title">
+        <value>
+            ساخت رویداد جدید - {$site_name}
+        </value>
+    </key>
+    <key name="all_day">
+        <value>
+            کل روز
+        </value>
+    </key>
+    <key name="attend_maybe_btn_label">
+        <value>
+            شاید
+        </value>
+    </key>
+    <key name="attend_no_btn_label">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="attend_yes_btn_label">
+        <value>
+            شرکت می‌کنم
+        </value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>
+           نظرات رویدادها
+        </value>
+    </key>
+    <key name="auth_action_label_add_event">
+        <value>
+            افزودن رویدادها
+        </value>
+    </key>
+    <key name="auth_action_label_view_event">
+        <value>
+            مشاهده رویدادها
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            رویدادها
+        </value>
+    </key>
+    <key name="avatar_user_list_bottom_link_label">
+        <value>
+            مشاهده همه ({$count} کاربر)
+        </value>
+    </key>
+    <key name="avatar_user_list_link_label_1">
+        <value>
+            بله
+        </value>
+    </key>
+    <key name="avatar_user_list_link_label_2">
+        <value>
+            شاید
+        </value>
+    </key>
+    <key name="avatar_user_list_link_label_3">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="cmp_widget_events_count">
+        <value>
+		تعداد رویدادها
+        </value>
+    </key>
+    <key name="common_list_type_invited_label">
+        <value>
+            دعوت نامه‌ها
+        </value>
+    </key>
+    <key name="common_list_type_joined_label">
+        <value>
+            رویدادهای من
+        </value>
+    </key>
+    <key name="common_list_type_latest_label">
+        <value>
+            آینده
+        </value>
+    </key>
+    <key name="common_list_type_past_label">
+        <value>
+            گذشته
+        </value>
+    </key>
+    <key name="console_notification_label">
+        <value>
+            رویداد دعوت‌نامه‌ها
+        </value>
+    </key>
+    <key name="content_events_label">
+        <value>
+            رویدادها
+        </value>
+    </key>
+    <key name="content_event_label">
+        <value>
+            رویداد
+        </value>
+    </key>
+    <key name="creator">
+        <value>
+            سازنده
+        </value>
+    </key>
+    <key name="current_status_change_label">
+        <value>
+            تغییر
+        </value>
+    </key>
+    <key name="dashboard_widget_menu_my_events_label">
+        <value>
+            ایجاد شد
+        </value>
+    </key>
+    <key name="dashboard_widget_menu_part_events_label">
+        <value>
+            عضو شد
+        </value>
+    </key>
+    <key name="delete_button_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_confirm_message">
+        <value>
+            آیا از حذف این رویداد اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_success_message">
+        <value>
+            رویداد حذف شد
+        </value>
+    </key>
+    <key name="edit_button_label">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_form_end_date_error_message">
+        <value>
+            لطفا یک رویداد پایانی تاریخ/زمان را انتخاب کنید
+        </value>
+    </key>
+    <key name="edit_form_submit_label">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_form_success_message">
+        <value>
+            رویداد ویرایش شد
+        </value>
+    </key>
+    <key name="edit_page_heading">
+        <value>
+            ویرایش رویداد
+        </value>
+    </key>
+    <key name="edit_page_title">
+        <value>
+            ویرایش رویداد – {$site_name}
+        </value>
+    </key>
+    <key name="email_notification_comment">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; در رویداد «&lt;a href="{$url}"&gt;{$title}&lt;/a&gt;» نظر داد: {$comment}
+        </value>
+    </key>
+    <key name="email_notification_comment_setting">
+        <value>
+            یک نفر بر دیوارهای رویداد پست ارسال کرد
+        </value>
+    </key>
+    <key name="email_notification_invite">
+        <value>
+            &lt;a href="{$inviterUrl}"&gt;{$inviterName}&lt;/a&gt; شما را دعوت کرده به رویداد "&lt;a href="{$eventUrl}"&gt;{$eventName}&lt;/a&gt;"
+        </value>
+    </key>
+    <key name="event_created_by_me_page_heading">
+        <value>
+            رویدادهایی که ایجاد کرده‌ام
+        </value>
+    </key>
+    <key name="event_created_by_me_page_title">
+        <value>
+            رویدادهایی که ایجاد کرده‌ام - {$site_name}
+        </value>
+    </key>
+    <key name="event_create_string">
+        <value>
+            ایجاد رویداد جدید
+        </value>
+    </key>
+    <key name="event_edited_string">
+        <value>
+            ویرایش رویداد
+        </value>
+    </key>
+    <key name="event_joined_by_me_page_heading">
+        <value>
+            رویدادهایی که شرکت می کنم
+        </value>
+    </key>
+    <key name="event_joined_by_me_page_title">
+        <value>
+            رویدادهایی که شرکت می‌کنم - {$site_name}
+        </value>
+    </key>
+    <key name="event_view_page_heading">
+        <value>
+            {$event_title} در {$site_name} روی داد
+        </value>
+    </key>
+    <key name="event_view_permission_error_message">
+        <value>
+            با عرض پوزش، شما اجازه‌ مشاهده این صفحه را ندارید
+        </value>
+    </key>
+    <key name="feed_actiovity_attend_string">
+        <value>
+            در رویداد {$user} شرکت می‌کند
+        </value>
+    </key>
+    <key name="feed_activity_comment_string">
+        <value>
+            بر رویداد {$user} نظر داد
+        </value>
+    </key>
+    <key name="feed_activity_event_string_like">
+        <value>
+            رویداد {$user} را پسندید
+        </value>
+    </key>
+    <key name="feed_activity_event_string_like_own">
+        <value>
+		رویداد را پسندید
+        </value>
+    </key>
+    <key name="feed_activity_joined">
+        <value>
+            {$user} هم‌اکنون مراجعه کرد
+        </value>
+    </key>
+    <key name="feed_activity_own_comment_string">
+        <value>
+            بر رویداد اظهارنظر کرد
+        </value>
+    </key>
+    <key name="feed_activity_users">
+        <value>
+            مجموع کاربران : &lt;span class="ow_txt_value"&gt;{$usersCount}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="feed_add_item_label">
+        <value>
+            رویداد جدید ایجاد کرد
+        </value>
+    </key>
+    <key name="feed_content_label">
+        <value>
+            رویدادها
+        </value>
+    </key>
+    <key name="feed_user_join_string">
+        <value>
+            در رویداد شرکت می‌کند
+        </value>
+    </key>
+    <key name="friends_invite_button_label">
+        <value>
+            دعوت دوستانم
+        </value>
+    </key>
+    <key name="ignore_request">
+        <value>
+            چشم‌پوشی
+        </value>
+    </key>
+    <key name="invitation_join_string_1">
+        <value>
+            {$user1} شما را به رویداد {$event} دعوت کرد
+        </value>
+    </key>
+    <key name="invitation_join_string_2">
+        <value>
+            {$user1} و {$user2} شما را به رویداد {$event} دعوت کردند
+        </value>
+    </key>
+    <key name="invitation_join_string_many">
+        <value>
+            {$user1} و {$user2} و {$otherUsers} شما را به رویداد {$event} دعوت کردند
+        </value>
+    </key>
+    <key name="invited_events_page_heading">
+        <value>
+            دعوت‌نامه‌های رویداد
+        </value>
+    </key>
+    <key name="invited_events_page_title">
+        <value>
+            دعوت‌نامه‌های رویداد - {$site_name}
+        </value>
+    </key>
+    <key name="invite_btn_label">
+        <value>
+            دعوت
+        </value>
+    </key>
+    <key name="latest_events_page_desc">
+        <value>
+            لیست رویدادهای پیش‌رو برای اعضا {$site_name}
+        </value>
+    </key>
+    <key name="latest_events_page_heading">
+        <value>
+            رویداد‌ها
+        </value>
+    </key>
+    <key name="latest_events_page_title">
+        <value>
+            رویدادها - {$site_name}
+        </value>
+    </key>
+    <key name="main_menu_item">
+        <value>
+            رویدادها
+        </value>
+    </key>
+    <key name="moderation_status_pending_approval">
+        <value>
+            در انتظار تصویب
+        </value>
+    </key>
+    <key name="my_events_widget_block_cap_label">
+        <value>
+            رویدادهای من
+        </value>
+    </key>
+    <key name="notifications_new_message">
+        <value>
+            شخصی مرا به یک رویداد دعوت می‌کند
+        </value>
+    </key>
+    <key name="notifications_section_label">
+        <value>
+            رویدادها
+        </value>
+    </key>
+    <key name="no_events_label">
+        <value>
+            موردی وجود ندارد
+        </value>
+    </key>
+    <key name="no_index_events_label">
+        <value>
+            رویدادی نیست، &lt;a href="{$url}"&gt;افزودن جدید&lt;/a&gt;
+        </value>
+    </key>
+    <key name="past_events_page_desc">
+        <value>
+            لیست رویدادهای سابق برای اعضای {$site_name}
+        </value>
+    </key>
+    <key name="past_events_page_heading">
+        <value>
+            رویدادهای سابق
+        </value>
+    </key>
+    <key name="past_events_page_title">
+        <value>
+            رویدادهای سابق - {$site_name}
+        </value>
+    </key>
+    <key name="privacy_action_view_attend_events">
+        <value>
+            مشاهده رویدادهای من
+        </value>
+    </key>
+    <key name="privacy_action_view_attend_events_description">
+        <value>
+            با تغییر این گزینه، حق دسترسی به رویدادهای شما در نمایه تغییر خواهد کرد
+        </value>
+    </key>
+    <key name="private_event_text">
+        <value>
+            پوزش می‌خواهیم، این رویداد خصوصی است
+        </value>
+    </key>
+    <key name="private_page_heading">
+        <value>
+            رویداد خصوصی
+        </value>
+    </key>
+    <key name="private_page_title">
+        <value>
+            رویداد خصوصی
+        </value>
+    </key>
+    <key name="profile_events_widget_block_cap_label">
+        <value>
+            رویدادهای پیش‌رو
+        </value>
+    </key>
+    <key name="time_field_invitation_label">
+        <value>
+            زمان
+        </value>
+    </key>
+    <key name="up_events_widget_block_cap_label">
+        <value>
+            رویدادهای پیش‌رو
+        </value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>
+            نظر دادن رویداد
+        </value>
+    </key>
+    <key name="usercredits_action_add_event">
+        <value>
+            افزودن رویداد
+        </value>
+    </key>
+    <key name="users_invite_success_message">
+        <value>
+            دعوت‌نامه به {$count} کاربر ارسال شد
+        </value>
+    </key>
+    <key name="user_list_page_desc_1">
+        <value>
+            لیست کاربران شرکت کننده در رویداد «{$eventTitle}»
+        </value>
+    </key>
+    <key name="user_list_page_desc_2">
+        <value>
+            لیست کاربران شرکت کننده احتمالی در رویداد «{$eventTitle}»
+        </value>
+    </key>
+    <key name="user_list_page_desc_3">
+        <value>
+            لیست کاربرانی که در رویداد «{$eventTitle}» شرکت نمی‌کنند
+        </value>
+    </key>
+    <key name="user_list_page_heading_1">
+        <value>
+            «{$eventTitle}» شرکت کنندگان رویداد - {$site_name}
+        </value>
+    </key>
+    <key name="user_list_page_heading_2">
+        <value>
+            رویداد «{$eventTitle}» – افرادای که ممکن است شرکت کنند - {$site_name}
+        </value>
+    </key>
+    <key name="user_list_page_heading_3">
+        <value>
+            رویداد «{$eventTitle}» – افرادی که شرکت نمی‌کنند - {$site_name}
+        </value>
+    </key>
+    <key name="user_participated_events_page_desc">
+        <value>
+            لیست رویدادهایی که {$display_name} در آن شرکت می‌کند
+        </value>
+    </key>
+    <key name="user_participated_events_page_heading">
+        <value>
+            رویدادهای {$display_name}
+        </value>
+    </key>
+    <key name="user_participated_events_page_title">
+        <value>
+            رویدادهای {$display_name} - {$site_name}
+        </value>
+    </key>
+    <key name="user_status_author_cant_leave_error">
+        <value>
+            با عرض پوزش، شما نمی‌توانید رویداد خود را ترک کنید
+        </value>
+    </key>
+    <key name="user_status_label_1">
+        <value>
+            شرکت می‌کنم
+        </value>
+    </key>
+    <key name="user_status_label_2">
+        <value>
+            احتمالا شرکت می‌کنم
+        </value>
+    </key>
+    <key name="user_status_label_3">
+        <value>
+            شرکت نمی‌کنم
+        </value>
+    </key>
+    <key name="user_status_not_changed_error">
+        <value>
+            در حال حاضر این وضعیت انتخاب شده است
+        </value>
+    </key>
+    <key name="user_status_updated">
+        <value>
+            وضعیت شما به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="view_all_label">
+        <value>
+            مشاهده همه
+        </value>
+    </key>
+    <key name="view_page_created_label">
+        <value>
+            سازنده
+        </value>
+    </key>
+    <key name="view_page_date_label">
+        <value>
+            شروع
+        </value>
+    </key>
+    <key name="view_page_desc_label">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="view_page_details_block_cap_label">
+        <value>
+            جزئیات
+        </value>
+    </key>
+    <key name="view_page_end_date_label">
+        <value>
+            پایان
+        </value>
+    </key>
+    <key name="view_page_image_block_cap_label">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="view_page_location_label">
+        <value>
+            مکان
+        </value>
+    </key>
+    <key name="view_page_users_block_cap_label">
+        <value>
+            کسانی‌که شرکت می‌کنند
+        </value>
+    </key>
+    <key name="event_sitemap">
+        <value>رویدادها</value>
+    </key>
+    <key name="seo_meta_section">
+        <value>رویدادها</value>
+    </key>
+    <key name="seo_meta_events_list_label">
+        <value>
+            صفحه فهرست رویدادها
+        </value>
+    </key>
+    <key name="meta_title_events_list">
+        <value>
+            {$event_list} رویدادها | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_events_list">
+        <value>
+            تمامی رویدادهای {$event_list} را در {$site_name} مشاهده کرده، نظرات خود را درج کرده و با دیگر کاربران گفت‌وگو کنید
+        </value>
+    </key>
+    <key name="meta_keywords_events_list">
+        <value></value>
+    </key>
+    <key name="created_events_page_title">
+        <value>
+            ایجاد شده
+        </value>
+    </key>
+    <key name="joined_events_page_title">
+        <value>
+            اضافه شده
+        </value>
+    </key>
+    <key name="seo_meta_event_view_label">
+        <value>
+            صفحه رویداد جداگانه
+        </value>
+    </key>
+    <key name="meta_title_event_view">
+        <value>{$event_title} | {$site_name}</value>
+    </key>
+    <key name="meta_desc_event_view">
+        <value>{$event_description}</value>
+    </key>
+    <key name="meta_keywords_event_view">
+        <value></value>
+    </key>
+    <key name="seo_meta_event_users_label">
+        <value>
+            صفحه شرکت‌کنندگان رویداد
+        </value>
+    </key>
+    <key name="meta_title_event_users">
+        <value>
+            همه کاربران "{$event_title}" | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_event_users">
+        <value>
+            فهرست تمامی کاربران {$site_name}، که در رویداد "{$event_title}" مشارکت می‌کنند
+        </value>
+    </key>
+    <key name="meta_keywords_event_users">
+        <value></value>
+    </key>
+	<key name="event_mobile">
+        <value>
+		رویداد‌ها
+		</value>
+    </key>	
+	<key name="back">
+        <value>
+		بازگشت
+		</value>
+    </key>
+    <key name="total_events">
+        <value>تعداد رویداد‌ها: {$total}
+        </value>
+    </key>
+    <key name="delete_image">
+        <value>
+            حذف تصویر
+        </value>
+    </key>
+</prefix>

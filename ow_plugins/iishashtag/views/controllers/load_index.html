@@ -1,0 +1,85 @@
+{if $menu}{$menu}{/if}
+
+<div class="ow_stdmargin" id="place_sections">
+    <div class="clearfix">
+        <div class="place_section top_section"></div>
+
+        <div class="clearfix" style="overflow: hidden;">
+            <div class="ow_right place_section ow_supernarrow ow_dnd_widget">
+                <!-- search CMP -->
+                {form name="form"}
+                <div class="ow_box_cap">
+                    <div class="ow_box_cap_right">
+                        <div class="ow_box_cap_body">
+                            <h3 class="ow_ic_edit">{text key="iishashtag+search_hashtag"}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ow_box">
+                    {input name='txt' }
+                    {submit name="submit"}
+                </div>
+                {/form}
+
+            </div>
+
+            <div class="ow_left place_section ow_superwide">
+                {if $no_newsfeed}
+                    <div class="ow_anno ow_stdmargin ow_center ow_ic_warning">{text key="iishashtag+plugin_requires_newsfeed"}</div>
+                {else}{if $tag}
+                    {if $isEmpty}
+                        <div class="ow_anno ow_stdmargin ow_center ow_ic_warning">{text key="base+empty_list"}</div>
+                    {else}
+                        {if $selected_tab == 'newsfeed'}
+                            {$newsfeedComponent}
+                        {/if}
+                        {if  $selected_tab == 'news'}
+                            {$newsComponent}
+                        {/if}
+                        {if  $selected_tab == 'groups'}
+                            {$groupsComponent}
+                        {/if}
+                        {if  $selected_tab == 'event'}
+                            {$eventComponent}
+                        {/if}
+                        {if  $selected_tab == 'video'}
+                            {$videoComponent}
+                        {/if}
+                        {if  $selected_tab == 'photo'}
+                            {$photoComponent}
+                        {/if}
+                        {if  $selected_tab == 'forum'}
+                            {$forumComponent}
+                        {/if}
+                        {if  $selected_tab == 'blogs'}
+                            {$blogsComponent}
+                        {/if}
+                        {if  $selected_tab == 'no_access'}
+                            {$no_access}
+                        {/if}
+                    {/if}
+                {else}
+                    <div class="ow_box_cap">
+                        <div class="ow_box_cap_right">
+                            <div class="ow_box_cap_body">
+                                <h3 class="ow_ic_edit">{text key="iishashtag+top_hashtags"}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ow_box">
+                        <div class="ow_tags_cont">
+                            {foreach from=$top_tags item='tag'}
+                            <a href="{$tag.url}" style="font-size:{$tag.size}px;line-height:{$tag.lineHeight}px;">{$tag.label}</a>
+                            {/foreach}
+                        </div>
+                        {if $isEmpty}
+                        <div class="ow_anno ow_stdmargin ow_center ow_ic_warning">{text key="base+empty_list"}</div>
+                        {/if}
+                    </div>
+                {/if}
+                {/if}
+            </div>
+        </div>
+
+    </div>
+</div>

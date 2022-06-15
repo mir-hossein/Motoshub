@@ -1,0 +1,30 @@
+{*
+
+/**
+* Copyright (c) 2018, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+{$menu}
+<div class="ow_box" style="text-align: left">
+    <a class="ow_lbutton" href="javascript://" onclick="terminateAllDevices()">{text key="iisuserlogin+terminate_all_other_devices"}</a>
+</div>
+<table class="ow_table_1">
+    <tr>
+        <th>{text key="iisuserlogin+login_details_ip_label"}</th>
+        <th>{text key="iisuserlogin+login_details_last_activity_time_label"}</th>
+        <th class="ow_desc">{text key="iisuserlogin+login_details_browser_label"}</th>
+        <th></th>
+    </tr>
+    {foreach from=$items item="item"}
+    <tr id="device_{$item.id}">
+        <td>{$item.ip}</td>
+        <td>{$item.time}</td>
+        <td class="ow_desc">{$item.browser}</td>
+        <td>{$item.actions}</td>
+    </tr>
+    {/foreach}
+</table>
+
+{if isset($paging)}{$paging}{/if}

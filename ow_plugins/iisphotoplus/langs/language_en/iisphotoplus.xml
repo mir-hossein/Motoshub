@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisphotoplus" label="iisphotoplus" language_tag="en" language_label="English">
+    <key name="photo_friends">
+        <value>
+            photo of friends
+        </value>
+    </key>
+    <key name="meta_description_photo_friends">
+        <value>
+            You can see photos of your friend here.
+        </value>
+    </key>
+    <key name="meta_title_photo_add_friends">
+        <value>
+            photos of friends
+        </value>
+    </key>
+	<key name="latest_publicphoto">
+        <value>
+             public photos
+        </value>
+    </key>
+	<key name="meta_title_photo_add_publicphoto">
+        <value>
+            public photos
+        </value>
+    </key>
+	<key name="meta_description_photo_publicphoto">
+        <value>
+             You can see public photos here.
+        </value>
+    </key>
+    <key name="meta_title_photo_latest">
+        <value>Friends photos - {$site_name}</value>
+    </key>
+    <key name="list_type_label_photo_friends">
+        <value>Friends Photos</value>
+    </key>
+    <key name="email_notifications_setting_like">
+        <value>Someone likes my photo</value>
+    </key>
+    <key name="multiple_photo_liked_notification">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; liked album: &lt;a href="{$albumUrl}"&gt;{$album}&lt;/a&gt; photos
+        </value>
+    </key>
+    <key name="photo_liked_notification">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; likes your photo
+        </value>
+    </key>
+    <key name="photo_gallery">
+        <value>Gallery</value>
+    </key>
+</prefix>

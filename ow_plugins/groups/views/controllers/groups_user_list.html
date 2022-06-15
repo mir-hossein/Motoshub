@@ -1,0 +1,40 @@
+{style}{literal}
+.ow_btn_close_search:lang(en){
+right: -2px;
+}
+
+input[type=submit]{
+font-size : 11px;
+}
+input[type=text]{
+width: 35%;border-radius: 10px; margin-bottom: 20px;
+}
+{/literal}{/style}
+
+<div class="ow_stdmargin">
+    {$groupBriefInfo}
+</div>
+
+{add_content key='groups.content.user_list.after_cap' groupId=$groupId}
+
+{foreach from=$extraComponent item=componentInfo}
+    {block_decorator name='box' type='empty' iconClass='ow_ic_user' langLabel=$componentInfo.label}{/block_decorator}
+    {${$componentInfo.name}}
+{/foreach}
+{add_content key='groups.content.user_list.bottom' groupId=$groupId}
+
+{add_content key='groups.content.user_list.after_cap' groupId=$groupId}
+{block_decorator name='box' type='empty' iconClass='ow_ic_user' langLabel='groups+group_members'}{/block_decorator}
+
+{form name="searchUserForm"}
+    <div><input type="text" name="searchValue" id="subject" placeholder="{text key='base+search_users'}" {if isset($searchValue)} value="{$searchValue}" style="margin-bottom: 0px ; padding:0 22px 0 22px" {/if} >
+    {submit name="searchUsers" value="{text key='admin+search'}"}
+    {if isset($groupUserUrl)}
+
+        <a  href="{$groupUserUrl}" class="ow_btn_close_search" style="top:-26px; position: relative;  "></a>
+    {/if}
+    </div>
+{/form}
+{if isset($listCmp)}{$listCmp} {/if}
+
+{add_content key='groups.content.user_list.bottom' groupId=$groupId}

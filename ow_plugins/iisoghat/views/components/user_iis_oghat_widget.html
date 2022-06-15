@@ -1,0 +1,78 @@
+<select id="citiesOption" onchange="changeCity('{$imageSrc1}','{$imageSrc2}','{$timeUrl}')" >
+    {foreach from=$cities item='city' name='contentMenu'}
+    <option {if $city.default}selected{/if} longitude="{$city.longitude}" latitude="{$city.latitude}">
+    {$city.name}
+    </option>
+    {/foreach}
+</select>
+<table cellspacing='0' cellpadding='0' class="table_patent">
+    <tr>
+        <td class="no-side-padding">
+            <div>
+                <div class="oghat-center">
+                        <span>
+                            {text key="iisoghat+main_menu_item"}
+                        </span>
+                </div>
+                <div>
+                    <input type='hidden' id='latitude' name='latitude'>
+                    <input id='azanday' type='hidden' name='azanday'>
+                    <input id='azanhoruphcmsmonth' type='hidden' name='azanhoruphcmsmonth'>
+                    <input type='hidden' id='longitude' name='longitude'>
+                    <input type='hidden' id='azan_ht1' name='azan_ht1'>
+                    <input type='hidden' id='azan_mt1' name='azan_mt1'>
+                    <input type='hidden' id='azan_ht2' name='azan_ht2'>
+                    <input type='hidden' id='azan_mt2' name='azan_mt2'>
+                    <input type='hidden' id='azan_ht3' name='azan_ht3'>
+                    <input type='hidden' id='azan_mt3' name='azan_mt3'>
+                    <input type='hidden' id='azan_ht4' name='azan_ht4'>
+                    <input type='hidden' id='azan_mt4' name='azan_mt4'>
+                    <input type='hidden' id='azan_ht5' name='azan_ht5'>
+                    <input type='hidden' id='azan_mt5' name='azan_mt5'>
+                </div>
+                <div class='cityholder'><span>
+                            {text key="iisoghat+Time_horizon"}
+                    </span>
+                    <b>
+                        <span id=cities></span>
+                    </b>
+                </div>
+                <div class="oghat-center">
+                    <span id=azanazan></span></div>
+                <div style='width:100%;'>
+                    <div class=MB>
+                        <img border=0 id=azan_p1 align=bottom>
+                            <span>
+                            {text key="iisoghat+Azan_am"}
+                            </span>
+                        <span id=azan_t1>&nbsp;</span></div>
+                    <div class=MB>
+                        <img border=0 width=15 height=15 id=azan_p2 align=absbottom>
+                            <span>
+                            {text key="iisoghat+Sunrise"}
+                            </span><span id=azan_t2>&nbsp;</span></div>
+                    <div class=MB>
+                        <img border=0 width=15 height=15 id=azan_p3 align=absmiddle>
+                            <span>
+                            {text key="iisoghat+Azan_pm"}
+                            </span><span id=azan_t3>&nbsp;</span>
+                    </div>
+                    <div class=MB>
+                        <img border=0 width=15 height=15 id=azan_p4 align=absmiddle>
+                            <span>
+{text key="iisoghat+Sunset"}
+                            </span><span id=azan_t4>&nbsp;</span>
+                    </div>
+                    <div class=MB>
+                        <img border=0 width=15 height=15 id=azan_p5 align=absmiddle>
+                            <span>
+                            {text key="iisoghat+azan_maghreb"}
+                            </span><span id=azan_t5>&nbsp;</span>
+                    </div>
+                    <div id='displ'>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>

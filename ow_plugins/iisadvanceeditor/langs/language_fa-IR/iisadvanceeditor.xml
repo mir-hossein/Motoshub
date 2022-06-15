@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisadvanceeditor" label="iisadvanceeditor" language_tag="fa-IR" language_label="فارسی">
+    <key name="config_page_title">
+        <value>
+            تنظیمات افزونه ویرایش‌گر متن پیشرفته
+        </value>
+    </key>
+    <key name="max_symbols_count_title">
+        <value>
+            حداکثر تعداد کاراکترها
+        </value>
+    </key>
+    <key name="max_symbols_count_error">
+        <value>
+            یک عدد بزرگتر از صفر وارد کنید
+        </value>
+    </key>
+    <key name="set_max_symbols_count">
+        <value>
+            ثبت تعداد کاراکتر مجاز
+        </value>
+    </key>
+</prefix>

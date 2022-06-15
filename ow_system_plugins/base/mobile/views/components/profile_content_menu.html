@@ -1,0 +1,11 @@
+<div class="owm_profile_nav">
+    <ul class="owm_profile_nav_list clearfix">
+        {foreach from=$actions item='action'}
+            <li>
+                <a {$action.attrs}>
+                    <span class="owm_profile_nav_txt">{$action.label}</span>
+                </a>
+            </li>
+        {/foreach}
+    </ul>
+</div>

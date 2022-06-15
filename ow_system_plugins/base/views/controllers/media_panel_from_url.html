@@ -1,0 +1,53 @@
+{script}
+{literal}
+window.tf_insert_from_url = function(){
+    window.parent.document.getElementById('{/literal}{$elid}{literal}').jhtmlareaObject.insertImage({src:$('#mp-img-url').val()});
+}
+{/literal}
+{/script}
+{style}
+{literal}
+.media_panel_fullpage {
+position: absolute;
+background: white;
+top: 0px;left: 0px;right: 0px;bottom: 0px;
+margin: 0px;
+border: 0px;
+}
+.media_panel_fullpage .ow_content_menu {
+background-color: #e5e5e5;
+border-bottom: 1px solid #ccd6de;
+}
+.media_panel_fullpage .ow_content_menu span {
+background-position: 4px 16px;
+padding: 16px 6px 6px 25px;
+}
+.media_panel_fullpage .ow_content_menu > li {
+margin: 0 4px;
+}
+.media_panel_fullpage .ow_content_menu li a {
+font-size: 1rem;
+}
+.ow_site_panel.clearfix {
+position: fixed;
+z-index: 0;
+}
+.ow_menu_fullpage + .ow_site_panel.clearfix {
+z-index: 1000;
+}
+{/literal}
+{/style}
+<div class="media_panel_fullpage">
+{$menu}
+<table class="ow_table_1 ow_form ow_automargin">
+    <tr class="ow_alt1 ow_tr_first ow_tr_last">
+        <td class="ow_label">
+            {text key='base+tf_img_url'}
+        </td>
+        <td class="ow_value">
+            <input id="mp-img-url" type="text" value="http://" />
+        </td>
+    </tr>
+</table>
+<div class="clearfix"><div class="ow_right">{decorator name='button' langLabel='base+tf_insert' extraString='onclick="tf_insert_from_url();"'}</div></div>
+</div>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisadvancesearch" label="iisadvancesearch" language_tag="fa-IR" language_label="فارسی">
+    <key name="search_title">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="no_data_found">
+        <value>
+            موردی یافت نشد
+        </value>
+    </key>
+    <key name="users">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="minimum_two_character">
+        <value>
+            لطفا عبارت مورد نظر خود را برای جستجو وارد کنید. حداقل دو حرف برای شروع جستجو لازم است
+        </value>
+    </key>
+    <key name="forum_posts_title">
+        <value>
+            موضوعات انجمن
+        </value>
+    </key>
+    <key name="forum_post_title">
+        <value>
+            عنوان:
+        </value>
+    </key>
+    <key name="forum_post_group_name">
+        <value>
+            گروه:
+        </value>
+    </key>
+    <key name="forum_post_section_name">
+        <value>
+            بخش:
+        </value>
+    </key>
+    <key name="search_users">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="mobile_main_menu_item">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="search_username_realname">
+        <value>
+            نام کاربری / نام واقعی
+        </value>
+    </key>
+    <key name="search_friends">
+        <value>
+            جستجوی دوستان
+        </value>
+    </key>
+    <key name="view_all_users">
+        <value>
+            مشاهده همه کاربران
+        </value>
+    </key>
+
+    <key name="admin_settings_heading">
+        <value>
+            تنظیمات افزونه جستجوی پیشرفته
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="admin_changed_success">
+        <value>
+            تغییرات با موفقیت ذخیره شد
+        </value>
+    </key>
+
+    <key name="news_label">
+        <value>
+            خبر
+        </value>
+    </key>
+    <key name="users_label">
+        <value>
+            کاربر
+        </value>
+    </key>
+    <key name="forum_label">
+        <value>
+            موضوع انجمن
+        </value>
+    </key>
+    <key name="hashtag_label">
+        <value>
+            هشتگ
+        </value>
+    </key>
+    <key name="blogs_label">
+        <value>
+            بلاگ
+        </value>
+    </key>
+    <key name="groups_label">
+        <value>
+            گروه
+        </value>
+    </key>
+    <key name="event_label">
+        <value>
+            رویداد
+        </value>
+    </key>
+	<key name="videos_label">
+        <value>
+            ویدیو
+        </value>
+    </key>
+	<key name="photos_label">
+        <value>
+            تصویر
+        </value>
+    </key>
+</prefix>

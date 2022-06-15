@@ -1,0 +1,39 @@
+<div class="questions-add clearfix" id="{$uniqueId}">
+    {form name="create_question_form"}
+    <div class="ow_submit_auto_click">
+        <div class="questions-add-answers">
+            {block_decorator name='tooltip' addClass='qaa-tooltip ow_small '}
+            <div class="eq-add-answers-field">
+                <div class="ow_smallmargin">
+                    <div class="qaa-label-c">
+                        <span class="qaa-label"><strong>{text key="iisquestions+question_add_answers_label"}</strong></span>
+                    </div>
+                </div>
+
+                {input name="options"}
+            </div>
+            {/block_decorator}
+        </div>
+
+        <div class="clearfix qa-submit-c ow_border">
+            <div class="ow_left questions-add-answers-btn-c">
+                {if isset($statusPrivacy)}
+                {label name='statusPrivacy'}
+                {input name='statusPrivacy'}
+                {error name='statusPrivacy'}
+                {/if}
+                {if $addOptions}
+                <div class="questions-add-answers-options" style="text-align: right;">
+                    {label name="allowAddOptions"}{input name="allowAddOptions"}
+                </div>
+                {/if}
+            </div>
+            <div class="ow_right eq-save-c">
+                <span class="ow_attachment_btn">{submit name="save"}</span>
+            </div>
+
+            <div class="ow_inprogress eq-status-preloader EQ_StatusPreloader"></div>
+        </div>
+    </div>
+    {/form}
+</div>

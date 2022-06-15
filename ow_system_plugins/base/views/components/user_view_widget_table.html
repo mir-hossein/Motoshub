@@ -1,0 +1,58 @@
+{if $ownerMode || ($adminMode && !$superAdminProfile)}
+    {style}
+        {literal}
+
+            .ow_edit_profile_link
+            {
+                position: absolute;
+                right: 0px;
+                top: 0px;
+            }
+            .changePassword,
+            .edit_profile_link{
+                margin-bottom: 10px;
+            }
+        {/literal}
+    {/style}
+    {script}
+        {literal}
+            (function(){
+                $(".user_profile_data").hover(
+                  function(){
+                    $("#edit-profile").fadeIn();
+                  },
+                  function(){
+                    $("#edit-profile").fadeOut();
+                  }
+              );
+           }());
+            $profileEditUrl=$('#edit_profile_link')[0]['href']
+            $('#edit_profile_button').attr('onclick','window.location.href = $profileEditUrl');
+       {/literal}
+    {/script}
+{/if}
+
+<div class="user_profile_data" style="position:relative">
+     {if $ownerMode || ($adminMode && !$superAdminProfile) }
+
+    <div class="ow_stdmargin">
+        <div class="ow_right edit_profile_link">
+            <a id="edit_profile_link" href="{$profileEditUrl}"></a>
+            {decorator name="button" id="edit_profile_button" langLabel='base+edit_profile_link' class='ow_ic_edit'}
+        </div>
+    </div>
+
+     {/if}
+
+    {if !empty($changePassword) }
+    <div class="ow_stdmargin change_password">
+        <div class="ow_right">{$changePassword}</div>
+    </div>
+    {/if}
+
+    {foreach  from=$sectionsHtml key='section' item='html'}
+        {$html}
+    {/foreach}
+ </div>
+
+{add_content key='socialsharing.get_sharing_buttons' title=$displayName image=$avatarUrl entityType='user' entityId=$userId }

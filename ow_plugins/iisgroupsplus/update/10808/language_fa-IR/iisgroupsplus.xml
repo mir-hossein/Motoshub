@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="email_notifications_setting_status">
+        <value>
+            مطلبی در گروه منتشر شد
+        </value>
+    </key>
+	<key name="notif_update_status_string">
+        <value>
+           &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt;  مطلب تازه‌ای  را در &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt; منتشر کرد
+        </value>
+    </key>
+</prefix>

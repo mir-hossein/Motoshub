@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="widget_files_title">
+        <value>
+           فایل گروه
+        </value>
+    </key>
+    <key name="view_all_files">
+        <value>
+            مشاهده همه
+        </value>
+    </key>
+    <key name="add_file">
+        <value>
+            افزودن فایل
+        </value>
+    </key>
+    <key name="create_field_file_name_label">
+        <value>
+            نام فایل
+        </value>
+    </key>
+    <key name="create_field_file_upload_label">
+        <value>
+            بارگذاری فایل
+		 </value>
+    </key>
+    <key name="create_submit_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+	<key name="back">
+        <value>
+            بازگشت
+        </value>
+    </key>
+	<key name="are_you_sure_delete_file">
+        <value>
+               آیا از حذف این فایل مطمئن هستید؟
+        </value>
+    </key>
+	<key name="feed_add_file_string">
+        <value>
+            فایل جدید &lt;a href="{$fileUrl}"&gt;{$fileName}&lt;/a&gt;  را در &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt; بارگذاری کرد
+        </value>
+    </key>
+		<key name="name">
+        <value>
+               نام
+        </value>
+    </key>
+	<key name="created_date">
+        <value>
+               تاریخ ایجاد
+        </value>
+    </key>
+	<key name="by">
+        <value>
+               سازنده
+        </value>
+    </key>
+    <key name="file_list_widget_empty">
+        <value>
+هیچ فایلی وجود ندارد.
+        </value>
+    </key>
+</prefix>

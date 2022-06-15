@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="birthdays" label="Birthdays" language_tag="fa-IR" language_label="فارسی">
+<key name="birthday">
+	<value>
+		تاریخ تولد
+	</value>
+</key>
+<key name="console_notification_comment">
+	<value>
+		&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; برای روز تولد شما نظر داد
+	</value>
+</key>
+<key name="feed_likes_1_label">
+	<value>
+		{$user1} تولد شما را پسندید
+	</value>
+</key>
+<key name="feed_likes_2_label">
+	<value>
+		{$user1} و {$user2} تولد را پسندیدند
+	</value>
+</key>
+<key name="feed_likes_3_label">
+	<value>
+		{$user1}، {$user2} و {$user3} تولد را پسندیدند
+	</value>
+</key>
+<key name="feed_likes_list_label">
+	<value>
+		&lt;a href="{$url}">{$count} کاربر&lt;/a&gt; تولد را پسندیدند
+	</value>
+</key>
+<key name="console_notification_like">
+	<value>
+		&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; روز تولد شما را پسندید
+	</value>
+</key>
+<key name="dashboard_widget_title">
+	<value>
+		روزهای تولد دوستان من
+	</value>
+</key>
+<key name="email_notifications_section_label">
+	<value>
+		روزهای تولد
+	</value>
+</key>
+<key name="email_notifications_setting_status_comment">
+	<value>
+		کسی برای روز تولد من نظر داده
+	</value>
+</key>
+<key name="email_notifications_setting_status_like">
+	<value>
+		کسی وضعیت من را پسندید
+	</value>
+</key>
+<key name="email_notification_comment">
+	<value>
+		{$user} در مورد روز تولد شما نظر داد
+	</value>
+</key>
+<key name="email_notification_like">
+	<value>
+		{$user} پسندید که امروز روز تولد شماست
+	</value>
+</key>
+<key name="feed_activity_birthday_string">
+	<value>
+		در مورد روز تولد {$user} نظر داد
+	</value>
+</key>
+<key name="feed_activity_birthday_string_like">
+	<value>
+		روز تولد {$user} را پسندید
+	</value>
+</key>
+<key name="feed_activity_self_birthday_string">
+	<value>
+		بر روز تولد نظر داد
+	</value>
+</key>
+<key name="feed_content_label">
+	<value>
+		روز‌های تولد
+	</value>
+</key>
+<key name="feed_item_line">
+	<value>
+	تولدت مبارک
+	</value>
+</key>
+<key name="friends_widget_title">
+	<value>
+		روزهای تولد پیش‌رو
+	</value>
+</key>
+<key name="my_widget_title">
+	<value>
+		تاریخ تولد
+	</value>
+</key>
+<key name="privacy_action_view_my_birthday">
+	<value>
+		مشاهده روز تولد من
+	</value>
+</key>
+<key name="privacy_action_view_my_birthday_description">
+	<value>
+		با تغییر این گزینه، حق دسترسی مشاهده روز تولد شما تغییر خواهد کرد
+	</value>
+</key>
+<key name="usercredits_action_birthday">
+	<value>
+		روز تولد
+	</value>
+</key>
+<key name="user_list_menu_item_birthdays">
+	<value>
+		روزهای تولد
+	</value>
+</key>
+<key name="user_list_menu_item_birthdays_this_week">
+	<value>
+		این هفته
+	</value>
+</key>
+<key name="user_list_menu_item_birthdays_today">
+	<value>
+		امروز
+	</value>
+</key>
+<key name="user_list_menu_item_birthdays_upcoming">
+	<value>
+		پیش‌رو
+	</value>
+</key>
+<key name="widget_setting_count_label">
+	<value>
+		شمارش
+	</value>
+</key>
+<key name="widget_setting_show_label">
+	<value>
+		نمایش روزهای تولد برای
+	</value>
+</key>
+<key name="widget_setting_value_this_week">
+	<value>
+		امروز و این هفته
+	</value>
+</key>
+<key name="widget_setting_value_today">
+	<value>
+		فقط امروز
+	</value>
+</key>
+<key name="widget_title">
+	<value>
+		روزهای تولد
+	</value>
+</key>
+</prefix>

@@ -1,0 +1,57 @@
+.iisnewsfeedpin_pin{
+    background: url("../images/ic_pin.svg") no-repeat;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    float: right;
+    margin-right: auto;
+    background-size: contain;
+    padding-right: 5px;
+}
+
+.iisnewsfeedpin_unpin{
+    background: url("../images/ic_delete.svg") no-repeat;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    float: right;
+    margin-right: auto;
+    background-size: contain;
+}
+
+.iisnewsfeedpin_pined_class div.ow_newsfeed_body {
+    background: #222f2c09;
+}
+.cd-stretchy-nav.edit-content ul a.remove::after, .cd-stretchy-nav.edit-content ul a.iisnewsfeedpin_add_pin::after {
+    right: 7px;
+    background-image: url(../images/white_pin.svg) !important;
+}
+
+.cd-stretchy-nav.edit-content ul a.remove::after, .cd-stretchy-nav.edit-content ul a.iisnewsfeedpin_remove_pin::after {
+    right: 7px;
+    background-image: url(../images/white_unpin.svg) !important;
+}
+
+.ow_newsfeed_context_menu .ow_context_action,
+.ow_newsfeed_context_menu .ow_context_action:hover{
+    background-color: transparent !important;
+}
+
+.ow_newsfeed_context_menu_wrap .cd-stretchy-nav.edit-content {
+    min-width: 120px;
+}
+.category_section {
+     float: left;
+}
+.category_section:lang(en) {
+    float: right;
+    margin: 0px 11px 0px 0px;
+}
+.iisnewsfeedpin_pined_class .iisnewsfeedpin_pined_icon {
+    background-image: url(../images/default_pin.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: left;
+}

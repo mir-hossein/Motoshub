@@ -1,0 +1,39 @@
+<div class="ow_lp_avatars">
+    <table class="ow_table_1 ow_form ow_stdmargin">
+        {foreach from=$fileList item='file' name='file'}
+        <tr class="ow_alt2 ow_tr_first">
+            <td style="max-width: 100px !important;">
+                <a class="fileGroupImage" href="{$file.fileUrl}" target="_blank">
+                    <img src="{$file.iconUrl}" alt="{$file.fileName|escape}" title="{$file.fileName}"/>
+                </a>
+                <a href="{$file.fileUrl}" target="_blank">{$file.truncatedFileName} </a>
+            </td>
+        </tr>
+        {foreachelse}
+        <tr class="ow_alt2 ow_tr_first">
+            <td>
+                <div class="ow_nocontent">{text key='iisgroupsplus+file_list_widget_empty'}</div>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <p>
+        {text key='iisgroupsplus+files_count'}: {$filesCount}
+    </p>
+    <ul class="ow_box_toolbar ow_remark ow_bl">
+        {if isset($showAdd) && $showAdd==true}
+        <li>
+            <a href="javascript:showUploadFileIntoGroupForm({$groupId})">
+                {text key="iisgroupsplus+add_file"}
+            </a>
+        </li>
+        {/if}
+        {if isset($view_all_files)}
+        <li>
+            <a href="{$view_all_files}">
+                {text key="iisgroupsplus+view_all_files"}
+            </a>
+        </li>
+        {/if}
+    </ul>
+</div>

@@ -1,0 +1,31 @@
+{*
+
+/**
+ * Copyright (c) 2016, Yaser Alimardany
+ * All rights reserved.
+ */
+
+*}
+
+<h1 class="ow_stdmargin">
+    {$tableName}
+</h1>
+
+<a href="{$returnToSetting}">
+    {text key="iisdatabackup+returnToSetting"}
+</a>
+
+<table class="ow_table_1 ow_form" style="font-size: 11px; margin: 10px; text-align: center">
+    <tr>
+        {foreach from=$tableColumns item='tableColumn'}
+        <td><span>{$tableColumn.COLUMN_NAME}</span></td>
+        {/foreach}
+    </tr>
+    {foreach from=$tableData item='rows'}
+    <tr>
+        {foreach from=$rows item='row' key=label}
+        <td><span>{$row}</span></td>
+        {/foreach}
+    </tr>
+    {/foreach}
+</table>

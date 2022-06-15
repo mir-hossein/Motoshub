@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisjalali" label="iisjalali" language_tag="en" language_label="English">
+    <key name="date_time_month_short_fa_12">
+        <value>
+            Esfand
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_11">
+        <value>
+            Bahman
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_1">
+        <value>
+            Farvardin
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_2">
+        <value>
+            Ordibehesht
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_3">
+        <value>
+            Khordad
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_4">
+        <value>
+            Tir
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_5">
+        <value>
+            Mordad
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_6">
+        <value>
+            Shahrivar
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_7">
+        <value>
+            Mehr
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_8">
+        <value>
+            Aban
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_9">
+        <value>
+            Azar
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_10">
+        <value>
+            Dey
+        </value>
+    </key>
+	<key name="date_time_month_short_fa_hour">
+        <value>
+            Hour
+        </value>
+    </key>
+    <key name="date_locale_jalali_format">
+        <value>Jalali</value>
+    </key>
+    <key name="date_locale_gregorian_format">
+        <value>Gregorian</value>
+    </key>
+    <key name="dateLocale">
+        <value>Date format</value>
+    </key>
+    <key name="general_settings">
+        <value>Main Settings </value>
+    </key>
+    <key name="settings_updated">
+        <value> Settings updated </value>
+    </key>
+    <key name="admin_settings_title">
+        <value> Jalali Calender Plugin Settings </value>
+    </key>
+</prefix>

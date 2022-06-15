@@ -1,0 +1,118 @@
+{$menu}
+{if count($list) > 0}
+
+
+<div class="owm_table_2_comment owm_divTable_comment " align="center">
+	<div class="owm_divTableBody_comment ">
+		<div class="owm_divTableRow_comment">
+			<div class="owm_divTableCell_comment owm_divTableCellTopChild setContentCenter"><p>{text key="blogs+comment_manage_my_blog"}</p></div>
+			<div class="owm_divTableCell_comment owm_divTableCellTopChild setContentCenter"><p>	{text key="blogs+date_manage_my_blog"}</p></div>
+			<div class="owm_divTableCell_comment owm_divTableCellTopChild setContentCenter" style=" margin-top:0px;"><p>{text key="blogs+manage_comment_page_actions"}</p></div>
+		</div>
+
+		{foreach from=$list item='item'}
+
+
+		<div class="owm_divTableRow_comment">
+			<div class="owm_divTableCell_comment owm_handle_large_comment owm_divTableCellBottomChild" >
+				<div class="owm_div_center owm_ipc_content">
+				{assign var='userId' value=$item.userId}
+				{capture assign='authorLink'}{user_link name=$displaynameList[$userId] username=$usernameList[$userId]}{/capture}
+				{assign var=id value=$item.entityId}
+				{capture assign='info_string'}{$authorLink} {text key="blogs+on"} <a href="{$item.url}">{$postList[$id]->title}</a>{/capture}
+				{decorator name='ipc'
+				infoString=$info_string
+				content=$item.message
+				imageSrc=$avatarUrlList[$userId]
+				imageTitle=$usernameList[$userId]
+				toolbar=''
+				displayName=$displaynameList[$userId]}
+				</div>
+
+			</div>
+			<div class="owm_divTableCell_comment setContentCenter owm_divTableCellBottomChild"><p>{format_date timestamp=$item.createStamp}</p>
+			</div>
+			<div class="owm_divTableCell_comment setContentCenter owm_divTableCellBottomChild">
+				<div >
+						<span class="management-controls">
+							<a href="{url_for for="BLOGS_CTRL_ManagementComment:deleteComment:[id=>`$item.id`]"}?back-to={$thisUrl}" class="ow_lbutton ow_red">{text key='blogs+blog_manage_delete'}</a>
+						</span>
+				</div>
+			</div>
+
+		</div>
+		{/foreach}
+	</div>
+
+	<div class="owm_divTableBody_comment_220">
+		{foreach from=$list item='item'}
+		<div class="owm_divTableRow_comment">
+			<div class="owm_divTableCell_comment owm_divTableCellTopChild setContentCenter"><p>{text key="blogs+comment_manage_my_blog"}</p></div>
+			<div class="owm_divTableCell_comment owm_divTableCellTopChild owm_handle_large_comment" style="margin-top: -1px;">
+
+				<div  class="owm_div_center owm_ipc_content">
+					{assign var='userId' value=$item.userId}
+					{capture assign='authorLink'}{user_link name=$displaynameList[$userId] username=$usernameList[$userId]}{/capture}
+					{assign var=id value=$item.entityId}
+					{capture assign='info_string'}{$authorLink} {text key="blogs+on"} <a href="{$item.url}">{$postList[$id]->title}</a>{/capture}
+					{decorator name='ipc'
+					infoString=$info_string
+					content=$item.message
+					imageSrc=$avatarUrlList[$userId]
+					imageTitle=$usernameList[$userId]
+					toolbar=''
+					displayName=$displaynameList[$userId]}
+				</div>
+
+
+		</div>
+		</div>
+
+
+
+
+		<div class="owm_divTableRow_comment">
+			<div class="owm_divTableCell_comment setContentCenter " >
+
+				<p>{text key="blogs+date_manage_my_blog"}</p></div>
+
+			<div class="owm_divTableCell_comment setContentCenter"  ><p>{format_date timestamp=$item.createStamp}</p>
+			</div>
+
+
+		</div>
+
+
+
+			<div class="owm_divTableRow_comment" >
+				<div class="owm_divTableCell_comment setContentCenter owm_divTableCellBottomChild" >
+
+					<p>{text key="blogs+manage_comment_page_actions"}</p>
+				</div>
+
+
+				<div class="owm_divTableCell_comment setContentCenter owm_divTableCellBottomChild" >
+					<div >
+						<span class="management-controls">
+							<a href="{url_for for="BLOGS_CTRL_ManagementComment:deleteComment:[id=>`$item.id`]"}?back-to={$thisUrl}" class="ow_lbutton ow_red">{text key='blogs+blog_manage_delete'}</a>
+						</span>
+					</div>
+				</div>
+
+			</div>
+		{/foreach}
+	</div>
+
+
+
+
+
+
+
+</div>
+{else}
+		<div class="owm_center">
+			<p>{text key='base+comment_no_comments'}</p>
+		</div>
+{/if}		
+{$paging}

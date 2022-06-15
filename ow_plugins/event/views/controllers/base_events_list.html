@@ -1,0 +1,36 @@
+
+<div class="clearfix">{add_content key='event.add_content.list.top' listType=$listType}</div>
+
+{if empty($noButton)}<div class="ow_right ow_add_new_group">{decorator name='button' class='ow_ic_add add_event_button' langLabel='event+add_new_button_label'}</div>{/if}
+{if !empty($contentMenu)}{$contentMenu}{/if}
+
+{add_content key='event.content.list.after_menu' listType=$listType}
+
+<div class="ow_event_list clearfix">
+    <div class="ow_automargin ow_superwide">
+        {if isset($filterForm)}
+            {form name="EventFilterForm"}
+                {foreach from=$filterFormElementsKey item='elementKey'}
+                    <tr>
+                        <td><b>{label name="$elementKey"}</b></td>
+                        <td>
+                            {input name="$elementKey"}
+                        </td>
+                    </tr>
+                {/foreach}
+                <td> {decorator name='button' iconClass="ow_ic_lens" id="searchFilter" onclick="searchEvent('{$url}');" langLabel='iiseventplus+search_btn_label'}</td>
+            {/form}
+        {/if}
+      {if !empty($no_events) }
+        <div class="ow_nocontent">{text key="event+no_events_label"}</div>
+      {else}
+          {foreach from=$events key='key' item='event'}
+                <a href="{$event.eventUrl}">{decorator name='ipc' addClass='ow_smallmargin ow_event_list_view' data=$event infoString="`$event.title`"}</a>
+          {/foreach}
+          <br />
+          {$paging}
+      {/if}
+    </div>
+</div>
+
+<div class="clearfix">{add_content key='event.add_content.list.bottom' listType=$listType}</div>

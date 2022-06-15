@@ -1,0 +1,35 @@
+{capture assign='nocontent'}
+    <div class="ow_nocontent">{text key='photo+no_photo'}</div>
+{/capture}
+<div>
+    <div class="owm_photo_block">
+        {if !empty($authError)}
+            <div class="owm_padding">
+                <div class="owm_info owm_anno">{$authError}</div>
+            </div>
+        {else}
+            <div class="clearfix">
+                {if $isUserAuthenticated}
+                    {if !empty($uploadUrl)}
+                        <a href="{$uploadUrl}" class="owm_add_photo"></a>
+                    {elseif !empty($id)}
+                        <a href="javascript://" class="owm_add_photo" id="{$id}"></a>
+                    {/if}
+                {/if}
+                {$menu}
+            </div>
+            {if !empty($photos)}
+                <div class="owm_photo_list">
+                    <div class="owm_photo_list_tr clearfix" id="photo-list-cont">{$photos}</div>
+                </div>
+                {if $loadMore}
+                <li class="owm_padding owm_sidebar_msg_load_more">
+                    <a href="javascript://" id="btn-photo-load-more" class="owm_sidebar_load_more owm_sidebar_load_more_with_text owm_preloader">{text key='base+more'}</a>
+                </li>
+                {/if}
+            {else}
+                {$nocontent}
+            {/if}
+        {/if}
+    </div>
+</div>

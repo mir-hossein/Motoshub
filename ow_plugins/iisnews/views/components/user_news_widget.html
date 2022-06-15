@@ -1,0 +1,11 @@
+{if $list}
+    {foreach name='entrys' from=$list item="item"}
+        {assign var=id value=$item.dto->id}
+        {capture assign='info'}
+                {$item.dto->getEntry()|truncate:170}
+        {/capture}
+        {decorator name="ic" titleHref=$item.titleHref title=$item.dto->title|strip_tags info=$info toolbar=$tb.$id first = $smarty.foreach.entrys.first last = $smarty.foreach.entrys.last}
+    {/foreach}
+{else}
+    {text key='base+empty_list'}
+{/if}

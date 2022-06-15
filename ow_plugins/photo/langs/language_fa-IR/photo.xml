@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="photo" label="Photo" language_tag="fa-IR" language_label="فارسی">
+    <key name="accepted_filesize">
+        <value>
+            بیشینه اندازه فایل
+        </value>
+    </key>
+    <key name="accepted_filesize_desc">
+        <value>
+            بیشینه اندازه قابل قبول برای بارگذاری تصویر. کمینه مقدار قابل قبول &lt;b&gt;&lt;i&gt;0.5&lt;/i&gt;&lt;/b&gt;
+            مگابایت.
+        </value>
+    </key>
+    <key name="activity_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; بارگذاری کرده &lt;a href="{$url}"&gt;تصویر جدید&lt;/a&gt;.
+        </value>
+    </key>
+    <key name="activity_string_multiple">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; افزوده {$count} تصاویر را به &lt;a href="{$albumUrl}"&gt;{$albumName}&lt;/a&gt;
+            آلبوم
+        </value>
+    </key>
+    <key name="add_description">
+        <value>
+            افزودن توضیحات
+        </value>
+    </key>
+    <key name="add_new">
+        <value>
+            افزودن جدید
+        </value>
+    </key>
+    <key name="add_photos">
+        <value>
+            مرحله بعد: افزودن تصویر
+        </value>
+    </key>
+    <key name="add_tags">
+        <value>
+            افزودن برچسب
+        </value>
+    </key>
+    <key name="admin_config">
+        <value>
+            تنظیمات افزونه تصویر
+        </value>
+    </key>
+    <key name="admin_menu_general">
+        <value>
+            عمومی
+        </value>
+    </key>
+    <key name="admin_menu_view">
+        <value>
+            تنظیمات نمایش
+        </value>
+    </key>
+    <key name="advanced_upload">
+        <value>
+            بارگذاری پیشرفته
+        </value>
+    </key>
+    <key name="advanced_upload_add_more">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="advanced_upload_browse">
+        <value>
+            افزودن تصاویر
+        </value>
+    </key>
+    <key name="advanced_upload_complete">
+        <value>
+            کامل شد
+        </value>
+    </key>
+    <key name="advanced_upload_confirm">
+        <value>
+            با بارگذاری تصاویر ادامه دهید؟
+        </value>
+    </key>
+    <key name="advanced_upload_desc">
+        <value>
+            فعال‌سازی بارگذار پیشرفته نرم‌افزار فلش تا به کاربران اجازه داده شود تعداد اسناد و امکاناتی مانند تغییر
+            اندازه، و چرخاندن تصاویر را قبل از بارگذاری انتخاب کنند.
+        </value>
+    </key>
+    <key name="advanced_upload_processing">
+        <value>
+            در حال پردازش
+        </value>
+    </key>
+    <key name="advanced_upload_upload">
+        <value>
+            بارگذاری
+        </value>
+    </key>
+    <key name="advanced_upload_uploading">
+        <value>
+            در حال بارگذاری
+        </value>
+    </key>
+    <key name="advanced_upload_yes">
+        <value>
+            بله
+        </value>
+    </key>
+    <key name="album">
+        <value>
+            آلبوم
+        </value>
+    </key>
+    <key name="albums_by">
+        <value>
+            آلبوم‌های
+        </value>
+    </key>
+    <key name="album_by">
+        <value>
+            آلبوم‌های
+        </value>
+    </key>
+    <key name="album_deleted">
+        <value>
+            آلبوم حذف شد
+        </value>
+    </key>
+    <key name="album_delete_not_allowed">
+        <value>
+            شما مجاز به حذف آلبوم‌های تصویر نیستید
+        </value>
+    </key>
+    <key name="album_desc">
+        <value>
+            توضیحات
+        </value>
+    </key>
+    <key name="album_my_photos">
+        <value>
+            تصاویر من
+        </value>
+    </key>
+    <key name="album_name">
+        <value>
+            نام آلبوم
+        </value>
+    </key>
+    <key name="album_quota">
+        <value>
+            بیشینه تعداد تصویر در هر آلبوم
+        </value>
+    </key>
+    <key name="album_quota_desc">
+        <value>
+            نگه داشتن این تعداد به اندازه معقول بزرگ
+        </value>
+    </key>
+    <key name="album_quota_exceeded">
+        <value>
+            شما بیش از حد مجاز {$limit} تصویر در آلبوم دارید
+        </value>
+    </key>
+    <key name="album_updated">
+        <value>
+            به‌روزرسانی
+        </value>
+    </key>
+    <key name="approve_photo">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            آیا اطمینان دارید؟
+        </value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>
+            نظر تصویر
+        </value>
+    </key>
+    <key name="auth_action_label_delete_comment_by_content_owner">
+        <value>
+            مالک محتوا می‌تواند نظرات را حذف کند
+        </value>
+    </key>
+    <key name="auth_action_label_upload">
+        <value>
+            بارگذاری تصویر
+        </value>
+    </key>
+    <key name="auth_action_label_view">
+        <value>
+            مشاهده تصویر
+        </value>
+    </key>
+    <key name="auth_edit_permissions">
+        <value>
+            شما اجازه دسترسی برای ویرایش تصویر را ندارید
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="auth_upload_permissions">
+        <value>
+            شما مجاز به بارگذاری تصویر نیستید
+        </value>
+    </key>
+    <key name="auth_view_permissions">
+        <value>
+            شما اجازه دسترسی لازم برای مشاهده این مطلب را ندارید
+        </value>
+    </key>
+    <key name="btn_edit">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="btn_upload">
+        <value>
+            بارگذاری
+        </value>
+    </key>
+    <key name="check_all">
+        <value>
+            علامت‌گذاری همه
+        </value>
+    </key>
+    <key name="choose_album">
+        <value>
+            انتخاب آلبوم
+        </value>
+    </key>
+    <key name="choose_existing_or_create">
+        <value>
+            انتخاب آلبوم موجود یا ایجاد آلبوم جدید
+        </value>
+    </key>
+    <key name="close_alert">
+        <value>
+            اگر پنجره را ببندید تمام داده‌ها از بین خواهند رفت. آیا مایل به ادامه عملیات هستید؟
+        </value>
+    </key>
+    <key name="cmp_widget_photo_albums_count">
+        <value>
+            تعداد آلبوم‌های تصاویر
+        </value>
+    </key>
+    <key name="cmp_widget_photo_albums_show_titles">
+        <value>
+            نمایش عنوان‌های آلبوم تصویر
+        </value>
+    </key>
+    <key name="cmp_widget_photo_count">
+        <value>
+            تعداد تصاویر برای نمایش
+        </value>
+    </key>
+    <key name="comments_count">
+        <value>
+            نظرات
+        </value>
+    </key>
+    <key name="comment_activity_string">
+        <value>
+            &lt;a href="{$commentorUrl}"&gt;{$commentor}&lt;/a&gt; نظری گذاشته در &lt;a href="{$ownerUrl}"&gt;{$owner}&lt;/a&gt;
+            &lt;a href="{$url}"&gt;تصویر&lt;/a&gt;
+        </value>
+    </key>
+    <key name="comment_count">
+        <value>
+            نظرات:
+        </value>
+    </key>
+    <key name="confirm_delete">
+        <value>
+            آیا از حذف این تصویر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete_album">
+        <value>
+            آیا از حذف این آلبوم تصویر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete_photos">
+        <value>
+            آیا از حذف تمام تصاویر کاربران اطمینان دارید؟
+        </value>
+    </key>
+    <key name="content_add_string">
+        <value>
+            افزودن تصویر جدید
+        </value>
+    </key>
+    <key name="content_edited_string">
+        <value>
+            ویرایش تصاویر خود
+        </value>
+    </key>
+    <key name="content_group_label">
+        <value>
+            تصاویر
+        </value>
+    </key>
+    <key name="content_photo_label">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="cover_original">
+        <value>
+            پوشش اصلی
+        </value>
+    </key>
+    <key name="cover_preview">
+        <value>
+            پیش نمایش پوشش
+        </value>
+    </key>
+    <key name="create_album">
+        <value>
+            ساختن آلبوم
+        </value>
+    </key>
+    <key name="create_new_album">
+        <value>
+             ساختن آلبوم جدید
+        </value>
+    </key>
+    <key name="crop_photo_title">
+        <value>
+            بریدن پوشش آلبوم
+        </value>
+    </key>
+    <key name="delete_album">
+        <value>
+            حذف آلبوم
+        </value>
+    </key>
+    <key name="delete_content">
+        <value>
+            حذف مطالب و افزونه
+        </value>
+    </key>
+    <key name="delete_content_desc">
+        <value>
+            قبل از حذف افزونه تصویر، باید تمامی تصاویر کاربران حذف گردد. این کار اندکی زمان‌بر است، به همین دلیل در این زمان سایت
+            به حالت تعمیرات و نگهداری می‌رود.
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="delete_fullsize_confirm">
+        <value>
+            آیا از حذف تصاویر با اندازه کامل اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_fullsize_photos">
+        <value>
+            تصاویر اندازه کامل حذف شد ({$count})
+        </value>
+    </key>
+    <key name="delete_photo">
+        <value>حذف</value>
+    </key>
+    <key name="delete_selected">
+        <value>حذف انتخاب شده‌ها</value>
+    </key>
+    <key name="describe_photo">
+        <value>شرح این تصویر</value>
+    </key>
+    <key name="describe_photos">
+        <value>تصاویرتان را توصیف کنید</value>
+    </key>
+    <key name="description">
+        <value>توضیحات</value>
+    </key>
+    <key name="description_desc">
+        <value>افزودن توضیحات کوتاه در مورد این تصاویر</value>
+    </key>
+    <key name="dnd_not_support">
+        <value>برای انتخاب تصاویر کلیک کنید</value>
+    </key>
+    <key name="dnd_support">
+        <value>برای انتخاب تصویر کلیک کنید و یا فایل تصویر را در اینجا رها کنید</value>
+    </key>
+    <key name="done">
+        <value>انجام شد</value>
+    </key>
+    <key name="download_accept_label">
+        <value>اجازه به کاربران برای بارگیری تصاویر</value>
+    </key>
+    <key name="download_photo">
+        <value>دریافت</value>
+    </key>
+    <key name="drop_here">
+        <value>فایل را اینجا رها کنید</value>
+    </key>
+    <key name="edit_album">
+        <value>ویرایش آلبوم</value>
+    </key>
+    <key name="edit_cover_label">
+        <value>ویرایش پوشش</value>
+    </key>
+    <key name="effects">
+        <value>جلوه‌ها</value>
+    </key>
+    <key name="effect_fade">
+        <value>
+            محو شدن
+        </value>
+    </key>
+    <key name="effect_slide">
+        <value>اسلاید</value>
+    </key>
+    <key name="email_notifications_comment">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; بر روی &lt;a href="{$photoUrl}"&gt;تصویر&lt;/a&gt; شما نظر داد: {$comment}
+        </value>
+    </key>
+    <key name="email_notifications_rate">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به &lt;a href="{$photoUrl}"&gt;تصویر&lt;/a&gt; شما امتیاز داده‌است
+        </value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>تصویر</value>
+    </key>
+    <key name="email_notifications_setting_comment">
+        <value>کسی بر روی تصویر من نظر داد</value>
+    </key>
+    <key name="email_notifications_setting_rate">
+        <value>کسی به تصویر من امتیاز داد</value>
+    </key>
+    <key name="enable_advanced_upload">
+        <value>فعال‌سازی بارگذاری پیشرفته</value>
+    </key>
+    <key name="error_cant_write">
+        <value>ارسال فایل ناموفق بود</value>
+    </key>
+    <key name="error_extension">
+        <value>یک گسترش PHP بارگذاری سند را متوقف کرد. PHP هیچ راهی را ارائه نداده تا مشخص شود کدام گسترش سبب توقف
+            بارگذاری سند شده است؛ فهرست گسترش‌های بارگذاری شده با phpinfo() ممکن است کمک کننده باشد.
+        </value>
+    </key>
+    <key name="error_form_size">
+        <value>اندازه سند بزرگتر از اندازه مجاز است</value>
+    </key>
+    <key name="error_ini_size">
+        <value>اندازه بارگذاری سند در سرور را بالاتر ببرید</value>
+    </key>
+    <key name="error_no_file">
+        <value>فایلی بارگذاری نشده است.</value>
+    </key>
+    <key name="error_no_tmp_dir">
+        <value>پوشه موقت گم شده است.</value>
+    </key>
+    <key name="error_partial">
+        <value>تنها بخشی از فایل بارگذاری شده است</value>
+    </key>
+    <key name="feed_activity_owner_photo_like">
+        <value>تصویر را پسندید</value>
+    </key>
+    <key name="feed_activity_owner_photo_string">
+        <value>روی تصویر نظر داد.</value>
+    </key>
+    <key name="feed_activity_photo_string">
+        <value>روی این تصویر نظر داد</value>
+    </key>
+    <key name="feed_activity_photo_string_like">
+        <value>این تصویر را پسندید</value>
+    </key>
+    <key name="feed_content_label">
+        <value>تصویر</value>
+    </key>
+    <key name="feed_goto_album_label">
+        <value></value>
+    </key>
+    <key name="feed_more_items">
+        <value>و {$moreCount} بیشتر</value>
+    </key>
+    <key name="feed_move_photo_descriptions">
+        <value>&lt;a href="{$albumUrl}"&gt; {$number}&lt;/a&gt; تصاویر جدید بارگذاری کرد</value>
+    </key>
+    <key name="feed_multiple_descriptions">
+        <value>&lt;span dir="auto" &gt; {$number} تصویر جدید به آلبوم &lt;a href="{$albumUrl}"&gt;{$albumName}&lt;/a&gt;
+            بارگذاری کرد &lt;/span&gt;</value>
+    </key>
+    <key name="feed_single_description">
+        <value>&lt;span dir="auto" &gt; {$number} تصویر جدید به آلبوم &lt;a href="{$albumUrl}"&gt;{$albumName}&lt;/a&gt;
+            بارگذاری کرد &lt;/span&gt;</value>
+    </key>
+    <key name="file_size_validation_error">
+        <value>مقدار اشتباه است یا از حد مجاز سرور بیشتر است</value>
+    </key>
+    <key name="flags">
+        <value>تصویر</value>
+    </key>
+    <key name="fullsize_resolution">
+        <value>محدودیت اندازه کامل</value>
+    </key>
+    <key name="fullsize_resolution_desc">
+        <value>تمام تصاویر با اندازه‌های بزرگ‌تر از (X یا Y) با این محدودیت‌های اندازه برای ذخیره تغییر اندازه پیدا
+            خواهند کرد.
+        </value>
+    </key>
+    <key name="height_validation_error">
+        <value>ارتفاع باید یک عدد صحیح بین {$min} و {$max} باشد</value>
+    </key>
+    <key name="main_size">
+        <value>اندازه تصویر اصلی</value>
+    </key>
+    <key name="main_size_desc">
+        <value>اندازه تصویر برای نمایش در صفحه</value>
+    </key>
+    <key name="mark_featured">
+        <value>انتخاب به‌عنوان ویژه</value>
+    </key>
+    <key name="menu_albums">
+        <value>آلبوم‌ها</value>
+    </key>
+    <key name="menu_explore">
+        <value>جستجو</value>
+    </key>
+    <key name="menu_featured">
+        <value>ویژه</value>
+    </key>
+    <key name="menu_latest">
+        <value>آخرین</value>
+    </key>
+    <key name="menu_most_discussed">
+        <value>بیشتر بحث شده</value>
+    </key>
+    <key name="menu_my_photos">
+        <value>تصاویر من</value>
+    </key>
+    <key name="menu_photos">
+        <value>تصاویر</value>
+    </key>
+    <key name="menu_tagged">
+        <value>مرور بر اساس برچسب‌ها</value>
+    </key>
+    <key name="menu_toprated">
+        <value>رتبه‌های برتر</value>
+    </key>
+    <key name="meta_description_photo_featured">
+        <value>تصاویر ویژه به وسیله کاربران {$site_name} بارگذاری شدند</value>
+    </key>
+    <key name="meta_description_photo_latest">
+        <value>
+            تصاویر تازه بارگذاری شده توسط کاربران {$site_name}.
+        </value>
+    </key>
+    <key name="meta_description_photo_most_discussed">
+        <value>تصاویری بارگذاری شده توسط اعضای {$site_name} که بیشترین بحث را داشته‌اند.</value>
+    </key>
+    <key name="meta_description_photo_tagged">
+        <value>مرور تصویر با برچسب: {$topTags}، و بقیه</value>
+    </key>
+    <key name="meta_description_photo_tagged_as">
+        <value>نمایش برچسب‌های تصویر به صورت {$tag}.</value>
+    </key>
+    <key name="meta_description_photo_toprated">
+        <value>تصاویر بارگذاری شده به وسیله کاربران {$site_name} با بالاترین امتیازدهی.</value>
+    </key>
+    <key name="meta_description_photo_upload">
+        <value>تصاویر جدید در {$site_name} بارگذاری نمایید.</value>
+    </key>
+    <key name="meta_description_photo_useralbum">
+        <value>
+            {$number} تصویر توسط {$displayName}.
+        </value>
+    </key>
+    <key name="meta_description_photo_useralbums">
+        <value>آلبوم تصاویر توسط {$displayName} - {$albums} و دیگران.</value>
+    </key>
+    <key name="meta_description_photo_view">
+        <value>{$title} -تگ های تصویر در {$tags}.</value>
+    </key>
+    <key name="meta_title_photo_featured">
+        <value>تصاویر ویژه- {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_latest">
+        <value>آخرین تصاویر - {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_most_discussed">
+        <value>تصاویر بیشتر بحث شده - {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_tagged">
+        <value>مرور تصاویر با برچسب - {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_tagged_as">
+        <value>{$tag} تصاویر - {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_toprated">
+        <value>تصاویر با بالاترین رتبه - {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_upload">
+        <value>بارگذاری تصویر - {$site_name}</value>
+    </key>
+    <key name="meta_title_photo_useralbum">
+        <value>
+            {$albumName} - آلبوم تصاویر {$displayName}
+        </value>
+    </key>
+    <key name="meta_title_photo_useralbums">
+        <value>
+            آلبوم تصاویر {$displayName}
+        </value>
+    </key>
+    <key name="meta_title_photo_view">
+        <value>{$title} - تصویر در {$site_name}</value>
+    </key>
+    <key name="mobile_choose_photo">
+        <value>انتخاب تصویر</value>
+    </key>
+    <key name="mobile_photo">
+        <value>تصویرها</value>
+    </key>
+    <key name="mobile_replace_photo">
+        <value>جایگزینی تصویر</value>
+    </key>
+    <key name="move_to_album">
+        <value>جابجایی به آلبوم</value>
+    </key>
+    <key name="move_to_new_album">
+        <value>جابجایی تصاویر به آلبوم جدید</value>
+    </key>
+    <key name="my_albums">
+        <value>آلبوم‌های من</value>
+    </key>
+    <key name="newsfeed_album">
+        <value>تصاویر تازه‌ها</value>
+    </key>
+    <key name="newsfeed_album_error_msg">
+        <value>شما نمی‌توانید آلبومی با این نام بسازید.</value>
+    </key>
+    <key name="next">
+        <value>تصویر بعدی</value>
+    </key>
+    <key name="not_all_photos_uploaded">
+        <value>برخی از تصاویر به‌دلیل اندازه بیش از حد یا فرمت نادرست بارگذاری نشدند.</value>
+    </key>
+    <key name="no_album_found">
+        <value>آلبومی موجود نیست.</value>
+    </key>
+    <key name="no_items">
+        <value>موردی موجود نیست</value>
+    </key>
+    <key name="no_photo">
+        <value>تصویری موجود نیست</value>
+    </key>
+    <key name="no_photo_found">
+        <value>هیچ تصویری پیدا نشد</value>
+    </key>
+    <key name="no_photo_selected">
+        <value>تصویری انتخاب نشده</value>
+    </key>
+    <key name="no_photo_uploaded">
+        <value>هیچ تصویری به‌دلیل اندازه بیش از حد یا فرمت نادرست بارگذاری نشد.</value>
+    </key>
+    <key name="of">
+        <value>از</value>
+    </key>
+    <key name="page_title_browse_photos">
+        <value>مرور تصاویر</value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>حذف افزونه تصاویر</value>
+    </key>
+    <key name="page_title_user_albums">
+        <value>آلبوم تصاویر {$user}</value>
+    </key>
+    <key name="pending_approval">
+        <value>&lt;div class="ow_remark ow_smallmargin"&gt;در انتظار تایید&lt;/div&gt;</value>
+    </key>
+    <key name="permission_exceeded">
+        <value>شما فقط اعتبار کافی برای بارگذاری {$uploaded} از {$count} تصاویر را دارید. برای بارگذاری بقیه، اعتبار
+            بیشتری خریداری کنید.
+        </value>
+    </key>
+    <key name="per_page">
+        <value>تصاویر در هر صفحه</value>
+    </key>
+    <key name="per_page_desc">
+        <value>مرور فهرست تصاویر و آلبوم‌ها</value>
+    </key>
+    <key name="photo">
+        <value>تصاویر</value>
+    </key>
+    <key name="search_btn_label">
+        <value>جستجو</value>
+    </key>
+    <key name="photos_deleted">
+        <value>تصاویر حذف شدند</value>
+    </key>
+    <key name="photos_in_album">
+        <value>تعداد تصویر: {$total}</value>
+    </key>
+    <key name="photos_uploaded">
+        <value>{$count} تصویر بارگذاری شد</value>
+    </key>
+    <key name="photos_uploaded_pending_approval">
+        <value>{$count} تصویر مدت کوتاهی در دسترس خواهد بود، در انتظار تایید</value>
+    </key>
+    <key name="photo_added">
+        <value>اضافه شده</value>
+    </key>
+    <key name="photo_album_updated">
+        <value>آلبوم تصاویر ذخیره شد</value>
+    </key>
+    <key name="photo_deleted">
+        <value>تصویر حذف گردید.</value>
+    </key>
+    <key name="photo_index">
+        <value>تصویر</value>
+    </key>
+    <key name="photo_list_widget">
+        <value>تصاویر</value>
+    </key>
+    <key name="photo_not_deleted">
+        <value>تصویر حذف نشده است.</value>
+    </key>
+    <key name="photo_success_moved">
+        <value>تصاویر با موفقیت جابجا شد.</value>
+    </key>
+    <key name="photo_updated">
+        <value>تصویر به‌روز شد.</value>
+    </key>
+    <key name="photo_uploaded_pending_approval">
+        <value>تصاویر در مدت کوتاهی در دسترس خواهد بود، در انتظار تایید.</value>
+    </key>
+    <key name="photo_upload_error">
+        <value>خطا در حین بارگذاری تصویر</value>
+    </key>
+    <key name="pic_number">
+        <value>تصویر #{$number}</value>
+    </key>
+    <key name="play_pause">
+        <value>پخش/توقف</value>
+    </key>
+    <key name="please_wait">
+        <value>لطفا صبر نمایید تصویر قبلی در حال بارگذاری است.</value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>حذف افزونه تصویر آغاز شد.</value>
+    </key>
+    <key name="preview_size">
+        <value>پیش‌نمایش اندازه تصویر</value>
+    </key>
+    <key name="preview_size_desc">
+        <value>اندازه تصویر برای نمایش در صفحه</value>
+    </key>
+    <key name="previous">
+        <value>تصویر قبلی</value>
+    </key>
+    <key name="privacy_action_view_album">
+        <value>مشاهده آلبوم‌های من</value>
+    </key>
+    <key name="quotas">
+        <value>محدوده</value>
+    </key>
+    <key name="quota_exceeded">
+        <value>شما از حد {$limit} تصاویر فراتر رفته‌اید.</value>
+    </key>
+    <key name="rating">
+        <value>امتیاز</value>
+    </key>
+    <key name="rating_total">
+        <value>{$count}</value>
+    </key>
+    <key name="rating_your">
+        <value>{$count}</value>
+    </key>
+    <key name="recently_uploaded">
+        <value>تصاویری که به تازگی بارگذاری شده‌اند.</value>
+    </key>
+    <key name="remove_from_featured">
+        <value>حذف از برترین‌ها</value>
+    </key>
+    <key name="save_as_avatar">
+        <value>ذخیره آواتار</value>
+    </key>
+    <key name="save_as_cover">
+        <value>ذخیره به‌عنوان پوشش آلبوم</value>
+    </key>
+    <key name="search_invitation">
+        <value>توضیح تصویر، @نام کاربری یا #برچسب تصویر</value>
+    </key>
+    <key name="search_result_empty">
+        <value>موردی یافت نشد</value>
+    </key>
+    <key name="select_one_photo_warning">
+        <value>انتخاب یک تصویر برای پوشش</value>
+    </key>
+    <key name="settings_updated">
+        <value>تنظیمات به روز شد</value>
+    </key>
+    <key name="set_as_album_cover">
+        <value>قراردادن به عنوان پوشش آلبوم</value>
+    </key>
+    <key name="set_as_cover_label">
+        <value>قراردادن به عنوان پوشش آلبوم</value>
+    </key>
+    <key name="show_by">
+        <value>نمایش</value>
+    </key>
+    <key name="simple_upload">
+        <value>بارگذاری ساده</value>
+    </key>
+    <key name="size_limit">
+        <value>انداره تصویر نمی‌تواند بیشتر از &lt;b&gt;{$size}&lt;/b&gt;مگابایت شود</value>
+    </key>
+    <key name="slideshow_interval">
+        <value>زمان نمایش اسلاید:</value>
+    </key>
+    <key name="slideshow_settings">
+        <value>تنظیمات</value>
+    </key>
+    <key name="status_changed">
+        <value>وضعیت تصویر تغییر یافت.</value>
+    </key>
+    <key name="store_fullsize">
+        <value>ذخیره تصویرها با اندازه کامل</value>
+    </key>
+    <key name="store_full_size">
+        <value>نمایش و نگه‌داری اندازه اصلی تصویر</value>
+    </key>
+    <key name="tags">
+        <value>برجسب</value>
+    </key>
+    <key name="tags_desc">
+        <value>جدا شده با کاما</value>
+    </key>
+    <key name="tag_search">
+        <value>جستجو برچسب</value>
+    </key>
+    <key name="tag_search_result">
+        <value>نتیجه جستجو بر اساس برچسب:</value>
+    </key>
+    <key name="tb_edit_photo">
+        <value>ویرایش</value>
+    </key>
+    <key name="total_albums">
+        <value>تعداد آلبوم‌ها: {$total}</value>
+    </key>
+    <key name="to_small_cover_img">
+        <value>این تصویر برای آن‌که بتواند به عنوان پوشش آلبوم استفاده شود بسیار کوچک است، کمینه اندازه باید 330 در 330
+            باشد.
+        </value>
+    </key>
+    <key name="type_error">
+        <value>نوع سند نامعتبر است: {$name}</value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>در حال پردازش و پیشرفت</value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>لطفا تا حذف شدن تمامی تصاویر منتظر بمانید؛ بسته به تعداد تصاویر این عملیات ممکن است کمی زمان‌بر باشد.
+        </value>
+    </key>
+    <key name="upload">
+        <value>بارگذاری</value>
+    </key>
+    <key name="upload_ini_value">
+        <value>(محدودیت سرور : {$value})</value>
+    </key>
+    <key name="upload_photos">
+        <value>بارگذاری تصاویر</value>
+    </key>
+    <key name="upload_settings">
+        <value>بارگذاری تنظیمات</value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>نظر تصویر</value>
+    </key>
+    <key name="usercredits_action_add_photo">
+        <value>افزودن تصویر</value>
+    </key>
+    <key name="user_photo_albums_widget">
+        <value>
+            آلبوم تصاویر {$username}
+        </value>
+    </key>
+    <key name="user_quota">
+        <value>بیشینه تعداد تصاویر برای کاربر</value>
+    </key>
+    <key name="user_quota_desc">
+        <value>این عدد باید به‌اندازه معقولی بزرگ نگه‌داشته شود.</value>
+    </key>
+    <key name="view_fullsize">
+        <value>مشاهده اندازه کامل</value>
+    </key>
+    <key name="view_settings">
+        <value>مشاهده تنظیمات</value>
+    </key>
+    <key name="view_user_albums">
+        <value>مشاهده همه آلبوم‌های کاربر</value>
+    </key>
+    <key name="width_validation_error">
+        <value>عرض باید عددی صحیح و معتبر بین {$min} و {$max}</value>
+    </key>
+    <key name="album_description">
+        <value>{$desc} ({$count})</value>
+    </key>
+    <key name="photo_sitemap">
+        <value>
+            تصاویر
+        </value>
+    </key>
+    <key name="seo_meta_section">
+        <value>
+            تصاویر
+        </value>
+    </key>
+    <key name="seo_meta_tagged_list_label">
+        <value>
+            صفحه تمامی تصاویر برچسب‌زده‌شده
+        </value>
+    </key>
+    <key name="meta_title_tagged_list">
+        <value>
+            تصاویر {$tag} | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_tagged_list">
+        <value>
+            فهرست تمام تصاویر برچسب زده شده "{$tag}" در {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_tagged_list">
+        <value></value>
+    </key>
+    <key name="seo_meta_photo_list_label">
+        <value>
+            صفحه انواع تصاویر  (آخرین‌ها، بیشترین امتیازدهی شده‌ها، بیشترین بحث‌شده‌ها)
+        </value>
+    </key>
+    <key name="meta_title_photo_list">
+        <value>
+            تصاویر {$list_type} | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_photo_list">
+        <value>
+            تمامی تصاویر {$list_type} در {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_photo_list">
+        <value></value>
+    </key>
+    <key name="list_type_label_featured">
+        <value>
+            ویژه
+        </value>
+    </key>
+    <key name="list_type_label_latest">
+        <value>
+            آخرین‌ها
+        </value>
+    </key>
+    <key name="list_type_label_toprated">
+        <value>
+            بیشترین امتیازدهی شده
+        </value>
+    </key>
+    <key name="list_type_label_tagged">
+        <value>
+            برچسب‌زده‌شده
+        </value>
+    </key>
+    <key name="list_type_label_most_discussed">
+        <value>
+            بیشتر بحث‌شده‌ها
+        </value>
+    </key>
+    <key name="seo_meta_user_albums_label">
+        <value>
+            صفحه آلبوم‌های تصاویر فرد
+        </value>
+    </key>
+    <key name="meta_title_user_albums">
+        <value>
+            آلبوم تصاویر {$user_name}
+        </value>
+    </key>
+    <key name="meta_desc_user_albums">
+        <value>
+            مشاهده تمامی تصاویر آلبوم که توسط {$user_name}،{$user_age} در {$site_name} بارگذاری شده است.
+        </value>
+    </key>
+    <key name="meta_keywords_user_albums">
+        <value></value>
+    </key>
+    <key name="seo_meta_user_album_label">
+        <value>
+            صفحه آلبوم تصاویر فرد
+        </value>
+    </key>
+    <key name="meta_title_user_album">
+        <value>
+            مشاهده تمامی تصاویر در "{$album_name}" که توسط {$user_name}،{$user_age} در {$site_name} بارگذاری شده است.
+        </value>
+    </key>
+    <key name="meta_desc_user_album">
+        <value>
+            مشاهده تمامی تصاویر در "{$album_name}" که توسط {$user_name}،{$user_age} در {$site_name} بارگذاری شده است.
+        </value>
+    </key>
+    <key name="meta_keywords_user_album">
+        <value></value>
+    </key>
+    <key name="seo_meta_user_photos_label">
+        <value>
+            صفحه آلبوم فرد
+        </value>
+    </key>
+    <key name="meta_title_user_photos">
+        <value>
+            تمامی تصاویر بارگذاری شده توسط {$user_name}،{$user_age} در {$site_name}.
+        </value>
+    </key>
+    <key name="meta_desc_user_photos">
+        <value>
+            مشاهده تمامی تصاویر بارگذاری شده توسط {$user_name}،{$user_age} در {$site_name}.
+        </value>
+    </key>
+    <key name="meta_keywords_user_photos">
+        <value></value>
+    </key>
+    <key name="seo_meta_photo_view_label">
+        <value>
+            صفحه تصویر
+        </value>
+    </key>
+    <key name="meta_title_photo_view">
+        <value>
+            مشاهده تصویر "{$photo_id}" که توسط {$user_name} در {$site_name} بارگذاری شده است.
+        </value>
+    </key>
+    <key name="meta_desc_photo_view">
+        <value>
+            مشاهده تصویر "{$photo_id}" که توسط {$user_name} در {$site_name} بارگذاری شده است.
+        </value>
+    </key>
+    <key name="meta_keywords_photo_view">
+        <value></value>
+    </key>
+    <key name="photo_list">
+        <value>فهرست تصاویر</value>
+    </key>
+    <key name="photo_uploaded_by">
+        <value>توسط</value>
+    </key>
+    <key name="photo_uploaded_date">
+        <value>ایجاد شده در</value>
+    </key>
+    <key name="photo_uploaded_album">
+        <value>در آلبوم</value>
+    </key>
+    <key name="choose_type_of_photo_list">
+        <value>انتخاب نوع فهرست تصاویر</value>
+    </key>
+    <key name="album_list">
+        <value>فهرست آلبوم</value>
+    </key>
+    <key name="choose_type_of_album_list">
+        <value>انتخاب نوع فهرست آلبوم</value>
+    </key>
+    <key name="photo_view">
+        <value>نمایش تصویر</value>
+    </key>
+    <key name="choose_type_of_photo_view">
+        <value>انتخاب نوع نمایش تصاویر</value>
+    </key>
+	<key name="list_type_label_photo_friends">
+        <value>دوستان</value>
+    </key>
+	<key name="mobile_back">
+        <value>بازگشت</value>
+    </key>
+	<key name="privacy_action_view_album_desc">
+        <value>با تغییر این فیلد، حریم خصوصی تمامی آلبوم‌های ساخته شده نیز تغییر خواهند کرد</value>
+    </key>
+    <key name="meta_title_photo_photo_friends">
+        <value>تصاویر دوستان - {$site_name}</value>
+    </key>
+    <key name="total_score">
+        <value> میانگین امتیازات: </value>
+    </key>
+    <key name="total_count">
+        <value>تعداد امتیاز دهندگان:  </value>
+    </key>
+    <key name="cmp_widget_photo_count_msg">
+        <value>یک عدد کوچکتر یا مساوی ۳۰ وارد کنید</value>
+    </key>
+    <key name="photo_description_placeholder">
+        <value>توضیح تصویر</value>
+    </key>
+    <key name="photos_album">
+        <value>آلبوم تصاویر</value>
+    </key>
+</prefix>

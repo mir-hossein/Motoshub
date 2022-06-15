@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisblockingip" label="iisblockingip" language_tag="en" language_label="English">
+    <key name="captcha_activate_label">
+        <value>Show captcha in login form</value>
+    </key>
+	<key name="captcha_try_label">
+        <value>The number of failed attempts in sign-in form to show captcha(Leave empty to display captcha anytime)</value>
+    </key>
+	<key name="block_activate_label">
+        <value>Block abnormal users</value>
+    </key>
+	<key name="block_try_label">
+        <value>The number of failed attempts in sign-in/registration form to block users</value>
+    </key>
+	<key name="Lock_per_minute_label">
+        <value>Lock on (min.)</value>
+    </key>
+	<key name="title_locked">
+        <value>You have been locked!</value>
+    </key>
+    <key name="description_locked">
+        <value>You have been locked for security issue. You will be unlocked at </value>
+    </key>
+	<key name="settings_successfuly_saved">
+        <value>Settings successfully saved</value>
+    </key>
+    <key name="admin_page_heading">
+        <value>blocking-ip plugin settings</value>
+    </key>
+    <key name="admin_page_title">
+        <value>blocking-ip plugin settings</value>
+    </key>
+</prefix>

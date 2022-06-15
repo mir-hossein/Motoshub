@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisjalali" label="iisjalali" language_tag="fa-IR" language_label="فارسی">
+    <key name="date_time_month_short_fa_12">
+        <value>
+            اسفند
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_11">
+        <value>
+            بهمن
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_1">
+        <value>
+            فروردین
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_2">
+        <value>
+            اردیبهشت
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_3">
+        <value>
+            خرداد
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_4">
+        <value>
+            تیر
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_5">
+        <value>
+            مرداد
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_6">
+        <value>
+            شهریور
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_7">
+        <value>
+            مهر
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_8">
+        <value>
+            آبان
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_9">
+        <value>
+            آذر
+        </value>
+    </key>
+    <key name="date_time_month_short_fa_10">
+        <value>
+            دی
+        </value>
+    </key>
+	<key name="date_time_month_short_fa_hour">
+        <value>
+            ساعت
+        </value>
+    </key>
+    <key name="date_locale_jalali_format">
+        <value>
+            شمسی
+        </value>
+    </key>
+    <key name="date_locale_gregorian_format">
+        <value>
+            میلادی
+        </value>
+    </key>
+    <key name="dateLocale">
+        <value>
+            نمایش تاریخ
+        </value>
+    </key>
+    <key name="general_settings">
+        <value>
+            تنظیمات اصلی
+        </value>
+    </key>
+    <key name="settings_updated">
+        <value>
+            تنظیمات بروز رسانی شد
+        </value>
+    </key>
+    <key name="admin_settings_title">
+        <value>
+            تنظیمات افزونه تاریخ شمسی
+        </value>
+    </key>
+</prefix>

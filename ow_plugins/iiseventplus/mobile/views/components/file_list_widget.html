@@ -1,0 +1,37 @@
+<style>
+    .owm_event_files tbody {
+        display: inline !important;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="owm_lp_avatars">
+    <div class="owm_event_files">
+        <table class="owm_table_1 owm_form owm_stdmargin" style="width: 100%;text-align: center;margin-top: 10px;margin-bottom: 10px;">
+            {foreach from=$fileList item='file' name='file'}
+            <tr class="owm_alt2 ow_tr_first">
+                <td style="max-width: 180px;">
+                    <a href="{$file.fileUrl}" target="_blank">{$file.truncatedFileName}  </a>
+                </td>
+                <td class="fileEventImage" style="padding: 0px;">
+                    <a href="{$file.fileUrl}" target="_blank">
+                        <img src="{$file.iconUrl}" alt="{$file.fileName|escape}" title="{$file.fileName}" style="max-width: 100%;width: 45px;height: auto !important;"  />
+                    </a>
+                </td>
+            </tr>
+            {foreachelse}
+            <tr class="owm_alt2 ow_tr_first">
+                <td>
+                    <div class="owm_nocontent">{text key='iiseventplus+file_list_widget_empty'}</div>
+                </td>
+            </tr>
+            {/foreach}
+        </table>
+    </div>
+    {if isset($showAdd) && $showAdd==true}
+    <input type="button" class="owm_ic_add " style="border: none;" value={text key="iiseventplus+add_file"} onclick="showUploadFileIntoEventForm({$eventId})"/>
+    {/if}
+    {if isset($view_all_files)}
+    {decorator name='button' class=''  langLabel='iiseventplus+view_all_files' onclick="location.href='`$view_all_files`'"}
+    {/if}
+</div>

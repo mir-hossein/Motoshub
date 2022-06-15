@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iiseventplus" label="iiseventplus" language_tag="en" language_label="English">
+       <key name="event_general">
+        <value>
+            Latest
+        </value>
+    </key>
+    <key name="event_my">
+        <value>
+			my events
+        </value>
+    </key>
+	<key name="leave_button_label">
+        <value>
+      Leave event
+        </value>
+    </key>
+	<key name="leave_confirm_message">
+        <value>
+        Are You Sure?
+        </value>
+    </key>
+	<key name="no_category">
+        <value>
+			No Category
+        </value>
+    </key>
+	<key name="are_you_sure">
+        <value>
+			Are you sure?(If you delete this category, all events of this category will be categorized as no category type)
+        </value>
+    </key>
+	<key name="participate_all">
+        <value>
+			all Status
+        </value>
+    </key>
+		<key name="participate_sure">
+        <value>
+			sure participate
+        </value>
+    </key>
+		<key name="participate_maybe">
+        <value>
+			maybe participate
+        </value>
+    </key>
+		<key name="participate_no">
+        <value>
+			no participate
+        </value>
+    </key>
+		<key name="date_all">
+        <value>
+			all time
+        </value>
+    </key>
+		<key name="date_latest">
+        <value>
+			latest
+        </value>
+    </key>
+	<key name="date_past">
+        <value>
+			past
+        </value>
+    </key>
+	<key name="search_btn_label">
+        <value>
+			Search
+        </value>
+    </key>
+	<key name="select_category">
+        <value>
+			Any category
+        </value>
+    </key>
+	<key name="view_category_label">
+        <value>
+			Category:
+        </value>
+    </key>
+	<key name="event_general_heading">
+        <value>
+			Latest
+        </value>
+    </key>
+	<key name="event_my_heading">
+        <value>
+		Joined Events
+        </value>
+    </key>
+	<key name="event_general_events_page_title">
+        <value>
+            Latest
+        </value>
+    </key>
+	<key name="event_my_events_page_title">
+        <value>
+		Joined Events
+        </value>
+    </key>
+	<key name="admin_category_title">
+        <value>
+		iiseventplus setting
+        </value>
+    </key>
+	<key name="admin_category_heading">
+        <value>
+		iiseventplus setting
+        </value>
+    </key>
+	<key name="label_category_label">
+        <value>
+			Enter Your Category
+        </value>
+    </key>
+	<key name="name_category">
+        <value>
+			Category Name
+        </value>
+    </key>
+	<key name="form_add_category_submit">
+        <value>
+			Save
+        </value>
+    </key>
+	<key name="edit_item">
+        <value>
+			Edit
+        </value>
+    </key>
+	<key name="edit_item_page_title">
+        <value>
+			Edit category
+        </value>
+    </key>
+	<key name="database_record_edit">
+        <value>
+			Data base has been saved successfully
+        </value>
+    </key>
+	<key name="delete_item">
+        <value>
+			Delete
+        </value>
+    </key>
+	<key name="label_error_already_exist">
+        <value>
+			Category already existed
+        </value>
+    </key>
+	<key name="search_title">
+        <value>
+			Search by event Title
+        </value>
+    </key>
+	<key name="invited_events_page_title">
+        <value>
+			Invited Events
+        </value>
+    </key>
+    <key name="choose_category">
+        <value>
+            Select category
+        </value>
+    </key>
+    <key name="view_all_files">
+        <value>
+                view all
+        </value>
+    </key>
+    <key name="add_file">
+        <value>
+                add file
+        </value>
+    </key>
+    <key name="create_field_file_name_label">
+        <value>
+                file name
+        </value>
+    </key>
+    <key name="create_field_file_upload_label">
+        <value>
+                file upload
+        </value>
+    </key>
+    <key name="create_submit_btn_label">
+        <value>
+                save
+        </value>
+    </key>
+	<key name="back">
+        <value>
+                back
+        </value>
+    </key>
+	<key name="are_you_sure_delete_file">
+        <value>
+               are you sure delete this file?
+        </value>
+    </key>
+	<key name="feed_add_file_string">
+        <value>
+            add a file to &lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt; event: &lt;a href="{$fileUrl}"&gt;{$fileName}&lt;/a&gt;
+        </value>
+    </key>
+	<key name="name">
+        <value>
+               name
+        </value>
+    </key>
+	<key name="created_date">
+        <value>
+               created date
+        </value>
+    </key>
+	<key name="by">
+        <value>
+               creator
+        </value>
+    </key>
+    <key name="file_list_widget_empty">
+        <value>
+            No file exists
+        </value>
+    </key>
+    <key name="widget_files_settings_count">
+        <value>
+            Files number
+        </value>
+    </key>
+    <key name="files_count">
+        <value>
+            Files count
+        </value>
+    </key>
+    <key name="widget_files_title">
+        <value>
+            Files
+        </value>
+    </key>
+	    <key name="email_notification_section_label">
+        <value>
+           events
+        </value>
+    </key>
+    <key name="email_notifications_setting_file">
+        <value>
+            File added to an event
+        </value>
+    </key>
+		<key name="notif_add_file_string">
+        <value>
+           &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; add a file to &lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt; event: &lt;a href="{$eventUrl}"&gt;{$fileName}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="event_user_invitation_notification">
+        <value>
+            <a href="{$userUrl}">{$userName}</a> invite you to <a href="{$eventUrl}">{$eventTitle}</a> event
+        </value>
+    </key>
+    <key name="accept_event_invitation_notification">
+        <value>
+            you accept to join <a href="{$eventUrl}">{$eventTitle}</a> event
+        </value>
+    </key>
+    <key name="ignore_event_invitation_notification">
+        <value>
+            you decline to join <a href="{$eventUrl}">{$eventTitle}</a> event
+        </value>
+    </key>
+    <key name="meta_title_event_files">
+        <value>
+            {$event_title} event files
+        </value>
+    </key>
+    <key name="meta_desc_event_files">
+        <value>
+            All {$event_title} event files are visible here
+        </value>
+    </key>
+    <key name="meta_keywords_event_files">
+        <value>
+
+        </value>
+    </key>
+    <key name="leave_success_message">
+        <value>
+            You left this event
+        </value>
+    </key>
+</prefix>

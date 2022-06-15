@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnews" label="iisnews" language_tag="fa-IR" language_label="فارسی">
+<key name="iisnews_mobile"><value>اخبار</value></key>
+<key name="index_page_title"><value>اخبار</value></key>
+<key name="index_page_heading"><value>اخبار</value></key>
+</prefix>

@@ -1,0 +1,29 @@
+<div class="clearfix questions-answer" id="{$uniqueId}" rel="{$option.id}">
+    <div class="qa-check ow_left">
+        {if !$option.disabled}<input maxlength="400" type="{if $option.multiple}checkbox{else}radio{/if}" name="{$uniqueId}" value="{$option.id}" {if $option.voted}checked="checked" rel="1"{else}rel="0"{/if} />{/if}
+    </div>
+	<div class="qa-users ow_right">{$option.users}</div>
+	<div class="qa-content ow_border">
+
+        <div class="qa-content-clip">
+            <div class="qa-content-wrap">
+                <div class="qa-shaded qa-result ow_border {*q-opacity20*} {if $option.percents >= 100}q-result-full{/if}" style="width: {$option.percents}%" rel="{$option.count}"></div>
+                <div class="qa-text">{$option.text}</div>
+            </div>
+        </div>
+
+        <div class="qa-hover-c ow_border clearfix q-opacity10">
+            <div class="qa-info-option questions-ic-info"></div>
+            <div class="q-info" style="display: none;">
+            <a href="{$userIds}"><div class="qa-votes" style="font-size: 80% !important;"><span class="qa-vote-n">{$option.count}</span> {text key="iisquestions+counter_votes_label"}</div></a>
+            <div class="qa-info-option questions-ic-info"></div>
+            {if $option.editMode}
+                <div class="qa-delete-option questions-ic-delete"></div>
+                <div class="qa-edit-option questions-ic-edit"></div>
+            {/if}
+            </div>
+        </div>
+
+
+	</div>
+</div>

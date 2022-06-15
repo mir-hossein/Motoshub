@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iishashtag" label="iishashtag" language_tag="fa-IR" language_label="فارسی">
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="max_count">
+        <value>
+            حداکثر تعداد آیتم‌ها در لیست جستجوی هشتگ
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            تنظیمات هشتگ
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+
+
+    <key name="tag">
+        <value>
+            تگ
+        </value>
+    </key>
+    <key name="main_menu_item">
+        <value>
+            ‌هشتگ‌ها
+        </value>
+    </key>
+    <key name="mobile_main_menu_item">
+        <value>
+            هشتگ‌ها
+        </value>
+    </key>
+    <key name="plugin_requires_newsfeed">
+        <value>
+            پلاگین هشتگ نیازمند پلاگین دیگری است: «تازه‌ها»
+        </value>
+    </key>
+    <key name="list_page_title">
+        <value>
+            نتایج برای #{$tag}
+        </value>
+    </key>
+    <key name="list_page_title_default">
+        <value>
+            هشتگ
+        </value>
+    </key>
+    <key name="top_hashtags">
+        <value>
+            برترین هشتگ‌ها
+        </value>
+    </key>
+    <key name="search_hashtag">
+        <value>
+            جستجوی هشتگ
+        </value>
+    </key>
+    <key name="search">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="search_placeholder">
+        <value>
+            هشتگ
+        </value>
+    </key>
+
+
+    <key name="at">
+        <value>
+            در
+        </value>
+    </key>
+    <key name="menu_newsfeed">
+        <value>
+            تازه‌ها
+        </value>
+    </key>
+    <key name="menu_news">
+        <value>
+            اخبار
+        </value>
+    </key>
+    <key name="menu_groups">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="menu_event">
+        <value>
+            رویداد‌ها
+        </value>
+    </key>
+    <key name="menu_video">
+        <value>
+            ویدیوها
+        </value>
+    </key>
+    <key name="menu_photo">
+        <value>
+            تصاویر
+        </value>
+    </key>
+    <key name="menu_forum">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="menu_blogs">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="auth_action_label_view_newsfeed">
+        <value>
+            مشاهده نتایج تازه‌ها
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            هشتگ
+        </value>
+    </key>
+    <key name="able_to_see_text">
+        <value>
+            شما قادر به مشاهده {$num} مورد از {$all} مورد هستید
+        </value>
+    </key>
+
+    <key name="author_label">
+        <value>
+            نویسنده: &lt;span class="ow_txt_value"&gt;{$name}&lt;/span&gt;
+        </value>
+    </key>
+</prefix>

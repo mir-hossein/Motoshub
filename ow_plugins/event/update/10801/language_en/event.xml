@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="event" label="Event" language_tag="en" language_label="English">
+	<key name="event_mobile">
+        <value>
+			Event
+		</value>
+    </key>
+	<key name="back">
+        <value>
+			Back
+		</value>
+    </key>
+</prefix>

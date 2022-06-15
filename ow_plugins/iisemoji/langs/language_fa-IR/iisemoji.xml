@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisemoji" label="iisemoji" language_tag="fa-IR" language_label="فارسی">
+    <key name="search">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="search_results">
+        <value>
+            نتایج جستجو
+        </value>
+    </key>
+    <key name="no_emoji_found">
+        <value>
+            شکلکی یافت نشد
+        </value>
+    </key>
+
+    <key name="label_recent">
+        <value>
+            آخرین‌ها
+        </value>
+    </key>
+    <key name="label_people">
+        <value>
+            عمومی
+        </value>
+    </key>
+    <key name="label_nature">
+        <value>
+            طبیعت
+        </value>
+    </key>
+    <key name="label_foods">
+        <value>
+            مواد غذایی
+        </value>
+    </key>
+    <key name="label_activity">
+        <value>
+            فعالیت
+        </value>
+    </key>
+    <key name="label_places">
+        <value>
+            مکان
+        </value>
+    </key>
+    <key name="label_objects">
+        <value>
+            اشیا
+        </value>
+    </key>
+    <key name="label_symbols">
+        <value>
+            نمادها
+        </value>
+    </key>
+    <key name="label_flags">
+        <value>
+            پرچم
+        </value>
+    </key>
+    <key name="admin_dept_title">
+        <value>
+           تنظیمات افزونه شکلک
+        </value>
+    </key>
+    <key name="form_add_dept_submit">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="select_emojiType">
+        <value>
+            نوع شکلک را انتخاب کنید
+        </value>
+    </key>
+    <key name="save_successful_message">
+        <value>
+            تغییرات با موفقیت ذخیره شد
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="event" label="Event" language_tag="fa-IR" language_label="فارسی">
+	<key name="event_mobile">
+        <value>
+		رویداد
+		</value>
+    </key>	
+	<key name="back">
+        <value>
+		بازگشت
+		</value>
+    </key>
+</prefix>

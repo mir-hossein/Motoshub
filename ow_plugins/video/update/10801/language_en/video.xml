@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="video" label="Video" language_tag="en" language_label="English">
+	<key name="latest_friends_list_label">
+        <value>Latest friends</value>
+    </key>
+	<key name="video_mobile">
+        <value>Video</value>
+    </key>
+	<key name="latest_myvideo_list_label">
+        <value>My Videos – {$site_name}</value>
+    </key>
+</prefix>

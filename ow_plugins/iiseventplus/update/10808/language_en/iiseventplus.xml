@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iiseventplus" label="iiseventplus" language_tag="en" language_label="English">
+	<key name="email_notification_section_label">
+        <value>
+           events
+        </value>
+    </key>
+    <key name="email_notifications_setting_file">
+        <value>
+            File added to an event
+        </value>
+    </key>
+		<key name="notif_add_file_string">
+        <value>
+           &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; add &lt;a href="{$eventUrl}"&gt;{$file}&lt;/a&gt; to &lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt;.
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,94 @@
+{style}
+{literal}
+
+.ow_event_time {
+    padding-left: 3px;
+}
+
+{/literal}
+{/style}
+
+<div class="ow_superwide ow_automargin">
+
+    {if empty($err_msg)}
+		{form name='event_edit'}
+		<table class="ow_table_1 ow_form ow_stdmargin">
+            <tr class="ow_alt2 ow_tr_first">
+		        <td class="ow_label">{label name='title'}</td>
+                <td class="ow_value">{input name='title'}{error name='title'}</td>
+		    </tr>
+		    <tr class="ow_alt1">
+		        <td class="ow_label">{text key='event+add_form_date_label'}</td>
+                <td class="ow_value">
+                    <div class="clearfix">
+						<div class="ow_left ow_event_time">{input name='start_time'}<br />{error name='start_time'}</div>
+						<div class="ow_left ow_event_date">{input name='start_date'}{error name='start_date'}</div>
+                    </div>
+                </td>
+		    </tr>
+            <tr class="ow_alt2" id="{$tdId}">
+		        <td class="ow_label">{text key='event+add_form_end_date_label'} <input type="checkbox" name="endDateFlag" id="{$chId}"{if !empty($endDateFlag)} checked="checked"{/if} /></td>
+		        <td class="ow_value">
+                    <div class="clearfix">
+						<div class="ow_left ow_event_time">{input name='end_time'}<br />{error name='end_time'}</div>
+						<div class="ow_left ow_event_date">
+							{input name='end_date'}{error name='end_date'}</div>
+                    </div>
+                </td>
+		    </tr>
+            <tr class="ow_alt1">
+		        <td class="ow_label">{label name='desc'}</td>
+		        <td class="ow_value">{input name='desc'} <br /> {error name='desc'}</td>
+		    </tr>
+            <tr class="ow_alt2">
+		        <td class="ow_label">{label name='location'}</td>
+		        <td class="ow_value">{input name='location'} <br /> {error name='location'}</td>
+		    </tr>
+            <tr class="ow_alt1">
+		        <td class="ow_label">{label name='image'}</td>
+                <td class="ow_value">
+					{if !empty($imgsrc)}
+						<a id="deleteEventImg" class="ow_lbutton">{text key='event+delete_image'}</a>
+						<br />
+						<div class="ow_smallmargin">
+							<img src="{$imgsrc}" height="100"  id="eventImg" />
+						</div>
+					{/if}
+					{input name='image'}
+					<br />
+					{error name='image'}
+				</td>
+		    </tr>
+            <tr class="ow_alt2">
+		        <td class="ow_label">{label name='who_can_view'}</td>
+		        <td class="ow_value">{input name='who_can_view'} <br /> {error name='who_can_view'}</td>
+		    </tr>
+            <tr class="ow_alt1 ow_tr_last">
+		        <td class="ow_label">{label name='who_can_invite'}</td>
+		        <td class="ow_value">{input name='who_can_invite'} <br /> {error name='who_can_invite'}</td>
+		    </tr>
+            {if isset($hasCategoryFilter)}
+            <tr class="ow_alt2">
+                <td class="ow_label">{text key='iiseventplus+choose_category'}</td>
+                <td class="ow_value">{input name='categoryStatus'} <br /> </td>
+            </tr>
+            {/if}
+		</table>
+		<div class="clearfix ow_stdmargin ow_submit">
+			<div class="ow_right">{submit name='submit' class='ow_ic_edit'}</div>
+		</div>
+		{/form}
+    {else}
+        <div class="ow_anno ow_std_margin ow_nocontent">{$err_msg}</div>
+    {/if}
+</div>
+
+<script type="text/javascript">
+	{literal}
+	$('#deleteEventImg').click(function(){
+		$("#deleteEventImage").val(1);
+		$( "#eventImg" ).remove();
+		$( "#deleteEventImg" ).remove();
+	});
+	{/literal}
+</script>

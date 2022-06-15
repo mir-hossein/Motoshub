@@ -1,0 +1,69 @@
+{style}
+{literal}
+.media_panel_fullpage {
+position: absolute;
+background: white;
+top: 0px;left: 0px;right: 0px;bottom: 0px;
+margin: 0px;
+border: 0px;
+}
+.media_panel_fullpage .ow_content_menu {
+background-color: #e5e5e5;
+border-bottom: 1px solid #ccd6de;
+}
+.media_panel_fullpage .ow_content_menu span {
+background-position: 4px 16px;
+padding: 16px 6px 6px 25px;
+}
+.media_panel_fullpage .ow_content_menu > li {
+margin: 0 4px;
+}
+.media_panel_fullpage .ow_content_menu li a {
+font-size: 1rem;
+}
+.ow_site_panel.clearfix {
+	position: fixed;
+	z-index: 0;
+}
+.ow_menu_fullpage + .ow_site_panel.clearfix {
+	z-index: 1000;
+}
+{/literal}
+{/style}
+
+<div class="media_panel_fullpage">
+{$menu}
+{form name="image-upload"}
+<center>
+	<table class="ow_table_1 ow_form">
+		<tr class="{cycle values="ow_alt1, ow_alt2"} ow_tr_first">
+			<td class="ow_label">
+				{label name="file"}
+			</td>
+			<td class="ow_value">
+				{input name="file"}<br />
+				{error name="file"}
+			</td>
+		</tr>
+		<tr class="{cycle values="ow_alt1, ow_alt2"} ow_tr_first">
+			<td class="ow_label">
+				{label name="title"}
+			</td>
+			<td class="ow_value">
+				{input name="title"}<br />
+				{error name="title"}
+			</td>
+		</tr>
+		<tr class="ow_tr_last">
+			<td colspan="2" align="center">
+				<p>
+					{text key='base+tf_img_types'} <span class="ow_txt_value">JPG</span>/<span class="ow_txt_value">PNG</span>/<span class="ow_txt_value">GIF</span>. {text key='base+tf_img_max_size'} <span class="ow_txt_value">{$maxSize} Mb</span>.
+	
+				</p>	
+			</td>
+		</tr>
+	</table>
+	<div class="clearfix"><div class="ow_right">{submit name="submit"}</div></div>	
+</center>
+{/form}
+</div>

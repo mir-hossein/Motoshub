@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="blogs" label="Blogs" language_tag="fa-IR" language_label="فارسی">
+    <key name="activity_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; نوشته جدید بلاگ ارسال کرد &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="added">
+        <value>
+            ایجاد شده در
+        </value>
+    </key>
+    <key name="add_new">
+        <value>
+            ایجاد نوشته جدید
+        </value>
+    </key>
+    <key name="add_new_link">
+        <value>
+            نوشتن بلاگ
+        </value>
+    </key>
+    <key name="admin_blogs_settings_heading">
+        <value>
+            تنظیمات افزونه بلاگ‌ها
+        </value>
+    </key>
+    <key name="admin_settings_results_per_page">
+        <value>
+            نوشته‌های این صفحه
+        </value>
+    </key>
+    <key name="authorization_failed_view_blog">
+        <value>
+            با عرض پوزش، شما مجاز به مشاهده این بلاگ نیستید
+        </value>
+    </key>
+    <key name="auth_action_label_add">
+        <value>
+            افزودن نوشته‌های بلاگ
+        </value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>
+            نظرات بلاگ
+        </value>
+    </key>
+    <key name="auth_action_label_delete_comment_by_content_owner">
+        <value>
+            صاحب مطلب می تواند نظرات را حذف کند
+        </value>
+    </key>
+    <key name="auth_action_label_view">
+        <value>
+            مشاهده نوشته‌های بلاگ
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="blog">
+        <value>
+            بلاگ
+        </value>
+    </key>
+    <key name="blog_archive_lbl_archives">
+        <value>
+            بایگانی
+        </value>
+    </key>
+    <key name="blog_index">
+        <value>
+            خانه بلاگ
+        </value>
+    </key>
+    <key name="blog_manage_delete">
+        <value>
+            حذف کردن
+        </value>
+    </key>
+    <key name="blog_post_description">
+        <value>
+            {$post_body} برچسب: {$tags}
+        </value>
+    </key>
+    <key name="blog_post_title">
+        <value>
+            {$post_title} نوشته شده توسط: {$display_name} در {$site_name}
+        </value>
+    </key>
+    <key name="blog_widget_preview_length_lbl">
+        <value>
+            طول پیش نمایش
+        </value>
+    </key>
+    <key name="browse_by_tag_description">
+        <value>
+            مرور نوشته‌های بلاگ‌ها بر اساس بر چسب‌ها : {$tags} و دیگران
+        </value>
+    </key>
+    <key name="browse_by_tag_item_description">
+        <value>
+            مرور برچسب‌های نوشته‌های بلاگ به عنوان {$tag}
+        </value>
+    </key>
+    <key name="browse_by_tag_item_title">
+        <value>
+            نوشته‌های مرتبط بلاگ با برچسب «{$tag}» - {$site_name}
+        </value>
+    </key>
+    <key name="browse_by_tag_title">
+        <value>
+            مرور نوشته‌های بلاگ به وسیله برچسب‌ها {$site_name}
+        </value>
+    </key>
+    <key name="by">
+        <value>
+            توسط
+        </value>
+    </key>
+    <key name="change_status_draft">
+        <value>
+            تغییر وضعیت به پیش‌نویس
+        </value>
+    </key>
+    <key name="cmp_widget_post_count">
+        <value>
+            تعداد نوشته‌ها برای نمایش
+        </value>
+    </key>
+    <key name="comments">
+        <value>
+            تعداد نظرات:
+        </value>
+    </key>
+    <key name="comment_activity_string">
+        <value>
+            &lt;a href="{$actorUrl}"&gt;{$actor}&lt;/a&gt; نظر داده بر روی بلاگ &lt;a href="{$ownerUrl}"&gt;{$owner}&lt;/a&gt;:
+            &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="comment_notification_string">
+        <value>
+            &lt;a href="{$actorUrl}"&gt;{$actor}&lt;/a&gt; بر روی نوشته «&lt;a href="{$url}"&gt;{$title}&lt;/a&gt;» نظر داد: {$comment}
+        </value>
+    </key>
+    <key name="confirm_delete_photos">
+        <value>
+            آیا از حذف کردن تصاویر همه کاربران اطمینان دارید؟
+        </value>
+    </key>
+    <key name="content_blogs_label">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="content_blog_label">
+        <value>
+            نوشته‌های بلاگ
+        </value>
+    </key>
+    <key name="create_draft_success_msg">
+        <value>
+            نوشته به‌عنوان پیش‌نویس ذخیره شد
+        </value>
+    </key>
+    <key name="create_success_msg">
+        <value>
+            نوشته با موفقیت انتشار پیدا کرد
+        </value>
+    </key>
+    <key name="delete_content">
+        <value>
+            حذف کردن مطالب و حذف افزونه
+        </value>
+    </key>
+    <key name="delete_content_desc">
+        <value>
+            قبل از حذف کردن افزونه بلاگ، باید تمام محتوای موجود کاربران حذف گردد. این کار ممکن است اندکی زمان‌بر باشد.
+            در این زمان سایت به حالت تعمیر و نگهداری می‌رود و پس از پایان عملیات دوباره فعال می‌شود.
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="edit_draft_success_msg">
+        <value>
+            تغییرات ذخیره شد، نوشته به‌عنوان پیش‌نویش ذخیره شد
+        </value>
+    </key>
+    <key name="edit_success_msg">
+        <value>
+            تغییرات ذخیره شد
+        </value>
+    </key>
+    <key name="email_notifications_setting_comment">
+        <value>
+            کسی بر روی نوشته‌ام نظر گذاشته است
+        </value>
+    </key>
+    <key name="feed_activity_owner_post_string">
+        <value>
+            کسی روی بلاگ آن ها نظر داد
+        </value>
+    </key>
+    <key name="feed_activity_owner_post_string_like">
+        <value>
+            نوشته بلاگش را پسندید
+        </value>
+    </key>
+    <key name="feed_activity_post_string">
+        <value>
+            بر روی نوشته بلاگ {$user} نظر داد
+        </value>
+    </key>
+    <key name="feed_activity_post_string_like">
+        <value>
+            نوشته بلاگ {$user} را پسندید
+        </value>
+    </key>
+    <key name="feed_add_item_label">
+        <value>
+          یک نوشته جدید در بلاگ ایجاد کرد
+        </value>
+    </key>
+    <key name="feed_content_label">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="feed_edit_item_label">
+        <value>
+            ویرایش نوشته بلاگ خود
+        </value>
+    </key>
+    <key name="flags">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="go_to_blog">
+        <value>
+            برو به بلاگ‌ها
+        </value>
+    </key>
+    <key name="index_widget_empty">
+        <value>
+            بلاگ موجود نیست
+        </value>
+    </key>
+    <key name="last_saved">
+        <value>
+            آخرین ذخیره
+        </value>
+    </key>
+    <key name="latest_description">
+        <value>
+            بلاگ‌هایی که به تازگی در {$site_name} به‌روزرسانی شده‌اند
+        </value>
+    </key>
+    <key name="latest_post">
+        <value>
+            آخرین نوشته‌ها
+        </value>
+    </key>
+    <key name="latest_title">
+        <value>
+            بلاگ‌های کاربر - {$site_name}
+        </value>
+    </key>
+    <key name="list_page_heading">
+        <value>
+            بلاگ‌های کاربر
+        </value>
+    </key>
+    <key name="main_menu_item">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="management_page_heading">
+        <value>
+            مدیریت بلاگ من
+        </value>
+    </key>
+    <key name="manage_page_comment_deleted_msg">
+        <value>
+            نظر حذف گردید
+        </value>
+    </key>
+    <key name="manage_page_last_updated">
+        <value>
+            آخرین به‌روزرسانی
+        </value>
+    </key>
+    <key name="manage_page_menu_comments">
+        <value>
+            نظرات ورودی
+        </value>
+    </key>
+    <key name="manage_page_menu_drafts">
+        <value>
+            پیش نویس ها
+        </value>
+    </key>
+    <key name="manage_page_menu_published">
+        <value>
+            پست‌های منتشر شده
+        </value>
+    </key>
+    <key name="manage_page_post_title">
+        <value>
+            عنوان نوشته
+        </value>
+    </key>
+    <key name="manage_page_status">
+        <value>
+            وضعیت
+        </value>
+    </key>
+    <key name="manage_comment_page_actions">
+        <value>
+            عملیات
+        </value>
+    </key>
+    <key name="menuItemBrowseByTag">
+        <value>
+            مرور با برچسب
+        </value>
+    </key>
+    <key name="menuItemLatest">
+        <value>
+            آخرین‌ها
+        </value>
+    </key>
+    <key name="menuItemMostDiscussed">
+        <value>
+            بیشترین بحث شده‌ها
+        </value>
+    </key>
+    <key name="menuItemTopRated">
+        <value>
+            بالاترین امتیازدهی شده
+        </value>
+    </key>
+    <key name="meta_description_new_blog_post">
+        <value>
+            افزودن نوشته جدید در بلاگ شما
+        </value>
+    </key>
+    <key name="meta_title_new_blog_post">
+        <value>
+            نوشته جدید بلاگ - {$site_name}
+        </value>
+    </key>
+    <key name="more">
+        <value>
+            بیشتر
+        </value>
+    </key>
+    <key name="most_discussed_description">
+        <value>
+            بیشترین نوشته‌های بحث شده بلاگ کاربر در {$site_name}
+        </value>
+    </key>
+    <key name="most_discussed_title">
+        <value>
+            بیشترین بلاگ‌های بحث شده - {$site_name}
+        </value>
+    </key>
+    <key name="my_blog">
+        <value>بلاگ من</value>
+    </key>
+    <key name="my_drafts">
+        <value>مدیریت بلاگ من</value>
+    </key>
+    <key name="new_post">
+        <value>نوشته جدید بلاگ</value>
+    </key>
+    <key name="next_post">
+        <value>نوشته بعدی</value>
+    </key>
+    <key name="notification_section_label">
+        <value>بلاگ‌ها</value>
+    </key>
+    <key name="not_yet">
+        <value>تاکنون چیزی افزوده نشده</value>
+    </key>
+    <key name="no_posts">
+        <value>نوشته‌ای موجود نیست</value>
+    </key>
+    <key name="on">
+        <value>روی</value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>حذف کردن افزونه بلاگ</value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>حذف کردن افزونه بلاگ‌ها آغاز شد</value>
+    </key>
+    <key name="post_title">
+        <value>نوشته</value>
+    </key>
+    <key name="prev_post">
+        <value>نوشته قبلی</value>
+    </key>
+    <key name="privacy_action_comment_blog_posts">
+        <value>نظر دادن روی نوشته‌های بلاگ من</value>
+    </key>
+    <key name="privacy_action_comment_blog_posts_description">
+        <value>با تغییر این گزینه، حق دسترسی امکان نظر دادن روی نوشته‌های بلاگ شما تغییر خواهد کرد</value>
+    </key>
+    <key name="privacy_action_view_blog_posts">
+        <value>مشاهده نوشته‌های بلاگ من</value>
+    </key>
+    <key name="privacy_action_view_blog_posts_description">
+        <value>با تغییر این گزینه، حق دسترسی مشاهده نوشته‌های بلاگ شما تغییر خواهد کرد</value>
+    </key>
+    <key name="rate">
+        <value>رتبه :</value>
+    </key>
+    <key name="read_more">
+        <value>ادامه مطلب</value>
+    </key>
+    <key name="results_by_tag">
+        <value>نتایج جستجو براساس برچسب: «&lt;b&gt;{$tag}&lt;/b&gt;»</value>
+    </key>
+    <key name="sava_draft">
+        <value>ذخیره به عنوان پیش نویس</value>
+    </key>
+    <key name="save_btn_label">
+        <value>ذخیره</value>
+    </key>
+    <key name="save_form_lbl_post">
+        <value>بدنه نوشته:</value>
+    </key>
+    <key name="save_form_lbl_title">
+        <value>موضوع نوشته:</value>
+    </key>
+    <key name="save_page_heading">
+        <value>ایجاد نوشته جدید بلاگ</value>
+    </key>
+    <key name="save_publish">
+        <value>انتشار</value>
+    </key>
+    <key name="settings">
+        <value>تنظیمات</value>
+    </key>
+    <key name="status">
+        <value>وضعیت</value>
+    </key>
+    <key name="status_draft">
+        <value>پیش نویس</value>
+    </key>
+    <key name="status_published">
+        <value>منتشر شده</value>
+    </key>
+    <key name="tags">
+        <value>برچسب‌ها:</value>
+    </key>
+    <key name="tags_field_label">
+        <value>برچسب‌ها:</value>
+    </key>
+    <key name="this_post">
+        <value>این نوشته</value>
+    </key>
+    <key name="toolbar_comments">
+        <value>نظر</value>
+    </key>
+    <key name="toolbar_delete">
+        <value>حذف کردن</value>
+    </key>
+    <key name="toolbar_edit">
+        <value>ویرایش</value>
+    </key>
+    <key name="top_rated_description">
+        <value>نوشته‌های بلاگ کاربر با بالاترین امتیازدهی در {$site_name}</value>
+    </key>
+    <key name="top_rated_title">
+        <value>برترین بلاگ‌ها - {$site_name}</value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>در پردازش و پیشرفت</value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>لطفا تا وقتی که تصویرهای محتوا حذف شوند منتظر بمانید، این عمل ممکن است بنا به تعداد تصاویر موجود در بلاگ
+            اندکی زمان‌بر باشد
+        </value>
+    </key>
+    <key name="update">
+        <value>به‌روزرسانی</value>
+    </key>
+    <key name="usercredits_action_add_blog">
+        <value>افزودن نوشته‌های بلاگ</value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>نظر دادن بلاگ‌ها</value>
+    </key>
+    <key name="user_blog_archive_description">
+        <value>نوشته‌های بلاگ {$display_name} ارسال شده در {$month_name} ،{$year}</value>
+    </key>
+    <key name="user_blog_archive_title">
+        <value>بایگانی بلاگ {$display_name} در {$month_name}</value>
+    </key>
+    <key name="user_blog_description">
+        <value>پنوشته‌های اخیر توسط {$site_name}</value>
+    </key>
+    <key name="user_blog_page_heading">
+        <value>{$name} بلاگ</value>
+    </key>
+    <key name="user_blog_title">
+        <value>{$display_name} بلاگ - {$site_name}</value>
+    </key>
+    <key name="user_blog_widget_drafts">
+        <value>پیش‌نویس‌ها</value>
+    </key>
+    <key name="user_blog_widget_published_incoming_comments">
+        <value>نظرات وارد شده</value>
+    </key>
+    <key name="user_blog_widget_published_posts">
+        <value>نوشته‌های منتشر شده</value>
+    </key>
+    <key name="view_all">
+        <value>نمایش همه</value>
+    </key>
+    <key name="view_page_heading">
+        <value>{$postTitle}</value>
+    </key>
+    <key name="blogs_sitemap">
+        <value>بلاگ‌ها</value>
+    </key>
+    <key name="blogs_sitemap_desc">
+        <value>بلاگ‌ها و فهرست‌ها</value>
+    </key>
+    <key name="seo_meta_section">
+        <value>بلاگ‌ها</value>
+    </key>
+    <key name="seo_meta_blogs_list_label">
+        <value>صفحه فهرست بلاگ‌ها</value>
+    </key>
+    <key name="meta_title_blogs_list">
+        <value>{$blog_list} بلاگ‌ها | {$site_name}</value>
+    </key>
+    <key name="meta_desc_blogs_list">
+        <value>
+            تمامی نوشته‌های بلاگ {$blog_list} را در {$site_name} بخوانید، نظرات خود را وارد کرده و در مورد موضوعات، با دیگر کاربران گفت‌وگو کنید
+        </value>
+    </key>
+    <key name="meta_keywords_blogs_list">
+        <value></value>
+    </key>
+    <key name="seo_meta_user_blog_label">
+        <value>صفحه بلاگ فرد</value>
+    </key>
+    <key name="meta_title_user_blog">
+        <value>
+            بلاگ نوشته شده توسط {$user_name} ،{$user_age} | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_user_blog">
+        <value>
+            تمامی نوشته‌های کاربر {$user_name} را در {$site_name} بخوانید و نظرات خود را وارد کنید
+        </value>
+    </key>
+    <key name="meta_keywords_user_blog">
+        <value></value>
+    </key>
+    <key name="seo_meta_blog_post_label">
+        <value>
+            صفحه نوشته‌های بلاگ فرد
+        </value>
+    </key>
+    <key name="meta_title_blog_post">
+        <value>
+            {$post_subject} | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_blog_post">
+        <value>{$post_body}</value>
+    </key>
+    <key name="meta_keywords_blog_post">
+        <value></value>
+    </key>
+    <key name="show_all_blogs">
+        <value>
+            &lt;a href="{$url}"&gt;نمایش تمامی بلاگ‌های {$user_name}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="mobile_main_menu_list">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="edit_page_heading">
+        <value>ویرایش نوشته بلاگ</value>
+    </key>
+    <key name="meta_title_edit_blog_post">
+        <value>
+            ویرایش نوشته بلاگ - {$site_name}
+        </value>
+    </key>
+    <key name="meta_description_edit_blog_post">
+        <value>
+            ویرایش نوشته در بلاگ شما
+        </value>
+    </key>
+    <key name="comment_manage_my_blog">
+        <value>نظرات</value>
+    </key>
+    <key name="date_manage_my_blog">
+        <value>تاریخ</value>
+    </key>
+    <key name="total_score">
+        <value> میانگین امتیازات: </value>
+    </key>
+    <key name="total_count">
+        <value>تعداد امتیاز دهندگان:  </value>
+    </key>
+    <key name="are_you_sure_delete_blog_post">
+        <value>آیا از حذف این پست اطمینان دارید؟</value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            آیا از حذف این نظر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="total_posts">
+        <value>تعداد پست‌ها: {$total}
+        </value>
+    </key>
+</prefix>

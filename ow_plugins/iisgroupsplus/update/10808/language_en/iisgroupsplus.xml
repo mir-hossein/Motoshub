@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="en" language_label="English">
+    <key name="email_notifications_setting_status">
+        <value>
+            File added to a group
+        </value>
+    </key>
+		<key name="notif_update_status_string">
+        <value>
+           &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; add new status to &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt;.
+        </value>
+    </key>
+</prefix>

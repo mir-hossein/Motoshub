@@ -1,0 +1,75 @@
+.owm_suitup {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 4px 4px 0px 4px;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.owm_suitup-controls {
+    background: #e5e5e5 none repeat scroll 0 0;
+    display: block;
+    min-height: 30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.owm_suitup_wyswyg {
+    display:none !important;
+}
+
+.owm_suitup-editor {
+    padding: 10px;
+    border: 1px solid #b9b9b9;
+    overflow: auto;
+    background-color: white;
+    height:130px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+a.owm_suitup-control, span.owm_suitup-control {
+    background-color: #fff ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-color: 0 solid #ccc;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    width: 20%;
+    max-width: 80px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+a.owm_suitup-control.active{ 
+    background-color: red; 
+}
+
+.owm_suitup .owm_suitup-controls {
+    background-color: transparent;
+}
+.owm_suitup-controls a.owm_suitup-control {
+    background-size: 13px;
+}
+.owm_suitup-controls a.owm_suitup-control[data-command="bold"] {
+    background-image: url("images_mobile/ico_wysiwyg_b.svg");
+}
+.owm_suitup-controls a.owm_suitup-control[data-command="italic"] {
+    background-image: url("images_mobile/ico_wysiwyg_i.svg");
+}
+.owm_suitup-controls a.owm_suitup-control[data-command="underline"] {
+    background-image: url("images_mobile/ico_wysiwyg_u.svg");
+}
+.owm_suitup-controls a.owm_suitup-control[data-command="createlink"] {
+    background-image: url("images_mobile/ico_wysiwyg_link.svg");
+}
+.owm_suitup-controls a.owm_suitup-control[data-command="insertImage"] {
+    background-image: url("images_mobile/ico_wysiwyg_photo.svg");
+}
+.owm_suitup-controls a.owm_suitup-control[data-command="insertVideo"] {
+    background-image: url("images_mobile/ico_wysiwyg_video.svg");
+}

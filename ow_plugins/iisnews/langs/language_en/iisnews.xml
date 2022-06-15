@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnews" label="iisnews" language_tag="en" language_label="English">
+<key name="activity_string"><value>&lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; entryed new news entry: &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;</value></key>
+<key name="added"><value>Added</value></key>
+<key name="add_new"><value>Write new entry</value></key>
+<key name="add_new_link"><value>News entry</value></key>
+<key name="admin_news_settings_heading"><value>News plugin settings</value></key>
+<key name="admin_settings_results_per_page"><value>Entrys on page</value></key>
+<key name="authorization_failed_view_news"><value>Sorry, you are not allowed to read news</value></key>
+<key name="auth_action_label_add"><value>Add news entrys</value></key>
+<key name="auth_action_label_add_comment"><value>Comment news</value></key>
+<key name="auth_action_label_delete_comment_by_content_owner"><value>The content owner can delete comments</value></key>
+<key name="auth_action_label_view"><value>View news entrys</value></key>
+<key name="auth_group_label"><value>News</value></key>
+<key name="news"><value>News</value></key>
+<key name="news_archive_lbl_archives"><value>Archives</value></key>
+<key name="news_index"><value>News home</value></key>
+<key name="news_manage_delete"><value>delete</value></key>
+<key name="news_entry_description"><value>{$entry_body} Tags: {$tags}.</value></key>
+<key name="news_entry_title"><value>{$site_name} | {$entry_title}</value></key>
+<key name="news_widget_preview_length_lbl"><value>Preview Length</value></key>
+<key name="browse_by_tag_description"><value>Browse news entrys by tags: {$tags}and others.</value></key>
+<key name="browse_by_tag_item_description"><value>Browse news entrys tagged as `{$tag}`.</value></key>
+<key name="browse_by_tag_item_title"><value>`{$tag}` related news entrys - {$site_name}</value></key>
+<key name="browse_by_tag_title"><value>Browse news entrys by tags - {$site_name}</value></key>
+<key name="by"><value>By</value></key>
+<key name="change_status_draft"><value>Change Status to Draft</value></key>
+<key name="cmp_widget_entry_count"><value>Number of entrys to show</value></key>
+<key name="comments"><value>Comments:</value></key>
+<key name="comment_activity_string"><value>&lt;a href="{$actorUrl}"&gt;{$actor}&lt;/a&gt; commented on &lt;a href="{$ownerUrl}"&gt;{$owner}&lt;/a&gt;'s news: &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;</value></key>
+<key name="comment_notification_string"><value>&lt;a href="{$actorUrl}"&gt;{$actor}&lt;/a&gt; commented on your "&lt;a href="{$url}"&gt;{$title}&lt;/a&gt;" entry: {$comment}</value></key>
+<key name="news_notification_string"><value>a news has been published: &lt;a href="{$url}"&gt;"{$title}"&lt;/a&gt;</value></key>
+<key name="confirm_delete_photos"><value>Are you sure you want to remove ALL user photos?</value></key>
+<key name="content_news_label"><value>News</value></key>
+<key name="content_news_label"><value>News entry</value></key>
+<key name="create_draft_success_msg"><value>Entry saved as draft</value></key>
+<key name="create_success_msg"><value>Entry successfully published</value></key>
+<key name="delete_content"><value>Delete content and uninstall plugin</value></key>
+<key name="delete_content_desc"><value>Before uninstalling news plugin we have to remove all existing user content. This may take awhile. That is why we will put the site to "maintenance mode" and activate it back upon completing the uninstall.</value></key>
+<key name="delete_content_warning"><value>Warning</value></key>
+<key name="edit_draft_success_msg"><value>Changes saved, entry saved as draft</value></key>
+<key name="edit_success_msg"><value>Changes saved</value></key>
+<key name="email_notifications_setting_comment"><value>Someone comments on my entry</value></key>
+<key name="feed_activity_owner_entry_string"><value>commented on their news entry</value></key>
+<key name="feed_activity_owner_entry_string_like"><value>liked their news entry</value></key>
+<key name="feed_activity_entry_string"><value>commented on {$user}'s news entry</value></key>
+<key name="feed_activity_entry_string_like"><value>liked {$user}'s news entry</value></key>
+<key name="feed_add_item_label"><value>created a new news entry</value></key>
+<key name="feed_content_label"><value>News</value></key>
+<key name="feed_edit_item_label"><value>edited their news entry</value></key>
+<key name="flags"><value>News</value></key>
+<key name="go_to_news"><value>Browse all</value></key>
+<key name="index_widget_empty"><value>No news.</value></key>
+<key name="last_saved"><value>Last saved</value></key>
+<key name="latest_description"><value>Recently updated user news at {$site_name}.</value></key>
+<key name="latest_entry"><value>Lastest Entry</value></key>
+<key name="latest_title"><value>News - {$site_name}</value></key>
+<key name="list_page_heading"><value>News</value></key>
+<key name="main_menu_item"><value>News</value></key>
+<key name="management_page_heading"><value>Manage my news</value></key>
+<key name="manage_page_comment_deleted_msg"><value>Comment deleted</value></key>
+<key name="manage_page_last_updated"><value>Last updated</value></key>
+<key name="manage_page_menu_comments"><value>Incoming Comments</value></key>
+<key name="manage_page_menu_drafts"><value>Drafts</value></key>
+<key name="manage_page_menu_published"><value>Published Entrys</value></key>
+<key name="manage_page_entry_title"><value>Entry title</value></key>
+<key name="manage_page_status"><value>Status</value></key>
+<key name="menuItemBrowseByTag"><value>Browse by Tag</value></key>
+<key name="menuItemLatest"><value>Latest</value></key>
+<key name="menuItemMostDiscussed"><value>Most Discussed</value></key>
+<key name="menuItemTopRated"><value>Top Rated</value></key>
+<key name="meta_description_new_news_entry"><value>Write a new entry to your news.</value></key>
+<key name="meta_title_new_news_entry"><value>New news entry - {$site_name}</value></key>
+<key name="more"><value>more</value></key>
+<key name="most_discussed_description"><value>Most discussed user news entrys at {$site_name}.</value></key>
+<key name="most_discussed_title"><value>Most discussed news - {$site_name}</value></key>
+<key name="my_news"><value>My News</value></key>
+<key name="my_drafts"><value>Manage my news</value></key>
+<key name="new_entry"><value>New news entry</value></key>
+<key name="next_entry"><value>Next entry</value></key>
+<key name="notification_section_label"><value>News</value></key>
+<key name="not_yet"><value>Not added yet</value></key>
+<key name="no_entrys"><value>No entrys</value></key>
+<key name="on"><value>on</value></key>
+<key name="page_title_uninstall"><value>Uninstall news plugin</value></key>
+<key name="plugin_set_for_uninstall"><value>'News' plugin uninstall initiated.</value></key>
+<key name="entry_title"><value>Entry</value></key>
+<key name="news_specifications">
+<value>news specifications</value>
+</key>
+<key name="prev_entry"><value>Previous entry</value></key>
+<key name="privacy_action_comment_news_entrys"><value>Comment my news entrys</value></key>
+<key name="privacy_action_view_news_entrys"><value>View my news entrys</value></key>
+<key name="rate"><value>Rate:</value></key>
+<key name="read_more"><value>Read more</value></key>
+<key name="results_by_tag"><value>Tag search results for: "&lt;b&gt;{$tag}&lt;/b&gt;"</value></key>
+<key name="search_results_for"><value>Search results for: "&lt;b&gt;{$q}&lt;/b&gt;"</value></key>
+<key name="save_draft"><value>Save as Draft</value></key>
+<key name="save_btn_label"><value>Save</value></key>
+<key name="save_form_lbl_entry"><value>Entry Body</value></key>
+<key name="save_form_lbl_title"><value>Entry Subject</value></key>
+<key name="save_page_heading"><value>Create new news entry</value></key>
+<key name="save_publish"><value>Publish</value></key>
+<key name="settings"><value>Settings</value></key>
+<key name="status"><value>Status</value></key>
+<key name="status_draft"><value>Draft</value></key>
+<key name="status_published"><value>Published</value></key>
+<key name="tags"><value>Tags:</value></key>
+<key name="tags_field_label"><value>Tags</value></key>
+<key name="this_entry"><value>This entry</value></key>
+<key name="toolbar_comments"><value>comments</value></key>
+<key name="toolbar_delete"><value>Delete</value></key>
+<key name="toolbar_edit"><value>Edit</value></key>
+<key name="top_rated_description"><value>Top rated user news entrys at {$site_name}.</value></key>
+<key name="top_rated_title"><value>Top rated news - {$site_name}</value></key>
+<key name="uninstall_inprogress"><value>In progress</value></key>
+<key name="uninstall_inprogress_desc"><value>Please wait while all photo content is being removed. This make take awhile depending on the number of photos on your news.</value></key>
+<key name="update"><value>Update</value></key>
+<key name="usercredits_action_add_news"><value>Add news entrys</value></key>
+<key name="usercredits_action_add_comment"><value>Comment news</value></key>
+<key name="user_news_archive_description"><value>{$display_name}’s news entrys submitted in {$month_name}, {$year}.</value></key>
+<key name="user_news_archive_title"><value>{$month_name} archive of {$display_name}’s news</value></key>
+<key name="user_news_description"><value>Latest news entrys by {$display_name}.</value></key>
+<key name="user_news_page_heading"><value>{$name}'s news</value></key>
+<key name="user_news_title"><value>{$display_name}’s news - {$site_name}</value></key>
+<key name="user_news_widget_drafts"><value>Drafts</value></key>
+<key name="user_news_widget_published_incoming_comments"><value>Incoming comments</value></key>
+<key name="user_news_widget_published_entrys"><value>Published entrys</value></key>
+<key name="view_all"><value>View all</value></key>
+<key name="view_page_heading"><value>{$entryTitle} &lt;span class="ow_small"&gt;from &lt;a href="{$url}"&gt;{$name}'s news&lt;/a&gt;&lt;/span&gt;</value></key>
+<key name="notification_form_lbl_published"><value>News Publish Notification</value></key>
+<key name="email_notifications_setting_news"><value>News is published</value></key>
+<key name="save_form_lbl_date_enable"><value>Enable publish date modification</value></key>
+<key name="save_form_lbl_date"><value>Publish date</value></key>
+<key name="iisnews_mobile"><value>News</value></key>
+<key name="index_page_title"><value>{$site_name} | {$title}</value></key>
+<key name="index_page_heading"><value>News</value></key>
+<key name="tag_widget_heading"><value>Categorized news entries using tags</value></key>
+<key name="search_entries"><value>Search entries</value></key>
+	<key name="iisnews_sitemap">
+		<value>
+			News
+		</value>
+	</key>
+	<key name="add_form_image_label">
+		<value>
+			Image
+		</value>
+	</key>
+	<key name="search_by_entry_placeholder">
+		<value>
+			Enter text to search
+		</value>
+	</key>
+	<key name="search_by_tag_placeholder">
+		<value>
+			Enter tag to search
+		</value>
+	</key>
+	<key name="cmp_tags_widget_view_all_in_one">
+		<value>
+			View all news in one list
+		</value>
+	</key>
+		<key name="select_language_tag_widget">
+		<value>
+			Show in language
+		</value>
+	</key>
+		<key name="delete_image">
+		<value>
+			Delete Image
+		</value>
+	</key>
+	<key name="edit_page_heading">
+		<value>Edit news entry</value>
+	</key>
+	<key name="meta_description_edit_news_entry">
+		<value>
+			Edit an entry of your news
+		</value>
+	</key>
+	<key name="meta_title_edit_news_entry">
+		<value>
+			Edit news entry - {$site_name}
+		</value>
+	</key>
+	<key name="archive_news_archive_title"><value>{$month_name} archive of news in {$year}</value></key>
+	<key name="archive_news_archive_description"><value>news entrys submitted in {$month_name}, {$year}.</value></key>
+	<key name="archive_news_title"><value>news - {$site_name}</value></key>
+	<key name="archive_news_description"><value>Archive news entrys.</value></key>
+	<key name="comment_manage_my_news">
+		<value>Comments</value>
+	</key>
+	<key name="date_manage_my_news">
+		<value>Date</value>
+	</key>
+	<key name="are_you_sure_delete_news">
+		<value>
+			Are you sure to delete this news entry?
+		</value>
+	</key>
+	<key name="are_you_sure">
+		<value>
+			Are you sure to delete this comment?
+		</value>
+	</key>
+	<key name="manage_comment_page_actions">
+		<value>
+			Action
+		</value>
+	</key>
+	<key name="total_news">
+		<value>total news: {$total}
+		</value>
+	</key>
+
+</prefix>

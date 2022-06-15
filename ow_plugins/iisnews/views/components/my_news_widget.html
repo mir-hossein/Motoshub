@@ -1,0 +1,19 @@
+<table class="ow_table_3 ow_automargin ow_smallmargin">
+	<tr class="ow_tr_first">
+		<td class="ow_label">{text key='iisnews+user_news_widget_published_entrys'}</td>
+		<td class="ow_value"><a href="{url_for_route for="iisnews-manage-entrys"}" >{$count}</a></td>
+	</tr>
+	<tr>
+		<td class="ow_label">{text key='iisnews+user_news_widget_drafts'}</td>
+		<td class="ow_value"><a href="{url_for_route for="iisnews-manage-drafts"}" >{$draftCount}</a></td>
+	</tr>
+	<tr class="ow_tr_last">
+		<td class="ow_label">{text key='iisnews+user_news_widget_published_incoming_comments'}</td>
+		<td class="ow_value"><a href="{url_for_route for="iisnews-manage-comments"}" >{$commentCount}</a></td>
+	</tr>
+</table>
+
+<div class="ow_center ow_smallmargin">
+	{if $isAdmin}{capture assign="btnUrl"}{url_for_route for="entry-save-new"}{/capture}{/if}
+	{decorator name="button" onclick="window.location.href = '`$btnUrl`'" class="ow_ic_write" langLabel='iisnews+new_entry' }
+</div>

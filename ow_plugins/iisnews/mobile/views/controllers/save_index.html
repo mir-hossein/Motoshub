@@ -1,0 +1,116 @@
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="{$urlForBack}"></a>
+    </div>
+    <h3> {text key="base+back"}</h3>
+</div>
+<div class="owm_box">
+    <div class="owm_mobile_news" style="width: 100%;">
+        <div class="ow_blogentry_compose clearfix">
+
+            {if !$authMsg}
+            <div>
+                {form name="save"}
+                <input type="hidden" id="save_entry_command" name="command"/>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="title"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='title'}
+                        </div>{error name="title"}
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="entry"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='entry'}
+                        </div>{error name="entry"}
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="image"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='image' name='image'}
+                        </div>{error name="entry"}
+                        {if !empty($imgsrc)}
+                        <img src="{$imgsrc}" id="newsImg"/>
+                        {/if}
+                        {if !empty($imgsrc)}
+                        <a id="deleteImg" class="ow_button">{text key='iisnews+delete_image'}</a>
+                        {/if}
+                    </div>
+                </div>
+                {if isset($enPublishDate) && $enPublishDate}
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="enPublishDate"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='enPublishDate'}
+                        </div>
+                            <div style="display: none;" class="owm_form_field_label">
+                                {label name="publish_date"}
+                            </div>
+                            <div class="owm_form_field_value">
+                                {input name='publish_date'}
+                            </div>{error name="publish_date"}
+                        </div>
+                    </div>
+                </div>
+                {/if}
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="enSentNotification"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='enSentNotification'}
+                        </div>
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="tf"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='tf'}
+                        </div><br/>{error name="tf"}
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_value">
+                            <div class="ow_right owm_news_publish_draft">{submit name="publish" class="ow_button ow_green ow_positive"}</div>
+                            <div class="ow_right owm_news_publish_draft">{submit name="draft" class="ow_button ow_green ow_ic_save"}</div>
+                        </div>
+                    </div>
+                </div>
+                {/form}
+            </div>
+
+            {else}
+            <div class="ow_anno ow_std_margin ow_nocontent">{$authMsg}</div>
+            {/if}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    {literal}
+    $('#deleteImg').click(function(){
+        $("#deleteImage").val(1);
+        $( "#newsImg" ).remove();
+        $( "#deleteImg" ).remove();
+    });
+    {/literal}
+</script>

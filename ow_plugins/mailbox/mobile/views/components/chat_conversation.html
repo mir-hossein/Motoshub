@@ -1,0 +1,100 @@
+<div class="owm_chat_window" id="mailboxConversation"{if !empty($sendAuthMessage)} style="padding-bottom: 130px;"{/if}>
+    <div class="owm_chat_info_wrap clearfix">
+        <div class="owm_chat_info" id="mailboxBackToConversations">
+            <div class="owm_chat_back">
+                {if isset($backReffererUrl)}
+                    <a class="owm_nav_next" href="{$backReffererUrl}"></a>
+                {else}
+                    <a class="owm_nav_next" href="javascript://"></a>
+                {/if}
+            </div>
+            <div class="owm_chat_name_block owm_padding">
+                <div class="owm_avatar">
+                    <a href="#"><img src="{$defaultAvatarUrl}" title="#" alt="#"></a>
+                </div>
+                <div class="owm_profile_online" style="display: none;" id="onlineStatusBlock"></div>
+                <div class="owm_chat_name"><a href="#"><span>#</span></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="owm_align_center owm_padding" id="mailboxLoadHistoryBtn" style="display: none;"><div class="owm_info owm_box_padding owm_load_earlier">{text key="mailbox+load_earlier"}</div></div>
+    <div class="owm_preloader" id="mailboxLoadHistoryPreloader"></div>
+    <div class="owm_chat_block owm_std_margin_top" id="messageList">
+        <p class="no_messages_yet">{text key='mailbox+no_messages_yet'}</p>
+    </div>
+    <div class="clearfix" style="position: fixed;  width: 100%; bottom: 0px;">
+        <div id="mailboxConversationFooter" style="position: fixed; width: 100%; bottom: 0px;">
+            <div class="owm_input_wrap" id="newMessageForm">
+                {form name="newMessageForm" target="conversation-newmessage-submit-frame"}
+                {if empty($sendAuthMessage) }
+                <div class="owm_chat_add_cont owm_float_right">
+                    <a href="javascript://" class="owm_chat_add_icon"><input accept="*/*" type="file" id="newmessage-att-file" name="attachment"></a>
+                </div>
+                <input type="submit" style="display: none" id="newMessageAttBtn" name="newMessageAttBtn" />
+                {/if}
+                {/form}
+
+                <div class="owm_fake_input owm_chat_input_wrap">
+                    <textarea id="newMessageText" name="newMessageText" placeholder="{text key='mailbox+text_message_invitation' escape=true}"></textarea>
+                </div>
+                {if !empty($sendAuthMessage)}
+                <div class="owm_anno owm_info">{$sendAuthMessage}</div>
+                {/if}
+            </div>
+            {if empty($sendAuthMessage) }
+            <div class="owm_chat_submit owm_bg_color_3 comment_submit" id="newMessageSubmitForm">
+                <div class="owm_chat_btns owm_padding clearfix">
+                    <div class="owm_float_right owm_chat_btn" id="newmessage-mail-send-btn">{decorator name='button' type='submit' langLabel='mailbox+add_button' id='newMessageSendBtn' buttonName='newMessageSendBtn'}</div>
+                </div>
+            </div>
+            {/if}
+        </div>
+    </div>
+</div>
+
+<div style="display: none">
+    <iframe name="conversation-newmessage-submit-frame"></iframe>
+</div>
+
+
+<div id="mailbox_mobile_conversation_prototypes" style="display: none;">
+    <div class="owm_chat_time" id="dialogTimeBlockPrototypeBlock">#</div>
+</div>
+
+<script type="text/template" id="dialogChatMessagePrototypeBlock">
+    <div class="owm_chat_bubble_wrap">
+        <div class="owm_avatar" style="display: inline !important;">
+            <a href="javascript://"><img></a>
+        </div>
+        <div class="owm_chat_bubble">
+            <div class="ow_reply_massages" id="replyMessage" style="display: none !important;">
+                <a class="msg" href="javascript://">
+                    <a class="sender"></a>
+                    <p class="msg"></p>
+                </a>
+            </div>
+            <p class="message" dir="auto"><%= text %></p>
+        </div>
+    </div>
+
+
+</script>
+<div style="display: none">
+    <div id="dialogReplyToPrototypeBlock" class="ow_mailbox_reply_to clearfix message" style="padding-left: 10px;border-bottom: solid 1px #aaaaaa;padding-right: 10px;">
+        <a id="close" class="owm_nav_next ow_right" href="javascript://" style="margin-top: 10px;"><span></span></a>
+        <div style="margin-top: 20px;" class="ow_left">
+            <span>{text key='mailbox+reply_to'}</span>
+        </div>
+        <div class="owm_chat_bubble" id="dialogMessageWrapper" style="position: static !important;">
+            <p id="dialogMessageText"></p>
+        </div>
+    </div>
+
+    <div id="toolBoxPrototypeBlock" class="ow_mailbox_reply_to clearfix message">
+        <a id="close" class="owm_nav_next ow_right" href="javascript://"><span></span></a>
+        <a class="ow_mailbox_delete ow_left" title="{text key='mailbox+delete_tooltip'}" id="delete" href="javascript://" style="display: none !important;"><span></span></a>
+        <a class="ow_mailbox_copy ow_left" title="{text key='base+copy'}" href="javascript://"><span></span></a>
+        <a class="ow_mailbox_edit ow_left" title="{text key='mailbox+edit_tooltip'}" href="javascript://" style="display: none !important;"><span></span></a>
+        <a class="ow_mailbox_reply ow_left" title="{text key='mailbox+reply_to_tooltip'}" href="javascript://"><span></span></a>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="forum_widget_container"><div class="{if !empty($data.addClass)}{$data.addClass}{/if} clearfix">
+    <div class="forum_widget_avater">
+        {if !empty($data.avatar)}
+        {decorator name='avatar_item' data=$data.avatar class='rounded_image_container'}
+        {else}
+        {if isset($data.imageSrc)}
+        <img src="{$data.imageSrc}" alt="{$data.imageTitle}" title="{$data.imageTitle}" class="rounded_image_container" />
+        {/if}
+        {/if}
+    </div>
+</div>
+
+    <div class="ow_ipc_content forum_widget_content">{$data.content}</div>
+
+    <div class="forum_widget_footer">
+        <span class="forum_widget_path_to_forum">{$data.path_to_forum}</span>
+        <span class="forum_widget_date">{$data.toolbar.date.label}</span>
+    </div>
+
+    <div class="forum_widget_forums_divider"></div>
+</div>

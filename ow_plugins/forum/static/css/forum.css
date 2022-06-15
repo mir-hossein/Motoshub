@@ -1,0 +1,197 @@
+body .ow_forum_attachment_icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    width: 18px;
+    height: 20px;
+    margin-bottom: 1px;
+}
+body .ow_forum_lock_icon {
+    display: inline-block;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    cursor: initial;
+    width: 17px;
+    height: 18px;
+    margin-bottom: 2px;
+}
+span.ow_forum_sticky {
+    display: inline-block;
+    color: #ec2f2f !important;
+    background-color: inherit !important;
+    padding: 1px 3px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-shadow: none;
+    vertical-align: text-bottom;
+    border-radius: 2px;
+    margin-right: 2px;
+    border:1px solid #ec2f2f !important;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+
+.ow_forum_icon {
+    display: initial;
+}
+.owm_topic_list_locked:lang(fa-IR){
+    background: url(ico_comment_locked_read.svg) center center no-repeat !important;
+    float: right;
+    margin-left: 6px;
+    width: 12px;
+    height: 15px;
+    margin-top: 4px;
+    margin-right: -0.5px;
+}
+.owm_topic_sticky_icon:lang(fa-IR) {
+    background: initial !important;
+    display: inline-block;
+    color: #ec2f2f !important;
+    background-color: inherit !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-shadow: none;
+    vertical-align: text-bottom;
+    border-radius: 2px;
+    margin-right: 2px;
+    border:1px solid #ec2f2f !important;
+    margin-bottom: 2px;
+    font-size: 8px;
+    width: 15px;
+}
+.owm_topic_attach_icon{
+    width: 12px;
+    height: 15px;
+}
+.owm_topic_sticky_icon
+{
+    height: 13px;
+    float: left;
+    margin-top: 4px;
+    background: initial !important;
+    display: inline-block;
+    color: #ec2f2f !important;
+    background-color: inherit !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-shadow: none;
+    vertical-align: text-bottom;
+    border-radius: 2px;
+    border:1px solid #ec2f2f !important;
+    margin-bottom: 2px;
+    font-size: 7px;
+    width: 25px;
+}
+.owm_topic_list_locked{
+    background: url(ico_comment_locked_read.svg) center center no-repeat !important;
+    float: left;
+    margin-right: 6px;
+    width: 12px;
+    height: 15px;
+    margin-top: 4px;
+}
+
+
+.ow_forum_attachment.png .ow_forum_attachment_topic_container,
+.ow_forum_attachment.jpg .ow_forum_attachment_topic_container,
+.ow_forum_attachment.jpeg .ow_forum_attachment_topic_container,
+.ow_forum_attachment.gif .ow_forum_attachment_topic_container,
+.ow_forum_attachment.tiff .ow_forum_attachment_topic_container,
+.ow_forum_attachment.psd .ow_forum_attachment_topic_container,
+.ow_forum_attachment.bmp .ow_forum_attachment_topic_container,
+.ow_forum_attachment.svg .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.png,
+.ow_file_attachment_preview .ow_file_attachment_info.jpg,
+.ow_file_attachment_preview .ow_file_attachment_info.jpeg,
+.ow_file_attachment_preview .ow_file_attachment_info.gif,
+.ow_file_attachment_preview .ow_file_attachment_info.tiff,
+.ow_file_attachment_preview .ow_file_attachment_info.psd,
+.ow_file_attachment_preview .ow_file_attachment_info.bmp,
+.ow_file_attachment_preview .ow_file_attachment_info.svg{
+    background-image: url(../img/jpg.svg) !important;
+}
+.ow_forum_attachment.add .ow_forum_attachment_topic_container {
+    background-image: url(../img/add.svg);
+}
+.ow_forum_attachment.avi .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.avi{
+    background-image: url(../img/avi.svg);
+}
+.ow_forum_attachment.doc .ow_forum_attachment_topic_container,
+.ow_forum_attachment.docx .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.doc,
+.ow_file_attachment_preview .ow_file_attachment_info.docx{
+    background-image: url(../img/doc.svg);
+}
+.ow_forum_attachment .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info{
+    background-image: url(../img/file.svg);
+}
+.ow_forum_attachment.pdf .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.pdf{
+    background-image: url(../img/pdf.svg);
+}
+.ow_forum_attachment.trash .ow_forum_attachment_topic_container {
+    background-image: url(../img/trash.svg);
+}
+.ow_forum_attachment.txt .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.txt{
+    background-image: url(../img/txt.svg);
+}
+.ow_forum_attachment.xls .ow_forum_attachment_topic_container,
+.ow_forum_attachment.xlsx .ow_forum_attachment_topic_container,
+.ow_forum_attachment.csv .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.xls,
+.ow_file_attachment_preview .ow_file_attachment_info.xlsx,
+.ow_file_attachment_preview .ow_file_attachment_info.csv{
+    background-image: url(../img/xls.svg);
+}
+.ow_iisnewsfeedplus_attachment.zip .ow_iisnewsfeedplus_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.zip,
+.ow_file_attachment_preview .ow_file_attachment_info.rar{
+    background-image: url(../img/zip.svg);
+}
+.ow_forum_attachment.mp3 .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.mp3{
+    background-image: url(../img/mp3.svg);
+}
+.ow_forum_attachment.mp4 .ow_forum_attachment_topic_container,
+.ow_file_attachment_preview .ow_file_attachment_info.mp4{
+    background-image: url(../img/mp4.svg);
+}
+
+.ow_file_attachment_block1 .ow_file_attachment_info, .ow_file_attachment_block2 .ow_file_attachment_info {
+    background-size: 27px;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    background-position-x: 1px;
+    padding-left: 10px !important;
+    height: 100%;
+
+
+}
+.ow_file_attachment_name{
+    height: 30px !important;
+}
+.ow_file_attachment_info span.ow_file_attachment_string{
+    max-height: 100% !important;
+    top: 10px;
+    padding-left: 20px;
+    max-width: 65% !important;
+    width: initial;
+}
+
+.ow_file_attachment_info span.ow_file_attachment_size{
+    padding: 10px 4px 0px 1px;
+}
+.ow_file_attachment_string{
+    height: 100% !important;
+    position: relative;
+}
+.ow_forum_attachment_topic_container{
+    background-image: none !important;
+}

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="video" label="Video" language_tag="en" language_label="English">
+    <key name="activity_string">
+        <value>&lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; added new video: &lt;a href="{$url}"&gt;{$clipTitle}&lt;/a&gt;</value>
+    </key>
+    <key name="added">
+        <value>Added</value>
+    </key>
+    <key name="add_new">
+        <value>Add new</value>
+    </key>
+    <key name="admin_config">
+        <value>Video - Plugin Settings</value>
+    </key>
+    <key name="admin_menu_general">
+        <value>General</value>
+    </key>
+    <key name="auth_action_label_add">
+        <value>Add video</value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>Comment video</value>
+    </key>
+    <key name="auth_action_label_delete_comment_by_content_owner">
+        <value>The content owner can delete comments</value>
+    </key>
+    <key name="auth_action_label_view">
+        <value>View video</value>
+    </key>
+    <key name="auth_add_permissions">
+        <value>You can't add video due to limited permissions</value>
+    </key>
+    <key name="auth_group_label">
+        <value>Video</value>
+    </key>
+    <key name="auth_view_permissions">
+        <value>You are not allowed to view video</value>
+    </key>
+    <key name="btn_add">
+        <value>Add</value>
+    </key>
+    <key name="btn_edit">
+        <value>Save</value>
+    </key>
+    <key name="clips_by">
+        <value>Music video by</value>
+    </key>
+    <key name="clip_added">
+        <value>Video has been added</value>
+    </key>
+    <key name="clip_add_string">
+        <value>added new video</value>
+    </key>
+    <key name="clip_deleted">
+        <value>Video deleted</value>
+    </key>
+    <key name="clip_edited_string">
+        <value>edited their video</value>
+    </key>
+    <key name="clip_not_deleted">
+        <value>Video NOT deleted</value>
+    </key>
+    <key name="clip_updated">
+        <value>Video updated</value>
+    </key>
+    <key name="cmp_widget_user_video_show_titles">
+        <value>Show video titles</value>
+    </key>
+    <key name="cmp_widget_video_count">
+        <value>Number of videos to show</value>
+    </key>
+    <key name="cmp_widget_video_count_msg">
+        <value>Use a number between 1 and 20</value>
+    </key>
+    <key name="code">
+        <value>Embed code</value>
+    </key>
+    <key name="code_desc">
+        <value>Use video embed code (Only iframe) from resources like Youtube, Metacafe, Google Video and others.</value>
+    </key>
+    <key name="comment_activity_string">
+        <value>&lt;a href="{$commentorUrl}"&gt;{$commentor}&lt;/a&gt; commented on &lt;a href="{$ownerUrl}"&gt;{$owner}&lt;/a&gt;'s
+            video: &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;</value>
+    </key>
+    <key name="confirm_delete">
+        <value>Are you sure you want to delete video?</value>
+    </key>
+    <key name="content_video_group_label">
+        <value>Videos</value>
+    </key>
+    <key name="content_video_label">
+        <value>Video</value>
+    </key>
+    <key name="description">
+        <value>Description</value>
+    </key>
+    <key name="description_desc">
+        <value>Short description of the video</value>
+    </key>
+    <key name="email_notifications_rate">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; rated your video: &lt;a href="{$videoUrl}"&gt;{$videoTitle}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="email_notifications_comment">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; commented on &lt;a href="{$videoUrl}"&gt;{$videoTitle}&lt;/a&gt; video: {$comment}</value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>Video</value>
+    </key>
+    <key name="email_notifications_setting_rate">
+        <value>Someone rated my video</value>
+    </key>
+    <key name="email_notifications_setting_comment">
+        <value>Someone comments on my video</value>
+    </key>
+    <key name="feed_activity_owner_video_like">
+        <value>liked their video</value>
+    </key>
+    <key name="feed_activity_owner_video_string">
+        <value>commented on their video</value>
+    </key>
+    <key name="feed_activity_video_string">
+        <value>commented on {$user}'s video</value>
+    </key>
+    <key name="feed_activity_video_string_like">
+        <value>liked {$user}'s video</value>
+    </key>
+    <key name="feed_content_label">
+        <value>Video</value>
+    </key>
+    <key name="flags">
+        <value>Video</value>
+    </key>
+    <key name="mark_featured">
+        <value>Mark as Featured</value>
+    </key>
+    <key name="menu_featured">
+        <value>Featured</value>
+    </key>
+    <key name="menu_latest">
+        <value>Latest Public</value>
+    </key>
+    <key name="menu_tagged">
+        <value>Browse by Tag</value>
+    </key>
+    <key name="menu_toprated">
+        <value>Top Rated</value>
+    </key>
+    <key name="meta_description_user_video">
+        <value>Videos submitted by user {$displayName}</value>
+    </key>
+    <key name="meta_description_video_add">
+        <value>Add new video to {$site_name}.</value>
+    </key>
+    <key name="meta_description_video_featured">
+        <value>Best videos at {$site_name}! Staff picks!</value>
+    </key>
+    <key name="meta_description_video_latest">
+        <value>Recently uploaded videos at {$site_name}.</value>
+    </key>
+    <key name="meta_description_video_tagged">
+        <value>Videos by tags: {$topTags}, and others.</value>
+    </key>
+    <key name="meta_description_video_tagged_as">
+        <value>Browse videos tagged as '{$tag}'.</value>
+    </key>
+    <key name="meta_description_video_toprated">
+        <value>Top rated videos submitted by users at {$site_name}.</value>
+    </key>
+    <key name="meta_description_video_view">
+        <value>Video called '{$title}', tagged as {$tags}.</value>
+    </key>
+    <key name="meta_title_user_video">
+        <value>{$displayName}'s videos - {$site_name}</value>
+    </key>
+    <key name="meta_title_video_add">
+        <value>Add new video</value>
+    </key>
+    <key name="meta_title_video_featured">
+        <value>Featured videos - {$site_name}</value>
+    </key>
+    <key name="meta_title_video_latest">
+        <value>Recent videos - {$site_name}</value>
+    </key>
+    <key name="meta_title_video_tagged">
+        <value>Browse videos by tags - {$site_name}</value>
+    </key>
+    <key name="meta_title_video_tagged_as">
+        <value>'{$tag}' videos - {$site_name}</value>
+    </key>
+    <key name="meta_title_video_toprated">
+        <value>Top rated videos - {$site_name}</value>
+    </key>
+    <key name="meta_title_video_view">
+        <value>{$title} - Video at {$site_name}</value>
+    </key>
+    <key name="my_video">
+        <value>My Video</value>
+    </key>
+    <key name="no_video">
+        <value>No video</value>
+    </key>
+    <key name="no_video_found">
+        <value>No video found</value>
+    </key>
+    <key name="other_video">
+        <value>Other user videos</value>
+    </key>
+    <key name="page_title_add_video">
+        <value>Add Video</value>
+    </key>
+    <key name="page_title_browse_video">
+        <value>Video</value>
+    </key>
+    <key name="page_title_video_by">
+        <value>Video by {$user}</value>
+    </key>
+    <key name="pending_approval_feedback">
+        <value>The video is pending approval and will be available shortly</value>
+    </key>
+    <key name="per_page">
+        <value>Videos per page</value>
+    </key>
+    <key name="per_page_desc">
+        <value>Browsing lists of videos</value>
+    </key>
+    <key name="player_size">
+        <value>Main video player size</value>
+    </key>
+    <key name="privacy_action_view_video">
+        <value>View my video</value>
+    </key>
+    <key name="quota">
+        <value>Maximum number of videos per user</value>
+    </key>
+    <key name="quotas">
+        <value>Quotas</value>
+    </key>
+    <key name="quota_desc">
+        <value>Keep this number reasonably big</value>
+    </key>
+    <key name="quota_exceeded">
+        <value>You have exceeded video upload limit: {$limit}</value>
+    </key>
+    <key name="remove_from_featured">
+        <value>Remove from Featured</value>
+    </key>
+    <key name="resource_not_allowed">
+        <value>Video resource is not allowed</value>
+    </key>
+    <key name="settings_updated">
+        <value>Video settings updated</value>
+    </key>
+    <key name="size_desc">
+        <value>This is the size for player displayed on video page</value>
+    </key>
+    <key name="status_changed">
+        <value>Video status changed</value>
+    </key>
+    <key name="status_not_changed">
+        <value>Video status NOT changed</value>
+    </key>
+    <key name="tags">
+        <value>Tags</value>
+    </key>
+    <key name="tags_desc">
+        <value>Comma-separated</value>
+    </key>
+    <key name="tag_search">
+        <value>Tag Search</value>
+    </key>
+    <key name="tag_search_result">
+        <value>Tag search result for:</value>
+    </key>
+    <key name="tb_edit_clip">
+        <value>Edit Video</value>
+    </key>
+    <key name="title">
+        <value>Title</value>
+    </key>
+    <key name="total_video">
+        <value>{$total} videos total</value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>Comment video</value>
+    </key>
+    <key name="usercredits_action_add_video">
+        <value>Add video</value>
+    </key>
+    <key name="video">
+        <value>Videos</value>
+    </key>
+    <key name="video_add_tip">
+        <value>We allow to &lt;b&gt;embed existing videos&lt;/b&gt; from other video sharing sites only.</value>
+    </key>
+    <key name="video_by">
+        <value>Video by</value>
+    </key>
+    <key name="video_info">
+        <value>Video</value>
+    </key>
+    <key name="video_list_widget">
+        <value>Video</value>
+    </key>
+    <key name="view_settings">
+        <value>View Settings</value>
+    </key>
+    <key name="admin_page_heading">
+        <value>Video plugin settings</value>
+    </key>
+    <key name="admin_page_title">
+        <value>Video plugin settings</value>
+    </key>
+    <key name="video_sitemap">
+        <value>Video</value>
+    </key>
+    <key name="seo_meta_section">
+        <value>Video</value>
+    </key>
+    <key name="seo_meta_tagged_list_label">
+        <value>All Tagged Videos Page</value>
+    </key>
+    <key name="meta_title_tagged_list">
+        <value>Tagged Video | {$site_name}</value>
+    </key>
+    <key name="meta_desc_tagged_list">
+        <value>Watch all tagged videos at {$site_name}.</value>
+    </key>
+    <key name="meta_keywords_tagged_list">
+        <value></value>
+    </key>
+    <key name="seo_meta_view_list_label">
+        <value>Videos by List Type (Latest / Top Rated / Most Discussed) Page</value>
+    </key>
+    <key name="meta_title_view_list">
+        <value>{$video_list} videos | {$site_name}</value>
+    </key>
+    <key name="meta_desc_view_list">
+        <value>Watch all {$video_list} videos at {$site_name}.</value>
+    </key>
+    <key name="meta_keywords_view_list">
+        <value></value>
+    </key>
+    <key name="featured_list_label">
+        <value>Featured</value>
+    </key>
+    <key name="latest_list_label">
+        <value>Latest</value>
+    </key>
+    <key name="toprated_list_label">
+        <value>Top rated</value>
+    </key>
+    <key name="tagged_list_label">
+        <value>Tagged</value>
+    </key>
+    <key name="seo_meta_view_clip_label">
+        <value>View Specific Video Page</value>
+    </key>
+    <key name="meta_title_view_clip">
+        <value>"{$video_title}" video by {$user_name} | {$site_name}</value>
+    </key>
+    <key name="meta_desc_view_clip">
+        <value>Watch "{$video_title}" video on {$site_name} uploaded by {$user_name}.</value>
+    </key>
+    <key name="meta_keywords_view_clip">
+        <value></value>
+    </key>
+    <key name="seo_meta_tag_list_label">
+        <value>Videos Tagged by Specific Tag Page</value>
+    </key>
+    <key name="meta_title_tag_list">
+        <value>"{$video_tag_name}" tagged videos | {$site_name}</value>
+    </key>
+    <key name="meta_desc_tag_list">
+        <value>Watch all videos tagged "{$video_tag_name}" at {$site_name}.</value>
+    </key>
+    <key name="meta_keywords_tag_list">
+        <value></value>
+    </key>
+    <key name="seo_meta_user_video_list_label">
+        <value>Individual Member's Videos Page</value>
+    </key>
+    <key name="meta_title_user_video_list">
+        <value>Videos by {$user_name}, {$user_age} | {$site_name}</value>
+    </key>
+    <key name="meta_desc_user_video_list">
+        <value>Watch all videos uploaded by {$user_name}, {$user_age} on {$site_name}.</value>
+    </key>
+    <key name="meta_keywords_user_video_list">
+        <value></value>
+    </key>
+	<key name="latest_friends_list_label">
+        <value>Latest friends</value>
+    </key>
+	<key name="video_mobile">
+        <value>Videos</value>
+    </key>
+	<key name="latest_myvideo_list_label">
+        <value>My Videos – {$site_name}</value>
+    </key>
+	<key name="privacy_action_view_video_desc">
+        <value>By changing this field, the privacy of all built videos will be changed as well</value>
+    </key>
+    <key name="video_not_valid">
+        <value>Video is not valid</value>
+    </key>
+    <key name="video_add_select_type">
+        <value>Select input type</value>
+    </key>
+    <key name="video_add_select_code">
+        <value>Code (iframe)</value>
+    </key>
+    <key name="video_add_select_upload">
+        <value>Upload file</value>
+    </key>
+    <key name="video_add_select_aparat">
+        <value>Aparat link</value>
+    </key>
+    <key name="thumbnail_label">
+        <value>set thumbnail</value>
+    </key>
+    <key name="no_rated_video">
+        <value>There is no rated video</value>
+    </key>
+</prefix>

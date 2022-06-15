@@ -1,0 +1,26 @@
+<div class="ow_anno ow_stdmargin ow_center ow_ic_warning"><center>{$countInfo}</center></div>
+{if empty($postList)}
+    <!--<div class="ow_anno ow_stdmargin ow_center ow_ic_warning">{text key="base+empty_list"}</div>-->
+{else}
+    <div class="ow_forum_topic_posts">
+        {foreach from=$postList item=post name=postList}
+            {capture assign='tpl'}
+                {capture name='info_string'}
+                    <a href="{$avatars[$post.userId].url}">{$avatars[$post.userId].title}</a>
+                    <span class="ow_tiny ow_ipc_date ow_remark">{$post.createStamp}</span>
+                {/capture}
+
+                {capture name='content'}
+                    {add_content key="forum.before_post_add_content" postId=$post.id userId=$post.userId text=$post.text}
+                    <div class="post_content">{$post.text}</div>
+                    {add_content key="forum.after_post_add_content" postId=$post.id userId=$post.userId text=$post.text}
+                {/capture}
+
+                {decorator name='ipc' avatar=$avatars[$post.userId] content=$smarty.capture.content infoString=$smarty.capture.info_string toolbar=$toolbars[$post.id]}
+            {/capture}
+
+            <div class="ow_stdmargin clearfix" id="post-{$post.id}">{$tpl}</div>
+        {/foreach}
+    </div>
+    {if $paging}<center>{$paging}</center>{/if}
+{/if}

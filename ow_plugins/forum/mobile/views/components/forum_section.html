@@ -1,0 +1,48 @@
+<div class="owm_forum_page owm_forum_section owm_list_page">
+    <div class="owm_std_margin_bottom">
+{if empty($sectionGroupList)}
+        <div class="ow_nocontent">{text key="forum+no_forums"}</div>
+{else}
+  {foreach from=$sectionGroupList item='section'}
+
+    {if !$singleMode}
+        <div class="owm_std_margin_bottom owm_forum_section_wrap">
+             <div class="owm_nav_cap owm_nav_cap_right_cont owm_forum_section_cap owm_bg_color_3 owm_border clearfix">
+                 <div class="owm_float_right">
+                     <a class="owm_nav_cap_right" href="{$section.sectionUrl}"></a>
+                 </div>
+                 <a href="{$section.sectionUrl}"><h3>{$section.sectionName}</h3></a>
+             </div>
+        </div>
+    {/if}
+
+    {foreach from=$section.groups item='group'}
+        <div class="owm_list_item_view clearfix">
+            <a href="{$group.groupUrl}">
+                <div class="owm_list_item_view_header clearfix">
+                    <span class="owm_list_item_view_title">{$group.name|truncate:50:" ..."}</span>
+                </div>
+            </a>
+
+            <div class="owm_list_item_view_body">
+                <div class="owm_list_item_view_body_text clearfix">
+                    {$group.description}
+                </div>
+            </div>
+
+            <div class="owm_list_item_view_footer">
+                {if !empty($group.lastReply)}
+                    <span class="owm_small owm_padding">{text key='forum+last_reply'} {text key='forum+by'} <a href="{$group.lastReply.postUrl}">{$displayNames[$group.lastReply.userId]}</a>
+                        <span class="owm_small owm_padding">({format_date timestamp=$group.lastReply.createStamp})</span>
+                    </span>
+                {/if}
+                <a href="{$group.groupUrl}"><div class="owm_list_footer_comments owm_newsfeed_control_comment ow_right">{$group.topicCount}</div></a>
+            </div>
+        </div>
+    {/foreach}
+
+  {/foreach}
+{/if}
+
+    </div>
+</div>

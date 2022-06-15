@@ -1,0 +1,103 @@
+td.delete_file,
+td.fileEventImage{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+td.delete_file img{
+    max-width: 20px !important;
+    width: 20px !important;
+}
+
+.fileEventImage img{
+    max-width: 25px !important;
+    width: 25px !important;
+    vertical-align: middle;
+}
+
+.owm_event_list.files_list span.ow_nowrap.delete_file a {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 15px;
+    display: block;
+}
+
+.owm_event_list.files_list span.ow_nowrap.delete_file a span {
+    font-size: 0px;
+}
+
+.owm_event_list.files_list .ow_delimiter {
+    display: none;
+}
+
+span.ow_nowrap.delete_file {
+    float: left;
+}
+
+.owm_event_list.files_list .ow_ipc_picture {
+    max-width: 30px;
+}
+
+img.add_item_icon {
+    width: 25px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.event-IISEVENTPLUS_CMP_FileListWidget td,
+table.event_files td.file_name{
+    text-align: justify;
+}
+
+.owm_event_list .owm_list_item_with_image {
+    float: left;
+    width: 100%;
+    margin: 3px 0;
+    padding: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: white;
+    font-size: 13px;
+    line-height: initial;
+}
+
+.owm_event_list .owm_list_item_with_image {
+    border: 1px solid #b6b6b6;
+}
+.owm_event_list{
+    margin: 3px 3px 0px 3px;
+}
+
+.owm_event_list .ow_ipc_picture img {
+    width: 40px !important;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+.owm_event_list .owm_list_item_with_image .ow_ipc_info .ow_ipc_content{
+    display: none;
+}
+
+.owm_event_list .owm_list_item_with_image .ow_ipc_info .ow_ipc_toolbar{
+    margin-top: 3px;
+}
+
+.owm_event_list .owm_list_item_with_image .ow_ipc_info .ow_ipc_header a{
+    font-size: 85%;
+}
+
+.owm_event_list .owm_list_item_with_image .ow_ipc_info .ow_ipc_header{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.owm_events_view .owm_view_file_list {
+    background-color: white;
+}
+
+.owm_events_view .owm_view_file_list .owm_box {
+    border: none;
+}

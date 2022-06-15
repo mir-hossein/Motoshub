@@ -1,0 +1,48 @@
+.page_collapsible {
+    float: right;
+    cursor: pointer;
+    display: block !important;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.ow_dnd_widget_customize .page_collapsible {
+    top: 6px;
+    left: 55px;
+}
+
+.page_collapsible:lang(en) {
+    float: right;
+    right: 14px;
+    left: auto;
+}
+
+.page_collapsible.collapse-close,
+.page_collapsible.collapse-open{
+    width: 20px;
+    margin: -9px;
+    height: 15px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.ow_sign_in_cont .ow_sign_in span.page_collapsible.collapse-open {
+    display: none !important;
+}
+
+.floatbox_body span.page_collapsible.collapse-open,
+.floatbox_body span.page_collapsible.collapse-close{
+    display: none !important;
+}
+
+.owm_widget_hidden {
+    display: none;
+}
+
+div[class$='Widget'],
+div[class$='_widget'],
+div.ow_dnd_widget,
+form#DisplayNameSearchForm{
+    position: relative;
+}

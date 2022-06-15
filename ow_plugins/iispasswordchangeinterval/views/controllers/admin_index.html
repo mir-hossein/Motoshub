@@ -1,0 +1,177 @@
+{*
+
+/**
+* Copyright (c) 2016, Yaser Alimardany
+* All rights reserved.
+*/
+
+*}
+
+<table class="ow_table_1 ow_form">
+    <tbody>
+    {form name="settings"}
+        <tr>
+            <th colspan="2">
+                {text key="iispasswordchangeinterval+change_password_per_day_description"}
+            </th>
+        </tr>
+        <tr class="ow_alt2">
+            <td width="1" class="ow_label">
+                {label name='expTime'}
+            </td>
+            <td class="ow_value">
+                {input name='expTime'}
+                {error name='expTime'}
+            </td>
+        </tr>
+        <tr class="ow_alt2">
+            <td width="1" class="ow_label">
+                {text key="iispasswordchangeinterval+deal_with_expired_password"}
+            </td>
+            <td class="ow_value">
+                {input name='dealWithExpiredPassword'}
+                {error name='dealWithExpiredPassword'}
+            </td>
+        </tr>
+        <tr class="ow_tr_last ow_center">
+            <td colspan="2">
+                {submit name='save'}
+            </td>
+        </tr>
+    {/form}
+    </tbody>
+</table>
+
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+
+{if $sectionId != 1}
+<div class="ow_left place_section left_section ow_column">
+    {form name="search"}
+    <table class="ow_table_1 ow_form">
+        <tbody>
+        <tr>
+            <th colspan="2">
+                {text key="iispasswordchangeinterval+find_users"}
+            </th>
+        </tr>
+        <tr class="ow_alt2">
+            <td width="1" class="ow_label">
+                {text key="iispasswordchangeinterval+search_username"}
+            </td>
+            <td class="ow_value">
+                {input name='username'}
+                {error name='username'}
+            </td>
+        </tr>
+        <tr class="ow_tr_last ow_center">
+            <td colspan="2">
+                {submit name='save'}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    {/form}
+</div>
+{/if}
+
+
+{if $sectionId == 1}
+<table class="ow_table_1">
+    <tbody>
+    <tr>
+        <td style="min-width: 175px;">
+            <a href="{{$invalidateAllPasswordsUrl}}" style="color:red">{{$invalidateAllPasswordsLabel}}</a>
+        </td>
+        <td>
+            {text key="iispasswordchangeinterval+set_all_password_invalid_description"}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="{{$expireAllPasswordsUrl}}" style="color:red">{{$expireAllPasswordsLabel}}</a>
+        </td>
+        <td>
+            {text key="iispasswordchangeinterval+set_all_password_expired_description"}
+        </td>
+    </tr>
+    </tbody>
+</table>
+{else if $sectionId == 2}
+<div class="ow_right place_section left_section ow_column">
+    <table class="ow_table_1">
+        <tbody>
+        <tr>
+            <th colspan="3">
+                {text key="iispasswordchangeinterval+valid_users_header"}
+            </th>
+        </tr>
+        <tr>
+            <th>
+                {text key="iispasswordchangeinterval+username_label"}
+            </th>
+            <th>
+                {text key="iispasswordchangeinterval+email_label"}
+            </th>
+            <th>
+                {text key="iispasswordchangeinterval+invalidate"}
+            </th>
+        </tr>
+        {foreach from=$users item='user'}
+        <tr>
+            <td>
+                {$user.username}
+            </td>
+            <td>
+                {$user.email}
+            </td>
+            <td>
+                <a class="ow_cursor_pointer {$changeStatusClass}" title="{$changeStatusLabel}" onclick="{$user.changeStatusUrl}"><img width="16" alt="{$changeStatusLabel}" src="{$invalidUserImgUrl}" /></a>
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+</div>
+{else}
+<div class="ow_right place_section left_section ow_column">
+    <table class="ow_table_1">
+        <tbody>
+        <tr>
+            <th colspan="3">
+                {text key="iispasswordchangeinterval+invalid_users_header"}
+            </th>
+        </tr>
+        <tr>
+            <th>
+                {text key="iispasswordchangeinterval+username_label"}
+            </th>
+            <th>
+                {text key="iispasswordchangeinterval+email_label"}
+            </th>
+            <th>
+                {text key="iispasswordchangeinterval+validate"}
+            </th>
+        </tr>
+        {foreach from=$users item='user'}
+        <tr>
+            <td>
+                {$user.username}
+            </td>
+            <td>
+                {$user.email}
+            </td>
+            <td>
+                <a class="ow_cursor_pointer {$changeStatusClass}" title="{$changeStatusLabel}" onclick="{$user.changeStatusUrl}"><img width="16" alt="{$changeStatusLabel}" src="{$validUserImgUrl}" /></a>
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+</div>
+{/if}

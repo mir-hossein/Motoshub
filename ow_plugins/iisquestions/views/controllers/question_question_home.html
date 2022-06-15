@@ -1,0 +1,10 @@
+<div class="questions-list-menu-wrap clearfix">
+    {$menu}
+</div>
+{if isset($list) }
+<div class="questions-page questions-all">
+    {$list}
+</div>
+{else}
+<p>{text key="iisquestions+question_list_no_items"}</p>
+{/if}

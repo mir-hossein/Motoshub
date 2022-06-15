@@ -1,0 +1,44 @@
+<div class="clearfix">{add_content key='video.add_content.list.top' listType=$listType}</div>
+
+{if $showAddButton}
+    <div class="owm_box_heading_btns">
+        <input type="button" id='btn-add-new-video' class="owm_add_photo ow_ic_add owm-btn-add-new-video" style="border: none;" />
+    </div>
+{/if}
+
+{$menu}
+
+{add_content key='video.content.list.after_menu' listType=$listType}
+
+{if isset($tag)}
+    <div class="owm_box">
+        <div class="owm_form_field_container">
+            <div class="owm_form_field_wrap">
+                <div class="owm_form_field_label"> {text key='base+tag_search'}</div>
+                <div class="owm_form_field_value"><input type="text" class="ow_text" id="video-tag-search-input" /></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="owm_search_results">
+        <div class="owm_info owm_anno owm_box">
+            {text key='video+tag_search_result'} "<b>{$tag}</b>"
+        </div>
+    {component class='VIDEO_MCMP_VideoList' type=$listType count=5 tag=$tag}
+    </div>
+{else}
+    <div class="owm_box" >
+        <div class="owm_form_field_container">
+            <div class="owm_form_field_wrap">
+                <div class="owm_form_field_label">{text key='base+tag_search'}</div>
+                <div class="owm_form_field_value"><input type="text" class="ow_text" id="video-tag-search-input" /></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="owm_left ow_superwide">
+        {$tags}
+    </div>
+{/if}
+
+{add_content key='video.content.list.bottom' listType=$listType}

@@ -1,0 +1,99 @@
+{style}
+{literal}
+.owm_photo_stage { background-image: url({/literal}{$url}{literal}); }
+{/literal}
+{/style}
+
+{script}
+{literal}
+$("#image-gallery").click(function(){
+var viewer = ImageViewer();
+var imgSrc = $('#imageItem')[0].src;
+var imageitem = document.getElementById('imageItem');
+highResolutionImage = imageitem.getAttribute('data-high-res-src');
+viewer.show(imgSrc, highResolutionImage);
+});
+{/literal}
+{/script}
+<!--display: inline-block;
+vertical-align: middle;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+min-height: 150px;-->
+<div>
+    {if !empty($authError)}
+    <div class="owm_padding">
+        <div class="owm_info owm_anno">{$authError}</div>
+    </div>
+    {else}
+    <div class="owm_list_item_view_title clearfix owm_nav_cap owm_nav_cap_left_cont owm_nav_cap_right_cont owm_bg_color_3 owm_border">
+        <div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+        </div>
+        <h4>
+            {text key="base+back"}
+        </h4>
+    </div>
+    <div class="owm_photo_view">
+        <div class="owm_photo_bg">
+            <div class="owm_photo_holder">
+                <div id="image-gallery" class="cf owm_photo_stage">
+                    <img id="imageItem" src="{$url}" data-high-res-src="{$url}" alt="{$photo->description|escape}" class="gallery-item" />
+                </div>
+                <!-- <div class="owm_photo_stage"><img src="{$url}" alt="{$photo->description|escape}" /></div>-->
+                {if $nextPhoto}<a href="{url_for_route for="view_photo:[id=>`$nextPhoto`]"}" class="owm_photo_next"></a>{/if}
+                {if $previousPhoto}<a href="{url_for_route for="view_photo:[id=>`$previousPhoto`]"}" class="owm_photo_prev"></a>{/if}
+            </div>
+            <div class="owm_photo_info">
+                <div class="owm_photo_album_block clearfix">
+                    <div class="owm_photo_album owm_float_left">
+                        <span class="owm_photo_number">{$photoIndex}</span> / <span class="owm_photo_amount">{$photoCount}</span>
+                    </div>
+                    {if $fullsizeUrl}<a class="owm_photo_enlarge owm_float_right" href="{$fullsizeUrl}"></a>{/if}
+                </div>
+
+                <div class="owm_photo_box_toolbar">
+                    {if isset($item.privacy_label)}{if isset($item.privacy_label.onClick)}<a class="privacy_label" id="{$item.privacy_label.id}" href="{$item.privacy_label.onClick}">{/if}<img class="ow_nowrap create_time ow_newsfeed_date ow_small feed_image_privacy" src="{$item.privacy_label.imgSrc}" title="{$item.privacy_label.label}" />{if isset($item.privacy_label.onClick)}</a>{/if}{/if}
+                    {if isset($delete)}
+                    <div>
+                        <span class="ow_nowrap">
+                            <a class="ow_cursor_pointer" onclick="{$delete.onclick}" id="photo-delete">
+                                {$delete.label}
+                            </a>
+                        </span>
+                    </div>
+                    {/if}
+                </div>
+
+                {if $photo->description}<div class="owm_photo_descr">{$photo->description}</div>{/if}
+
+                <div class="owm_photo_author clearfix">
+                    <div class="owm_photo_string">
+                        <div class="owm_photo_date">{text key="photo+photo_uploaded_date"} {format_date timestamp=$photo->addDatetime}</div>
+                        <div class="owm_photo_name">{text key="photo+photo_uploaded_by"} <a href="{$avatar.url}">{$avatar.title}</a></div>
+                        <div class="owm_photo_album">{text key="photo+photo_uploaded_album"}
+                            <a href="{$albumUrl}">{$album->name|truncate:60}</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="photo_widget" style="border-top: 1px solid #ccc;padding: 11px;">
+                {$rate}
+                {if isset($avgScore)}
+                <div class="owm_photo_avg_description">
+                    {text key="base+rates_box_cap_label"}
+                </div>
+                <div class="owm_photo_avg_value">
+                    {$avgScore}
+                </div>
+                {/if}
+            </div>
+        </div>
+    </div>
+    <div class="owm_box photo_view_comments {if isset($iismenu_active)} iismenu-active {/if}">
+        {$comments}
+    </div>
+    {/if}
+</div>

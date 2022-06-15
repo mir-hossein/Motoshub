@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnewsfeedpin" label="iisoghat" language_tag="en" language_label="English">
+    <key name="pin_button_label">
+        <value>
+            Pin
+        </value>
+    </key>
+    <key name="life_span_label">
+        <value>
+            Life Span
+        </value>
+    </key>
+    <key name="un_pin_button_label">
+        <value>
+            Remove Pin
+        </value>
+    </key>
+    <key name="delete_label">
+        <value>
+            Delete pin
+        </value>
+    </key>
+    <key name="apply_label">
+        <value>
+            Apply
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            Newsfeed Pin Setting
+        </value>
+    </key>
+    <key name="max_pin_number">
+        <value>
+            Max pin feed to show
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            Settings
+        </value>
+    </key>
+    <key name="delete_fail">
+        <value>
+            Pin deletion failed
+        </value>
+    </key>
+    <key name="delete_success">
+        <value>
+            Pin deletion was successful
+        </value>
+    </key>
+    <key name="top_pin_title">
+        <value>
+            Top pins
+        </value>
+    </key>
+    <key name="list_menu_item_all">
+        <value>
+            All Items
+        </value>
+    </key>
+    <key name="list_menu_item_pins">
+        <value>
+            Pinned Items
+        </value>
+    </key>
+    <key name="pin_setting">
+        <value>
+            Pin setting
+        </value>
+    </key>
+    <key name="add_fail">
+        <value>
+            Pinning failed
+        </value>
+    </key>
+    <key name="add_success">
+        <value>
+            Successfully pinned
+        </value>
+    </key>
+</prefix>

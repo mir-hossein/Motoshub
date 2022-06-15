@@ -1,0 +1,11 @@
+<div id="search_content">
+    <div id="search_input_content">
+        <input type="text" id="search_input_item" name="search_input_item" placeholder="{text key='iisadvancesearch+search_title'}"
+               onkeyup="iissearch_doSearch('{$searchActionUrl}','search_input_item')" />
+    </div>
+    <div id="div_result_search_items"></div>
+</div>
+
+{script}
+$("#search_input_item").focus();
+{/script}

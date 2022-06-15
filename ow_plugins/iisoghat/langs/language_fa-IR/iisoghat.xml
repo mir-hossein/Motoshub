@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisoghat" label="iisoghat" language_tag="fa-IR" language_label="فارسی">
+    <key name="main_menu_item">
+        <value>
+            اوقات شرعی
+        </value>
+    </key>
+    <key name="Azan_am">
+        <value>
+            اذان صبح
+        </value>
+    </key>
+    <key name="Time_horizon">
+        <value>
+            اوقات به افق
+        </value>
+    </key>
+    <key name="Sunrise">
+        <value>
+            طلوع خورشید
+        </value>
+    </key>
+    <key name="Azan_pm">
+        <value>
+            اذان ظهر
+        </value>
+    </key>
+    <key name="Sunset">
+        <value>
+            غروب خورشید
+        </value>
+    </key>
+    <key name="azan_maghreb">
+        <value>
+            اذان مغرب
+        </value>
+    </key>
+    <key name="until">
+        <value>
+            مانده تا
+        </value>
+    </key>
+    <key name="Azan_am_time_horizon">
+        <value>
+            اذان صبح به افق
+        </value>
+    </key>
+    <key name="Azan_pm_time_horizon">
+        <value>
+            اذان ظهر به افق
+        </value>
+    </key>
+    <key name="azan_maghreb_time_horizon">
+        <value>
+            اذان مغرب به افق
+        </value>
+    </key>
+</prefix>

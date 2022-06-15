@@ -1,0 +1,40 @@
+<div class="owm_video_view">
+	<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+		<div class="owm_float_left">
+			<a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+		</div>
+        <h3> {text key="base+back"}</h3>
+	</div>
+	<div class="owm_box owm_video_player" style="margin-top:10px">
+        {block_decorator name='box' type='empty' addClass='ow_video_player ow_stdmargin' toolbar=$toolbar}
+        {component class='VIDEO_MCMP_VideoPlayer' id=$clip->id}
+        {/block_decorator}
+
+	   	<div class="owm_video_description">{$clip->description}</div>
+
+		<div class="owm_video_additional_info">
+			<div>
+				<span class="owm_label">{text key='video+added'}</span>
+				{format_date timestamp=$clip->addDatetime}
+			</div>
+			<div>
+				<span class="owm_label">{text key='base+by'}</span>
+				{if $username && $displayName}{user_link username=$username name=$displayName}{else}{$displayName}{/if}
+			</div>
+            {if isset($tags)}
+			<div class="owm_list_footer_tags">
+				<span>
+					{text key='video+tags'}: {$tags}
+				</span>
+			</div>
+            {/if}
+			<div>
+				{add_content key='socialsharing.get_sharing_buttons' title=$clip->title description=$clip->description entityType='video' entityId=$clip->id}
+			</div>
+		</div>
+	</div>
+	<div class="owm_box video_view_comments {if isset($iismenu_active)} iismenu-active {/if}">
+		{$comments}
+	</div>
+	{component class='VIDEO_MCMP_OtherVideoList' exclude=$clip->id itemsNum=3}
+</div>

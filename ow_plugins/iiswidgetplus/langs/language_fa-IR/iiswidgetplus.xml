@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iiswidgetplus" label="iiswidgetplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="display_rate_widget">
+        <value>
+           نمایش ابزارک امتیاز به:
+        </value>
+    </key>
+    <key name="all_users">
+        <value>
+            همه کاربران
+        </value>
+    </key>
+    <key name="only_login_users">
+        <value>
+            همه به غیر از کاربران مهمان
+        </value>
+    </key>
+    <key name="settings_updated">
+        <value>
+            تنظیمات به‌روز شد
+        </value>
+    </key>
+    <key name="index_page_title">
+        <value>
+            مدیریت ابزارک‌ها
+        </value>
+    </key>
+    <key name="index_page_heading">
+        <value>
+            مدیریت ابزارک‌ها
+        </value>
+    </key>
+</prefix>

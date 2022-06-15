@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>ویرایش‌گر متن پیشرفته</name>
+	<key>iisadvanceeditor</key>
+    <description>
+        استفاده از ویرایشگر متن پیشرفته در صفحاتی که به کاربر اجازه نوشتن متن با قابلیت درج مولفه‌های HTML داده شده است. این ویرایشگر از نسخه 4.7.1 کتابخانه CKEditor استفاده می‌کند. در صورت انتخاب گزینه ‌"غیرفعال‌سازی  HTML" در تنظیمات محتوا در مدیریت  این افزونه  قابل استفاده نیست.
+    </description>
+	<author>Yaser Alimardani</author>
+	<authorEmail>yaser.alimardany@gmail.com</authorEmail>
+	<developerKey>1</developerKey>
+	<build>10819</build>
+	<copyright>(C) 2016 IIS center. All rights reserved.</copyright>
+	<license>shub.ir</license>
+	<licenseUrl>http://shub.ir</licenseUrl>
+	<category>
+		<item>essential</item>
+        <item>published</item>
+	</category>
+</plugin>

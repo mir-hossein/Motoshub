@@ -1,0 +1,15 @@
+{if $attachmentBox == true}
+    {foreach from=$attachmentItemsParams item='item'}
+    <span class="ow_iisnewsfeedplus_attachment {$item.extension}">
+        <span class="ow_iisnewsfeedplus_attachment_icon ow_ic_attach">
+
+        </span>
+        <div class="ow_iisnewsfeedplus_attachment_topic_container">
+            <a class="photo_view_more" href="{$item.downloadUrl}" target="_blank">
+                {$item.filename}
+            </a>
+            <br>
+        </div>
+    </span>
+    {/foreach}
+{/if}

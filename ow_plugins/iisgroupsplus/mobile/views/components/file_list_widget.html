@@ -1,0 +1,28 @@
+<div class="owm_lp_avatars">
+    <div class="owm_group_files">
+        <table class="owm_table_1 owm_form owm_stdmargin">
+            {foreach from=$fileList item='file' name='file'}
+            <tr class="owm_alt2 ow_tr_first">
+                <td>
+                    <a class="fileGroupImage" href="{$file.fileUrl}" target="_blank">
+                        <img src="{$file.iconUrl}" alt="{$file.fileName|escape}" title="{$file.fileName}"  />
+                    </a>
+                    <a href="{$file.fileUrl}" target="_blank">{$file.truncatedFileName}  </a>
+                </td>
+            </tr>
+            {foreachelse}
+            <tr class="owm_alt2 ow_tr_first">
+                <td>
+                    <div class="owm_nocontent">{text key='iisgroupsplus+file_list_widget_empty'}</div>
+                </td>
+            </tr>
+            {/foreach}
+        </table>
+    </div>
+    {if isset($showAdd) && $showAdd==true}
+    <input type="button" class="owm_ic_add " style="border: none;" value={text key="iisgroupsplus+add_file"} onclick="showUploadFileIntoGroupForm({$groupId})"/>
+    {/if}
+    {if isset($view_all_files)}
+    {decorator name='button' class=''  langLabel='iisgroupsplus+view_all_files' onclick="location.href='`$view_all_files`'"}
+    {/if}
+</div>

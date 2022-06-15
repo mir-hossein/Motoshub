@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="privacy" label="Privacy" language_tag="en" language_label="English">
+<key name="action_action_data_not_changed">
+	<value>
+		Settings not changed
+	</value>
+</key>
+<key name="action_action_data_was_saved">
+	<value>
+		The changes you made are being applied. This can take some time.
+	</value>
+</key>
+<key name="bottom warning">
+	<value>
+		It may take some time for these settings to apply.
+	</value>
+</key>
+<key name="no_items">
+	<value>
+		no items
+	</value>
+</key>
+<key name="privacy_description">
+	<value>
+		Here you can set access permissions to your content for other users
+	</value>
+</key>
+<key name="privacy_everybody">
+	<value>
+		Everybody
+	</value>
+</key>
+<key name="privacy_index">
+	<value>
+		Privacy
+	</value>
+</key>
+<key name="privacy_no_permission_heading">
+	<value>
+		Private
+	</value>
+</key>
+<key name="privacy_no_permission_message">
+	<value>
+		{$display_name} chooses not to share this content.
+	</value>
+</key>
+<key name="privacy_only_for_me">
+	<value>
+		Only me
+	</value>
+</key>
+<key name="privacy_submit_button">
+	<value>
+		Save
+	</value>
+</key>
+<key name="no_permission_message">
+	<value>
+		You do not have permission to view this page
+	</value>
+</key>
+</prefix>

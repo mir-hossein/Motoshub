@@ -1,0 +1,53 @@
+<div class="ow_page_wrap blank_page">
+	<div class="ow_site_panel clearfix">
+	</div>
+	<div class="ow_header">
+        <div class="ow_header_pic"></div>
+	</div>
+	<div class="ow_page_padding">
+		<div class="ow_page_container">
+			<div class="ow_canvas">
+				<div class="ow_page ow_bg_color clearfix">
+					<div class="ow_content">
+						{$content}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ow_footer blank_page">
+	<div class="ow_canvas">
+		<div class="ow_page clearfix">
+			<div class="ow_copyright">
+				{text key='base+copyright' site_name=$site_name}
+			</div>
+			<div class="ow_copyright_logo">
+
+			</div>
+			<div class="powered_by_logo">
+				<div class="powered_by">
+					<a href="http://shub.ir" target="_blank">
+						{text key='base+powered_by_community'}
+					</a>
+				</div>
+				<div class="ow_logos">
+					{$bottomPoweredByLink}
+				</div>
+			</div>
+			<div class="created_by">
+				<a href="http://iiscenter.ir" target="_blank">
+					تولید شده توسط مرکز راه‌کارهای اطلاعاتی هوشمند
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+{decorator name='floatbox'}
+<script type="text/javascript">
+	$('.ow_sign_up').after($('.ow_sign_in'));
+	$('<div class="clearfix"></div>').appendTo($('.ow_sign_in'));
+	$('.ow_sign_in > .clearfix').append($('.ow_form_options .ow_button'));
+	$('.ow_sign_in > .clearfix').append($('.ow_sign_up p:last-child a'));
+	$('.ow_sign_in > .clearfix').after($('.ow_connect_buttons .clearfix'));
+</script>

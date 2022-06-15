@@ -1,0 +1,102 @@
+/**
+ * @author Issa Annamoradnejad <i.moradnejad@gmail.com>
+ * @package ow_plugins.iishashtag
+ * @since 1.0
+ */
+
+.suggest[data-key="#"] {
+    top: 7px;
+    z-index: 30;
+    text-align: left;
+}
+.suggest[data-key="#"]>.dropdown {
+    position: relative;
+}
+
+
+.suggest[data-key="#"]>.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.suggest[data-key="#"].open>.dropdown-menu {
+    display: block;
+}
+.suggest[data-key="#"]>.dropdown-menu {
+    margin-top: 15px;
+    position: absolute;
+    padding: 9px;
+    font-family: tahoma, Arial, sans-serif;
+    direction: ltr;
+}
+
+
+.suggest[data-key="#"]>.dropdown-menu>li {
+    padding: 1px 10px;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+}
+.suggest[data-key="#"]>.dropdown-menu>li:hover,
+.suggest[data-key="#"]>.dropdown-menu>li:focus {
+    background-color: #e8e8e8;
+}
+.suggest[data-key="#"]>.dropdown-menu>li.active {
+    background-color: #428bca !important;
+}
+.suggest[data-key="#"]>.dropdown-menu>li.hidden {
+    display: none!important;
+    visibility: hidden!important;
+}
+
+
+.suggest[data-key="#"]>.dropdown-menu>li>a {
+    cursor: default;
+    color: #000;
+    text-decoration: none;
+    outline: 0;
+}
+.suggest[data-key="#"]>.dropdown-menu>li.active>a {
+    color: #fff;
+}
+
+
+.suggest[data-key="#"]>.dropdown-menu>li>a>strong {
+    float: left;
+    padding-right: 10px;
+}
+.suggest[data-key="#"]>.dropdown-menu>li>a>strong:lang(fa-IR) {
+    direction: rtl;
+}
+
+
+.newsfeed-comments-cont.ow_newsfeed_features {
+    overflow: visible !important;
+}
+
+a.iishashtag_tag{
+    display: inline-block;
+}
+
+a.iishashtag_tag.english_tag{
+    direction: ltr;
+}
+
+a.iishashtag_tag.persian_tag{
+    direction: rtl;
+}

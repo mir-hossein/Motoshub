@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="birthdays" label="Birthdays" language_tag="en" language_label="English">
+<key name="birthday"><value>Birthday</value></key>
+<key name="console_notification_comment"><value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; commented about your birthday</value></key>
+<key name="console_notification_like"><value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; likes your birthday</value></key>
+<key name="dashboard_widget_title"><value>My Friends Birthdays</value></key>
+<key name="email_notifications_section_label"><value>Birthdays</value></key>
+<key name="email_notifications_setting_status_comment"><value>Someone comments on my birthday</value></key>
+<key name="email_notifications_setting_status_like"><value>Someone likes my status</value></key>
+<key name="email_notification_comment"><value>{$user} commented about your birthday</value></key>
+<key name="email_notification_like"><value>{$user} likes that it's your birthday</value></key>
+<key name="feed_activity_birthday_string"><value>commented about {$user}'s birthday</value></key>
+<key name="feed_activity_birthday_string_like"><value>liked {$user}'s birthday</value></key>
+<key name="feed_activity_self_birthday_string"><value>commented on their birthday</value></key>
+<key name="feed_content_label"><value>Birthdays</value></key>
+<key name="feed_item_line"><value>It's {$user}'s birthday</value></key>
+<key name="feed_likes_1_label"><value>{$user1} liked your birthday</value></key>
+<key name="feed_likes_2_label"><value>{$user1} and {$user2} liked birthday</value></key>
+<key name="feed_likes_3_label"><value>{$user1}, {$user2} and {$user3} liked birthday</value></key>
+<key name="feed_likes_list_label"><value>&lt; href="{$url}">{$count} members&lt;/a&gt; liked your birthday</value></key>
+<key name="friends_widget_title"><value>Upcoming birthdays</value></key>
+<key name="my_widget_title"><value>Birthday</value></key>
+<key name="privacy_action_view_my_birthday"><value>View my birthday</value></key>
+<key name="privacy_action_view_my_birthday_description"><value>by modification of this option, the access right for viewing your birthday will be changed</value></key>
+<key name="usercredits_action_birthday"><value>Birthday</value></key>
+<key name="user_list_menu_item_birthdays"><value>Birthdays</value></key>
+<key name="user_list_menu_item_birthdays_this_week"><value>This week</value></key>
+<key name="user_list_menu_item_birthdays_today"><value>Today</value></key>
+<key name="user_list_menu_item_birthdays_upcoming"><value>Upcoming</value></key>
+<key name="widget_setting_count_label"><value>Count</value></key>
+<key name="widget_setting_show_label"><value>Show birthdays for</value></key>
+<key name="widget_setting_value_this_week"><value>Today and this week</value></key>
+<key name="widget_setting_value_today"><value>Today only</value></key>
+<key name="widget_title"><value>Birthdays</value></key>
+</prefix>

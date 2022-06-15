@@ -1,0 +1,24 @@
+{*
+
+/**
+* Copyright (c) 2017, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+{if !empty($menus)}
+<div class="tabs tabs-style-underline">
+    <nav class="ow_content_menu_wrap iismainpage">
+        <ul class="ow_content_menu clearfix">
+            {foreach from=$menus item='menu'}
+            <li class="{if $menu.active}tab-current{/if}{if isset($menu.class)} {$menu.class}{/if}">
+                <a class="title" href="{$menu.url}">
+                    <div>{if isset($menu.iconUrl)}<img src="{$menu.iconUrl}" />{/if}</div>
+                    <div><span>{$menu.title}</span></div>
+                </a>
+            </li>
+            {/foreach}
+        </ul>
+    </nav>
+</div>
+{/if}

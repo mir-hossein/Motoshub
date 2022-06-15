@@ -1,0 +1,54 @@
+{form name="forcedGroupConfigs"}
+<table class="edit_forced_group">
+    <tr class="ow_center">
+        <th>
+            {text key="iisgroupsplus+group_id"}
+        </th>
+        <th>
+            {text key='iisgroupsplus+group_forced_stay'}
+        </th>
+    </tr>
+    <tr>
+        <td class="ow_value">
+            {input name="gId" disabled="disabled" class="group_id_in_edit_forced_groups_page"}
+        </td>
+        <td class="ow_value ow_center">
+            <input name="forcedStay" type="checkbox" {if $forceStay} checked="checked" {/if}/>
+        </td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            {text key="iisgroupsplus+conditions_according_to"}
+        </th>
+    </tr>
+    {foreach from=$profileQuestions item='question'}
+    <tr class>
+        <td class="ow_label">
+            {$question.question_label}
+        </td>
+        <td class="ow_value">
+            <input type="checkbox" id="select_all_options_{$question.custom_id}">
+            <label for="select_all_options_{$question.custom_id}"><i>{text key='iisgroupsplus+select_all'}</i></label>
+            {foreach from=$question.options item='option'}
+            {input name=$option->getAttribute('name')}
+            {label name=$option->getAttribute('name')}
+            {/foreach}
+        </td>
+    </tr>
+    {/foreach}
+</table>
+{submit name='editNewForcedGroupButton' class='owm_float_left' id="editForcedGroupButton"}
+{/form}
+
+<style>
+    table.edit_forced_group tr{
+        border: 1px solid gray;
+    }
+    table.edit_forced_group{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .group_id_in_edit_forced_groups_page{
+        cursor: not-allowed;
+    }
+</style>

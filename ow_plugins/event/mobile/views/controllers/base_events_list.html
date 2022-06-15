@@ -1,0 +1,62 @@
+<div class="clearfix">{add_content key='event.add_content.list.top' listType=$listType}</div>
+
+<div class="clearfix">
+    {if empty($noButton)}
+    <input type="button" class="owm_add_photo ow_ic_add add_event_button owm_add_event_button" style="border: none;" />
+    {/if}
+    {if !empty($contentMenu)}{$contentMenu}{/if}
+</div>
+
+
+{add_content key='event.content.list.after_menu' listType=$listType}
+
+<div class="owm_events_page owm_events_section owm_list_page">
+    <div class="owm_std_margin_bottom">
+        {if isset($filterForm)}
+        <div class="owm_list_search">
+            {form name="EventFilterForm"}
+                {foreach from=$filterFormElementsKey item='elementKey'}
+                    <span><b>{label name="$elementKey"}</b>
+                            {input name="$elementKey"}
+                    </span>
+                {/foreach}
+                {decorator name='button' iconClass="ow_ic_lens" id="searchFilter" onclick="searchEvent('{$url}');" langLabel='iiseventplus+search_btn_label'}
+            {/form}
+        </div>
+        {/if}
+        {if !empty($no_events) }
+        <div class="ow_nocontent">{text key="event+no_events_label"}</div>
+        {else}
+        {foreach from=$events key='key' item='event'}
+        <div class="owm_list_item_view clearfix">
+            <a href="{$event.eventUrl}">
+                <div class="owm_list_item_view_header clearfix">
+                    <span class="owm_list_item_view_title">{$event.title|truncate:50:" ..."}</span>
+                </div>
+            </a>
+
+            <div class="owm_list_item_view_body">
+                <div class="owm_list_item_view_body_text clearfix">
+                    {$event.content|more:300}
+                </div>
+            </div>
+
+            <div class="owm_list_item_view_footer">
+                {if !empty($event.toolbar)}
+                {foreach from=$event.toolbar item='item' name='toolbar'}
+                    <span {if !empty($item.id)}id="{$item.id}"{/if}   class="owm_events_additional_item {if !empty($item.class)}{$item.class}{/if}">
+                    {if isset($item.href)}<a {if isset($item.id)} id="{$item.id}"{/if} href="{$item.href}">{/if}
+                    {$item.label}
+                    {if isset($item.href)}</a>{/if}
+                    </span>
+                {/foreach}
+                {/if}
+            </div>
+        </div>
+        {/foreach}
+        {if $paging}<center>{$paging}</center>{/if}
+        {/if}
+
+    </div>
+</div>
+<div class="clearfix">{add_content key='event.add_content.list.bottom' listType=$listType}</div>

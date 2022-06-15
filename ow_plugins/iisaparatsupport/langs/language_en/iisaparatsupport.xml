@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisaparatsupport" label="iisaparatsupport" language_tag="en" language_label="English">
+    <key name="add_aparat_url_element_label">
+	    <value>Aparat URL</value>
+    </key>
+    <key name="add_aparat_url_element_desc">
+        <value>Such as &lt;br /&gt;https://www.aparat.com/v/CRk67</value>
+    </key>
+</prefix>

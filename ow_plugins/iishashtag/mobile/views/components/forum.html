@@ -1,0 +1,43 @@
+<div class="owm_anno owm_info owm_padding">{$countInfo}</div>
+{if empty($postList)}
+    <!--<div class="ow_nocontent">{text key='base+empty_list'}</div>-->
+{else}
+    {foreach from=$postList item=post}
+    <div class="owm_forum_reply" id="post-{$post.id}">
+        {add_content key="forum.before_post_add_content" postId=$post.id userId=$post.userId text=$post.text}
+
+        <div class="owm_card clearfix owm_std_margin_bottom">
+            <div class="owm_card_cap owm_padding">
+                <div class="owm_card_date"><a href="{$post.postUrl}">{$post.label}</a> {$post.createStamp}</div>
+            </div>
+            <div class="owm_card_content owm_border">
+                <div class="owm_card_header owm_bg_color_3 clearfix">
+                    <div class="owm_card_user owm_card_user_context owm_padding clearfix">
+                        <div class="owm_card_user_pic">
+                            {decorator name="avatar_item" data=$avatars[$post.userId]}
+                        </div>
+                        <div class="owm_card_user_info">
+                            <div class="owm_card_user_name">
+                                <a href="{$avatars[$post.userId].url}">
+                                    <b>{$avatars[$post.userId].title}</b>
+                                </a>
+                                {if !empty($onlineUsers[$post.userId])}
+                                <div class="owm_profile_online"></div>
+                                {/if}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owm_card_body owm_border owm_bg_color_1">
+                    <div class="owm_post_content">
+                        {$post.text}
+                    </div>
+                </div>
+            </div>
+
+            {add_content key="forum.after_post_add_content" postId=$post.id userId=$post.userId text=$post.text}
+        </div>
+    </div>
+    {/foreach}
+    {if $paging}<center>{$paging}</center>{/if}
+{/if}

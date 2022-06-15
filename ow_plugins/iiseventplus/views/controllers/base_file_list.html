@@ -1,0 +1,52 @@
+<div class="ow_lp_avatars">
+    <ul class="ow_box_toolbar ow_remark ow_bl">
+        <li>
+            <a href="javascript:window.history.back();">{text key="iiseventplus+back"}</a>
+        </li>
+        {if isset($showAdd) && $showAdd==true}
+        <li>
+            <a href="javascript:showUploadFileIntoEventForm({$eventId})">
+                {text key="iiseventplus+add_file"}
+            </a>
+        </li>
+        {/if}
+    </ul>
+    <table class="ow_table_1 ow_form ow_stdmargin event_files">
+        <tr>
+            <th>{text key="iiseventplus+name"}</th>
+            <th>{text key="iiseventplus+by"}</th>
+            <th>{text key="iiseventplus+created_date"}</th>
+            <th></th>
+        </tr>
+        {foreach from=$fileList item='file' name='file'}
+        <tr class="ow_alt2 ow_tr_first">
+            <td class="file_name">
+                <a class="fileEventImage" href="{$file.fileUrl}" target="_blank">
+                    <img src="{$file.iconUrl}" alt="{$file.fileName|escape}" title="{$file.fileName}" />
+                </a>
+                <a href="{$file.fileUrl}" target="_blank">{$file.truncatedFileName}  </a>
+            </td>
+            <td>
+                <a href="{$file.userUrl}">{$file.userName}</a>
+            </td>
+            <td>
+                {format_date timestamp=$file.createdDate}
+            </td>
+            {if isset($deleteUrls[$file.name])}
+            <td class="delete_file">
+                <a href="{$deleteUrls[$file.name]}" onclick="return confirm('{text key="iiseventplus+are_you_sure_delete_file"}');"><img src="{$deleteIconUrl}"/></a>
+            </td>
+            {else}
+            <td></td>
+            {/if}
+        </tr>
+        {foreachelse}
+        <tr class="ow_alt2 ow_tr_first">
+            <td colspan="5">
+                <div class="ow_nocontent">{text key='iiseventplus+file_list_widget_empty'}</div>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    {$paging}
+</div>

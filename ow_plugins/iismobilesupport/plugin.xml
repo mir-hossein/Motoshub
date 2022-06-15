@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>پشتیبانی از نرم‌افزار تلفن همراه</name>
+	<key>iismobilesupport</key>
+	<description>
+        شامل تنظیمات ارسال اعلان توسط FCM و ارائه دهنده اطلاعات مورد نیاز تلفن همراه
+    </description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10863</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+</plugin>

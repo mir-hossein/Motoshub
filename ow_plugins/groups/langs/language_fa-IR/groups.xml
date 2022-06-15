@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="groups" label="Groups" language_tag="fa-IR" language_label="فارسی">
+    <key name="activity_add_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; گروه جدید &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt; ساخت
+        </value>
+    </key>
+    <key name="activity_join_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; عضو گروه&lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt; شد
+        </value>
+    </key>
+    <key name="additional_features">
+        <value>
+            قابلیت‌های بیشتر
+        </value>
+    </key>
+    <key name="add_new">
+        <value>
+            ایجاد گروه
+        </value>
+    </key>
+    <key name="add_new_label">
+        <value>
+            گروه
+        </value>
+    </key>
+    <key name="admin_sidebar_menu_label">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="admin_menu_title">
+        <value>
+            تنظیمات افزونه گروه‌
+        </value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>
+            نوشتن برای نظر روی دیوار
+        </value>
+    </key>
+    <key name="auth_action_label_add_topic">
+        <value>
+            ‌ایجاد/ویرایش موضوع‌های انجمن
+        </value>
+    </key>
+    <key name="auth_action_label_create">
+        <value>
+            ایجاد گروه‌ها
+        </value>
+    </key>
+    <key name="auth_action_label_delete_comment_by_content_owner">
+        <value>
+		نویسنده می‌تواند نظرهای روی دیوار را حذف کند
+        </value>
+    </key>
+    <key name="auth_action_label_view">
+        <value>
+            مشاهده گروه‌ها
+        </value>
+    </key>
+    <key name="auth_action_label_wall_post">
+        <value>
+            اجازه برای ارسال نوشته‌های دیوار گروه
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="comment_activity_string">
+        <value>
+            در این گروه نظر داد
+        </value>
+    </key>
+    <key name="confirm_delete_groups">
+        <value>
+            آیا از حذف همه گروه‌ها اطمینان دارید؟
+        </value>
+    </key>
+    <key name="console_notification_label">
+        <value>
+            دعوت‌نامه‌های گروه
+        </value>
+    </key>
+    <key name="content_groups_label">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="content_group_label">
+        <value>
+            گروه
+        </value>
+    </key>
+    <key name="create_field_description_label">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="create_field_image_label">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="create_field_title_label">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="create_heading">
+        <value>
+            ایجاد گروه
+        </value>
+    </key>
+    <key name="create_new_topic">
+        <value>
+            ایجاد عنوان موضوع جدید انجمن - {$group}
+        </value>
+    </key>
+    <key name="create_no_permission">
+        <value>
+            شما مجاز به ایجاد یک گروه نیستید
+        </value>
+    </key>
+    <key name="create_page_description">
+        <value>
+            ایجاد یک گروه جدید برای هر عنوان موضوع در {$site_name}
+        </value>
+    </key>
+    <key name="create_page_title">
+        <value>
+            ایجاد گروه جدید - {$site_name}
+        </value>
+    </key>
+    <key name="create_submit_btn_label">
+        <value>
+            ایجاد
+        </value>
+    </key>
+    <key name="create_success_msg">
+        <value>
+            گروه ایجاد شد
+        </value>
+    </key>
+    <key name="creator">
+        <value>
+            سازنده
+        </value>
+    </key>
+    <key name="delete_complete_msg">
+        <value>
+		گروه حذف شد
+        </value>
+    </key>
+    <key name="delete_confirm_msg">
+        <value>
+		آیا از حذف این گروه اطمینان دارید؟ این کار همه محتوای آن‌را نیز حذف می‌کند
+        </value>
+    </key>
+    <key name="delete_content">
+        <value>
+            حذف محتوا و افزونه
+        </value>
+    </key>
+    <key name="delete_content_desc">
+        <value>
+		قبل از حذف افزونه گروه‌ها باید همه گروه‌های جدید حذف شوند. این کار ممکن است اندکی زمان‌بر باشد. بنابر همین دلیل وب‌گاه به "حالت نگهداری" خواهد رفت و به‌محض کامل شدن عملیات حذف، فعال می‌شود
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="delete_feed_item_confirmation">
+        <value>
+            آیا اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_feed_item_label">
+        <value>
+            حذف نوشته
+        </value>
+    </key>
+    <key name="delete_group_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_group_user_confirmation">
+        <value>
+            آیا از حذف کاربر از این گروه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_group_user_label">
+        <value>
+            حذف کاربر
+        </value>
+    </key>
+    <key name="delete_user_success_message">
+        <value>
+		کاربر حذف شده است
+        </value>
+    </key>
+    <key name="edit_back_label">
+        <value>
+            بازگشت به گروه
+        </value>
+    </key>
+    <key name="edit_btn_label">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_submit_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="edit_success_msg">
+        <value>
+            تغییرات ذخیره شد
+        </value>
+    </key>
+    <key name="email_notification_comment">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; در گروه «&lt;a href="{$url}"&gt;{$title}&lt;/a&gt;» نظر داد: {$comment}
+        </value>
+    </key>
+    <key name="email_notification_comment_setting">
+        <value>
+            کسی بر روی دیوار گروهی که در آن شرکت دارم نظر داده است
+        </value>
+    </key>
+    <key name="email_notification_invite">
+        <value>
+            &lt;a href="{$inviterUrl}"&gt;{$inviterName}&lt;/a&gt; شما را به گروه "&lt;a href="{$groupUrl}"&gt;{$groupName}&lt;/a&gt;"
+            دعوت کرد
+        </value>
+    </key>
+    <key name="email_notification_section_label">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="errors_image_invalid">
+        <value>
+            نوع تصویر نامعتبر است. فقط jpg/jpeg/png/gif مجازند
+        </value>
+    </key>
+    <key name="errors_image_upload">
+        <value>
+		بارگذاری فایل ناموفق بود
+        </value>
+    </key>
+    <key name="error_forum_disconnected">
+        <value>
+            توجه: برای گروه‌ها انجمن نیاز است. برای فعال‌سازی آن به  &lt;a href="{$url}"&gt;لیست افزونه&lt;/a&gt;
+            بروید
+        </value>
+    </key>
+    <key name="feed_activity_joined">
+        <value>
+            {$user} عضو شد
+        </value>
+    </key>
+    <key name="feed_activity_users">
+        <value>
+            مجموع کاربران: &lt;span class="ow_txt_value"&gt;{$usersCount}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="feed_content_label">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="feed_create_string">
+        <value>
+            گروه جدید ایجاد کرد
+        </value>
+    </key>
+    <key name="feed_follow_complete_msg">
+        <value>
+		شما اکنون این گروه را دنبال می‌کنید
+        </value>
+    </key>
+    <key name="feed_group_follow">
+        <value>
+            دنبال کردن
+        </value>
+    </key>
+    <key name="feed_group_unfollow">
+        <value>
+            دنبال نکردن
+        </value>
+    </key>
+    <key name="feed_join_string">
+        <value>
+            عضو گروه &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt; شد
+        </value>
+    </key>
+    <key name="feed_join_string_group">
+        <value>
+            عضو این گروه شد
+        </value>
+    </key>
+    <key name="feed_unfollow_complete_msg">
+        <value>
+            شما دیگر این گروه را دنبال نمی‌کنید
+        </value>
+    </key>
+    <key name="flags">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="form_who_can_invite_creator">
+        <value>
+            فقط مدیران گروه
+        </value>
+    </key>
+    <key name="form_who_can_invite_label">
+        <value>
+            دعوت‌کنندگان افراد
+        </value>
+    </key>
+    <key name="form_who_can_invite_participants">
+        <value>
+            شرکت کنندگان
+        </value>
+    </key>
+    <key name="form_who_can_view_anybody">
+        <value>
+            همه
+        </value>
+    </key>
+    <key name="form_who_can_view_invite">
+        <value>
+            فقط با دعوت‌نامه
+        </value>
+    </key>
+    <key name="form_who_can_view_label">
+        <value>
+            عضویت در گروه
+        </value>
+    </key>
+    <key name="forum_connected">
+        <value>
+            انجمن به افزونه گروه‌ها متصل شده است
+        </value>
+    </key>
+    <key name="general_settings">
+        <value>
+            عمومی
+        </value>
+    </key>
+    <key name="groups_widget_empty">
+        <value>
+            گروهی موجود نیست
+        </value>
+    </key>
+    <key name="group_already_exists">
+        <value>
+            گروهی با این نام در حال حاضر موجود است
+        </value>
+    </key>
+    <key name="group_edited_string">
+        <value>
+            گروه‌ ویرایش شد
+        </value>
+    </key>
+    <key name="group_list_heading">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="group_list_menu_item_invite">
+        <value>
+            دعوت‌نامه‌ها
+        </value>
+    </key>
+    <key name="group_list_menu_item_latest">
+        <value>
+            آخرین
+        </value>
+    </key>
+    <key name="group_list_menu_item_my">
+        <value>
+            گروه‌های من
+        </value>
+    </key>
+    <key name="group_list_menu_item_popular">
+        <value>
+            محبوب‌ترین
+        </value>
+    </key>
+    <key name="group_owner_delete_error">
+        <value>
+		شما نمی‌توانید مالک گروه را حذف کنید
+        </value>
+    </key>
+    <key name="invitation_join_string_1">
+        <value>
+            {$user1} شما را به گروه {$group} دعوت کرد
+        </value>
+    </key>
+    <key name="invitation_join_string_2">
+        <value>
+            {$user1} و {$user2} شما را به گروه {$group} دعوت کردند
+        </value>
+    </key>
+    <key name="invitation_join_string_many">
+        <value>
+            {$user1} و {$user2} و {$otherUsers} شما را به گروه {$group} دعوت کردند
+        </value>
+    </key>
+    <key name="invitation_join_string_other_users">
+        <value>
+            دیگر کاربران
+        </value>
+    </key>
+    <key name="invite_accept_label">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="invite_btn_label">
+        <value>
+            دعوت
+        </value>
+    </key>
+    <key name="invite_declined_message">
+        <value>
+            دعوت رد شد
+        </value>
+    </key>
+    <key name="invite_decline_label">
+        <value>
+            چشم‌پوشی
+        </value>
+    </key>
+    <key name="invite_fb_title">
+        <value>
+            دعوت دوستان من
+        </value>
+    </key>
+    <key name="invite_fb_title_all_users">
+        <value>
+            دعوت کاربران
+        </value>
+    </key>
+    <key name="invite_list_heading">
+        <value>
+            دعوت‌نامه‌های گروه
+        </value>
+    </key>
+    <key name="invite_list_page_title">
+        <value>
+            دعوت‌نامه‌های گروه - {$site_name}
+        </value>
+    </key>
+    <key name="join_complete_message">
+        <value>
+            شما با موفقیت عضو این گروه شدید
+        </value>
+    </key>
+    <key name="join_group_confirm">
+        <value>
+            آیا مایل به پیوستن به این گروه هستید؟
+        </value>
+    </key>
+    <key name="latest_list_page_description">
+        <value>
+             گروه‌های کاربری که اخیرا در {$site_name} ایجاد شده است
+        </value>
+    </key>
+    <key name="latest_list_page_title">
+        <value>
+            آخرین گروه‌ها در {$site_name}
+        </value>
+    </key>
+    <key name="leave_complete_message">
+        <value>
+            شما از این گروه خارج شده‌اید
+        </value>
+    </key>
+    <key name="leave_fail_message">
+        <value>
+            شما قادر به ترک این گروه نیستید
+        </value>
+    </key>
+    <key name="listing_no_items_msg">
+        <value>
+            موردی وجود ندارد
+        </value>
+    </key>
+    <key name="listing_users_label">
+        <value>
+            تعداد اعضا: &lt;span class="ow_txt_value"&gt;{$count}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="main_menu_list">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="my_groups">
+        <value>
+            گروه‌های من
+        </value>
+    </key>
+    <key name="my_list_page_title">
+        <value>
+            گروه‌های من در {$site_name}
+        </value>
+    </key>
+    <key name="notifications_new_message">
+        <value>
+            کسی من را به گروهی دعوت می‌کند
+        </value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>
+            حذف افزونه گروه‌ها
+        </value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>
+            حذف افزونه انجمن آغاز شد
+        </value>
+    </key>
+    <key name="popular_list_page_description">
+        <value>
+            محبوب‌ترین گروه‌های کاربر ساخته شده در {$site_name}
+        </value>
+    </key>
+    <key name="popular_list_page_title">
+        <value>
+            محبوب‌ترین گروه‌ها در {$site_name}
+        </value>
+    </key>
+    <key name="post_reply_permission_error">
+        <value>
+		برای درج پاسخ، شما باید عضو گروه باشید
+        </value>
+    </key>
+    <key name="privacy_action_view_my_groups">
+        <value>
+            مشاهده گروه‌های من
+        </value>
+    </key>
+    <key name="privacy_action_view_my_groups_description">
+        <value>
+            با تغییر این گزینه، حق دسترسی به گروه‌های شما در نمایه تغییر خواهد کرد
+        </value>
+    </key>
+    <key name="private_group_text">
+        <value>
+            با عرض پوزش، این گروه خصوصی است
+        </value>
+    </key>
+    <key name="private_page_heading">
+        <value>
+            گروه خصوصی
+        </value>
+    </key>
+    <key name="private_page_title">
+        <value>
+            گروه خصوصی
+        </value>
+    </key>
+    <key name="topic_page_heading">
+        <value>
+            {$topic} - {$group}
+        </value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>
+            در حال پردازش
+        </value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>
+            لطفا منتظر بمانید، همه محتوای انجمن در حال حذف شدن است. این کار بسته به تعداد گروه‌ها بر تارنمای شما، اندکی
+            زمان‌بر است
+        </value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>
+            نظر دادن بر دیوار گروه
+        </value>
+    </key>
+    <key name="usercredits_action_add_group">
+        <value>
+            ایجاد گروه
+        </value>
+    </key>
+    <key name="usercredits_action_add_post">
+        <value>
+            پست در انجمن گروه
+        </value>
+    </key>
+    <key name="users_invite_success_message">
+        <value>
+            دعوت‌نامه به {$count} کاربر ارسال شد
+        </value>
+    </key>
+    <key name="user_groups_page_description">
+        <value>
+            کاربران گروه در {$site_name}
+        </value>
+    </key>
+    <key name="user_groups_page_title">
+        <value>
+            گروه‌ها در {$site_name}
+        </value>
+    </key>
+    <key name="user_groups_widget_empty">
+        <value>
+            گروهی وجود ندارد
+        </value>
+    </key>
+    <key name="user_group_list_heading">
+        <value>
+            گروه‌های {$userName}
+        </value>
+    </key>
+    <key name="user_join_activity_string">
+        <value>
+            عضو گروه شد
+        </value>
+    </key>
+    <key name="user_list_widget_empty">
+        <value>
+            نمایه‌ای موجود نیست
+        </value>
+    </key>
+    <key name="view_all_topics">
+        <value>
+            « بازگشت به فهرست انجمن گروه
+        </value>
+    </key>
+    <key name="view_no_permission">
+        <value>
+            شما مجاز به مشاهده گروه‌ها نیستید
+        </value>
+    </key>
+    <key name="view_page_description">
+        <value>
+            {$description}
+        </value>
+    </key>
+    <key name="view_page_title">
+        <value>
+            {$group_name} - گروهی در {$site_name}
+        </value>
+    </key>
+    <key name="wall_widget_label">
+        <value>
+            دیوار
+        </value>
+    </key>
+    <key name="widgets_panel_heading">
+        <value>
+            پیکربندی گروه‌ها
+        </value>
+    </key>
+    <key name="widget_brief_info_admin">
+        <value>
+            مدیر: &lt;a href="{$url}"&gt;{$name}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="widget_brief_info_create_date">
+        <value>
+            زمان ایجاد: {$date}
+        </value>
+    </key>
+    <key name="widget_brief_info_label">
+        <value>
+            اطلاعات گروه
+        </value>
+    </key>
+
+    <key name="widget_groups_count_setting">
+        <value>
+		تعداد
+        </value>
+    </key>
+    <key name="widget_groups_show_titles_setting">
+        <value>
+            نمایش عناوین گروه‌ها
+        </value>
+    </key>
+    <key name="widget_groups_title">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="widget_invite_button_title">
+        <value>
+            دعوت
+        </value>
+    </key>
+    <key name="widget_join_button">
+        <value>
+            عضویت
+        </value>
+    </key>
+    <key name="widget_join_button_title">
+        <value>
+            دکمه عضویت
+        </value>
+    </key>
+    <key name="widget_leave_button">
+        <value>
+            ترک گروه
+        </value>
+    </key>
+    <key name="widget_leave_button_title">
+        <value>
+            دکمه ترک
+        </value>
+    </key>
+    <key name="widget_users_settings_count">
+        <value>
+		تعداد
+        </value>
+    </key>
+    <key name="widget_users_title">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="widget_users_view_all">
+        <value>
+            مشاهده همه
+        </value>
+    </key>
+    <key name="widget_user_groups_settings_count">
+        <value>
+            تعداد گروه‌ها برای نمایش
+        </value>
+    </key>
+    <key name="widget_user_groups_title">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="widget_user_groups_view_all">
+        <value>
+            مشاهده همه
+        </value>
+    </key>
+    <key name="groups_sitemap">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="groups_sitemap_desc">
+        <value>
+            گروه‌ها و فهرست‌ها
+        </value>
+    </key>
+    <key name="seo_meta_section">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="seo_meta_most_popular_label">
+        <value>
+            صفحه محبوب‌ترین گروه‌ها
+        </value>
+    </key>
+    <key name="meta_title_most_popular">
+        <value>
+            صفحه محبوب‌ترین گروه‌ها | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_most_popular">
+        <value>
+            فهرست مشهورترین گروه‌ها در{$site_name}. عضو شوید!
+        </value>
+    </key>
+    <key name="meta_keywords_most_popular">
+        <value></value>
+    </key>
+    <key name="seo_meta_latest_label">
+        <value>
+            صفحه آخرین گروه‌ها
+        </value>
+    </key>
+    <key name="meta_title_latest">
+        <value>
+            آخرین گروه‌ها | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_latest">
+        <value>
+            لیست آخرین گروه‌های ایجاد شده در {$site_name}. عضو شوید!
+        </value>
+    </key>
+    <key name="meta_keywords_latest">
+        <value></value>
+    </key>
+    <key name="seo_meta_user_groups_label">
+        <value>
+            صفحه گروه
+        </value>
+    </key>
+    <key name="meta_title_user_groups">
+        <value>
+            فرد {$user_name}،{$user_age} عضو گروه شد | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_user_groups">
+        <value>
+            تمام گروه‌های {$user_name}، {$user_age} در {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_user_groups">
+        <value></value>
+    </key>
+    <key name="seo_meta_groups_page_label">
+        <value>
+            صفحه گروه
+        </value>
+    </key>
+    <key name="meta_title_groups_page">
+        <value>{$group_title} | {$site_name}</value>
+    </key>
+    <key name="meta_desc_groups_page">
+        <value>{$group_description}</value>
+    </key>
+    <key name="meta_keywords_groups_page">
+        <value></value>
+    </key>
+    <key name="seo_meta_group_users_label">
+        <value>
+            صفحه شرکت‌گنندگان گروه
+        </value>
+    </key>
+    <key name="meta_title_group_users">
+        <value>
+            تمامی اعضای {$group_title} | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_group_users">
+        <value>
+            فهرست اعضای "{$group_title}" در {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_group_users">
+        <value></value>
+    </key>
+	 <key name="mobile_main_menu_list">
+        <value>
+            ‌گروه‌ها
+        </value>
+    </key>
+	 <key name="forum_btn_label">
+        <value>
+            انجمن
+        </value>
+    </key>
+	<key name="group_title">
+        <value>
+            گروه {$title}
+        </value>
+    </key>
+    <key name="group_members">
+        <value>
+            اعضای گروه
+        </value>
+    </key>
+    <key name="leave_group_confirm_msg">
+        <value>آیا از ترک گروه اطمینان دارید؟</value>
+    </key>
+	<key name="delete_user_from_group">
+        <value>
+            حذف کاربر از گروه
+        </value>
+    </key>
+    <key name="activity_string_status_comment">
+        <value>
+            بر روی این مطلب نظر داد
+        </value>
+    </key>
+    <key name="activity_string_status_like">
+        <value>
+            این مطلب را پسندید
+        </value>
+    </key>
+    <key name="total_groups">
+        <value>تعداد گروه‌ها: {$total}
+        </value>
+    </key>
+    <key name="set_user_as_owner_label">
+        <value>
+            انتخاب به عنوان سازنده
+        </value>
+    </key>
+    <key name="set_user_as_owner_confirmation">
+        <value>
+            آیا از انتخاب کاربر مورد نظر به عنوان سازنده گروه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="set_user_as_owner_success_message">
+        <value>
+            کاربر مورد نظر به عنوان سازنده گروه انتخاب شد
+        </value>
+    </key>
+    <key name="delete_image">
+        <value>
+            حذف تصویر
+        </value>
+    </key>
+    <key name="back_to_groupUserUrl">
+        <value>
+           بازگشت به صفحه اعضای گروه
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,36 @@
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section' name='contentMenu'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+
+<div class="ow_automargin ow_superwide">
+    {form name='adminForm'}
+         <table class="ow_table_1 ow_form">
+             <tr>
+                 <td colspan="2">{text key="iismobilesupport+web_settings_head_guide"}</td>
+             </tr>
+             <tr>
+                 <td class="ow_label">{label name="config"}</td>
+                 <td class="ow_value">
+                     {input name="config"}
+                     <br/>
+                     {desc name="config"}{error name='config'}
+                 </td>
+             </tr>
+             <tr>
+                 <td class="ow_label">{label name="key"}</td>
+                 <td class="ow_value">
+                     {input name="key"}
+                     <br/>
+                     {desc name="key"}{error name='key'}
+                 </td>
+             </tr>
+            <tr>
+                <td colspan="2" class="ow_submit">{submit name="saveSettings" class='ow_ic_save'}</td>
+            </tr>
+         </table>
+    {/form}
+</div>

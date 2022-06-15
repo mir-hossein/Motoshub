@@ -1,0 +1,29 @@
+<div class="questions-add clearfix">
+    {form name="edit_question_form"}
+    <div class="form_auto_click">
+        <div class="clearfix qa-submit-c ow_border">
+            <div class="questions-add-answers-btn-c">
+                {if isset($statusPrivacy)}
+                {label name='statusPrivacy'}
+                {input name='statusPrivacy'}
+                {error name='statusPrivacy'}
+                {/if}
+                {input name='question_id'}
+                <div style="display: inline-table;">
+                    <div class="questions-add-answers-options">
+                        {label name="allowAddOptions"}{input name="allowAddOptions"}
+                    </div>
+                    <div class="questions-add-allow-multiple-answers">
+                        {label name="allowMultipleAnswers"}{input name="allowMultipleAnswers"}
+                    </div>
+                </div>
+            </div>
+            <div class="ow_right eq-save-c">
+                <span class="ow_attachment_btn">{submit name="save"}</span>
+            </div>
+
+            <div class="ow_inprogress eq-status-preloader EQ_StatusPreloader"></div>
+        </div>
+    </div>
+    {/form}
+</div>

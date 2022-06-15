@@ -1,0 +1,47 @@
+.download_mobile_app a {
+    border: solid 1px lightgray;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.use_mobile {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+.ow_mobile_app_download_links {
+    text-align: center;
+}
+.ow_mobile_app_download_links a:hover {
+    border-bottom-width: 0px;
+}
+a.app_download_link{
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100px;
+    height: 36px;
+    margin: 10px 4px 0px 4px;
+    border-bottom-width: 0px !important;
+}
+
+.floatbox_body .ow_mobile_app_download_links {
+    display: none;
+}
+
+.owm_iismobilesupport .owm_sidebar_msg_item {
+    margin: 7px 10px 7px 10px;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+}
+
+.owm_iismobilesupport .owm_sidebar_msg_block.owm_notification_block {
+    background-color: transparent !important;
+}
+
+.owm_iismobilesupport .owm_sidebar_msg_block_cap {
+    border-bottom: 1px solid #b1b1b1;
+    background-color: #fff;
+}

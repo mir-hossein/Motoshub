@@ -1,0 +1,36 @@
+<div class="owm_anno owm_info owm_padding">{$countInfo}</div>
+{if empty($events)}
+    <!--<div class="ow_nocontent">{text key='base+empty_list'}</div>-->
+{else}
+{foreach from=$events key='key' item='event'}
+<div class="owm_list_item_without_image">
+    <div class="owm_list_section_body owm_padding">
+        <div class="owm_float_right">
+            <a class="owm_nav_cap_right" href="{$event.eventUrl}"></a>
+        </div>
+        <a class="owm_list_title_format owm_list_title_unread" href="{$event.eventUrl}">
+            <div class="owm_list_title_name owm_small_margin_bottom">
+                <div>{$event.title}</div>
+            </div>
+        </a>
+        <div class="owm_list_body_body">
+            {$event.content}
+        </div>
+    </div>
+    <div class="owm_list_section_toolbar owm_border">
+        <div class="owm_padding owm_list_additional_info">
+            {if !empty($event.toolbar)}
+            {foreach from=$event.toolbar item='item' name='toolbar'}
+            <span {if !empty($item.id)}id="{$item.id}"{/if}   class="owm_events_additional_item {if !empty($item.class)}{$item.class}{/if}">
+            {if isset($item.href)}<a {if isset($item.id)} id="{$item.id}"{/if} href="{$item.href}">{/if}
+            {$item.label}
+            {if isset($item.href)}</a>{/if}
+            </span>
+            {/foreach}
+            {/if}
+        </div>
+    </div>
+</div>
+{/foreach}
+{if $paging}<center>{$paging}</center>{/if}
+{/if}

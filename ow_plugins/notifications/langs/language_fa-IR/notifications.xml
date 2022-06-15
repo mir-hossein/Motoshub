@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="notifications" label="Email Notifications" language_tag="fa-IR" language_label="فارسی">
+<key name="config_day_desc">
+	<value>
+		روزی از هفته که خلاصه کارهای هفتگی ارسال می گردد
+	</value>
+</key>
+<key name="config_day_label">
+	<value>
+		روز
+	</value>
+</key>
+<key name="config_hour_desc">
+	<value>
+		ساعتی از روز که خلاصه کارهای روزانه و هفتگی ارسال می‌گردد
+	</value>
+</key>
+<key name="config_hour_label">
+	<value>
+		ساعت
+	</value>
+</key>
+<key name="config_page_heading">
+	<value>
+		اطلاعیه‌های رایانامه
+	</value>
+</key>
+<key name="config_page_title">
+	<value>
+		اطلاعیه‌های رایانامه
+	</value>
+</key>
+<key name="config_saved_message">
+	<value>
+		تنظیمات ذخیره شد
+	</value>
+</key>
+<key name="config_schedule_title">
+	<value>تنظیم زمان‌بندی ارسال رایانامه</value>
+</key>
+<key name="config_title"><value>تنظیمات برنامه زمانی</value></key>
+<key name="console_item_label"><value>اعلان‌ها</value></key>
+<key name="console_menu_label"><value>اعلان‌های رایانامه</value></key>
+<key name="dashboard_menu_item"><value>اعلان‌های رایانامه</value></key>
+<key name="dashboard_menu_item_label"><value>اعلان‌های رایانامه</value></key>
+<key name="email_html_bottom"><value>{$site_name} مدیریت &lt;br /&gt;&#13;
+{$my_site_url}&#13;
+&lt;br /&gt;</value></key>
+<key name="email_html_description"><value>آخرین فعالیت‌های مرتبط با شما در &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;:</value></key>
+<key name="email_html_head"><value> کاربر گرامی ({$userName})،</value></key>
+<key name="email_subject"><value>آخرین فعالیت‌ها در {$site_name}</value></key>
+<key name="email_txt_bottom"><value></value></key>
+<key name="email_txt_head">
+<value>
+کاربر گرامی {$userName} سلام&#13;
+آخرین فعالیت‌های شما در {$site_name} که قصد اطلاع از وضعیت آن‌ها را دارید:
+</value>
+</key>
+<key name="preferences_legend"><value>امکان انتخاب فعالیت‌هایی که در صورت عدم مراجعه به وب‌گاه در مدت زمان بیشینه 2 روز، به رایانشانی شما اطلاع رایانامه‌ای ارسال شود.</value></key>
+<key name="save_config_btn"><value>ذخیره</value></key>
+<key name="save_setting_btn_label"><value>ذخیره</value></key>
+<key name="schedule_auto"><value>خودکار</value></key>
+<key name="schedule_automatic"><value>خودکار(اگر شما دو روز وارد شبکه نشوید)</value></key>
+<key name="schedule_daily"><value>روزانه</value></key>
+<key name="schedule_immediately"><value>بلافاصله</value></key>
+<key name="schedule_never"><value>هرگز</value></key>
+<key name="schedule_title"><value>برنامه زمانی</value></key>
+<key name="schedule_weekly"><value>هفتگی</value></key>
+<key name="settings_changed"><value>تنظیمات تغییر یافت</value></key>
+<key name="settings_edit_label"><value>تغییر اولویت‌ها و تکرار اعلان‌ها</value></key>
+<key name="settings_not_changed"><value>تنظیمات تغییر نکرد</value></key>
+<key name="settings_page_heading"><value>اعلان‌های رایانامه</value></key>
+<key name="settings_page_title"><value>اعلان‌های رایانامه</value></key>
+<key name="setup_page_heading"><value>اعلان‌ها</value></key>
+<key name="setup_page_title"><value>اعلان‌ها</value></key>
+<key name="unsubscribe_all_label"><value>لغو اشتراک از تمام اعلان‌ها</value></key>
+<key name="unsubscribe_code_expired"><value>کد لغو اشتراک به پایان رسیده است</value></key>
+<key name="unsubscribe_completed"><value>اشتراک شما با موفقیت لغو شد</value></key>
+<key name="unsubscribe_confirm_msg"><value>آیا از لغو اشتراک خود از این اعلان‌ها اطمینان دارید؟</value></key>
+<key name="unsubscribe_one_label"><value>لغو اشتراک از این نوع  اعلان‌ها</value></key>
+<key name="view_all"><value>نمایش همه موارد</value></key>
+</prefix>

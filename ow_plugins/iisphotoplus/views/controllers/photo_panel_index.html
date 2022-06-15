@@ -1,0 +1,167 @@
+{script}
+{literal}
+window.insImg = function( elid, id, src, size ){
+data = {src:src};
+if( $('#gimg-'+id+'-p').is(':checked') ){data.resize = 300; data.preview = true;}
+if( $('#gimg-'+id+'-align').val() != 'none' ){data.align = $('#gimg-'+id+'-align').val();}
+window.parent.document.getElementById(elid).jhtmlareaObject.insertImage(data);
+}
+{/literal}
+{/script}
+
+{style}
+{literal}
+.media_panel_fullpage {
+position: absolute;
+background: white;
+top: 0px;left: 0px;right: 0px;bottom: 0px;
+margin: 0px;
+border: 0px;
+}
+.media_panel_fullpage .ow_content_menu {
+background-color: #e5e5e5;
+border-bottom: 1px solid #ccd6de;
+}
+.media_panel_fullpage .ow_content_menu span {
+background-position: 4px 16px;
+padding: 16px 6px 6px 25px;
+}
+.media_panel_fullpage .ow_content_menu > li {
+margin: 0 4px;
+}
+.media_panel_fullpage .ow_content_menu li a {
+font-size: 1rem;
+}
+
+.mediapanel_album_img {
+width: auto;
+height: auto;
+max-width: 300px;
+max-height: 300px;
+}
+.mediapanel_album_heading {
+padding: 3px;
+}
+.mediapanel_album_heading > div {
+float: left;
+direction: ltr;
+margin: 0px 3px;
+}
+.mediapanel_album_heading > .mediapanel_album_heading_img > img{
+max-width: 250px;
+max-height: 80px;
+border: 1px solid #ced9d4;
+border-radius: 6px;
+}
+.mediapanel_album_heading > span.mediapanel_size {
+float: left;
+direction: ltr;
+color: red;
+font-size: x-small;
+}
+.mediapanel_album_heading > span.ow_lbutton {
+width: 50px;
+text-align:center;
+float: right;
+padding: 5px 8px;
+}
+.ow_site_panel.clearfix {
+position: fixed;
+z-index: 0;
+}
+.ow_menu_fullpage + .ow_site_panel.clearfix {
+z-index: 1000;
+}
+{/literal}
+{/style}
+<script type="text/javascript">
+    function showHideMedia($imgId){
+        var $showLabel = '{text key='base+mp_gal_show'}';
+        var $hideLabel = '{text key='base+mp_gal_hide'}';
+        if( $('#gimg-'+$imgId).is(':visible') ){
+            $('#gimg-'+$imgId+'-visbtn').empty().html($showLabel);
+        }
+        else
+        {
+            $('#gimg-'+$imgId+'-visbtn').empty().html($hideLabel);
+            $('#gimg-'+$imgId+' img[realsrc]')
+                .attr('src', $('#gimg-'+$imgId+' img[realsrc]').attr('realsrc'))
+                .removeAttr('realsrc');
+        }
+        $('#gimg-'+$imgId).toggle();
+    }
+</script>
+
+<div class="media_panel_fullpage">
+{$menu}
+<div style="background: white">
+    <div >
+        <table id="allPhotos" class="ow_table_1 ow_form" style="width: 100%;" cellpadding="5">
+            {foreach from=$list item='image' name='image'}
+
+            <tr class="{cycle name="1" values='ow_alt1, ow_alt2'}" onclick="showHideMedia({$image.id});">
+            <td class="mediapanel_album_heading">
+                <div class="mediapanel_album_heading_img">
+                    <img src="{$image.bigUrl}"/>
+                </div>
+                <span id="gimg-{$image.id}-visbtn" class="ow_lbutton clearfix">{text key='base+mp_gal_show'}</span>
+            </td>
+            </tr>
+            <tr class=" {cycle name="2" values='ow_alt1, ow_alt2'}" id="gimg-{$image.id}" style="display: none">
+            <td align="center">
+                <!--<img class="mediapanel_album_img" src="" realsrc="{$image.bigUrl}"/>-->
+
+                <table class="ow_form ow_table_1">
+                    <tr class="ow_tr_first">
+                        <td class="ow_label">{text key='base+mp_gal_pic_url'}</td>
+                        <td class="ow_value">
+                            <input id="gimg-{$image.id}-url" readonly="readonly" value="{$image.bigUrl}" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ow_label">{text key='admin+size'}</td>
+                        <td class="ow_value">
+                            <input type="radio" name="pos-{$image.id}" checked="checked" id="gimg-{$image.id}-p" value="preview" /> <label for="gimg-{$image.id}-p">{text key='base+mp_gal_preview'}</label>
+                            <input type="radio" name="pos-{$image.id}" id="gimg-{$image.id}-f" value="fullsize"/> <label for="gimg-{$image.id}-f">{text key='base+mp_gal_fullsize'}</label>
+                        </td>
+                    </tr>
+                    <tr class="ow_tr_last">
+                        <td class="ow_label">{text key='base+mp_gal_align'} </td>
+                        <td class="ow_value">
+                            <select id="gimg-{$image.id}-align">
+                                <option value="none">{text key='base+mp_gal_none'}</option>
+                                <option value="left">{text key='base+mp_gal_left'}</option>
+                                <option value="center">{text key='base+mp_gal_center'}</option>
+                                <option value="right">{text key='base+mp_gal_right'}</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="clearfix"><div class="ow_right">
+                    {assign var="size" value="[]"}
+
+                    {decorator name="button" langLabel='base+mp_gal_ins_into_post' onclick="insImg('`$elid`', `$image.id`,  '`$image.bigUrl`', $size)"}
+                </div></div>
+            </td>
+            </tr>
+            {/foreach}
+        </table>
+    </div>
+    <div class="photo_list_result_div">
+
+    </div>
+    <a name="bottom"></a>
+    <span class="ow_button">
+        <span class=" ow_newsfeed_view_more ow_ic_down_arrow">
+            <input type="button" value="نمایش بیشتر" class="ow_newsfeed_view_more ow_ic_down_arrow"  id="show_more_btn">
+        </span>
+    </span>
+
+
+    <form method="POST" id="delete-image-form" style="display: none;">
+        <input type="hidden" name="command" value="delete-image" />
+        <input type="hidden" name="img-id" value="" />
+    </form>
+</div>
+</div>

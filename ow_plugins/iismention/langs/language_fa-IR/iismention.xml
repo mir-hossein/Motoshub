@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismention" label="iismention" language_tag="fa-IR" language_label="فارسی">
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="max_count">
+        <value>
+            حداکثر تعداد آیتم‌ها در لیست نام‌های کاربری
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            تنظیمات اشاره کردن به نام‌های کاربری
+        </value>
+    </key>
+    <key name="admin_changed_success">
+        <value>
+            با موفقیت ذخیره شد
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+
+    <key name="console_notification_comment">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به شما در یک &lt;a href="{$textLink}"&gt;نظر&lt;/a&gt; اشاره کرد
+        </value>
+    </key>
+    <key name="console_notification_newsfeed">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به شما در یک &lt;a href="{$textLink}"&gt;نوشته&lt;/a&gt; اشاره کرد
+        </value>
+    </key>
+    <key name="title">
+        <value>
+            اشاره کردن به نام کاربری
+        </value>
+    </key>
+    <key name="you_are_mentioned">
+        <value>
+            کسی به نام کاربری شما اشاره کرده است
+        </value>
+    </key>
+    <key name="privacy_action_search_my_username">
+        <value>
+            جستجوی نام کاربری من
+        </value>
+    </key>
+</prefix>

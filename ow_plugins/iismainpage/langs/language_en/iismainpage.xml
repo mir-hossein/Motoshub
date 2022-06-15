@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismainpage" label="iismainpage" language_tag="en" language_label="English">
+    <key name="mobile_main_menu_list">
+        <value>
+            Main page
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            Mainpage Plugin Settings
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            Settings
+        </value>
+    </key>
+    <key name="chat">
+        <value>
+            Chats
+        </value>
+    </key>
+    <key name="mail">
+        <value>
+            Messages
+        </value>
+    </key>
+    <key name="find_friends">
+        <value>
+            Find New Friends
+        </value>
+    </key>
+    <key name="orders">
+        <value>
+            Menu orders
+        </value>
+    </key>
+    <key name="empty_row_label">
+        <value>
+            Empty
+        </value>
+    </key>
+    <key name="search">
+        <value>
+            Search
+        </value>
+    </key>
+    <key name="username_or_realname">
+        <value>
+            Username / Real name
+        </value>
+    </key>
+    <key name="public_photos">
+        <value>
+            Public photos
+        </value>
+    </key>
+</prefix>

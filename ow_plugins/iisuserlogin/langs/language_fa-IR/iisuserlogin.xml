@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisuserlogin" label="iisuserlogin" language_tag="fa-IR" language_label="فارسی">
+    <key name="setting_saved">
+        <value>
+            تنظیمات با موفقیت ذخیره شد.
+        </value>
+    </key>
+    <key name="numberOfLastLoginDetails">
+        <value>
+            تعداد جزئیات اطلاعات ورودهای کاربر برای نمایش
+        </value>
+    </key>
+    <key name="enableActiveDevices">
+        <value>
+            فعال بودن زبانه «نشست‌های فعال»
+        </value>
+    </key>
+    <key name="expiredTimeOfLoginDetails">
+        <value>
+            میزان زمان نگهداری اطلاعات ورود کاربران (بر حسب ماه)
+        </value>
+    </key>
+    <key name="login_details_header">
+        <value>
+            جزئیات ورود
+        </value>
+    </key>
+    <key name="login_details_ip_label">
+        <value>
+            آی پی
+        </value>
+    </key>
+    <key name="login_details_time_label">
+        <value>
+            زمان
+        </value>
+    </key>
+    <key name="login_details_browser_label">
+        <value>
+            مرورگر
+        </value>
+    </key>
+    <key name="bottom_menu_item">
+        <value>
+            جزئیات نشست
+        </value>
+    </key>
+    <key name="mobile_bottom_menu_item">
+        <value>
+            جزئیات نشست
+        </value>
+    </key>
+    <key name="preference_login_detail_subscribe_label">
+        <value>
+            ارسال رایانامه هنگام ورود
+        </value>
+    </key>
+    <key name="preference_login_detail_subscribe_description">
+        <value>
+            در هنگام ورود به شبکه اجتماعی، یک رایانامه به صورت خودکار، حاوی اطلاعات ورود برای شما ارسال خواهد شد
+        </value>
+    </key>
+    <key name="email_login_to_network">
+        <value>
+            ورود به حساب کاربری
+        </value>
+    </key>
+    <key name="email_login_details">
+        <value>
+            سلام {$username}، یک ورود از حساب کاربری شما با رایانامه {$email} در شبکه ثبت شد. اطلاعات مرورگر، آی‌پی و زمان ورود عبارتند از: &lt;br /&gt;
+			اطلاعات مرورگر: {$browser}  &lt;br /&gt;
+			آی‌پی: {$ip} &lt;br /&gt;
+			زمان: {$time} &lt;br /&gt;
+
+        </value>
+    </key>
+    <key name="admin_page_heading">
+        <value>
+            تنظیمات افزونه نمایش جزییات ورود کاربران
+        </value>
+    </key>
+    <key name="admin_page_title">
+        <value>
+            تنظیمات افزونه نمایش جزییات ورود کاربران
+        </value>
+    </key>
+    <key name="current_device">
+        <value>
+            نشست فعلی
+        </value>
+    </key>
+    <key name="login_details_last_activity_time_label">
+        <value>
+            آخرین زمان فعالیت
+        </value>
+    </key>
+    <key name="active_details_header">
+        <value>
+            نشست‌های فعال
+        </value>
+    </key>
+    <key name="terminate_device">
+        <value>
+            منقضی کردن
+        </value>
+    </key>
+    <key name="terminate_all_other_devices">
+        <value>
+            منقضی کردن تمامی نشست‌ها به جز نشست فعلی
+        </value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            آیا از انجام این اقدام مطمئن هستید؟
+        </value>
+    </key>
+    <key name="loggedOut">
+        <value>
+        شما از سامانه خارج شده‌اید، آیا مایل به ورود مجدد به سامانه هستید؟
+        </value>
+    </key>
+</prefix>

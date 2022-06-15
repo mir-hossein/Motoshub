@@ -1,0 +1,7124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="base" label="BASE" language_tag="fa-IR" language_label="فارسی">
+    <key name="about_me_widget_content_saved">
+        <value>
+            توضیحات به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="about_me_widget_default_title">
+        <value>
+            درباره من
+        </value>
+    </key>
+    <key name="about_me_widget_inv_text">
+        <value>
+            افزودن برخی اطلاعات از خودتان
+        </value>
+    </key>
+    <key name="accept">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="activity_online">
+        <value>
+            هم‌اکنون حاضر در {$site_name}
+        </value>
+    </key>
+    <key name="activity_stamp">
+        <value>
+            فعالیت:
+        </value>
+    </key>
+    <key name="activity_widget_title">
+        <value>
+            آخرین‌ها در {$site_name}
+        </value>
+    </key>
+    <key name="add_comment">
+        <value>
+            افزودن نظرات
+        </value>
+    </key>
+    <key name="admin_delete_user_text">
+        <value>
+            آیا از حذف این کاربر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="admin_nav_bottom_section_label">
+        <value>
+            منو پایین
+        </value>
+    </key>
+    <key name="admin_nav_hidden_section_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="admin_nav_new_item_label">
+        <value>
+            صفحه جدید
+        </value>
+    </key>
+    <key name="admin_nav_top_section_label">
+        <value>
+            منو بالا
+        </value>
+    </key>
+    <key name="admin_widgets_hidden_section_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="admin_widgets_main_section_label">
+        <value>
+            محتوا
+        </value>
+    </key>
+    <key name="ajax_attachment_select_image">
+        <value>
+            تغییر
+        </value>
+    </key>
+    <key name="ajax_attachment_select_image_title">
+        <value>
+            انتخاب تصویر
+        </value>
+    </key>
+    <key name="ajax_floatbox_users_title">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="all">
+        <value>
+            همه
+        </value>
+    </key>
+    <key name="approve">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="approve_users">
+        <value>
+            کاربران تایید شده
+        </value>
+    </key>
+    <key name="approve_user_btn">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="archive">
+        <value>
+            بایگانی
+        </value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            آیا از انجام این اقدام مطمئن هستید؟
+        </value>
+    </key>
+    <key name="attachment_is_inprogress">
+        <value>
+            در صورت ارسال مطلب در هنگام بارگذاری فایل، ممکن است باعث شود برخی از فایل‌ها به درستی الصاق نشوند، آيا می‌خواهید ادامه دهید؟
+        </value>
+    </key>
+    <key name="attachment_is_inprogress_confirm">
+        <value>
+             
+        </value>
+    </key>
+    <key name="attch_add_video_button_label">
+        <value>
+            افزودن ویدیو
+        </value>
+    </key>
+    <key name="attch_attachment_label">
+        <value>
+            پیوست‌ها
+        </value>
+    </key>
+    <key name="attch_photo_button_label">
+        <value>
+            پیوست تصویر
+        </value>
+    </key>
+    <key name="attch_video_add_button_label">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="attch_video_button_label">
+        <value>
+            پیوست ویدیو
+        </value>
+    </key>
+    <key name="authorization_action_base_add_comment">
+        <value>
+            نوشتن توضیحات بر روی دیوار
+        </value>
+    </key>
+    <key name="authorization_action_base_delete_comment_by_content_owner">
+        <value>
+            نویسنده می‌تواند نظرات دیوار را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_base_search_users">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="authorization_action_blogs_add">
+        <value>
+            افزودن نوشته بلاگ
+        </value>
+    </key>
+    <key name="authorization_action_blogs_add_comment">
+        <value>
+            افزودن نظرات
+        </value>
+    </key>
+    <key name="authorization_action_blogs_delete_comment_by_content_owner">
+        <value>
+            صاحب محتوا می‌تواند نظرات را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_blogs_view">
+        <value>
+            مشاهده
+        </value>
+    </key>
+    <key name="authorization_action_event_add_comment">
+        <value>
+            نظرات رویدادها
+        </value>
+    </key>
+    <key name="authorization_action_event_add_event">
+        <value>
+            افزودن رویداد
+        </value>
+    </key>
+    <key name="authorization_action_event_view_event">
+        <value>
+            مشاهده رویداد
+        </value>
+    </key>
+    <key name="authorization_action_forum_edit">
+        <value>
+            ایجاد/ویرایش موضوع
+        </value>
+    </key>
+    <key name="authorization_action_forum_move_topic_to_hidden">
+        <value>
+            جابجایی موضوعات به بخش مخفی
+        </value>
+    </key>
+    <key name="authorization_action_forum_subscribe">
+        <value>
+            اشتراک در موضوعات انجمن
+        </value>
+    </key>
+    <key name="authorization_action_forum_view">
+        <value>
+            مشاهده موضوع
+        </value>
+    </key>
+    <key name="authorization_action_friends_add_friend">
+        <value>
+            افزودن دوستان
+        </value>
+    </key>
+    <key name="authorization_action_groups_add_comment">
+        <value>
+            نوشتن بر دیوار نظرات
+        </value>
+    </key>
+    <key name="authorization_action_groups_add_topic">
+        <value>
+            ایجاد/ویرایش موضوع
+        </value>
+    </key>
+    <key name="authorization_action_groups_create">
+        <value>
+            ایجاد گروه‌ها
+        </value>
+    </key>
+    <key name="authorization_action_groups_delete_comment_by_content_owner">
+        <value>
+            نویسنده می‌تواند نظرات روی دیوار را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_links_add">
+        <value>
+            افزودن پیوند
+        </value>
+    </key>
+    <key name="authorization_action_links_add_comment">
+        <value>
+            روی دیوار نظرات بنویسید
+        </value>
+    </key>
+    <key name="authorization_action_links_delete_comment_by_content_owner">
+        <value>
+            فقط مالک محتوا می‌تواند نظرات را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_links_view">
+        <value>
+            مشاهده پیوندها
+        </value>
+    </key>
+    <key name="authorization_action_mailbox_read_message">
+        <value>
+            خواندن پیام‌های دریافتی
+        </value>
+    </key>
+    <key name="authorization_action_mailbox_send_message">
+        <value>
+            پیام خصوصی
+        </value>
+    </key>
+    <key name="authorization_action_market_add_comment">
+        <value>
+            نظر ارسال شده در مشاغل
+        </value>
+    </key>
+    <key name="authorization_action_market_delete_comment_by_content_owner">
+        <value>
+            فقط مالک محتوا می‌تواند نظرات را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_market_post_jobs">
+        <value>
+            ارسال مشاغل
+        </value>
+    </key>
+    <key name="authorization_action_newsfeed_add_comment">
+        <value>
+            اجازه دادن به نظرات
+        </value>
+    </key>
+    <key name="authorization_action_photo_add_comment">
+        <value>
+            نظرات تصویر
+        </value>
+    </key>
+    <key name="authorization_action_photo_delete_comment_by_content_owner">
+        <value>
+            فقط مالک محتوا می‌تواند نظرات را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_photo_upload">
+        <value>
+            بارگذاری تصویر
+        </value>
+    </key>
+    <key name="authorization_action_photo_view">
+        <value>
+            مشاهده تصویر
+        </value>
+    </key>
+    <key name="authorization_action_promotion">
+        <value>
+            لطفا {$alternatives} به {$action}.
+        </value>
+    </key>
+    <key name="authorization_action_video_add">
+        <value>
+            افزودن ویدیو
+        </value>
+    </key>
+    <key name="authorization_action_video_add_comment">
+        <value>
+            نظرات ویدیو
+        </value>
+    </key>
+    <key name="authorization_action_video_delete_comment_by_content_owner">
+        <value>
+            فقط مالک محتوا می‌تواند نظرات را حذف کند.
+        </value>
+    </key>
+    <key name="authorization_action_video_view">
+        <value>
+            نمایش ویدیو
+        </value>
+    </key>
+    <key name="authorization_action_virtualgifts_send_gift">
+        <value>
+            ارسال هدیه
+        </value>
+    </key>
+    <key name="authorization_failed_feedback">
+        <value>
+            به دلیل محدودیت دسترسی شما نمی توانید این صفحه را مشاهده کنید
+        </value>
+    </key>
+    <key name="authorization_failed_msg">
+        <value>
+            به‌نظر می‌رسد که به‌دلیل نداشتن اجازه دسترسی کافی، شما نمی‌توانید صفحه را مشاهده کنید.
+        </value>
+    </key>
+    <key name="authorization_feedback_roles_updated">
+        <value>
+            به‌روزرسانی شده
+        </value>
+    </key>
+    <key name="authorization_give_user_role">
+        <value>
+            تغییر نقش
+        </value>
+    </key>
+    <key name="authorization_group_base">
+        <value>
+            دسترسی‌های اصلی
+        </value>
+    </key>
+    <key name="authorization_group_blogs">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="authorization_group_event">
+        <value>
+            رویدادها
+        </value>
+    </key>
+    <key name="authorization_group_forum">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="authorization_group_friends">
+        <value>
+            دوستان
+        </value>
+    </key>
+    <key name="authorization_group_groups">
+        <value>
+            گروه‌ها
+        </value>
+    </key>
+    <key name="authorization_group_links">
+        <value>
+            پیوندها
+        </value>
+    </key>
+    <key name="authorization_group_mailbox">
+        <value>
+            پیام‌ها
+        </value>
+    </key>
+    <key name="authorization_group_market">
+        <value>
+            فروشگاه
+        </value>
+    </key>
+    <key name="authorization_group_membership">
+        <value>
+            اعضا
+        </value>
+    </key>
+    <key name="authorization_group_newsfeed">
+        <value>
+            تازه‌های {$site_name}
+        </value>
+    </key>
+    <key name="authorization_group_photo">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="authorization_group_usercredits">
+        <value>
+            اعتبار کاربر
+        </value>
+    </key>
+    <key name="authorization_group_video">
+        <value>
+            ویدیو
+        </value>
+    </key>
+    <key name="authorization_group_virtualgifts">
+        <value>
+            هدایای مجازی
+        </value>
+    </key>
+    <key name="authorization_limited_permissions">
+        <value>
+            محدودیت دسترسی
+        </value>
+    </key>
+    <key name="authorization_role_admin">
+        <value>
+            مدیر
+        </value>
+    </key>
+    <key name="authorization_role_bronze">
+        <value>
+            افراد مهم
+        </value>
+    </key>
+    <key name="authorization_role_developer">
+        <value>
+            برنامه‌نویس
+        </value>
+    </key>
+    <key name="authorization_role_ekip_yesi">
+        <value>
+            اعضای گروه
+        </value>
+    </key>
+    <key name="authorization_role_gold">
+        <value>
+            طلایی
+        </value>
+    </key>
+    <key name="authorization_role_grey">
+        <value>
+            خاکستری
+        </value>
+    </key>
+    <key name="authorization_role_guest">
+        <value>
+            مهمان
+        </value>
+    </key>
+    <key name="authorization_role_ms_test">
+        <value>
+            کارکنان
+        </value>
+    </key>
+    <key name="authorization_role_silver">
+        <value>
+            نقره‌ای
+        </value>
+    </key>
+    <key name="authorization_role_silver1">
+        <value>
+            نقره‌ای
+        </value>
+    </key>
+    <key name="authorization_role_wqewq">
+        <value>
+            آزاد
+        </value>
+    </key>
+    <key name="authorization_user_roles">
+        <value>
+            نقش‌های کاربران
+        </value>
+    </key>
+    <key name="auth_action_add_comment">
+        <value>
+            اجازه ارسال نوشته بر روی نمایه
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="auth_identity_not_found_error_message">
+        <value>
+            نام کاربری/رایانامه یا گذرواژه صحیح نیست
+        </value>
+    </key>
+    <key name="auth_invlid_password_error_message">
+        <value>
+            نام کاربری/رایانامه یا گذرواژه صحیح نیست
+        </value>
+    </key>
+    <key name="auth_success_message">
+        <value>
+            احراز هویت موفقیت آمیز بود، لطفا منتظر بمانید...
+        </value>
+    </key>
+    <key name="auth_success_message_not_ajax">
+        <value>
+            احراز هویت با موفقیت انجام شد
+        </value>
+    </key>
+    <key name="auth_view_profile">
+        <value>
+            نمایش نمایه‌ها
+        </value>
+    </key>
+    <key name="avatar_activity_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt;تصویر نمایه‌شان را تغییر دادند
+        </value>
+    </key>
+    <key name="avatar_apply_crop">
+        <value>
+            اعمال برش
+        </value>
+    </key>
+    <key name="avatar_avatar_is">
+        <value>
+            تصویر نمایه تصویری با اندازه کوچک است که در نمایه شما نمایش داده می شود
+        </value>
+    </key>
+    <key name="avatar_back_profile_edit">
+        <value>
+            بازگشت به ویرایش نمایه
+        </value>
+    </key>
+    <key name="avatar_btn_upload">
+        <value>
+            بارگذاری
+        </value>
+    </key>
+    <key name="avatar_change">
+        <value>
+            تغییر تصویر نمایه
+        </value>
+    </key>
+    <key name="avatar_changed">
+        <value>
+            تصویر نمایه تغییر کرده است
+        </value>
+    </key>
+    <key name="avatar_change_avatar">
+        <value>
+            تغییر تصویر نمایه
+        </value>
+    </key>
+    <key name="avatar_choose_from_library">
+        <value>
+            یا از کتابخانه خود انتخاب کنید
+        </value>
+    </key>
+    <key name="avatar_console_edit_profile">
+        <value>
+            ویرایش نمایه من
+        </value>
+    </key>
+    <key name="avatar_crop">
+        <value>
+            برش تصویر نمایه
+        </value>
+    </key>
+    <key name="avatar_crop_instructions">
+        <value>
+            با استفاده از موس خود قسمتی از تصویر نمایه را برای برش انتخاب کنید .  نتیجه قسمت برش داده شده در سمت راست نمایش داده می‌شود. زمانی که نتیجه خوشایند است بر روی دکمه "اعمال برش" کلیک کنید.
+        </value>
+    </key>
+    <key name="avatar_current">
+        <value>
+            تصویر نمایه شما
+        </value>
+    </key>
+    <key name="avatar_drop_single_image">
+        <value>
+            شما تنها یک تصویر می‌توانید در اینجا رها کنید
+        </value>
+    </key>
+    <key name="avatar_feed_string">
+        <value>
+            تصویر نمایه‌اش را تغییر داده است
+        </value>
+    </key>
+    <key name="avatar_has_been_approved">
+        <value>
+            تصویر نمایه تایید شده است
+        </value>
+    </key>
+    <key name="avatar_image_too_small">
+        <value>
+            این تصویر بسیار کوچک است و نمی‌توان آن‌را به عنوان تصویر نمایه انتخاب کرد &lt;br /&gt;کوچکترین سایز  {$width}px x {$height}px
+        </value>
+    </key>
+    <key name="avatar_new">
+        <value>
+            بارگذاری تصویر نمایه جدید
+        </value>
+    </key>
+    <key name="avatar_pending_approval">
+        <value>
+            تصویر نمایه در انتظار تایید
+        </value>
+    </key>
+    <key name="avatar_picture">
+        <value>
+            تصویر نمایه شما
+        </value>
+    </key>
+    <key name="avatar_preview">
+        <value>
+            پیش‌نمایش
+        </value>
+    </key>
+    <key name="avatar_select_image">
+        <value>
+            لطفا فایل تصویر را انتخاب کنید
+        </value>
+    </key>
+    <key name="avatar_update_string">
+        <value>
+            تصویر نمایه خود را تغییر داده است
+        </value>
+    </key>
+    <key name="avatar_upload_types">
+        <value>
+            قالب‌های موجود برای بارگذاری تصویر نمایه&lt;span class="ow_txt_value"&gt;JPG&lt;/span&gt;/&lt;span class="ow_txt_value"&gt;GIF&lt;/span&gt;/&lt;span class="ow_txt_value"&gt;PNG&lt;/span&gt;
+        </value>
+    </key>
+    <key name="avatar_user_list_select_button_label">
+        <value>
+            ثبت
+        </value>
+    </key>
+    <key name="avatar_user_list_select_count_label">
+        <value>
+            #count# کاربر انتخاب شده
+        </value>
+    </key>
+    <key name="avatar_user_select_empty_list_message">
+        <value>
+            برای ادامه دادن لازم است یک یا چند کاربر را انتخاب کنید
+        </value>
+    </key>
+    <key name="avatar_widget">
+        <value>
+            تصویر نمایه
+        </value>
+    </key>
+    <key name="back">
+        <value>
+            بازگشت
+        </value>
+    </key>
+    <key name="base+questions_add_account_type">
+        <value>
+            افزودن جدید
+        </value>
+    </key>
+    <key name="base_document_403">
+        <value>
+            شما دسترسی لازم برای دستیابی به این صفحه را ندارید
+        </value>
+    </key>
+    <key name="base_document_403_heading">
+        <value>
+            ممنوع
+        </value>
+    </key>
+    <key name="base_document_403_title">
+        <value>
+            ممنوع
+        </value>
+    </key>
+    <key name="base_document_404">
+        <value>
+            چنین صفحه ای وجود ندارد. &lt;br/&gt; لطفا از صحیح بودن آدرس وارد شده اطمینان حاصل کنید. در صورت برطرف نشدن مشکل، لطفا به مدیر شبکه گزارش دهید.
+        </value>
+    </key>
+    <key name="base_document_404_heading">
+        <value>
+            صفحه‌ای پیدا نشد
+        </value>
+    </key>
+    <key name="base_document_404_title">
+        <value>
+            صفحه مورد نظر پیدا نشد
+        </value>
+    </key>
+    <key name="base_document_auth_failed_heading">
+        <value>
+            محدودیت‌های دسترسی
+        </value>
+    </key>
+    <key name="base_invisible_profile_field_tooltip">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="base_join_menu_item">
+        <value>
+            ثبت‌نام
+        </value>
+    </key>
+    <key name="base_sign_in_cap_label">
+        <value>
+            ورود به حساب کاربری
+        </value>
+    </key>
+    <key name="base_sign_in_or_label">
+        <value>
+            یا
+        </value>
+    </key>
+    <key name="base_sign_in_txt">
+        <value>
+            به شبکه ما خوش آمدید!&lt;br /&gt;&lt;br /&gt; اطلاعات ورود خود را وارد کنید یا عضو شوید
+        </value>
+    </key>
+    <key name="billing_amount">
+        <value>
+            مقدار
+        </value>
+    </key>
+    <key name="billing_currency_not_supported">
+        <value>
+            ارائه دهنده پرداخت از واحد پول فعال وب‌گاه پشتیبانی نمی‌کند (&lt;b&gt;{$currency}&lt;/b&gt;)
+        </value>
+    </key>
+    <key name="billing_details">
+        <value>
+            جزئیات
+        </value>
+    </key>
+    <key name="billing_gateway">
+        <value>
+            دروازه
+        </value>
+    </key>
+    <key name="billing_gateway_not_found">
+        <value>
+            دروازه پرداخت پیدا نشد و یا غیر فعال است
+        </value>
+    </key>
+    <key name="billing_gateway_products_binding">
+        <value>
+            صدور صورت‌حساب محصولات دروازه
+        </value>
+    </key>
+    <key name="billing_gateway_unavailable">
+        <value>
+            در دسترس نیست
+        </value>
+    </key>
+    <key name="billing_no_gateways">
+        <value>
+            هیچ دروازه پرداختی فعال نیست
+        </value>
+    </key>
+    <key name="billing_order_canceled">
+        <value>
+            سفارش شما لغو شده است
+        </value>
+    </key>
+    <key name="billing_order_completed_successfully">
+        <value>
+            سفارش شما با موفقیت تکمیل شده است
+        </value>
+    </key>
+    <key name="billing_order_failed">
+        <value>
+            در طول پردازش سفارش شما خطایی رخ داده است
+        </value>
+    </key>
+    <key name="billing_order_init_failed">
+        <value>
+            مقداردهی اولیه سفارش با شکست مواجه شد
+        </value>
+    </key>
+    <key name="billing_order_page_heading">
+        <value>
+            با {$gateway} امن بپردازید
+        </value>
+    </key>
+    <key name="billing_order_processing">
+        <value>
+            سفارش شما در حال پردازش است
+        </value>
+    </key>
+    <key name="billing_order_status_page_heading">
+        <value>
+            وضعیت سفارش شما
+        </value>
+    </key>
+    <key name="billing_order_verified">
+        <value>
+            سفارش شما بازبینی شده است
+        </value>
+    </key>
+    <key name="billing_pay_with">
+        <value>
+            پرداخت مطمئن با
+        </value>
+    </key>
+    <key name="billing_product">
+        <value>
+            محصول
+        </value>
+    </key>
+    <key name="billing_product_id">
+        <value>
+            دروازه شناسه محصول
+        </value>
+    </key>
+    <key name="billing_sale_not_found">
+        <value>
+            اطلاعات مربوط به سفارش پیدا نشد
+        </value>
+    </key>
+    <key name="billing_statistics">
+        <value>
+            آمار
+        </value>
+    </key>
+    <key name="billing_transaction_id">
+        <value>
+            شناسه تراکنش
+        </value>
+    </key>
+    <key name="blocked_users_browse_page_heading">
+        <value>
+             
+        </value>
+    </key>
+    <key name="block_user_confirmation_label">
+        <value>
+            تایید بستن
+        </value>
+    </key>
+    <key name="btn_label_send">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="by">
+        <value>
+            توسط
+        </value>
+    </key>
+    <key name="cancel">
+        <value>
+            لغو
+        </value>
+    </key>
+    <key name="cancel_button">
+        <value>
+            لغو
+        </value>
+    </key>
+    <key name="cannot_delete_admin_user_message">
+        <value>
+            شما نمی‌توانید یک مدیر وب‌گاه را حذف کنید
+        </value>
+    </key>
+    <key name="cannot_delete_admin_user_msg">
+        <value>
+            در ابتدا شما باید این کاربر را از مدیریت سایت حذف کنید
+        </value>
+    </key>
+    <key name="captcha_value">
+        <value>
+            عبارت امنیتی
+        </value>
+    </key>
+    <key name="change">
+        <value>
+            تغییر
+        </value>
+    </key>
+    <key name="change_password">
+        <value>
+            تغییر گذرواژه
+        </value>
+    </key>
+    <key name="change_password_error">
+        <value>
+            گذرواژه تغییر داده نشد
+        </value>
+    </key>
+    <key name="change_password_new_password">
+        <value>
+            گذرواژه جدید
+        </value>
+    </key>
+    <key name="change_password_old_password">
+        <value>
+            گذرواژه قبلی
+        </value>
+    </key>
+    <key name="change_password_repeat_password">
+        <value>
+            تکرار گذرواژه جدید
+        </value>
+    </key>
+    <key name="change_password_success">
+        <value>
+            گذرواژه تغییر یافت
+        </value>
+    </key>
+    <key name="checkout">
+        <value>
+            بررسی کردن
+        </value>
+    </key>
+    <key name="check_all">
+        <value>
+            علامت زدن همه
+        </value>
+    </key>
+    <key name="check_all_to">
+        <value>
+            انتخاب همه به
+        </value>
+    </key>
+    <key name="close">
+        <value>
+            بستن
+        </value>
+    </key>
+    <key name="cmp_add_new_content_box_cap_label">
+        <value>
+            افزودن جدید
+        </value>
+    </key>
+    <key name="cmp_widget_wall_comments_count">
+        <value>
+            تعداد نظرات برای نمایش
+        </value>
+    </key>
+    <key name="cmp_widget_wall_comments_mode">
+        <value>
+            حالت نمایش
+        </value>
+    </key>
+    <key name="cmp_widget_wall_comments_mode_option_1">
+        <value>
+            لیست کامل
+        </value>
+    </key>
+    <key name="cmp_widget_wall_comments_mode_option_2">
+        <value>
+            با صفحه‌بندی
+        </value>
+    </key>
+    <key name="comma">
+        <value>
+            ،
+        </value>
+    </key>
+    <key name="comments_add_auth_message">
+        <value>
+            شما مجاز به نوشتن نظر نیستید
+        </value>
+    </key>
+    <key name="comments_add_login_message">
+        <value>
+            شما برای نظر دادن باید وارد شوید
+        </value>
+    </key>
+    <key name="comments_label">
+        <value>
+            نظرات
+        </value>
+    </key>
+    <key name="comments_see_more_label">
+        <value>
+            نمایش بیشتر
+        </value>
+    </key>
+    <key name="comments_widget_label">
+        <value>
+            دیوار
+        </value>
+    </key>
+    <key name="comment_added_string">
+        <value>
+            روی {$content} نظر گذاشته
+        </value>
+    </key>
+    <key name="comment_add_auth_error">
+        <value>
+            در هنگام ارسال نظر خطایی اتفاق افتاد
+        </value>
+    </key>
+    <key name="comment_add_post_error">
+        <value>
+            خطایی در حین پردازش درخواست شما اتفاق افتاد
+        </value>
+    </key>
+    <key name="comment_add_submit_label">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="comment_box_cap_label">
+        <value>
+            نظرات
+        </value>
+    </key>
+    <key name="comment_content_label">
+        <value>
+            اظهار نظر بر {$content}
+        </value>
+    </key>
+    <key name="comment_delete_confirm_message">
+        <value>
+            آیا از حذف نظر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="comment_delete_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="comment_form_element_invitation_text">
+        <value>
+            اینجا نظر دهید...
+        </value>
+    </key>
+    <key name="comment_load_more_label">
+        <value>
+            نظر دیگر
+        </value>
+    </key>
+    <key name="comment_no_comments">
+        <value>
+            بدون نظر
+        </value>
+    </key>
+    <key name="comment_required_validator_message">
+        <value>
+            لطفا نظری وارد کنید
+        </value>
+    </key>
+    <key name="comment_view_all">
+        <value>
+            مشاهده همه ({$count})
+        </value>
+    </key>
+    <key name="complete_profile">
+        <value>
+            تکمیل نمایه
+        </value>
+    </key>
+    <key name="complete_profile_info">
+        <value>
+            شما باید مقادیر مورد نیاز را وارد کنید
+        </value>
+    </key>
+    <key name="complete_your_profile_page_heading">
+        <value>
+            تکمیل نمایه
+        </value>
+    </key>
+    <key name="complite_profile">
+        <value>
+            تکمیل نمایه
+        </value>
+    </key>
+    <key name="component_add_new_box_cap_label">
+        <value>
+            افزودن جدید
+        </value>
+    </key>
+    <key name="component_sign_in_login_invitation">
+        <value>
+            نام کاربری/رایانامه
+        </value>
+    </key>
+    <key name="component_sign_in_password_invitation">
+        <value>
+            گذرواژه
+        </value>
+    </key>
+    <key name="config_join_display_photo_upload_display_and_require_label">
+        <value>
+            نمایش و تنظیم نیاز است
+        </value>
+    </key>
+    <key name="config_join_display_photo_upload_display_label">
+        <value>
+            نمایش
+        </value>
+    </key>
+    <key name="config_join_display_photo_upload_not_display_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="confirm">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="confirm_button">
+        <value>
+            تائید
+        </value>
+    </key>
+    <key name="confirm_page_cancel_label">
+        <value>
+            انصراف
+        </value>
+    </key>
+    <key name="confirm_page_ok_label">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="console_item_invitations_label">
+        <value>
+            دعوت‌نامه‌ها
+        </value>
+    </key>
+    <key name="console_item_label_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="console_item_label_mailbox">
+        <value>
+            صندوق پستی
+        </value>
+    </key>
+    <key name="console_item_label_preferences">
+        <value>
+            اولویت‌ها
+        </value>
+    </key>
+    <key name="console_item_label_profile">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="console_item_label_sign_out">
+        <value>
+            خروج
+        </value>
+    </key>
+    <key name="console_item_sign_up_label">
+        <value>
+            ثبت‌نام
+        </value>
+    </key>
+    <key name="content_avatars_label">
+        <value>
+            تصاویر نمایه
+        </value>
+    </key>
+    <key name="content_avatar_label">
+        <value>
+            تصویر نمایه
+        </value>
+    </key>
+    <key name="content_comments_label">
+        <value>
+            نظرات
+        </value>
+    </key>
+    <key name="content_comment_label">
+        <value>
+            نظر
+        </value>
+    </key>
+    <key name="content_profiles_label">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="content_profile_label">
+        <value>
+            نمایه
+        </value>
+    </key>
+    <key name="contex_action_comment_delete_label">
+        <value>
+            حذف دیدگاه
+        </value>
+    </key>
+    <key name="contex_action_user_delete_label">
+        <value>
+            حذف کاربر
+        </value>
+    </key>
+    <key name="continue_button">
+        <value>
+            ادامه دادن
+        </value>
+    </key>
+    <key name="copy">
+        <value>
+            کپی نوشته
+        </value>
+    </key>
+    <key name="copyright">
+        <value>
+            {$site_name} – تمام حقوق محفوظ است
+        </value>
+    </key>
+    <key name="crop_avatar_failed">
+        <value>
+            برش تصویر نمایه ناموفق بود
+        </value>
+    </key>
+    <key name="custom_html_widget_content_label">
+        <value>
+            متن (عادی/HTML)
+        </value>
+    </key>
+    <key name="custom_html_widget_default_title">
+        <value>
+            متن دلخواه / HTML
+        </value>
+    </key>
+    <key name="custom_html_widget_nl2br_label">
+        <value>
+            تبدیل خط جدید به &lt;br /&gt;
+        </value>
+    </key>
+    <key name="custom_html_widget_no_content">
+        <value>
+            بدون محتوا
+        </value>
+    </key>
+    <key name="dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="dashboard_heading">
+        <value>
+            داشبورد من
+        </value>
+    </key>
+    <key name="date_time_at_label">
+        <value>
+            در
+        </value>
+    </key>
+    <key name="date_time_cap_hour">
+        <value>
+            ساعت
+        </value>
+    </key>
+    <key name="date_time_cap_minute">
+        <value>
+            دقیقه
+        </value>
+    </key>
+    <key name="date_time_hours_ago">
+        <value>
+            {$hours} ساعت قبل
+        </value>
+    </key>
+    <key name="date_time_minutes_ago">
+        <value>
+            {$minutes} دقیقه قبل
+        </value>
+    </key>
+    <key name="date_time_month_short_1">
+        <value>
+            ژانویه
+        </value>
+    </key>
+    <key name="date_time_month_short_10">
+        <value>
+            اکتبر
+        </value>
+    </key>
+    <key name="date_time_month_short_11">
+        <value>
+            نوامبر
+        </value>
+    </key>
+    <key name="date_time_month_short_12">
+        <value>
+            دسامبر
+        </value>
+    </key>
+    <key name="date_time_month_short_2">
+        <value>
+            فوریه
+        </value>
+    </key>
+    <key name="date_time_month_short_3">
+        <value>
+            مارس
+        </value>
+    </key>
+    <key name="date_time_month_short_4">
+        <value>
+            آوریل
+        </value>
+    </key>
+    <key name="date_time_month_short_5">
+        <value>
+            مه
+        </value>
+    </key>
+    <key name="date_time_month_short_6">
+        <value>
+            ژوئن
+        </value>
+    </key>
+    <key name="date_time_month_short_7">
+        <value>
+            ژوئیه
+        </value>
+    </key>
+    <key name="date_time_month_short_8">
+        <value>
+            اوت
+        </value>
+    </key>
+    <key name="date_time_month_short_9">
+        <value>
+            سپتامبر
+        </value>
+    </key>
+    <key name="date_time_one_hour_ago">
+        <value>
+            یک ساعت پیش
+        </value>
+    </key>
+    <key name="date_time_one_minute_ago">
+        <value>
+            یک دقیقه پیش
+        </value>
+    </key>
+    <key name="date_time_today">
+        <value>
+            امروز
+        </value>
+    </key>
+    <key name="date_time_tomorrow">
+        <value>
+            فردا
+        </value>
+    </key>
+    <key name="date_time_week_0">
+        <value>
+            یکشنبه
+        </value>
+    </key>
+    <key name="date_time_week_1">
+        <value>
+            دوشنبه
+        </value>
+    </key>
+    <key name="date_time_week_2">
+        <value>
+            سه شنبه
+        </value>
+    </key>
+    <key name="date_time_week_3">
+        <value>
+            چهارشنبنه
+        </value>
+    </key>
+    <key name="date_time_week_4">
+        <value>
+            پنجشنبه
+        </value>
+    </key>
+    <key name="date_time_week_5">
+        <value>
+            جمعه
+        </value>
+    </key>
+    <key name="date_time_week_6">
+        <value>
+            شنبه
+        </value>
+    </key>
+    <key name="date_time_within_one_minute">
+        <value>
+            همین الان
+        </value>
+    </key>
+    <key name="date_time_yesterday">
+        <value>
+            دیروز
+        </value>
+    </key>
+    <key name="day">
+        <value>
+            روز
+        </value>
+    </key>
+    <key name="delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="deleted_user">
+        <value>
+            کاربر حذف شده
+        </value>
+    </key>
+    <key name="delete_comment_by_content_owner">
+        <value>
+            حذف نظر توسط نویسنده مطلب
+        </value>
+    </key>
+    <key name="delete_profile">
+        <value>
+            حذف حساب کاربری
+        </value>
+    </key>
+    <key name="delete_user_cancel_button">
+        <value>
+            انصراف
+        </value>
+    </key>
+    <key name="delete_user_confirmation">
+        <value>
+            آیا از حذف نمایه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_user_confirmation_label">
+        <value>
+            تایید حذف
+        </value>
+    </key>
+    <key name="delete_user_content_label">
+        <value>
+            حذف مطالب کاربر
+        </value>
+    </key>
+    <key name="delete_user_delete_button">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_user_feedback">
+        <value>
+            کاربر حذف شده است
+        </value>
+    </key>
+    <key name="delete_user_index">
+        <value>
+            حذف حساب کاربری
+        </value>
+    </key>
+    <key name="delete_user_success_message">
+        <value>
+            حساب حذف شد&lt;br /&gt;&#13;
+		برگرد به &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="delete_user_warning">
+        <value>
+            با تایید حذف، کلیه داده‌ها و محتوای تولید شده توسط کاربر حذف شده و برگشت پذیر نخواهد بود.
+        </value>
+    </key>
+    <key name="desktop_version_menu_item">
+        <value>
+            نسخه رومیزی
+        </value>
+    </key>
+    <key name="disapprove">
+        <value>
+            رد کردن
+        </value>
+    </key>
+    <key name="disapprove_user_btn">
+        <value>
+            رد کردن
+        </value>
+    </key>
+    <key name="drag_image_or_browse">
+        <value>
+            برای انتخاب تصویر کلیک کنید و یا فایل تصویر را در اینجا رها کنید
+        </value>
+    </key>
+    <key name="drop_image_here">
+        <value>
+            رها کردن تصویر در اینجا
+        </value>
+    </key>
+    <key name="edit">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_activity_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; ویرایش جزییات نمایه
+        </value>
+    </key>
+    <key name="edit_button">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="edit_index">
+        <value>
+            ویرایش نمایه
+        </value>
+    </key>
+    <key name="edit_profile_link">
+        <value>
+            ویرایش نمایه
+        </value>
+    </key>
+    <key name="edit_profile_warning">
+        <value>
+            به خاطر داشته باشید که پس از ویرایش فیلدهای متنی، نمایه شما نیاز به تایید دارد. در طول فرآیند تایید، شما امکان استفاده از وب‌گاه را نخواهید داشت.
+        </value>
+    </key>
+    <key name="edit_remote_field_synchronize_title">
+        <value>
+            گرفتن اطلاعات از سرویس‌های دیگر
+        </value>
+    </key>
+    <key name="edit_successfull_edit">
+        <value>
+            اطلاعات کاربری شما به‌روز شد
+        </value>
+    </key>
+    <key name="email_notifications_setting_user_comment">
+        <value>
+            کسی در نمایه من نظر داد
+        </value>
+    </key>
+    <key name="user_edit_approve_notifications_label">
+        <value>
+            کسی نمایه خود را ویرایش کرده و منتظر تایید مدیر است
+        </value>
+    </key>
+    <key name="user_add_approve_notifications_label">
+        <value>
+            کسی در سامانه ثبت‌نام کرده و منتظر تایید مدیر است
+        </value>
+    </key>
+    <key name="user_edit_approve_notifications">
+        <value>
+             &lt;a href="{$userUrl}"&gt;&lt;b&gt;{$userName}&lt;/b&gt;&lt;/a&gt; پروفایل خود را ویرایش کرده و نیازمند تایید مدیریت است
+        </value>
+    </key>
+    <key name="user_add_approve_notifications">
+        <value>
+             &lt;a href="{$userUrl}"&gt;&lt;b&gt;{$userName}&lt;/b&gt;&lt;/a&gt; در سامانه ثبت‌نام کرده و نیازمند تایید مدیریت است
+        </value>
+    </key>
+    <key name="email_user_approved_title">
+        <value>
+            تایید حساب کاربری شما
+        </value>
+    </key>
+    <key name="email_user_approved_notifications">
+        <value>
+             حساب کاربری شما توسط مدیریت سامانه تایید شد.
+        </value>
+    </key>
+    <key name="email_user_not_approved_notifications">
+        <value>
+            متاسفانه امکان فعالیت شما در سامانه وجود ندارد و حساب کاربری شما توسط مدیریت سامانه تایید نشد.
+        </value>
+    </key>
+    <key name="email_verify_email_verify_fail">
+        <value>
+            استفاده از این پیوند فعال‌سازی به دو دلیل زیر مجاز نیست: &lt;br/&gt;1-  این پیوند قبلا استفاده شده است یا نامعتبر است. &lt;br/&gt; 2-  به دلیل عدم استفاده از این پیوند در طول 5 روز، این پیوند نامعتبر شده است. &lt;br/&gt; به منظور دریافت پیوند فعال‌سازی، از طریق حساب کاربری وارد شوید.
+        </value>
+    </key>
+    <key name="email_verify_email_verify_success">
+        <value>
+            آدرس رایانامه تأیید شد
+        </value>
+    </key>
+    <key name="email_verify_form_promo">
+        <value>
+            لطفا کد امنیتی را وارد کنید
+        </value>
+    </key>
+    <key name="email_verify_index">
+        <value>
+            تایید رایانامه
+        </value>
+    </key>
+    <key name="email_verify_invalid_verification_code">
+        <value>
+            کد امنیتی اشتباه است
+        </value>
+    </key>
+    <key name="email_verify_promo">
+        <value>
+            &lt;p&gt;رایانامه جهت تایید حساب کاربری برای شما ارسال شده است. &lt;br /&gt;
+ شما باید با باز کردن پیوند ارسال شده یا واردسازی کد فعال‌سازی (از طریق پیوندی که در پایین فرم قابل دسترسی است) حساب کاربری خود را تایید کنید. &lt;/p&gt; &lt;b&gt;همچنین در صورت اصلاح نمودن رایانامه به منظور ثبت‌نام با رایانامه دیگری یا دوباره ارسال شدن رایانامه تایید حساب کاربری، از فرم زیر استفاده کنید. &lt;br /&gt; &lt;/b&gt;  اگر شما رایانامه دریافت نکرده‌اید با رایانشانی &lt;i&gt;{$site_email}&lt;/i&gt; تماس بگیرید. &lt;br /&gt;
+همچنین می‌توانید با استفاده از پیوندی که در پایین فرم قرار دارد، حساب کاربری خود را بعدا تایید کنید.
+        </value>
+    </key>
+    <key name="email_verify_send_verify_mail_button_label">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="email_verify_subject">
+        <value>
+            رایانامه تایید ثبت‌نام
+        </value>
+    </key>
+    <key name="email_verify_template_html">
+        <value>
+            کاربرگرامی ({$username})،
+		&lt;br /&gt;&#13;
+		با سپاس از شما برای ثبت نام در {$site_name}، برای تکمیل فرآیند ثبت‌نام لطفابا سپاس از شما برای ثبت نام در {$site_name}، برای تکمیل فرآیند ثبت‌نام لطفا
+            &lt;a href="{$url}"&gt;اینجا&lt;/a&gt;
+            را کلیک کنید
+            &lt;br /&gt;&#13;
+		همچنین شما می‌توانید با واردسازی کد زیر در &lt;a href="{$verification_page_url}"&gt;صفحه تاییدسازی&lt;/a&gt; ثبت‌نام خود را تکمیل کنید. &lt;br /&gt;&#13;
+{$code}&lt;br /&gt;&#13;
+		&lt;br /&gt;
+        </value>
+    </key>
+    <key name="email_verify_template_text">
+        <value>
+            کاربر گرامی ({$username})،
+		&#13;
+		با سپاس از شما برای ثبت‌نام در {$site_name} اکنون شما نیاز به تایید رایانامه خود با کلیک کردن بر روی این پیوند دارید {$url}&#13;
+		&#13;
+		همچنین شما می‌توانید این کد را در صفحه تایید سازی وارد کنید {$verification_page_url} : &#13;
+		{$code}
+        </value>
+    </key>
+    <key name="email_verify_verification_code_label">
+        <value>
+            کد
+        </value>
+    </key>
+    <key name="email_verify_verification_code_submit_button_label">
+        <value>
+            ثبت
+        </value>
+    </key>
+    <key name="email_verify_verify_mail_was_sent">
+        <value>
+            رایانامه تایید حساب کاربری با موفقیت ارسال شد
+        </value>
+    </key>
+    <key name="empty_comment_error_msg">
+        <value>
+            نظر خالی است
+        </value>
+    </key>
+    <key name="empty_list">
+        <value>
+            &lt;center&gt;موردی وجود ندارد&lt;/center&gt;
+        </value>
+    </key>
+    <key name="empty_message">
+        <value>
+            خالی کردن پیام
+        </value>
+    </key>
+    <key name="empty_subject">
+        <value>
+            خالی کردن عنوان رایانامه
+        </value>
+    </key>
+    <key name="empty_user_avatar_list">
+        <value>
+            بدون کاربر
+        </value>
+    </key>
+    <key name="empty_user_avatar_list_select">
+        <value>
+            بدون کاربر
+        </value>
+    </key>
+    <key name="enable_captcha">
+        <value>
+            آیا عبارت امنیتی در فرم ثبت‌نام فعال است؟
+        </value>
+    </key>
+    <key name="feed_activity_avatar_string">
+        <value>
+            بر روی تصویر نمایه جدید {$user} نظر داد
+        </value>
+    </key>
+    <key name="feed_activity_avatar_string_like">
+        <value>
+            تصویر نمایه جدید {$user} را پسندید
+        </value>
+    </key>
+    <key name="feed_activity_avatar_string_like_own">
+        <value>
+            تصویر نمایه جدید را پسندید
+        </value>
+    </key>
+    <key name="feed_activity_avatar_string_own">
+        <value>
+            بر روی تصویر نمایه جدید نظر داده
+        </value>
+    </key>
+    <key name="feed_activity_join_profile_string">
+        <value>
+            بر عضو شدن {$user} در وب‌گاه ما نظر داد
+        </value>
+    </key>
+    <key name="feed_activity_join_profile_string_like">
+        <value>
+            پسندید که {$user} عضو {$site_name} شد
+        </value>
+    </key>
+    <key name="feed_user_edit_profile">
+        <value>
+            جزئیات نمایه خود را ویرایش کرد
+        </value>
+    </key>
+    <key name="feed_user_join">
+        <value>
+            به {$site_name} پیوست
+        </value>
+    </key>
+    <key name="flag">
+        <value>
+            گزارش تخلف
+        </value>
+    </key>
+    <key name="flagged_content">
+        <value>
+            گزارشات تخلف
+        </value>
+    </key>
+    <key name="flagged_time">
+        <value>
+            زمان گزارش تخلف: {$time}
+        </value>
+    </key>
+    <key name="flags_deleted">
+        <value>
+            گزارش تخلف حذف شد
+        </value>
+    </key>
+    <key name="flags_users_reported">
+        <value>
+            تعداد کاربرانی که این مطلب را گزارش داده‌اند
+        </value>
+    </key>
+    <key name="flag_accepted">
+        <value>
+            گزارش تخلف با موفقیت ثبت شد
+        </value>
+    </key>
+    <key name="flag_already_flagged">
+        <value>
+            این مورد قبلا به‌عنوان تخلف گزارش شده است
+        </value>
+    </key>
+    <key name="flag_as">
+        <value>
+            گزارش تخلف به عنوان...
+        </value>
+    </key>
+    <key name="flag_flag">
+        <value>
+            گزارش تخلف
+        </value>
+    </key>
+    <key name="flag_illegal">
+        <value>
+            غیرقانونی
+        </value>
+    </key>
+    <key name="flag_offence">
+        <value>
+            توهین‌آمیز
+        </value>
+    </key>
+    <key name="flag_own_content_not_accepted">
+        <value>
+            شما نمی‌توانید مطلب خود را به‌عنوان تخلف گزارش کنید
+        </value>
+    </key>
+    <key name="flag_spam">
+        <value>
+            هرزنامه
+        </value>
+    </key>
+    <key name="forgot_password_cap_label">
+        <value>
+            رایانامه خود را وارد کنید
+        </value>
+    </key>
+    <key name="forgot_password_code_exists_error_message">
+        <value>
+            شما امروز کد بازنشاندن گذرواژه را دریافت کرده‌اید. لطفا در 24 ساعت آینده دوباره تلاش کنید
+        </value>
+    </key>
+    <key name="forgot_password_email_invitation_message">
+        <value>
+            آدرس رایانامه شما
+        </value>
+    </key>
+    <key name="forgot_password_form_text">
+        <value>
+            آدرس رایانامه‌ای را که برای ثبت‌نام استفاده کرده‌اید، بنویسید.
+        </value>
+    </key>
+    <key name="forgot_password_heading">
+        <value>
+            فراموشی گذرواژه
+        </value>
+    </key>
+    <key name="forgot_password_instructions">
+        <value>
+            برای بازنشاندن "گذرواژه" شما فقط نیاز به وارد کردن "آدرس رایانامه" خود دارید&#13;
+		سپس پس از دریافت "کد تنظیم مجدد" از طریق رایانامه با استفاده از آن گذرواژه قدیمی خود را تغییر دهید.
+        </value>
+    </key>
+    <key name="forgot_password_label">
+        <value>
+            فراموشی گذرواژه
+        </value>
+    </key>
+    <key name="forgot_password_mail_template_content_html">
+        <value>
+            کاربر گرامی ({$username})، 
+		&lt;br /&gt; &lt;br /&gt; شما برای گذرواژه جدید درخواست داده بودید. گذرواژه شما:  &lt;b&gt;{$password}&lt;/b&gt;&lt;br /&gt; &lt;br /&gt; با راحتی وارد حساب خود شوید در &lt;a href="{$site_url}"&gt;{$site_url}&lt;/a&gt; و  گذرواژه خود را اگر لازم بود دوباره تغییر دهید .&lt;br /&gt; &lt;br /&gt;
+        </value>
+    </key>
+    <key name="forgot_password_mail_template_content_txt">
+        <value>
+            کاربر گرامی ({$username})، شما برای گذرواژه جدید درخواست داده بودید. گذرواژه شما: {$password} با راحتی تمام با حساب خوب وارد {$site_url} شوید در و  گذرواژه خود را اگر لازم بود دوباره تغییر دهید
+        </value>
+    </key>
+    <key name="forgot_password_mail_template_subject">
+        <value>
+            گذرواژه جدید برای حساب شما
+        </value>
+    </key>
+    <key name="forgot_password_no_user_error_message">
+        <value>
+            هیچ کاربری با این آدرس رایانامه وجود ندارد
+        </value>
+    </key>
+    <key name="forgot_password_request_exists_error_message">
+        <value>
+            کد بازنشاندن گذرواژه ارسال شده، لطفا بعد از 10 دقیقه دوباره تلاش کنید
+        </value>
+    </key>
+    <key name="forgot_password_submit_label">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="forgot_password_success_message">
+        <value>
+            اطلاعات در ارتباط با تغییر و تایید گذرواژه جدید شما به رایانامه شما ارسال شد
+        </value>
+    </key>
+    <key name="form_element_age_range">
+        <value>
+            (محدوده سنی)
+        </value>
+    </key>
+    <key name="form_element_common_invitation_text">
+        <value>
+            اینجا بنویسید ...
+        </value>
+    </key>
+    <key name="form_element_from">
+        <value>
+            از
+        </value>
+    </key>
+    <key name="form_element_select_field_invitation_label">
+        <value>
+            انتخاب
+        </value>
+    </key>
+    <key name="form_element_submit_default_balue">
+        <value>
+            ثبت
+        </value>
+    </key>
+    <key name="form_element_submit_default_value">
+        <value>
+            ثبت
+        </value>
+    </key>
+    <key name="form_element_to">
+        <value>
+            به
+        </value>
+    </key>
+    <key name="form_element_year_range">
+        <value>
+            (محدوده سال)
+        </value>
+    </key>
+    <key name="form_social_meta_logo_label">
+        <value>
+            لوگو با کیفیت خوب
+        </value>
+    </key>
+    <key name="form_validate_common_error_message">
+        <value>
+            لطفا فرم را به درستی پر کنید
+        </value>
+    </key>
+    <key name="form_validator_alphanumeric_error_message">
+        <value>
+            خطای اعتبارسنج عدد و الفبایی
+        </value>
+    </key>
+    <key name="form_validator_captcha_error_message">
+        <value>
+            عبارت امنیتی صحیح نیست!
+        </value>
+    </key>
+    <key name="form_validator_date_error_message">
+        <value>
+            خطای اعتبارسنج تاریخ!
+        </value>
+    </key>
+    <key name="form_validator_email_error_message">
+        <value>
+            خطای اعتبارسنج رایانامه!
+        </value>
+    </key>
+    <key name="form_validator_float_error_message">
+        <value>
+            مقدار نامعتبر بوده یا بزرگ‌تر از محدوده مجاز سرویس‌دهنده است
+        </value>
+    </key>
+    <key name="form_validator_int_error_message">
+        <value>
+            خطای اعتبارسنج عدد صحیح
+        </value>
+    </key>
+    <key name="form_validator_national_code_wrong">
+        <value>
+            کد ملی وارد شده صحیح نیست
+        </value>
+    </key>
+    <key name="form_validator_range_error_message">
+        <value>
+            گستره نامعتبر
+        </value>
+    </key>
+    <key name="form_validator_regexp_error_message">
+        <value>
+            خطای اعتبارسنج RegExp
+        </value>
+    </key>
+    <key name="form_validator_required_error_message">
+        <value>
+            موردنیاز
+        </value>
+    </key>
+    <key name="form_validator_string_error_message">
+        <value>
+            خطای اعتبارسنج رشته
+        </value>
+    </key>
+    <key name="form_validator_url_error_message">
+        <value>
+            خطای اعتبارسنج آدرس وب
+        </value>
+    </key>
+    <key name="form_validator_wyswyg_error_message">
+        <value>
+            ورودی باید شامل متن باشد
+        </value>
+    </key>
+    <key name="for_approval">
+        <value>
+            برای تایید
+        </value>
+    </key>
+    <key name="geolocation_country_name_ABW">
+        <value>
+            آروبا
+        </value>
+    </key>
+    <key name="geolocation_country_name_AFG">
+        <value>
+            افغانستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_AGO">
+        <value>
+            آنگولا
+        </value>
+    </key>
+    <key name="geolocation_country_name_AIA">
+        <value>
+            انگویلا
+        </value>
+    </key>
+    <key name="geolocation_country_name_ALB">
+        <value>
+            آلبانی
+        </value>
+    </key>
+    <key name="geolocation_country_name_AND">
+        <value>
+            آندورا
+        </value>
+    </key>
+    <key name="geolocation_country_name_ANT">
+        <value>
+            جزایر آنتیل
+        </value>
+    </key>
+    <key name="geolocation_country_name_ARE">
+        <value>
+            امارات متحده عربی
+        </value>
+    </key>
+    <key name="geolocation_country_name_ARG">
+        <value>
+            آرژانتین
+        </value>
+    </key>
+    <key name="geolocation_country_name_ARM">
+        <value>
+            ارمنستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_ASM">
+        <value>
+            ساموآ
+        </value>
+    </key>
+    <key name="geolocation_country_name_ATA">
+        <value>
+            سرزمین قطب جنوب
+        </value>
+    </key>
+    <key name="geolocation_country_name_ATF">
+        <value>
+            قلمروهای جنوبی فرانسوی
+        </value>
+    </key>
+    <key name="geolocation_country_name_ATG">
+        <value>
+            آنتیگوا و باربودا
+        </value>
+    </key>
+    <key name="geolocation_country_name_AUS">
+        <value>
+            استرالیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_AUT">
+        <value>
+            اتریش
+        </value>
+    </key>
+    <key name="geolocation_country_name_AZE">
+        <value>
+            آذربایجان
+        </value>
+    </key>
+    <key name="geolocation_country_name_BDI">
+        <value>
+            بوروندی
+        </value>
+    </key>
+    <key name="geolocation_country_name_BEL">
+        <value>
+            بلژیک
+        </value>
+    </key>
+    <key name="geolocation_country_name_BEN">
+        <value>
+            بنین
+        </value>
+    </key>
+    <key name="geolocation_country_name_BFA">
+        <value>
+            بورکینافاسو
+        </value>
+    </key>
+    <key name="geolocation_country_name_BGD">
+        <value>
+            بنگلادش
+        </value>
+    </key>
+    <key name="geolocation_country_name_BGR">
+        <value>
+            بلغارستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_BHR">
+        <value>
+            بحرین
+        </value>
+    </key>
+    <key name="geolocation_country_name_BHS">
+        <value>
+            باهاما
+        </value>
+    </key>
+    <key name="geolocation_country_name_BIH">
+        <value>
+            بوسنی و هرزگوین
+        </value>
+    </key>
+    <key name="geolocation_country_name_BLR">
+        <value>
+            بلاروس
+        </value>
+    </key>
+    <key name="geolocation_country_name_BLZ">
+        <value>
+            بلیز
+        </value>
+    </key>
+    <key name="geolocation_country_name_BMU">
+        <value>
+            برمودا
+        </value>
+    </key>
+    <key name="geolocation_country_name_BOL">
+        <value>
+            بولیوی
+        </value>
+    </key>
+    <key name="geolocation_country_name_BRA">
+        <value>
+            برزیل
+        </value>
+    </key>
+    <key name="geolocation_country_name_BRB">
+        <value>
+            باربادوس
+        </value>
+    </key>
+    <key name="geolocation_country_name_BRN">
+        <value>
+            برونئی
+        </value>
+    </key>
+    <key name="geolocation_country_name_BTN">
+        <value>
+            پادشاهی بوتان
+        </value>
+    </key>
+    <key name="geolocation_country_name_BVT">
+        <value>
+            جزیره بووت
+        </value>
+    </key>
+    <key name="geolocation_country_name_BWA">
+        <value>
+            بوتسوانا
+        </value>
+    </key>
+    <key name="geolocation_country_name_CAF">
+        <value>
+            جمهوری آفریقای مرکزی
+        </value>
+    </key>
+    <key name="geolocation_country_name_CAN">
+        <value>
+            کانادا
+        </value>
+    </key>
+    <key name="geolocation_country_name_CHE">
+        <value>
+            سوئیس
+        </value>
+    </key>
+    <key name="geolocation_country_name_CHL">
+        <value>
+            شیلی
+        </value>
+    </key>
+    <key name="geolocation_country_name_CHN">
+        <value>
+            چین
+        </value>
+    </key>
+    <key name="geolocation_country_name_CIV">
+        <value>
+            ساحل عاج
+        </value>
+    </key>
+    <key name="geolocation_country_name_CMR">
+        <value>
+            کامرون
+        </value>
+    </key>
+    <key name="geolocation_country_name_COD">
+        <value>
+            جمهوری کنگو
+        </value>
+    </key>
+    <key name="geolocation_country_name_COG">
+        <value>
+            کنگو
+        </value>
+    </key>
+    <key name="geolocation_country_name_COK">
+        <value>
+            جزایر کوک
+        </value>
+    </key>
+    <key name="geolocation_country_name_COL">
+        <value>
+            کلمبیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_COM">
+        <value>
+            کومور
+        </value>
+    </key>
+    <key name="geolocation_country_name_CPV">
+        <value>
+            کیپ ورد
+        </value>
+    </key>
+    <key name="geolocation_country_name_CRI">
+        <value>
+            کاستاریکا
+        </value>
+    </key>
+    <key name="geolocation_country_name_CUB">
+        <value>
+            کوبا
+        </value>
+    </key>
+    <key name="geolocation_country_name_CYM">
+        <value>
+            جزایر کایمن
+        </value>
+    </key>
+    <key name="geolocation_country_name_CYP">
+        <value>
+            قبرس
+        </value>
+    </key>
+    <key name="geolocation_country_name_CZE">
+        <value>
+            جمهوری چک
+        </value>
+    </key>
+    <key name="geolocation_country_name_DEU">
+        <value>
+            آلمان
+        </value>
+    </key>
+    <key name="geolocation_country_name_DJI">
+        <value>
+            جیبوتی
+        </value>
+    </key>
+    <key name="geolocation_country_name_DMA">
+        <value>
+            دومینیکا
+        </value>
+    </key>
+    <key name="geolocation_country_name_DNK">
+        <value>
+            دانمارک
+        </value>
+    </key>
+    <key name="geolocation_country_name_DOM">
+        <value>
+            جمهوری دومینیکن
+        </value>
+    </key>
+    <key name="geolocation_country_name_DZA">
+        <value>
+            الجزایر
+        </value>
+    </key>
+    <key name="geolocation_country_name_ECU">
+        <value>
+            اکوآدور
+        </value>
+    </key>
+    <key name="geolocation_country_name_EGY">
+        <value>
+            مصر
+        </value>
+    </key>
+    <key name="geolocation_country_name_ERI">
+        <value>
+            اریتره
+        </value>
+    </key>
+    <key name="geolocation_country_name_ESP">
+        <value>
+            اسپانیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_EST">
+        <value>
+            استونی
+        </value>
+    </key>
+    <key name="geolocation_country_name_ETH">
+        <value>
+            اتیوپی
+        </value>
+    </key>
+    <key name="geolocation_country_name_FIN">
+        <value>
+            فنلاند
+        </value>
+    </key>
+    <key name="geolocation_country_name_FJI">
+        <value>
+            فیجی
+        </value>
+    </key>
+    <key name="geolocation_country_name_FLK">
+        <value>
+            جزایر فلکلند (مالویناس)
+        </value>
+    </key>
+    <key name="geolocation_country_name_FRA">
+        <value>
+            فرانسه
+        </value>
+    </key>
+    <key name="geolocation_country_name_FRO">
+        <value>
+            جزایر فارو
+        </value>
+    </key>
+    <key name="geolocation_country_name_FSM">
+        <value>
+            ایالات فدرال میکرونزی
+        </value>
+    </key>
+    <key name="geolocation_country_name_GAB">
+        <value>
+            گابن
+        </value>
+    </key>
+    <key name="geolocation_country_name_GBR">
+        <value>
+            انگلستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_GEO">
+        <value>
+            گرجستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_GGY">
+        <value>
+            گرنسی
+        </value>
+    </key>
+    <key name="geolocation_country_name_GHA">
+        <value>
+            غنا
+        </value>
+    </key>
+    <key name="geolocation_country_name_GIB">
+        <value>
+            گیبرالتار
+        </value>
+    </key>
+    <key name="geolocation_country_name_GIN">
+        <value>
+            گینه
+        </value>
+    </key>
+    <key name="geolocation_country_name_GLP">
+        <value>
+            گوآدلوپ
+        </value>
+    </key>
+    <key name="geolocation_country_name_GMB">
+        <value>
+            گامبیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_GNB">
+        <value>
+            گینه بیسائو
+        </value>
+    </key>
+    <key name="geolocation_country_name_GNQ">
+        <value>
+            گینه استوایی
+        </value>
+    </key>
+    <key name="geolocation_country_name_GRC">
+        <value>
+            یونان
+        </value>
+    </key>
+    <key name="geolocation_country_name_GRD">
+        <value>
+            گرنادا
+        </value>
+    </key>
+    <key name="geolocation_country_name_GRL">
+        <value>
+            گرینلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_GTM">
+        <value>
+            گوآتمالا
+        </value>
+    </key>
+    <key name="geolocation_country_name_GUF">
+        <value>
+            گویانا فرنسوی
+        </value>
+    </key>
+    <key name="geolocation_country_name_GUM">
+        <value>
+            گوآم
+        </value>
+    </key>
+    <key name="geolocation_country_name_GUY">
+        <value>
+            گویان
+        </value>
+    </key>
+    <key name="geolocation_country_name_HKG">
+        <value>
+            هنگ‌کنگ
+        </value>
+    </key>
+    <key name="geolocation_country_name_HND">
+        <value>
+            هندوراس
+        </value>
+    </key>
+    <key name="geolocation_country_name_HRV">
+        <value>
+            کروآسی
+        </value>
+    </key>
+    <key name="geolocation_country_name_HTI">
+        <value>
+            هائیتی
+        </value>
+    </key>
+    <key name="geolocation_country_name_HUN">
+        <value>
+            مجارستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_IDN">
+        <value>
+            اندونزی
+        </value>
+    </key>
+    <key name="geolocation_country_name_IMN">
+        <value>
+            جزایر من
+        </value>
+    </key>
+    <key name="geolocation_country_name_IND">
+        <value>
+            هندوستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_IOT">
+        <value>
+            سرزمین انگلیسی اقیانوس هند
+        </value>
+    </key>
+    <key name="geolocation_country_name_IRL">
+        <value>
+            ایرلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_IRN">
+        <value>
+            جمهوری اسلامی ایران
+        </value>
+    </key>
+    <key name="geolocation_country_name_IRQ">
+        <value>
+            عراق
+        </value>
+    </key>
+    <key name="geolocation_country_name_ISL">
+        <value>
+            ایسلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_ISR">
+        <value>
+            اسرائِل
+        </value>
+    </key>
+    <key name="geolocation_country_name_ITA">
+        <value>
+            ایتالیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_JAM">
+        <value>
+            جامایکا
+        </value>
+    </key>
+    <key name="geolocation_country_name_JEY">
+        <value>
+            جرسی
+        </value>
+    </key>
+    <key name="geolocation_country_name_JOR">
+        <value>
+            اردن
+        </value>
+    </key>
+    <key name="geolocation_country_name_JPN">
+        <value>
+            ژاپن
+        </value>
+    </key>
+    <key name="geolocation_country_name_KAZ">
+        <value>
+            قزاقستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_KEN">
+        <value>
+            کنیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_KGZ">
+        <value>
+            قرقیزستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_KHM">
+        <value>
+            کامبوج
+        </value>
+    </key>
+    <key name="geolocation_country_name_KIR">
+        <value>
+            کیریباتی
+        </value>
+    </key>
+    <key name="geolocation_country_name_KNA">
+        <value>
+            سنت کیتس و نویس
+        </value>
+    </key>
+    <key name="geolocation_country_name_KOR">
+        <value>
+            جمهوری کره
+        </value>
+    </key>
+    <key name="geolocation_country_name_KWT">
+        <value>
+            کویت
+        </value>
+    </key>
+    <key name="geolocation_country_name_LAO">
+        <value>
+            لائوس
+        </value>
+    </key>
+    <key name="geolocation_country_name_LBN">
+        <value>
+            لبنان
+        </value>
+    </key>
+    <key name="geolocation_country_name_LBR">
+        <value>
+            لیبریا
+        </value>
+    </key>
+    <key name="geolocation_country_name_LBY">
+        <value>
+            لیبی
+        </value>
+    </key>
+    <key name="geolocation_country_name_LCA">
+        <value>
+            سنت لوسیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_LIE">
+        <value>
+            لیختن‌اشتاین
+        </value>
+    </key>
+    <key name="geolocation_country_name_LKA">
+        <value>
+            سریلانکا
+        </value>
+    </key>
+    <key name="geolocation_country_name_LSO">
+        <value>
+            لسوتو
+        </value>
+    </key>
+    <key name="geolocation_country_name_LTU">
+        <value>
+            لیتوانی
+        </value>
+    </key>
+    <key name="geolocation_country_name_LUX">
+        <value>
+            لکزامبرگ
+        </value>
+    </key>
+    <key name="geolocation_country_name_LVA">
+        <value>
+            لاتویا
+        </value>
+    </key>
+    <key name="geolocation_country_name_MAC">
+        <value>
+            ماکائو
+        </value>
+    </key>
+    <key name="geolocation_country_name_MAF">
+        <value>
+            سنت مارتین
+        </value>
+    </key>
+    <key name="geolocation_country_name_MAR">
+        <value>
+            مراکش
+        </value>
+    </key>
+    <key name="geolocation_country_name_MCO">
+        <value>
+            موناکو
+        </value>
+    </key>
+    <key name="geolocation_country_name_MDA">
+        <value>
+            مولداوی
+        </value>
+    </key>
+    <key name="geolocation_country_name_MDG">
+        <value>
+            ماداگاسکار
+        </value>
+    </key>
+    <key name="geolocation_country_name_MDV">
+        <value>
+            مالدیو
+        </value>
+    </key>
+    <key name="geolocation_country_name_MEX">
+        <value>
+            مکزیک
+        </value>
+    </key>
+    <key name="geolocation_country_name_MHL">
+        <value>
+            جزایر مارشال
+        </value>
+    </key>
+    <key name="geolocation_country_name_MKD">
+        <value>
+            مقدونیه
+        </value>
+    </key>
+    <key name="geolocation_country_name_MLI">
+        <value>
+            مالی
+        </value>
+    </key>
+    <key name="geolocation_country_name_MLT">
+        <value>
+            مالت
+        </value>
+    </key>
+    <key name="geolocation_country_name_MMR">
+        <value>
+            میانمار
+        </value>
+    </key>
+    <key name="geolocation_country_name_MNE">
+        <value>
+            مونته‌نگرو
+        </value>
+    </key>
+    <key name="geolocation_country_name_MNG">
+        <value>
+            مغولستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_MNP">
+        <value>
+            جزایر مارینا شمالی
+        </value>
+    </key>
+    <key name="geolocation_country_name_MOZ">
+        <value>
+            موزامبیک
+        </value>
+    </key>
+    <key name="geolocation_country_name_MRT">
+        <value>
+            موریتانی
+        </value>
+    </key>
+    <key name="geolocation_country_name_MSR">
+        <value>
+            منسرات
+        </value>
+    </key>
+    <key name="geolocation_country_name_MTQ">
+        <value>
+            مارتینیک
+        </value>
+    </key>
+    <key name="geolocation_country_name_MUS">
+        <value>
+            موریس
+        </value>
+    </key>
+    <key name="geolocation_country_name_MWI">
+        <value>
+            مالاوی
+        </value>
+    </key>
+    <key name="geolocation_country_name_MYS">
+        <value>
+            مالزی
+        </value>
+    </key>
+    <key name="geolocation_country_name_MYT">
+        <value>
+            مایوت
+        </value>
+    </key>
+    <key name="geolocation_country_name_NAM">
+        <value>
+            نامیبیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_NCL">
+        <value>
+            کالدونیا جدید
+        </value>
+    </key>
+    <key name="geolocation_country_name_NER">
+        <value>
+            نیجر
+        </value>
+    </key>
+    <key name="geolocation_country_name_NFK">
+        <value>
+            جزیره نرتفولک
+        </value>
+    </key>
+    <key name="geolocation_country_name_NGA">
+        <value>
+            نیجریه
+        </value>
+    </key>
+    <key name="geolocation_country_name_NIC">
+        <value>
+            نیکاراگوئه
+        </value>
+    </key>
+    <key name="geolocation_country_name_NIU">
+        <value>
+            نیو
+        </value>
+    </key>
+    <key name="geolocation_country_name_NLD">
+        <value>
+            هلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_NOR">
+        <value>
+            نروژ
+        </value>
+    </key>
+    <key name="geolocation_country_name_NPL">
+        <value>
+            نپال
+        </value>
+    </key>
+    <key name="geolocation_country_name_NRU">
+        <value>
+            نائورو
+        </value>
+    </key>
+    <key name="geolocation_country_name_NZL">
+        <value>
+            نیوزلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_OMN">
+        <value>
+            عمان
+        </value>
+    </key>
+    <key name="geolocation_country_name_PAK">
+        <value>
+            پاکستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_PAN">
+        <value>
+            پاناما
+        </value>
+    </key>
+    <key name="geolocation_country_name_PER">
+        <value>
+            پرو
+        </value>
+    </key>
+    <key name="geolocation_country_name_PHL">
+        <value>
+            فیلیپین
+        </value>
+    </key>
+    <key name="geolocation_country_name_PLW">
+        <value>
+            پالائو
+        </value>
+    </key>
+    <key name="geolocation_country_name_PNG">
+        <value>
+            پاپوآ گینه نو
+        </value>
+    </key>
+    <key name="geolocation_country_name_POL">
+        <value>
+            لهستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_PRI">
+        <value>
+            پورتو ریکو
+        </value>
+    </key>
+    <key name="geolocation_country_name_PRK">
+        <value>
+            کره شمالی
+        </value>
+    </key>
+    <key name="geolocation_country_name_PRT">
+        <value>
+            پرتقال
+        </value>
+    </key>
+    <key name="geolocation_country_name_PRY">
+        <value>
+            پاراگوئه
+        </value>
+    </key>
+    <key name="geolocation_country_name_PSE">
+        <value>
+            سرزمین فلسطین اشغالی
+        </value>
+    </key>
+    <key name="geolocation_country_name_PYF">
+        <value>
+            پلی نسیا فرنسوی
+        </value>
+    </key>
+    <key name="geolocation_country_name_QAT">
+        <value>
+            قطر
+        </value>
+    </key>
+    <key name="geolocation_country_name_REU">
+        <value>
+            ریونیون
+        </value>
+    </key>
+    <key name="geolocation_country_name_ROM">
+        <value>
+            رومانی
+        </value>
+    </key>
+    <key name="geolocation_country_name_RUS">
+        <value>
+            روسیه
+        </value>
+    </key>
+    <key name="geolocation_country_name_RWA">
+        <value>
+            رواندا
+        </value>
+    </key>
+    <key name="geolocation_country_name_SAU">
+        <value>
+            عربستان سعودی
+        </value>
+    </key>
+    <key name="geolocation_country_name_SCG">
+        <value>
+            صربستان و مونته‌نگرو
+        </value>
+    </key>
+    <key name="geolocation_country_name_SDN">
+        <value>
+            سودان
+        </value>
+    </key>
+    <key name="geolocation_country_name_SEN">
+        <value>
+            سنگال
+        </value>
+    </key>
+    <key name="geolocation_country_name_SGP">
+        <value>
+            سنگاپور
+        </value>
+    </key>
+    <key name="geolocation_country_name_SGS">
+        <value>
+            جورجیا جنوبی و جزایر ساندویچ جنوبی
+        </value>
+    </key>
+    <key name="geolocation_country_name_SLB">
+        <value>
+            جزایر سلیمان
+        </value>
+    </key>
+    <key name="geolocation_country_name_SLE">
+        <value>
+            سیرالئون
+        </value>
+    </key>
+    <key name="geolocation_country_name_SLV">
+        <value>
+            السالوادور
+        </value>
+    </key>
+    <key name="geolocation_country_name_SMR">
+        <value>
+            سن مارینو
+        </value>
+    </key>
+    <key name="geolocation_country_name_SOM">
+        <value>
+            سومالی
+        </value>
+    </key>
+    <key name="geolocation_country_name_SPM">
+        <value>
+            سنت پیر و میکلون
+        </value>
+    </key>
+    <key name="geolocation_country_name_SRB">
+        <value>
+            صربستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_STP">
+        <value>
+            سائو تم و پرینسایپ
+        </value>
+    </key>
+    <key name="geolocation_country_name_SUR">
+        <value>
+            سورینام
+        </value>
+    </key>
+    <key name="geolocation_country_name_SVK">
+        <value>
+            اسلواکی
+        </value>
+    </key>
+    <key name="geolocation_country_name_SVN">
+        <value>
+            اسلوونی
+        </value>
+    </key>
+    <key name="geolocation_country_name_SWE">
+        <value>
+            سوئد
+        </value>
+    </key>
+    <key name="geolocation_country_name_SWZ">
+        <value>
+            سوازیلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_SYC">
+        <value>
+            سیشل
+        </value>
+    </key>
+    <key name="geolocation_country_name_SYR">
+        <value>
+            سوریه
+        </value>
+    </key>
+    <key name="geolocation_country_name_TCA">
+        <value>
+            جزایر تورک‌ها و کایکس‌ها
+        </value>
+    </key>
+    <key name="geolocation_country_name_TCD">
+        <value>
+            چاد
+        </value>
+    </key>
+    <key name="geolocation_country_name_TGO">
+        <value>
+            توگو
+        </value>
+    </key>
+    <key name="geolocation_country_name_THA">
+        <value>
+            تایلند
+        </value>
+    </key>
+    <key name="geolocation_country_name_TJK">
+        <value>
+            تاجیکستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_TKL">
+        <value>
+            توکیلو
+        </value>
+    </key>
+    <key name="geolocation_country_name_TKM">
+        <value>
+            ترکمنستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_TLS">
+        <value>
+            تیمور شرقی
+        </value>
+    </key>
+    <key name="geolocation_country_name_TON">
+        <value>
+            تونگا
+        </value>
+    </key>
+    <key name="geolocation_country_name_TTO">
+        <value>
+            ترینیداد و توباگو
+        </value>
+    </key>
+    <key name="geolocation_country_name_TUN">
+        <value>
+            تونس
+        </value>
+    </key>
+    <key name="geolocation_country_name_TUR">
+        <value>
+            ترکیه
+        </value>
+    </key>
+    <key name="geolocation_country_name_TUV">
+        <value>
+            تووالو
+        </value>
+    </key>
+    <key name="geolocation_country_name_TWN">
+        <value>
+            تایوان
+        </value>
+    </key>
+    <key name="geolocation_country_name_TZA">
+        <value>
+            تانزانیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_UGA">
+        <value>
+            اوگاندا
+        </value>
+    </key>
+    <key name="geolocation_country_name_UKR">
+        <value>
+            اوکراین
+        </value>
+    </key>
+    <key name="geolocation_country_name_UMI">
+        <value>
+            جزایر دورافتاده اقلیت ایالات متحده
+        </value>
+    </key>
+    <key name="geolocation_country_name_URY">
+        <value>
+            اروگوئه
+        </value>
+    </key>
+    <key name="geolocation_country_name_USA">
+        <value>
+            ایالات متحده آمریکا
+        </value>
+    </key>
+    <key name="geolocation_country_name_UZB">
+        <value>
+            ازبکستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_VAT">
+        <value>
+            واتیکان
+        </value>
+    </key>
+    <key name="geolocation_country_name_VCT">
+        <value>
+            سنت وینسنت و گرنادین‌ها
+        </value>
+    </key>
+    <key name="geolocation_country_name_VEN">
+        <value>
+            ونزوئلا
+        </value>
+    </key>
+    <key name="geolocation_country_name_VGB">
+        <value>
+            جزایر ویرجین، انگلستان
+        </value>
+    </key>
+    <key name="geolocation_country_name_VIR">
+        <value>
+            جزایر ویرجین، ایالات متحده
+        </value>
+    </key>
+    <key name="geolocation_country_name_VNM">
+        <value>
+            ویتنام
+        </value>
+    </key>
+    <key name="geolocation_country_name_VUT">
+        <value>
+            وانواتو
+        </value>
+    </key>
+    <key name="geolocation_country_name_WLF">
+        <value>
+            والیس و فوتونا
+        </value>
+    </key>
+    <key name="geolocation_country_name_WSM">
+        <value>
+            ساموآ
+        </value>
+    </key>
+    <key name="geolocation_country_name_YEM">
+        <value>
+            یمن
+        </value>
+    </key>
+    <key name="geolocation_country_name_ZAF">
+        <value>
+            آفریقای جنوبی
+        </value>
+    </key>
+    <key name="geolocation_country_name_ZMB">
+        <value>
+            زامبیا
+        </value>
+    </key>
+    <key name="geolocation_country_name_ZWE">
+        <value>
+            زیمبابوه
+        </value>
+    </key>
+    <key name="html_error">
+        <value>
+            متن وارد شده مجاز نیست
+        </value>
+    </key>
+    <key name="html_error_details">
+        <value>
+            جزئیات خطا
+        </value>
+    </key>
+    <key name="ignore">
+        <value>
+            نادیده گرفتن
+        </value>
+    </key>
+    <key name="index_menu_item">
+        <value>
+            اصلی
+        </value>
+    </key>
+    <key name="input_settings_avatar_max_upload_size_label">
+        <value>
+            بیشینه اندازه بارگذاری تصویر نمایه
+        </value>
+    </key>
+    <key name="invalid_csrf_token_error_message">
+        <value>
+            توکن امنیتی شما منقضی شده یا وجود ندارد. لطفا صفحه را بازنشانی کنید
+        </value>
+    </key>
+    <key name="invalid_file_type_acceptable_file_types_jpg_png_gif">
+        <value>
+            نوع فایل نامعتبر است. انواع فایل های قابل قبول: JPG / PNG / GIF
+        </value>
+    </key>
+    <key name="invalid_meta_error_message">
+        <value>
+             
+        </value>
+    </key>
+    <key name="invalid_smtp_setting">
+        <value>
+            تنظیمات رایانامه نادرست است
+        </value>
+    </key>
+    <key name="invalid_user">
+        <value>
+            کاربر موجود نیست
+        </value>
+    </key>
+    <key name="is_friend">
+        <value>
+            دوست
+        </value>
+    </key>
+    <key name="join_activity_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; به {$site_name} پیوست !
+        </value>
+    </key>
+    <key name="join_activity_user_avatar">
+        <value>
+            &lt;a href="{$userUrl}"&gt;&lt;img src="{$avatarUrl}" alt="{$user}"&gt;&lt;/a&gt;
+        </value>
+    </key>
+    <key name="join_connect_title">
+        <value>
+            ورود با
+        </value>
+    </key>
+    <key name="join_error_email_already_exist">
+        <value>
+            این رایانامه قبلا استفاده شده است
+        </value>
+    </key>
+    <key name="join_error_email_not_valid">
+        <value>
+            لطفا یک آدرس رایانامه معتبر وارد کنید
+        </value>
+    </key>
+    <key name="join_error_password_not_valid">
+        <value>
+            لطفا یک گذرواژه معتبر وارد کنید
+        </value>
+    </key>
+    <key name="join_error_password_too_long">
+        <value>
+            گذرواژه باید کمتر از 15 حرف باشد
+        </value>
+    </key>
+    <key name="join_error_password_too_short">
+        <value>
+            گذرواژه باید بیشتر از 4 حرف باشد
+        </value>
+    </key>
+    <key name="join_error_photo_file_is_not_valid">
+        <value>
+            نوع فایل مجاز نیست
+        </value>
+    </key>
+    <key name="join_error_username_already_exist">
+        <value>
+            متاسفانه این نام کاربری هم اکنون موجود است
+        </value>
+    </key>
+    <key name="join_error_username_length_not_valied">
+        <value>
+            نام کاربری شما باید بین {$min} و {$max} کاراکتر باشد
+        </value>
+    </key>
+    <key name="join_error_username_not_valid">
+        <value>
+            لطفا یک نام کاربری معتبر وارد کنید
+        </value>
+    </key>
+    <key name="join_error_username_restricted">
+        <value>
+            متاسفیم ، این نام کاربری ممنوع شده است
+        </value>
+    </key>
+    <key name="join_form_title">
+        <value>
+            نمایه خود را ثبت کنید
+        </value>
+    </key>
+    <key name="join_index">
+        <value>
+            به جامعه ما بپیوندید
+        </value>
+    </key>
+    <key name="join_index_join_button">
+        <value>
+            عضویت
+        </value>
+    </key>
+    <key name="join_index_new_to_site">
+        <value>
+            عضویت در سامانه
+        </value>
+    </key>
+    <key name="join_not_valid_invite_code">
+        <value>
+            متاسفانه ثبت‌نام سایت بسته شده است
+        </value>
+    </key>
+    <key name="join_or">
+        <value>
+            یا
+        </value>
+    </key>
+    <key name="join_promo">
+        <value>
+            با عضویت در این شبکه اجتماعی شما قادر خواهید بود از امکاناتی نظیر گروه، انجمن، اشتراک مطالب، تصاویر، ویدیوها و دیگر امکانات بهره‌مند شوید.
+        </value>
+    </key>
+    <key name="join_submit_button_continue">
+        <value>
+            ادامه
+        </value>
+    </key>
+    <key name="join_submit_button_join">
+        <value>
+            ثبت‌نام
+        </value>
+    </key>
+    <key name="join_successful_join">
+        <value>
+            ثبت نام با موفقیت انجام شد
+        </value>
+    </key>
+    <key name="local_page_content_page-119658">
+        <value>
+            شرایط استفاده
+        </value>
+    </key>
+    <key name="mail_template_admin_invite_user_content_html">
+        <value>
+            &lt;p&gt;
+       &lt;p&gt;سلام&lt;/p&gt;&lt;/br&gt;
+       &lt;p&gt;از شما دعوت شده است تا به {$site_name}  بپیوندید .&lt;/p&gt;&lt;/br&gt;
+       &lt;p&gt; شما می توانید با استفاده از پیوند زیر وارد بخش ثبت‌نام شوید:&lt;/p&gt;&lt;/br&gt;
+       &lt;a href="{$url}"&gt;ثبت‌نام&lt;/a&gt;
+        </value>
+    </key>
+    <key name="mail_template_admin_invite_user_content_text">
+        <value>
+            &lt;p&gt;
+    &lt;p&gt;سلام&lt;/p&gt;&lt;/br&gt;
+    &lt;p&gt;از شما دعوت شده است تا به {$site_name}  بپیوندید .&lt;/p&gt;&lt;/br&gt;
+    &lt;p&gt; شما می توانید با استفاده از پیوند زیر وارد بخش ثبت‌نام شوید:&lt;/p&gt;&lt;/br&gt;
+    &lt;a href="{$url}"&gt;ثبت‌نام&lt;/a&gt;&lt;/br&gt;
+    &lt;a href="{$site_url}"&gt;گروه توسعه&lt;/a&gt;
+        </value>
+    </key>
+    <key name="mail_template_admin_invite_user_subject">
+        <value>
+            دعوت به {$site_name}
+        </value>
+    </key>
+    <key name="maintenance_disable_message">
+        <value>
+            از &lt;a href="{$url}"&gt;اینجا&lt;/a&gt; ما را دنبال کنید
+        </value>
+    </key>
+    <key name="main_menu_index">
+        <value>
+            صفحه اصلی
+        </value>
+    </key>
+    <key name="main_menu_my_profile">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="manage_plugins_add_success_message">
+        <value>
+            افزونه بارگذاری شده است و آماده نصب می‌باشد
+        </value>
+    </key>
+    <key name="manage_plugins_install_empty_key_error_message">
+        <value>
+             
+        </value>
+    </key>
+    <key name="manage_plugins_install_error_message">
+        <value>
+            در هنگام نصب افزونه {$plugin} مشکلی به وجود آمد، لطفا آن را حذف ‌کرده و دوباره نصب کنید.
+        </value>
+    </key>
+    <key name="mark_email_unverified_btn">
+        <value>
+            عدم تایید رایانشانی
+        </value>
+    </key>
+    <key name="mark_email_verified_btn">
+        <value>
+            تایید رایانشانی
+        </value>
+    </key>
+    <key name="massmailing_unsubscribe">
+        <value>
+            خارج شدن از فهرست رایانشانی
+        </value>
+    </key>
+    <key name="massmailing_unsubscribe_confirmation">
+        <value>
+            آیا همچنان تمایل به انصراف از دریافت رایانامه جمعی دارید؟
+        </value>
+    </key>
+    <key name="massmailing_unsubscribe_failed">
+        <value>
+            لغو ثبت‌نام موفقیت آمیز نبود.&#13;
+&lt;br /&gt;&#13;
+لطفا مطمئن شوید که شما پیوند لغو اشتراک را به درستی وارد کرده‌اید.
+        </value>
+    </key>
+    <key name="massmailing_unsubscribe_successful">
+        <value>
+            ثبت‌نام شما با موفقیت لغو شد&#13;
+&lt;br /&gt;&#13;
+با تشکر
+        </value>
+    </key>
+    <key name="max_upload_filesize">
+        <value>
+            (محدودیت سرور {$value} MB)
+        </value>
+    </key>
+    <key name="media_panel_file_deleted">
+        <value>
+            حذف گردید
+        </value>
+    </key>
+    <key name="message_invitation">
+        <value>
+            پیام
+        </value>
+    </key>
+    <key name="message_label">
+        <value>
+            پیام
+        </value>
+    </key>
+    <key name="message_send">
+        <value>
+            پیام فرستاده شد
+        </value>
+    </key>
+    <key name="meta_desc_forgot_pass">
+        <value>
+            برای دریافت گذرواژه‌ای جدید، رایانشانی را که در زمان ثبت‌نام در «{$site_name}» استفاده کرده‌اید وارد کنید.
+        </value>
+    </key>
+    <key name="meta_desc_index">
+        <value>
+            شبکه اجتماعی {$site_name}. هم‌اکنون با دوستان جدید آشنا شوید!
+        </value>
+    </key>
+    <key name="meta_desc_join">
+        <value>
+            ثبت‌نام در {$site_name} برای آشنایی با افراد جدید و گپ زدن. هم‌اکنون دوستان خود را بیابید!
+        </value>
+    </key>
+    <key name="meta_desc_search_result">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_desc_sign_in">
+        <value>
+            ورود به وب‌گاه {$site_name} و آشنایی با افراد جدید
+        </value>
+    </key>
+    <key name="meta_desc_user_list">
+        <value>
+            مشاهده {$user_list} کاربران  در {$site_name}. به ما بپیوندید
+        </value>
+    </key>
+    <key name="meta_desc_user_page">
+        <value>
+            گفت‌وگو با {$user_name}، {$user_age} در {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_user_search">
+        <value>
+            جستجو کاربران در {$site_name} و شناسایی کاربرانی مانند خودتان
+        </value>
+    </key>
+    <key name="meta_keywords_forgot_pass">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_index">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_join">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_search_result">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_sign_in">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_user_list">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_user_page">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_keywords_user_search">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_title_forgot_pass">
+        <value>
+            فراموشی گذرواژه برای {$site_name}؟
+        </value>
+    </key>
+    <key name="meta_title_index">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+    <key name="meta_title_join">
+        <value>
+            ثبت‌نام در {$site_name}
+        </value>
+    </key>
+    <key name="meta_title_search_result">
+        <value>
+             
+        </value>
+    </key>
+    <key name="meta_title_sign_in">
+        <value>
+            ورود به {$site_name}
+        </value>
+    </key>
+    <key name="meta_title_user_list">
+        <value>
+            {$site_name} | {$user_list}
+        </value>
+    </key>
+    <key name="meta_title_user_page">
+        <value>
+            {$user_name} | {$site_name}
+        </value>
+    </key>
+    <key name="meta_title_user_search">
+        <value>
+            جستجو کاربران | {$site_name}
+        </value>
+    </key>
+    <key name="mobile_admin_navigation">
+        <value>
+            منو موبایل
+        </value>
+    </key>
+    <key name="mobile_admin_pages_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="mobile_admin_pages_index">
+        <value>
+            صفحه اصلی
+        </value>
+    </key>
+    <key name="mobile_admin_settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="mobile_disabled_item_message">
+        <value>
+            مطلب مورد نظر حذف شده یا امکان نمایش آن وجود ندارد.
+        </value>
+    </key>
+    <key name="mobile_notifications_console_empty">
+        <value>
+            موردی وجود ندارد
+        </value>
+    </key>
+    <key name="mobile_version_menu_item">
+        <value>
+            نسخه تلفن همراه
+        </value>
+    </key>
+    <key name="moderation_action">
+        <value>
+            اقدام
+        </value>
+    </key>
+    <key name="moderation_delete_confirmation">
+        <value>
+            آیا از حذف {$content} اطمینان دارید؟
+        </value>
+    </key>
+    <key name="moderation_delete_multiple_confirmation">
+        <value>
+            آیا از حذف {$count} {$content} اطمینان دارید؟
+        </value>
+    </key>
+    <key name="moderation_feedback_delete">
+        <value>
+            {$content} حذف شد
+        </value>
+    </key>
+    <key name="moderation_feedback_delete_multiple">
+        <value>
+            {$count} {$content} حذف شده است
+        </value>
+    </key>
+    <key name="moderation_feedback_unflag">
+        <value>
+            {$content} گزارش تخلف برداشته شده است
+        </value>
+    </key>
+    <key name="moderation_feedback_unflag_multiple">
+        <value>
+            {$count} {$content} گزارش تخلف برداشته شده است
+        </value>
+    </key>
+    <key name="moderation_flags_item_string">
+        <value>
+            یک مورد تخلف از کاربر &lt;a href="{$userUrl}"&gt;&lt;b&gt;{$userName}&lt;/b&gt;&lt;/a&gt; در ارتباط با {$content}، گزارش شده است
+        </value>
+    </key>
+    <key name="moderation_no_items">
+        <value>
+            موردی برای نمایش نیست
+        </value>
+    </key>
+    <key name="moderation_no_items_warning">
+        <value>
+            موردی انتخاب نشده است
+        </value>
+    </key>
+    <key name="moderation_panel">
+        <value>
+            پنل مدیر
+        </value>
+    </key>
+    <key name="moderation_reason">
+        <value>
+            دلیل
+        </value>
+    </key>
+    <key name="moderation_reporter">
+        <value>
+            گزارشگر
+        </value>
+    </key>
+    <key name="moderation_tools">
+        <value>
+            ابزار مدیریت
+        </value>
+    </key>
+    <key name="moderation_user_update">
+        <value>
+            نمایه به‌روزرسانی شد. &lt;a href=\"{$profileUrl}\"&gt; مشاهده نمایه&lt;/a&gt;
+        </value>
+    </key>
+    <key name="moderator_panel">
+        <value>
+            پنل مدیر
+        </value>
+    </key>
+    <key name="month">
+        <value>
+            ماه
+        </value>
+    </key>
+    <key name="month_1">
+        <value>
+            ژانویه
+        </value>
+    </key>
+    <key name="month_10">
+        <value>
+            اکتبر
+        </value>
+    </key>
+    <key name="month_11">
+        <value>
+            نوامبر
+        </value>
+    </key>
+    <key name="month_12">
+        <value>
+            دسامبر
+        </value>
+    </key>
+    <key name="month_2">
+        <value>
+            فوریه
+        </value>
+    </key>
+    <key name="month_3">
+        <value>
+            مارس
+        </value>
+    </key>
+    <key name="month_4">
+        <value>
+            آوریل
+        </value>
+    </key>
+    <key name="month_5">
+        <value>
+            مه
+        </value>
+    </key>
+    <key name="month_6">
+        <value>
+            ژوئن
+        </value>
+    </key>
+    <key name="month_7">
+        <value>
+            ژوئیه
+        </value>
+    </key>
+    <key name="month_8">
+        <value>
+            اوت
+        </value>
+    </key>
+    <key name="month_9">
+        <value>
+            سپتامبر
+        </value>
+    </key>
+    <key name="more">
+        <value>
+            بیشتر
+        </value>
+    </key>
+    <key name="mp_gal_align">
+        <value>
+            تراز
+        </value>
+    </key>
+    <key name="mp_gal_center">
+        <value>
+            مرکز
+        </value>
+    </key>
+    <key name="mp_gal_delete">
+        <value>
+            برداشتن
+        </value>
+    </key>
+    <key name="mp_gal_fullsize">
+        <value>
+            اندازه کامل
+        </value>
+    </key>
+    <key name="mp_gal_hide">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="mp_gal_ins_into_post">
+        <value>
+            قرار دادن داخل نوشته
+        </value>
+    </key>
+    <key name="mp_gal_left">
+        <value>
+            چپ
+        </value>
+    </key>
+    <key name="mp_gal_none">
+        <value>
+            هیچ
+        </value>
+    </key>
+    <key name="mp_gal_pic_url">
+        <value>
+            آدرس وب
+        </value>
+    </key>
+    <key name="mp_gal_preview">
+        <value>
+            پیش‌نمایش
+        </value>
+    </key>
+    <key name="mp_gal_right">
+        <value>
+            راست
+        </value>
+    </key>
+    <key name="mp_gal_show">
+        <value>
+            نمایش
+        </value>
+    </key>
+    <key name="my_avatar_widget">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="my_blocked_users">
+        <value>
+             
+        </value>
+    </key>
+    <key name="my_profile_heading">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="my_profile_title">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="new_message_count_text">
+        <value>
+            شما {$count} پیام جدید دارید
+        </value>
+    </key>
+    <key name="no">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="notifications">
+        <value>
+            اعلان‌ها
+        </value>
+    </key>
+    <key name="notification_section_label">
+        <value>
+            اصلی
+        </value>
+    </key>
+    <key name="admin_notification_section_label">
+        <value>
+            مدیریت
+        </value>
+    </key>
+    <key name="not_valid_image">
+        <value>
+            تصویر معتبر نیست
+        </value>
+    </key>
+    <key name="not_writable_avatar_dir">
+        <value>
+            پوشه تصاویر نمایه در دسترس نیست یا قابلیت نوشتن ندارد
+        </value>
+    </key>
+    <key name="no_items">
+        <value>
+            موردی برای نمایش نیست
+        </value>
+    </key>
+    <key name="no_match_usernames">
+        <value>
+            نام کاربری وارد شده با اطلاعات کاربر مورد نظر مطابقت ندارد.
+        </value>
+    </key>
+    <key name="ok">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="openwack">
+        <value>
+            شبکه اجتماعی
+        </value>
+    </key>
+    <key name="or">
+        <value>
+            یا
+        </value>
+    </key>
+    <key name="ow_ic_add">
+        <value>
+            اضافه کردن
+        </value>
+    </key>
+    <key name="ow_ic_aloud">
+        <value>
+            صدای زیاد
+        </value>
+    </key>
+    <key name="ow_ic_app">
+        <value>
+            برنامه
+        </value>
+    </key>
+    <key name="ow_ic_attach">
+        <value>
+            پیوست
+        </value>
+    </key>
+    <key name="ow_ic_birthday">
+        <value>
+            تولد
+        </value>
+    </key>
+    <key name="ow_ic_bookmark">
+        <value>
+            نشان
+        </value>
+    </key>
+    <key name="ow_ic_calendar">
+        <value>
+            تقویم
+        </value>
+    </key>
+    <key name="ow_ic_cart">
+        <value>
+            سبد خرید
+        </value>
+    </key>
+    <key name="ow_ic_chat">
+        <value>
+            پیام
+        </value>
+    </key>
+    <key name="ow_ic_clock">
+        <value>
+            ساعت
+        </value>
+    </key>
+    <key name="ow_ic_comment">
+        <value>
+            نظر
+        </value>
+    </key>
+    <key name="ow_ic_cut">
+        <value>
+            برش
+        </value>
+    </key>
+    <key name="ow_ic_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="ow_ic_delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="ow_ic_down_arrow">
+        <value>
+            فلش پایین
+        </value>
+    </key>
+    <key name="ow_ic_edit">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="ow_ic_female">
+        <value>
+            جنسیت ماده
+        </value>
+    </key>
+    <key name="ow_ic_file">
+        <value>
+            پرونده
+        </value>
+    </key>
+    <key name="ow_ic_files">
+        <value>
+            پرونده‌ها
+        </value>
+    </key>
+    <key name="ow_ic_flag">
+        <value>
+            پرچم
+        </value>
+    </key>
+    <key name="ow_ic_folder">
+        <value>
+            پوشه
+        </value>
+    </key>
+    <key name="ow_ic_forum">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="ow_ic_friends">
+        <value>
+            دوستان
+        </value>
+    </key>
+    <key name="ow_ic_gear_wheel">
+        <value>
+            چرخ
+        </value>
+    </key>
+    <key name="ow_ic_heart">
+        <value>
+            قلب
+        </value>
+    </key>
+    <key name="ow_ic_help">
+        <value>
+            کمک‌رسانی
+        </value>
+    </key>
+    <key name="ow_ic_house">
+        <value>
+            خانه
+        </value>
+    </key>
+    <key name="ow_ic_info">
+        <value>
+            اطلاعات
+        </value>
+    </key>
+    <key name="ow_ic_key">
+        <value>
+            کلید
+        </value>
+    </key>
+    <key name="ow_ic_left_arrow">
+        <value>
+            فلش چپ
+        </value>
+    </key>
+    <key name="ow_ic_lens">
+        <value>
+            ذره‌بین
+        </value>
+    </key>
+    <key name="ow_ic_link">
+        <value>
+            پیوند
+        </value>
+    </key>
+    <key name="ow_ic_lock">
+        <value>
+            قفل
+        </value>
+    </key>
+    <key name="ow_ic_mail">
+        <value>
+            رایانامه
+        </value>
+    </key>
+    <key name="ow_ic_male">
+        <value>
+            جنسیت نر
+        </value>
+    </key>
+    <key name="ow_ic_mobile">
+        <value>
+            تلفن همراه
+        </value>
+    </key>
+    <key name="ow_ic_moderator">
+        <value>
+            الماس
+        </value>
+    </key>
+    <key name="ow_ic_monitor">
+        <value>
+            مانیتور
+        </value>
+    </key>
+    <key name="ow_ic_move">
+        <value>
+            جابجایی
+        </value>
+    </key>
+    <key name="ow_ic_music">
+        <value>
+            آهنگ
+        </value>
+    </key>
+    <key name="ow_ic_new">
+        <value>
+            جدید
+        </value>
+    </key>
+    <key name="ow_ic_ok">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="ow_ic_online">
+        <value>
+            برخط
+        </value>
+    </key>
+    <key name="ow_ic_picture">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="ow_ic_plugin">
+        <value>
+            افزونه
+        </value>
+    </key>
+    <key name="ow_ic_push_pin">
+        <value>
+            سنجاق
+        </value>
+    </key>
+    <key name="ow_ic_reply">
+        <value>
+            پاسخ
+        </value>
+    </key>
+    <key name="ow_ic_right_arrow">
+        <value>
+            فلش راست
+        </value>
+    </key>
+    <key name="ow_ic_rss">
+        <value>
+            خبرخوان
+        </value>
+    </key>
+    <key name="ow_ic_save">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="ow_ic_script">
+        <value>
+            نوشته
+        </value>
+    </key>
+    <key name="ow_ic_server">
+        <value>
+            میزبان
+        </value>
+    </key>
+    <key name="ow_ic_star">
+        <value>
+            ستاره
+        </value>
+    </key>
+    <key name="ow_ic_tag">
+        <value>
+            برچسب
+        </value>
+    </key>
+    <key name="ow_ic_trash">
+        <value>
+            سطل زباله
+        </value>
+    </key>
+    <key name="ow_ic_unlock">
+        <value>
+            قفل باز
+        </value>
+    </key>
+    <key name="ow_ic_update">
+        <value>
+            به‌روزرسانی
+        </value>
+    </key>
+    <key name="ow_ic_up_arrow">
+        <value>
+            فلش بالا
+        </value>
+    </key>
+    <key name="ow_ic_user">
+        <value>
+            کاربر
+        </value>
+    </key>
+    <key name="ow_ic_video">
+        <value>
+            ویدیو
+        </value>
+    </key>
+    <key name="ow_ic_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="ow_ic_write">
+        <value>
+            نوشتن
+        </value>
+    </key>
+    <key name="ow_mail_information">
+        <value>
+            این رایانامه از طریق وبگاه «{$site_name}» برای شما ارسال شده است
+        </value>
+    </key>
+    <key name="page-119658">
+        <value>
+            شرایط استفاده
+        </value>
+    </key>
+    <key name="page-728242">
+        <value>
+             
+        </value>
+    </key>
+    <key name="pages_add_item">
+        <value>
+            افزودن گزینه
+        </value>
+    </key>
+    <key name="pages_add_submit">
+        <value>
+            ثبت
+        </value>
+    </key>
+    <key name="pages_back">
+        <value>
+            بازگشت
+        </value>
+    </key>
+    <key name="pages_label">
+        <value>
+            صفحات:
+        </value>
+    </key>
+    <key name="pages_page_meta_desc_desc">
+        <value>
+            پیشنهاد می‌شود حداکثر 150 کاراکتر باشد
+        </value>
+    </key>
+    <key name="pages_page_meta_desc_label">
+        <value>
+            توضیحات فراداده
+        </value>
+    </key>
+    <key name="pages_page_meta_keywords_desc">
+        <value>
+             
+        </value>
+    </key>
+    <key name="pages_page_meta_keywords_label">
+        <value>
+            کلمات کلیدی فراداده
+        </value>
+    </key>
+    <key name="pages_wrong_local_url">
+        <value>
+            آدرس اینترنتی نامعتبر
+        </value>
+    </key>
+    <key name="paging_label_first">
+        <value>
+            ««
+        </value>
+    </key>
+    <key name="paging_label_last">
+        <value>
+            »»
+        </value>
+    </key>
+    <key name="paging_label_next">
+        <value>
+            »
+        </value>
+    </key>
+    <key name="paging_label_prev">
+        <value>
+            «
+        </value>
+    </key>
+    <key name="password_protection_cap_label">
+        <value>
+            گذرواژه را وارد کنید
+        </value>
+    </key>
+    <key name="password_protection_error_message">
+        <value>
+            گذرواژه اشتباه است
+        </value>
+    </key>
+    <key name="password_protection_submit_label">
+        <value>
+            ورود
+        </value>
+    </key>
+    <key name="password_protection_success_message">
+        <value>
+            تغییر مسیر...
+        </value>
+    </key>
+    <key name="password_protection_text">
+        <value>
+            متاسفیم، سایت برای نمایش عمومی بسته شده است
+        </value>
+    </key>
+    <key name="pending_approval">
+        <value>
+            در انتظار تایید
+        </value>
+    </key>
+    <key name="powered_by_community">
+        <value>
+            قدرت‌گرفته از موتوشاب
+        </value>
+    </key>
+    <key name="preference_index">
+        <value>
+            ترجیحات من
+        </value>
+    </key>
+    <key name="preference_mass_mailing_subscribe_description">
+        <value>
+            با برداشتن این گزینه، پیام‌های دسته جمعی خبرنامه سامانه به شما ارسال نمی‌شود
+        </value>
+    </key>
+    <key name="preference_mass_mailing_subscribe_label">
+        <value>
+            ثبت‌نام در خبرنامه
+        </value>
+    </key>
+    <key name="preference_menu_item">
+        <value>
+            ترجیحات عمومی
+        </value>
+    </key>
+    <key name="preference_no_items">
+        <value>
+            موردی وجود ندارد
+        </value>
+    </key>
+    <key name="preference_preference_data_not_changed">
+        <value>
+            تنظیمات تغییر نکرد
+        </value>
+    </key>
+    <key name="preference_preference_data_was_saved">
+        <value>
+            تنظیمات تغییر کرد
+        </value>
+    </key>
+    <key name="preference_section_general">
+        <value>
+            پیام‌های دسته‌جمعی
+        </value>
+    </key>
+    <key name="preference_submit_button">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="privacy_action_view_my_presence_on_site">
+        <value>
+            مشاهده حضور من در وب‌گاه
+        </value>
+    </key>
+    <key name="privacy_action_view_my_presence_on_site_description">
+        <value>
+            با تغییر این گزینه، حق دسترسی مشاهده حضور شما در وب‌گاه تغییر خواهد کرد
+        </value>
+    </key>
+    <key name="privacy_action_view_profile">
+        <value>
+            مشاهده نمایه من
+        </value>
+    </key>
+    <key name="privacy_action_view_profile_description">
+        <value>
+            با تغییر این گزینه، حق دسترسی مشاهده نمایه تغییر خواهد کرد
+        </value>
+    </key>
+    <key name="produced_by_iiscenter">
+        <value>
+            تولید شده توسط مرکز راه‌کارهای اطلاعاتی هوشمند
+        </value>
+    </key>
+    <key name="profile_comment_notification">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; در نمایه شما نظر داده است: &lt;a href="{$profileUrl}"&gt;نمایه من&lt;/a&gt;
+        </value>
+    </key>
+    <key name="profile_toolbar_group_moderation">
+        <value>
+            مدیریت
+        </value>
+    </key>
+    <key name="profile_toolbar_user_approve_label">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="profile_toolbar_user_delete_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="profile_view_description">
+        <value>
+            مشخصات نمایه {$username} در {$site_name}
+        </value>
+    </key>
+    <key name="profile_view_heading">
+        <value>
+            {$username}
+        </value>
+    </key>
+    <key name="profile_view_title">
+        <value>
+            {$username}
+        </value>
+    </key>
+    <key name="questions_account_type_290365aadde35a97f11207ca7e4279cc">
+        <value>
+            استاندارد
+        </value>
+    </key>
+    <key name="questions_account_type_7f23216f76dfbd9e7f6dacd58ea58beb">
+        <value>
+            ویژه
+        </value>
+    </key>
+    <key name="questions_account_type_8c103538900bda26f08d9ccd2aad61f8">
+        <value>
+            خصوصی
+        </value>
+    </key>
+    <key name="questions_account_type_all">
+        <value>
+            انواع حساب‌ها
+        </value>
+    </key>
+    <key name="questions_account_type_df9807bd2ba1808afb2ab52a7b74fc90">
+        <value>
+            تست تست تست
+        </value>
+    </key>
+    <key name="questions_account_type_ef5e279523aed72d87fd8a1fd59d592f">
+        <value>
+            کاربر عمومی
+        </value>
+    </key>
+    <key name="questions_account_type_was_added">
+        <value>
+            نوع حساب افزوده شده است
+        </value>
+    </key>
+    <key name="questions_add_account_type">
+        <value>
+            افزودن جدید
+        </value>
+    </key>
+    <key name="questions_add_new_account_type">
+        <value>
+            افزودن نوع حساب جدید
+        </value>
+    </key>
+    <key name="questions_admin_add_new_values">
+        <value>
+            افزودن مقدار جدید
+        </value>
+    </key>
+    <key name="questions_admin_delete_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="questions_admin_description_label">
+        <value>
+            اگر لازم است توضیح کوتاهی دهید
+        </value>
+    </key>
+    <key name="questions_admin_edit_label">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="questions_admin_question_label">
+        <value>
+            پرسش
+        </value>
+    </key>
+    <key name="questions_age_year_old">
+        <value>
+            سن
+        </value>
+    </key>
+    <key name="questions_checkbox_value_false">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="questions_checkbox_value_true">
+        <value>
+            بلی
+        </value>
+    </key>
+    <key name="questions_config_date_field_format_dmy">
+        <value>
+            روز/ماه/سال
+        </value>
+    </key>
+    <key name="questions_config_date_field_format_label">
+        <value>
+            فرمت تاریخ
+        </value>
+    </key>
+    <key name="questions_config_date_field_format_mdy">
+        <value>
+            ماه/روز/سال
+        </value>
+    </key>
+    <key name="questions_config_user_view_presentation_description">
+        <value>
+            اگر شما پرسش‌های زیادی در نمایه خود دارید مشاهده بخش‌ها به عنوان زبانه در صفحه نمایه شما می‌تواند مفید باشد.
+        </value>
+    </key>
+    <key name="questions_config_user_view_presentation_label">
+        <value>
+            مشاهده بخش‌ها به‌صورت زبانه
+        </value>
+    </key>
+    <key name="questions_edit_description_label_title">
+        <value>
+            ویرایش توضیحات سوالات
+        </value>
+    </key>
+    <key name="questions_edit_question_label_title">
+        <value>
+            ویرایش برچسب سوالات
+        </value>
+    </key>
+    <key name="questions_edit_question_value_title">
+        <value>
+            ویرایش مقدار سوالات
+        </value>
+    </key>
+    <key name="questions_empty_lang_value">
+        <value>
+            بدون مقدار
+        </value>
+    </key>
+    <key name="questions_menu_add">
+        <value>
+            افزودن پرسش
+        </value>
+    </key>
+    <key name="questions_menu_editAccountType">
+        <value>
+            ویرایش نوع حساب
+        </value>
+    </key>
+    <key name="questions_menu_index">
+        <value>
+            پرسش‌های نمایه
+        </value>
+    </key>
+    <key name="questions_menu_settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="questions_no_section_label">
+        <value>
+            بدون بخش
+        </value>
+    </key>
+    <key name="questions_question_0fe69011e890106732951b49d131490c_label">
+        <value>
+            فعالیت‌های ورزشی
+        </value>
+    </key>
+    <key name="questions_question_0fe69011e890106732951b49d131490c_value_1">
+        <value>
+            فوتبال
+        </value>
+    </key>
+    <key name="questions_question_0fe69011e890106732951b49d131490c_value_2">
+        <value>
+            تنیس
+        </value>
+    </key>
+    <key name="questions_question_0fe69011e890106732951b49d131490c_value_4">
+        <value>
+            بسکتبال
+        </value>
+    </key>
+    <key name="questions_question_0fe69011e890106732951b49d131490c_value_8">
+        <value>
+            والیبال
+        </value>
+    </key>
+    <key name="questions_question_44e544653804655d52235ac14aaa10fb_description">
+        <value>
+            هم‌خوانی توضیحات سن
+        </value>
+    </key>
+    <key name="questions_question_44e544653804655d52235ac14aaa10fb_label">
+        <value>
+            هم‌خوانی_سن
+        </value>
+    </key>
+    <key name="questions_question_557256153cd10f5f711ac4ee14a7b675_value_2">
+        <value>
+            قهوه‌ای
+        </value>
+    </key>
+    <key name="questions_question_557256153cd10f5f711ac4ee14a7b675_value_4">
+        <value>
+            قرمز
+        </value>
+    </key>
+    <key name="questions_question_5eab269060488cd69d49fbe31c9cb0a1_label">
+        <value>
+            مو
+        </value>
+    </key>
+    <key name="questions_question_5eab269060488cd69d49fbe31c9cb0a1_value_1">
+        <value>
+            مشکی
+        </value>
+    </key>
+    <key name="questions_question_5eab269060488cd69d49fbe31c9cb0a1_value_2">
+        <value>
+            سفید
+        </value>
+    </key>
+    <key name="questions_question_5eab269060488cd69d49fbe31c9cb0a1_value_4">
+        <value>
+            قرمز
+        </value>
+    </key>
+    <key name="questions_question_5eab269060488cd69d49fbe31c9cb0a1_value_8">
+        <value>
+            آبی
+        </value>
+    </key>
+    <key name="questions_question_9221d78a4201eac23c972e1d4aa2cee6_label">
+        <value>
+            موسیقی
+        </value>
+    </key>
+    <key name="questions_question_96c41d906ac020757eae6a0ba339e398_label">
+        <value>
+
+        </value>
+    </key>
+    <key name="questions_question_96c41d906ac020757eae6a0ba339e398_value_1">
+        <value>
+            فوتبال
+        </value>
+    </key>
+    <key name="questions_question_96c41d906ac020757eae6a0ba339e398_value_2">
+        <value>
+            تنیس
+        </value>
+    </key>
+    <key name="questions_question_96c41d906ac020757eae6a0ba339e398_value_4">
+        <value>
+            بسکتبال
+        </value>
+    </key>
+    <key name="questions_question_96c41d906ac020757eae6a0ba339e398_value_8">
+        <value>
+            والیبال
+        </value>
+    </key>
+    <key name="questions_question_a023dd4e406571f6e805e52e5dd9b9ef_description">
+        <value>
+            فعالیت‌های ورزشی شما
+        </value>
+    </key>
+    <key name="questions_question_a023dd4e406571f6e805e52e5dd9b9ef_label">
+        <value>
+            فعالیت‌های ورزشی
+        </value>
+    </key>
+    <key name="questions_question_a023dd4e406571f6e805e52e5dd9b9ef_value_1">
+        <value>
+            فوتبال
+        </value>
+    </key>
+    <key name="questions_question_a023dd4e406571f6e805e52e5dd9b9ef_value_2">
+        <value>
+            بسکتبال
+        </value>
+    </key>
+    <key name="questions_question_a023dd4e406571f6e805e52e5dd9b9ef_value_4">
+        <value>
+            والیبال
+        </value>
+    </key>
+    <key name="questions_question_a023dd4e406571f6e805e52e5dd9b9ef_value_8">
+        <value>
+            تنیس
+        </value>
+    </key>
+    <key name="questions_question_accountType_description">
+        <value>
+            انتخاب نوع حساب
+        </value>
+    </key>
+    <key name="questions_question_accountType_label">
+        <value>
+            نوع حساب
+        </value>
+    </key>
+    <key name="questions_question_account_type_label">
+        <value>
+            نوع حساب
+        </value>
+    </key>
+    <key name="questions_question_birthdate_label">
+        <value>
+            تاریخ تولد
+        </value>
+    </key>
+    <key name="questions_question_birthday_label_presentation_age">
+        <value>
+            سن
+        </value>
+    </key>
+    <key name="questions_question_c441a8a9b955647cdf4c81562d39068a_label">
+        <value>
+            کتاب‌های مورد علاقه
+        </value>
+    </key>
+    <key name="questions_question_c4b93fbdd34a1892021fe179bff33834_value_1">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c4b93fbdd34a1892021fe179bff33834_value_16">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c4b93fbdd34a1892021fe179bff33834_value_2">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c4b93fbdd34a1892021fe179bff33834_value_4">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c4b93fbdd34a1892021fe179bff33834_value_8">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c5dc53f371fe6ba3001a7c7e31bd95fc_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c5dc53f371fe6ba3001a7c7e31bd95fc_value_1">
+        <value>
+            نصب
+        </value>
+    </key>
+    <key name="questions_question_c5dc53f371fe6ba3001a7c7e31bd95fc_value_16">
+        <value>
+            مشاور
+        </value>
+    </key>
+    <key name="questions_question_c5dc53f371fe6ba3001a7c7e31bd95fc_value_2">
+        <value>
+            عیب‌یابی
+        </value>
+    </key>
+    <key name="questions_question_c5dc53f371fe6ba3001a7c7e31bd95fc_value_4">
+        <value>
+            توسعه افزونه‌ها
+        </value>
+    </key>
+    <key name="questions_question_c5dc53f371fe6ba3001a7c7e31bd95fc_value_8">
+        <value>
+            طراحی پوسته
+        </value>
+    </key>
+    <key name="questions_question_c897c809bc8a4f004f27a1e4637a99e6_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_c897c809bc8a4f004f27a1e4637a99e6_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d37d41b71a78dfb62b379d0aa7bd3ba5_value_1">
+        <value>
+            123
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_1">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_128">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_16">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_2">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_256">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_32">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_4">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_512">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_64">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d570618c786b27617afb52192274c4e9_value_8">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d88bae51bcd9f1a0c303164d567ea297_label">
+        <value>
+            تست
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_label">
+        <value>
+            1
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_1">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_128">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_16">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_2">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_256">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_32">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_4">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_512">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_64">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_d8aa20d67fbb6c6864e46c474d0bde10_value_8">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_da61580794d0318812eab8c09b147cd6_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_da61580794d0318812eab8c09b147cd6_value_2">
+        <value>
+            سفید
+        </value>
+    </key>
+    <key name="questions_question_da61580794d0318812eab8c09b147cd6_value_4">
+        <value>
+            قرمز
+        </value>
+    </key>
+    <key name="questions_question_da61580794d0318812eab8c09b147cd6_value_8">
+        <value>
+            آبی
+        </value>
+    </key>
+    <key name="questions_question_dc15d35b1be0e31b4c69bdaddb5298ff_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_dc15d35b1be0e31b4c69bdaddb5298ff_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_e559834ab837e866e80aea0d1b453fc2_value_1">
+        <value>
+            سیاه
+        </value>
+    </key>
+    <key name="questions_question_e559834ab837e866e80aea0d1b453fc2_value_2">
+        <value>
+            سفید
+        </value>
+    </key>
+    <key name="questions_question_e559834ab837e866e80aea0d1b453fc2_value_4">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_e559834ab837e866e80aea0d1b453fc2_value_8">
+        <value>
+            قرمز
+        </value>
+    </key>
+    <key name="questions_question_ecef9fe729d11241c04609c3a7ca468e_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_ecef9fe729d11241c04609c3a7ca468e_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_email_description">
+        <value>
+            باید معتبر باشد!
+        </value>
+    </key>
+    <key name="questions_question_email_label">
+        <value>
+            رایانامه
+        </value>
+    </key>
+    <key name="questions_question_f17d6da3dec6687a509721adee152573_description">
+        <value>
+            تست
+        </value>
+    </key>
+    <key name="questions_question_f17d6da3dec6687a509721adee152573_label">
+        <value>
+            تست
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_1">
+        <value>
+            1
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_1024">
+        <value>
+            11
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_1048576">
+        <value>
+            21
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_128">
+        <value>
+            8
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_131072">
+        <value>
+            18
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_134217728">
+        <value>
+            28
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_16">
+        <value>
+            5
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_16384">
+        <value>
+            15
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_16777216">
+        <value>
+            25
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_2">
+        <value>
+            2
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_2048">
+        <value>
+            12
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_2097152">
+        <value>
+            22
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_256">
+        <value>
+            9
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_262144">
+        <value>
+            19
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_32">
+        <value>
+            6
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_32768">
+        <value>
+            16
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_33554432">
+        <value>
+            26
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_4">
+        <value>
+            3
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_4096">
+        <value>
+            13
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_4194304">
+        <value>
+            23
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_512">
+        <value>
+            10
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_524288">
+        <value>
+            20
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_64">
+        <value>
+            7
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_65536">
+        <value>
+            17
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_67108864">
+        <value>
+            27
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_8">
+        <value>
+            4
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_8192">
+        <value>
+            14
+        </value>
+    </key>
+    <key name="questions_question_field_098faf82d91306b42c070711da8bf177_value_8388608">
+        <value>
+            24
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_1">
+        <value>
+            1
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_1024">
+        <value>
+            11
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_1048576">
+        <value>
+            21
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_1073741824">
+        <value>
+            31
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_128">
+        <value>
+            8
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_131072">
+        <value>
+            18
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_134217728">
+        <value>
+            28
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_16">
+        <value>
+            5
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_16384">
+        <value>
+            15
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_16777216">
+        <value>
+            25
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_2">
+        <value>
+            2
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_2048">
+        <value>
+            12
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_2097152">
+        <value>
+            22
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_256">
+        <value>
+            9
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_262144">
+        <value>
+            19
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_268435456">
+        <value>
+            29
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_32">
+        <value>
+            6
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_32768">
+        <value>
+            16
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_33554432">
+        <value>
+            26
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_4">
+        <value>
+            3
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_4096">
+        <value>
+            13
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_4194304">
+        <value>
+            23
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_512">
+        <value>
+            10
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_524288">
+        <value>
+            20
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_536870912">
+        <value>
+            30
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_64">
+        <value>
+            7
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_65536">
+        <value>
+            17
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_67108864">
+        <value>
+            27
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_8">
+        <value>
+            4
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_8192">
+        <value>
+            14
+        </value>
+    </key>
+    <key name="questions_question_field_d4492405b06aa44625c25fce4f077e47_value_8388608">
+        <value>
+            24
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_1">
+        <value>
+            1
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_1024">
+        <value>
+            11
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_1048576">
+        <value>
+            21
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_128">
+        <value>
+            8
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_131072">
+        <value>
+            18
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_134217728">
+        <value>
+            28
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_16">
+        <value>
+            5
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_16384">
+        <value>
+            15
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_16777216">
+        <value>
+            25
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_2">
+        <value>
+            2
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_2048">
+        <value>
+            12
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_2097152">
+        <value>
+            22
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_256">
+        <value>
+            9
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_262144">
+        <value>
+            19
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_268435456">
+        <value>
+            29
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_32">
+        <value>
+            6
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_32768">
+        <value>
+            16
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_33554432">
+        <value>
+            26
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_4">
+        <value>
+            3
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_4096">
+        <value>
+            13
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_4194304">
+        <value>
+            23
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_512">
+        <value>
+            10
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_524288">
+        <value>
+            20
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_64">
+        <value>
+            7
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_65536">
+        <value>
+            17
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_67108864">
+        <value>
+            27
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_8">
+        <value>
+            4
+        </value>
+    </key>
+    <key name="questions_question_field_f601014ed0ceba2d4e25606de1992eba_value_8192">
+        <value>
+            14
+        </value>
+    </key>
+    <key name="questions_question_field_mobile_description">
+        <value>
+            این شماره باید پس از تکمیل اطلاعات از طریق کد فعال‌سازی تایید شود.
+        </value>
+    </key>
+    <key name="questions_question_field_mobile_label">
+        <value>
+            شماره تلفن همراه
+        </value>
+    </key>
+    <key name="questions_question_googlemap_location_label">
+        <value>
+            مکان
+        </value>
+    </key>
+    <key name="questions_question_joinStamp_label">
+        <value>
+            تاریخ ثبت‌نام
+        </value>
+    </key>
+    <key name="questions_question_match_739a83996f701966485290779f4ff2b5_label">
+        <value>
+            همتای من
+        </value>
+    </key>
+    <key name="questions_question_match_age_label">
+        <value>
+            سن همتا
+        </value>
+    </key>
+    <key name="questions_question_match_sex_label">
+        <value>
+            در جستجوی
+        </value>
+    </key>
+    <key name="questions_question_match_sex_value_1">
+        <value>
+            مرد
+        </value>
+    </key>
+    <key name="questions_question_match_sex_value_2">
+        <value>
+            زن
+        </value>
+    </key>
+    <key name="questions_question_password_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_password_label">
+        <value>
+            گذرواژه
+        </value>
+    </key>
+    <key name="questions_question_presentation_age_label">
+        <value>
+            تاریخ(سن)
+        </value>
+    </key>
+    <key name="questions_question_presentation_birthdate_label">
+        <value>
+            تاریخ(تولد)
+        </value>
+    </key>
+    <key name="questions_question_presentation_checkbox_label">
+        <value>
+            بلی/خیر
+        </value>
+    </key>
+    <key name="questions_question_presentation_date_label">
+        <value>
+            تاریخ
+        </value>
+    </key>
+    <key name="questions_question_presentation_fselect_label">
+        <value>
+            انتخاب منفرد - منظم (نتایج کندتر، نامحدود)
+        </value>
+    </key>
+    <key name="questions_question_presentation_multicheckbox_label">
+        <value>
+            انتخاب چندگانه
+        </value>
+    </key>
+    <key name="questions_question_presentation_password_label">
+        <value>
+            گذرواژه
+        </value>
+    </key>
+    <key name="questions_question_presentation_radio_label">
+        <value>
+            تک انتخاب (دکمه رادیویی)
+        </value>
+    </key>
+    <key name="questions_question_presentation_range_label">
+        <value>
+            محدوده
+        </value>
+    </key>
+    <key name="questions_question_presentation_securityCode_label">
+        <value>
+            کد امنیتی
+        </value>
+    </key>
+    <key name="questions_question_presentation_select_label">
+        <value>
+            تک انتخاب (منوی کرکره‌ای)
+        </value>
+    </key>
+    <key name="questions_question_presentation_textarea_label">
+        <value>
+            متن گسترش یافته
+        </value>
+    </key>
+    <key name="questions_question_presentation_text_label">
+        <value>
+            متن
+        </value>
+    </key>
+    <key name="questions_question_presentation_url_label">
+        <value>
+            نشانی وب‌گاه
+        </value>
+    </key>
+    <key name="questions_question_realname_description">
+        <value>
+            نام و نام خانوادگی
+        </value>
+    </key>
+    <key name="questions_question_realname_label">
+        <value>
+            اسم واقعی
+        </value>
+    </key>
+    <key name="questions_question_relationship_label">
+        <value>
+            دلیل حضور
+        </value>
+    </key>
+    <key name="questions_question_relationship_value_1">
+        <value>
+            سرگرمی
+        </value>
+    </key>
+    <key name="questions_question_relationship_value_2">
+        <value>
+            هر چه
+        </value>
+    </key>
+    <key name="questions_question_relationship_value_4">
+        <value>
+            یافتن دوست
+        </value>
+    </key>
+    <key name="questions_question_relationship_value_8">
+        <value>
+            دوستی
+        </value>
+    </key>
+    <key name="questions_question_repeat_password_label">
+        <value>
+            تکرار گذرواژه
+        </value>
+    </key>
+    <key name="questions_question_securityCode_description">
+        <value>
+            در صورت فراموشی گذرواژه و عدم دسترسی به رایانامه٬ اعلام کد امنیتی به مدیریت سامانه ضروری است
+        </value>
+    </key>
+    <key name="questions_question_securityCode_label">
+        <value>
+            کد امنیتی
+        </value>
+    </key>
+    <key name="questions_question_sex_description">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_sex_label">
+        <value>
+            جنسیت
+        </value>
+    </key>
+    <key name="questions_question_sex_value_1">
+        <value>
+            مرد
+        </value>
+    </key>
+    <key name="questions_question_sex_value_2">
+        <value>
+            زن
+        </value>
+    </key>
+    <key name="questions_question_sex_value_4">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_question_username_description">
+        <value>
+            باید فقط شامل حروف و اعداد باشد
+        </value>
+    </key>
+    <key name="questions_question_username_label">
+        <value>
+            نام کاربری
+        </value>
+    </key>
+    <key name="questions_question_user_photo_label">
+        <value>
+            تصویر کاربر
+        </value>
+    </key>
+    <key name="questions_question_user_terms_of_use_label">
+        <value>
+            من با شرایط استفاده &lt;a target='blank' href='{$site_url}terms-of-use' &gt; &lt;/a&gt; موافقم.
+        </value>
+    </key>
+    <key name="questions_question__value_16">
+        <value>
+            5
+        </value>
+    </key>
+    <key name="questions_question__value_8">
+        <value>
+            4
+        </value>
+    </key>
+    <key name="questions_section_47f3a94e6cfe733857b31116ce21c337_label">
+        <value>
+            علایق
+        </value>
+    </key>
+    <key name="questions_section_4e9e55a664473acae206ec14c58aa45e_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="questions_section_a9073700994b20e339e21d061c44e5b0_label">
+        <value>
+            تحصیلات
+        </value>
+    </key>
+    <key name="questions_section_about_my_match_label">
+        <value>
+            درباره همتای من
+        </value>
+    </key>
+    <key name="questions_section_captcha_label">
+        <value>
+            تصویر امنیتی
+        </value>
+    </key>
+    <key name="questions_section_e46697c921740b10b1ac7223a14155b2_label">
+        <value>
+            تست
+        </value>
+    </key>
+    <key name="questions_section_f90cde5913235d172603cc4e7b9726e3_label">
+        <value>
+            اطلاعات پایه
+        </value>
+    </key>
+    <key name="questions_section_location_label">
+        <value>
+            مکان
+        </value>
+    </key>
+    <key name="questions_section_terms_of_use_label">
+        <value>
+            شرایط استفاده
+        </value>
+    </key>
+    <key name="questions_section_user_photo_label">
+        <value>
+            تصویر کاربر
+        </value>
+    </key>
+    <key name="quick_links_cap_label">
+        <value>
+            دسترسی سریع
+        </value>
+    </key>
+    <key name="rates_box_cap_label">
+        <value>
+            امتیاز
+        </value>
+    </key>
+    <key name="rate_cmp_auth_error_message">
+        <value>
+            مهمانان اجازه امتیازدهی ندارند
+        </value>
+    </key>
+    <key name="rate_cmp_owner_cant_rate_error_message">
+        <value>
+            شما نمی‌توانید مطالب خودتان را امتیازدهی کنید
+        </value>
+    </key>
+    <key name="rate_cmp_success_message">
+        <value>
+            امتیاز با موفقیت ثبت شد
+        </value>
+    </key>
+    <key name="required_profile_questions">
+        <value>
+            سوالات مورد نیاز نمایه
+        </value>
+    </key>
+    <key name="reset_password_cap_label">
+        <value>
+            ایجاد گذرواژه جدید
+        </value>
+    </key>
+    <key name="reset_password_code_expired_cap_label">
+        <value>
+            مهلت کد بازنشاندن گذرواژه تمام شده است
+        </value>
+    </key>
+    <key name="reset_password_code_expired_text">
+        <value>
+            متاسفانه کد وارد شده توسط شما نامعتبر  بوده و یا مهلت آن تمام شده است. لطفا این  &lt;a href="{$url}"&gt;پیوند&lt;/a&gt; را دنبال کنید و سعی کنید آن را دوباره تنظیم مجدد کنید
+        </value>
+    </key>
+    <key name="reset_password_field_label">
+        <value>
+            گذرواژه جدید
+        </value>
+    </key>
+    <key name="reset_password_form_text">
+        <value>
+            سلام {$username}، گذرواژه خود را در این قسمت وارد کنید:
+        </value>
+    </key>
+    <key name="reset_password_heading">
+        <value>
+            بازنشاندن گذرواژه
+        </value>
+    </key>
+    <key name="reset_password_length_error_message">
+        <value>
+            طول حرف یا رقم‌های گذرواژه باید بین {$min} و {$max} باشد
+        </value>
+    </key>
+    <key name="reset_password_mail_template_content_html">
+        <value>
+            کاربر گرامی «{$username}»،
+&lt;br /&gt;&#13;
+شما درخواست بازتنظیم گذرواژه خود را کرده‌اید. پیوند زیر را برای تغییر گذرواژه خود دنبال کنید&lt;br /&gt;&#13;
+&lt;a href="{$resetUrl}"&gt; {$resetUrl}&lt;/a&gt;&lt;br /&gt;&#13;
+&lt;br /&gt;&#13;
+اگر در استفاده از پیوند بالا مشکلی بود، پیوند مقابل را دنبال کرده و کد زیر را در آن وارد کنید 
+ &lt;a href="{$requestUrl}"&gt; {$requestUrl}&lt;/a&gt;. 
+&lt;br /&gt;&#13;
+Code: {$code}&#13;
+&lt;br /&gt;&#13;
+اگر شما در خواست کد تنظیم مجدد نکرده‌اید لطفا این رایانامه را نادیده بگیرید. &#13;
+&lt;br /&gt;&lt;br /&gt;
+        </value>
+    </key>
+    <key name="reset_password_mail_template_content_txt">
+        <value>
+            کاربر گرامی «{$username}»،
+&#13;
+شما درخواست بازتنظیم گذرواژه خود را کرده‌اید. پیوند زیر را برای تغییر گذرواژه خود دنبال کنید: ({$resetUrl}) .&#13;
+&#13;
+اگر در استفاده از پیوند بالا مشکلی بود، پیوند مقابل را دنبال کرده و کد زیر را در آن وارد کنید: ({$requestUrl}). Code: &#13;{$code}
+&#13;
+اگر شما در خواست کد تنظیم مجدد نکرده‌اید لطفا این رایانامه را نادیده بگیرید
+        </value>
+    </key>
+    <key name="reset_password_mail_template_subject">
+        <value>
+            کد بازنشاندن گذرواژه جدید
+        </value>
+    </key>
+    <key name="reset_password_not_equal_error_message">
+        <value>
+            مقادیر گزینه‌های گذرواژه و تکرارگذرواژه باید برابر باشند
+        </value>
+    </key>
+    <key name="reset_password_repeat_field_label">
+        <value>
+            تکرار گذرواژه
+        </value>
+    </key>
+    <key name="reset_password_request_cap_label">
+        <value>
+            کد بازتنظیم خود را وارد کنید
+        </value>
+    </key>
+    <key name="reset_password_request_form_text">
+        <value>
+            کد بازتنظیم گذرواژه برای شما ارسال شده است. سپس شما می‌توانید گذرواژه جدید را وارد کنید.
+        </value>
+    </key>
+    <key name="reset_password_request_heading">
+        <value>
+            درخواست بازتنظیم گذرواژه
+        </value>
+    </key>
+    <key name="reset_password_request_invalid_code_error_message">
+        <value>
+            لطفا کد بازتنظیم معتبر وارد کنید
+        </value>
+    </key>
+    <key name="reset_password_request_submit_label">
+        <value>
+            ثبت کردن
+        </value>
+    </key>
+    <key name="reset_password_submit_label">
+        <value>
+            ثبت کردن
+        </value>
+    </key>
+    <key name="reset_password_success_message">
+        <value>
+            گذرواژه شما با موفقیت تغییر یافت
+        </value>
+    </key>
+    <key name="rss_widget_count_label">
+        <value>
+            تعداد گزینه‌ها
+        </value>
+    </key>
+    <key name="rss_widget_default_title">
+        <value>
+            خبرخوان
+        </value>
+    </key>
+    <key name="rss_widget_title_only_label">
+        <value>
+            فقط عنوان‌ها
+        </value>
+    </key>
+    <key name="rss_widget_update_time_label">
+        <value>
+            مدت زمان به‌روز رسانی‌(برحسب دقیقه)
+        </value>
+    </key>
+    <key name="rss_widget_url_invalid_msg">
+        <value>
+            یک نشانی وب‌گاه معتبر وارد کنید
+        </value>
+    </key>
+    <key name="rss_widget_url_label">
+        <value>
+            نشانی وب‌گاه
+        </value>
+    </key>
+    <key name="save_and_approve">
+        <value>
+            ذخیره و تایید
+        </value>
+    </key>
+    <key name="search_results">
+        <value>
+             
+        </value>
+    </key>
+    <key name="search_users">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="send_message_to_email">
+        <value>
+            فرستادن پیام به رایانامه
+        </value>
+    </key>
+    <key name="seo_meta_choose_pages_label">
+        <value>
+            انتخاب بخش
+        </value>
+    </key>
+    <key name="seo_meta_forgot_pass_label">
+        <value>
+            صفحه فراموشی گذرواژه
+        </value>
+    </key>
+    <key name="seo_meta_form_element_desc_desc">
+        <value>
+            طول شرح پیشنهادی تا 150 نشانه است
+        </value>
+    </key>
+    <key name="seo_meta_form_element_desc_label">
+        <value>
+            توضیحات تکمیلی
+        </value>
+    </key>
+    <key name="seo_meta_form_element_index_label">
+        <value>
+            اجازه برای شاخص‌گذاری
+        </value>
+    </key>
+    <key name="seo_meta_form_element_keywords_label">
+        <value>
+            کلمات کلیدی بیشتر
+        </value>
+    </key>
+    <key name="seo_meta_form_element_title_desc">
+        <value>
+            طول عنوان پیشنهادی تا 70 نشانه است
+        </value>
+    </key>
+    <key name="seo_meta_form_element_title_label">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="seo_meta_index_label">
+        <value>
+            فهرست
+        </value>
+    </key>
+    <key name="seo_meta_join_label">
+        <value>
+            ثبت‌نام
+        </value>
+    </key>
+    <key name="seo_meta_search_result_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="seo_meta_section_base_pages">
+        <value>
+            صفحات اصلی
+        </value>
+    </key>
+    <key name="seo_meta_section_users">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="seo_meta_sign_in_label">
+        <value>
+            صفحه ورود
+        </value>
+    </key>
+    <key name="seo_meta_user_list_label">
+        <value>
+            صفحه فهرست اعضا (حاضرین  /آخرین‌ها)
+        </value>
+    </key>
+    <key name="seo_meta_user_page_label">
+        <value>
+            صفحه اختصاصی کاربر عضو
+        </value>
+    </key>
+    <key name="seo_meta_user_search_label">
+        <value>
+            صفحه جستجو کاربران
+        </value>
+    </key>
+    <key name="seo_social_index_description">
+        <value>
+            در این بخش به شما امکان مدیریت نحوه استفاده از منابع و اطلاعات موجود در صفحات مختلف به تفکیک هر بخش داده شده است. لازم است برای تغییر بخش از طریق منوی زیر اقدام کنید.
+        </value>
+    </key>
+    <key name="seo_social_map">
+        <value>
+            یک فایل به نام sitemap.xml به صورت خودکار تولید و در سامانه قرار داده می‌شود تا به موتورهای جستجو برای شناسایی بخش‌های مختلف سامانه کمک کند.
+        </value>
+    </key>
+    <key name="seo_social_meta_text">
+        <value>
+            &lt;p&gt;هنگامی که صفحه‌ای از شبکه‌ اجتماعی خود را با دیگران به اشتراک می‌گذارید، اطلاعات زیر به پیش‌نمایش بهتر آن کمک خواهند کرد. شما نیازی به تنظیم خاصی ندارید – همه موارد برای شما آماده شده است. تقریبا همه داده‌های مورد نیاز از صفحه تنظیمات SEO رونوشت شده و به برچسب‌های گراف باز (Open Graph Tags) منتقل می‌شوند. فهرست برچسب‌های استفاده شده عبارتند از:    &lt;/p&gt;    &lt;ul class=\"ow_stdmargin\"&gt;    &lt;li&gt;&lt;strong&gt;og:title&lt;/strong&gt; - رونوشت از عنوان&lt;/li&gt;    &lt;li&gt;&lt;strong&gt;og:url&lt;/strong&gt; - رونوشت از نشانی اینترنتی&lt;/li&gt;    &lt;li&gt;&lt;strong&gt;og:type&lt;/strong&gt; -«وب‌گاه» که به‌صورت پیش‌فرض تنظیم شده است &lt;/li&gt;    &lt;li&gt;&lt;strong&gt;og:description&lt;/strong&gt; - رونوشت از ابرتوصیف&lt;/li&gt; &lt;li&gt;&lt;strong&gt;og:site_name&lt;/strong&gt; - {$site_name}&lt;/li&gt;   &lt;li&gt;&lt;strong&gt;twitter:title&lt;/strong&gt; - رونوشت از عنوان&lt;/li&gt; &lt;li&gt;&lt;strong&gt;twitter:description&lt;/strong&gt; - رونوشت از ابرتوصیف&lt;/li&gt;    &lt;li&gt;&lt;strong&gt;og:image و twitter:image&lt;/strong&gt; -برای هر دو برچسب تصویر یکسان تنظیم می‌شود. تصاویری از نوع لوگو، پیش‌نمایش ویدیو، تصویر رویداد، تصویر کاربر، لوگو یا تصویر گروه، تصویر اول آلبوم تصویر و عکس‌ به‌صورت خودکار بر اساس وضعیت صفحه و عبارت جستجو شده تنظیم می‌شوند: . &lt;/li&gt;    &lt;/ul&gt;
+        </value>
+    </key>
+    <key name="seo_upload_logo_label">
+        <value>
+            بارگذاری لوگو
+        </value>
+    </key>
+    <key name="set_suspend_message_label">
+        <value>
+            لطفا دلیلی برای تعلیق کاربر ذکر نمایید
+        </value>
+    </key>
+    <key name="sidebar_menu_view_all_questions">
+        <value>
+            نمایش تمامی پرسش‌ها
+        </value>
+    </key>
+    <key name="sign_in_remember_me_label">
+        <value>
+            مرا بخاطر داشته باش
+        </value>
+    </key>
+    <key name="sign_in_submit_label">
+        <value>
+            ورود
+        </value>
+    </key>
+    <key name="sing_in_to_flag">
+        <value>
+            برای گزارش تخلف باید وارد شوید
+        </value>
+    </key>
+    <key name="site_email_verify_subject">
+        <value>
+            تایید رایانامه
+        </value>
+    </key>
+    <key name="site_email_verify_template_html">
+        <value>
+            &lt;p&gt;&#13;
+سلام,&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+شخصی (احتمالا شما) این رایانامه را به عنوان آدرس رایانامه رسمی &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt; سایت انتخاب کرده است.&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+برای کامل کردن این فرآیند شما باید این رایانامه را با باز کردن این پیوند معتبر کنید : &lt;a href="{$url}"&gt;{$url}&lt;/a&gt;&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+همچنین شما می‌توانید این پیوند را نیز باز کنید &lt;a href="{$verification_page_url}"&gt;این پیوند را&lt;/a&gt; و بچسبانید به ادامه ی کد: &lt;b&gt;{$code}&lt;/b&gt;&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+اگر شما برای این کار هیچ اقدامی نکردید می‌توانید به راحتی این رایانامه را نادیده بگیرید و پست الکتریکی شما استفاده نخواهد شد&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;
+        </value>
+    </key>
+    <key name="site_email_verify_template_text">
+        <value>
+            سلام &#13;
+شخصی (احتمالا شما) این رایانامه را به عنوان آدرس رایانامه رسمی  {$site_name} ({$site_url}) سایت انتخاب کرده است.&#13;
+&#13;
+برای کامل کردن این فرآیند شما باید این رایانامه را با باز کردن این پیوند معتبر کنید: {$url}&#13;
+&#13;
+همچنین شما می‌توانید این پیوند را نیز باز کنید: {$verification_page_url} و بچسبانید به ادامه ی کد: {$code}&#13;
+&#13;
+اگر شما برای این کار هیچ اقدامی نکردید می‌توانید به راحتی این رایانامه را نادیده بگیرید و پست الکتریکی شما استفاده نخواهد شد
+        </value>
+    </key>
+    <key name="skalfa">
+        <value>
+            نرم‌افزار اجتماعی
+        </value>
+    </key>
+    <key name="social_meta_logo_desc">
+        <value>
+            به‌منظور استفاده در نوشته‌های به اشتراک‌گذاری شده (عرض تصویر توصیه‌شده 1000px است؛ فرمت تصویر توصیه‌شده JPG است)
+        </value>
+    </key>
+    <key name="sort_control_sortby">
+        <value>
+            مرتب‌سازی با
+        </value>
+    </key>
+    <key name="subject_label">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="submit_attachment_not_loaded">
+        <value>
+            تصویر در حال بارگذاری است...
+        </value>
+    </key>
+    <key name="suspended_user_page_content">
+        <value>
+            &lt;center&gt;با عرض پوزش، حساب کاربری شما به حالت تعلیق در آمده است. لطفا با مدیر شبکه تماس بگیرید&lt;/center&gt;
+        </value>
+    </key>
+    <key name="suspend_floatbox_title">
+        <value>
+            تعلیق {$displayName}
+        </value>
+    </key>
+    <key name="suspend_notification_html">
+        <value>
+            کاربر گرامی ({$realName})،&lt;br&gt;&lt;br&gt; حساب کاربری شما در سایت {$site_name} به دلیل&lt;br&gt; {$suspendReason}&lt;br&gt;&lt;br&gt; به حالت تعلیق درآمده است,&lt;br&gt; {$site_name} مدیریت
+        </value>
+    </key>
+    <key name="suspend_notification_subject">
+        <value>
+            حساب کاربری شما به حالت تعلیق درآمده است
+        </value>
+    </key>
+    <key name="suspend_notification_text">
+        <value>
+            کاربر گرامی ({$realName}) ، حساب کاربری شما در وب‌گاه {$site_name} به دلیل {$suspendReason} به حالت تعلیق درآمده است، {$site_name} مدیریت
+        </value>
+    </key>
+    <key name="suspend_reason">
+        <value>
+            دلیل تعلیق
+        </value>
+    </key>
+    <key name="suspend_user_btn">
+        <value>
+            تعلیق
+        </value>
+    </key>
+    <key name="tags_cloud_cap_label">
+        <value>
+            برچسب‌ها
+        </value>
+    </key>
+    <key name="tags_input_field_invitation">
+        <value>
+            برچسب‌ها را این‌جا وارد کنید
+        </value>
+    </key>
+    <key name="tag_cloud_cap_label">
+        <value>
+            مرور بر اساس برچسب‌ها
+        </value>
+    </key>
+    <key name="tag_search">
+        <value>
+            جستجو با برچسب
+        </value>
+    </key>
+    <key name="tag_search_empty_value_error">
+        <value>
+            لطفا برچسب را وارد کنید
+        </value>
+    </key>
+    <key name="test">
+        <value>
+            تست
+        </value>
+    </key>
+    <key name="text_copied_to_clipboard">
+        <value>
+            متن کپی شد
+        </value>
+    </key>
+    <key name="text_is_too_long">
+        <value>
+            این متن نمی‌تواند بیشتر از {$max_symbols_count} نشانه باشد
+        </value>
+    </key>
+    <key name="tf_allow_pics">
+        <value>
+            اجازه بارگذاری تصویر
+        </value>
+    </key>
+    <key name="tf_img_choose_file">
+        <value>
+            انتخاب فایل
+        </value>
+    </key>
+    <key name="tf_img_from_url">
+        <value>
+            از نشانی وب‌گاه
+        </value>
+    </key>
+    <key name="tf_img_gal">
+        <value>
+            تصاویر بارگذاری شده
+        </value>
+    </key>
+    <key name="tf_img_max_size">
+        <value>
+            اندازه فایل محدود است به
+        </value>
+    </key>
+    <key name="tf_img_types">
+        <value>
+            نوع فایل‌های قابل قبول:
+        </value>
+    </key>
+    <key name="tf_img_url">
+        <value>
+            نشانی وب‌گاه تصویر
+        </value>
+    </key>
+    <key name="tf_insert">
+        <value>
+            وارد کردن
+        </value>
+    </key>
+    <key name="tf_max_img_size">
+        <value>
+            بیشینه اندازه فایل
+        </value>
+    </key>
+    <key name="tf_sett_section">
+        <value>
+            وارد کردن متن پیشرفته کاربر
+        </value>
+    </key>
+    <key name="themes_item_add_success_message">
+        <value>
+            پوسته به روز شد
+        </value>
+    </key>
+    <key name="themes_item_update_success_message">
+        <value>
+            پوسته به روز شد
+        </value>
+    </key>
+    <key name="time">
+        <value>
+            زمان
+        </value>
+    </key>
+    <key name="total_score_label">
+        <value>
+            تعداد امتیازها: &lt;span class="ow_outline"&gt;{$ratesCount}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="unflag">
+        <value>
+            حذف گزارش تخلف
+        </value>
+    </key>
+    <key name="unique_local_page_error">
+        <value>
+            متاسفیم صفحه با این نشانی هم اکنون موجود است
+        </value>
+    </key>
+    <key name="unsuspend_user_btn">
+        <value>
+            دوباره فعال کردن
+        </value>
+    </key>
+    <key name="upload">
+        <value>
+            بارگذاری
+        </value>
+    </key>
+    <key name="upload_bad_request_error">
+        <value>
+            فایل بارگذاری شده مجاز نیست. (ممکن است نام فایل شامل کاراکترهای غیرمجاز شناخته شده برای میزبان باشد.)
+        </value>
+    </key>
+    <key name="upload_file_cant_write_file_error">
+        <value>
+            خطا در نوشتن فایل در دیسک
+        </value>
+    </key>
+    <key name="upload_file_extension_is_not_allowed">
+        <value>
+            نوع فایل مجاز نیست
+        </value>
+    </key>
+    <key name="upload_file_fail">
+        <value>
+            خطا در بارگذاری فایل
+        </value>
+    </key>
+    <key name="upload_file_file_partially_uploaded_error">
+        <value>
+            همه فایل‌ها بارگذاری نشدند
+        </value>
+    </key>
+    <key name="upload_file_invalid_extention_error">
+        <value>
+            یک نوع PHP  بارگذاری فایل را متوقف کرده است. PHP هیچ راهی را ارائه نمی‌دهد تا مشخص شود کدام نوع سبب توقف بارگذاری فایل شده است.
+        </value>
+    </key>
+    <key name="upload_file_max_upload_filesize_error">
+        <value>
+            اندازه فایل از حد مجاز بیشتر شده است
+        </value>
+    </key>
+    <key name="upload_file_no_file_error">
+        <value>
+            فایلی بارگذاری نشد
+        </value>
+    </key>
+    <key name="upload_file_no_tmp_dir_error">
+        <value>
+            یک پوشه موقت گم شده است
+        </value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>
+            نوشتن بر روی دیوار نظرات
+        </value>
+    </key>
+    <key name="usercredits_action_daily_login">
+        <value>
+            ورود روزانه
+        </value>
+    </key>
+    <key name="usercredits_action_search_users">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="usercredits_action_user_join">
+        <value>
+            ثبت‌نام کاربران
+        </value>
+    </key>
+    <key name="users">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="users_browse_page_heading">
+        <value>
+            مشاهده کاربران
+        </value>
+    </key>
+    <key name="users_list_birthdays_meta_description">
+        <value>
+            کاربرانی که تولد خود را جشن می‌گیرند
+        </value>
+    </key>
+    <key name="users_list_latest_meta_description">
+        <value>
+            فهرست شرکت کنندگان: همتای خود را بیابید
+        </value>
+    </key>
+    <key name="users_list_online_meta_description">
+        <value>
+            چه کسانی برخط هستند
+        </value>
+    </key>
+    <key name="users_list_user_search_meta_description">
+        <value>
+            جستجو کاربران خاص در جامعه ما
+        </value>
+    </key>
+    <key name="users_main_menu_item">
+        <value>
+            اعضا
+        </value>
+    </key>
+    <key name="user_action_mark_as_featured">
+        <value>
+            علامت زده شده به عنوان برجسته
+        </value>
+    </key>
+    <key name="user_action_unmark_as_featured">
+        <value>
+            حذف از برجسته‌ها
+        </value>
+    </key>
+    <key name="user_approved">
+        <value>
+            کاربر تایید شده است
+        </value>
+    </key>
+    <key name="user_approved_mail_html">
+        <value>
+            &lt;p&gt;کاربر گرامی ({$user_name})،&lt;/p&gt;&lt;p&gt; حساب کاربری شما در  &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt; با موفقیت فعال شده است . اکنون شما می‌توانید با استفاده از پیوند مقابل، وارد سایت شوید:&lt;br&gt; &lt;a href="{$site_url}"&gt;{$site_url}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
+        </value>
+    </key>
+    <key name="user_approved_mail_subject">
+        <value>
+            حساب شما تایید شده است
+        </value>
+    </key>
+    <key name="user_approved_mail_txt">
+        <value>
+            کاربر گرامی ({$user_name}&#13;)،
+ما بسیار خوشحالیم که به شما اطلاع می‌دهیم که حساب شما در {$site_name} فعال شده است . اکنون شما می‌توانید از این قسمت وارد وب‌گاه شوید {$site_url}&#13;
+&#13;
+امیدواریم که از وب‌گاه ما لذت ببرید .
+        </value>
+    </key>
+    <key name="user_block_btn_lbl">
+        <value>
+            مسدود کردن
+        </value>
+    </key>
+    <key name="user_block_confirm_message">
+        <value>
+            آیا از بستن این کاربر اطمینان دارید؟ &lt;br /&gt;&lt;br /&gt; این عمل باعث می‌شود که تمام ارتباط شما با کاربر قطع شود
+        </value>
+    </key>
+    <key name="user_block_message">
+        <value>
+            کاربری که انتخاب کرده‌اید، قصد افزودن شما به عنوان دوست را ندارد.
+        </value>
+    </key>
+    <key name="user_deleted_message">
+        <value>
+            حساب کاربری حذف شده است
+        </value>
+    </key>
+    <key name="user_deleted_page_message">
+        <value>
+            حساب کاربری حذف شده است
+        </value>
+    </key>
+    <key name="user_feedback_marked_as_featured">
+        <value>
+            کاربر علامت زده شده به عنوان برجسته
+        </value>
+    </key>
+    <key name="user_feedback_profiles_unsuspended">
+        <value>
+            کاربران انتخاب شده دوباره فعال شدند
+        </value>
+    </key>
+    <key name="user_feedback_profile_blocked">
+        <value>
+            نمایه بسته شد
+        </value>
+    </key>
+    <key name="user_feedback_profile_suspended">
+        <value>
+            نمایه تعلیق شد
+        </value>
+    </key>
+    <key name="user_feedback_profile_unblocked">
+        <value>
+            نمایه باز شد
+        </value>
+    </key>
+    <key name="user_feedback_profile_unsuspended">
+        <value>
+            نمایه دوباره فعال شد
+        </value>
+    </key>
+    <key name="user_feedback_unmarked_as_featured">
+        <value>
+            کاربر حذف شده از برجسته‌ها
+        </value>
+    </key>
+    <key name="user_list_activity">
+        <value>
+            فعالیت
+        </value>
+    </key>
+    <key name="user_list_chat_now">
+        <value>
+            گپ‌زدن
+        </value>
+    </key>
+    <key name="user_list_menu_item_birthdays">
+        <value>
+            روزهای تولد
+        </value>
+    </key>
+    <key name="user_list_menu_item_featured">
+        <value>
+            برجسته
+        </value>
+    </key>
+    <key name="user_list_menu_item_latest">
+        <value>
+            جدیدترین‌ها
+        </value>
+    </key>
+    <key name="user_list_menu_item_online">
+        <value>
+            حاضرین
+        </value>
+    </key>
+    <key name="user_list_online">
+        <value>
+            هم‌اکنون حاضر
+        </value>
+    </key>
+    <key name="user_list_type_birthdays">
+        <value>
+            روزهای تولد
+        </value>
+    </key>
+    <key name="user_list_type_featured">
+        <value>
+            برجسته
+        </value>
+    </key>
+    <key name="user_list_type_latest">
+        <value>
+            فهرست اعضا
+        </value>
+    </key>
+    <key name="user_list_type_online">
+        <value>
+            حاضرین
+        </value>
+    </key>
+    <key name="user_list_widget_empty">
+        <value>
+            نمایه‌ای موجود نیست
+        </value>
+    </key>
+    <key name="user_list_widget_settings_count">
+        <value>
+            تعداد
+        </value>
+    </key>
+    <key name="user_list_widget_settings_count_msg">
+        <value>
+            یک عدد کوچکتر یا مساوی ۳۰ وارد کنید
+        </value>
+    </key>
+    <key name="user_list_widget_settings_title">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="user_no_users">
+        <value>
+            کاربری موجود نیست
+        </value>
+    </key>
+    <key name="user_page_heading_status">
+        <value>
+            {$username} &lt;span class="ow_small"&gt;{$status}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="user_page_suspended">
+        <value>
+            &lt;center&gt;کاربر تعلیق شده است&lt;/center&gt;
+        </value>
+    </key>
+    <key name="user_search_authorization_warning">
+        <value>
+            شما مجاز به جستجوی کاربران نیستید
+        </value>
+    </key>
+    <key name="user_search_back_to_search">
+        <value>
+            برگشتن به فرم جستجو
+        </value>
+    </key>
+    <key name="user_search_back_to_search_from">
+        <value>
+            بازگشت به جستجو از
+        </value>
+    </key>
+    <key name="user_search_display_name_search_label">
+        <value>
+            جستجو بر اساس نام
+        </value>
+    </key>
+    <key name="user_search_main_search_label">
+        <value>
+            جستجوی اصلی
+        </value>
+    </key>
+    <key name="user_search_menu_item_label">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="user_search_page_heading">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="user_search_submit_button_label">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="user_suspend_btn_lbl">
+        <value>
+            تعلیق
+        </value>
+    </key>
+    <key name="user_unblock_btn_lbl">
+        <value>
+            رفع انسداد کاربر
+        </value>
+    </key>
+    <key name="user_unsuspend_btn_lbl">
+        <value>
+            رفع تعلیق
+        </value>
+    </key>
+    <key name="view_all">
+        <value>
+            مشاهده همه
+        </value>
+    </key>
+    <key name="view_index">
+        <value>
+            جزئیات نمایه
+        </value>
+    </key>
+    <key name="view_more_label">
+        <value>
+            بیشتر
+        </value>
+    </key>
+    <key name="view_no_section_label">
+        <value>
+            اصلی
+        </value>
+    </key>
+    <key name="view_profile_no_permission">
+        <value>
+            شما مجاز به مشاهده نمایه نیستید
+        </value>
+    </key>
+    <key name="wackwall">
+        <value>
+            ایجاد وب‌گاه اجتماعی
+        </value>
+    </key>
+    <key name="wait_for_approval">
+        <value>
+            &lt;center&gt;حساب کاربری شما منتظر تائید مدیریت است.&lt;/center&gt;
+        </value>
+    </key>
+    <key name="welcome_letter_subject">
+        <value>
+            ثبت نام {$site_name}
+        </value>
+    </key>
+    <key name="welcome_letter_template_html">
+        <value>
+            به &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt; خوش آمدید! برای پیوستن به شبکه متشکریم. چندین پیوند سریع برای صرفه جویی در وقت شما آورده‌ شده است:&lt;br/&gt; - &lt;a href="{$site_url}"&gt;صفحه اصلی&lt;/a&gt;&lt;br/&gt; - &lt;a href="{$site_url}profile/edit"&gt;تغییر جزئیات نمایه&lt;/a&gt;&lt;br/&gt; - &lt;a href="{$site_url}my-profile"&gt;مشاهده نمایه&lt;/a&gt;&lt;br/&gt; - &lt;a href="{$site_url}users"&gt;مشاهده کاربران&lt;/a&gt;&lt;br/&gt;از اشتراک مطالب با یکدیگر لذت ببرید!&lt;br/&gt; از طرف مدیریت &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt; &lt;br/&gt;
+        </value>
+    </key>
+    <key name="welcome_letter_template_text">
+        <value>
+            به {$site_name} خوش آمدید! برای پیوستن به شبکه ممنونیم.در این‌جا چندین پیوند سریع برای صرفه جویی در وقت شما آورده‌ایم:&lt;br/&gt; - &lt;a : 
+- صفحه اصلی: {$site_url} 
+- تغییر تصویر نمایه: {$site_url}profile/avatar 
+- تغییر جزئیات نمایه: {$site_url}
+- دیدن/مرتب‌سازی دوباره نمایه: {$site_url}my-profile 
+- مشاهده کاربران حاضر: {$site_url}
+- از اشتراک مطالب با یکدیگر لذت ببرید!
+        </value>
+    </key>
+    <key name="welcome_widget_content">
+        <value>
+            &lt;p&gt; به شبکه ما خوش آمدید! در این‌جا چند پیوند سریع برای راحتی شما ارائه شده &lt;/p&gt; &lt;ul class="ow_regular"&gt; &lt;li&gt;&lt;a href="profile/avatar" change_avatar&gt;تغییر تصویر نمایه&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="javascript://" photo_upload&gt;بارگذاری تصاویر&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="profile/edit"&gt;ویرایش نمایه&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="my-profile"&gt;پیش‌نمایش / بازتنظیم مشخصات&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="users"&gt;مشاهده کاربران&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; &lt;/p&gt;
+        </value>
+    </key>
+    <key name="welcome_widget_legend">
+        <value>
+            بارگذاری_تصویر - پیوند بارگذاری تصاویر&#13;
+تغییر_تصویر نمایه - پیوند تغییر تصویر نمایه
+        </value>
+    </key>
+    <key name="welcome_widget_title">
+        <value>
+            خوش آمدید
+        </value>
+    </key>
+    <key name="white_spaces_dissalowed">
+        <value>
+            فاصله مجاز نیست
+        </value>
+    </key>
+    <key name="widgets_action_delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="widgets_action_edit">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="widgets_admin_customization_box_title">
+        <value>
+            شخصی‌سازی توسط کاربر
+        </value>
+    </key>
+    <key name="widgets_admin_dashboard_heading">
+        <value>
+            تنظیمات صفحه داشبورد
+        </value>
+    </key>
+    <key name="widgets_admin_index_heading">
+        <value>
+            صفحه اصلی موبایل
+        </value>
+    </key>
+    <key name="widgets_admin_legend">
+        <value>
+            موقعیت &lt;span class="ow_mild_red"&gt;گزینه‌های قرمز&lt;/span&gt; ثابت بوده و کاربران امکان تغییر یا ویرایش آن‌ها را ندارند. این گزینه‌ها همواره در موقعیت بالای صفحه قرار می‌گیرند.
+        </value>
+    </key>
+    <key name="widgets_admin_profile_heading">
+        <value>
+            تنظیمات نمایه کاربران
+        </value>
+    </key>
+    <key name="widgets_admin_section_information">
+        <value>
+            برای افزودن و یا کم کردن ویژگی‌ها، گزینه‌ها را &lt;span class="ow_mild_green"&gt;بکشید و رها&lt;/span&gt; کنید.
+        </value>
+    </key>
+    <key name="widgets_allow_customize_label">
+        <value>
+            اجازه دادن به کاربران برای سفارشی کردن این صفحه
+        </value>
+    </key>
+    <key name="widgets_allow_customize_legend">
+        <value>
+            شما می‌توانید به کاربران اجازه سفارشی سازی اجزاء این صفحه را بدهید. با این حال آنها قادر به تغییر طرح‌بندی صفحه نخواهند بود.
+        </value>
+    </key>
+    <key name="widgets_allow_customize_locked_text">
+        <value>
+            به دلیل فعال نبودن افزونه extension=php_tidy.dll - tidy در زبان برنامه‌نویسی PHP، امکان ارائه سفارشی‌سازی به کاربران به دلیل چالش‌های امنیتی وجود ندارد.
+        </value>
+    </key>
+    <key name="widgets_avaliable_description">
+        <value>
+            برای افزودن ویژگی جدید &lt;span class="ow_highlight"&gt;با کشیدن و رهاسازی&lt;/span&gt;، این ویژگی‌ها به وسیله &lt;a href="{$pluginsUrl}"&gt;افزونه‌ها&lt;/a&gt; فعال خواهند شد. اگر مایلید ویژگی‌ها در تمام صفحه‌ها
+       بمانند، آنها را در نوار کناری قرار دهید.
+        </value>
+    </key>
+    <key name="widgets_avaliable_legend">
+        <value>
+            تنظیمات سطح دسترسی نمایش &lt;span class="ow_mild_green ow_small" style="border: 1px solid rgb(204, 204, 204); padding: 1px 3px;"&gt;تنها کاربران&lt;/span&gt; &lt;span class="ow_mild_red ow_small" style="border: 1px solid rgb(204, 204, 204); padding: 1px 3px;"&gt;تنها مهمانان &lt;/span&gt; &lt;span class="ow_box ow_small" style="border: 1px solid rgb(204, 204, 204); padding: 1px 3px;"&gt;همه&lt;/span&gt;
+        </value>
+    </key>
+    <key name="widgets_customize_btn">
+        <value>
+            سفارشی‌سازی این صفحه
+        </value>
+    </key>
+    <key name="widgets_customize_label">
+        <value>
+            سفارشی‌سازی این صفحه
+        </value>
+    </key>
+    <key name="widgets_default_settings_access_restrictions">
+        <value>
+            قابل نمایش برای نقش‌های کاربری
+        </value>
+    </key>
+    <key name="widgets_default_settings_freeze">
+        <value>
+            غیرقابل‌ حرکت‌ ساختن‌
+        </value>
+    </key>
+    <key name="widgets_default_settings_icon">
+        <value>
+            شمایل
+        </value>
+    </key>
+    <key name="widgets_default_settings_restrict_view">
+        <value>
+            دیدن محدود
+        </value>
+    </key>
+    <key name="widgets_default_settings_show_title">
+        <value>
+            نمایش عنوان
+        </value>
+    </key>
+    <key name="widgets_default_settings_title">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="widgets_default_settings_wib">
+        <value>
+            قرار دادن در کادر
+        </value>
+    </key>
+    <key name="widgets_delete_component_confirm">
+        <value>
+            آیا از حذف این ابزارک اطمینان دارید؟
+        </value>
+    </key>
+    <key name="widgets_disable_js">
+        <value>
+            غیر فعال‌سازی جاوا اسکریپت
+        </value>
+    </key>
+    <key name="widgets_enable_js">
+        <value>
+            فعال‌سازی جاوا اسکریپت
+        </value>
+    </key>
+    <key name="widgets_fb_default_settings_label">
+        <value>
+            تنظیمات عمومی ابزارک
+        </value>
+    </key>
+    <key name="widgets_fb_setting_box_title">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="widgets_finish_customize_btn">
+        <value>
+            پایان سفارشی‌سازی
+        </value>
+    </key>
+    <key name="widgets_no_content">
+        <value>
+            بدون محتوا
+        </value>
+    </key>
+    <key name="widgets_panel_dashboard_label">
+        <value>
+            صفحه خود
+        </value>
+    </key>
+    <key name="widgets_reset_customization">
+        <value>
+            بازتنظیم
+        </value>
+    </key>
+    <key name="widgets_reset_position_confirm">
+        <value>
+            آیا از بازگردانی تنظیمات نمایه خود به حالت اولیه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="widgets_section_box_title">
+        <value>
+            ابزارک‌های موجود
+        </value>
+    </key>
+    <key name="with_selected">
+        <value>
+            انتخاب شده:
+        </value>
+    </key>
+    <key name="write_message">
+        <value>
+            نوشتن پیام
+        </value>
+    </key>
+    <key name="ws_add_label">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="ws_button_label_bold">
+        <value>
+            بزرگ‌نمایی
+        </value>
+    </key>
+    <key name="ws_button_label_html">
+        <value>
+            وارد کردن html
+        </value>
+    </key>
+    <key name="ws_button_label_image">
+        <value>
+            درج تصویر
+        </value>
+    </key>
+    <key name="ws_button_label_italic">
+        <value>
+            حروف ایتالیک
+        </value>
+    </key>
+    <key name="ws_button_label_link">
+        <value>
+            وارد کردن پیوند
+        </value>
+    </key>
+    <key name="ws_button_label_more">
+        <value>
+            انتهای پیش‌نمایش
+        </value>
+    </key>
+    <key name="ws_button_label_orderedlist">
+        <value>
+            وارد کردن لیست مرتب
+        </value>
+    </key>
+    <key name="ws_button_label_switch_html">
+        <value>
+            نمایش/پنهان‌سازی کد html
+        </value>
+    </key>
+    <key name="ws_button_label_underline">
+        <value>
+            خط زیر حروف
+        </value>
+    </key>
+    <key name="ws_button_label_unorderedlist">
+        <value>
+            وارد کردن لیست نامرتب
+        </value>
+    </key>
+    <key name="ws_button_label_video">
+        <value>
+            درج ویدیو
+        </value>
+    </key>
+    <key name="ws_error_video">
+        <value>
+            ویدیو یافت نشد
+        </value>
+    </key>
+    <key name="ws_html_head_label">
+        <value>
+            وارد کردن html
+        </value>
+    </key>
+    <key name="ws_html_textarea_label">
+        <value>
+            کد HTML
+        </value>
+    </key>
+    <key name="ws_insert_label">
+        <value>
+            وارد کردن
+        </value>
+    </key>
+    <key name="ws_link_empty_fields">
+        <value>
+            لطفا توضیح و نشانی وب‌گاه را کامل کنید
+        </value>
+    </key>
+    <key name="ws_link_new_window_label">
+        <value>
+            باز کردن در صفحه جدید
+        </value>
+    </key>
+    <key name="ws_link_text_label">
+        <value>
+            متن برای نمایش:
+        </value>
+    </key>
+    <key name="ws_link_url_label">
+        <value>
+            پیوندی که می‌خواهد منتقل شود:
+        </value>
+    </key>
+    <key name="ws_video_empty_field">
+        <value>
+            کد ویدیو را وارد کنید
+        </value>
+    </key>
+    <key name="ws_video_head_label">
+        <value>
+            وارد کردن ویدیو
+        </value>
+    </key>
+    <key name="ws_video_textarea_label">
+        <value>
+            قرار دادن کد ویدیو در اینجا:
+        </value>
+    </key>
+    <key name="ws_video_textarea_guidance_label">
+        <value>
+            راهنما: از کد نمایش iframe در وب‌گاه‌های منبع فیلم مانند آپارات استفاده کنید
+        </value>
+    </key>
+    <key name="ws_video_text_label">
+        <value>
+            اضافه کردن لینک ویدیو...
+        </value>
+    </key>
+    <key name="year">
+        <value>
+            سال
+        </value>
+    </key>
+    <key name="yes">
+        <value>
+            بلی
+        </value>
+    </key>
+    <key name="your_rate_label">
+        <value>
+            امتیاز شما
+        </value>
+    </key>
+    <key name="view_more_btn">
+        <value>
+            نمایش بیشتر
+        </value>
+    </key>
+    <key name="password_protection_login">
+        <value>
+            ورود
+        </value>
+    </key>
+    <key name="password_protection_placeholder">
+        <value>
+            گذرواژه
+        </value>
+    </key>
+    <key name="password_protection_mobile_txt">
+        <value>
+            با عرض پوزش ورود به سامانه تنها از طریق گذرواژه امکان‌پذیر است، لطفا گذرواژه را وارد کنید
+        </value>
+    </key>
+    <key name="wrong_file_extension">
+        <value>
+            پسوند فایل بارگذاری شده نامعتبر است
+        </value>
+    </key>
+    <key name="label_user_info">
+        <value>
+            اطلاعات کاربر
+        </value>
+    </key>
+    <key name="download_excel">
+        <value>
+            دانلود فایل اکسل
+        </value>
+    </key>
+    <key name="date">
+        <value>
+            تاریخ
+        </value>
+    </key>
+    <key name="time">
+        <value>
+            زمان
+        </value>
+    </key>
+    <key name="delete_all">
+        <value>
+            حذف همه موارد
+        </value>
+    </key>
+</prefix>

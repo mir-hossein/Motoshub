@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>حریم خصوصی</name>
+    <key>privacy</key>
+    <description>تنظیمات حریم خصوصی برای کاربران به‌منظور مشاهده محتوا و نمایه کاربران توسط دیگر اعضا.</description>
+    <author>Oxwall Foundation</author>
+    <authorEmail>plugins@oxwall.org</authorEmail>
+    <authorUrl>http://www.oxwall.org/foundation</authorUrl>
+    <developerKey>e547ebcf734341ec11911209d93a1054</developerKey>
+    <build>8725</build>
+    <copyright>(C) 2011 Oxwall Foundation. All rights reserved.</copyright>
+    <license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+</plugin>

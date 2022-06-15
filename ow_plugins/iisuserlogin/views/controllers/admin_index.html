@@ -1,0 +1,49 @@
+{*
+
+/**
+ * Copyright (c) 2016, Yaser Alimardany
+ * All rights reserved.
+ */
+
+*}
+
+<div class="ow_std_margin clearfix">
+    {form name="settings"}
+        <table class="ow_table_1 ow_form" style="margin: 0">
+            <tbody>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {label name='numberOfLastLoginDetails'}
+                    </td>
+                    <td class="ow_value">
+                        {input name='numberOfLastLoginDetails'}
+                        {error name='numberOfLastLoginDetails'}
+                    </td>
+                </tr>
+                <tr class="ow_alt2">
+                    <td width="1" class="ow_label">
+                        {label name='expiredTimeOfLoginDetails'}
+                    </td>
+                    <td class="ow_value">
+                        {input name='expiredTimeOfLoginDetails'}
+                        {error name='expiredTimeOfLoginDetails'}
+                    </td>
+                </tr>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {label name='enableActiveDevices'}
+                    </td>
+                    <td class="ow_value">
+                        {input name='enableActiveDevices'}
+                        {error name='enableActiveDevices'}
+                    </td>
+                </tr>
+                <tr class="ow_tr_last ow_center">
+                    <td colspan="2">
+                        {submit name='save'}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    {/form}
+</div>

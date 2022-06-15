@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisfriendsplus" label="iisfriendsplus" language_tag="en" language_label="English">
+    <key name="all_users_label">
+        <value>
+            Evaluate all users connection
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            IIS Friends setting
+        </value>
+    </key>
+    <key name="saved_successfully">
+        <value>
+            Saved successfully.
+        </value>
+    </key>
+    <key name="all_users_friends_successfully">
+        <value>
+            All users connection evaluated.
+        </value>
+    </key>
+    <key name="manage_all_users">
+        <value>
+            by Clicking the button below; all users (previously registered users) and users who are members of the selected roles will be connected
+        </value>
+    </key>
+    <key name="choose_roles_to_friend_description">
+        <value>
+            Choose roles for connect registered users with users that in roles.
+        </value>
+    </key>
+</prefix>

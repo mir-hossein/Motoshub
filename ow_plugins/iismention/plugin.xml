@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>اشاره کردن به نام‌های کاربری</name>
+    <key>iismention</key>
+    <description>امکان جستجو و اشاره کردن به نام‌ کاربری دیگر کاربران در یک نوشته</description>
+    <author>Issa Annamoradnejad</author>
+    <authorEmail>i.moradnejad@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10823</build>
+    <copyright>(C) 2017 SHUB.IR. All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+</plugin>

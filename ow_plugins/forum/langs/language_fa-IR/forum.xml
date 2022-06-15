@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="forum" label="Forum" language_tag="fa-IR" language_label="فارسی">
+    <key name="activity_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; &lt;a href="{$url}"&gt;replied&lt;/a&gt; in &lt;a
+            href="{$topicUrl}"&gt;{$topicTitle}&lt;/a&gt; موضوع انجمن
+        </value>
+    </key>
+    <key name="activity_string_topic">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; یک گفتگو جدید آغاز کرد: &lt;a href="{$topicUrl}"&gt;{$topicTitle}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="add_new">
+        <value>
+            موضوع جدید
+        </value>
+    </key>
+    <key name="add_new_comment">
+        <value>
+            افزودن نوشته جدید
+        </value>
+    </key>
+    <key name="add_new_forum_btn">
+        <value>
+            افزودن انجمن جدید
+        </value>
+    </key>
+    <key name="add_new_forum_description">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="add_new_forum_name">
+        <value>
+            نام انجمن
+        </value>
+    </key>
+    <key name="add_new_forum_section">
+        <value>
+            بخش
+        </value>
+    </key>
+    <key name="add_new_forum_submit">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="add_new_forum_title">
+        <value>
+            افزودن انجمن
+        </value>
+    </key>
+    <key name="add_post_btn">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="add_post_title">
+        <value>
+            درج پاسخ
+        </value>
+    </key>
+    <key name="admin_config">
+        <value>
+            تنظیمات افزونه انجمن
+        </value>
+    </key>
+    <key name="approve_topic">
+        <value>
+            تایید
+        </value>
+    </key>
+    <key name="attachments">
+        <value>
+            پیوست‌ها
+        </value>
+    </key>
+    <key name="attachment_deleted">
+        <value>
+            سند حذف گردیده است
+        </value>
+    </key>
+    <key name="attachment_filesize">
+        <value>
+            بیشینه اندازه سند پیوست
+        </value>
+    </key>
+    <key name="attach_files">
+        <value>
+            پیوست اسناد
+        </value>
+    </key>
+    <key name="author">
+        <value>
+            نویسنده
+        </value>
+    </key>
+    <key name="auth_action_label_edit">
+        <value>
+            ایجاد/ویرایش موضوع
+        </value>
+    </key>
+    <key name="auth_action_label_move_topic_to_hidden">
+        <value>
+            جابجایی موضوعات
+        </value>
+    </key>
+    <key name="auth_action_label_subscribe">
+        <value>
+            اشتراک در موضوعات انجمن
+        </value>
+    </key>
+    <key name="auth_action_label_view">
+        <value>
+            مشاهده موضوع
+        </value>
+    </key>
+    <key name="auth_action_label_delete">
+        <value>
+            حذف موضوع
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="back_to_topic">
+        <value>
+            « بازگشت به موضوع
+        </value>
+    </key>
+    <key name="by">
+        <value>
+            توسط
+        </value>
+    </key>
+    <key name="chars_limit_exceeded">
+        <value>
+            این متن طولانی است، لطفا تا اندازه {$limit} نشانه کمی فشرده‌سازی صورت گیرد
+        </value>
+    </key>
+    <key name="cmp_widget_forum_topics_count">
+        <value>
+            تعداد موضوعات برای نمایش
+        </value>
+    </key>
+    <key name="cmp_widget_forum_topics_post_lenght">
+        <value>
+            پیش‌نمایش طول برای موضوع انجمن بر اساس حروف
+        </value>
+    </key>
+    <key name="confirm_delete_attachment">
+        <value>
+            آیا از حذف این سند اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete_forum">
+        <value>
+            آیا از حذف همه موضوعات انجمن و بخش‌ها اطمینان دارید؟
+        </value>
+    </key>
+    <key name="connect_forum_button">
+        <value>
+            اتصال به انجمن
+        </value>
+    </key>
+    <key name="connect_forum_to_entity">
+        <value>
+            افزودن انجمن به این افزونه
+        </value>
+    </key>
+    <key name="content_add_string">
+        <value>
+            ایجاد موضوع جدید انجمن
+        </value>
+    </key>
+    <key name="content_edited_string">
+        <value>
+            ویرایش موضوع انجمن
+        </value>
+    </key>
+    <key name="content_forums_label">
+        <value>
+            انجمن‌ها
+        </value>
+    </key>
+    <key name="content_forum_label">
+        <value>
+            نوشته انجمن
+        </value>
+    </key>
+    <key name="content_forum_post_in_topic">
+        <value>
+            نوشته انجمن در &lt;a href="{$topicUrl}"&gt;{$title}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="content_forum_topic">
+        <value>
+            موضوع انجمن
+        </value>
+    </key>
+    <key name="create_new_topic">
+        <value>
+            ایجاد موضوع جدید انجمن
+        </value>
+    </key>
+    <key name="delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_content">
+        <value>
+            حذف محتوا و افزونه
+        </value>
+    </key>
+    <key name="delete_content_desc">
+        <value>
+            قبل از حذف افزونه انجمن تمام محتوای موجود در آن باید حذف شود. این کار ممکن است اندکی زمان‌بر باشد. به همین
+            دلیل سایت به "حالت نگهداری" رفته و پس از پایان عملیات حذف دوباره فعال‌سازی می‌شود
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="delete_group">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_group_confirm">
+        <value>
+            آیا از حذف این انجمن گروه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_post_confirm">
+        <value>
+            آیا از حذف این نوشته اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_section">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_section_confirm">
+        <value>
+            آیا از حذف این بخش انجمن اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_topic">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_topic_confirm">
+        <value>
+            آیا از حذف این موضوع اطمینان دارید؟
+        </value>
+    </key>
+    <key name="discussion">
+        <value>
+            مشاهده موضوع
+        </value>
+    </key>
+    <key name="edit">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_group">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_group_btn">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="edit_group_description">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="edit_group_name">
+        <value>
+            نام انجمن
+        </value>
+    </key>
+    <key name="edit_group_title">
+        <value>
+            ویرایش گروه انجمن
+        </value>
+    </key>
+    <key name="edit_post_title">
+        <value>
+            ویرایش نوشته
+        </value>
+    </key>
+    <key name="edit_section">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_section_btn">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="edit_section_name">
+        <value>
+            نام بخش
+        </value>
+    </key>
+    <key name="edit_section_title">
+        <value>
+            ویرایش بخش انجمن
+        </value>
+    </key>
+    <key name="edit_topic">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="edit_topic_title">
+        <value>
+            ویرایش موضوع
+        </value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="email_notifications_setting_post">
+        <value>
+            کسی یک پاسخ در موضوع انجمن نوشت
+        </value>
+    </key>
+    <key name="email_notification_post">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به یک موضوع در انجمن &lt;a href="{$postUrl}"&gt;{$title}&lt;/a&gt;
+            پاسخ داد
+        </value>
+    </key>
+    <key name="enable_attachments">
+        <value>
+            فعال‌سازی پیوست اسناد
+        </value>
+    </key>
+    <key name="enter_username">
+        <value>
+            وارد کردن نام کاربری
+        </value>
+    </key>
+    <key name="feed_activity_last_reply">
+        <value>
+            &lt;a href="{$postUrl}"&gt;آخرین پاسخ &lt;/a&gt;:
+        </value>
+    </key>
+    <key name="feed_activity_owner_topic_like">
+        <value>
+            موضوع انجمن را پسندید
+        </value>
+    </key>
+    <key name="feed_activity_topic_reply_string">
+        <value>
+            در یک موضوع انجمن، پاسخی ارائه داد
+        </value>
+    </key>
+    <key name="feed_activity_topic_string">
+        <value>
+            یک موضوع در انجمن &lt;i&gt;&lt;b&gt;{$group_name}&lt;/b&gt;&lt;/i&gt;  ایجاد کرد
+        </value>
+    </key>
+    <key name="feed_activity_group_topic_string">
+        <value>
+            یک موضوع در انجمن گروه &lt;i&gt;&lt;b&gt;{$group_name}&lt;/b&gt;&lt;/i&gt;  ایجاد کرد
+        </value>
+    </key>
+    <key name="feed_activity_topic_string_like">
+        <value>
+            موضوع انجمن {$user} را پسندید
+        </value>
+    </key>
+    <key name="feed_content_label">
+        <value>
+            موضوعات انجمن
+        </value>
+    </key>
+    <key name="feed_content_replies_label">
+        <value>
+            پاسخ‌های موضوع انجمن
+        </value>
+    </key>
+    <key name="feed_toolbar_discuss">
+        <value>
+            مشاهده موضوع
+        </value>
+    </key>
+    <key name="feed_toolbar_replies">
+        <value>
+            پاسخ‌ها: &lt;span class="ow_txt_value"&gt;{$postCount}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="file_size_validation_error">
+        <value>
+            مقدار نادرست سات یا از بیشنه مجاز سرور بزرگتر است
+        </value>
+    </key>
+    <key name="flag">
+        <value>
+            گزارش تخلف
+        </value>
+    </key>
+    <key name="flags">
+        <value>
+            نوشته‌های انجمن
+        </value>
+    </key>
+    <key name="forum">
+        <value>
+            انجمن‌ها
+        </value>
+    </key>
+    <key name="forum_already_connected">
+        <value>
+            انجمن در حال حاضر وصل است
+        </value>
+    </key>
+    <key name="forum_index">
+        <value>
+            خانه انجمن
+        </value>
+    </key>
+    <key name="forum_page_heading">
+        <value>
+            {$forum} | انجمن
+        </value>
+    </key>
+    <key name="forum_quote">
+        <value>
+            نقل قول
+        </value>
+    </key>
+    <key name="forum_quote_from">
+        <value>
+            از
+        </value>
+    </key>
+    <key name="forum_settings">
+        <value>
+            تنظیمات انجمن
+        </value>
+    </key>
+    <key name="forum_topics_widget">
+        <value>
+            موضوعات انجمن
+        </value>
+    </key>
+    <key name="general_settings">
+        <value>
+            تنظیمات عمومی
+        </value>
+    </key>
+    <key name="goto_forum">
+        <value>
+            برو به انجمن
+        </value>
+    </key>
+    <key name="group_meta_description">
+        <value>
+            {$group} روی انجمن {$site_name}
+        </value>
+    </key>
+    <key name="in">
+        <value>
+            در
+        </value>
+    </key>
+    <key name="is_private">
+        <value>
+            خصوصی
+        </value>
+    </key>
+    <key name="last_reply">
+        <value>
+            آخرین پاسخ
+        </value>
+    </key>
+    <key name="latest_reply_from">
+        <value>
+            آخرین پاسخ از &lt;a href="{$url}"&gt;{$user}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="locked">
+        <value>
+            بسته شد
+        </value>
+    </key>
+    <key name="lock_topic">
+        <value>
+            بستن
+        </value>
+    </key>
+    <key name="lock_topic_confirm">
+        <value>
+            آیا از بستن این موضوع اطمینان دارید؟
+        </value>
+    </key>
+    <key name="meta_description_add_topic">
+        <value>
+            افزودن یک موضوع جدید در انجمن‌ها
+        </value>
+    </key>
+    <key name="meta_description_forums">
+        <value>
+            انجمن‌ها - {$site_name}
+        </value>
+    </key>
+    <key name="meta_title_add_topic">
+        <value>
+            موضوع انجمن جدید - {$site_name}
+        </value>
+    </key>
+    <key name="moved_from">
+        <value>
+            موضوع از &lt;a href="{$groupUrl}"&gt;{$groupName}&lt;/a&gt; جابه جا شد
+        </value>
+    </key>
+    <key name="moved_to">
+        <value>
+            موضوع &lt;a href="{$topicUrl}"&gt;منتقل شد&lt;/a&gt;
+        </value>
+    </key>
+    <key name="move_topic">
+        <value>
+            جابجایی
+        </value>
+    </key>
+    <key name="move_topic_btn">
+        <value>
+            جابجایی
+        </value>
+    </key>
+    <key name="move_topic_title">
+        <value>
+            جابجایی موضوع
+        </value>
+    </key>
+    <key name="new">
+        <value>
+            جدید
+        </value>
+    </key>
+    <key name="new_topic_body">
+        <value>
+            بدنه نوشته
+        </value>
+    </key>
+    <key name="new_topic_btn">
+        <value>
+            موضوع جدید
+        </value>
+    </key>
+    <key name="new_topic_group">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="new_topic_subject">
+        <value>
+            عنوان موضوع
+        </value>
+    </key>
+    <key name="not_all_attachments_added">
+        <value>
+            اندازه برخی پیوست‌ها از بیشینه اندازه مجاز سند بیشتر بوده یا قالب آن‌ها پشتیبانی نمی‌شود
+        </value>
+    </key>
+    <key name="no_group">
+        <value>
+            گروهی موجود نیست
+        </value>
+    </key>
+    <key name="no_posts_found">
+        <value>
+            هیچ نوشته‌ای پیدا نشد
+        </value>
+    </key>
+    <key name="no_topic">
+        <value>
+		در حال حاضر موضوعی وجود ندارد
+        </value>
+    </key>
+    <key name="no_topics">
+        <value>
+            موضوعی وجود ندارد
+        </value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>
+            حذف افزونه انجمن
+        </value>
+    </key>
+    <key name="pending_approval">
+        <value>
+            &lt;span class="ow_remark ow_small" style="text-transform: none"&gt;(در انتظار تایید)&lt;/span&gt;
+        </value>
+    </key>
+    <key name="permalink_label">
+        <value>
+            پیام &lt;a href="{$permalink}"&gt;#{$number}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>
+            حذف افزونه انجمن آغاز شد
+        </value>
+    </key>
+    <key name="post_edited">
+        <value>
+        ویرایش شده توسط
+        </value>
+    </key>
+    <key name="post_location">
+        <value>
+            محل نوشته:
+        </value>
+    </key>
+    <key name="quote">
+        <value>
+            نقل قول
+        </value>
+    </key>
+    <key name="replies">
+        <value>
+            پاسخ‌ها
+        </value>
+    </key>
+    <key name="search_invitation_all_forum">
+        <value>
+            جستجو در همه انجمن‌ها
+        </value>
+    </key>
+    <key name="search_invitation_group">
+        <value>
+            جستجو در این انجمن
+        </value>
+    </key>
+    <key name="search_invitation_section">
+        <value>
+            جستجو در این بخش
+        </value>
+    </key>
+    <key name="search_invitation_topic">
+        <value>
+            جستجو در این موضوع
+        </value>
+    </key>
+    <key name="search_page_heading">
+        <value>
+            جستجو در این انجمن
+        </value>
+    </key>
+    <key name="select_group_error">
+        <value>
+            لطفا بخش انجمن را انتخاب کنید
+        </value>
+    </key>
+    <key name="settings_updated">
+        <value>
+            تنظیمات بروز رسانی شد
+        </value>
+    </key>
+    <key name="sort_by_date">
+        <value>
+            تاریخ آخرین نوشته
+        </value>
+    </key>
+    <key name="sort_by_relevance">
+        <value>
+            مرتبط‌ترین
+        </value>
+    </key>
+    <key name="sticky">
+        <value>
+            مهم
+        </value>
+    </key>
+    <key name="sticky_topic">
+        <value>
+            مهم کردن
+        </value>
+    </key>
+    <key name="sticky_topic_confirm">
+        <value>
+            آیا از مهم کردن این موضوع اطمینان دارید؟
+        </value>
+    </key>
+    <key name="subscribe">
+        <value>
+            اشتراک در اطلاع‌رسانی برای نوشته‌های جدید
+        </value>
+    </key>
+    <key name="subscription-added">
+        <value>
+            اشتراک موضوع افزوده شد
+        </value>
+    </key>
+    <key name="subscription-canceled">
+        <value>
+            اشتراک موضوع لغو شد
+        </value>
+    </key>
+    <key name="this_topic">
+        <value>
+            تنظیمات موضوع
+        </value>
+    </key>
+    <key name="topic">
+        <value>
+            موضوع
+        </value>
+    </key>
+    <key name="topics">
+        <value>
+            موضوعات
+        </value>
+    </key>
+    <key name="topic_attachments">
+        <value>
+            {$count} سند پیوست شده
+        </value>
+    </key>
+    <key name="topic_is_locked">
+        <value>
+            این موضوع بسته شده است
+        </value>
+    </key>
+    <key name="topic_is_sticky">
+        <value>
+            این موضوع مهم است
+        </value>
+    </key>
+    <key name="topic_location">
+        <value>
+            مکان موضوع :
+        </value>
+    </key>
+    <key name="topic_page_heading">
+        <value>
+            {$topic} | انجمن {$content}
+        </value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>
+            در حال پیشرفت و پردازش
+        </value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>
+            لطفا منتظر بمانید تا تمام محتوای انجمن حذف شود، این کار ممکن است با توجه به تعداد نوشته‌ها اندکی زمان‌بر
+            باشد
+        </value>
+    </key>
+    <key name="unlock_topic">
+        <value>
+            باز کردن
+        </value>
+    </key>
+    <key name="unlock_topic_confirm">
+        <value>
+            آیا از باز کردن این موضوع اطمینان دارید؟
+        </value>
+    </key>
+    <key name="unsticky_topic">
+        <value>
+            حذف از بخش مهم‌ها
+        </value>
+    </key>
+    <key name="unsticky_topic_confirm">
+        <value>
+            این موضوع مهم نخواهد بود، آیا از حذف این موضوع از بخش مهم‌ها اطمینان دارید؟
+        </value>
+    </key>
+    <key name="upload_ini_value">
+        <value>
+            (محدودیت سرور {$value})
+        </value>
+    </key>
+    <key name="usercredits_action_add_post">
+        <value>
+            نوشتن در انجمن
+        </value>
+    </key>
+    <key name="views">
+        <value>
+            بازدیدها
+        </value>
+    </key>
+    <key name="visible_to">
+        <value>
+            قابل مشاهده برای نقش‌های کاربری
+        </value>
+    </key>
+
+    <key name="widget_latest_topics_label">
+        <value>
+            انجمن
+        </value>
+    </key>
+
+    <key name="advanced_search">
+        <value>
+            جستجو پیشرفته
+        </value>
+    </key>
+
+    <key name="search_advanced_heading">
+        <value>
+            جستجو پیشرفته
+        </value>
+    </key>
+
+    <key name="search">
+        <value>
+            جستجو
+        </value>
+    </key>
+
+    <key name="forms_search_keyword_field_invitation">
+        <value>
+            کلمه‌کلیدی یا عبارت
+        </value>
+    </key>
+
+    <key name="forms_search_username_field_label">
+        <value>
+            جداسازی با نام کاربری (اختیاری)
+        </value>
+    </key>
+
+    <key name="forms_search_username_field_invitation">
+        <value>
+            نام کاربری
+        </value>
+    </key>
+
+    <key name="where_to_search">
+        <value>
+            جایی که جستجو شود
+        </value>
+    </key>
+
+    <key name="forms_search_parts_field_label">
+        <value>
+            انتخاب انجمن برای جستجو
+        </value>
+    </key>
+
+    <key name="forms_search_search_in_field_label">
+        <value>
+            جستجو در
+        </value>
+    </key>
+
+    <key name="forms_search_search_in_field_value_message">
+        <value>
+            پیام‌ها
+        </value>
+    </key>
+
+    <key name="forms_search_search_in_field_value_title">
+        <value>
+            عنوان‌ها
+        </value>
+    </key>
+
+    <key name="additional">
+        <value>
+            بیشتر
+        </value>
+    </key>
+
+    <key name="forms_search_period_field_label">
+        <value>
+            جستجو برای بازه
+        </value>
+    </key>
+
+    <key name="forms_search_search_period_value_today">
+        <value>امروز</value>
+    </key>
+
+    <key name="forms_search_search_period_value_last_week">
+        <value>هفته گذشته</value>
+    </key>
+
+    <key name="forms_search_search_period_value_last_month">
+        <value>ماه گذشته</value>
+    </key>
+
+    <key name="forms_search_search_period_value_last_two_months">
+        <value>2 ماه گذشته</value>
+    </key>
+
+    <key name="forms_search_search_period_value_last_three_months">
+        <value>3 ماه گذشته</value>
+    </key>
+
+    <key name="forms_search_search_period_value_last_six_months">
+        <value>6 ماه گذشته</value>
+    </key>
+
+    <key name="forms_search_search_period_value_last_year">
+        <value>سال گذشته</value>
+    </key>
+
+    <key name="forms_search_sort_field_label">
+        <value>مرتب‌سازی بر اساس</value>
+    </key>
+
+    <key name="forms_search_sort_value_date">
+        <value>تاریخ آخرین پیام</value>
+    </key>
+
+    <key name="forms_search_sort_value_relevance">
+        <value>پیام مرتبط</value>
+    </key>
+
+    <key name="forms_search_sort_direction_field_value_increase">
+        <value>افزایشی</value>
+    </key>
+
+    <key name="forms_search_sort_direction_field_value_decrease">
+        <value>کاهشی</value>
+    </key>
+
+    <key name="forms_search_parts_field_value_all_forums">
+        <value>>>همه انجمن‌ها</value>
+    </key>
+
+    <key name="advanced_search_result">
+        <value>نتایج جستجو</value>
+    </key>
+
+    <key name="please_enter_keyword_or_user_name">
+        <value>لطفا کلمه‌کلیدی یا نام کاربری خود را وارد کنید</value>
+    </key>
+    <key name="please_enter_search_keyword">
+        <value>لطفا کلمه ‌کلیدی جستجوی خود را وارد کنید</value>
+    </key>
+    <key name="search_example_usage">
+        <value>نمونه استفاده</value>
+    </key>
+
+    <key name="search_example_usage_text">
+        <value>
+            &#x3C;b&#x3E;apple banana&#x3C;/b&#x3E; - Find rows that contain at least one of the two words. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple +juice&#x3C;/b&#x3E; - Find rows that contain both words. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple macintosh&#x3C;/b&#x3E; - Find rows that contain the word &#x201C;apple&#x201D;,
+            but rank rows higher if they also contain &#x201C;macintosh&#x201D;. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple -macintosh&#x3C;/b&#x3E; - Find rows that contain the word &#x201C;apple&#x201D;
+            but not &#x201C;macintosh&#x201D;. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple ~macintosh&#x3C;/b&#x3E; - Find rows that contain the word &#x201C;apple&#x201D;,
+            but if the row also contains the word &#x201C;macintosh&#x201D;, rate it lower than if row does not. &#x3C;br
+            /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple +(&#x26;#x3E;turnover &#x26;#x3C;strudel)&#x3C;/b&#x3E; - Find rows that
+            contain the words &#x201C;apple&#x201D; and &#x201C;turnover&#x201D;, or &#x201C;apple&#x201D; and &#x201C;strudel&#x201D;
+            (in any order), but rank &#x201C;apple turnover&#x201D; higher than &#x201C;apple strudel&#x201D;. &#x3C;br
+            /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;apple*&#x3C;/b&#x3E; - Find rows that contain words such as &#x201C;apple&#x201D;,
+            &#x201C;apples&#x201D;, &#x201C;applesauce&#x201D;, or &#x201C;applet&#x201D;. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;&#x22;some words&#x22;&#x3C;/b&#x3E; - Find rows that contain the exact phrase
+            &#x201C;some words&#x201D; (for example, rows that contain &#x201C;some words of wisdom&#x201D; but not
+            &#x201C;some noise words&#x201D;). Note that the &#x201C;&#x22;&#x201D; characters that enclose the phrase
+            are operator characters that delimit the phrase. They are not the quotation marks that enclose the search
+            string itself.
+        </value>
+    </key>
+
+    <key name="back_forum">
+        <value>بازگشت به انجمن</value>
+    </key>
+
+    <key name="forum_mobile">
+        <value>انجمن‌ها</value>
+    </key>
+
+    <key name="forum_section">
+        <value>بخش</value>
+    </key>
+
+    <key name="forum_group">
+        <value>انجمن‌ها</value>
+    </key>
+
+    <key name="attached_files">
+        <value>پیوست اسناد</value>
+    </key>
+
+    <key name="post_attachment">
+        <value>پیوست نوشته</value>
+    </key>
+
+    <key name="clear_all">
+        <value>حذف همه</value>
+    </key>
+
+    <key name="add_files">
+        <value>افزودن اسناد</value>
+    </key>
+
+    <key name="write_reply">
+        <value>نوشتن پاسخ ...</value>
+    </key>
+
+    <key name="unsubscribe">
+        <value>لغو اشتراک</value>
+    </key>
+    <key name="move">
+        <value>جابجایی</value>
+    </key>
+
+    <key name="forum_topic">
+        <value>عنوان</value>
+    </key>
+
+    <key name="subscribe_confirm">
+        <value>آیا از اشتراک گذاری این موضوع اطمینان دارید؟</value>
+    </key>
+
+    <key name="unsubscribe_confirm">
+        <value>آیا از لغو اشتراک این موضوع اطمینان دارید؟</value>
+    </key>
+
+    <key name="view_quote">
+        <value>مشاهده نقل قول</value>
+    </key>
+
+    <key name="confirm_delete_all_attachments">
+        <value>آیا از حذف این اسناد اطمینان دارید؟</value>
+    </key>
+
+    <key name="search_results">
+        <value>نتایج جستجو</value>
+    </key>
+
+    <key name="basic">
+        <value>پایه</value>
+    </key>
+
+    <key name="messages_on_forum">
+        <value>پیام در انجمن</value>
+    </key>
+
+    <key name="delete_quote_confirm">
+        <value>آیا از حذف این نقل قول اطمینان دارید؟</value>
+    </key>
+
+    <key name="back_to_post">
+        <value>بازگشت به نوشته</value>
+    </key>
+    <key name="admin_forum_settings_heading">
+        <value>تنظیمات افزونه انجمن</value>
+    </key>
+    <key name="forum_sitemap">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="seo_meta_section">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="seo_meta_home_label">
+        <value>
+            صفحه اصلی انجمن
+        </value>
+    </key>
+    <key name="meta_title_home">
+        <value>
+            انجمن | {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_home">
+        <value>
+            به انجمن {$site_name} خوش آمدید. موضوع جدید ایجاد کنید، نوشته‌های دیگران را مطالعه کنید و با دیگر کاربران گفت‌وگو کنید
+    </value>
+    </key>
+    <key name="meta_keywords_home">
+        <value></value>
+    </key>
+    <key name="seo_meta_adv_search_label">
+        <value>
+            صفحه جستجوی پیشرفته انجمن
+        </value>
+    </key>
+    <key name="meta_title_adv_search">
+        <value>
+            جستجوی پیشرفته انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_adv_search">
+        <value>
+            از جستجوگر پیشرفته برای شناسایی اطلاعات مورد نیاز در انجمن {$site_name} استفاده کنید
+        </value>
+    </key>
+    <key name="meta_keywords_adv_searche">
+        <value></value>
+    </key>
+    <key name="seo_meta_adv_search_result_label">
+        <value>
+            صفحه پیشرفته نتایج جستجوی انجمن
+        </value>
+    </key>
+    <key name="meta_title_adv_search_result">
+        <value>
+            نتایج جستجوی برای انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_adv_search_result">
+        <value>
+            مشاهده نتایج جستجوی انجمن در {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_adv_searche_result">
+        <value></value>
+    </key>
+    <key name="seo_meta_section_label">
+        <value>
+            صفحه زیربخش‌ها
+        </value>
+    </key>
+    <key name="meta_title_section">
+        <value>
+            {$section_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_section">
+        <value>{$section_name}</value>
+    </key>
+    <key name="meta_keywords_section">
+        <value></value>
+    </key>
+    <key name="seo_meta_group_label">
+        <value>
+            صفحه دسته‌های زیربخش‌ها
+        </value>
+    </key>
+    <key name="meta_title_group">
+        <value>
+            {$group_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_group">
+        <value>{$group_description}</value>
+    </key>
+    <key name="meta_keywords_group">
+        <value></value>
+    </key>
+    <key name="seo_meta_topic_label">
+        <value>
+            صفحه ریسمان انجمن
+        </value>
+    </key>
+    <key name="meta_title_topic">
+        <value>
+            {$topic_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_topic">
+        <value>{$topic_description}</value>
+    </key>
+    <key name="meta_keywords_topic">
+        <value></value>
+    </key>
+    <key name="seo_meta_section_search_label">
+        <value>
+            صفحه جستجوی زیربخش‌ها
+        </value>
+    </key>
+    <key name="meta_title_section_search">
+        <value>
+            جستجوی {$section_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_section_search">
+        <value>
+            نتایج جستجو برای زیربخش {$section_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_section_search">
+        <value></value>
+    </key>
+    <key name="seo_meta_group_search_label">
+        <value>
+            صفحه جستحوی زیربخش‌های انجمن
+        </value>
+    </key>
+    <key name="meta_title_group_search">
+        <value>
+            جستجوی {$group_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_group_search">
+        <value>
+            نتیج جستجو برای ریسمان {$group_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_group_search">
+        <value></value>
+    </key>
+    <key name="seo_meta_topic_search_label">
+        <value>
+            جستجوی ریسمان انجمن
+        </value>
+    </key>
+    <key name="meta_title_topic_search">
+        <value>
+            جستجوی موضوع {$topic_name} در {$site_name}
+        </value>
+    </key>
+    <key name="meta_desc_topic_search">
+        <value>
+            نتایج جستجو برای موضوع {$topic_name} در انجمن {$site_name}
+        </value>
+    </key>
+    <key name="meta_keywords_topic_search">
+        <value></value>
+    </key>
+	    <key name="search_example_usage_text">
+        <value>
+            &#x3C;b&#x3E; سیب موز &#x3C;/b&#x3E; 
+; - یافتن سطرهایی که شامل حداقل یکی از دو کلمه است.&#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E; سیب +آب+&#x3C;/b&#x3E;  
+- یافتن سطرهایی که شامل هر دو کلمه است &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E; +کوه دماوند &#x3C;/b&#x3E;  
+ - یافتن سطرهایی که شامل کلمه &#x201C; کوه &#x201D;,
+            اما سطرهایی را که شامل &#x201C; دماوند &#x201D; نیز هستند را در رتبه بالاتری قرار می‌دهد.&#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E; +کوه -دماوند &#x3C;/b&#x3E;  
+- یافتن سطرهایی که شامل کلمه &#x201C; کوه &#x201D;
+            هستند اما شامل &#x201C; دماوند &#x201D;نیستند. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E; +کوه ~دماوند &#x3C;/b&#x3E;  
+ یافتن سطرهایی که شامل کلمه &#x201C; کوه &#x201D;,
+            هستند، اما اگر سطر همچنین شامل کلمه &#x201C; دماوند &#x201D; نیز باشد، آن‌را از سطری که ندارد امتیاز پایین‌تری می‌دهد.
+. &#x3C;br/&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+ کوه +(&#x26;#x3E; دامنه &#x26;#x3C; قله)&#x3C;/b&#x3E;  
+- یافتن سطرهایی که شامل کلمه‌های &#x201C; کوه &#x201D; و &#x201C; دامنه &#x201D; ، یا &#x201C; کوه &#x201D; و &#x201C; قله &#x201D;
+            (با هر ترتیبی) است، اما رتبه &#x201C; کوه دامنه &#x201D; بالاتر از &#x201C; کوه قله &#x201D; است. &#x3C;br/&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E; کوه*&#x3C;/b&#x3E;  
+- یافتن سطرهایی که شامل کلماتی مانند &#x201C; کوه &#x201D; ،
+            &#x201C; کوه &#x201D; ، &#x201C; کوهستان &#x201D; ، یا &#x201C; کوهسار &#x201D; است. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;&#x22; برخی کلمات &#x22;&#x3C;/b&#x3E;  
+ - یافتن سطرهایی که دقیقا شامل عبارت
+            &#x201C; برخی کلمات &#x201D; (برای مثال، سطرهایی که شامل &#x201C; برخی کلمات آشنا &#x201D; است اما شامل
+            &#x201C; برخی حروف کلمات &#x201D; نیست). توجه شود که کاراکترهای &#x201C;&#x22;&#x201D; که عبارت را محصور می‌کنند، کاراکترهای عملیاتی هستند که عبارت را محدود می‌کنند. این کاراکترها گیومه‌هایی نیستند که خود رشته جستجو را محصور کنند.
+
+
+        </value>
+    </key>
+    <key name="toolbar_post_number">
+        <value>پست شماره {$num}</value>
+    </key>
+    <key name="no_forums">
+        <value>انجمنی وجود ندارد</value>
+    </key>
+    <key name="forum_subjects_list">
+        <value>
+            لیست موضوعات انجمن
+        </value>
+    </key>
+    <key name="error_adding_post">
+        <value>
+            خطا در افزودن پاسخ
+        </value>
+    </key>
+</prefix>

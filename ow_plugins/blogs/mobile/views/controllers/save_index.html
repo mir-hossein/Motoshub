@@ -1,0 +1,73 @@
+{style}{literal}
+
+.owm_mobile_blogs_tag .tagsinput input {
+WIDTH: 100% !important;
+color: #b5b5b5;
+}
+
+{/literal}{/style}
+
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+    </div>
+    <h3> {text key="base+back"}</h3>
+</div>
+<div class="owm_box">
+    <div class="owm_mobile_blogs" style="width: 100%;">
+        <div class="ow_blogentry_compose clearfix">
+
+            {if !$authMsg}
+            <div style="width: 91%;padding: 13px;">
+                {form name="save"}
+                <input type="hidden" id="save_post_command" name="command"/>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="title"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='title'}
+                        </div>
+                    <br/>{error name="title"}
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="post"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='post'}
+                        </div>
+                        <br/>{error name="post"}
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_label">
+                            {label name="tf"}
+                        </div>
+                        <div class="owm_form_field_value">
+                            {input name='tf'}
+                        </div>
+                        <br/>{error name="tf"}
+                    </div>
+                </div>
+                <div class="owm_form_field_container">
+                    <div class="owm_form_field_wrap">
+                        <div class="owm_form_field_value">
+                            <div class="ow_right" style="display:inline-block ; padding:4px ; ">{submit name="publish" class="ow_button ow_green ow_positive"}</div>
+                            <div class="ow_right" style="display:inline-block;  padding:4px ; ">{submit name="draft" class="ow_button ow_green ow_ic_save"}</div>
+                        </div>
+                    </div>
+                </div>
+                {/form}
+            </div>
+
+            {else}
+            <div class="ow_anno ow_std_margin ow_nocontent">{$authMsg}</div>
+            {/if}
+        </div>
+    </div>
+</div>

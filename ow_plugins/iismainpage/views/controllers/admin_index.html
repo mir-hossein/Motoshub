@@ -1,0 +1,163 @@
+{*
+
+/**
+* Copyright (c) 2016, Yaser Alimardany
+* All rights reserved.
+*/
+
+*}
+
+{script}
+{literal}
+
+$(document).ready( function() {
+$('#s1').sortable({
+items: 'tr.draggable-lang-item',
+helper: 'clone',
+placeholder: 'lang_placeholder',
+start: function (event, ui) {
+    $(ui.placeholder).append('<td colspan="1"></td>');
+    $(ui.placeholder).css('backgroundColor', 'rgb(220,220,220)');
+},
+
+stop: function (event, ui) {
+
+    switch (this) {
+    case $('#s1')[0]:
+
+    $('tr.draggable-lang-item:odd', this).each(function () {
+
+    if (!$(this).hasClass('ow_even')) $(this).addClass('ow_even');
+    });
+
+
+    $('tr.draggable-lang-item:even', this).each(function () {
+    if ($(this).hasClass('ow_even')) $(this).removeClass('ow_even');
+    });
+    break;
+    }
+},
+
+receive: function (event, ui) {
+    switch (this) {
+    case $('#s1')[0] :
+    $('tr.draggable-lang-item', this).each(function () {
+    $('td:nth(1) a.deact', this).show();
+    $('td:nth(1) a.act', this).hide();
+    $('td:nth(1) a.del', this).hide();
+
+    if ($(this).hasClass('ow_high2')) {
+    $(this).removeClass('ow_high2');
+    }
+    });
+
+    if ($('tr.draggable-lang-item', this).length == 0) {
+    $.alert('{text key="admin+msg_one_active_constraint"}');
+
+    $(this).sortable('cancel');
+    $('#s1 tr.empty').remove();
+    break;
+    }
+
+    $('tr.draggable-lang-item:odd', this).each(function () {
+    if (!$(this).hasClass('ow_even')) $(this).addClass('ow_even');
+    });
+
+
+    $('tr.draggable-lang-item:even', this).each(function () {
+    if ($(this).hasClass('ow_even')) $(this).removeClass('ow_even');
+    });
+
+    break;
+    }
+},
+
+update: function (event, ui) {
+    if (ui.sender) {
+    if ($('tr', ui.sender[0]).length == 0) $(ui.sender[0]).append('<tr class="empty"><td colspan="1">{/literal}{text key="iisevaluation+empty_row_label"}{literal}</td></tr>');
+    return;
+    }
+
+    if ($('#s1 tr.empty').length == 1 && $('#s1 tr.draggable-lang-item').length > 0)
+    $('#s1 tr.empty').remove();
+
+    admin_table_send_update();
+},
+
+connectWith: '#s1'
+}).each(function () {
+    $('tr.draggable-lang-item', this).hover(
+    function () {
+    $('td:nth-child(3) div span', this).show()
+    },
+    function () {
+    $('td:nth-child(3) div span', this).hide()
+    }
+    );
+
+    if ($('tr.draggable-lang-item', this).length == 0)
+    $(this).append('<tr class="empty"><td colspan="1">{/literal}{text key="iismainpage+empty_row_label"}{literal}</td></tr>');
+});
+});
+
+function admin_table_send_update(){
+    var set = {};
+    $('tr.draggable-lang-item', '#s1').each(function (i) {
+    set['list[' + i + ']'] = $('input:hidden', this).attr('value');
+    });
+
+    $('td:nth(0) span.ow_mild_green', $('tr.draggable-lang-item', '#s1')).remove();
+    $.ajax({
+    type: "POST",
+    url: '{/literal}{url_for for="IISMAINPAGE_CTRL_Admin:ajaxSaveOrder"}{literal}',
+    data: set
+    });
+}
+
+$('.ow_up_button,.ow_down_button').click(function(){
+    var row = $(this).closest('tr');
+    if ($(this).hasClass('ow_up_button'))
+        row.prev().before(row);
+    else
+        row.next().after(row);
+    admin_table_send_update();
+});
+
+$('.disableMenu').click(function() {
+    $.ajax({
+            type: "POST",
+            url: '{/literal}{url_for for="IISMAINPAGE_CTRL_Admin:ajaxSaveDisable"}{literal}',
+            data: { enable : $(this).is(':checked'),id :  $(this).attr('id')}
+    });
+});
+
+{/literal}
+{/script}
+<div class="iismainpage_admin">
+<div class="ow_right place_section left_section ow_column">
+    <table class="ow_table_1 ow_form" style="margin: 0">
+        <tr class="ow_tr_first">
+            <th colspan="2" class="ow_center">{text key="iismainpage+orders"}</th>
+        </tr>
+        <tbody id="s1" class="s">
+        {foreach from=$list item="item"}
+        <tr class="ow_high1 draggable-lang-item ow_tr_last">
+
+            <td width="100px">
+                <input class="disableMenu" type="checkbox" id="{$item.id}"{if ($item.enable)} checked="checked"{/if} />
+                <div class="ow_up_button" ></div>
+                <div class="ow_down_button" ></div>
+            </td>
+
+            <td>
+                <div class="iismainpage_items">
+                    <input type="hidden" value="{$item.id}">
+                    {$item.label}
+                </div>
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+</div>
+</div>

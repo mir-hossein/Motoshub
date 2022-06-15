@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="en" language_label="English">
+    <key name="email_notification_section_label">
+        <value>
+           groups
+        </value>
+    </key>
+    <key name="email_notifications_setting_file">
+        <value>
+            File added to a group
+        </value>
+    </key>
+		<key name="notif_add_file_string">
+        <value>
+           &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; add &lt;a href="{$fileUrl}"&gt;{$file}&lt;/a&gt; to &lt;a href="{$groupUrl}"&gt;{$groupTitle}&lt;/a&gt;.
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>شکلک</name>
+    <key>iisemoji</key>
+    <description>امکان انتخاب و ارسال شکلک در زمان ایجاد نوشته جدید و یا بخش پیام‌های خصوصی، و پشتیبانی از شکلک‌های ارسالی از دستگاه‌های تلفن همراه</description>
+    <author>Issa Annamoradnejad</author>
+    <authorEmail>i.moradnejad@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10832</build>
+    <copyright>(C) 2017 SHUB.IR. All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+</plugin>

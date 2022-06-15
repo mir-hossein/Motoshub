@@ -1,0 +1,26 @@
+{$menu}
+
+<p>{text key='newsfeed+admin_customization_legend'}</p>
+
+<div class="ow_wide ow_automargin">
+{form name="NEWSFEED_CustomizationForm"}
+<table class="ow_table_1 ow_form">
+    <tr class="ow_te_first">
+        <th class="ow_label"></th>
+        <th class="ow_value">{text key='base+dashboard'}</th>
+        <th class="ow_value">{text key='base+main_menu_index'}</th>
+        <th class="ow_value">{text key='base+content_profile_label'}</th>
+    </tr>
+    {foreach from=$types item="type" name="t"}
+            <tr class="{cycle values="ow_alt1,ow_alt2"} ow_te_first {if $smarty.foreach.t.last}ow_tr_last{/if}">
+                <td class="ow_label" style="width:50%">{$type.label}</td>
+                <td class="ow_value">{input name="`$type.activity`1"}</td>
+                <td class="ow_value">{input name="`$type.activity`2"}</td>
+                <td class="ow_value">{input name="`$type.activity`3"}</td>
+            </tr>
+    {/foreach}
+
+</table>
+<div class="clearfix ow_stdmargin"><div class="ow_right">{submit name='save' class='ow_ic_save ow_positive'}</div><div class="ow_right"></div></div>
+{/form}
+</div>

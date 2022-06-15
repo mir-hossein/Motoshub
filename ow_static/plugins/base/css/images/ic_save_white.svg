@@ -1,0 +1,18 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="3.25" height="3.25" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g4305">
+    <g id="g4345">
+     <path d="m0.9375,0.5l0,18.92263l2.1503,0l0,-10.7515l14.19197,0l0,10.7515l1.72024,0l0,-17.20239l-1.72024,-1.72024l-1.72024,0l0,6.88095l-10.1064,0l0,-6.88095l-4.51563,0l0,0l0,0l0,0l0,0l0,0l0,0l0.00001,0l-0.00001,0zm10.1064,1.07515l0,4.94568l2.79539,0l0,-4.94568l-2.79539,0zm-6.75193,8.12813l0,1.032149l10.32144,0l0,-1.032149l-10.32144,0zm0,2.06428l0,1.03215l5.16072,0l0,-1.03215l-5.16072,0zm0,1.97828l0,1.03215l8.25715,0l0,-1.03215l-8.25715,0zm0,2.06428l0,1.03215l6.19286,0l0,-1.03215l-6.19286,0z" id="path3777" fill="#fff"/>
+    </g>
+   </g>
+   <line fill="none" stroke="#fff" stroke-width="2" x1="1.27199" y1="18.5" x2="18.49827" y2="18.5" id="svg_1" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  </g>
+ </g>
+</svg>

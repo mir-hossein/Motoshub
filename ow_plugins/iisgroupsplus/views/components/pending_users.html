@@ -1,0 +1,9 @@
+<h1>
+    {text key='iisgroupsplus+pending_invitation'}
+</h1>
+<br/>
+<div class="ow_lp_avatars">
+    {foreach from=$userIdList item='id'}
+        {decorator name="avatar_item" data=$data[$id]}
+    {/foreach}
+</div>

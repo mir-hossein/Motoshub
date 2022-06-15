@@ -1,0 +1,992 @@
+/********************************************************************************
+  *
+  *     Filename:        base.css
+  *     Description:     Mobile Theme Base CSS File
+  *     Author:   	     Milad Heshmati
+  *		Author Email:	 milad.heshmati@gmail.com
+  *     Version:         1.0.0
+  *
+  *     -- FILE STRUCTURE: --
+  *
+  *     [ 1] CSS Defaults Reset          __reset
+  *     [ 2] Clearfix                    __clearfix
+  *     [ 3] Base Elements               __base
+  *     [ 4] Typography                  __typography
+  *     [ 5] Masterpage & Page Layout    __layout
+  *     [ 6] Menus                       owm_list_item_view_title  __menus
+  *     [ 7] Pagination                  __pagination
+  *     [ 8] Content Items               __content items
+  *     [ 9] Common Blocks               __blocks
+  *     [10] Forms                       __forms
+  *     [11] Tables                      __tables
+  *     [12] Standard Listings           __listings
+  *     [13] Thumbnails & Icons          __icons
+  *     [14] Notifications               __messages
+  *     [15] Plugin Styles               __plugins
+  *     [16] Misc                        __misc
+  *
+  ,
+ ********************************************************************************/
+/*========================================================
+    [1] CSS Defaults Reset      __reset
+========================================================*/
+.fake_all_colors {
+    background-color: #1b67b1;
+    background-color: #46c4ff;
+    background-color: #eafdff;
+    background-color: #ff946e;
+}
+header {
+    background-color: #1b67b1; /** OW_Control type:color, key:mobileHeaderColor, section:3. Mobile, label: 3. Header color **/
+}
+.owm_footer{
+    background-color: #1b67b1;
+}
+
+.owm_paging {
+    background-color: #1b67b1;
+}
+.owm_paging_first,
+.owm_paging_last {
+    border-color: #1b67b1 ;
+}
+select.paging_select_box {
+    border-color: #1b67b1;
+    color: #1b67b1;
+}
+
+a {
+    color: #1b67b1; /** OW_Control type:color, key:mobileLinkColor, section:3. Mobile, label: 7. Links color **/
+}
+
+.owm_group_left .ow_nowrap a {
+    border-color: #1b67b1;
+    background-color: #1b67b1;
+}
+
+.owm_nav_left_item .owm_nav_left_item_add,
+.owm_nav_left_item_add {
+    background-color: #1b67b1;
+    background-image: url(images/ico_plus.png);
+}
+
+input[type=button],
+input[type=submit],
+.owm_attach_win .owm_btn_wrap .owm_attach_label {
+    background-color: #1b67b1;
+}
+
+.owm_btn_wide a {
+    background-color: #1b67b1;
+}
+
+.owm_forgot_txt:lang(fa-IR) {
+    border-bottom-color: #1b67b1;
+}
+
+.owm_content_header_count {
+    border-color: #1b67b1;
+}
+
+.owm_content_header_count:after {
+    border-left-color: #1b67b1;
+}
+.owm_content_header_count:before {
+    border-left-color: #1b67b1;
+}
+
+.owm_content_header_count_cont {
+    border-top-color: #1b67b1;
+}
+
+body .owm_profile_block .owm_profile_nav .owm_profile_nav_list li a {
+    background-color: #1b67b1;
+}
+
+.owm_list_item_view_title .owm_float_right .owm_btn_add {
+    background-color: #1b67b1;
+    background-image: url(images/ico_plus.png);
+}
+
+.owm_nav_cap.owm_nav_cap_right_cont.owm_forum_section_cap.owm_bg_color_3.owm_border.clearfix {
+    border-color: #1b67b1;
+}
+
+a#photo-delete {
+    background-color: #1b67b1;
+}
+
+.owm_newsfeed_body_title a {
+    color: #1b67b1;
+}
+
+.owm_add_photo {
+    background-color: #1b67b1 !important;
+    background-image: url("images/ico_plus.png");
+}
+
+.owm_box_heading_btns .owm_add_photo{
+    background-image: url("images/add.svg");
+}
+
+.ow_tags_cont a {
+    background-color: #1b67b1;
+}
+
+.owm_list_title_name:lang(fa-IR) {
+    color: #1b67b1;
+}
+
+.owm_forum_page .owm_list_title_name {
+    color: #1b67b1;
+}
+
+.owm_forum_page .owm_topic_name {
+    color: #1b67b1;
+}
+
+.owm_topic_list_format .owm_topic_name:lang(fa-IR) {
+    color: #1b67b1;
+}
+
+.owm_link_field input[type=text],
+.owm_video_field input[type=text] {
+    color: #1b67b1; /** OW_Control type:color, key:mobileLinkColor, section:3. Mobile, label: 7. Links color **/
+}
+
+.owm_suitup-controls a.owm_suitup-control.active {
+    background-color: #1b67b1;
+}
+
+.owm_sidebar_sub_menu_item_active,
+.owm_box_menu_item_active,
+.owm_content_menu li.active a {
+    border-bottom-color: #1b67b1 !important;
+}
+
+.tabs-style-underline nav li a.title::after {
+    background-color: #1b67b1 !important;
+}
+
+.owm_paging_prev,
+.owm_paging_next {
+    border-color: #1b67b1;
+}
+
+#mailboxMailConversation .owm_mail_info_wrap div#mailboxBackToConversations,
+#composeMessageCmp .owm_mail_info_wrap div#mailboxBackToConversations{
+    border-bottom-color: #1b67b1;
+}
+
+#mailboxMailConversation .owm_mail_info_wrap .owm_mail_subject_block,
+#composeMessageCmp .owm_mail_info_wrap .owm_mail_subject_block{
+    border-color: #46c4ff;
+}
+
+/*post boxes border color*/
+.owm_box,
+.owm_box_empty,
+.owm_photo_list{
+    border-color: #46c4ff;
+}
+
+.owm_invitation,
+input.owm_invitation,
+textarea.owm_invitation,
+.invitation,
+input.invitation,
+textarea.invitation  {
+    color: #46c4ff; /** OW_Control type:color, key:mobileTextColor, section:3. Mobile, label: 6. Text color **/
+}
+
+.owm_profile_block,
+.owm_newsfeed_item_cont,
+.owm_forum_section_wrap,
+.owm_forum_section_wrapper,
+#forum-topics-wrapper,
+.owm_forum_topic.owm_forum_topic_view,
+.owm_forum_reply,
+.owm_iisnews_view,
+.owm_list_item,
+.owm_list_item_without_image,
+#forum_new_post_wrappper,
+.owm_photo_view {
+    border-color: #46c4ff !important;
+}
+
+.avatar_select_list .ow_item_set2,
+.owm_group_view .owm_user_list_item,
+body .owm_profile_nav_list li a,
+.avatar_select_list .asl_users,
+.owm_newsfeed_status_update,
+.owm_search_field,
+.owm_list_page .owm_list_item_with_image,
+.ow_nocontent,
+.owm_video_list .ow_mobile_video_list_item,
+.owm_group_list .owm_list_item_with_image {
+    border-color: #46c4ff;
+}
+
+#iisadvancedsearch_search_all_users .ow_nocontent,
+.avatar_select_list .ow_item_set2 {
+    border-color: transparent;
+}
+
+.owm_box_cap {
+    border-bottom-color: #46c4ff;
+}
+
+/*forum topics -> the color must be lighter than second color*/
+.owm_forum_section_body {
+    border-top-color: #21e0db;
+}
+
+.owm_forum_group_body {
+    border-top-color: #46c4ff;
+}
+
+.owm_border {
+    border-color: #46c4ff;
+}
+
+.owm_login_form, #content form[name="forgot-password"] {
+    border-color: #46c4ff;
+}
+
+::-webkit-input-placeholder{color: #46c4ff;}
+::-moz-placeholder{	color: #46c4ff;}
+:-ms-input-placeholder{	color: #46c4ff;}
+
+.owm_add_link .owm_link_text input[type=text]:first-child {
+    border-top-color: #46c4ff;
+}
+
+.owm_std_margin_top .owm_join_form {
+    border-color: #46c4ff;
+}
+.owm_section.owm_std_margin_bottom {
+    border-top-color: #46c4ff;
+}
+
+/*========================================================
+    [ 5] Masterpage & Page Layout    __layout
+========================================================*/
+.owm_preloader {
+    background-image: url(images/preloader.gif);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_preloader {
+        background-image: url(images/preloader@2x.gif);
+    }
+}
+.owm_preloader_circle {
+    background-image: url(images/preloader_circle.gif);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_preloader_circle {
+        background-image: url(images/preloader_circle@2x.gif);
+    }
+}
+.owm_load_more {
+    background-image: url(images/preloader.gif);
+}
+/* ========= Layout structure styles ========= */
+@media only screen and (max-width : 479px) {
+    .owm_profile_info_all td.owm_td_value {
+        border-bottom-color: #46c4ff !important;
+    }
+
+    .owm_profile_info_all th.ow_section {
+        border-bottom-color: #46c4ff;
+    }
+
+    .owm_profile_block.owm_bg_color_1 {
+        border-bottom-color: #1b67b1 !important;
+    }
+}
+/* ========= End of the Layout structure styles ========= */
+/* ========= Sidebar styles  ======== */
+.owm_sidebar_right_header_txt{
+    background-image: url(images/logo.svg);
+}
+.owm_sidebar_load_more_with_text {
+    background-color: #1b67b1;
+}
+.owm_sidebar_load_more_preloader {
+    background-image: url(images/preloader.gif);
+}
+/* ========= End of the Sidebar styles  ======== */
+/* ========= Logo styles  ======== */
+.owm_logo {
+    background-image: url(images/logo.png);/** OW_Control type:image, key:mobilelogoImage, section:3. Mobile, label: 1. Logo **/
+}
+/* ========= End of the Logo styles  ======== */
+/* ======== Maintenance page ======== */
+.owm_maintenance_bg {
+    background-image: url(images/maintenance.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_maintenance_bg {
+        background-image: url(images/maintenance@2x.png);
+    }
+}
+/* ======== End of the Maintenance page ======== */
+
+/*========================================================
+    [ 6] Menus                       __menus
+========================================================*/
+/* ======== Top Navigation menu styles ======== */
+.owm_nav_menu {
+    background-image:url(images/nav_menu.png);
+}
+.owm_sidebar_left_header_txt .owm_nav_menu {
+    background-image: url(images/header_back_left.svg);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_nav_menu {
+        background-image: url(images/nav_menu@2x.png);
+    }
+}
+.owm_nav_profile {
+    background-image:url(images/nav_profile.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_nav_profile {
+        background-image: url(images/nav_profile@2x.png);
+    }
+}
+.owm_nav_back {
+    background-image: url(images/header_back_left.svg);
+}
+.owm_nav_back:lang(fa-IR) {
+    background-image: url(images/header_back.svg);
+}
+.owm_nav_next {
+    background-image:url(images/arr_nav_next.svg);
+}
+.owm_nav_next:lang(fa-IR) {
+    background-image:url(images/arr_nav_back.svg);
+}
+/* ======== End of the Top Navigation menu styles ======== */
+/* ======== Left sidebar navigation styles ======== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_nav_left_item_add {
+        background-image: url(images/ico_plus@2x.png);
+    }
+}
+/* ======== End of the Left sidebar navigation styles ======== */
+/* ======== Right Sidebar navigation styles ======== */
+.owm_sidebar_console_notifications .owm_sidebar_console_item_url {
+    background-image: url(images/ico_sidebar_console_ntf.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_sidebar_console_notifications .owm_sidebar_console_item_url {
+        background-image: url(images/ico_sidebar_console_ntf@2x.png);
+    }
+}
+.owm_sidebar_console_profile .owm_sidebar_console_item_url {
+    background-image: url(images/ico_sidebar_console_profile.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_sidebar_console_profile .owm_sidebar_console_item_url {
+        background-image: url(images/ico_sidebar_console_profile@2x.png);
+    }
+}
+.owm_sidebar_console_convers .owm_sidebar_console_item_url {
+    background-image: url(images/ico_sidebar_console_convers.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_sidebar_console_convers .owm_sidebar_console_item_url {
+        background-image: url(images/ico_sidebar_console_convers@2x.png);
+    }
+}
+#console_preloader {
+    background-image: url(images/preloader.gif);
+}
+
+.owm_sidebar_right_cont #console_preloader {
+    background-image: url(images/preloader.gif);
+}
+/* ======== End of the Right Sidebar navigation styles ======== */
+/* ======== Content navigation cap styles ======== */
+.owm_nav_cap_left {
+    background-image: url(images/arr_nav_back.svg);
+}
+.owm_nav_cap_left:lang(fa-IR) {
+    background-image: url(images/arr_nav_next.svg);
+}
+.owm_nav_cap_right {
+    background-image: url(images/arr_nav_next.svg) ;
+}
+.owm_nav_cap_right:lang(fa-IR) {
+    background-image: url(images/arr_nav_back.svg);
+}
+/*========================================================
+    [ 7] Pagination                  __pagination
+========================================================*/
+/* ======== Paging styles ======== */
+.owm_paging_prev,
+.owm_paging_next {
+    background-image: url(images/arr_nav_back.svg);
+}
+.owm_paging_next {
+    background-image: url(images/arr_nav_next.svg);
+}
+/* ======== End of the Paging styles ======== */
+/*========================================================
+    [ 8] Content Items               __content items
+========================================================*/
+.owm_context_arr_c {
+    background-image: url(images/arr_down_btn_list.svg);
+}
+.owm_btn_list_item_wrap .owm_context_arr_c,
+.owm_nav_cap .owm_context_arr_c,
+.owm_card_header .owm_context_arr_c {
+    background-image: url(images/arr_down_btn_list.svg);
+}
+/*========================================================
+    [ 9] Common Blocks               __blocks
+========================================================*/
+.owm_anno {
+    background-image: url(images/ico_warning.svg);
+}
+.owm_searchTag {
+    background-image: url(images/ico_searchTag.svg);
+    background-size: 30px 30px;
+}
+.owm_card_toolbar_quote span {
+    background-image: url(images/ico_quote.svg);
+}
+.owm_card_toolbar_flag span {
+    background-image: url(images/ico_warning.svg);
+}
+.owm_card_toolbar_share span {
+    background-image: url(images/ico_share.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_card_toolbar_share span {
+        background-image: url(images/ico_share@2x.png);
+    }
+}
+/* ======== End of the Card styles ======== */
+/* ======== Floatbox ======== */
+.owm_close_btn {
+    background-image: url(images/ico_close.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_close_btn {
+        background-image: url(images/ico_close@2x.png);
+    }
+}
+/* ======== End of the Floatbox ======== */
+/*========================================================
+    [10] Forms                       __forms
+========================================================*/
+input[type="text"],
+input[type="password"],
+textarea,
+select,
+.owm_suitup .owm_suitup-editor,
+.owm_form_field_value .tagsinput input {
+    border-color: #46c4ff;
+    color: #1b67b1;
+}
+.owm_btn_list_item .owm_view_more_ic {
+    background-image: url(images/arr_down_btn_list.svg);
+}
+/*========================================================
+    [12] Standard Listings           __listings
+========================================================*/
+.owm_content_list_item {
+    border-top-color: #46c4ff;/** OW_Control type:color, key:mobileBorderColor, section:3. Mobile, label: 5. Border color **/
+}
+div#newsfeed-status-form-inv {
+    background-color: #1b67b1 !important;
+    border-top-color: #1b67b1 !important;
+}
+/*========================================================
+    [13] Thumbnails & Icons          __icons
+========================================================*/
+.ow_ic_event {
+    background-image: url(images/ico_event.png);
+}
+.ow_ic_forum {
+    background-image: url(images/ico_forum.png);
+}
+.ow_ic_link {
+    background-image: url(images/ico_link.png);
+}
+.ow_ic_blog {
+    background-image: url(images/ico_blog.png);
+}
+.ow_ic_group {
+    background-image: url(images/ico_group.png);
+}
+.ow_ic_gift {
+    background-image: url(images/ico_gift.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .ow_ic_event {
+        background-image: url(images/ico_event@2x.png);
+    }
+    .ow_ic_forum {
+        background-image: url(images/ico_forum@2x.png);
+    }
+    .ow_ic_link {
+        background-image: url(images/ico_link@2x.png);
+    }
+    .ow_ic_blog {
+        background-image: url(images/ico_blog@2x.png);
+    }
+    .ow_ic_group {
+        background-image: url(images/ico_group@2x.png);
+    }
+    .ow_ic_gift {
+        background-image: url(images/ico_gift@2x.png);
+    }
+}
+.owm_list_item_with_image .ow_ipc_picture_null {
+    background-image: url(images/ico_video_play.png);
+}
+.avatar_select_list .ow_item_set2.ow_mild_green,
+.owm_floatbox .asl_groups .ow_group_list_item .ow_group_list.ow_mild_green{
+    background-color: #46c4ff;
+}
+/*========================================================
+    [14] Notifications               __messages
+========================================================*/
+/*========================================================
+    [15] Plugin Styles               __plugins
+========================================================*/
+.owm_profile_online {
+    background-image: url(images/online_status.png);
+}
+.owm_profile_desc {
+    background-image: url(images/arr_nav_next.svg);
+}
+.owm_profile_desc:lang(fa-IR){
+    background-image: url(images/arr_nav_back.svg);
+}
+.owm_profile_nav_about {
+    background-image: url(images/profile_nav_about.png);
+}
+/* ======== Newsfeed styles ======== */
+input#album_input {
+    border-color: #46c4ff;
+}
+.owm_newsfeed_status_update_add_icon {
+    background-image: url(images/upload_photo_add.svg);
+}
+a.privacy_label img.feed_image_privacy {
+    border-color: rgb(15, 130, 126);
+}
+.owm_newsfeed_header_responded:lang(fa-IR) {
+    border-bottom-color: #50C3BF;
+}
+.owm_newsfeed_body_pic_icon {
+    background-image: url(images/ico_video_play.png);
+}
+.owm_newsfeed_context_menu .owm_view_more .bl-dropdown-btn {
+    background-image: url(images/arr_down_btn_list.svg);
+}
+.owm_newsfeed_control_like .postLikeUserList {
+    background-image: url(images/like.svg);
+}
+.owm_newsfeed_control_comment {
+    background-image: url(images/comment.svg);
+}
+.owm_newsfeed_control_like.owm_newsfeed_control_active .postLikeUserList {
+    background-image: url(images/like_active.svg);
+}
+.owm_newsfeed_comment_load_more.owm_load_more{
+    background-image: url(images/preloader.gif);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_add_photo {
+        background-image: url(images/ico_plus@2x.png);
+    }
+}
+.owm_photo_list_load_more {
+    background-image: url(images/preloader.gif);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_photo_list_load_more {
+        background-image: url(images/preloader@2x.png);
+    }
+}
+.owm_upload_photo_choose_btn {
+    background-image: url(images/upload_photo_add.svg);
+}
+.owm_choose_album {
+    border-color: #46c4ff;
+}
+.owm_photo_enlarge {
+    background-image: url(images/photo_enlarge.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_photo_enlarge {
+        background-image: url(images/photo_enlarge@2x.png);
+    }
+}
+.owm_photo_next {
+    background-image: url(images/photo_next.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_photo_next {
+        background-image: url(images/photo_next@2x.png);
+    }
+}
+.owm_photo_prev {
+    background-image: url(images/photo_prev.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_photo_prev {
+        background-image: url(images/photo_prev@2x.png);
+    }
+}
+.owm_photo_album_count {
+    background-image: url(images/arr_nav_next.svg);
+}
+.owm_photo_album_count:lang(fa-IR) {
+    background-image: url(images/arr_nav_back.svg);
+}
+.owm_sidebar_search_ico {
+    background-image: url(images/ico_search.svg);
+}
+.owm_sidebar_convers_status_mail {
+    background-image: url(images/ico_mail_small.svg);
+}
+.owm_sidebar_convers_status_chat {
+    background-image: url(images/ico_chat_small.svg);
+}
+.owm_chat_info {
+    border-bottom-color: #1b67b1;/** OW_Control type:color, key:mobileBorderColor, section:3. Mobile, label: 5. Border color **/
+}
+.owm_chat_add_icon {
+    background-image: url(images/upload_photo_add.svg);
+}
+.owm_mail_attach_ico {
+    background-image: url(images/ico_file.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_mail_attach_ico {
+        background-image: url(images/ico_file@2x.png);
+    }
+}
+.owm_mail_add_icon {
+    background-image: url(images/upload_photo_add.svg);
+}
+/* ======== End of the Mailbox/Chat styles ======== */
+/* ======== Join form styles ======== */
+.owm_forum_advanced_search form[name="search_form"],
+.owm_join_form #joinForm,
+.owm_full_page_form form{
+    border-color: #46c4ff;
+}
+.owm_join_form .owm_info {
+    border-color: #46c4ff;
+}
+span.ic_refresh {
+    background-image: url(images/ic_refresh.png);
+}
+.owm_search_field_icon {
+    background-image: url(images/ico_search.svg);
+}
+.owm_topic_name .owm_forum_counter {
+    background-image: url(images/ico_comment_read.svg);
+}
+.owm_topic_list_unread .owm_topic_name .owm_forum_counter,
+.owm_list_title_unread .owm_list_title_name .owm_iisnews_counter,
+.owm_list_title_unread .owm_list_title_name .owm_events_counter {
+    background-image: url(images/ico_comment_new.svg);
+}
+.owm_topic_list_format.owm_topic_list_locked .owm_topic_name .owm_forum_counter {
+    background-image: url(images/ico_comment_locked_read.svg);
+}
+.owm_topic_list_format.owm_topic_list_locked.owm_topic_list_unread .owm_topic_name .owm_forum_counter {
+    background-image: url(images/ico_comment_locked_new.svg);
+}
+.owm_list_additional_comments {
+    background-image: url(images/comment.svg);
+}
+.owm_list_additional_views {
+    background-image: url(images/ico_eye_small.svg);
+}
+.owm_topic_sticky_icon {
+    background-image: url(images/ico_forum_sticky.png);
+}
+.owm_topic_attach_icon,
+.owm_attach_win .ow_file_attachment_name,
+.owm_attach_icon {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_topic_sticky_icon {
+        background-image: url(images/ico_forum_sticky@2x.png);
+    }
+    .owm_topic_attach_icon,
+    .owm_attach_win .ow_file_attachment_name,
+    .owm_attach_icon {
+
+    }
+}
+.owm_forum_topic_title input[type=text] {
+    border-color: #46c4ff;/** OW_Control type:color, key:mobileBorderColor, section:3. Mobile, label: 5. Border color **/
+}
+.owm_attach_label .owm_attach_preview_close,
+.owm_attach_win .ow_file_attachment_close {
+    background-image: url(images/ico_close_attach.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_attach_label .owm_attach_preview_close,
+    .owm_attach_win .ow_file_attachment_close  {
+        background-image: url(images/ico_close_attach@2x.png);
+    }
+}
+.owm_attach_download {
+    background-image: url(images/ico_download.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_attach_download {
+        background-image: url(images/ico_download@2x.png);
+    }
+}
+/* ======== End of the Attachments styles ======== */
+/* ======== Subscribe page styles ======== */
+.owm_sidemenu_item {
+    background-image: url(images/arr_nav_next.svg);
+}
+.owm_ico_check {
+    background-image: url(images/ico_check.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .owm_ico_check {
+        background-image: url(images/ico_check@2x.png);
+    }
+}
+.owm_payment_btn.owm_btn_wide input {
+    background-color: #1b67b1;
+}
+/*========================================================
+    [16] Misc                        __misc
+========================================================*/
+.owm_group_forum_no_topic {
+    border-color: #46c4ff;
+}
+
+.rates_cont a.rate_item {
+    background-image: url(images/stars.svg);
+}
+.tabs .iismainpage .tab-current {
+    background-color: #eafdff;
+}
+.tabs .iismainpage .tab-current a a,
+.tabs .iismainpage .tab-current a span {
+    color: #1b67b1 !important;
+}
+.tabs .iismainpage ul {
+    border-bottom-color: #1b67b1 !important;
+}
+.tabs .iismainpage  .tab-current.main_menu_dashboard a:first-child {
+    background-image: url(images/dashboard_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_user_groups a:first-child {
+    background-image: url(images/groups_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_friends a:first-child {
+    background-image: url(images/friend_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_mailbox a:first-child {
+    background-image: url(images/chat_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_settings a:first-child {
+    background-image: url(images/Settings_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_notifications a:first-child {
+    background-image: url(images/notifications_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_photos a:first-child {
+    background-image: url(images/photos_select.svg) !important;
+}
+.tabs .iismainpage .tab-current.main_menu_videos a:first-child {
+    background-image: url(images/videos_select.svg) !important;
+}
+.owm_newsfeed_status_update_btns .ow_file_attachment_preview {
+    border-color: #1b67b1;
+}
+.owm_newsfeed_status_update_preview .ow_file_attachment_preview .ow_file_attachment_close {
+    background-image: url(images/ico_close_attach@2x.png);
+}
+.iisaudio_mic {
+    background-image: url("./images/ic_mic.svg") !important;
+}
+.iisnewsfeedpin_pin {
+    background-image: url("./images/ic_pin.svg") !important;
+}
+.iisnewsfeedpin_unpin {
+    background-image: url("./images/ic_pin.svg") !important;
+}
+.iisquestions_add {
+    background-image: url("./images/question_add.svg") !important;
+}
+span.owm_content_header_count_cont {
+    background-image: url(images/notification.svg) !important;
+}
+
+.owm_joinNotValidInviteImage {
+    background-image: url(images/register_closed.png);
+}
+/*================================================================================
+     						   Additional styles
+  ================================================================================*/
+.owm_sidebar_load_more:lang(en) {
+    background-image: url(images/preloader.PNG);
+}
+/*-----------*/
+input[type=button],
+input[type=submit],
+.owm_btn_class_2,
+.owm_attach_win .owm_btn_wrap .owm_attach_label,
+.owm_group_view .owm_nav_cap img#group_info,
+.owm_group_list .owm_list_item_with_image .ow_ipc_header a.ow_lbutton.view_more,
+.owm_newsfeed_comment_load_more,
+.owm_nav_cap #owm_forum_new_topic_link,
+.owm_box_toolbar a,
+.owm_attach_win .owm_btn_wrap .owm_attach_label,
+.owm_btn_wide a,
+body .owm_profile_block .owm_profile_nav .owm_profile_nav_list li a,
+.owm_sidebar_profile_btn,
+.owm_sidebar_msg_block .owm_lbutton,
+.owm_sidebar_profile_block input.owm_sidebar_profile_logout,
+.owm_card_toolbar_btns a,
+.owm_audio_floatbox .start,
+.owm_audio_floatbox .stop,
+.owm_info.owm_box_padding.owm_load_earlier,
+.iismainpage .owm_user_list_preloader,
+.owm_btn_list_item {
+    background-color: #ff946e;
+}
+textarea[name="commentText"],
+#mailboxConversationFooter .owm_chat_input_wrap input#newMessageText,
+#mailboxConversationFooter .owm_chat_input_wrap #newMessageSendBtn,
+#mailboxConversationFooter .owm_mail_input_wrap input#newMessageText,
+#mailboxConversationFooter .owm_mail_input_wrap #newMessageSendBtn
+{
+    background-color: transparent !important;
+}
+.owm_brief_info .owm_box_toolbar a{
+    background-color: transparent !important;
+    color: #1b67b1;
+}
+.owm_group_view .owm_nav_cap img#group_info,
+.owm_card_toolbar_btns a {
+    background-color: transparent;
+    color: #475258;
+}
+.owm_btn_class_1,
+.owm_sidebar_load_more_with_text,
+.owm_sidebar_console_item_active .owm_sidebar_console_item_url,
+.owm_login_form .owm_btn_wide input,
+.owm_newsfeed_comment_load_more,
+.iismainpage .owm_user_list_preloader,
+.owm_sidebar_profile_btn {
+    background-color: #1b67b1;
+}
+.owm_audio_floatbox .start.disabled,
+.owm_audio_floatbox .stop.disabled {
+    color: white;
+    background-color: #c0c0c0;
+}
+
+.ow_button input.ow_ic_add,
+img#group_info,
+.owm_add_photo {
+    background-color: transparent !important;
+    color: #475258 !important;
+}
+
+.iismainpage .notifications_page li.owm_sidebar_msg_item.clearfix,
+.owm_list_search,
+.owm_list_item_with_image,
+.owm_list_item_without_image,
+.owm_newsfeed_item_cont,
+.owm_forum_page .owm_search_field,
+.owm_forum_page .owm_forum_section_wrap,
+#forum-topics-wrapper,
+.owm_forum_topic, .owm_forum_reply,
+.owm_box, .owm_photo_list,
+.owm_profile_block,
+.owm_list_item_view,
+.owm_anno
+{
+    border-color: #46c4ff !important;
+    background-color: white;
+}
+.iismainpage .notifications_page li.owm_sidebar_msg_item.clearfix,
+.iismainpage .owm_list_item_with_image,
+.iismainpage .owm_list_search
+{
+    background-color: #fff;
+}
+.iismainpage .notifications_page li.owm_sidebar_msg_item.clearfix {
+    border-color: #EAEAEA;
+    background-color: #f5f5f5;
+}
+.owm_mail_window #messageList,
+.owm_chat_window #messageList,
+.owm_iismobilesupport .owm_sidebar_msg_item {
+    border-color: #46c4ff !important;
+}
+
+.owm_iismobilesupport .owm_sidebar_msg_block_cap {
+    border-bottom-color: #46c4ff !important;
+}
+
+.iisnewsfeedpin_pined_class div.owm_newsfeed_item_cont {
+    border-color: #ff946e !important;
+    background-color: white !important;
+}
+
+.owm_floatbox_cont .ow_content_menu_wrap li.active {
+    border-bottom-color: #1b67b1 !important;
+}
+
+.owm_floatbox_cont .ow_content_menu_wrap li.active a{
+    color: #1b67b1 !important;
+}
+.jconfirm-box.jconfirm-hilight-shake.jconfirm-type-orange.jconfirm-type-animated {
+    border-top: solid 7px #71c9ff;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-orange {
+    background-color: #71c9ff !important;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-orange:hover {
+    background-color: #ff946e !important;
+}
+.jconfirm-box.jconfirm-hilight-shake.jconfirm-type-orange.jconfirm-type-animated {
+    -webkit-animation-name: none;
+    animation-name: none;
+}

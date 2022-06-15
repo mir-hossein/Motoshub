@@ -1,0 +1,38 @@
+<div class="owm_anno owm_info owm_padding"><span>{text key="base+delete_user_warning"}</span></div>
+
+{block_decorator name="box" type="empty" addClass="ow_stdmargin ow_wide ow_automargin ow_center"}
+    {text key="base+delete_user_confirmation"}
+{/block_decorator}
+
+{block_decorator name="box" addClass="ow_stdmargin ow_wide ow_automargin ow_center"}
+{form name="deleteUser"}
+    {if $passwordRequiredProfile}
+    <div class="owm_form_field_container">
+        <div class="owm_section owm_std_margin_bottom">
+            <span class="owm_section_label">{text key="iissecurityessentials+questions_section_password"}</span><div class="owm_section_border"></div>
+        </div>
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='oldPasswordCheck'}</div>
+            <div class="owm_form_field_value">{input name='oldPasswordCheck'}</div>
+            <div class="owm_error_txt">{error name='oldPasswordCheck'}</div>
+        </div>
+    </div>
+    {/if}
+
+    <div class="owm_form_field_container owm_padding">
+    {if isset($captcha_present)}
+    <div class="owm_form_field_wrap">
+        <div class="owm_form_field_label"></div>
+        <div class="owm_form_field_value">{input name='captcha'}{error name='captcha'}</div>
+    </div>
+    {/if}
+    </div>
+
+    <div class="owm_form_field_container owm_padding">
+        <div class="owm_form_field_wrap">
+        {submit name='submit'}
+        <input type="button" onclick="location.href='{$returnUrl}'" value="{text key='base+delete_user_cancel_button'}" />
+        </div>
+    </div>
+{/form}
+{/block_decorator}

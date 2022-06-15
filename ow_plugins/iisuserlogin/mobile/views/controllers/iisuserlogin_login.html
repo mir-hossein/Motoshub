@@ -1,0 +1,26 @@
+{$menu}
+
+<div class="owm_iisuserlogin" style="margin-top: 10px;">
+    <div class="owm_box ow_stdmargin clearfix">
+        <div class="owm_box_body container" style="display: block;">
+
+            {foreach from=$items item="item"}
+            <div class="owm_box_row {cycle values="owm_row_alt2, owm_row_alt1"}">
+                <div class="owm_box_body">
+                    <div class="owm_box_body_cont clearfix">
+                        <div class="owm_box_padding">
+                            <p>
+                                {text key="iisuserlogin+login_details_time_label"}: {$item.time}
+                                <br/>
+                                {text key="iisuserlogin+login_details_ip_label"}: {$item.ip}
+                                <br/>
+                                {text key="iisuserlogin+login_details_browser_label"}: {$item.browser}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/foreach}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="delete_user_as_manager_success_message">
+        <value>
+            مدیریت گروه از کاربر مورد نظر برداشته شد
+        </value>
+    </key>
+    <key name="add_user_as_manager_success_message">
+        <value>
+            مجوز مدیریت گروه به کاربر مورد نظر داده شد
+        </value>
+    </key>
+    <key name="remove_group_user_manager_label">
+        <value>
+            حذف از مدیریت گروه
+        </value>
+    </key>
+    <key name="delete_group_user_confirmation">
+        <value>
+            آیا از حذف کاربر مورد نظر از مدیریت گروه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="add_group_user_as_manager_label">
+        <value>
+            افزودن به عنوان مدیریت گروه
+        </value>
+    </key>
+    <key name="group_owner_delete_error">
+        <value>
+            نمی توان نقش مدیریت را از سازنده یک گروه حذف کرد
+        </value>
+    </key>
+</prefix>

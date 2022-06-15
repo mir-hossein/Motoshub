@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="slideshow" label="Image Slideshow" language_tag="fa-IR" language_label="فارسی">
+    <key name="add_image">
+        <value>افزودن تصویر
+        </value>
+    </key>
+    <key name="add_new">
+        <value>
+            افزودن جدید
+        </value>
+    </key>
+    <key name="add_slide">
+        <value>افزودن اسلاید</value>
+    </key>
+    <key name="confirm_delete_plugin">
+        <value>
+            آیا شما مطمئن هستید که میخواهید این افزونه را از حالت نصب خارج کنید ؟
+        </value>
+    </key>
+    <key name="delete_content">
+        <value>
+            حذف محتوا و از حالت نصب درآوردن افزونه
+        </value>
+    </key>
+    <key name="delete_content_desc">
+        <value>
+            پیش از حذف، تمامی محتویات باستی پاک شود. این فرایند ممکن است زمان‌بر باشد.
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>هشدار</value>
+    </key>
+    <key name="delete_slide_confirm">
+        <value>آیا شما مطمئن هستید که میخواهید عکس را حذف کنید ؟</value>
+    </key>
+    <key name="edit_slide">
+        <value>ویرایش اسلاید</value>
+    </key>
+    <key name="effect">
+    <value>افکت</value>
+    </key>
+    <key name="effect_fade">
+        <value>محو شدن</value>
+    </key>
+    <key name="effect_slide">
+        <value>اسلاید</value>
+    </key>
+    <key name="file">
+        <value>فایل ها</value>
+    </key>
+    <key name="images">
+        <value>تصاویر</value>
+    </key>
+    <key name="interval">
+        <value>فاصله</value>
+    </key>
+    <key name="interval_long">
+        <value>بزرگ</value>
+    </key>
+    <key name="interval_medium">
+        <value>متوسط</value>
+    </key>
+    <key name="interval_short">
+        <value>کوتاه</value>
+    </key>
+    <key name="label">
+        <value>برچسب</value>
+    </key>
+    <key name="navigation">
+        <value>Navigation</value>
+    </key>
+    <key name="no_images">
+        <value>هیچ عکسی افزوده نشد</value>
+    </key>
+    <key name="optional">
+        <value>اختیاری</value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>حذف کردن افزونه نمایش پشت سره هم</value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>حذف افزونه نمایش پشت سره هم آغاز شد</value>
+    </key>
+    <key name="rearrange_tip">
+        <value>برای مرتب سازی تصاویر آن‌ها را بکشید و رها کنید.</value>
+    </key>
+    <key name="settings">
+        <value>تنظیمات نمایش پشت سر هم</value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>در حال پردازش و پیشرفت</value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>لطفا صبر کنید تا محتوای افزونه نمایش پشت سر هم حذف شود,این عملیات بسته به تعداد عکس ها ممکن است مدتی طول بکشد</value>
+    </key>
+    <key name="url">
+        <value>آدرس اینترنتی</value>
+    </key>
+    <key name="widget_title">
+        <value>نمایش پشت سر هم</value>
+    </key>
+</prefix>

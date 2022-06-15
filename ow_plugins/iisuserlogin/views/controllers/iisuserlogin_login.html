@@ -1,0 +1,15 @@
+{$menu}
+<table class="ow_table_1">
+    <tr>
+        <th>{text key="iisuserlogin+login_details_ip_label"}</th>
+        <th>{text key="iisuserlogin+login_details_time_label"}</th>
+        <th class="ow_desc">{text key="iisuserlogin+login_details_browser_label"}</th>
+    </tr>
+    {foreach from=$items item="item"}
+    <tr>
+        <td>{$item.ip}</td>
+        <td>{$item.time}</td>
+        <td class="ow_desc">{$item.browser}</td>
+    </tr>
+    {/foreach}
+</table>

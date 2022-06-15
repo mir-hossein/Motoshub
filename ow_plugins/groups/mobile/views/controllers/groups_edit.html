@@ -1,0 +1,117 @@
+<div class="owm_full_page_form owm_create_group ow_superwide ow_automargin">
+
+    <div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+        <div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+        </div>
+        <h3> {text key="base+back"}</h3>
+    </div>
+    {form name='GROUPS_EditGroupForm'}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='title'}</div>
+            <div class="owm_form_field_value">{input name='title'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='title'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='description'}</div>
+            <div class="owm_form_field_value">{input name='description'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='description'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='image'}</div>
+            <div class="owm_form_field_value">{input name='image'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='image'}</div>
+        {if !empty($imageUrl)}
+        <div class="owm_form_field_wrap" id="groupImageDiv">
+            <div class="owm_form_field_label"><a id="deleteGroupImg" class="ow_lbutton">{text key='groups+delete_image'}</a></div>
+            <div class="owm_form_field_value"><img src="{$imageUrl}" id="groupImg" /></div>
+        </div>
+        {/if}
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='whoCanView'}</div>
+            <div class="owm_form_field_value">{input name='whoCanView'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='whoCanView'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='whoCanInvite'}</div>
+            <div class="owm_form_field_value">{input name='whoCanInvite'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='whoCanInvite'}</div>
+    </div>
+    {if isset($hasChannelEnable)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='whoCanCreateContent'}</div>
+            <div class="owm_form_field_value">{input name='whoCanCreateContent'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='whoCanCreateContent'}</div>
+    </div>
+    {/if}
+    {if isset($hasUploadFile)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='whoCanUploadInFileWidget'}</div>
+            <div class="owm_form_field_value">{input name='whoCanUploadInFileWidget'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='whoCanUploadInFileWidget'}</div>
+    </div>
+    {/if}
+    {if isset($hasCreateTopic)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='whoCanCreateTopic'}</div>
+            <div class="owm_form_field_value">{input name='whoCanCreateTopic'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='whoCanCreateTopic'}</div>
+    </div>
+    {/if}
+    {if isset($hasCategoryFilter)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{text key='iisgroupsplus+select_category'}</div>
+            <div class="owm_form_field_value">{input name='categoryStatus'}</div>
+        </div>
+    </div>
+    {/if}
+    {if isset($hasReportElement)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='reportEnableStatus'}</div>
+            <div class="owm_form_field_value">
+                {input name='reportEnableStatus'}
+                {text key='iisreport+semester_report'}
+            </div>
+        </div>
+    </div>
+    {/if}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">
+            </div>
+            <div class="owm_form_field_value">
+                {submit name='save' class='ow_ic_new'}
+                {decorator name="button" class="ow_ic_delete ow_red ow_negative" langLabel="groups+delete_group_label" id="groups-delete_btn"}
+            </div>
+        </div>
+    </div>
+    {/form}
+</div>
+
+<script type="text/javascript">
+    {literal}
+    $('#deleteGroupImg').click(function(){
+        $("#deleteGroupImage").val(1);
+        $( "#groupImageDiv" ).remove();
+    });
+    {/literal}
+</script>

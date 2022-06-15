@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="groups" label="Groups" language_tag="en" language_label="English">
+	<key name="mobile_main_menu_list">
+        <value>
+            Group
+        </value>
+    </key>
+</prefix>

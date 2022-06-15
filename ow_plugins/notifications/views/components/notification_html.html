@@ -1,0 +1,69 @@
+<style>
+
+div ul li:last-child{
+    border-bottom: none !important;
+}
+
+p a,
+ul li a{
+    text-decoration: none;
+}
+
+</style>
+
+
+<div style="font-size:13px;font-family:Lucida Grande,Verdana;">
+    <div style="font-family: tahoma;font-size: 15px;font-weight: bold;color: #555;max-width: 900px;margin: auto;">
+        <p>
+            <a style="text-decoration: none" href="{$userUrl}">
+                {text key="notifications+email_html_head" userName=$userName}
+            </a>
+        </p>
+    </div>
+    <div style="font-family: tahoma;text-align: center;font-size: 18px;color: #555;">
+        <p  style="text-decoration: none" >
+            {text key="notifications+email_html_description"}
+        </p>
+    </div>
+
+    {foreach name=notifications_list from=$items item=section key=time}
+        <div  style="border-radius:3px;background-color:#fff;max-width: 900px;margin: auto;padding: 1px;box-shadow: 0 0 7px #cacaca;">
+        <div style="font-family:tahoma;margin-right: 15px;margin-top: 10px; color: #555 !important;font-weight: bold;">{$time|simple_date:$time:true}</div>
+        <ul style="padding-right: 20px;">
+            {foreach from=$section item=item}
+                <li style="padding:10px;list-style-type:none;margin:10px;list-style-position:outside;max-width:100%;border-radius:2px;border-bottom: 1px #d9d9d9 solid;font-family:tahoma;">
+                    <div style="display: inline-block; word-wrap: break-word; vertical-align: top; width:90%;">
+                        <div style="font-size: 16px;padding-bottom: 15px;color: #555 !important;">{$item.string}</div>
+                        {if $item.content}
+                            <div style="font-size: 16px;color:#666;padding-bottom: 5px;"><a  style="text-decoration: none" >"</a>{$item.content}<a  style="text-decoration: none" >"</a></div>
+                        {/if}
+                    </div>
+
+                    <div style="display: inline-block; width: 40px; word-wrap: break-word; vertical-align: top;">
+                        {if !empty($item.contentImage.src)}
+                            {if !empty($item.contentImage.url)}
+                                <a  style="text-decoration: none"  href="{$item.contentImage.url}">
+                            {/if}
+                            <img src="{$item.contentImage.src}" width="40" {if !empty($item.contentImage.title)}title="{$item.contentImage.title}"{/if}>
+                            {if !empty($item.contentImage.url)}
+                                </a>
+                            {/if}
+                        {/if}
+                    </div>
+                </li>
+            {/foreach}
+
+        </ul>
+        </div>
+    {/foreach}
+    <p style="text-align: center;direction: ltr;">
+        {text key="notifications+email_html_bottom" my_site_url=$my_site_url}
+    </p>
+    <div style="text-align:center;font-family:tahoma;padding-top: 40px;">
+        {if $single}
+        <a  style="text-decoration: none;padding: 0px 10px 0px 10px;" href="{$unsubscribeUrl}">{text key="notifications+unsubscribe_one_label"}</a> |
+        {/if}
+        <a  style="text-decoration: none;padding: 0px 10px 0px 10px;" href="{$settingsUrl}">{text key="notifications+settings_edit_label"}</a> |
+        <a  style="text-decoration: none;padding: 0px 10px 0px 10px;" href="{$unsubscribeAllUrl}">{text key="notifications+unsubscribe_all_label"}</a>
+    </div>
+</div>

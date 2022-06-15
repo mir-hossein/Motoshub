@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnewsfeedplus" label="iisnewsfeedplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="edit_post">
+        <value>
+            ویرایش متن
+        </value>
+    </key>
+    <key name="edit_post_successfully">
+        <value>
+            با موفقیت ویرایش شد
+        </value>
+    </key>
+	    <key name="group_list_select_count_label">
+        <value>
+            #count# گروه انتخاب شده
+        </value>
+    </key>
+	    <key name="group_select_empty_list_message">
+        <value>
+            برای ادامه دادن لازم است یک یا چند گروه را انتخاب کنید
+        </value>
+    </key>
+	    <key name="forward_post">
+        <value>
+            ارسال
+        </value>
+    </key>
+	    <key name="search_groups">
+        <value>
+            جستجو
+        </value>
+    </key>
+	    <key name="group_list_select_button_label">
+        <value>
+            ارسال
+        </value>
+    </key>
+	    <key name="error_in_forward_progress">
+        <value>
+            خطا در ارسال مطلب
+        </value>
+    </key>
+    <key name="groups_invite_success_message">
+        <value>
+         مطلب برای {$count} گروه ارسال شد
+        </value>
+    </key>
+    <key name="forward_to_group">
+        <value>
+            ارسال به گروه
+        </value>
+    </key>
+    <key name="source_user_information">
+        <value>
+            (بازارسال محتوای &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt;)
+        </value>
+    </key>
+    <key name="forward_to_user">
+        <value>
+            ارسال به کاربر
+        </value>
+    </key>
+    <key name="users_forward_success_message">
+        <value>
+            مطلب برای {$count} کاربر ارسال شد
+        </value>
+    </key>
+	<key name="file_show">
+        <value>
+           نمایش به عنوان فایل
+        </value>
+    </key>
+	<key name="preview_show">
+        <value>
+            پیش‌نمایش
+        </value>
+    </key>
+
+    <key name="admin_settings_heading">
+        <value>
+           تنظیمات افزونه تازه‌هاپلاس
+        </value>
+    </key>
+    <key name="sort_by_activity">
+        <value>
+             زمان آخرین فعالیت
+        </value>
+    </key>
+    <key name="sort_by_action">
+        <value>
+           زمان ایجاد
+        </value>
+    </key>
+    <key name="sort_by">
+        <value>
+           مرتب‌سازی براساس
+        </value>
+    </key>
+    <key name="newsfeed_list_display_order">
+        <value>
+           انتخاب نحوه مرتب‌سازی مطالب تازه‌ها در داشبورد
+        </value>
+    </key>
+    <key name="modified_successfully">
+        <value>
+           تغییرات با موفقیت ذخیره شد
+        </value>
+    </key>
+    <key name="admin_allow_sort_label">
+        <value>
+            اجازه دادن به کاربران برای تعیین ترتیب تازه‌ها
+        </value>
+    </key>
+    <key name="download">
+        <value>
+            دریافت
+        </value>
+    </key>
+</prefix>

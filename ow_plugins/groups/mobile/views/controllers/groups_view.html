@@ -1,0 +1,164 @@
+<script type="text/javascript">
+    {literal}
+    function GROUPS_InitInviteButton( options )
+    {
+        var floatBox, userIdList = options.userList;
+
+        $(document).on('click', '#GROUPS_InviteLink', function() {
+                    floatBox = OW.ajaxFloatBox('BASE_CMP_AvatarUserListSelect', [userIdList],
+                            {
+                                width:600,
+                                height:350,
+                                iconClass: 'ow_ic_user',
+                                title: options.floatBoxTitle
+                            })
+                });
+
+        OW.bind('base.avatar_user_list_select',
+                function(list)
+                {
+                    floatBox.close();
+
+                    $.ajax({
+                        type: 'POST',
+                        url: options.inviteResponder,
+                        data: {"groupId": options.groupId, "userIdList": JSON.stringify(list), "allIdList": JSON.stringify(options.userList)},
+                        dataType: 'json',
+                        success : function(data)
+                        {
+                            if( data.messageType == 'error' )
+                            {
+                                OW.error(data.message);
+                            }
+                            else if( data.directAdd ){
+                                document.location = data.url;
+                            }
+                            else
+                            {
+                                OW.info(data.message);
+                                userIdList = data.allIdList;
+                            }
+                        }
+                    });
+                }
+        );
+    }
+
+    {/literal}
+</script>
+<div class="owm_group_view">
+    {if !empty($permissionMessage)}
+    <div class="owm_info owm_anno">
+        {$permissionMessage}
+    </div>
+    {else}
+    <div class="owm_list_item_view_title  clearfix owm_nav_cap owm_nav_cap_left_cont owm_nav_cap_right_cont owm_bg_color_3">
+        <div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+        </div>
+        <div class="owm_box_heading_btns">
+            {if isset($joinUrl)}
+                <div class="group_invite">
+                    <a href="{$joinUrl}" onclick="return confirm_redirect('{text key="groups+join_group_confirm"}','{$joinUrl}');" style="font-size: 100%;">
+                    <img src="{$joinGroupIcon}" alt="" style="height: 25px;">
+                    </a>
+                 </div>
+            {/if}
+            {if isset($forumConnected) && $forumConnected==true}
+            <div class="group_forum">
+                {decorator name='button' class='ow_ic_add OWM_GROUPS_ForumLink' type='button' langLabel='groups+forum_btn_label' id='GROUPS_ForumLink'}
+            </div>
+            {script}
+                {literal}
+                    $('#GROUPS_ForumLink').click(function(){location.href='{/literal}{url_for_route for="group-default:[groupId=>`$forumGroupId`]"}{literal}'})
+                {/literal}
+            {/script}
+            {/if}
+        </div>
+        <h4>
+            {text key="base+back"}
+        </h4>
+    </div>
+    <div class="owm_brief_info owm_widget_hidden" style="margin-top:10px">
+        {$groupBriefInfo}
+    </div>
+    <div class="owm_view_user_list owm_widget_hidden" >
+        {block_decorator name='box'
+        capEnabled=$userBoxInformation.show_title
+        iconClass=$userBoxInformation.icon
+        label=$userBoxInformation.title
+        capAddClass="ow_dnd_configurable_component clearfix"
+        type=$userBoxInformation.type
+        addClass="ow_stdmargin clearfix"}
+            <div class="owm_box_empty ow_no_cap" style="padding: 10px;">
+                {$groupUserInfo}
+            </div>
+            <div class="owm_box_toolbar">
+                {if isset($viewAll)}
+                <span class="ow_nowrap">
+                        {if isset($viewAll.href)}<a href="{$viewAll.href}">{/if}
+                        {$viewAll.label}
+                        {if isset($viewAll.href)}</a>{/if}
+                    </span>
+                {/if}
+            </div>
+        {/block_decorator}
+
+    </div>
+    {if isset($groupFileList)}
+    <div class="owm_view_file_list owm_widget_hidden" >
+        {block_decorator name='box'
+        capEnabled=$fileBoxInformation.show_title
+        iconClass=$fileBoxInformation.icon
+        label=$fileBoxInformation.title
+        capAddClass="ow_dnd_configurable_component clearfix"
+        type=$fileBoxInformation.type
+        addClass="ow_stdmargin clearfix"}
+        <div style="text-align:center">
+            {$groupFileList}
+        </div>
+        <div class="owm_box_toolbar">
+            {if isset($view_all_files)}
+                <span class="ow_nowrap">
+                        {if isset($view_all_files.href)}<a href="{$view_all_files.href}">{/if}
+                        {$view_all_files.label}
+                        {if isset($view_all_files.href)}</a>{/if}
+                </span>
+            {/if}
+        </div>
+        {/block_decorator}
+
+    </div>
+    {/if}
+    {if isset($groupReports)}
+    <div class="owm_iisreport_widget owm_widget_hidden">
+        {block_decorator name='box'
+        capEnabled=$reportBoxInformation.show_title
+        iconClass=$reportBoxInformation.icon
+        label=$reportBoxInformation.title
+        capAddClass="ow_dnd_configurable_component clearfix"
+        type=$reportBoxInformation.type
+        addClass="ow_stdmargin clearfix"}
+        <div>
+            {$groupReports}
+        </div>
+        {/block_decorator}
+
+    </div>
+    {/if}
+
+    {if isset($leave)}
+    <div class="owm_box owm_group_left">
+            <span class="ow_nowrap">
+                {if isset($leave.href)}<a href="{$leave.href}">{/if}
+                {$leave.label}
+                {if isset($leave.href)}</a>{/if}
+            </span>
+    </div>
+    {/if}
+
+    <div>
+        {$feed}
+    </div>
+    {/if}
+</div>

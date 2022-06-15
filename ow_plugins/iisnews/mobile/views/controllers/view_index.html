@@ -1,0 +1,44 @@
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_nav_cap_right_cont owm_bg_color_3 owm_border clearfix">
+    {if isset($canEdit) && $canEdit==true}
+    <div class="owm_box_heading_btns">
+        <a class="owm_btn_class_2 edit_link" href="{$editNews.href}" >{$editNews.label}</a>
+        <a class="owm_btn_class_3 delete_link" href="{$deleteNews.href}" onclick="{$deleteNews.click}" >{$deleteNews.label}</a>
+    </div>
+    {/if}
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="{$urlForBack}"></a>
+    </div>
+    <h3>
+        {text key="base+back"}
+    </h3>
+</div>
+<div class="owm_iisnews_view owm_list_item_view clearfix">
+    <div class="owm_list_item_view_header clearfix">
+        {if !empty($imgsrc)}
+            <img class="owm_list_item_view_header_img" src="{$imgsrc}" />
+        {/if}
+        <span class="owm_list_item_view_title">{$newsTitle}</span>
+        <span class="owm_list_item_view_date">{format_date timestamp=$info.dto->timestamp}</span>
+    </div>
+
+    <div class="owm_list_item_view_body">
+        <div class="owm_list_item_view_body_text clearfix">
+            {$info.dto->entry}
+        </div>
+    </div>
+    <div class="owm_list_item_view_footer">
+        <div class="owm_list_item_view_paging ow_stdmargin">
+            <center>{$paging}</center>
+        </div>
+        {if isset($tags)}
+        <div class="owm_list_footer_tags">
+            <span>
+                {text key='iisnews+tags'} {$tags}
+            </span>
+        </div>
+        {/if}
+    </div>
+</div>
+<div class="owm_box news_view_comments {if isset($iismenu_active)} iismenu-active {/if}">
+    {$comments}
+</div>

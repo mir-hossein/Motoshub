@@ -1,0 +1,97 @@
+{$menu}
+
+<div id="list-table" class="owm_table_2 owm_divTable " align="center">
+	{if count($list) > 0}
+	<div class="owm_divTableBody ">
+		<div class="owm_divTableRow">
+			<div class="owm_divTableCell owm_divTableCellTopChild "  id="blog-post-title"><p>{text key="blogs+manage_page_post_title"}</p></div>
+			<div class="owm_divTableCell owm_divTableCellTopChild " id="blog-post-date"><p>	{text key="blogs+manage_page_last_updated"}</p></div>
+			<div class="owm_divTableCell owm_divTableCellTopChild" id="blog-post-status"><p>	{text key="blogs+manage_page_status"}</p></div>
+			<div class="owm_divTableCell owm_divTableCellTopChild  " id="blog-post-action" style=" margin-top:0px;"><p>{text key="blogs+manage_comment_page_actions"}</p></div>
+		</div>
+
+
+		{foreach from=$list item='post' name='post'}
+
+		<div class="owm_divTableRow">
+			<div class="owm_divTableCell owm_handle_large owm_divTableCellBottomChild" >
+				<a class="owm_post_a" href="{url_for_route for="post:[id=>`$post->id`]"}">
+					{$post->title}
+				</a>
+			</div>
+			<div class="owm_divTableCell owm_divTableCellBottomChild" ><p>{format_date timestamp=$post->timestamp}</p>
+			</div>
+			<div class="owm_divTableCell owm_divTableCellBottomChild"><p>{$status}</p>
+			</div>
+			<div class="owm_divTableCell owm_divTableCellBottomChild">
+				<div >
+					<a href="{url_for_route for="post-save-edit:[id=>`$post->id`]"}?back-to={$thisUrl}" class="ow_lbutton">{text key="base+edit"}</a>
+					{if isset($codes[$post->id])}
+					<a href="{url_for for="BLOGS_MCTRL_Save:delete:[id=>`$post->id`,code=>`$codes[$post->id]`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='blogs+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{else}
+					<a href="{url_for for="BLOGS_MCTRL_Save:delete:[id=>`$post->id`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='blogs+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{/if}
+				</div>
+			</div>
+		</div>
+		{/foreach}
+	{else}
+	<div class="owm_tr_last">
+		<div class="owm_center"><p>{text key='blogs+no_posts'}</p></div>
+	</div>
+	{/if}
+	</div>
+
+
+	{if count($list) > 0}
+	<div class="owm_divTableBody_220 ">
+		{foreach from=$list item='post' name='post'}
+
+		<div class="owm_divTableRow">
+			<div class="owm_divTableCell owm_divTableCellTopChild " ><p>{text key="blogs+manage_page_post_title"}</p></div>
+			<div class="owm_divTableCell owm_divTableCellTopChild owm_handle_large"><a class="owm_post_a" href="{url_for_route for="post:[id=>`$post->id`]"}">
+				{$post->title}
+			</a> </div>
+		</div>
+
+		<div class="owm_divTableRow">
+			<div class="owm_divTableCell "  >	<p>{text key="blogs+manage_page_last_updated"}</p></div>
+			<div class="owm_divTableCell "  ><p>{format_date timestamp=$post->timestamp}</p>	</div>
+
+		</div>
+
+		<div class="owm_divTableRow">
+			<div class="owm_divTableCell"><p>{text key="blogs+manage_page_status"}</p></div>
+			<div class="owm_divTableCell"><p>{$status}</p></div>
+
+		</div>
+
+		<div class="owm_divTableRow">
+			<div class="owm_divTableCell owm_divTableCellBottomChild" style=" margin-top:0px;"><p>{text key="blogs+manage_comment_page_actions"}</p></div>
+			<div class="owm_divTableCell owm_divTableCellBottomChild ">
+				<div >
+					<a href="{url_for_route for="post-save-edit:[id=>`$post->id`]"}?back-to={$thisUrl}" class="ow_lbutton">{text key="base+edit"}</a>
+					{if isset($codes[$post->id])}
+					<a href="{url_for for="BLOGS_MCTRL_Save:delete:[id=>`$post->id`,code=>`$codes[$post->id]`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='blogs+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{else}
+					<a href="{url_for for="BLOGS_MCTRL_Save:delete:[id=>`$post->id`]"}?back-to={$thisUrl}" onclick="return confirm('{text key='blogs+are_you_sure'}');" class="ow_lbutton ow_red">{text key="base+delete"}</a>
+					{/if}
+				</div>
+			</div>
+		</div>
+		<br/>
+
+		{/foreach}
+		{else}
+		<div class="owm_tr_last">
+			<div class="owm_center owm_divTableBody_220"><p>{text key='blogs+no_posts'}</p></div>
+		</div>
+		{/if}
+	</div>
+
+
+
+</div>
+
+<br />
+{$paging}

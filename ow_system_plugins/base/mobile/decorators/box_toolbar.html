@@ -1,0 +1,14 @@
+<div class="owm_box_toolbar">
+{foreach from=$data.itemList item='item' name='toolbar'}    
+    {capture name="toolbarCommonAttrs"} {if !empty($item.id)}id="{$item.id}"{/if} {if isset($item.click)} onclick="{$item.click}"{/if} style="{if isset($item.display)}display: {$item.display}{/if}" {if !empty($item.class)} {$item.class}"{/if} {if isset($item.title)} title="{$item.title}"{/if} {if !empty($item.extraAttr)} {$item.extraAttr}"{/if}{/capture}
+
+    {if isset($item.href)}
+        <a {$smarty.capture.toolbarCommonAttrs} {if !empty($item.rel)}rel="{$item.rel}"{/if} href="{$item.href}">
+            <span>{$item.label}</span>
+        </a>
+    {else}
+        <span {$smarty.capture.toolbarCommonAttrs}>{$item.label}</span>
+    {/if}
+{/foreach}
+</div>
+

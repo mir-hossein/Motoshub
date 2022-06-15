@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisoghat" label="iisoghat" language_tag="en" language_label="English">
+    <key name="main_menu_item">
+        <value>
+            Patent
+        </value>
+    </key>
+    <key name="Azan_am">
+        <value>
+            Azan am
+        </value>
+    </key>
+    <key name="Time_horizon">
+        <value>
+            Time horizon
+        </value>
+    </key>
+    <key name="Sunrise">
+        <value>
+            Sunrise
+        </value>
+    </key>
+    <key name="Azan_pm">
+        <value>
+            Azan pm
+        </value>
+    </key>
+    <key name="Sunset">
+        <value>
+            Sunset
+        </value>
+    </key>
+    <key name="azan_maghreb">
+        <value>
+            Azan maghreb
+        </value>
+    </key>
+    <key name="until">
+        <value>
+            until
+        </value>
+    </key>
+    <key name="Azan_am_time_horizon">
+        <value>
+            Azan am time horizon
+        </value>
+    </key>
+    <key name="Azan_pm_time_horizon">
+        <value>
+            Azan pm time horizon
+        </value>
+    </key>
+    <key name="azan_maghreb_time_horizon">
+        <value>
+            Azan maghreb time horizon
+        </value>
+    </key>
+</prefix>

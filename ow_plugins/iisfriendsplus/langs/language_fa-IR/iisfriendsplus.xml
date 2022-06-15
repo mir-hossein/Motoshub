@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisfriendsplus" label="iisfriendsplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="all_users_label">
+        <value>
+            بررسی برقراری ارتباط تمامی کاربران
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            تنظیمات افزونه دوستان پلاس
+        </value>
+    </key>
+    <key name="saved_successfully">
+        <value>
+            با موفقیت ذخیره شد
+        </value>
+    </key>
+    <key name="all_users_friends_successfully">
+        <value>
+            برقراری ارتباط برای تمامی کاربران بررسی و اعمال شد
+        </value>
+    </key>
+    <key name="manage_all_users">
+        <value>
+            با کلیک بر روی دکمه زیر، بین تمامی کاربران (کاربرانی که تا کنون ثبت‌نام نموده‌اند) و کاربرانی که عضو نقش‌های انتخابی باشند، ارتباط برقرار خواهد شد
+        </value>
+    </key>
+    <key name="choose_roles_to_friend_description">
+        <value>
+            نقش‌هایی که قصد برقرای ارتباط کاربران با آن‌ها را دارید، انتخاب کنید. کاربرانی که ثبت‌نام کنند، با کاربرانی که عضو نقش‌های انتخابی باشند، ارتباط خواهند داشت.
+        </value>
+    </key>
+</prefix>

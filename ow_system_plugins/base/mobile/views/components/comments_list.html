@@ -1,0 +1,29 @@
+{style}
+    .ca-dropdown {
+        display: none;
+    }
+{/style}
+<div id="{$cmpContext}">
+    {if $countToLoad > 0}
+    <div class="owm_newsfeed_comment_load_more cmnt_load_more_cont owm_sidebar_load_more_with_text">+{$countToLoad} {text key='base+more'} </div>
+    {/if}
+    <div class="owm_newsfeed_comment_list">
+        {foreach from=$comments item='comment'}
+        <div class="owm_newsfeed_comment_item clearfix">
+            <div class="cnx_action">{$comment.cnxAction}</div>
+            <div class="owm_newsfeed_comment_thumb">{decorator name='avatar_item' data=$comment.avatar}</div>
+            <div class="owm_newsfeed_comment_info">
+                <div class="owm_newsfeed_comment_author"><b><a href="{$comment.profileUrl}">{$comment.displayName}</a></b></div>
+                <div class="owm_newsfeed_comment_txt">
+                    {if !empty($comment.previewMaxChar)}
+                    {$comment.content|more:$comment.previewMaxChar}
+                    {else}
+                    {$comment.content}
+                    {/if}</div>{$comment.content_add}
+                <div class="owm_newsfeed_comment_date">{$comment.date}</div>
+            </div>
+            {if !empty($comment.voteCmp)}<div class="comment_like_dislike_container">{$comment.voteCmp}</div>{/if}
+        </div>
+        {/foreach}
+    </div>
+</div>

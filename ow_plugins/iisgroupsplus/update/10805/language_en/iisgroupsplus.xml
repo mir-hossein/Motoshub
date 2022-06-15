@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisgroupsplus" label="iisgroupsplus" language_tag="en" language_label="English">
+	<key name="delete_user_as_manager_success_message">
+        <value>
+                User is not manager anymore
+        </value>
+    </key>
+    <key name="add_user_as_manager_success_message">
+        <value>
+                user is now group manager
+        </value>
+    </key>
+    <key name="remove_group_user_manager_label">
+        <value>
+                remove user from manager
+        </value>
+    </key>
+    <key name="delete_group_user_confirmation">
+        <value>
+                are you sure?
+        </value>
+    </key>
+    <key name="add_group_user_as_manager_label">
+        <value>
+                assign user manager
+        </value>
+    </key>
+    <key name="group_owner_delete_error">
+        <value>
+                manager role can not be removed from owner of a group
+        </value>
+    </key>
+
+</prefix>

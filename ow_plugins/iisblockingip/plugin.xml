@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>مسدود کردن کاربران ناهنجار</name>
+    <key>iisblockingip</key>
+    <description>در صورت نادرست وارد کردن عبارت امنیتی در فرم ورود و فرم ثبت‌نام، کاربران ناهنجار شناسایی شده و برای مدت زمان معلومی، مسدود می‌شوند.</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10805</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+    <plan>2</plan>
+</plugin>

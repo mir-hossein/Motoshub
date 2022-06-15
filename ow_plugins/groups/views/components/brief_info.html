@@ -1,0 +1,33 @@
+{style}{literal}
+
+.ow_group_users_view li {
+    border-right: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.ow_group_users_view li:last-child {
+    border-right: 0px;
+}
+.ow_group_users_view li:lang(fa-IR) {
+    border-right: 0px;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.ow_group_users_view li:last-child:lang(fa-IR) {
+    border-left: 0px;
+}
+
+{/literal}{/style}
+<div class="group_forum_widget">
+{block_decorator name='box'
+    capEnabled=$box.show_title
+    iconClass=$box.icon
+    label=$box.title
+    capAddClass="ow_dnd_configurable_component clearfix"
+    type=$box.type
+    addClass="ow_stdmargin clearfix ow_group_users_view"}
+
+    {$content}
+{/block_decorator}
+</div>

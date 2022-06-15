@@ -1,0 +1,22 @@
+{style}
+{literal}
+#group_leave_link
+{
+display: none;
+}
+.group-GROUPS_CMP_JoinButtonWidget .ow_highbox {
+background-color: transparent;
+box-shadow: none;
+}
+{/literal}
+{/style}
+
+{script}
+$groupJoinUrl=$('#group_join_link')[0]['href']
+$('input.group_join_button').attr('onclick','return confirm_redirect("{text key="groups+join_group_confirm"}", $groupJoinUrl);');
+{/script}
+
+<div class="ow_highbox ow_center">
+    <a id="group_join_link" href="{$actionUrl}"></a>
+    {decorator name='button' class='ow_ic_add group_join_button' type='button' langLabel='groups+widget_join_button'}
+</div>

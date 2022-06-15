@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnewsfeedpin" label="iisoghat" language_tag="fa-IR" language_label="فارسی">
+    <key name="pin_button_label">
+        <value>
+            برجسته کردن
+        </value>
+    </key>
+    <key name="life_span_label">
+        <value>
+            طول عمر برجسته بودن (به روز)
+        </value>
+    </key>
+    <key name="un_pin_button_label">
+        <value>
+            حذف از برجسته‌ها
+        </value>
+    </key>
+    <key name="delete_label">
+        <value>
+            حذف از برجسته‌ها
+        </value>
+    </key>
+    <key name="apply_label">
+        <value>
+            اعمال تغییرات
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            تنظیمات افزونه برجسته کردن تازه‌ها
+        </value>
+    </key>
+    <key name="max_pin_number">
+        <value>
+            حداکثر تعداد آیتم‌های برجسته شده برای نمایش
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="delete_fail">
+        <value>
+            حذف از برجسته‌ها موفقیت‌آمیز نبود
+        </value>
+    </key>
+    <key name="delete_success">
+        <value>
+            حذف از برجسته‌ها موفقیت‌آمیز بود
+        </value>
+    </key>
+    <key name="add_fail">
+        <value>
+            برجسته کردن موفقیت‌آمیز نبود
+        </value>
+    </key>
+    <key name="add_success">
+        <value>
+            برجسته کردن موفقیت‌آمیز بود
+        </value>
+    </key>
+
+    <key name="top_pin_title">
+        <value>
+            برجسته شده‌ها
+        </value>
+    </key>
+    <key name="list_menu_item_all">
+        <value>
+            همه
+        </value>
+    </key>
+    <key name="list_menu_item_pins">
+        <value>
+            برجسته‌ها
+        </value>
+    </key>
+    <key name="pin_setting">
+        <value>
+            تنظیم برجستگی
+        </value>
+    </key>
+</prefix>

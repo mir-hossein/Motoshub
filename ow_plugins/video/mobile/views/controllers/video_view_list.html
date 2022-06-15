@@ -1,0 +1,13 @@
+<div class="clearfix">{add_content key='video.add_content.list.top' listType=$listType}</div>
+
+{if $showAddButton}
+    <div class="owm_box_heading_btns">
+        <input type="button" id='btn-add-new-video' class="owm_add_photo ow_ic_add owm-btn-add-new-video" style="border: none;" />
+    </div>
+{/if}
+
+{add_content key='video.content.list.after_menu' listType=$listType}
+
+{component class='VIDEO_MCMP_VideoList' type=$listType count=5}
+
+{add_content key='video.content.list.bottom' listType=$listType}

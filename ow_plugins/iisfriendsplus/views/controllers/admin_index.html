@@ -1,0 +1,53 @@
+<p>
+    {text key="iisfriendsplus+choose_roles_to_friend_description"}
+</p>
+
+<div class="ow_std_margin clearfix">
+    {form name='form_roles'}
+    <table class="ow_table_1 ow_form" style="margin: 0">
+        <tbody>
+        <tr class="ow_alt1">
+            <td colspan="2" class="ow_label">
+                {text key="admin+sidebar_menu_item_permission_role"}
+            </td>
+        </tr>
+        {foreach name="roles" from=$set item='item'}
+        {assign var='roleFieldId' value=$item.roleFieldId}
+        <tr class="ow_alt1">
+            <td width="1" class="ow_label">
+                {label name=$roleFieldId}
+            </td>
+            <td class="ow_value">
+                {input name=$roleFieldId}
+                {error name=$roleFieldId}
+            </td>
+        </tr>
+        {/foreach}
+        <tr class="ow_tr_last ow_center">
+            <td colspan="3">
+                {submit name='submit'}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    {/form}
+</div>
+
+<div class="ow_std_margin clearfix">
+    {form name='manage_all_users'}
+    <table class="ow_table_1 ow_form" style="margin: 0">
+        <tbody>
+        <tr class="ow_alt1">
+            <td colspan="2" class="ow_label">
+                {text key="iisfriendsplus+manage_all_users"}
+            </td>
+        </tr>
+        <tr class="ow_tr_last ow_center">
+            <td colspan="3">
+                {submit name='submit'}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    {/form}
+</div>

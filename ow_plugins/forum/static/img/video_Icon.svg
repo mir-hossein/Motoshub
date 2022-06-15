@@ -1,0 +1,18 @@
+<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="92" width="92" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="big_play">
+   <g stroke="null" id="big_play_-_light">
+    <g stroke="null" opacity="0.75" id="Polygon-8">
+     <path stroke="null" id="svg_38" fill=" #fff" d="m68.165697,42.795789a1.211428,1.211428 0 0 1 0,2.285714l-34.605705,19.988566c-1.142857,0.628571 -1.977142,0.114286 -1.977142,-1.142857l0,-39.999989c0,-1.257143 0.891428,-1.771428 1.977142,-1.142857l34.605705,20.011423z"/>
+    </g>
+    <path stroke=" #fff" fill=" none" stroke-width=" 5px" opacity="0.75" d="m2.142858,45.081503a42.857131,42.857131 0 1 1 42.857131,42.857131a42.857131,42.857131 0 0 1 -42.857131,-42.857131z" id="Ellipse"/>
+   </g>
+  </g>
+ </g>
+</svg>

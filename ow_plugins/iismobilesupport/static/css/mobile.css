@@ -1,0 +1,15 @@
+.owm_nav_menu{
+    display: none !important;
+}
+
+.owm_nav_back{
+    display: block !important;
+}
+
+img.scroll_top_newsfeed_status_input {
+    position: relative;
+    width: 28px;
+    top: -32px;
+    left: 4px;
+    float: left;
+}

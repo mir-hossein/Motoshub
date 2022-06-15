@@ -1,0 +1,343 @@
+.tabs {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+.tabs-style-underline nav {
+    background: #fff;
+}
+
+.tabs-style-top-stick {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 5;
+}
+
+.tabs nav {
+    text-align: center;
+}
+
+.tabs nav ul {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.tabs nav ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 100px;
+    height: 46px;
+}
+.tabs nav ul li a:first-child img{
+    margin-top: 0px;
+}
+
+.tabs nav li.tab-current a span{
+    font-size: 70%;
+}
+
+.tabs-style-underline li {
+    border-left: 1px solid #e7ecea;
+}
+
+.tabs .iismainpage img {
+    max-height: 25px;
+    margin-top: 3px;
+}
+
+.tabs-style-underline nav a.title {
+    padding: 0px 0 8px;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.tabs nav.iismainpage a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1;
+    padding: 9px 0 4px 0;
+}
+.tabs nav.iismainpage .tab-current a {
+}
+
+.tabs-style-underline nav a span {
+    font-weight: 700;
+}
+
+.tabs nav a span {
+    vertical-align: middle;
+    font-size: 65%;
+    line-height: 23px;
+}
+
+.tabs-style-underline nav li a.title::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    content: '';
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    -mozborder-top-right-radius: 15px;
+    -mozborder-top-left-radius: 15px;
+    -webkitborder-top-right-radius: 15px;
+    -webkitborder-top-left-radius: 15px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: translate3d(0,150%,0);
+    transform: translate3d(0,150%,0);
+}
+
+.tabs-style-underline nav li.tab-current a.title::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.tabs .iismainpage .tab-current img {
+    max-width: 25px;
+    height: 25px;
+    display: initial;
+    visibility: hidden;
+}
+
+.iismainpage.ow_lp_avatars {
+    margin-top: 10px;
+}
+
+.owm_sidebar_profile_btn.owm_find_friends_btn {
+    margin: 0px;
+}
+
+.iismainpage .owm_list_page,
+.iismainpage#settings_page {
+    margin: 6px !important;
+}
+.iismainpage#dashboard_page .owm_content_menu_wrap,
+.iismainpage#dashboard_page .owm_content_menu li
+{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.iismainpage .group {
+    width: 94%;
+    border: solid 1px lightgray;
+    margin: 1%;
+    padding: 1%;
+    text-align: right;
+}
+
+.iismainpage#usergroups_page .ow_ipc_toolbar.ow_remark {
+    padding: 0px 10px 0 50px;
+}
+.iismainpage#usergroups_page .ow_ipc_toolbar.ow_remark:lang(fa-IR) {
+    padding: 0px 50px 0 10px;
+}
+
+.iismainpage#usergroups_page .owm_list_item_with_image .ow_ipc_toolbar span.ow_nowrap {
+    background-color: #e4e0e0;
+    padding: 0px 4px;
+    margin-left: 2px;
+}
+
+.iismainpage a span span.owm_sidebar_count_txt {
+    font-size: 100%;
+}
+.iismainpage span.owm_sidebar_count {
+    padding: 0px 1px 1px 1px !important;
+    position: absolute;
+    left: 2px !important;
+    top: 1px !important;
+    line-height: 1 !important;
+}
+.iismainpage .owm_user_list_item .owm_newsfeed_date {
+    border: none;
+}
+.iismainpage span.owm_sidebar_count {
+    position: absolute;
+    left: 2px !important;
+    top: 1px !important;
+    padding-top: 0px !important;
+    padding-bottom: 1px !important;
+    padding-left: 1px !important;
+    line-height: 1 !important;
+}
+.iismainpage .owm_profile_online {
+    top: 8px !important;
+}
+.iismainpage .owm_user_list_preloader {
+    visibility: hidden;
+    float: left;
+    width: 100%;
+}
+.iismainpage .owm_user_list_item {
+    padding-right: 10px !important;
+    padding-top: 0px !important;
+    padding-bottom: 14px !important;
+}
+.iismainpage .owm_user_list_item:lang(fa-IR) {
+    padding-right: 52px !important;
+    padding-left: 0px !important;
+}
+.iismainpage .owm_list_item_with_image {
+    font-size: 15px;
+}
+
+.iismainpage .owm_user_list_item .owm_btn_list .owm_btn_list_item_wrap.owm_float_right:lang(fa-IR){
+    float: right;
+}
+.iismainpage .owm_user_list_item .owm_btn_list .owm_btn_list_item {
+    line-height: initial;
+    padding: 3px;
+}
+.iismainpage .owm_user_list_item .owm_btn_list .owm_btn_list_item span {
+    height: auto;
+}
+
+.iismainpage .owm_user_list_item .owm_avatar {
+    margin-right: -48px;
+}
+.iismainpage .owm_user_list_item .owm_avatar img {
+    margin-top: 7px;
+}
+
+.iismainpage .owm_sidebar_profile_block {
+    padding: 3px 3px;
+}
+
+.iismainpage a.owm_sidebar_profile_btn.owm_find_friends_btn {
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px 32px;
+}
+
+.tabs .iismainpage .tab-current a:first-child {
+    height: auto !important;
+    margin-top: 5px !important;
+}
+
+.iismainpage .owm_user_list .owm_content_list_item .owm_user_list_item .owm_profile_online:lang(fa-IR) {
+    position: relative;
+    float: right;
+    right: auto;
+    left: auto;
+    margin-top: 19px;
+}
+
+.iismainpage .notifications_page h3{
+    display: none;
+}
+
+.iismainpage .notifications_page li.owm_sidebar_msg_item.clearfix,
+.iismainpage .owm_list_item_with_image,
+.iismainpage .owm_newsfeed_item_cont,
+.iismainpage .owm_list_search
+{
+    margin: 0px 0px 3px 0px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.iismainpage .notifications_page li.owm_sidebar_msg_item.clearfix,
+.iismainpage .owm_list_item_with_image,
+.iismainpage .owm_list_search
+{
+    padding: 6px;
+}
+.iismainpage#dashboard_page .owm_newsfeed_item {
+    margin: 0px 0px 3px 0px;
+}
+
+.iismainpage .notifications_page .owm_sidebar_msg_block_cap {
+    display: none;
+}
+
+.iismainpage_items {
+    cursor: move;
+    border: 1px dashed #cecece;
+    padding: 3px;
+}
+.iismainpage .owm_user_list_item .owm_user_list_name > a,
+.iismainpage span#mailboxSidebarConversationsItemDisplayName a,
+.iismainpage .owm_group_list .owm_list_item_with_image .ow_ipc_info .ow_ipc_header a {
+    font-size: 13px;
+    line-height: initial;
+    font-weight: normal;
+}
+.iismainpage .owm_group_list .owm_list_item_with_image .ow_ipc_header a.ow_lbutton.view_more {
+    font-size: 10px !important;
+    background-color: #e4e0e0;
+    padding: 0px 4px;
+    margin-left: 2px;
+}
+.iismainpage .owm_group_list .owm_list_item_with_image .ow_ipc_picture img {
+    border: none;
+    border-radius: 2px;
+}
+
+/*default icons*/
+.tabs .iismainpage  .tab-current a:first-child {
+    background-size: 0px 0px;
+}
+
+
+.iismainpage .owm_user_list .owm_list_search {
+    border: none !important;
+    margin-top: 0 !important;
+}
+
+.iismainpage .owm_user_list a.owm_sidebar_profile_btn.owm_find_friends_btn {
+    margin: 5px 5px 0px 5px !important;
+}
+
+.iismainpage .owm_user_list .owm_list_item_with_image {
+    margin-top: 0 !important;
+    border-width: 0px 0px 1px 0 !important;
+    border-radius: 0 !important;
+    border-color: #dfdfdf !important;
+    padding: 0px 5px 0 5px;
+    min-height: 60px;
+}
+
+.iismainpage .owm_user_list .owm_btn_list.owm_std_margin_bottom.clearfix {
+    float: left;
+    margin-top: 15px;
+}
+.iismainpage .owm_user_list .owm_content_list_item.owm_list_item_with_image .owm_user_list_item .owm_user_list_info.owm_remark {
+    float: right;
+    margin-top: 16px;
+    padding-left: 6px;
+}

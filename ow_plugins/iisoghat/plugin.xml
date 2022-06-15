@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>نمایش اوقات شرعی شهرها</name>
+    <key>iisoghat</key>
+    <description>امکان نمایش اوقات شرعی شهرهای مختلف ایران در قالب ابزارک قابل تنظیم در بخش داشبورد</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10802</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+    <plan>3</plan>
+</plugin>

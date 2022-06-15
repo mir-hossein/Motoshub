@@ -1,0 +1,47 @@
+{$contentMenu}
+
+{if isset($backUrl)}
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+    </div>
+    <h3> {text key="base+back"}</h3>
+</div>
+{/if}
+{if empty($preferenceList)}
+    {block_decorator name="box" type="" addClass="ow_center" style="padding:15px;"}
+        {text key="base+preference_no_items"}
+    {/block_decorator}
+{else}
+    <div class="owm_full_page_form owm_create_group ow_superwide ow_automargin">
+        {form name='preferenceForm'}
+            {foreach from=$preferenceList key='section' item='preferences'}
+                {if !empty($section) }
+                    {if !empty($sectionLabels.$section.label)}
+                        <div class="owm_section owm_std_margin_bottom">
+                            <span class="owm_section_label">{$sectionLabels.$section.label}</span>
+                            <div class="owm_section_border"></div>
+                        </div>
+                    {else}
+                        {$section}
+                    {/if}
+                {/if}
+                {foreach from=$preferences item='preference' name='preference'}
+                    <div class="owm_form_field_container">
+                        <div class="owm_form_field_wrap">
+                            <div class="owm_form_field_label">{label name=$preference}</div>
+                            <div class="owm_form_field_value">{input name=$preference}</div>
+                        </div>
+                        <div class="owm_error_txt">{error name=$preference}</div>
+                    </div>
+                {/foreach}
+            {/foreach}
+            <div class="owm_form_field_container">
+                <div class="owm_form_field_wrap">
+                    <div class="owm_form_field_label"></div>
+                    <div class="owm_form_field_value">{submit name='preferenceSubmit'}</div>
+                </div>
+            </div>
+        {/form}
+    </div>
+{/if}

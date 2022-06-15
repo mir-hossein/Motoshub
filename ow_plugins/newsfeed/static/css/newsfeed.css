@@ -1,0 +1,119 @@
+span.owm_newsfeed_control_likes {
+    background-image: url(../img/like_list.svg);
+    background-size: 15px;
+    width: 20px;
+    max-height: 100%;
+    padding-left: 10px !important;
+    margin-left: 0px !important;
+    background-position-x: center;
+    background-position-y: center;
+    border-right: 1px solid #7d8b9f;
+}
+
+/* ============ Mobile Styles ================ */
+
+
+.owm_newsfeed_body {
+    border: none;
+    padding: 5px 8px 5px 8px;
+    margin: 2px 5px 2px 5px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+span.owm_newsfeed_control_likes {
+    padding: 0;
+    margin-left: 10px;
+    z-index: 4;
+    cursor: pointer;
+    float: left;
+}
+
+span.owm_newsfeed_control_likes:lang(en) {
+    margin-right: 10px;
+    float: right;
+}
+
+.owm_newsfeed_control_btn {
+    border-width: 0;
+    border-style: none;
+    background-color: transparent !important;
+}
+
+span.owm_newsfeed_control_likes {
+    float: inherit;
+    border: none;
+    background: none;
+    width: 35px;
+}
+
+.owm_newsfeed_control_left, owm_newsfeed_control_right {
+    background-color: transparent;
+}
+
+.owm_newsfeed_date{
+    float: right !important;
+    background-color: transparent;
+    color: #b1b1b1;
+    margin: -1px 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+}
+
+.owm_newsfeed_item_box {
+    border: none;
+    background: transparent;
+}
+
+.owm_newsfeed_header_responded:lang(fa-IR) {
+    padding: 8px 10px 8px 30px;
+    margin: 0px;
+    border: none;
+}
+
+.owm_newsfeed_header_responded:lang(en) {
+    padding: 8px 30px 8px 10px;
+    margin: 0px;
+    border: none;
+}
+
+.owm_context_action_body a.cd-nav-trigger {
+    margin-top: 5px;
+}
+
+.owm_newsfeed_likes_string {
+    float: left;
+    font-size: 9px;
+    color: #929292;
+    margin: 8px 0px 6px 9px;
+    max-width: 60vw;
+    text-align: left;
+}
+
+.owm_newsfeed_likes_string:lang(fa-IR) {
+    float: right;
+    margin: 8px 9px 6px 0px;
+    text-align: right;
+}
+
+.owm_newsfeed_footer {
+    margin-bottom: 8px;
+}
+
+.owm_newsfeed_header_pic {
+    margin-left: 2px;
+    margin-right: 5px;
+    float: left;
+}
+
+.owm_newsfeed_header_pic:lang(fa-IR) {
+    margin-right: 2px;
+    margin-left: 5px;
+    float: right;
+}
+
+img.ow_nowrap.create_time.ow_newsfeed_date.ow_small.feed_image_privacy {
+    float: left;
+    opacity: 0.5;
+    margin: 2px 0px 2px 8px !important;
+    border-color: #b8b6b6;
+}

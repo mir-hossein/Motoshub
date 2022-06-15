@@ -1,0 +1,70 @@
+{*
+
+/**
+ * Copyright (c) 2016, Yaser Alimardany
+ * All rights reserved.
+ */
+
+*}
+<h1 class="ow_stdmargin">
+    {text key="iisdatabackup+setting_label"}
+</h1>
+
+<div class="ow_std_margin clearfix">
+    {form name="settings"}
+        <table class="ow_table_1 ow_form" style="margin: 0">
+            <tbody>
+                <tr class="ow_alt1">
+                    <td width="1" class="ow_label">
+                        {text key="iisdatabackup+deadline_label"}
+                    </td>
+                    <td class="ow_value">
+                        {input name='deadline'}
+                        {error name='deadline'}
+                    </td>
+                </tr>
+                <tr class="ow_tr_last ow_center">
+                    <td colspan="2">
+                        {submit name='saveSettings'}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    {/form}
+</div>
+
+<h1 class="ow_stdmargin">
+    {text key="iisdatabackup+form_data_label"}
+</h1>
+
+<div class="ow_std_margin clearfix">
+    {form name="formData"}
+    <table class="ow_table_1 ow_form" style="margin: 0">
+        <tbody>
+        <tr class="ow_alt1">
+            <td width="1" class="ow_label">
+                {text key="iisdatabackup+tables_label"}
+            </td>
+            <td class="ow_value">
+                {input name='tables'}
+                {error name='tables'}
+            </td>
+        </tr>
+        <tr class="ow_alt1">
+            <td width="1" class="ow_label">
+                {text key="iisdatabackup+numberOfData_label"}
+            </td>
+            <td class="ow_value">
+                {input name='numberOfData'}
+                {error name='numberOfData'}
+            </td>
+        </tr>
+        <tr class="ow_tr_last ow_center">
+            <td colspan="2">
+                {submit name='showFormData'}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    {/form}
+</div>

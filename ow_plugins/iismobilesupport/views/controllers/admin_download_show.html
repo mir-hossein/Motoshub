@@ -1,0 +1,26 @@
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section' name='contentMenu'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+
+<div class="ow_automargin ow_superwide">
+    {form name='customHTML'}
+    <table class="ow_table_1 ow_form">
+        <tr>
+            <td class="ow_label">{text key="iismobilesupport+download_activation"}</td>
+            <td class="ow_value">{input name="download_activation"}</td>
+        </tr>
+        <tr>
+            <td class="ow_label">{label name='custom_download_link'}</td>
+            <td class="ow_value">{input name='custom_download_link'}</td>
+            <td class="ow_desc" style="border-top-width: 1px !important;">{desc name='custom_download_link'}</td>
+        </tr>
+    </table>
+    <div class="clearfix ow_stdmargin">
+        {submit name='save' class='ow_ic_save ow_submit ow_right'}
+    </div>
+    {/form}
+</div>

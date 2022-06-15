@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="friends" label="Friends" language_tag="en" language_label="English">
+<key name="accept_request">
+	<value>
+		Accept
+	</value>
+</key>
+<key name="accept_friendship_request"><value>Accept friendship request</value></key>
+<key name="activity_content"><value>{$user_avatar} {$requester_avatar}</value></key>
+<key name="activity_title"><value>&lt;a href="{$user_url}"&gt;{$name}&lt;/a&gt; and &lt;a href="{$requester_url}"&gt;{$requester_name}&lt;/a&gt; are now friends</value></key>
+<key name="add_to_friends"><value>Add to Friends</value></key>
+<key name="auth_action_label_add_friend"><value>Send friend request</value></key>
+<key name="auth_group_label"><value>Friends</value></key>
+<key name="cancel_request"><value>Cancel</value></key>
+<key name="comment_activity_string"><value>commented on {$user1} and {$user2} now being friends</value></key>
+<key name="confirmed_mail_html"><value>&lt;p&gt;&#13;
+Dear {$sender},&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+We are glad to let you know that &lt;a href="{$receiver_url}"&gt;{$receiver}&lt;/a&gt; confirmed you as a friend on &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+Thank you,&lt;br /&gt;&#13;
+Administration&lt;br /&gt;&#13;
+&lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;&#13;
+&lt;/p&gt;</value></key>
+<key name="confirmed_mail_subject"><value>{$receiver} confirmed you as a friend</value></key>
+<key name="confirmed_mail_txt"><value>Dear {$sender},&#13;
+&#13;
+We are glad to let you know that {$receiver} confirmed you as a friend on {$site_name}&#13;
+&#13;
+{$receiver}'s profile: {$receiver_url}&#13;
+{$site_name}: {$site_url}&#13;
+&#13;
+Thank you,&#13;
+Administration&#13;
+{$site_name}&#13;
+{$site_url}</value></key>
+<key name="console_requests_title"><value>Friend Requests</value></key>
+<key name="console_request_item"><value>you have a friend request from &lt;a target="_blank" href="{$userUrl}"&gt;{$displayName}&lt;/a&gt;</value></key>
+<key name="email_notifications_setting_accept"><value>Someone accepts my friend request</value></key>
+<key name="email_notifications_setting_request"><value>Someone sends me friend request</value></key>
+<key name="feedback_cancelled"><value>Cancelled</value></key>
+<key name="feedback_request_accepted"><value>New friend added</value></key>
+<key name="feedback_request_already_sent_error_message"><value>Request already sent</value></key>
+<key name="feedback_request_ignored"><value>Request ignored</value></key>
+<key name="feedback_request_was_sent"><value>Friend request has been sent</value></key>
+<key name="feed_content_label"><value>Friends</value></key>
+<key name="friendship_management_area"><value>Manage your friendships</value></key>
+<key name="friends_tab"><value>Friends {$count}</value></key>
+<key name="friend_requests"><value>Friend requests</value></key>
+<key name="friend_request_was_sent"><value>Friend request has been sent</value></key>
+<key name="got_requests_tab"><value>Received requests {$count}</value></key>
+<key name="ignore_request"><value>Ignore</value></key>
+<key name="like_activity_string"><value>liked that {$user1} and {$user2} are now friends</value></key>
+<key name="my_friends_page_heading"><value>My friends</value></key>
+<key name="my_friends_page_title"><value>My friends - {$site_name}</value></key>
+<key name="newsfeed_action_string"><value>and &lt;a href="{$user_url}"&gt;{$name}&lt;/a&gt; are now friends</value></key>
+<key name="new_friend_added"><value>New friend added</value></key>
+<key name="notification_section_label"><value>Friends</value></key>
+<key name="notify_accept"><value>{$receiver} accepted you as a friend</value></key>
+<key name="notify_request"><value>{$sender} wants to be friends with you</value></key>
+<key name="notify_request_content"><value>&lt;p&gt;&#13;
+&lt;a href="{$request_url}"&gt;Click here&lt;/a&gt; to accept this request&#13;
+&lt;/p&gt;</value></key>
+<key name="notify_request_content_string"><value>&lt;p&gt;&#13;
+&lt;a href="{$url}"&gt;Click here&lt;/a&gt; to view all requests&#13;
+&lt;/p&gt;</value></key>
+<key name="notify_request_string"><value>&lt;a href="{$userUrl}"&gt;{$displayName}&lt;/a&gt; wants to be friends with you</value></key>
+<key name="privacy_action_view_friends"><value>View my friends</value></key>
+<key name="privacy_action_view_friends_description"><value>by modification of this option, the access right for viewing your friends will be changed</value></key>
+<key name="privacy_friends_only"><value>My friends</value></key>
+<key name="remove_from_friends"><value>Remove from Friends</value></key>
+<key name="remove_from_friendship_button"><value>Remove from friends</value></key>
+<key name="remove_friendship_request"><value>Remove friendship request</value></key>
+<key name="request_friendship_button"><value>Send friend request</value></key>
+<key name="request_mail_html"><value></value></key>
+<key name="request_mail_subject"><value>{$sender} wants to be friends with you</value></key>
+<key name="request_mail_txt"><value></value></key>
+<key name="sent_requests_tab"><value>Sent requests {$count}</value></key>
+<key name="usercredits_action_add_friend"><value>Send friend request</value></key>
+<key name="user_friends_page_heading"><value>{$user}'s friends</value></key>
+<key name="user_friends_page_title"><value>{$user}'s friends - {$site_name}</value></key>
+<key name="user_widget_empty"><value>No friends yet</value></key>
+<key name="user_widget_settings_count"><value>Count</value></key>
+<key name="user_widget_title"><value>Friends</value></key>
+<key name="view_profile"><value>View</value></key>
+<key name="widget_friends"><value>Friends</value></key>
+<key name="widget_got_requests"><value>Received requests</value></key>
+<key name="widget_sent_requests"><value>Sent requests</value></key>
+<key name="widget_title"><value>My Friends</value></key>
+<key name="request_title"><value>Requests</value></key>
+<key name="total_friends"><value>total friends: {$total}</value></key>
+</prefix>

@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="event" label="Event" language_tag="en" language_label="English">
+    <key name="accept_request">
+        <value>
+            Accept
+        </value>
+    </key>
+    <key name="add_event_meta_description">
+        <value>
+            Plan a meeting with the users of {$site_name}
+        </value>
+    </key>
+    <key name="add_form_date_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_date_label">
+        <value>
+            Start
+        </value>
+    </key>
+    <key name="add_form_desc_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_desc_label">
+        <value>
+            Description
+        </value>
+    </key>
+    <key name="add_form_empty_image_error_message">
+        <value>
+            Empty image field
+        </value>
+    </key>
+    <key name="add_form_end_date_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_end_date_label">
+        <value>
+            Event ends
+        </value>
+    </key>
+    <key name="add_form_image_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_image_label">
+        <value>
+            Image
+        </value>
+    </key>
+    <key name="add_form_invalid_end_date_error_message">
+        <value>
+            Invalid end date
+        </value>
+    </key>
+    <key name="add_form_location_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_location_label">
+        <value>
+            Location
+        </value>
+    </key>
+    <key name="add_form_submit_label">
+        <value>
+            Add
+        </value>
+    </key>
+    <key name="add_form_success_message">
+        <value>
+            Event added
+        </value>
+    </key>
+    <key name="add_form_title_desc">
+        <value>
+            &amp;nbsp
+        </value>
+    </key>
+    <key name="add_form_title_label">
+        <value>
+            Title
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_label">
+        <value>
+            Who can invite
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_option_creator">
+        <value>
+            Event creator only
+        </value>
+    </key>
+    <key name="add_form_who_can_invite_option_participants">
+        <value>
+            Participants
+        </value>
+    </key>
+    <key name="add_form_who_can_view_desc">
+        <value>
+            &amp;nbsp;
+        </value>
+    </key>
+    <key name="add_form_who_can_view_label">
+        <value>
+            Who can view
+        </value>
+    </key>
+    <key name="add_form_who_can_view_option_anybody">
+        <value>
+            Anybody
+        </value>
+    </key>
+    <key name="add_form_who_can_view_option_invit_only">
+        <value>
+            By invitation only
+        </value>
+    </key>
+    <key name="add_new_button_label">
+        <value>
+            Add new event
+        </value>
+    </key>
+    <key name="add_new_link_label">
+        <value>
+            Event
+        </value>
+    </key>
+    <key name="add_page_heading">
+        <value>
+            Create new event
+        </value>
+    </key>
+    <key name="add_page_title">
+        <value>
+            Create new event - {$site_name}
+        </value>
+    </key>
+    <key name="all_day">
+        <value>
+            all day
+        </value>
+    </key>
+    <key name="attend_maybe_btn_label">
+        <value>
+            Maybe
+        </value>
+    </key>
+    <key name="attend_no_btn_label">
+        <value>
+            No
+        </value>
+    </key>
+    <key name="attend_yes_btn_label">
+        <value>
+            I'm attending
+        </value>
+    </key>
+    <key name="auth_action_label_add_comment">
+        <value>
+            Comment events
+        </value>
+    </key>
+    <key name="auth_action_label_add_event">
+        <value>
+            Add Events
+        </value>
+    </key>
+    <key name="auth_action_label_view_event">
+        <value>
+            View events
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="avatar_user_list_bottom_link_label">
+        <value>
+            View all ({$count} users)
+        </value>
+    </key>
+    <key name="avatar_user_list_link_label_1">
+        <value>
+            yes
+        </value>
+    </key>
+    <key name="avatar_user_list_link_label_2">
+        <value>
+            maybe
+        </value>
+    </key>
+    <key name="avatar_user_list_link_label_3">
+        <value>
+            no
+        </value>
+    </key>
+    <key name="cmp_widget_events_count">
+        <value>
+            Events count
+        </value>
+    </key>
+    <key name="common_list_type_invited_label">
+        <value>
+            Invitations
+        </value>
+    </key>
+    <key name="common_list_type_joined_label">
+        <value>
+            My Events
+        </value>
+    </key>
+    <key name="common_list_type_latest_label">
+        <value>
+            Upcoming
+        </value>
+    </key>
+    <key name="common_list_type_past_label">
+        <value>
+            Past
+        </value>
+    </key>
+    <key name="console_notification_label">
+        <value>
+            Event invitations
+        </value>
+    </key>
+    <key name="content_events_label">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="content_event_label">
+        <value>
+            Event
+        </value>
+    </key>
+    <key name="creator">
+        <value>
+            creator
+        </value>
+    </key>
+    <key name="current_status_change_label">
+        <value>
+            change
+        </value>
+    </key>
+    <key name="dashboard_widget_menu_my_events_label">
+        <value>
+            Created
+        </value>
+    </key>
+    <key name="dashboard_widget_menu_part_events_label">
+        <value>
+            Joined
+        </value>
+    </key>
+    <key name="delete_button_label">
+        <value>
+            Delete
+        </value>
+    </key>
+    <key name="delete_confirm_message">
+        <value>
+            Are you sure you want to delete the event?
+        </value>
+    </key>
+    <key name="delete_success_message">
+        <value>
+            Event deleted
+        </value>
+    </key>
+    <key name="edit_button_label">
+        <value>
+            Edit
+        </value>
+    </key>
+    <key name="edit_form_end_date_error_message">
+        <value>
+            Please select event end date/time
+        </value>
+    </key>
+    <key name="edit_form_submit_label">
+        <value>
+            Edit
+        </value>
+    </key>
+    <key name="edit_form_success_message">
+        <value>
+            Event edited
+        </value>
+    </key>
+    <key name="edit_page_heading">
+        <value>
+            Edit event
+        </value>
+    </key>
+    <key name="edit_page_title">
+        <value>
+            Edit event - {$site_name}
+        </value>
+    </key>
+    <key name="email_notification_comment">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; added a wall comment in &lt;a href="{$url}"&gt;{$title}&lt;/a&gt; event: {$comment}
+        </value>
+    </key>
+    <key name="email_notification_comment_setting">
+        <value>
+            Someone posts on event walls
+        </value>
+    </key>
+    <key name="email_notification_invite">
+        <value>
+            &lt;a href="{$inviterUrl}"&gt;{$inviterName}&lt;/a&gt; invited you to the event "&lt;a href="{$eventUrl}"&gt;{$eventName}&lt;/a&gt;"
+        </value>
+    </key>
+    <key name="event_created_by_me_page_heading">
+        <value>
+            Events I created
+        </value>
+    </key>
+    <key name="event_created_by_me_page_title">
+        <value>
+            Events I created - {$site_name}
+        </value>
+    </key>
+    <key name="event_create_string">
+        <value>
+            created new event
+        </value>
+    </key>
+    <key name="event_edited_string">
+        <value>
+            edited their event
+        </value>
+    </key>
+    <key name="event_joined_by_me_page_heading">
+        <value>
+            Events I'm attending
+        </value>
+    </key>
+    <key name="event_joined_by_me_page_title">
+        <value>
+            Events I'm attending - {$site_name}
+        </value>
+    </key>
+    <key name="event_view_page_heading">
+        <value>
+            {$event_title} - event at {$site_name}
+        </value>
+    </key>
+    <key name="event_view_permission_error_message">
+        <value>
+            Sorry, you don't have permissions to view this page
+        </value>
+    </key>
+    <key name="feed_actiovity_attend_string">
+        <value>
+            is attending {$user}'s event
+        </value>
+    </key>
+    <key name="feed_activity_comment_string">
+        <value>
+            commented on {$user}'s event
+        </value>
+    </key>
+    <key name="feed_activity_event_string_like">
+        <value>
+            liked {$user}'s event
+        </value>
+    </key>
+    <key name="feed_activity_event_string_like_own">
+        <value>
+            liked their event
+        </value>
+    </key>
+    <key name="feed_activity_joined">
+        <value>
+            {$user} just attended
+        </value>
+    </key>
+    <key name="feed_activity_own_comment_string">
+        <value>
+            commented on their event
+        </value>
+    </key>
+    <key name="feed_activity_users">
+        <value>
+            Total users: &lt;span class="ow_txt_value"&gt;{$usersCount}&lt;/span&gt;
+        </value>
+    </key>
+    <key name="feed_add_item_label">
+        <value>
+            created new event
+        </value>
+    </key>
+    <key name="feed_content_label">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="feed_user_join_string">
+        <value>
+            is attending event
+        </value>
+    </key>
+    <key name="friends_invite_button_label">
+        <value>
+            Invite my friends
+        </value>
+    </key>
+    <key name="ignore_request">
+        <value>
+            Ignore
+        </value>
+    </key>
+    <key name="invitation_join_string_1">
+        <value>
+            {$user1} invites you to {$event} event
+        </value>
+    </key>
+    <key name="invitation_join_string_2">
+        <value>
+            {$user1} and {$user2} invite you to {$event} event
+        </value>
+    </key>
+    <key name="invitation_join_string_many">
+        <value>
+            {$user1} and {$user2} and {$otherUsers} invite you to {$event} event
+        </value>
+    </key>
+    <key name="invited_events_page_heading">
+        <value>
+            Event invitations
+        </value>
+    </key>
+    <key name="invited_events_page_title">
+        <value>
+            Event invitations - {$site_name}
+        </value>
+    </key>
+    <key name="invite_btn_label">
+        <value>
+            Invite
+        </value>
+    </key>
+    <key name="latest_events_page_desc">
+        <value>
+            The list of upcoming events for the members of {$site_name}
+        </value>
+    </key>
+    <key name="latest_events_page_heading">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="latest_events_page_title">
+        <value>
+            Events - {$site_name}
+        </value>
+    </key>
+    <key name="main_menu_item">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="moderation_status_pending_approval">
+        <value>
+            pending approval
+        </value>
+    </key>
+    <key name="my_events_widget_block_cap_label">
+        <value>
+            My Events
+        </value>
+    </key>
+    <key name="notifications_new_message">
+        <value>
+            Someone invites me to an event
+        </value>
+    </key>
+    <key name="notifications_section_label">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="no_events_label">
+        <value>
+            No events
+        </value>
+    </key>
+    <key name="no_index_events_label">
+        <value>
+            No events, &lt;a href="{$url}"&gt;Add new&lt;/a&gt;
+        </value>
+    </key>
+    <key name="past_events_page_desc">
+        <value>
+            The list of the past events for the members of {$site_name}
+        </value>
+    </key>
+    <key name="past_events_page_heading">
+        <value>
+            Past events
+        </value>
+    </key>
+    <key name="past_events_page_title">
+        <value>
+            Past events - {$site_name}
+        </value>
+    </key>
+    <key name="privacy_action_view_attend_events">
+        <value>
+            View my events
+        </value>
+    </key>
+    <key name="privacy_action_view_attend_events_description">
+        <value>
+            by modification of this option, the access right for viewing your events in your profile will be changed
+        </value>
+    </key>
+    <key name="private_event_text">
+        <value>
+            We are sorry, This event is private
+        </value>
+    </key>
+    <key name="private_page_heading">
+        <value>
+            Private event
+        </value>
+    </key>
+    <key name="private_page_title">
+        <value>
+            Private event
+        </value>
+    </key>
+    <key name="profile_events_widget_block_cap_label">
+        <value>
+            Future Events
+        </value>
+    </key>
+    <key name="time_field_invitation_label">
+        <value>
+            Time
+        </value>
+    </key>
+    <key name="up_events_widget_block_cap_label">
+        <value>
+            Upcoming events
+        </value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>
+            Comment event
+        </value>
+    </key>
+    <key name="usercredits_action_add_event">
+        <value>
+            Add event
+        </value>
+    </key>
+    <key name="users_invite_success_message">
+        <value>
+            {$count} users invited
+        </value>
+    </key>
+    <key name="user_list_page_desc_1">
+        <value>
+            The list of users participating in "{$eventTitle}" event
+        </value>
+    </key>
+    <key name="user_list_page_desc_2">
+        <value>
+            The list of users maybe participating in "{$eventTitle}" event
+        </value>
+    </key>
+    <key name="user_list_page_desc_3">
+        <value>
+            The list of users not participating in "{$eventTitle}" event
+        </value>
+    </key>
+    <key name="user_list_page_heading_1">
+        <value>
+            "{$eventTitle}" event participants - {$site_name}
+        </value>
+    </key>
+    <key name="user_list_page_heading_2">
+        <value>
+            "{$eventTitle}" event - who's maybe attending - {$site_name}
+        </value>
+    </key>
+    <key name="user_list_page_heading_3">
+        <value>
+            "{$eventTitle}" event - who's not attending - {$site_name}
+        </value>
+    </key>
+    <key name="user_participated_events_page_desc">
+        <value>
+            The list of events {$display_name} participates in
+        </value>
+    </key>
+    <key name="user_participated_events_page_heading">
+        <value>
+            {$display_name}'s events
+        </value>
+    </key>
+    <key name="user_participated_events_page_title">
+        <value>
+            {$display_name}'s events - {$site_name}
+        </value>
+    </key>
+    <key name="user_status_author_cant_leave_error">
+        <value>
+            Sorry, you can't leave your event
+        </value>
+    </key>
+    <key name="user_status_label_1">
+        <value>
+            I'm attending
+        </value>
+    </key>
+    <key name="user_status_label_2">
+        <value>
+            Maybe I'm attending
+        </value>
+    </key>
+    <key name="user_status_label_3">
+        <value>
+            I'm not attending
+        </value>
+    </key>
+    <key name="user_status_not_changed_error">
+        <value>
+            Please change your status
+        </value>
+    </key>
+    <key name="user_status_updated">
+        <value>
+            Your status updated
+        </value>
+    </key>
+    <key name="view_all_label">
+        <value>
+            view all
+        </value>
+    </key>
+    <key name="view_page_created_label">
+        <value>
+            Creator
+        </value>
+    </key>
+    <key name="view_page_date_label">
+        <value>
+            Start
+        </value>
+    </key>
+    <key name="view_page_desc_label">
+        <value>
+            Description
+        </value>
+    </key>
+    <key name="view_page_details_block_cap_label">
+        <value>
+            Details
+        </value>
+    </key>
+    <key name="view_page_end_date_label">
+        <value>
+            End
+        </value>
+    </key>
+    <key name="view_page_image_block_cap_label">
+        <value>
+            Description
+        </value>
+    </key>
+    <key name="view_page_location_label">
+        <value>
+            Location
+        </value>
+    </key>
+    <key name="view_page_users_block_cap_label">
+        <value>
+            Who's attending
+        </value>
+    </key>
+    <key name="event_sitemap">
+        <value>Events</value>
+    </key>
+    <key name="seo_meta_section">
+        <value>Events</value>
+    </key>
+    <key name="seo_meta_events_list_label">
+        <value>Events List Page</value>
+    </key>
+    <key name="meta_title_events_list">
+        <value>{$event_list} events | {$site_name}</value>
+    </key>
+    <key name="meta_desc_events_list">
+        <value>Find out more information about all {$event_list} events at {$site_name}, leave your comments, and
+            discuss them with other site members
+        </value>
+    </key>
+    <key name="meta_keywords_events_list">
+        <value></value>
+    </key>
+    <key name="created_events_page_title">
+        <value>Created</value>
+    </key>
+    <key name="joined_events_page_title">
+        <value>Joined</value>
+    </key>
+    <key name="seo_meta_event_view_label">
+        <value>Separate Event Page</value>
+    </key>
+    <key name="meta_title_event_view">
+        <value>{$event_title} | {$site_name}</value>
+    </key>
+    <key name="meta_desc_event_view">
+        <value>{$event_description}</value>
+    </key>
+    <key name="meta_keywords_event_view">
+        <value></value>
+    </key>
+    <key name="seo_meta_event_users_label">
+        <value>Separate Event Participants Page</value>
+    </key>
+    <key name="meta_title_event_users">
+        <value>All users of "{$event_title}" | {$site_name}</value>
+    </key>
+    <key name="meta_desc_event_users">
+        <value>The list of all {$site_name} users who singed up for the "{$event_title}". Join in to not miss all the
+            fun!
+        </value>
+    </key>
+    <key name="meta_keywords_event_users">
+        <value></value>
+    </key>
+	<key name="event_mobile">
+        <value>
+			Events
+		</value>
+    </key>
+	<key name="back">
+        <value>
+			Back
+		</value>
+    </key>
+    <key name="total_events">
+        <value>total events: {$total}
+        </value>
+    </key>
+    <key name="delete_image">
+        <value>
+            delete image
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisquestions" label="iisquestions" language_tag="fa-IR" language_label="فارسی">
+
+    <key name="admin_allow_comments_label">
+        <value>امکان درج نظر</value>
+    </key>
+    <key name="admin_allow_popups_desc">
+        <value>نمایش متن سوالات در یک منو مجزا</value>
+    </key>
+    <key name="admin_allow_popups_label">
+        <value>فعال‌سازی منوها</value>
+    </key>
+    <key name="admin_enable_follow_desc">
+        <value>کاربران اجازه دنبال کردن سوالات را داشته باشند</value>
+    </key>
+    <key name="admin_enable_follow_label">
+        <value>امکان دنبال کردن</value>
+    </key>
+    <key name="admin_extended_version">
+        <value>نسخه پیشرفته</value>
+    </key>
+    <key name="admin_extended_version_page_heading">
+        <value>سوالات توسعه یافته</value>
+    </key>
+    <key name="admin_general_settings">
+        <value>تنظیمات</value>
+    </key>
+    <key name="admin_list_order_label">
+        <value>ترتیب چینش لیست</value>
+    </key>
+    <key name="admin_main_page_heading">
+        <value>تنظیمات افزونه نظرسنجی</value>
+    </key>
+    <key name="admin_main_page_title">
+        <value>تنظیمات افزونه نظرسنجی</value>
+    </key>
+    <key name="admin_main_settings_title">
+        <value>تنظیمات عمومی</value>
+    </key>
+    <key name="admin_save_btn">
+        <value>ذخیره</value>
+    </key>
+    <key name="admin_settings_updated">
+        <value>تنظیمات ذخیره شدند.</value>
+    </key>
+    <key name="admin_setup_extended_version_notification">
+        <value>نسخه جدید افزونه در دسترس است.</value>
+    </key>
+    <key name="admin_setup_go_to_store">
+        <value>محل دریافت افزونه</value>
+    </key>
+    <key name="auth_add_answer">
+        <value>افزودن گزینه به سوالات دیگر کاربران</value>
+    </key>
+    <key name="auth_add_comment">
+        <value>فعال‌سازی نظردهی</value>
+    </key>
+    <key name="auth_answer">
+        <value>پاسخ به سوال‌ها</value>
+    </key>
+    <key name="auth_answer_delete_comment">
+        <value>نویسنده سوال توانایی حذف آن را دارد</value>
+    </key>
+    <key name="auth_ask">
+        <value>ایجاد نظرسنجی</value>
+    </key>
+    <key name="auth_group_label">
+        <value>سوالات</value>
+    </key>
+    <key name="counter_comments_label">
+        <value>نظر</value>
+    </key>
+    <key name="counter_follows_label">
+        <value>دنبال‌کننده</value>
+    </key>
+    <key name="counter_votes_label">
+        <value>رای</value>
+    </key>
+    <key name="delete_question_confirm">
+        <value>آیا از حذف این نظر سنجی مطمئن هستید؟ این کار برگشت پذیر نیست.</value>
+    </key>
+    <key name="email_notifications_answer">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; پاسخ داد به &lt;a href="{$questionUrl}"&gt;question&lt;/a&gt;
+            با &lt;a href="{$questionUrl}"&gt;{$answer}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="email_notifications_post">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; نظر داد در &lt;a href="{$questionUrl}"&gt;{$question}&lt;/a&gt;</value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>نظرسنجی</value>
+    </key>
+    <key name="email_notifications_setting_answer">
+        <value>شخصی به نظرسنجی که شما دنبال می‌کنید پاسخ داده است.</value>
+    </key>
+    <key name="email_notifications_setting_post">
+        <value>شخصی برای نظرسنجی که شما دنبال می‌کنید نظر درج کرده است.</value>
+    </key>
+    <key name="equestions+email_notifications_post">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; در &lt;a href="{$questionUrl}"&gt;{$question}&lt;/a&gt;
+            نظر داد
+        </value>
+    </key>
+    <key name="feedback_option_max_length">
+        <value>طول عبارت وارد شده بیشتر از حد مجاز است. لطفا مجددا سعی کنید.</value>
+    </key>
+    <key name="feedback_question_dublicate_option">
+        <value>گزینه‌ای که نوشته‌اید قبلا ثبت شده است.</value>
+    </key>
+    <key name="feedback_question_empty">
+        <value>فیلد پاسخ نمی‌تواند خالی باشد</value>
+    </key>
+    <key name="feedback_question_max_length">
+        <value>طول سوال پرسیده شده بیشتر از حد مجاز است. لطفا مجددا سعی کنید.</value>
+    </key>
+    <key name="feedback_question_min_length">
+        <value>طول سوال پرسیده شده کمتر از حد مجاز است. لطفا مجددا سعی کنید.</value>
+    </key>
+    <key name="feedback_question_two_apt_required">
+        <value>لطفا حداقل دوگزینه وارد کنید.</value>
+    </key>
+    <key name="feed_content_label">
+        <value>نظرسنجی</value>
+    </key>
+    <key name="feed_order_latest">
+        <value>تازه‌ترین</value>
+    </key>
+    <key name="feed_order_popular">
+        <value>محبوب‌ترین</value>
+    </key>
+    <key name="followers_fb_title">
+        <value>افرادی که این نظرسنجی را دنبال می‌کنند</value>
+    </key>
+    <key name="item_text_answer">
+        <value>با «{$with}» به نظرسنجی «{$question}» پاسخ داد.</value>
+    </key>
+    <key name="item_text_create">
+        <value>پرسید: {$question}</value>
+    </key>
+    <key name="item_text_follow">
+        <value>نظرسنجی «{$question}» را دنبال می‌کند.</value>
+    </key>
+    <key name="item_text_post">
+        <value>با «{$with}» به «{$question}» نظر داد.</value>
+    </key>
+    <key name="list_all_page_description">
+        <value>آخرین نظرسنجی‌ها در {$site_name}</value>
+    </key>
+    <key name="list_all_page_title">
+        <value>نظرسنجی‌ها در {$site_name}</value>
+    </key>
+    <key name="list_all_tab">
+        <value>تمام نظرسنجی‌ها</value>
+    </key>
+    <key name="list_friends_page_title">
+        <value>نظرسنجی‌های دوستان در {$site_name}</value>
+    </key>
+    <key name="list_friends_tab">
+        <value>نظرسنجی‌های دوستان</value>
+    </key>
+    <key name="list_heading">
+        <value>نظرسنجی‌ها</value>
+    </key>
+    <key name="list_my_page_title">
+        <value>نظرسنجی‌های من در {$site_name}</value>
+    </key>
+    <key name="list_my_tab">
+        <value>نظرسنجی‌های من</value>
+    </key>
+    <key name="main_menu_list">
+        <value>نظرسنجی‌ها</value>
+    </key>
+    <key name="mobile_main_menu_list">
+        <value>نظرسنجی‌ها</value>
+    </key>
+    <key name="more_options_btn">
+        <value>نمایش &lt;span class="qa-vm-count"&gt;{$count}&lt;/span&gt; گزینه بیشتر...</value>
+    </key>
+    <key name="more_users_title">
+        <value>{$count} کاربر دیگر</value>
+    </key>
+    <key name="newsfeed_question_tab">
+        <value>نظرسنجی</value>
+    </key>
+    <key name="newsfeed_status_tab">
+        <value>تازه‌ها</value>
+    </key>
+    <key name="notifications_answer">
+        <value>{$user} به این نظرسنجی پاسخ داد.</value>
+    </key>
+    <key name="notifications_post">
+        <value>{$user} به این نظرسنجی پاسخ داد.</value>
+    </key>
+    <key name="not_authed_delete_warning">
+        <value>برای حذف سوال شما می‌بایست وارد شده باشید.</value>
+    </key>
+    <key name="not_authed_follow_warning">
+        <value>برای دنبال کردن سوالات شما باید وارد شده باشید.</value>
+    </key>
+    <key name="not_authed_unfollow_warning">
+        <value>برای لغو دنبال کردن سوالات شما باید وارد شده باشید.</value>
+    </key>
+    <key name="option_add_btn">
+        <value>افزودن</value>
+    </key>
+    <key name="option_add_inv">
+        <value>افزودن پاسخ</value>
+    </key>
+    <key name="option_not_empty_delete_warning">
+        <value>آیا از حذف این سوال و تمام پاسخ‌های آن مطمئن هستید؟ این کار برگشت پذیر نیست.</value>
+    </key>
+    <key name="privacy_action_view_my_questions">
+        <value>نمایش سوالات من</value>
+    </key>
+    <key name="question_add_allow_add_opt">
+        <value>افزودن گزینه توسط</value>
+    </key>
+    <key name="question_add_answers_label">
+        <value>تنظیمات نظرسنجی</value>
+    </key>
+    <key name="question_add_option_inv">
+        <value>افزودن یک انتخاب جدید...</value>
+    </key>
+    <key name="question_add_save">
+        <value>پرسش</value>
+    </key>
+    <key name="question_add_show_options_btn">
+        <value>افزودن انتخاب جدید</value>
+    </key>
+    <key name="question_add_text_inv">
+        <value>یک نظرسنجی ایجاد کنید...</value>
+    </key>
+    <key name="question_asked_by">
+        <value>پرسیده شده توسط</value>
+    </key>
+    <key name="question_delete_complete_msg">
+        <value>این نظرسنجی حذف شده است.</value>
+    </key>
+    <key name="question_fb_title">
+        <value>نظرسنجی</value>
+    </key>
+    <key name="question_list_no_items">
+        <value>هیچ نظرسنجی وجود ندارد</value>
+    </key>
+    <key name="question_not_found">
+        <value>نظرسنجی یافت نشد.</value>
+    </key>
+    <key name="question_page_description">
+        <value>{$question}</value>
+    </key>
+    <key name="question_page_title">
+        <value>سوال در مورد {$site_name}</value>
+    </key>
+    <key name="toolbar_comment_btn">
+        <value>نظر</value>
+    </key>
+    <key name="toolbar_delete_btn">
+        <value>حذف</value>
+    </key>
+    <key name="toolbar_follow_btn">
+        <value>دنبال‌کردن</value>
+    </key>
+    <key name="toolbar_unfollow_btn">
+        <value>دنبال‌نکردن</value>
+    </key>
+    <key name="toolbar_unvote_btn">
+        <value>حذف رأی</value>
+    </key>
+    <key name="toolbar_unanswer_btn">
+        <value>حذف پاسخ</value>
+    </key>
+    <key name="users_fb_title">
+        <value>کاربران</value>
+    </key>
+    <key name="view_more_questions_btn">
+        <value>نمایش بیشتر</value>
+    </key>
+    <key name="widget_settings_add_new">
+        <value>اجازه افزودن موارد بیشتر</value>
+    </key>
+    <key name="widget_settings_count">
+        <value>جزییات برای نمایش</value>
+    </key>
+    <key name="widget_settings_order">
+        <value>ترتیب لیست</value>
+    </key>
+    <key name="widget_title">
+        <value>نظرسنجی‌ها</value>
+    </key>
+
+
+    <key name="admin_attachments_image_enable_desc">
+        <value>امکان درج تصویر در نظرسنجی</value>
+    </key>
+    <key name="admin_attachments_image_enable_label">
+        <value>تصویر</value>
+    </key>
+    <key name="admin_attachments_link_enable_desc">
+        <value>امکان استفاده از پیوند‌های خارجی در نظرسنجی</value>
+    </key>
+    <key name="admin_attachments_link_enable_label">
+        <value>پیوند</value>
+    </key>
+    <key name="admin_attachments_max_upload_images_desc">
+        <value>حداکثر تعداد تصاویری قابل بارگذاری</value>
+    </key>
+    <key name="admin_attachments_max_upload_images_label">
+        <value>حداکثر تصاویر</value>
+    </key>
+    <key name="admin_attachments_settings_title">
+        <value>پیوست‌ها</value>
+    </key>
+    <key name="admin_attachments_video_enable_desc">
+        <value>امکان افزودن ویدیو به نظرسنجی</value>
+    </key>
+    <key name="admin_attachments_video_enable_label">
+        <value>ویدیو</value>
+    </key>
+    <key name="admin_attachments_youtube_key_desc">
+        <value>کلید API سرور یک کلید منحصربه‌فرد است که شما با استفاده از کنسول توسعه‌دهند‌گان تولید می‌کنید.&#13;
+            &lt;br /&gt;&lt;br /&gt;&#13;
+            برای دریافت کلید API ملاحظات زیر را مطالعه کنید:&#13;
+            &lt;br /&gt;&#13;
+            &lt;a href="http://www.oxwall.org/forum/topic/36419" target="_blank"&gt;پیکربندی API&lt;/a&gt;
+        </value>
+    </key>
+    <key name="admin_attachments_yt_key_label">
+        <value>کلید API یوتیوب</value>
+    </key>
+    <key name="admin_attachments_yt_search_enable_label">
+        <value>فعال‌سازی جستجو در یوتیوب</value>
+    </key>
+    <key name="admin_enable_ask_friends_desc">
+        <value>امکان اشتراک نظرسنجی با سایر کاربران</value>
+    </key>
+    <key name="admin_enable_ask_friends_label">
+        <value>فعال‌سازی پرسیدن از دوستان/کاربران</value>
+    </key>
+    <key name="admin_enable_attachments_desc">
+        <value>امکان درج ویدیو از لینک پیوند خارجی به نظرسنجی</value>
+    </key>
+    <key name="admin_enable_attachments_label">
+        <value>فعال‌سازی پیوست‌‌ها</value>
+    </key>
+    <key name="admin_enable_live_notifications_label">
+        <value>اعلان‌ آنی</value>
+    </key>
+    <key name="admin_live_notifications_desc">
+        <value>این ویژگی به صورت لحظه‌ای از سرور اطلاعات را دریافت و به‌روز می‌کند.</value>
+    </key>
+    <key name="admin_live_notifications_period_label">
+        <value>دوره زمانی به‌روزرسانی</value>
+    </key>
+    <key name="admin_live_notifications_settings_title">
+        <value>اعلان‌های آنی</value>
+    </key>
+    <key name="admin_setup_copy_data_label">
+        <value>رونوشت تمامی نظرسنجی‌های فعلی به نسخه جدید</value>
+    </key>
+    <key name="admin_setup_required_notification">
+        <value>نسخه توسعه‌یافته افزونه نظرسنجی با موفقیت نصب شده است. &lt;a href="{$href}"&gt;برای تکمیل اینجا کلیک کنید&lt;/a&gt;
+        </value>
+    </key>
+    <key name="admin_setup_upgrade_label">
+        <value>به‌روزرسانی</value>
+    </key>
+    <key name="admin_upgrade_complete">
+        <value>افزونه نظرسنجی با موفقیت به‌روزرسانی شد.</value>
+    </key>
+    <key name="admin_upgrade_page_heading">
+        <value>نظرسنجی توسعه‌یافته</value>
+    </key>
+    <key name="admin_yt_configuration_required_notification">
+        <value>&lt;a href="{$url}"&gt;برای فعال‌سازی امکانات جدید صفحه تنظیمات افزونه نظرسنجی را بررسی کنید&lt;/a&gt;
+        </value>
+    </key>
+    <key name="attachments_add_more_images">
+        <value>افزودن تصاویر بیشتر</value>
+    </key>
+    <key name="attachments_add_video_label">
+        <value>درج ویدیو</value>
+    </key>
+    <key name="attachments_cancel_label">
+        <value>لغو</value>
+    </key>
+    <key name="attachments_choose_image_label">
+        <value>انتخاب تصویر</value>
+    </key>
+    <key name="attachments_choose_my_image_label">
+        <value>درج تصویر</value>
+    </key>
+    <key name="attachments_choose_my_video_label">
+        <value>درج ویدیو</value>
+    </key>
+    <key name="attachments_close_label">
+        <value>بستن</value>
+    </key>
+    <key name="attachments_delete_photo_button_title">
+        <value>حذف تصویر</value>
+    </key>
+    <key name="attachments_delete_title">
+        <value>حذف پیوست‌ها</value>
+    </key>
+    <key name="attachments_drag_image_label">
+        <value>تصاویر را اینجا بکشید و رها کنید.</value>
+    </key>
+    <key name="attachments_embed_video_inv">
+        <value>آدرس پیوند اشتراک ویدیو را در این قسمت وارد کنید.</value>
+    </key>
+    <key name="attachments_image_title">
+        <value>تصویر</value>
+    </key>
+    <key name="attachments_search_video_inv">
+        <value>جستجوی تصویر در یوتیوب</value>
+    </key>
+    <key name="attachments_select_my_photo">
+        <value>تصاویر موجود</value>
+    </key>
+    <key name="attachments_select_my_photo_view_more">
+        <value>بیشتر</value>
+    </key>
+    <key name="attachments_select_my_video">
+        <value>ویدیو‌های موجود</value>
+    </key>
+    <key name="attachments_select_my_video_view_more">
+        <value>بیشتر</value>
+    </key>
+    <key name="attachments_select_other_images">
+        <value>سایر تصاویر</value>
+    </key>
+    <key name="attachments_select_other_images_title">
+        <value>انتخاب تصویر</value>
+    </key>
+    <key name="attachments_take_photo_button">
+        <value>ایجاد تصویر لحظه‌ای »</value>
+    </key>
+    <key name="attachments_take_photo_button_title">
+        <value>گرفتن تصویر</value>
+    </key>
+    <key name="attachments_take_photo_inv">
+        <value>در صورتی که وب‌کم دارید می‌توانید: {$takeButton}</value>
+    </key>
+    <key name="attachments_take_save_label">
+        <value>ذخیره</value>
+    </key>
+    <key name="attachments_upload_image_inv">
+        <value> بارگذاری تصویر. فرمت‌های قابل قبول &lt;b&gt;JPG&lt;/b&gt;, &lt;b&gt;JPEG&lt;/b&gt;,&lt;b&gt;PNG&lt;/b&gt; و
+            &lt;b&gt;GIF&lt;/b&gt;.
+        </value>
+    </key>
+    <key name="attachments_upload_save_label">
+        <value>درج تصویر</value>
+    </key>
+    <key name="attachments_upload_save_multy_label">
+        <value>افزودن تصاویر</value>
+    </key>
+    <key name="attachments_video_duration">
+        <value>دقیقه</value>
+    </key>
+    <key name="attachments_video_list_more">
+        <value>بیشتر</value>
+    </key>
+    <key name="attachments_video_published">
+        <value>تاریخ انتشار: {$date}</value>
+    </key>
+    <key name="attachments_video_title">
+        <value>ویدیو</value>
+    </key>
+    <key name="attacments_yt_no_video">
+        <value>هیچ ویدیویی وجود ندارد.</value>
+    </key>
+    <key name="attchments_link_button_label">
+        <value>افزودن پیوند</value>
+    </key>
+    <key name="attchments_photo_button_label">
+        <value>افزودن تصویر</value>
+    </key>
+    <key name="attchments_video_button_label">
+        <value>افزودن ویدیو</value>
+    </key>
+    <key name="att_my_photo_no_items">
+        <value>هیچ تصویری یافت نشد.</value>
+    </key>
+    <key name="att_my_video_no_items">
+        <value>هیچ ویدیویی یافت نشد.</value>
+    </key>
+    <key name="auth_ask_friend">
+        <value>نظرسنجی از دوستان</value>
+    </key>
+    <key name="console_notifications_title">
+        <value>نظرسنجی‌ها</value>
+    </key>
+    <key name="email_notifications_ask">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; از شما پرسید: &lt;a href="{$questionUrl}"&gt;{$question}&lt;/a&gt;</value>
+    </key>
+    <key name="email_notifications_setting_ask">
+        <value>شخصی از شما دعوت کرده در یک نظرسنجی شرکت کنید.</value>
+    </key>
+    <key name="embed_code_placeholder">
+        <value>کد اشتراک ویدیو</value>
+    </key>
+    <key name="invitation_ignore_label">
+        <value>لغو</value>
+    </key>
+    <key name="invitation_string">
+        <value>{$user} از شما پرسید: {$question}</value>
+    </key>
+    <key name="item_text_ask">
+        <value>از شما پرسید: {$question}</value>
+    </key>
+    <key name="live_notifications_period_value">
+        <value>{$value} ثانیه</value>
+    </key>
+    <key name="notifications_feed_heading">
+        <value>اعلان‌ها</value>
+    </key>
+    <key name="notifications_feed_title">
+        <value>نظرسنجی‌های {$site_name}</value>
+    </key>
+    <key name="notifications_no_items">
+        <value>هیچ اعلانی یافت نشد.</value>
+    </key>
+    <key name="notifications_see_all">
+        <value>مشاهده تمام اعلان‌ها</value>
+    </key>
+    <key name="notification_ignore">
+        <value>لغو</value>
+    </key>
+    <key name="notification_string">
+        <value>از شما پرسید: {$question}</value>
+    </key>
+    <key name="not_authed_delete_warning">
+        <value>برای حذف یک نظرسنجی لازم است ابتدا وارد شوید.</value>
+    </key>
+    <key name="not_authed_follow_warning">
+        <value>برای دنبال کردن یک نظرسنجی لازم است ابتدا وارد شوید.</value>
+    </key>
+    <key name="question_ask_complete_msg">
+        <value>درخواست شما به {$count} کاربر ارسال شد.</value>
+    </key>
+    <key name="selector_title_friends">
+        <value>انتخاب دوستان</value>
+    </key>
+    <key name="selector_title_users">
+        <value>انتخاب کاربران</value>
+    </key>
+    <key name="toolbar_ask_friends">
+        <value>پرسش از دوستان</value>
+    </key>
+    <key name="toolbar_ask_users">
+        <value>پرسش از کاربران</value>
+    </key>
+    <key name="toolbar_comment_btn">
+        <value>نظر</value>
+    </key>
+    <key name="toolbar_delete_btn">
+        <value>حذف</value>
+    </key>
+    <key name="toolbar_follow_btn">
+        <value>دنبال‌کردن</value>
+    </key>
+    <key name="usercredits_action_add_answer">
+        <value>افزودن پاسخ نظرسنجی</value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>درج نظر برای نظرسنجی</value>
+    </key>
+    <key name="usercredits_action_answer_question">
+        <value>پاسخ به نظرسنجی</value>
+    </key>
+    <key name="usercredits_action_ask_friend">
+        <value>درخواست از کاربران برای شرکت در نظرسنجی</value>
+    </key>
+    <key name="usercredits_action_ask_question">
+        <value>ایجاد نظرسنجی</value>
+    </key>
+    <key name="user_select_all_users">
+        <value>تمام کاربران</value>
+    </key>
+    <key name="user_select_button_ask">
+        <value>پرسیدن</value>
+    </key>
+    <key name="user_select_counter_title">
+        <value>انتخاب کاربران</value>
+    </key>
+    <key name="user_select_empty_search_result">
+        <value>نتیجه‌ای برای عبارت "{$searchWord}" یافت نشد.</value>
+    </key>
+    <key name="user_select_from_all_users">
+        <value>تمام کاربران</value>
+    </key>
+    <key name="user_select_no_friends">
+        <value>شما هنوز هیچ دوستی ندارید. تغییر به حالت {$switchToAllButton}</value>
+    </key>
+    <key name="user_select_no_items">
+        <value>هیچ کاربری یافت نشد.</value>
+    </key>
+    <key name="user_select_search_friends_inv">
+        <value>جستجو در میان دوستان</value>
+    </key>
+    <key name="user_select_search_users_inv">
+        <value>جستجوی کاربران</value>
+    </key>
+    <key name="view_more_questions_btn">
+        <value>نمایش بیشتر</value>
+    </key>
+    <key name="widget_settings_add_new">
+        <value>امکان ایجاد نظرسنجی‌های جدید</value>
+    </key>
+    <key name="widget_settings_count">
+        <value>موارد نمایش داده شده</value>
+    </key>
+    <key name="widget_settings_order">
+        <value>ترتیب لیست</value>
+    </key>
+    <key name="invalid_video_file">
+        <value>نوع فایل ویدیو غیر مجاز است</value>
+    </key>
+    <key name="view_my_questions">
+        <value>نمایش نظرسنجی‌های من</value>
+    </key>
+    <key name="question_created">
+        <value>یک نظرسنجی ایجاد کرد.</value>
+    </key>
+    <key name="question_create_successfully">
+        <value>نظرسنجی با موفقیت ایجاد شد.</value>
+    </key>
+    <key name="question_operation_successfully">
+        <value>عملیات با موفقیت انجام شد.</value>
+    </key>
+    <key name="question_allow_multiple">
+        <value>امکان ثبت بیش از یک پاسخ</value>
+    </key>
+    <key name="question_add_option_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به نظرسنجی «&lt;a href="{$questionUrl}"&gt;{$questionText}&lt;/a&gt;» گزینه اضافه کرد: {$option}</value>
+    </key>
+    <key name="question_add_answer_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به &lt;a href="{$questionUrl}"&gt;نظرسنجی&lt;/a&gt; با گزینه &lt;a href="{$questionUrl}"&gt;{$option}&lt;/a&gt; پاسخ داد</value>
+    </key>
+    <key name="add_answer_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; به نظرسنجی «&lt;a href="{$questionUrl}"&gt;{$questionText}&lt;/a&gt;» پاسخ داد: {$option}</value>
+    </key>
+    <key name="question_edit_question_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; یک &lt;a href="{$questionUrl}"&gt;نظرسنجی&lt;/a&gt; را ویرایش کرد.</value>
+    </key>
+    <key name="toolbar_edit_btn">
+        <value>تنظیمات نظرسنجی</value>
+    </key>
+    <key name="toolbar_comments_btn">
+        <value>نظرات</value>
+    </key>
+    <key name="addAnswer_label">
+        <value>افزودن پاسخ</value>
+    </key>
+    <key name="addOption_label">
+        <value>افزودن گزینه</value>
+    </key>
+    <key name="editQuestion_label">
+        <value>ویرایش نظرسنجی</value>
+    </key>
+    <key name="plugin_label">
+        <value>نظرسنجی جدید</value>
+    </key>
+    <key name="are_you_sure_empty_option">
+        <value>نظرسنجی با گزینه خالی ایجاد شود؟</value>
+    </key>
+    <key name="question_add_allow_multiple_answer">
+        <value>گزینه‌های قابل انتخاب</value>
+    </key>
+    <key name="one_answer">
+        <value>یک گزینه</value>
+    </key>
+    <key name="multiple_answers">
+        <value>چندین گزینه</value>
+    </key>
+    <key name="guest_answer_error">
+        <value>برای رای دادن باید وارد شوید</value>
+    </key>
+    <key name="guest_subscribe_error">
+        <value>برای دنبال کردن باید وارد شوید</value>
+    </key>
+    <key name="make_questionaire">
+        <value>ایجاد نظرسنجی</value>
+    </key>
+</prefix>

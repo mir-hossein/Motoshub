@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="mobile" label="Mobile" language_tag="fa-IR" language_label="فارسی">
+    <key name="about">
+        <value>
+            اطلاعات بیشتر
+        </value>
+    </key>
+    <key name="admin_nav_adding_message">
+        <value>
+            درحال افزودن...
+        </value>
+    </key>
+    <key name="admin_nav_bottom_section_label">
+        <value>
+            منو پایین
+        </value>
+    </key>
+    <key name="admin_nav_default_menu_name">
+        <value>
+            مورد جدید
+        </value>
+    </key>
+    <key name="admin_nav_default_page_content">
+        <value>
+            محتوا
+        </value>
+    </key>
+    <key name="admin_nav_default_page_title">
+        <value>
+            عنوان صفحه
+        </value>
+    </key>
+    <key name="admin_nav_guide">
+        <value>
+            راهنما: "صفحه جدید" را کشیده و در منوی بالا یا پایین رها کنید تا ایجاد شود.
+        </value>
+    </key>
+    <key name="admin_nav_hidden_section_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="admin_nav_item_content_field">
+        <value>
+            محتوا (HTML)
+        </value>
+    </key>
+    <key name="admin_nav_item_label_field">
+        <value>
+            عنوان منو
+        </value>
+    </key>
+    <key name="admin_nav_item_title_field">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="admin_nav_item_type_external">
+        <value>
+            خارجی
+        </value>
+    </key>
+    <key name="admin_nav_item_type_field">
+        <value>
+            نوع صفحه
+        </value>
+    </key>
+    <key name="admin_nav_item_type_local">
+        <value>
+            محلی
+        </value>
+    </key>
+    <key name="admin_nav_item_url_field">
+        <value>
+            نشانی اینترنتی
+        </value>
+    </key>
+    <key name="admin_nav_new_item_label">
+        <value>
+            صفحه جدید
+        </value>
+    </key>
+    <key name="admin_nav_settings_fb_title">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="admin_nav_top_section_label">
+        <value>
+            منو بالا
+        </value>
+    </key>
+    <key name="admin_widgets_hidden_section_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="admin_widgets_main_section_label">
+        <value>
+            محتوا
+        </value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            آیا مطمئن هستید؟
+        </value>
+    </key>
+    <key name="menu_item_dashboard">
+        <value>
+             
+        </value>
+    </key>
+    <key name="mobile_admin_navigation">
+        <value>
+            منو موبایل
+        </value>
+    </key>
+    <key name="mobile_admin_pages_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="mobile_admin_pages_index">
+        <value>
+            صفحه اصلی
+        </value>
+    </key>
+    <key name="mobile_admin_pages_profile">
+        <value>
+             
+        </value>
+    </key>
+    <key name="mobile_admin_settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="mobile_join_promo">
+        <value>
+            با عضویت در این شبکه اجتماعی شما قادر خواهید بود از امکاناتی نظیر گروه، انجمن، اشتراک مطالب، تصاویر، ویدیوها و دیگر امکانات بهره‌مند شوید.
+        </value>
+    </key>
+    <key name="mobile_pages_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="page_default_description">
+        <value>
+            شبکه اجتماعی برخط {$site_name} - قدرت گرفته از موتوشاب
+        </value>
+    </key>
+    <key name="page_default_heading">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+    <key name="page_default_title">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+    <key name="page_is_not_available">
+        <value>
+            صفحه مورد نظر وجود ندارد
+        </value>
+    </key>
+    <key name="right_sidebar_guest_heading">
+        <value>
+            لطفا وارد شوید
+        </value>
+    </key>
+    <key name="sign_out">
+        <value>
+            خروج
+        </value>
+    </key>
+    <key name="view_profile">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="widgets_admin_dashboard_heading">
+        <value>
+            داشبورد کاربر
+        </value>
+    </key>
+    <key name="widgets_admin_index_heading">
+        <value>
+            صفحه اصلی موبایل
+        </value>
+    </key>
+    <key name="widgets_admin_profile_heading">
+        <value>
+             
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,49 @@
+<div class="owm_anno owm_info owm_padding">{$countInfo}</div>
+{if empty($clips)}
+    <!--<div class="ow_nocontent">{text key='base+empty_list'}</div>-->
+{else}
+<div class="owm_video_list owm_list_page ow_stdmargin clearfix">
+    <div class="clearfix">
+        {assign var='alt1' value=true}
+        {assign var='cnt' value=0}
+
+        {foreach from=$clips item='clip' name='c'}
+
+        {if $cnt == $count}
+        {if $alt1}{assign var='alt1' value=false}{else}{assign var='alt1' value=true}{/if}
+        {assign var='cnt' value=0}
+        {/if}
+
+        {assign var='cnt' value=$cnt+1}
+
+        {assign var='userId' value=$clip.userId}
+
+        {if $cnt == 1}
+        <div class="clearfix {if $alt1}ow_alt1{else}ow_alt2{/if}">
+            {/if}
+            {if isset($tags[$clip.id])}
+            {decorator name='mobile_video_list_item'
+            data=$clip
+            listType=$listType
+            username=$usernames[$userId]
+            displayName=$displayNames[$userId]
+            tags = $tags[$clip.id]
+            }
+            {else}
+            {decorator name='mobile_video_list_item'
+            data=$clip
+            Type='featured'
+            username=$clip.username
+            displayName=$clip.username
+            }
+            {/if}
+
+            {if $cnt == $count && $smarty.foreach.c.iteration != 1 || $smarty.foreach.c.last}
+        </div>
+        {/if}
+
+        {/foreach}
+    </div>
+    <center>{$paging}</center>
+</div>
+{/if}

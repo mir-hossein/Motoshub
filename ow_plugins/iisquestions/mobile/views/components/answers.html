@@ -1,0 +1,19 @@
+<div class="ow_lp_avatars ow_mini_avatar qa-avatar clearfix">
+    {strip}
+    <div class="qa-hidden-users-c" style="display: none;">
+        {if !empty($hiddenUser)}
+        <div class="qa-user user-{$hiddenUser.id}" rel="{$hiddenUser.id}">
+            {decorator name='avatar_item' data=$hiddenUser class="qa-user_avatar"}
+        </div>
+        {/if}
+    </div>
+    <div class="qa-users-c">
+        {foreach from=$users key="userId" item='user' name="f"}
+        <div class="qa-user user-{$userId}" rel="{$userId}">
+            {decorator name='avatar_item' data=$user class="qa-user_avatar"}
+        </div>
+        {/foreach}
+    </div>
+    <a href="javascript://" {if !$otherCount}style="display: none"{/if} class="ow_border q-opacity10 qaa-view-more-btn"><img title="{$title}" src="{$staticUrl}css/more.png" /></a>
+    {/strip}
+</div>

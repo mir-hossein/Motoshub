@@ -1,0 +1,37 @@
+<style>
+    @media only screen and (max-width : 450px) {
+        .owm_group_file_date{
+            display: none;
+        }
+    }
+</style>
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+    {if isset($showAdd) && $showAdd==true}
+    <img class="add_item_icon" onclick="showUploadFileIntoGroupForm({$groupId})" src="{$addIconUrl}" />
+    {/if}
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+    </div>
+    <h3> {text key="base+back"}</h3>
+</div>
+<div class="owm_box owm_group_file_search">
+    <a id="original-search-group-files" href="{$search_url}" style="display: none"></a>
+    <div class="owm_btn_list_item_wrap">
+        <a class="owm_btn_list_item" href="javascript:searchGroupFiles();">
+            <span class="owm_btn_list_item_c">{text key="iisgroupsplus+search_btn_label"}</span>
+        </a>
+        <input id="search-group-files" type="text" class="ow_group_files_list invitation" placeholder="{text key='iisgroupsplus+search_invitation'}" value="{if !empty($searchTitle)}{$searchTitle}{/if}">
+    </div>
+</div>
+<div class="owm_group_list files_list clearfix">
+    {if empty($fileList) }
+    <div class="ow_nocontent">{text key="iisgroupsplus+file_list_widget_empty"}</div>
+    {else}
+    <div class="clearfix">
+        {foreach from=$fileList key='key' item='file'}
+        {decorator name='ipc' addClass='owm_list_item_with_image' data=$file infoString="<a href=\"`$file.url`\" target=\"_blank\">`$file.title`</a>"}
+        {/foreach}
+    </div>
+    <div class="clearfix">{$paging}</div>
+    {/if}
+</div>

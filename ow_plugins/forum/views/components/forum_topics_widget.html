@@ -1,0 +1,126 @@
+{script}
+{literal}
+	$(document).ready(function(){
+		var $tb_container = $(".ow_box_toolbar_cont", $("#topic_list_widget").parents('.ow_box, .ow_box_empty').get(0));
+	});
+{/literal}
+{/script}
+{if isset($menu)}{$menu}
+<div id="topic_list_widget">
+<div id="{$items.latestPosts.contId}">
+{/if}
+{foreach from=$topics item='topic'}
+
+	{capture assign='info_string'}
+	    <a href="{$topic.lastPost.postUrl}">{$topic.title}</a>
+	{/capture}
+	
+	{capture assign='content'}
+	{if isset($info_string)}<div class="forum_widget_header">{$info_string}</div>{/if}
+    	{assign var="sectId" value=$groups[$topic.groupId]->sectionId}
+	    <div class="ow_smallmargin forum_widget_content_text">
+            {capture assign='length'}{$topic.lastPost.text|count_characters}{/capture}
+            {$topic.lastPost.text|truncate:$postLength} {if $length > $postLength}<a href="{$topic.lastPost.postUrl}" class="ow_lbutton">{text key='base+more'}</a>{/if}
+	    </div>
+	{/capture}
+
+	{capture assign='path_to_forum'}
+	<div class="ow_smallmargin ow_small path_to_forum_container">
+		<a href="{url_for_route for="forum-default"}#section-{$sectId}" title="{$sections[$sectId]->name}" class="tag_item">{$sections[$sectId]->name}</a>
+		<span class="forum_widget_path_divider">&raquo;</span>
+		<a href="{url_for_route for="group-default:[groupId=>`$topic.groupId`]"}" title="{$groups[$topic.groupId]->name}" class="tag_item">{$groups[$topic.groupId]->name}</a>
+	</div>
+	{/capture}
+	
+	{decorator name='forum_widget_ipc'
+		addClass='ow_smallmargin'
+	    avatar=$avatars[$topic.lastPost.userId]
+	    infoString=$info_string
+	    content=$content
+	 	path_to_forum=$path_to_forum
+	    toolbar=$toolbars[$topic.lastPost.postId]
+	}
+	
+{foreachelse}
+    <div class="ow_nocontent">{text key='forum+no_topics'}, <a href="{url_for_route for='add-topic-default'}">{text key='forum+add_new'}</a></div>
+{/foreach}
+{if isset($menu)}
+</div>
+{/if}
+
+{if isset($latestTopics)}
+<div id="{$items.latestTopics.contId}" style="display: none">
+	{foreach from=$latestTopics item='topic'}
+		{capture assign='info_string'}
+			<a href="{$topic.lastPost.postUrl}">{$topic.title}</a>
+		{/capture}
+
+		{capture assign='content'}
+		    {if isset($info_string)}<div class="forum_widget_header">{$info_string}</div>{/if}
+		    <div class="ow_smallmargin forum_widget_content_text">
+		    	{capture assign='length'}{$topic.lastPost.text|count_characters}{/capture}
+				{$topic.lastPost.text|prettify|truncate:$postLength} {if $length > $postLength}<a href="{$topic.lastPost.postUrl}" class="ow_lbutton">{text key='base+more'}</a>{/if}
+		    </div>
+		{/capture}
+
+		{capture assign='path_to_forum'}
+		<div class="ow_smallmargin ow_small path_to_forum_container">
+			<a href="{url_for_route for="forum-default"}#section-{$sectId}" title="{$sections[$sectId]->name}" class="tag_item">{$sections[$sectId]->name}</a>
+			<span class="forum_widget_path_divider">&raquo;</span>
+			<a href="{url_for_route for="group-default:[groupId=>`$topic.groupId`]"}" title="{$groups[$topic.groupId]->name}" class="tag_item">{$groups[$topic.groupId]->name}</a>
+		</div>
+		{/capture}
+
+		{decorator name='forum_widget_ipc'
+			addClass='ow_smallmargin'
+			avatar=$lastTopicAvatars[$topic.lastPost.userId]
+			infoString=$info_string
+			content=$content
+			path_to_forum=$path_to_forum
+			toolbar=$lastTopicToolbars[$topic.lastPost.postId]
+		}
+	{foreachelse}
+	<div class="ow_nocontent">{text key='forum+no_topics'}, <a href="{url_for_route for='add-topic-default'}">{text key='forum+add_new'}</a></div>
+	{/foreach}
+</div>
+{/if}
+{if isset($mostViewedTopics)}
+<div id="{$items.mostViewedTopics.contId}" style="display: none">
+	{foreach from=$mostViewedTopics item='topic'}
+	{capture assign='info_string'}
+	<a href="{$topic.lastPost.postUrl}">{$topic.title}</a>
+	{/capture}
+
+	{capture assign='content'}
+	{if isset($info_string)}<div class="forum_widget_header">{$info_string}</div>{/if}
+	{assign var="sectId" value=$mostViewedTopicGroups[$topic.groupId]->sectionId}
+	<div class="ow_smallmargin forum_widget_content_text">
+		{capture assign='length'}{$topic.lastPost.text|count_characters}{/capture}
+		{$topic.lastPost.text|prettify|truncate:$postLength} {if $length > $postLength}<a href="{$topic.lastPost.postUrl}" class="ow_lbutton">{text key='base+more'}</a>{/if}
+	</div>
+	{/capture}
+
+	{capture assign='path_to_forum'}
+	<div class="ow_smallmargin ow_small path_to_forum_container">
+		<a href="{url_for_route for="forum-default"}#section-{$sectId}" title="{$mostViewedTopicSections[$sectId]->name}" class="tag_item">{$mostViewedTopicSections[$sectId]->name}</a>
+		<span class="forum_widget_path_divider">&raquo;</span>
+		<a href="{url_for_route for="group-default:[groupId=>`$topic.groupId`]"}" title="{$mostViewedTopicGroups[$topic.groupId]->name}" class="tag_item">{$mostViewedTopicGroups[$topic.groupId]->name}</a>
+	</div>
+	{/capture}
+
+	{decorator name='forum_widget_ipc'
+	addClass='ow_smallmargin'
+	avatar=$mostViewedTopicAvatars[$topic.lastPost.userId]
+	infoString=$info_string
+	content=$content
+	path_to_forum=$path_to_forum
+	toolbar=$mostViewedTopicToolbars[$topic.lastPost.postId]
+	}
+	{foreachelse}
+	<div class="ow_nocontent">{text key='forum+no_topics'}, <a href="{url_for_route for='add-topic-default'}">{text key='forum+add_new'}</a></div>
+	{/foreach}
+</div>
+{/if}
+{if isset($menu)}
+</div>
+{/if}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>نظرسنجی جدید</name>
+    <key>iisquestions</key>
+    <description>افزونه‌ای برای طرح پرسش‌نامه</description>
+    <author>Seyed Ismail Mirvakili</author>
+    <authorEmail>seiedesmaeel@gmail.com</authorEmail>
+    <developerKey>1</developerKey>
+    <build>1782</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+</plugin>

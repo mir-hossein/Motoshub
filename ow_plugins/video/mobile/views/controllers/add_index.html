@@ -1,0 +1,153 @@
+{script}
+$('.select_type_tr').hide();
+{if isset($input_type)}   $('#input_type_{$input_type}').click();$('#type_{$input_type}').show();   {/if}
+{literal}
+    $("[name=input_type]").click(function(){
+        $('.select_type_tr').hide();
+        if($('#input_type_code').is(':checked')){
+            $('#type_code').show();
+            $('#aparatURL').val('');
+        }
+        else if($('#input_type_aparat').is(':checked')){
+            $('#type_aparat').show();
+        }
+        else if($('#input_type_upload').is(':checked')){
+            $('#type_upload').show();
+            $('#aparatURL').val('');
+        }
+    });
+{/literal}
+{/script}
+
+<div class="owm_full_page_form ow_superwide ow_automargin">
+
+    {if !$auth_msg}
+	<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+		<div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+		</div>
+		<h3> {text key="base+back"}</h3>
+	</div>
+
+	{form name='videoAddForm'}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">
+                <label for="input_type_code">{text key='video+video_add_select_type'}</label>
+            </div>
+            <div class="owm_form_field_value">
+                <ul class="ow_radio_group clearfix">
+                    {if isset($videoUploadField)}
+                    <li style="width:100%">
+                        <input id="input_type_upload" name="input_type" type="radio" value="upload">
+                        <label for="input_type_upload">{text key='video+video_add_select_upload'}</label>
+                    </li>
+                    {/if}
+                    {if isset($aparatSupport)}
+                    <li style="width:100%">
+                        <input id="input_type_aparat" name="input_type" type="radio" value="aparat">
+                        <label for="input_type_aparat">{text key='video+video_add_select_aparat'}</label>
+                    </li>
+                    {/if}
+                    <li style="width:100%">
+                        <input id="input_type_code" name="input_type" type="radio" value="code">
+                        <label for="input_type_code">{text key='video+video_add_select_code'}</label>
+                    </li>
+                    {if isset($videoUploadField)}{error name='videoUpload'}{/if}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="owm_form_field_container select_type_tr" id="type_code">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='code'}</div>
+            <div class="owm_form_field_value">{input name='code'}</div>
+            <div class="owm_form_field_desc">
+                {text key='video+video_add_tip'}
+                <br/>
+                {text key='video+code_desc'}
+            </div>
+		</div>
+		<div class="owm_error_txt">{error name='code'}</div>
+	</div>
+    {if isset($videoUploadField)}
+    <div class="owm_form_field_container select_type_tr" id="type_upload">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">
+                {label name='videoUpload'}
+            </div>
+            <div class="owm_form_field_value">
+                {input name='videoUpload'}
+            </div>
+            <video id="main-video" controls style="display: none;">
+                <source type="video/mp4">
+            </video>
+            <canvas id="video-canvas" style="display: none;"></canvas>
+            <div id="thumbnail-container" style="display: none;">
+                {text key="video+thumbnail_label"} <select id="set-video-seconds"></select>
+            </div>
+            <br/>
+            <div class="owm_form_field_desc">
+                {text key='iisvideoplus+video_add_upload_desc'}
+            </div>
+        </div>
+        <div class="owm_error_txt">{error name='videoUpload'}</div>
+    </div>
+    {/if}
+    {if isset($aparatSupport)}
+    <div class="owm_form_field_container select_type_tr" id="type_aparat">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">
+                {label name='aparatURL'}
+            </div>
+            <div class="owm_form_field_value">
+                {input name='aparatURL'}
+            </div>
+            <div class="owm_form_field_desc">
+                {desc name='aparatURL'}
+            </div>
+        </div>
+        <div class="owm_error_txt">{error name='aparatURL'}</div>
+    </div>
+    {/if}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='title'}</div>
+            <div class="owm_form_field_value">{input name='title'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='title'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='description'}</div>
+            <div class="owm_form_field_value">{input name='description'}</div>
+            <div class="owm_form_field_desc">{text key='video+description_desc'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='description'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='tags'}</div>
+            <div class="owm_form_field_value">{input name='tags'}</div>
+            <div class="owm_form_field_desc">{text key='video+tags_desc'}</div>
+        </div>
+    </div>
+    {if isset($statusPrivacyField)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='statusPrivacy'}</div>
+            <div class="owm_form_field_value">{input name='statusPrivacy'}</div>
+        </div>
+    </div>
+    {/if}
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			    <div class="owm_form_field_label"></div>
+			<div class="owm_form_field_value">{submit name='add' class='ow_positive'}</div>
+		</div>
+	</div>
+	{/form}
+	{else}
+	<div class="owm_anno ow_std_margin ow_nocontent">{$auth_msg}</div>
+	{/if}
+</div>

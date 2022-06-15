@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismainpage" label="iismainpage" language_tag="fa-IR" language_label="فارسی">
+    <key name="mobile_main_menu_list">
+        <value>
+            صفحه اصلی
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            تنظیمات افزونه صفحه اصلی موبایل
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="chat">
+        <value>
+            گپ‌زدن
+        </value>
+    </key>
+    <key name="mail">
+        <value>
+            پیام‌های خصوصی
+        </value>
+    </key>
+    <key name="find_friends">
+        <value>
+            یافتن دوستان جدید
+        </value>
+    </key>
+    <key name="orders">
+        <value>
+            ترتیب منوها
+        </value>
+    </key>
+    <key name="empty_row_label">
+        <value>
+            خالی
+        </value>
+    </key>
+    <key name="search">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="username_or_realname">
+        <value>
+          نام کاربری / نام واقعی
+        </value>
+    </key>
+    <key name="public_photos">
+        <value>
+            تصاویر عمومی
+        </value>
+    </key>
+</prefix>

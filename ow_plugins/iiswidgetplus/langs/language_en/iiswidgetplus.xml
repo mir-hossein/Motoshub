@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iiswidgetplus" label="iiswidgetplus" language_tag="en" language_label="English">
+	<key name="display_rate_widget">
+		<value>
+			display rate widget to:
+		</value>
+	</key>
+	<key name="all_users">
+		<value>
+			all users
+		</value>
+	</key>
+	<key name="only_login_users">
+		<value>
+			everyone except guest users
+		</value>
+	</key>
+	<key name="settings_updated">
+		<value>
+			Settings updated
+		</value>
+	</key>
+	<key name="index_page_title">
+		<value>
+			widgetplus
+		</value>
+	</key>
+	<key name="index_page_heading">
+		<value>
+			widgetplus
+		</value>
+	</key>
+</prefix>

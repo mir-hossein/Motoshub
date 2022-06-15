@@ -1,0 +1,32 @@
+<svg width="58" height="58" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="60" width="60" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path id="svg_2" fill="#E9E9E0" d="m36.985,0.987647l-29.022,0c-0.808,0 -1.463,0.655 -1.463,1.926l0,53.074c0,0.345 0.655,1 1.463,1l40.074,0c0.808,0 1.463,-0.655 1.463,-1l0,-42.022c0,-0.696 -0.093,-0.92 -0.257,-1.085l-11.636,-11.636c-0.165,-0.164 -0.389,-0.257 -0.622,-0.257z"/>
+   <polygon id="svg_3" fill="#D9D7CA" points="37.5,1.13864666223526 37.5,12.987647831439972 49.3489990234375,12.987647831439972 "/>
+   <path id="svg_4" fill="#E96360" d="m48.037,56.987647l-40.074,0c-0.808,0 -1.463,-0.655 -1.463,-1.463l0,-15.537l43,0l0,15.537c0,0.808 -0.655,1.463 -1.463,1.463z"/>
+   <path id="svg_9" fill="#C8BDB8" d="m24.5,16.987647l0,-4l-12,0l0,4l0,2l0,2l0,2l0,2l0,2l0,2l0,2l0,4l10,0l2,0l21,0l0,-4l0,-2l0,-2l0,-2l0,-2l0,-2l0,-4l-21,0zm-10,-2l8,0l0,2l-8,0l0,-2zm0,4l8,0l0,2l-8,0l0,-2zm0,4l8,0l0,2l-8,0l0,-2zm0,4l8,0l0,2l-8,0l0,-2zm8,6l-8,0l0,-2l8,0l0,2zm21,0l-19,0l0,-2l19,0l0,2zm0,-4l-19,0l0,-2l19,0l0,2zm0,-4l-19,0l0,-2l19,0l0,2zm-19,-4l0,-2l19,0l0,2l-19,0z"/>
+   <text stroke="null" transform="matrix(0.5638883709907532,0,0,0.5638883709907532,6.637073853984475,21.873723892495036) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_25" y="55.60759" x="12.595081" stroke-opacity="null" stroke-width="0" fill="#ffffff">FILE</text>
+  </g>
+  <g id="svg_10"/>
+  <g id="svg_11"/>
+  <g id="svg_12"/>
+  <g id="svg_13"/>
+  <g id="svg_14"/>
+  <g id="svg_15"/>
+  <g id="svg_16"/>
+  <g id="svg_17"/>
+  <g id="svg_18"/>
+  <g id="svg_19"/>
+  <g id="svg_20"/>
+  <g id="svg_21"/>
+  <g id="svg_22"/>
+  <g id="svg_23"/>
+  <g id="svg_24"/>
+ </g>
+</svg>

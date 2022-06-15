@@ -1,0 +1,56 @@
+{script}
+{literal}
+	$(document).ready(function() {
+		$('form[name="fileUploadForm"]').submit(function(e) {
+			if($('input[name="fileUpload"]').val()) {
+				e.preventDefault();
+				$('#progress-div').show();
+				$(this).ajaxSubmit({
+					forceSync: true,
+					target:   '#targetLayer',
+					beforeSubmit: function() {
+						$("#progress-bar").width('0%');
+					},
+					uploadProgress: function (event, position, total, percentComplete){
+						$("#progress-bar").width(percentComplete + '%');
+						$("#progress-bar").html('<div id="progress-status">' + percentComplete +' %</div>')
+					},
+					success:function (){
+						closeUploadFileIntoGroupForm();
+						$('#loader-icon').hide();
+						setTimeout(function() {
+						window.location = window.location;
+						}, 1000);
+					},
+					resetForm: true
+				});
+				return false;
+			}
+		});
+	});
+{/literal}
+{/script}
+<div class="ow_create_group clearfix">
+
+    <div class="ow_superwide ow_automargin">
+	    {form name='fileUploadForm'}
+
+	        <table class="ow_table_1 ow_form">
+	            <tr class="ow_alt2 ow_tr_first">
+	                <td class="ow_label">{label name='name'}</td>
+	                <td class="ow_value">{input name='name'} {error name='name'}</td>
+	               <!-- <td class="ow_desc ow_small"></td>-->
+	            </tr>
+	            <tr class="ow_alt1">
+	                <td class="ow_label">{label name='fileUpload'}</td>
+	                <td class="ow_value">{input name='fileUpload'}<br />{error name='fileUpload'}</td>
+	                <!--<td class="ow_desc ow_small"></td>-->
+	            </tr>
+	        </table>
+			<div id="progress-div" style="display:none;"><div id="progress-bar"></div></div>
+			<div id="targetLayer"></div>
+            <div class="clearfix ow_stdmargin"><div style="text-align: center;">{submit name='save' class='ow_ic_new'}</div></div>
+	    {/form}
+    </div>
+
+</div>

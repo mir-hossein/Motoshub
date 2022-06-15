@@ -1,0 +1,27 @@
+{if empty($list)}
+    <div class="ow_nocontent">{text key='base+empty_list'}</div>
+{else}
+    {foreach from=$list item='entry'}
+    {assign var=dto value=$entry.dto}
+    {*-- decorator data*}
+    {assign var=userId value=$dto->getAuthorId()}
+
+    <div class="owm_list_item_without_image">
+        <div class="owm_list_section_body owm_bg_color_1 owm_padding">
+            <div class="owm_float_right">
+                <a class="owm_nav_cap_right" href="{$entry.url}"></a>
+            </div>
+            <a class="owm_list_title_format owm_list_title_unread" href="{$entry.url}">
+                <div class="owm_list_title_name owm_small_margin_bottom">
+                    <div>{$dto->getTitle()}</div>
+                </div>
+            </a>
+            <div class="owm_list_body_body">
+                {$entry.text}{if $entry.showMore}... <a class="ow_lbutton" href="{$entry.url}">{text key='iisnews+more'}</a>{/if}
+            </div>
+        </div>
+    </div>
+    {/foreach}
+    {if $paging}{$paging}{/if}
+{/if}
+

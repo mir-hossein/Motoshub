@@ -1,0 +1,80 @@
+<div class="clearfix ow_blogs_list_page">{add_content key='blogs.add_content.list.top' listType=$listType}</div>
+
+{style}{literal}
+.ow_wrap_normal{
+    white-space: normal;
+}
+{/literal}{/style}
+
+{if $addNew_isAuthorized}
+    {if $addNew_promoted}
+        <div class="ow_right add_new_blog_post">{decorator name='button' class='ow_ic_add' id='btn-add-new-post' langLabel='blogs+add_new'}</div>
+    {else}
+        <div class="ow_right add_new_blog_post">{decorator name='button' class='ow_ic_add' id='btn-add-new-post' langLabel='blogs+add_new' onclick="location.href='`$url_new_post`'"}</div>
+    {/if}
+{/if}
+	{$menu}
+      <div class="ow_blogs_list clearfix">
+
+         <div class="ow_superwide" style="float:left;">
+
+			{if $isBrowseByTagCase}       
+				{if $tag}
+	         	<div class="ow_anno ow_stdmargin ow_center ow_ic_searchTag">
+					{text key="blogs+results_by_tag" tag=$tag}
+				</div>
+				{else}
+					{$tagCloud}				
+				{/if}
+         	{/if}
+                
+            {if $showList}
+            {foreach from=$list item='post'}
+            
+				{assign var=dto value=$post.dto}
+
+				{*-- decorator data*}
+
+				{assign var=userId value=$dto->getAuthorId()}
+
+				{capture assign='info_string'}
+					<a href="{$post.url}">{$dto->getTitle()}</a>
+				{/capture}
+
+				{capture assign='content'}
+					{$post.text}{if $post.showMore}... {/if}
+				{/capture}
+				{assign var='id' value=$dto->getId()}
+
+				{*~~ decorator data*}
+
+            	{decorator name='ipc' infoString=$info_string addClass="ow_stdmargin ow_blog_item" content=$content toolbar=$toolbars[$id] avatar=$avatars[$userId]}
+            {foreachelse}
+            	{text key='base+empty_list'}
+            {/foreach}
+
+            {if $paging}<center>{$paging}</center>{/if}
+            {/if}
+        </div>    
+
+         <div class="ow_supernarrow" style="float:right;">
+			 <div class="blog_widget ow_dnd_widget">
+         	{$tagSearch}
+			 </div>
+         	{if $list|@count > 0}
+				 <div class="blog_widget blog_tags_list ow_dnd_widget">
+	         	{$tagCloud}
+				 </div>
+         	{/if}
+			 {if isset($my_published_posts_url)}
+					 <div class="blog_widget ow_manage_my_blogs_widget">
+			 <div style="" class="ow_stdmargin clearfix ow_no_cap ow_break_word">
+				 <div class="ow_my_drafts_widget clearfix ow_center">
+					 {decorator name="button" langLabel="blogs+my_drafts" class="ow_ic_draft" onclick="location.href='$my_published_posts_url'"}
+				 </div>
+			 </div>
+					 </div>
+			 {/if}
+         </div>
+
+      </div>

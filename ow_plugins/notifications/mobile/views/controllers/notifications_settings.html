@@ -1,0 +1,53 @@
+{$contentMenu}
+{if isset($backUrl)}
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+	<div class="owm_float_left">
+		<a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+	</div>
+	<h3> {text key="base+back"}</h3>
+</div>
+{/if}
+{*<p class="ow_stdmargin">
+    {text key='notifications+preferences_legend'}
+</p>*}
+
+<div class="owm_full_page_form owm_create_group ow_superwide ow_automargin">
+	{form name='notificationSettingForm' id='notificationSettingForm'}
+		{*<div class="owm_section owm_std_margin_bottom">
+			<span class="owm_section_label">{text key='notifications+preferences_legend'}</span>
+			<div class="owm_section_border"></div>
+		</div>*}
+		{foreach from=$actions item=plugin name="plugins"}
+			<div class="owm_section owm_std_margin_bottom">
+				<span class="owm_section_label">{$plugin.label}</span>
+				<div class="owm_section_border"></div>
+			</div>
+			{foreach from=$plugin.actions item=action name="actions"}
+				<div class="owm_form_field_container">
+					<div class="owm_form_field_wrap">
+						<div class="owm_form_field_label">{input name=$action.action}</div>
+						<div class="owm_form_field_value">{$action.description}</div>
+					</div>
+					<div class="owm_error_txt">{error name=$action.action}</div>
+				</div>
+			{/foreach}
+		{/foreach}
+		<div class="owm_section owm_std_margin_bottom">
+			<span class="owm_section_label">{text key="notifications+config_schedule_title"}</span>
+			<div class="owm_section_border"></div>
+		</div>
+		<div class="owm_form_field_container">
+			<div class="owm_form_field_wrap">
+				<div class="owm_form_field_label"></div>
+				<div class="owm_form_field_value">{input name="schedule"}</div>
+			</div>
+			<div class="owm_error_txt">{error name="schedule"}</div>
+		</div>
+		<div class="owm_form_field_container">
+			<div class="owm_form_field_wrap">
+				<div class="owm_form_field_label"></div>
+				<div class="owm_form_field_value">{submit name='save' class='ow_ic_save'}</div>
+			</div>
+		</div>
+	{/form}
+</div>

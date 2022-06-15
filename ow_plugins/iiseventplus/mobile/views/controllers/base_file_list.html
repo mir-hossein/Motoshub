@@ -1,0 +1,28 @@
+<style>
+    @media only screen and (max-width : 450px) {
+        .owm_event_file_date{
+            display: none;
+        }
+    }
+</style>
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+    {if isset($showAdd) && $showAdd==true}
+    <img class="add_item_icon" onclick="showUploadFileIntoEventForm({$eventId})" src="{$addIconUrl}" />
+    {/if}
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+    </div>
+    <h3> {text key="base+back"}</h3>
+</div>
+<div class="owm_event_list files_list clearfix">
+    {if empty($fileList) }
+    <div class="ow_nocontent">{text key="iiseventplus+file_list_widget_empty"}</div>
+    {else}
+    <div class="clearfix">
+        {foreach from=$fileList key='key' item='file'}
+        {decorator name='ipc' addClass='owm_list_item_with_image' data=$file infoString="<a href=\"`$file.url`\" target=\"_blank\">`$file.title`</a>"}
+        {/foreach}
+    </div>
+    <div class="clearfix">{$paging}</div>
+    {/if}
+</div>

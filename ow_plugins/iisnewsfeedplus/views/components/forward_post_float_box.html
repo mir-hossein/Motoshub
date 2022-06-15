@@ -1,0 +1,83 @@
+{if !empty($sections)}
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section' name='contentMenu'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+{/if}
+{if $sectionId==1}
+<!-- Use $isMobileVersion variable to set distinguish between mobile class and desktop class divs-->
+<div class="ow_lp_groups group_select_list" id="{$contexId}">
+    {if empty($groupList)}
+        <div class="ow_nocontent">{text key='iisnewsfeedplus+group_select_empty_list_message'}</div>
+    {else}
+        <div>
+            <input id="instant_search_txt_input" type="text" placeholder="{text key='iisnewsfeedplus+search_groups'}" style="width: 200px;margin: 3px 0px;">
+        </div>
+
+        <div class="asl_groups">
+            {foreach from=$groups item='group' name='group_list'}
+                <div class="ow_group_list_item clearfix">
+                    <div class="ow_group_list" id="{$group.linkId}">
+                        <div class="ow_group">
+                            <div class="group_list_forward_list">
+                                <a href="{$group.url}"><img alt="{$group.label|escape}" title="{$group.label|escape}" src="{$group.imageUrl}" /></a>
+                                <span class="ow_group_label">{$group.label}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {/foreach}
+        </div>
+
+        <div class="ow_center" style="padding: 8px;">
+            {if !empty($langs.countLabel)}
+                <input type="hidden" class="count_label" value="{$langs.countLabel}" />
+            {/if}
+            <input type="hidden" class="button_label" value="{$langs.buttonLabel}" />
+            {if !empty($langs.countLabel)}
+                <div class="count_label">
+                    {$langs.startCountLabel}
+                </div>
+            {/if}
+
+            <div class="submit_cont">
+                    {decorator name='button' label=$langs.startButtonLabel class='submit'}
+            </div>
+        </div>
+    {/if}
+</div>
+{else if $sectionId==2}
+    <div class="ow_lp_avatars avatar_select_list" id="{$contexId}">
+        {if empty($users)}
+        <div class="ow_nocontent">{text key='base+empty_user_avatar_list_select'}</div>
+        {else}
+        <div style="width: 100%;">
+            <input id="instant_search_txt_input" type="text" placeholder="{text key='iisnewsfeedplus+search_groups'}" style="width: 200px;margin: 3px 0px;">
+        </div>
+        <div class="asl_users">
+            {foreach from=$users item='user' name='user_list'}
+            {decorator name="user_list_item"
+            avatar=$avatars[$user.id]
+            username=$user.username
+            displayName=$user.title
+            noUserLink=1
+            contId=$user.linkId
+            set_class=$user.class}
+            {/foreach}
+        </div>
+        <div class="ow_center" style="padding: 8px;">
+            {if !empty($langs.countLabel)}<input type="hidden" class="count_label" value="{$langs.countLabel}" />{/if}
+            <input type="hidden" class="button_label" value="{$langs.buttonLabel}" />
+            {if !empty($langs.countLabel)}<div class="count_label">{$langs.startCountLabel}</div>{/if}
+            <div class="submit_cont">
+                <div class="ow_right user_select_submit_button">
+                    {decorator name='button' label=$langs.startButtonLabel class='submit'}
+                </div>
+            </div>
+        </div>
+        {/if}
+    </div>
+{/if}

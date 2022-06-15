@@ -1,0 +1,1216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="mailbox" label="Messages" language_tag="fa-IR" language_label="فارسی">
+    <key name="about_hour">
+        <value>
+            حدود یک ساعت
+        </value>
+    </key>
+    <key name="about_hours">
+        <value>
+            حدود %d ساعت
+        </value>
+    </key>
+    <key name="about_minute">
+        <value>
+            حدود یک دقیقه
+        </value>
+    </key>
+    <key name="about_month">
+        <value>
+            حدود یک ماه
+        </value>
+    </key>
+    <key name="about_year">
+        <value>
+            حدود یک سال
+        </value>
+    </key>
+    <key name="actions">
+        <value>
+            عملیات روی پیام‌ها
+        </value>
+    </key>
+    <key name="add_button">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="add_message">
+        <value>
+            پیام جدید اضافه شده است
+        </value>
+    </key>
+    <key name="admin_config">
+        <value>
+            تنظیمات افزونه پیام
+        </value>
+    </key>
+    <key name="admin_settings_title">
+        <value>
+            تنظیمات صندوق پیام
+        </value>
+    </key>
+    <key name="ago">
+        <value>
+            قبل
+        </value>
+    </key>
+    <key name="and">
+        <value>
+            و
+        </value>
+    </key>
+    <key name="api_read_the_message">
+        <value>
+            خواندن پیام (استفاده از اعتبارات)
+        </value>
+    </key>
+    <key name="attache_file_delete_button">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="attachment">
+        <value>
+            پیوست
+        </value>
+    </key>
+    <key name="attachments">
+        <value>
+            پیوست‌ها
+        </value>
+    </key>
+    <key name="attach_files">
+        <value>
+            پیوست فایل
+        </value>
+    </key>
+    <key name="auth_action_label_chat">
+        <value>
+            اجازه گپ زدن
+        </value>
+    </key>
+    <key name="auth_action_label_read_chat_message">
+        <value>
+            خواندن پیام‌های گپ
+        </value>
+    </key>
+    <key name="auth_action_label_read_message">
+        <value>
+            خواندن نامه‌ها
+        </value>
+    </key>
+    <key name="auth_action_label_read_message_alt">
+        <value>
+            خواندن پیام‌ها
+        </value>
+    </key>
+    <key name="auth_action_label_reply_to_chat_message">
+        <value>
+            ادامه گپ زدن
+        </value>
+    </key>
+    <key name="auth_action_label_reply_to_message">
+        <value>
+            ادامه گفتگوی پیام
+        </value>
+    </key>
+    <key name="auth_action_label_reply_to_message_alt">
+        <value>
+            ادامه گفتگو
+        </value>
+    </key>
+    <key name="auth_action_label_send_chat_message">
+        <value>
+            آغاز گپ زدن
+        </value>
+    </key>
+    <key name="auth_action_label_send_message">
+        <value>
+            پیام خصوصی
+        </value>
+    </key>
+    <key name="auth_action_label_send_message_alt">
+        <value>
+            آغاز گفتگو
+        </value>
+    </key>
+    <key name="auth_action_label_use_chat">
+        <value>
+            استفاده از امکان گپ زدن
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            پیام‌های خصوصی
+        </value>
+    </key>
+    <key name="a_day">
+        <value>
+            روزی
+        </value>
+    </key>
+    <key name="between">
+        <value>
+            بین
+        </value>
+    </key>
+    <key name="bulk_delete_conversations_btn">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="bulk_mark_as_read_btn">
+        <value>
+            نشانه‌گذاری به‌عنوان خوانده شده
+        </value>
+    </key>
+    <key name="bulk_mark_unread_btn">
+        <value>
+            نشانه‌گذاری به‌عنوان خوانده نشده
+        </value>
+    </key>
+    <key name="bulk_options">
+        <value>
+            گزینه‌های جمعی
+        </value>
+    </key>
+    <key name="can_not_display_entitytype_message">
+        <value>
+            شما نمی‌توانید پیام {$entityType} را نمایش دهید.
+        </value>
+    </key>
+    <key name="change_privacy_settings">
+        <value>
+            تغییر حریم خصوصی پیام‌ها
+        </value>
+    </key>
+    <key name="chat">
+        <value>
+            گپ زدن
+        </value>
+    </key>
+    <key name="chat_message_empty">
+        <value>
+            متن پیام خالی است
+        </value>
+    </key>
+    <key name="chat_subject_prefix">
+        <value>
+            ...
+        </value>
+    </key>
+    <key name="check_all">
+        <value>
+            انتخاب همه
+        </value>
+    </key>
+    <key name="check_now_button">
+        <value>
+            اکنون بررسی کنید
+        </value>
+    </key>
+    <key name="click_to_read_messages">
+        <value>
+            برای خواندن پیام‌ها اینجا کلیک کنید
+        </value>
+    </key>
+    <key name="close_new_message_window_confirmation">
+        <value>
+            آیا می‌خواهید کادر پیام جدید را ببندید؟
+        </value>
+    </key>
+    <key name="compose_message">
+        <value>
+            نوشتن پیام
+        </value>
+    </key>
+    <key name="confirm_conversation_delete">
+        <value>
+            آیا اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete_im">
+        <value>
+            آیا از حذف پیام‌ها اطمینان دارید؟
+        </value>
+    </key>
+    <key name="console_request_item">
+        <value>
+            &lt;div class="ow_console_mailbox_cont" target="_blank"&gt;&#13;
+            &lt;div class="auto-style1"&gt;&lt;span dir="rtl"&gt;&lt;a target="_blank" href="{$userUrl}"&gt;{$displayName}&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&#13;
+            &lt;div class="auto-style1"&gt;&#13;
+            &lt;span dir="rtl"&gt;{$subject}&#13;
+            &lt;/span&gt;&#13;
+            &lt;/div&gt;&#13;
+            &lt;/div&gt;
+        </value>
+    </key>
+    <key name="conversations">
+        <value>
+            گفت‌و‌گو
+        </value>
+    </key>
+    <key name="conversation_box_info">
+        <value>
+            نمایش {$showing} از مجموع {$total} پیام، {$new} جدید
+        </value>
+    </key>
+    <key name="conversation_empty">
+        <value>
+            شما تاکنون گفت‌وگویی نداشته‌اید
+        </value>
+    </key>
+    <key name="conversation_item_list_empty">
+        <value>
+            فهرست گفت‌وگو شما خالی است
+        </value>
+    </key>
+    <key name="conversation_label">
+        <value>
+            مکالمه
+        </value>
+    </key>
+    <key name="conversation_meta_tilte">
+        <value>
+            {$conversation_title} - {$site_name}
+        </value>
+    </key>
+    <key name="conversation_not_found">
+        <value>
+            گفتگو پیدا نشد
+        </value>
+    </key>
+    <key name="create_conversation_button">
+        <value>
+            پیام خصوصی
+        </value>
+    </key>
+    <key name="create_conversation_fail_message">
+        <value>
+            پیام ارسال نشد
+        </value>
+    </key>
+    <key name="create_conversation_message">
+        <value>
+            پیام ارسال شد
+        </value>
+    </key>
+    <key name="days">
+        <value>
+            %d روزها
+        </value>
+    </key>
+    <key name="delete_button">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_chat">
+        <value>
+            حذف گپ
+        </value>
+    </key>
+    <key name="delete_chat_desc">
+        <value>
+            قبل از حذف افزونه پیام‌ها باید کل اطلاعات گپ کاربران حذف شود. این کار ممکن است اندکی زمان‌بر باشد.
+        </value>
+    </key>
+    <key name="delete_confirm_message">
+        <value>
+            آیا از حذف گفت‌وگو(ها)ی انتخاب شده اطمینان دارید؟
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="delete_conversation_button">
+        <value>
+            حذف گفت‌وگو
+        </value>
+    </key>
+    <key name="delete_conversation_link">
+        <value>
+            حذف
+        </value>
+
+    </key>
+    <key name="delete_conversation_message">
+        <value>
+            مکالمه حذف شد.
+        </value>
+    </key>
+    <key name="delete_conversation_title">
+        <value>
+            حذف تاریخچه
+        </value>
+    </key>
+    <key name="delete_message">
+        <value>
+            {$count} مکالمه حذف شد
+        </value>
+    </key>
+    <key name="email_notifications_comment">
+        <value>
+            پیامی &lt;a href="{$conversationUrl}" &gt;جدید&lt;/a&gt; از &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="email_notifications_new_message">
+        <value>
+            کسی برایم پیام ارسال می‌کند
+        </value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>
+            صندوق پستی
+        </value>
+    </key>
+    <key name="enable_attachments">
+        <value>
+            فعال‌سازی پیوست فایل
+        </value>
+    </key>
+    <key name="enable_sound_label">
+        <value>
+            فعال‌سازی صدا
+        </value>
+    </key>
+    <key name="feedback_send_message_interval_exceed">
+        <value>
+            ارسال پیام حجیم مسدود شده است. شما باید {$send_message_interval} ثانیه برای دوباره فرستادن یک پیام منتظر
+            بمانید.
+        </value>
+    </key>
+    <key name="file_attachment_disabled">
+        <value>
+            پیوست فایل غیرفعال است
+        </value>
+    </key>
+    <key name="find_contact">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="friends_online">
+        <value>
+            دوستان حاضر
+        </value>
+    </key>
+    <key name="from_now">
+        <value>
+            از همین حالا
+        </value>
+    </key>
+    <key name="general_settings">
+        <value>
+            تنظیمات عمومی
+        </value>
+    </key>
+    <key name="general_settings_title">
+        <value>
+            تنظیمات عمومی
+        </value>
+    </key>
+    <key name="inbox_label">
+        <value>
+            صندوق دریافت
+        </value>
+    </key>
+    <key name="inbox_meta_tilte">
+        <value>
+            پیام‌های خصوصی من - {$site_name}
+        </value>
+    </key>
+    <key name="keep_unread_button">
+        <value>
+            نگهداری به صورت خوانده نشده
+        </value>
+    </key>
+    <key name="label_btn_chat">
+        <value>
+            گپ زدن
+        </value>
+    </key>
+    <key name="label_btn_mail">
+        <value>
+            پیام خصوصی
+        </value>
+    </key>
+    <key name="label_btn_mailchat">
+        <value>
+            پیام خصوصی+ گپ زدن
+        </value>
+    </key>
+    <key name="label_btn_new_message">
+        <value>
+            پیام جدید
+        </value>
+    </key>
+    <key name="label_invitation_conversation_search">
+        <value>
+            جستجوی کاربران
+        </value>
+    </key>
+    <key name="last_message_sent">
+        <value>
+            آخرین پیام ارسال شده
+        </value>
+    </key>
+    <key name="less_than_minute">
+        <value>
+            کمتر از یک دقیقه
+        </value>
+    </key>
+    <key name="load_earlier">
+        <value>
+            بارگذاری پیام‌های قبلی
+        </value>
+    </key>
+    <key name="mailbox">
+        <value>
+            پیام خصوصی
+        </value>
+    </key>
+    <key name="mailbox_console_title">
+        <value>
+            صندوق پیام خصوصی
+        </value>
+    </key>
+    <key name="mail_subject_prefix">
+        <value>
+            عنوان: 
+        </value>
+    </key>
+    <key name="mark_as_read_button">
+        <value>
+            نشانه گذاری به‌عنوان خوانده شده
+        </value>
+    </key>
+    <key name="mark_as_unread_button">
+        <value>
+            نشانه گذاری به عنوان خوانده نشده
+        </value>
+    </key>
+    <key name="mark_conversation_read_message">
+        <value>
+            مکالمه به‌عنوان خوانده شده نشانه گذاری شده
+        </value>
+    </key>
+    <key name="mark_conversation_unread_message">
+        <value>
+            مکالمه به‌عنوان خوانده نشده نشانه گذاری شده
+        </value>
+    </key>
+    <key name="mark_read_fail_message">
+        <value>
+            نشانه گذاری مکالمه به عنوان خوانده شده ناموفق بود
+        </value>
+    </key>
+    <key name="mark_read_message">
+        <value>
+            {$count} مکالمه به عنوان خوانده شده نشانه‌ گذاری شد
+        </value>
+    </key>
+    <key name="mark_unread_conversation_title">
+        <value>
+            نشانه گذاری به عنوان خوانده نشده
+        </value>
+    </key>
+    <key name="mark_unread_fail_message">
+        <value>
+            نشانه گذاری مکالمه به عنوان خوانده نشده ناموفق بود
+        </value>
+    </key>
+    <key name="mark_unread_message">
+        <value>
+            {$count} مکالمه به عنوان خوانده نشده نشانه‌ گذاری شد
+        </value>
+    </key>
+    <key name="mb">
+        <value>
+            mb
+        </value>
+    </key>
+    <key name="messages_console_title">
+        <value>
+            پیام‌ها
+        </value>
+    </key>
+    <key name="messages_email_notifications_new_chat_message">
+        <value>
+            کسی برای من پیام گپ جدید ارسال می‌کند
+        </value>
+    </key>
+    <key name="messages_email_notifications_new_message">
+        <value>
+            کسی برای من پیام خصوصی جدید ارسال می‌کند
+        </value>
+    </key>
+    <key name="messages_email_notifications_section_label">
+        <value>
+            پیام‌ها
+        </value>
+    </key>
+    <key name="message_invitation">
+        <value>
+            پیام
+        </value>
+    </key>
+    <key name="message_too_long_error">
+        <value>
+            متن شما بیش از حد طولانی است. آن‌را تا بیشینه اندازه {$maxLength} کاراکتر فشرده کنید.
+        </value>
+    </key>
+    <key name="message_was_not_authorized">
+        <value>
+            پیام نامعتبر بود
+        </value>
+    </key>
+    <key name="minutes">
+        <value>
+            %d دقیقه
+        </value>
+    </key>
+    <key name="months">
+        <value>
+            %d ماه
+        </value>
+    </key>
+    <key name="msg_settings_saved">
+        <value>
+            تنظیمات ذخیره شد
+        </value>
+    </key>
+    <key name="new_conversation_link">
+        <value>
+            جدید
+        </value>
+    </key>
+    <key name="new_message">
+        <value>
+            *** پیام جدید ***
+        </value>
+    </key>
+    <key name="new_message_count">
+        <value>
+            {$count} جدید
+        </value>
+    </key>
+    <key name="new_message_count_text">
+        <value>
+            شما {$count} پیام جدید دارید
+        </value>
+    </key>
+    <key name="new_message_title">
+        <value>
+            پیام جدید
+        </value>
+    </key>
+    <key name="new_message_to">
+        <value>
+            ارسال پیام به
+        </value>
+    </key>
+    <key name="notification_mail_subject">
+        <value>
+            پیام جدید از {$sendername}
+        </value>
+    </key>
+    <key name="notification_mail_template_html">
+        <value>
+            سلام {$username}،&lt;br/&gt;&#13;
+            &lt;br/&gt;&#13;
+            شما پیام جدیدی دریافت کردید از {$sendername} در{$site_name}.&lt;br/&gt;&#13;
+            &lt;br/&gt;&#13;
+            برای پاسخ به پیام به &lt;a href="{$replyUrl}"&gt;{$replyUrl}&lt;/a&gt; بروید.
+        </value>
+    </key>
+    <key name="notification_mail_template_text">
+        <value>
+            سلام {$username}،&#13;
+            &#13;
+            شما پیام جدیدی دریافت کردید از {$sendername} در {$site_name}.&#13;
+            &#13;
+            برای پاسخ دادن به پیام به {$replyUrl} ببروید. &#13;
+        </value>
+    </key>
+    <key name="no_contacts_online">
+        <value>
+            هیچ دوستی اکنون حاضر نیست
+        </value>
+    </key>
+    <key name="no_conversations">
+        <value>
+            پیامی موجود نیست
+        </value>
+    </key>
+    <key name="others_online">
+        <value>
+            دیگر
+        </value>
+    </key>
+    <key name="page_heading_messages">
+        <value>
+            پیام‌ها
+        </value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>
+            حذف افزونه صندوق پیام
+        </value>
+    </key>
+    <key name="permission_denied">
+        <value>
+            مجوز رد شد
+        </value>
+    </key>
+    <key name="please_enter_captcha">
+        <value>
+            قبل از ادامه ارسال پیام‌ها مشخص کنید که انسان هستید نه ماشین. لطفا کد امنیتی زیر را تایید کنید:
+        </value>
+    </key>
+    <key name="please_enter_valid_value">
+        <value>
+            مقدار معتبر نیست یا بزرگ‌تر از بیشینه مجاز سرور است
+        </value>
+    </key>
+    <key name="plugin_configuration_notice">
+        <value>
+            &lt;i&gt;پیام‌ها&lt;/i&gt; افزونه در حال نصب است. زمان تقریبی بستگی به تعداد کاربران دارد &lt;br /&gt;نصب
+            شده تا کنون: {$percents}%
+        </value>
+    </key>
+    <key name="plugin_installation_notice">
+        <value>
+            &lt;i&gt;پیام‌ها&lt;/i&gt; افزونه در حال نصب است. زمان تقریبی بستگی به تعداد کاربران دارد&lt;br /&gt;نصب شده
+            تا کنون: {$percents}%
+        </value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>
+            حذف افزونه پیام‌ها آغاز شد.
+        </value>
+    </key>
+    <key name="privacy_action_invite_to_chat">
+        <value>
+            دعوت من به گپ زدن
+        </value>
+    </key>
+    <key name="privacy_action_invite_to_chat_description">
+        <value>
+            با تغییر این گزینه، حق دسترسی  کسانی که می‌توانند شما را به گپ زدن دعوت کنند تغییر خواهد کرد
+        </value>
+    </key>>
+    <key name="read_message_permission_denied">
+        <value>
+            شما مجوز کافی برای خواندن پیام ندارید.
+        </value>
+    </key>
+    <key name="read_permission_denied">
+        <value>
+            شما مجوزهای کافی برای خواندن پیام‌ها را ندارید.
+        </value>
+    </key>
+    <key name="read_the_message">
+        <value>
+            خواندن پیام
+        </value>
+    </key>
+    <key name="recipient_is_required">
+        <value>
+            گیرنده انتخاب نشده
+        </value>
+    </key>
+    <key name="reply_to_message_permission_denied">
+        <value>
+            شما مجوزهای کافی برای پاسخ دادن به پیام‌ها ندارید.
+        </value>
+    </key>
+    <key name="save_btn">
+        <value>
+            ذخیره تنظیمات
+        </value>
+    </key>
+    <key name="selected_label">
+        <value>
+            انتخاب شده
+        </value>
+    </key>
+    <key name="select_all_checkbox">
+        <value>
+            همه
+        </value>
+    </key>
+    <key name="send">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="send_button">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="send_message">
+        <value>
+            ارسال پیام
+        </value>
+    </key>
+    <key name="send_message_failed">
+        <value>
+            ارسال پیام ناموفق بود:
+        </value>
+    </key>
+    <key name="send_message_permission_denied">
+        <value>
+            شما مجوزهای کافی برای نوشتن پیام‌ها ندارید.
+        </value>
+    </key>
+    <key name="sent_button">
+        <value>
+            ارسال شد
+        </value>
+    </key>
+    <key name="sent_label">
+        <value>
+            ارسال شد
+        </value>
+    </key>
+    <key name="sent_message_form_label">
+        <value>
+            نوشتن پاسخ
+        </value>
+    </key>
+    <key name="sent_meta_tilte">
+        <value>
+            پیام‌های ارسال شده - {$site_name}
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            نصب
+        </value>
+    </key>
+    <key name="settings_desc_show_all_members">
+        <value>
+            گزینه‌ای نامناسب برای وب‌گاه‌های بزرگ
+        </value>
+    </key>
+    <key name="settings_friends_only_label">
+        <value>
+            فقط دوستان
+        </value>
+    </key>
+    <key name="settings_label_active_mode_list">
+        <value>
+            حالت پیام را انتخاب کنید
+        </value>
+    </key>
+    <key name="settings_label_send_message_interval">
+        <value>
+            اجازه ارسال یکباره پیام‌ها
+        </value>
+    </key>
+    <key name="settings_label_send_message_interval_seconds">
+        <value>
+            ثانیه
+        </value>
+    </key>
+    <key name="settings_label_show_all_members">
+        <value>
+            نمایش همه اعضا در فهرست گپ
+        </value>
+    </key>
+    <key name="settings_saved">
+        <value>
+            ذخیره تنظیمات
+        </value>
+    </key>
+    <key name="settings_updated">
+        <value>
+            تنظیمات به‌روز شد
+        </value>
+    </key>
+    <key name="show_all_users">
+        <value>
+            نمایش همه کاربران
+        </value>
+    </key>
+    <key name="show_online_only">
+        <value>
+            فقط نمایش کاربران حاضر در شبکه
+        </value>
+    </key>
+    <key name="silent_mode_off">
+        <value>
+            حالت بی‌صدا: خاموش
+        </value>
+    </key>
+    <key name="silent_mode_on">
+        <value>
+            حالت بی‌صدا: روشن
+        </value>
+    </key>
+    <key name="status_invisible_label">
+        <value>
+            پنهان از دید همه
+        </value>
+    </key>
+    <key name="subject">
+        <value>
+            موضوع
+        </value>
+    </key>
+    <key name="subject_is_required">
+        <value>
+            عنوان خالی است
+        </value>
+    </key>
+    <key name="switch_to_chat_mode">
+        <value>
+            باز کردن در گپ
+        </value>
+    </key>
+    <key name="text">
+        <value>
+            متن
+        </value>
+    </key>
+    <key name="text_message_invitation">
+        <value>
+            پیام متنی
+        </value>
+    </key>
+    <key name="to">
+        <value>
+            به
+        </value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>
+            در حال انجام
+        </value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>
+            &lt;i&gt;افزونه پیامها&lt;/i&gt; در حال حذف شدن است. زمان تقریبی بستگی به تعداد کاربران شما دارد. &lt;br /&gt;&#13;
+            حذف شده تا کنون: {$percents}%
+        </value>
+    </key>
+    <key name="upload_file_cant_write_file_error">
+        <value>
+            نوشتن فایل روی دیسک ناموفق بود.
+        </value>
+    </key>
+    <key name="upload_file_count_files_error">
+        <value>
+            فایل‌های بسیاری بارگذاری شده!
+        </value>
+    </key>
+    <key name="upload_file_delete_fail">
+        <value>
+            حذف فایل ناموفق!
+        </value>
+    </key>
+    <key name="upload_file_delete_success">
+        <value>
+            حذف فایل موفق!
+        </value>
+    </key>
+    <key name="upload_file_extension_is_not_allowed">
+        <value>
+            این پسوند فایل مجاز نیست.
+        </value>
+    </key>
+    <key name="upload_file_fail">
+        <value>
+            بارگذاری فایل ناموفق بود!
+        </value>
+    </key>
+    <key name="upload_file_file_partially_uploaded_error">
+        <value>
+            فقط بخشی از فایل بارگذاری شده است.
+        </value>
+    </key>
+    <key name="upload_file_invalid_extention_error">
+        <value>
+            خطایی رخ داد! با پشتیبانی تماس بگیرید! &#13;
+            یک نوع PHP‌ بارگذاری فایل را متوقف کرده است.. PHP راهی برای اینکه معلوم شود کدام نوع باعث توقف بارگذاری شده
+            را ارائه نمی‌دهد.
+        </value>
+    </key>
+    <key name="upload_file_max_upload_filesize_error">
+        <value>
+            اندازه فایل بارگذاری شده بیش از بیشینه اندازه ممکن است
+        </value>
+    </key>
+    <key name="upload_file_name">
+        <value>
+            فایل {$file_name}:
+        </value>
+    </key>
+    <key name="upload_file_not_found">
+        <value>
+            فایل بارگذاری شده یافت نشد!
+        </value>
+    </key>
+    <key name="upload_file_no_file_error">
+        <value>
+            فایلی بارگذاری نشده
+        </value>
+    </key>
+    <key name="upload_file_no_tmp_dir_error">
+        <value>
+            پوشه موقت پیدا نشد
+        </value>
+    </key>
+    <key name="upload_max_file_size">
+        <value>
+            بیشینه اندازه فایل پیوست برای بارگذاری
+        </value>
+    </key>
+    <key name="usercredits_action_read_chat_message">
+        <value>
+            خواندن پیام‌های گپ‌
+        </value>
+    </key>
+    <key name="usercredits_action_read_message">
+        <value>
+            خواندن پیام‌های خصوصی
+        </value>
+    </key>
+    <key name="usercredits_action_reply_to_chat_message">
+        <value>
+            ادامه گپ زدن
+        </value>
+    </key>
+    <key name="usercredits_action_reply_to_message">
+        <value>
+            ادامه پیام خصوصی
+        </value>
+    </key>
+    <key name="usercredits_action_send_chat_message">
+        <value>
+            شروع گپ زدن
+        </value>
+    </key>
+    <key name="usercredits_action_send_message">
+        <value>
+            پیام خصوصی
+        </value>
+    </key>
+    <key name="userlist">
+        <value>
+            فهرست کاربران
+        </value>
+    </key>
+    <key name="user_is_deleted">
+        <value>
+            کاربری که می‌خواهید با او تماس بگیرید حذف شده است
+        </value>
+    </key>
+    <key name="user_is_not_approved">
+        <value>
+            کاربری که می‌خواهید با او تماس بگیرید تایید نشده است
+        </value>
+    </key>
+    <key name="user_is_not_authorized_chat">
+        <value>
+            {$username} مجاز به استفاده از گپ نیست
+        </value>
+    </key>
+    <key name="user_is_not_authorized_read_messages">
+        <value>
+            کاربر مجاز به خواندن پیام‌ها نیست
+        </value>
+    </key>
+    <key name="user_is_not_verified">
+        <value>
+            کاربری که می‌خواهید با او تماس بگیرید تایید نشده است
+        </value>
+    </key>
+    <key name="user_is_offline">
+        <value>
+            [username] برخط نیست
+        </value>
+    </key>
+    <key name="user_is_online">
+        <value>
+            [username] هم‌اکنون حاضر است
+        </value>
+    </key>
+    <key name="user_is_suspended">
+        <value>
+            کاربری که می‌خواهید با او تماس بگیرید تعلیق شده است
+        </value>
+    </key>
+    <key name="user_is_unreachable">
+        <value>
+            کاربری که شما در حال تلاش برای تماس هستید تعلیق شده است
+        </value>
+    </key>
+    <key name="user_not_found">
+        <value>
+            کاربر یافت نشد
+        </value>
+    </key>
+    <key name="user_offline">
+        <value>
+            برون خط
+        </value>
+    </key>
+    <key name="user_settings_link">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="user_settings_submit_label">
+        <value>
+            ذخیره تنظیمات
+        </value>
+    </key>
+    <key name="user_settings_title">
+        <value>
+            تنظیمات صندوق پیام
+        </value>
+    </key>
+    <key name="user_went_offline">
+        <value>
+            {$displayname} از دسترس خارج شده است.
+        </value>
+    </key>
+    <key name="use_chat">
+        <value>
+            استفاده از گپ
+        </value>
+    </key>
+    <key name="use_chat_permission_denied">
+        <value>
+            شما مجوزهای کافی برای استفاده از گپ را ندارید.
+        </value>
+    </key>
+    <key name="view_all">
+        <value>
+            نمایش همه موارد
+        </value>
+    </key>
+    <key name="warning_user_privacy_friends_only">
+        <value>
+            {$displayname} فقط درخواست‌های گپ از دوستان خود را می‌پذیرد
+        </value>
+    </key>
+    <key name="wink_conversation_subject">
+        <value>
+            چشمک
+        </value>
+    </key>
+    <key name="write_here">
+        <value>
+            شما می‌توانید پاسخ خود را اینجا بنویسید ....
+        </value>
+    </key>
+    <key name="write_permission_denied">
+        <value>
+            شما مجوز کافی برای نوشتن پیام را ندارید
+        </value>
+    </key>
+    <key name="write_reply">
+        <value>
+            ارسال پاسخ
+        </value>
+    </key>
+    <key name="years">
+        <value>
+            %d سال
+        </value>
+    </key>
+    <key name="you">
+        <value>
+            شما
+        </value>
+    </key>
+    <key name="send_message_promoted">
+        <value>
+            لطفا عضو شوید یا اعتبار خریداری کنید تا پیام ارسال کنید
+        </value>
+    </key>
+
+    <key name="reply_to_message_promoted">
+        <value>
+            لطفا عضو شوید یا اعتبار خریداری کنید تا پاسخ مکالمات را بدهید
+        </value>
+    </key>
+
+
+    <key name="send_chat_message_promoted">
+        <value>
+            لطفا عضو شوید یا اعتبار خریداری کنید تا پیام گپ ارسال کنید
+        </value>
+    </key>
+
+    <key name="reply_to_chat_message_promoted">
+        <value>
+            لطفا عضو شوید یا اعتبار خریداری کنید تا پاسخ مکالمات گپ را بدهید
+        </value>
+    </key>
+    <key name="reply_to_chat_message_permission_denied">
+        <value>
+            شما اجازه ادامه گپ زدن را ندارید
+        </value>
+    </key>
+    <key name="read_chat_message_permission_denied">
+        <value>شما حق دسترسی خواندن پیام گپ را ندارید</value>
+    </key>
+    <key name="operation_successful">
+        <value>عملیات با موفقیت انجام شد</value>
+    </key>
+    <key name="operation_unsuccessful">
+        <value>عملیات موفقیت آمیز نبود</value>
+    </key>
+    <key name="label_save">
+        <value>ذخیره</value>
+    </key>
+    <key name="reply_to">
+        <value>در پاسخ به:</value>
+    </key>
+    <key name="reply_to_tooltip">
+        <value>پاسخ به پیام</value>
+    </key>
+    <key name="delete_tooltip">
+        <value>حذف پیام</value>
+    </key>
+    <key name="edit_tooltip">
+        <value>ویرایش متن پیام</value>
+    </key>
+    <key name="download_tooltip">
+        <value>دریافت</value>
+    </key>
+    <key name="delete_confirm">
+        <value>آیا از حذف پیام اطمینان دارید؟</value>
+    </key>
+    <key name="edited_message_tag">
+        <value>(ویرایش شده)</value>
+    </key>
+    <key name="label_invitation_contacts_search">
+        <value>جستجو در مخاطبان</value>
+    </key>
+    <key name="label_invitation_conversation_content_search">
+        <value>جستجو در پیام‌ها</value>
+    </key>
+    <key name="results_for">
+        <value>نتایج جستجو برای </value>
+    </key>
+    <key name="no_messages_yet">
+        <value>پیامی وجود ندارد</value>
+    </key>
+    <key name="email_chat_message">
+        <value>
+            پیامی &lt;a href="{$conversationUrl}" &gt;جدید&lt;/a&gt; از &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt;:&lt;br /&gt;&#13;&lt;br /&gt;&#13;{$message}
+        </value>
+    </key>
+    <key name="empty_list">
+        <value>هیچ پیام دریافتی وجود ندارد</value>
+    </key>
+</prefix>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="nav" label="Navigation" language_tag="fa-IR" language_label="فارسی">
+    <key name="menu_item_main_forum">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="menu_item_main_photo_list">
+        <value>
+            تصاویر
+        </value>
+    </key>
+    <key name="page_custom_title">
+        <value>
+            {$title}
+        </value>
+    </key>
+    <key name="page_default_description">
+        <value>
+            انجمن {$site_name}
+        </value>
+    </key>
+    <key name="page_default_heading">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+    <key name="page_default_keywords">
+        <value>
+            Openwack، نرم‌افزار رایگان، نرم‌افزاری متن‌باز، نرم‌افزاری انجمنی، نرم‌افزار متن باز انجمنی، نرم‌افزارانجمنی
+            رایگان،‌ نرم‌افزار شبکه اجتماعی متن‌باز، نرم‌افزار شبکه اجتماعی رایگان
+        </value>
+    </key>
+    <key name="page_default_title">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,22 @@
+<section>
+    <div class="owm_photo_block">
+        <div class="clearfix">
+            <a href="{$uploadUrl}" class="owm_add_photo"></a>
+            {$menu}
+        </div>
+        {if !empty($authError)}
+            <div class="owm_padding">
+                <div class="owm_info owm_anno">{$authError}</div>
+            </div>
+        {else}
+            <div class="owm_photo_list">
+                <div class="owm_photo_list_tr clearfix" id="photo-list-cont">{$photos}</div>
+            </div>
+            {if $loadMore}
+            <li class="owm_padding owm_sidebar_msg_load_more">
+                <a href="javascript://" id="btn-photo-load-more" class="owm_sidebar_load_more owm_sidebar_load_more_with_text">{text key='base+more'}</a>
+            </li>
+            {/if}
+        {/if}
+    </div>
+</section>

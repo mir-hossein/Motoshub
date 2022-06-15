@@ -1,0 +1,62 @@
+{if !empty($list)}
+{foreach from=$list item=item name='user_list'}
+{assign var='dto' value=$item.dto}
+{assign var='id' value=$dto->id}
+<div class="owm_content_list_item" onclick=" window.location.href='{$avatars[$id]['url']}'  ">
+    <div class="owm_user_list_item">
+        {decorator name='avatar_item' data=$avatars[$id]}
+        <div class="owm_user_list_info owm_remark">
+            <div class="owm_user_list_name">
+                {if !empty($onlineInfo) && $onlineInfo[$id] }
+                <span>
+                <div class="owm_profile_online">
+                </div>
+                </span>
+                {/if}
+                <span>
+                    {$displayNameList[$id]}
+                </span>
+                {if isset($friendList) && !empty($friendList) && isset($friendList[$id]) && !empty($friendList[$id])}
+                <span class="owm_user_is_friend">
+                    {text key="base+is_friend"}
+                </span>
+                {/if}
+            </div>
+            {foreach from=$fields[$id] item=field name='field_list'}
+            {if !empty($field)}
+            <div class="owm_user_list_cont">
+                {$field}
+            </div>
+            {/if}
+            {/foreach}
+
+            {if isset($answerValues[$id])}
+            {foreach from=$qList item='qName'}
+            {if isset($answerValues[$id][$qName])}
+            <div>
+               <span class="owm_user_question_title">
+                 {$questionNameValues[$qName]}:
+                </span>
+                <span class="owm_user_question_value">
+                    {if !is_array($answerValues[$id][$qName])}
+					    {$answerValues[$id][$qName]}
+                    {/if}
+					{if is_array($answerValues[$id][$qName])}
+						{foreach from=$answerValues[$id][$qName] item='answer'}
+							<span>{$answer}</span>
+						{/foreach}
+					{/if}
+                </span>
+            </div>
+            {/if}
+            {/foreach}
+            {/if}
+
+        </div>
+
+    </div>
+</div>
+{/foreach}
+{else}
+<div class="owm_nocontent">{text key="base+user_no_users"}</div>
+{/if}

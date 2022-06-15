@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismention" label="iismention" language_tag="en" language_label="English">
+    <key name="settings">
+        <value>
+            Settings
+        </value>
+    </key>
+    <key name="max_count">
+        <value>
+            Maximum number of list items
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            Mention Settings
+        </value>
+    </key>
+    <key name="admin_changed_success">
+        <value>
+            Successfully saved
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            Save
+        </value>
+    </key>
+
+    <key name="console_notification_comment">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; mentioned you in a &lt;a href="{$textLink}"&gt;comment&lt;/a&gt;
+        </value>
+    </key>
+    <key name="console_notification_newsfeed">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; mentioned you in a &lt;a href="{$textLink}"&gt;status&lt;/a&gt;
+        </value>
+    </key>
+    <key name="title">
+        <value>
+            Mention
+        </value>
+    </key>
+    <key name="you_are_mentioned">
+        <value>
+            Someone mentions you
+        </value>
+    </key>
+    <key name="privacy_action_search_my_username">
+        <value>
+            Search my username
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisadvancesearch" label="iisadvancesearch" language_tag="en" language_label="English">
+    <key name="search_title">
+        <value>
+            Search
+        </value>
+    </key>
+    <key name="no_data_found">
+        <value>
+            No data found
+        </value>
+    </key>
+    <key name="users">
+        <value>
+            Users
+        </value>
+    </key>
+    <key name="minimum_two_character">
+        <value>
+            Please Insert Keywords to search. You have to enter at least two characters
+        </value>
+    </key>
+    <key name="forum_posts_title">
+        <value>
+            Forum Posts
+        </value>
+    </key>
+    <key name="forum_post_title">
+        <value>
+            Title
+        </value>
+    </key>
+    <key name="forum_post_group_name">
+        <value>
+            Group:
+        </value>
+    </key>
+    <key name="forum_post_section_name">
+        <value>
+            Section:
+        </value>
+    </key>
+    <key name="search_users">
+        <value>
+            Search Users
+        </value>
+    </key>
+    <key name="mobile_main_menu_item">
+        <value>
+            Search Users
+        </value>
+    </key>
+    <key name="search_username_realname">
+        <value>
+            Username / Real name
+        </value>
+    </key>
+    <key name="search_friends">
+        <value>
+            Search Friends
+        </value>
+    </key>
+    <key name="view_all_users">
+        <value>
+            View All Users
+        </value>
+    </key>
+
+    <key name="admin_settings_heading">
+        <value>
+            Advance Search Settings
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            Settings
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            Save
+        </value>
+    </key>
+    <key name="admin_changed_success">
+        <value>
+            Settings successfully saved
+        </value>
+    </key>
+
+    <key name="news_label">
+        <value>
+            News Entry
+        </value>
+    </key>
+    <key name="users_label">
+        <value>
+            User
+        </value>
+    </key>
+    <key name="forum_label">
+        <value>
+            Forum Topic
+        </value>
+    </key>
+    <key name="hashtag_label">
+        <value>
+            Hashtag
+        </value>
+    </key>
+    <key name="blogs_label">
+        <value>
+            Blog
+        </value>
+    </key>
+    <key name="groups_label">
+        <value>
+            Group
+        </value>
+    </key>
+    <key name="event_label">
+        <value>
+            Event
+        </value>
+    </key>
+	<key name="videos_label">
+        <value>
+            Video
+        </value>
+    </key>
+	<key name="photos_label">
+        <value>
+            Photo
+        </value>
+    </key>
+</prefix>

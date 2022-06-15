@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisuserlogin" label="iisuserlogin" language_tag="en" language_label="English">
+    <key name="setting_saved">
+        <value>Setting saved successfully.</value>
+    </key>
+    <key name="numberOfLastLoginDetails">
+        <value>Number of last login details for showing to each user</value>
+    </key>
+    <key name="expiredTimeOfLoginDetails">
+        <value>How much time to save users login details? (.Month)</value>
+    </key>
+    <key name="enableActiveDevices">
+        <value>Enable Active Sessions tab</value>
+    </key>
+    <key name="login_details_header">
+        <value>Login details</value>
+    </key>
+    <key name="login_details_ip_label">
+        <value>IP</value>
+    </key>
+    <key name="login_details_time_label">
+        <value>Time</value>
+    </key>
+    <key name="login_details_browser_label">
+        <value>Browser</value>
+    </key>
+    <key name="bottom_menu_item">
+        <value>My Sessions</value>
+    </key>
+    <key name="mobile_bottom_menu_item">
+        <value>
+            My Sessions
+        </value>
+    </key>
+    <key name="preference_login_detail_subscribe_label">
+        <value>Send an email on logging in.</value>
+    </key>
+    <key name="preference_login_detail_subscribe_description">
+        <value>Automatic email that contains login detail will be send to your email when your account logging in.</value>
+    </key>
+    <key name="email_login_to_network">
+        <value>New sign-in</value>
+    </key>
+    <key name="email_login_details">
+        <value>
+            Hi {$username}, Your Account with email: {$email} was just used to sign in from browser: {$browser}, with ip: {$ip}, at time: {$time}.
+        </value>
+    </key>
+    <key name="admin_page_heading">
+        <value>
+            User login plugin settings
+        </value>
+    </key>
+    <key name="admin_page_title">
+        <value>
+            User login plugin settings
+        </value>
+    </key>
+    <key name="current_device">
+        <value>
+            Current Device
+        </value>
+    </key>
+    <key name="login_details_last_activity_time_label">
+        <value>
+            Last Activity Time
+        </value>
+    </key>
+    <key name="active_details_header">
+        <value>
+            Active Sessions
+        </value>
+    </key>
+    <key name="terminate_device">
+        <value>
+            Terminate Session
+        </value>
+    </key>
+    <key name="terminate_all_other_devices">
+        <value>
+            Terminate All Other Sessions
+        </value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            Are you sure?
+        </value>
+    </key>
+    <key name="loggedOut">
+        <value>
+        You are logged out from the site, do you want to re-enter?
+        </value>
+    </key>
+</prefix>

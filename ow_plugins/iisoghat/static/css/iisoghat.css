@@ -1,0 +1,19 @@
+select#citiesOption {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.oghat-center, .cityholder, #azanazan
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table_patent{
+    width: 100%;
+}
+
+.no-side-padding{
+    padding-right: 0px;
+    padding-left: 0px;
+}

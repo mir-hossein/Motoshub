@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="forum" label="Forum" language_tag="en" language_label="English">
+    <key name="activity_string">
+        <value>&lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; &lt;a href="{$url}"&gt;replied&lt;/a&gt; in &lt;a
+            href="{$topicUrl}"&gt;{$topicTitle}&lt;/a&gt; forum topic
+        </value>
+    </key>
+    <key name="activity_string_topic">
+        <value>&lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; started new discussion: &lt;a href="{$topicUrl}"&gt;{$topicTitle}&lt;/a&gt;</value>
+    </key>
+    <key name="add_new">
+        <value>Start new</value>
+    </key>
+    <key name="add_new_comment">
+        <value>Add new post</value>
+    </key>
+    <key name="add_new_forum_btn">
+        <value>Add New Forum</value>
+    </key>
+    <key name="move">
+        <value>Move</value>
+    </key>
+    <key name="add_new_forum_description">
+        <value>Description</value>
+    </key>
+    <key name="add_new_forum_name">
+        <value>Forum name</value>
+    </key>
+    <key name="add_new_forum_section">
+        <value>Section</value>
+    </key>
+    <key name="add_new_forum_submit">
+        <value>Add</value>
+    </key>
+    <key name="add_new_forum_title">
+        <value>Add Forum</value>
+    </key>
+    <key name="add_post_btn">
+        <value>Post</value>
+    </key>
+    <key name="add_post_title">
+        <value>Post Reply</value>
+    </key>
+    <key name="admin_config">
+        <value>Forum - Plugin Settings</value>
+    </key>
+    <key name="approve_topic">
+        <value>Approve</value>
+    </key>
+    <key name="attachments">
+        <value>Attachments</value>
+    </key>
+    <key name="attachment_deleted">
+        <value>File has been deleted</value>
+    </key>
+    <key name="attachment_filesize">
+        <value>Attachment maximum file size</value>
+    </key>
+    <key name="attach_files">
+        <value>Attach files</value>
+    </key>
+    <key name="author">
+        <value>Author</value>
+    </key>
+    <key name="auth_action_label_edit">
+        <value>Create/Edit topic</value>
+    </key>
+    <key name="auth_action_label_move_topic_to_hidden">
+        <value>Move topics</value>
+    </key>
+    <key name="auth_action_label_subscribe">
+        <value>Subscribe to forum topics</value>
+    </key>
+    <key name="auth_action_label_view">
+        <value>View topic</value>
+    </key>
+    <key name="auth_action_label_delete">
+        <value>Delete topic</value>
+    </key>
+    <key name="auth_group_label">
+        <value>Forum</value>
+    </key>
+    <key name="back_to_topic">
+        <value>« Back to topic</value>
+    </key>
+    <key name="by">
+        <value>by</value>
+    </key>
+    <key name="chars_limit_exceeded">
+        <value>Ouch, that's a long text! Try to be a little more compact, under {$limit} symbols</value>
+    </key>
+    <key name="cmp_widget_forum_topics_count">
+        <value>Number of topics to show</value>
+    </key>
+    <key name="cmp_widget_forum_topics_post_lenght">
+        <value>Preview length for forum topic in characters</value>
+    </key>
+    <key name="confirm_delete_attachment">
+        <value>Are you sure you want to delete this file?</value>
+    </key>
+    <key name="confirm_delete_forum">
+        <value>Are you sure you want to remove ALL forum topics and sections?</value>
+    </key>
+    <key name="connect_forum_button">
+        <value>Connect forum</value>
+    </key>
+    <key name="connect_forum_to_entity">
+        <value>Add forum to this plugin</value>
+    </key>
+    <key name="content_add_string">
+        <value>created new forum topic</value>
+    </key>
+    <key name="content_edited_string">
+        <value>edited their forum topic</value>
+    </key>
+    <key name="content_forums_label">
+        <value>Forums</value>
+    </key>
+    <key name="content_forum_label">
+        <value>Forum post</value>
+    </key>
+    <key name="content_forum_post_in_topic">
+        <value>forum post in &lt;a href="{$topicUrl}"&gt;{$title}&lt;/a&gt;</value>
+    </key>
+    <key name="content_forum_topic">
+        <value>forum topic</value>
+    </key>
+    <key name="create_new_topic">
+        <value>Create New Forum Topic</value>
+    </key>
+    <key name="delete">
+        <value>Delete</value>
+    </key>
+    <key name="delete_content">
+        <value>Delete content and uninstall plugin</value>
+    </key>
+    <key name="delete_content_desc">
+        <value>Before uninstalling forum plugin we have to remove all existing forum content. This may take awhile. That
+            is why we will put the site to "maintenance mode" and activate it back upon completing the uninstall
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>Warning</value>
+    </key>
+    <key name="delete_group">
+        <value>delete</value>
+    </key>
+    <key name="delete_group_confirm">
+        <value>Are you sure you want to delete forum group?</value>
+    </key>
+    <key name="delete_post_confirm">
+        <value>Are you sure you want to delete the post?</value>
+    </key>
+    <key name="delete_section">
+        <value>delete</value>
+    </key>
+    <key name="delete_section_confirm">
+        <value>Are you sure you want to delete the forum section?</value>
+    </key>
+    <key name="delete_topic">
+        <value>Delete</value>
+    </key>
+    <key name="delete_topic_confirm">
+        <value>Are you sure you want to delete the topic?</value>
+    </key>
+    <key name="discussion">
+        <value>View Topic</value>
+    </key>
+    <key name="edit">
+        <value>Edit</value>
+    </key>
+    <key name="edit_group">
+        <value>edit</value>
+    </key>
+    <key name="edit_group_btn">
+        <value>Save</value>
+    </key>
+    <key name="edit_group_description">
+        <value>Description</value>
+    </key>
+    <key name="edit_group_name">
+        <value>Forum name</value>
+    </key>
+    <key name="edit_group_title">
+        <value>Edit Forum Group</value>
+    </key>
+    <key name="edit_post_title">
+        <value>Edit Post</value>
+    </key>
+    <key name="edit_section">
+        <value>edit</value>
+    </key>
+    <key name="edit_section_btn">
+        <value>Save</value>
+    </key>
+    <key name="edit_section_name">
+        <value>Section Name</value>
+    </key>
+    <key name="edit_section_title">
+        <value>Edit Forum Section</value>
+    </key>
+    <key name="edit_topic">
+        <value>Edit</value>
+    </key>
+    <key name="edit_topic_title">
+        <value>Edit Topic</value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>Forum</value>
+    </key>
+    <key name="email_notifications_setting_post">
+        <value>Someone posts a reply in a forum topic</value>
+    </key>
+    <key name="email_notification_post">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; replied in &lt;a href="{$postUrl}"&gt;{$title}&lt;/a&gt;
+            forum topic
+        </value>
+    </key>
+    <key name="enable_attachments">
+        <value>Enable file attachments</value>
+    </key>
+    <key name="enter_username">
+        <value>Enter Username</value>
+    </key>
+    <key name="feed_activity_last_reply">
+        <value>&lt;a href="{$postUrl}"&gt;Latest reply&lt;/a&gt;:</value>
+    </key>
+    <key name="feed_activity_owner_topic_like">
+        <value>liked their forum topic</value>
+    </key>
+    <key name="feed_activity_topic_reply_string">
+        <value>replied in forum topic</value>
+    </key>
+    <key name="feed_activity_topic_string">
+        <value>posted a forum topic {$group_name}</value>
+    </key>
+    <key name="feed_activity_group_topic_string">
+        <value>posted a group forum topic {$group_name}</value>
+    </key>
+    <key name="feed_activity_topic_string_like">
+        <value>liked {$user}'s forum topic</value>
+    </key>
+    <key name="feed_content_label">
+        <value>Forum topics</value>
+    </key>
+    <key name="feed_content_replies_label">
+        <value>Forum topic replies</value>
+    </key>
+    <key name="feed_toolbar_discuss">
+        <value>View Topic</value>
+    </key>
+    <key name="feed_toolbar_replies">
+        <value>Replies: &lt;span class="ow_txt_value"&gt;{$postCount}&lt;/span&gt;</value>
+    </key>
+    <key name="file_size_validation_error">
+        <value>Value is incorrect or greater than server limit</value>
+    </key>
+    <key name="flag">
+        <value>Flag</value>
+    </key>
+    <key name="flags">
+        <value>Forum posts</value>
+    </key>
+    <key name="forum">
+        <value>Forums</value>
+    </key>
+    <key name="forum_already_connected">
+        <value>Forum is already connected</value>
+    </key>
+    <key name="forum_index">
+        <value>Forum home</value>
+    </key>
+    <key name="forum_page_heading">
+        <value>{$forum} | Forum</value>
+    </key>
+    <key name="forum_quote">
+        <value>Quote</value>
+    </key>
+    <key name="forum_quote_from">
+        <value>from</value>
+    </key>
+    <key name="forum_settings">
+        <value>Forum settings</value>
+    </key>
+    <key name="forum_topics_widget">
+        <value>Forum Topics</value>
+    </key>
+    <key name="general_settings">
+        <value>General settings</value>
+    </key>
+    <key name="goto_forum">
+        <value>Go to Forum</value>
+    </key>
+    <key name="group_meta_description">
+        <value>{$group} on {$site_name} forum</value>
+    </key>
+    <key name="in">
+        <value>In</value>
+    </key>
+    <key name="is_private">
+        <value>Private</value>
+    </key>
+    <key name="last_reply">
+        <value>Last Reply</value>
+    </key>
+    <key name="latest_reply_from">
+        <value>Latest reply from &lt;a href="{$url}"&gt;{$user}&lt;/a&gt;</value>
+    </key>
+    <key name="locked">
+        <value>locked</value>
+    </key>
+    <key name="lock_topic">
+        <value>Lock</value>
+    </key>
+    <key name="lock_topic_confirm">
+        <value>Are you sure you want to lock this topic?</value>
+    </key>
+    <key name="meta_description_add_topic">
+        <value>Add a new topic at the forums</value>
+    </key>
+    <key name="meta_description_forums">
+        <value>Forums - {$site_name}</value>
+    </key>
+    <key name="meta_title_add_topic">
+        <value>New forum topic - {$site_name}</value>
+    </key>
+    <key name="moved_from">
+        <value>Topic was moved from &lt;a href="{$groupUrl}"&gt;{$groupName}&lt;/a&gt;</value>
+    </key>
+    <key name="moved_to">
+        <value>Topic was &lt;a href="{$topicUrl}"&gt;moved&lt;/a&gt;</value>
+    </key>
+    <key name="move_topic">
+        <value>Move</value>
+    </key>
+    <key name="move_topic_btn">
+        <value>Move</value>
+    </key>
+    <key name="move_topic_title">
+        <value>Move Topic</value>
+    </key>
+    <key name="new">
+        <value>new</value>
+    </key>
+    <key name="new_topic_body">
+        <value>Post body</value>
+    </key>
+    <key name="new_topic_btn">
+        <value>New Topic</value>
+    </key>
+    <key name="new_topic_group">
+        <value>Forum</value>
+    </key>
+    <key name="new_topic_subject">
+        <value>Topic subject</value>
+    </key>
+    <key name="not_all_attachments_added">
+        <value>Some attachments exceed allowed file size or their format not supported</value>
+    </key>
+    <key name="no_group">
+        <value>No groups</value>
+    </key>
+    <key name="no_posts_found">
+        <value>No posts found</value>
+    </key>
+    <key name="no_topic">
+        <value>There are no topics here. You'll be the first.</value>
+    </key>
+    <key name="no_topics">
+        <value>No topics</value>
+    </key>
+    <key name="page_title_uninstall">
+        <value>Uninstall forum plugin</value>
+    </key>
+    <key name="pending_approval">
+        <value>&lt;span class="ow_remark ow_small" style="text-transform: none"&gt;(pending
+            approval)&lt;/span&gt;</value>
+    </key>
+    <key name="permalink_label">
+        <value>Message &lt;a href="{$permalink}"&gt;#{$number}&lt;/a&gt;</value>
+    </key>
+    <key name="plugin_set_for_uninstall">
+        <value>Forum plugin uninstall initiated</value>
+    </key>
+    <key name="post_edited">
+        <value>Edited by</value>
+    </key>
+    <key name="post_location">
+        <value>Post location:</value>
+    </key>
+    <key name="quote">
+        <value>Quote</value>
+    </key>
+    <key name="replies">
+        <value>Replies</value>
+    </key>
+    <key name="search_invitation_all_forum">
+        <value>Search all forum</value>
+    </key>
+    <key name="search_invitation_group">
+        <value>Search this forum</value>
+    </key>
+    <key name="search_invitation_section">
+        <value>Search this section</value>
+    </key>
+    <key name="search_invitation_topic">
+        <value>Search this topic</value>
+    </key>
+    <key name="search_page_heading">
+        <value>Forum search</value>
+    </key>
+    <key name="select_group_error">
+        <value>Please select forum section</value>
+    </key>
+    <key name="settings_updated">
+        <value>Settings updated</value>
+    </key>
+    <key name="sort_by_date">
+        <value>Last post date</value>
+    </key>
+    <key name="sort_by_relevance">
+        <value>Relevance</value>
+    </key>
+    <key name="sticky">
+        <value>sticky</value>
+    </key>
+    <key name="sticky_topic">
+        <value>Make Sticky</value>
+    </key>
+    <key name="sticky_topic_confirm">
+        <value>Are you sure you want to make this topic sticky?</value>
+    </key>
+    <key name="subscribe">
+        <value>Subscribe to new posts</value>
+    </key>
+    <key name="subscription-added">
+        <value>Topic subscription added</value>
+    </key>
+    <key name="subscription-canceled">
+        <value>Topic subscription canceled</value>
+    </key>
+    <key name="this_topic">
+        <value>This topic</value>
+    </key>
+    <key name="topic">
+        <value>Topic</value>
+    </key>
+    <key name="topics">
+        <value>Topics</value>
+    </key>
+    <key name="topic_attachments">
+        <value>{$count} attached files</value>
+    </key>
+    <key name="topic_is_locked">
+        <value>This topic is locked</value>
+    </key>
+    <key name="topic_is_sticky">
+        <value>This topic is sticky</value>
+    </key>
+    <key name="topic_location">
+        <value>Topic location:</value>
+    </key>
+    <key name="topic_page_heading">
+        <value>{$topic} | Forum {$content}</value>
+    </key>
+    <key name="uninstall_inprogress">
+        <value>In progress</value>
+    </key>
+    <key name="uninstall_inprogress_desc">
+        <value>Please wait while all forum content is being removed, This make take awhile depending on the number of
+            forum posts on your site
+        </value>
+    </key>
+    <key name="unlock_topic">
+        <value>Unlock</value>
+    </key>
+    <key name="unlock_topic_confirm">
+        <value>Are you sure you want to unlock this topic?</value>
+    </key>
+    <key name="unsticky_topic">
+        <value>Remove from sticky</value>
+    </key>
+    <key name="unsticky_topic_confirm">
+        <value>This topic will not be sticky. Are you sure you want to remove this topic from sticky ones?</value>
+    </key>
+    <key name="upload_ini_value">
+        <value>(Server limit: {$value})</value>
+    </key>
+    <key name="usercredits_action_add_post">
+        <value>Post in forum</value>
+    </key>
+    <key name="views">
+        <value>Views</value>
+    </key>
+    <key name="visible_to">
+        <value>Visible for user roles</value>
+    </key>
+    <key name="widget_latest_topics_label">
+        <value>Forum</value>
+    </key>
+    <key name="advanced_search">
+        <value>Advanced search</value>
+    </key>
+    <key name="search_advanced_heading">
+        <value>Advanced search</value>
+    </key>
+    <key name="search">
+        <value>Search</value>
+    </key>
+    <key name="forms_search_keyword_field_invitation">
+        <value>Keyword or Phrase</value>
+    </key>
+    <key name="forms_search_username_field_label">
+        <value>Filter by username (optional)</value>
+    </key>
+    <key name="forms_search_username_field_invitation">
+        <value>Username</value>
+    </key>
+    <key name="where_to_search">
+        <value>Where to search</value>
+    </key>
+    <key name="forms_search_parts_field_label">
+        <value>Choose forum to search in</value>
+    </key>
+    <key name="forms_search_search_in_field_label">
+        <value>Search in</value>
+    </key>
+    <key name="forms_search_search_in_field_value_message">
+        <value>Messages</value>
+    </key>
+    <key name="forms_search_search_in_field_value_title">
+        <value>Titles</value>
+    </key>
+    <key name="additional">
+        <value>Additional</value>
+    </key>
+    <key name="forms_search_period_field_label">
+        <value>Search for period</value>
+    </key>
+    <key name="forms_search_search_period_value_today">
+        <value>Today</value>
+    </key>
+    <key name="forms_search_search_period_value_last_week">
+        <value>Last week</value>
+    </key>
+    <key name="forms_search_search_period_value_last_month">
+        <value>Last month</value>
+    </key>
+    <key name="forms_search_search_period_value_last_two_months">
+        <value>Last 2 months</value>
+    </key>
+    <key name="forms_search_search_period_value_last_three_months">
+        <value>Last 3 months</value>
+    </key>
+    <key name="forms_search_search_period_value_last_six_months">
+        <value>Last 6 months</value>
+    </key>
+    <key name="forms_search_search_period_value_last_year">
+        <value>Last year</value>
+    </key>
+    <key name="forms_search_sort_field_label">
+        <value>Sort by</value>
+    </key>
+    <key name="forms_search_sort_value_date">
+        <value>Last message date</value>
+    </key>
+    <key name="forms_search_sort_value_relevance">
+        <value>Message relevance</value>
+    </key>
+    <key name="forms_search_sort_direction_field_value_increase">
+        <value>Increase</value>
+    </key>
+    <key name="forms_search_sort_direction_field_value_decrease">
+        <value>Decrease</value>
+    </key>
+    <key name="forms_search_parts_field_value_all_forums">
+        <value>>>All forums</value>
+    </key>
+    <key name="advanced_search_result">
+        <value>Search result</value>
+    </key>
+    <key name="please_enter_keyword_or_user_name">
+        <value>Please enter your keyword or username</value>
+    </key>
+    <key name="please_enter_search_keyword">
+    <value>please enter your search keyword</value>
+    </key>
+    <key name="search_example_usage">
+        <value>Example of usage</value>
+    </key>
+    <key name="search_example_usage_text">
+        <value>
+            &#x3C;b&#x3E;apple banana&#x3C;/b&#x3E; - Find rows that contain at least one of the two words. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple +juice&#x3C;/b&#x3E; - Find rows that contain both words. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple macintosh&#x3C;/b&#x3E; - Find rows that contain the word &#x201C;apple&#x201D;,
+            but rank rows higher if they also contain &#x201C;macintosh&#x201D;. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple -macintosh&#x3C;/b&#x3E; - Find rows that contain the word &#x201C;apple&#x201D;
+            but not &#x201C;macintosh&#x201D;. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple ~macintosh&#x3C;/b&#x3E; - Find rows that contain the word &#x201C;apple&#x201D;,
+            but if the row also contains the word &#x201C;macintosh&#x201D;, rate it lower than if row does not. &#x3C;br
+            /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;+apple +(&#x26;#x3E;turnover &#x26;#x3C;strudel)&#x3C;/b&#x3E; - Find rows that
+            contain the words &#x201C;apple&#x201D; and &#x201C;turnover&#x201D;, or &#x201C;apple&#x201D; and &#x201C;strudel&#x201D;
+            (in any order), but rank &#x201C;apple turnover&#x201D; higher than &#x201C;apple strudel&#x201D;. &#x3C;br
+            /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;apple*&#x3C;/b&#x3E; - Find rows that contain words such as &#x201C;apple&#x201D;,
+            &#x201C;apples&#x201D;, &#x201C;applesauce&#x201D;, or &#x201C;applet&#x201D;. &#x3C;br /&#x3E;
+            &#x9;&#x9;&#x9;&#x3C;b&#x3E;&#x22;some words&#x22;&#x3C;/b&#x3E; - Find rows that contain the exact phrase
+            &#x201C;some words&#x201D; (for example, rows that contain &#x201C;some words of wisdom&#x201D; but not
+            &#x201C;some noise words&#x201D;). Note that the &#x201C;&#x22;&#x201D; characters that enclose the phrase
+            are operator characters that delimit the phrase. They are not the quotation marks that enclose the search
+            string itself.
+        </value>
+    </key>
+    <key name="back_forum">
+        <value>Back to forum</value>
+    </key>
+    <key name="forum_mobile">
+        <value>Forums</value>
+    </key>
+    <key name="forum_section">
+        <value>Section</value>
+    </key>
+    <key name="forum_group">
+        <value>Forums</value>
+    </key>
+    <key name="attached_files">
+        <value>attached files</value>
+    </key>
+    <key name="post_attachment">
+        <value>Post attachment</value>
+    </key>
+    <key name="clear_all">
+        <value>Clear all</value>
+    </key>
+    <key name="add_files">
+        <value>Add files</value>
+    </key>
+    <key name="write_reply">
+        <value>Write reply ...</value>
+    </key>
+    <key name="unsubscribe">
+        <value>Unsubscribe</value>
+    </key>
+    <key name="forum_topic">
+        <value>Topic</value>
+    </key>
+    <key name="subscribe_confirm">
+        <value>Do you really want to subscribe to this topic?</value>
+    </key>
+    <key name="unsubscribe_confirm">
+        <value>Do you really want to unsubscribe to this topic?</value>
+    </key>
+    <key name="view_quote">
+        <value>View quote</value>
+    </key>
+    <key name="confirm_delete_all_attachments">
+        <value>Are you sure you want to delete these files?</value>
+    </key>
+    <key name="search_results">
+        <value>Search results</value>
+    </key>
+    <key name="basic">
+        <value>Basic</value>
+    </key>
+    <key name="messages_on_forum">
+        <value>message(s) on forum</value>
+    </key>
+    <key name="delete_quote_confirm">
+        <value>Are you sure you want to delete this quote?</value>
+    </key>
+    <key name="back_to_post">
+        <value>Back to post</value>
+    </key>
+    <key name="admin_forum_settings_heading">
+        <value>Forum plugin settings</value>
+    </key>
+    <key name="forum_sitemap">
+        <value>Forum</value>
+    </key>
+    <key name="seo_meta_section">
+        <value>Forum</value>
+    </key>
+    <key name="seo_meta_home_label">
+        <value>Forum Homepage</value>
+    </key>
+    <key name="meta_title_home">
+        <value>Forum | {$site_name}</value>
+    </key>
+    <key name="meta_desc_home">
+        <value>Welcome to the discussion forum at {$site_name}. Create new posts, read what others have to say, and join
+            the conversation
+        </value>
+    </key>
+    <key name="meta_keywords_home">
+        <value></value>
+    </key>
+    <key name="seo_meta_adv_search_label">
+        <value>Forum Advanced Search Page</value>
+    </key>
+    <key name="meta_title_adv_search">
+        <value>Advanced search {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_adv_search">
+        <value>Use advanced search to find information you need within {$site_name} forum</value>
+    </key>
+    <key name="meta_keywords_adv_searche">
+        <value></value>
+    </key>
+    <key name="seo_meta_adv_search_result_label">
+        <value>Forum Advanced Search Results Page</value>
+    </key>
+    <key name="meta_title_adv_search_result">
+        <value>Search results for {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_adv_search_result">
+        <value>View the results of your forum search on {$site_name}.</value>
+    </key>
+    <key name="meta_keywords_adv_searche_result">
+        <value></value>
+    </key>
+    <key name="seo_meta_section_label">
+        <value>Separate Sub-forum Page</value>
+    </key>
+    <key name="meta_title_section">
+        <value>{$section_name} at {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_section">
+        <value>{$section_name}</value>
+    </key>
+    <key name="meta_keywords_section">
+        <value></value>
+    </key>
+    <key name="seo_meta_group_label">
+        <value>Separate Sub-forum Category Page</value>
+    </key>
+    <key name="meta_title_group">
+        <value>{$group_name} at {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_group">
+        <value>{$group_description}</value>
+    </key>
+    <key name="meta_keywords_group">
+        <value></value>
+    </key>
+    <key name="seo_meta_topic_label">
+        <value>Separate Forum Thread Page</value>
+    </key>
+    <key name="meta_title_topic">
+        <value>{$topic_name} at {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_topic">
+        <value>{$topic_description}</value>
+    </key>
+    <key name="meta_keywords_topic">
+        <value></value>
+    </key>
+    <key name="seo_meta_section_search_label">
+        <value>Separate Sub-forum Search Page</value>
+    </key>
+    <key name="meta_title_section_search">
+        <value>{$section_name} search at {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_section_search">
+        <value>Search results for {$section_name} sub-forum on {$site_name} forum.</value>
+    </key>
+    <key name="meta_keywords_section_search">
+        <value></value>
+    </key>
+    <key name="seo_meta_group_search_label">
+        <value>Sub-forum Category Search Page</value>
+    </key>
+    <key name="meta_title_group_search">
+        <value>{$group_name} search at {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_group_search">
+        <value>Search results for {$group_name} threads on {$site_name} forum.</value>
+    </key>
+    <key name="meta_keywords_group_search">
+        <value></value>
+    </key>
+    <key name="seo_meta_topic_search_label">
+        <value>Forum Thread Search</value>
+    </key>
+    <key name="meta_title_topic_search">
+        <value>{$topic_name} search at {$site_name} Forum</value>
+    </key>
+    <key name="meta_desc_topic_search">
+        <value>Search results for {$topic_name} topic on {$site_name} forum</value>
+    </key>
+    <key name="meta_keywords_topic_search">
+        <value></value>
+    </key>
+    <key name="toolbar_post_number">
+        <value>Post {$num}</value>
+    </key>
+    <key name="no_forums">
+        <value>There are no forums</value>
+    </key>
+    <key name="forum_subjects_list">
+        <value>
+            forum subjects list
+        </value>
+    </key>
+    <key name="error_adding_post">
+        <value>
+            error in adding your post
+        </value>
+    </key>
+</prefix>

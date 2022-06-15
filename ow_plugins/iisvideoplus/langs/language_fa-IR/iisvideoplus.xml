@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisvideoplus" label="iisvideoplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="latest_friends">
+        <value>
+            ویدیوهای دوستان
+        </value>
+    </key>
+    <key name="meta_description_video_latest_friends">
+        <value>
+            میتوانید آخرین ویدیوهای دوستان خود را در این صفحه مشاهده کنید.
+        </value>
+    </key>
+    <key name="meta_title_video_add_latest_friends">
+        <value>
+            آخرین ویدیوهای دوستان
+        </value>
+    </key>
+		<key name="latest_myvideo">
+        <value>
+             ویدیوهای من
+        </value>
+    </key>
+	<key name="meta_title_video_add_latest_myvideo">
+        <value>
+            ویدیوهای من
+        </value>
+    </key>
+	<key name="meta_description_video_latest_myvideo">
+        <value>
+             می‌توانید ویدیوهای خود را در این صفحه مشاهده کنید.
+        </value>
+    </key>
+	<key name="input_settings_max_upload_size_label">
+        <value>
+             حداکثر اندازه فایل ویدیو
+        </value>
+    </key>
+	<key name="settings_max_upload_size_error">
+        <value>
+             مقدار اشتباه یا بیش از حد مجاز سرویس‌دهنده است
+        </value>
+    </key>
+	<key name="error_both_fields_empty">
+        <value>
+             آدرس iframe ویدیو در بخش کد و یا فایل ویدیو می بایست وارد شود
+        </value>
+    </key>
+	<key name="errors_video_upload">
+        <value>
+            خطا در بارگذاری فایل ویدیو
+        </value>
+    </key>
+	<key name="upload_file_extension_is_not_allowed">
+        <value>
+            نوع فایل مجاز نیست، فایل وارد شده می بایست mp4 باشد
+        </value>
+    </key>
+	<key name="upload_file_max_upload_filesize_error">
+        <value>
+            بیشینه اندازه فایل بارگذاری:  {$videofilesize}  مگابایت
+        </value>
+    </key>
+	<key name="create_video_upload_label">
+        <value>
+بارگذاری فایل ویدیو
+        </value>
+    </key>
+	<key name="page_title_uninstall">
+        <value>
+            حذف افزونه ویدیوپلاس
+        </value>
+    </key>
+	<key name="delete_content_warning">
+        <value>
+           هشدار
+        </value>
+    </key>
+	<key name="delete_content_desc">
+        <value>
+           قبل از حذف افزونه مورد نظر، کلیه فایل های ویدیو بارگذاری شده می بایست حذف شوند.
+        </value>
+    </key>
+	<key name="delete_content">
+        <value>
+            حذف محتوا و از نصب درآوردن افزونه
+        </value>
+    </key>
+	<key name="confirm_delete_video_file">
+        <value>
+            آیا از حذف فایل های ویدیو اطمینان دارید؟
+        </value>
+    </key>
+	<key name="uninstall_inprogress">
+        <value>
+            در حال پردازش
+        </value>
+    </key>
+	<key name="uninstall_inprogress_desc">
+        <value>
+            لطفا صبر کنید تا فایل های ویدیو بارگذاری شده، حذف شود. این عملیات بسته به تعداد فایل‌ها ممکن است زمان‌بر باشد.
+        </value>
+    </key>
+	<key name="modified_successfully">
+        <value>
+            تغییرات با موفقیت ذخیره شد
+        </value>
+    </key>
+	<key name="video_add_upload_desc">
+        <value>
+          فایل ویدیویی مورد نظر خود را بارگذاری نمایید
+        </value>
+    </key>
+	<key name="video_edit_upload_desc">
+        <value>
+            در صورتی که تمایلی به تغییر فایل موجود ندارید، نیازی به بارگذاری دوباره فایل نیست
+        </value>
+    </key>
+	<key name="admin_settings_heading">
+        <value>
+            تنظیمات افزونه ویدیو پلاس
+        </value>
+    </key>
+	<key name="download_file">
+        <value>
+            دریافت ویدیو
+        </value>
+    </key>
+</prefix>

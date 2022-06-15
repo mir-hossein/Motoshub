@@ -1,0 +1,12 @@
+<div class="ow_lp_avatars">
+    {foreach from=$userIdList item='id'}
+    {decorator name="avatar_item" data=$data[$id]}
+    {foreachelse}
+    <div class="ow_nocontent">{text key='iisgroupsplus+no_pending_invitation'}</div>
+    {/foreach}
+</div>
+{if $more}
+<span class="ow_cursor_pointer" onclick="{$ShowPendingAllUsersUrl}" >
+    {text key="base+view_all"}
+</span>
+{/if}

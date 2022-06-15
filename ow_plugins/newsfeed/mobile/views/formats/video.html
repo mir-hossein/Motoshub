@@ -1,0 +1,35 @@
+{if !empty($vars.videoFile)}
+    <source src="{$vars.source}" type="video/mp4">
+    <source src="{$vars.source}" type="video/ogg">
+    <source src={$vars.source} type=video/webm>
+    <canvas id="canvas" width="100%" height="100%"></canvas>
+    {if isset($vars.thumbUrl)}
+        <video id="videoUpload" src="{$vars.source}" width="100%" height="100%" autobuffer poster="{$vars.thumbUrl}"></video>
+    {else}
+        <video id="videoUpload" src="{$vars.source}" width="100%" height="100%" ></video>
+    {/if}
+    <a href="{if !empty($vars.url)}{$vars.url}{else}javascript://{/if}">{$vars.title|escape}</a>
+    <div class="owm_newsfeed_body_descr">{$vars.description|more:300}</div>
+{else}
+{if !empty($vars.status)}
+<div class="owm_newsfeed_body_status">{$vars.status}</div>{/if}
+<div id="{$uniqId}" class="owm_video_format">
+    <div class="owm_newsfeed_body_pic">
+        {if $vars.embed}
+            <div class="owm_newsfeed_video_embed" id="{$uniqId}">{$vars.embed}</div>
+        {/if}
+    </div>
+    <div class="owm_newsfeed_body_cont">
+        <div class="owm_newsfeed_item_padding owm_newsfeed_item_box clearfix">
+            <div class="owm_newsfeed_body_info_wrap">
+                <div class="owm_newsfeed_body_info">
+                    <div class="owm_newsfeed_body_title">
+                        <a href="{if !empty($vars.url)}{$vars.url}{else}javascript://{/if}">{$vars.title|escape}</a>
+                    </div>
+                    <div class="owm_newsfeed_body_descr">{$vars.description|more:300}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/if}

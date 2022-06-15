@@ -1,0 +1,70 @@
+
+<div class="owm_hashtag_page">
+    <!-- search CMP -->
+    <div class="owm_list_search owm_box_empty">
+        {form name="form"}
+        <span>
+                {input name="txt"}
+        </span>
+        {submit name="submit" iconClass="ow_ic_lens"}
+        {/form}
+    </div>
+
+    {if $menu}{$menu}{/if}
+
+    {if $no_newsfeed}
+        <div class="owm_anno">{text key="iishashtag+plugin_requires_newsfeed"}</div>
+    {else}{if $tag}
+        <div class="owm_list_page">
+        {if $isEmpty}
+            <div class="ow_nocontent">{text key="base+empty_list"}</div>
+        {else}
+            {if $selected_tab == 'newsfeed'}
+            {$newsfeedComponent}
+            {/if}
+            {if  $selected_tab == 'news'}
+            {$newsComponent}
+            {/if}
+            {if  $selected_tab == 'groups'}
+            {$groupsComponent}
+            {/if}
+            {if  $selected_tab == 'event'}
+            {$eventComponent}
+            {/if}
+            {if  $selected_tab == 'video'}
+            {$videoComponent}
+            {/if}
+            {if  $selected_tab == 'photo'}
+            {$photoComponent}
+            {/if}
+            {if  $selected_tab == 'forum'}
+            {$forumComponent}
+            {/if}
+            {if  $selected_tab == 'blogs'}
+            {$blogsComponent}
+            {/if}
+        {/if}
+        </div>
+    {else}
+        <div class="owm_box ow_stdmargin">
+            <div class="owm_box_cap clearfix">
+                <h3 class="ow_ic_tag">{text key="iishashtag+top_hashtags"}</h3>
+            </div>
+            <div class="owm_box_body">
+                <div class="owm_box_body_cont clearfix">
+                    <div class="owm_box_padding">
+                        <div class="ow_tags_cont" style="padding: 10px">
+                            {foreach from=$top_tags item='tag'}
+                            <a href="{$tag.url}" style="font-size:{$tag.size}px;line-height:{$tag.lineHeight}px;">{$tag.label}</a>
+                            {/foreach}
+                        </div>
+                        {if $isEmpty}
+                            <div class="ow_nocontent">{text key="base+empty_list"}</div>
+                        {/if}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {/if}
+    {/if}
+</div>

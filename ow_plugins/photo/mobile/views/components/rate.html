@@ -1,0 +1,15 @@
+{if $display}
+<div id="rate_{$cmpId}">
+   {if $userId!=$ownerId}
+   <div class="ow_smallmargin">
+   	<span class="ow_small">{text key='base+your_rate_label'}</span>
+      <div class="rates_cont clearfix">
+      {section name=foo loop=$maxRate}
+         <a href="javascript://" class="rate_item" id="{$cmpId}_rate_item_{$smarty.section.foo.iteration}">&nbsp;</a>
+      {/section}
+      </div>
+   </div>
+   {/if}
+   <div class="total_score">{$totalScore}</div>
+</div>
+{/if}

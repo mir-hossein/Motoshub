@@ -1,0 +1,40 @@
+{*
+
+/**
+* Copyright (c) 2017, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+{$menuCmp}
+<div class="iismainpage" id="mailbox_page">
+    {if isset($subMenu)}
+        {$subMenu}
+    {/if}
+
+    <div class="owm_user_list owm_content_list owm_std_margin_bottom clearfix" style="margin: 0px 6px -6px 6px !important;">
+        <div class="owm_list_search">
+            <div class="owm_form_field_wrap">
+                <input id="iismainpage_messages_search" type="text" placeholder="{text key='iismainpage+search'}">
+            </div>
+        </div>
+    </div>
+
+    <div class="owm_list_page clearfix">
+        <div class="owm_user_list_preloader owm_preloader" style="display: none;visibility: visible;float: left;width: 100%;"></div>
+        <div class="ow_nocontent" style="display: none">{text key="base+no_items"}</div>
+    {foreach from=$conversationData item='item'}
+        <div class="owm_list_item_with_image {if $item.conversationRead <1}owm_convers_item_active{/if}" onclick="location.href='{$item.url}';">
+            <div class="owm_user_list_item">
+                <div class="owm_avatar">
+                    <img src="{$item.avatarUrl}" />
+                </div>
+                <div class="owm_user_list_name"><span id="mailboxSidebarConversationsItemDisplayName"><a href="{$item.url}">{$item.displayName}</a></span></div>
+                <div class="owm_sidebar_convers_mail_theme" id="mailboxSidebarConversationsItemSubject"><a>{$item.previewText}</a></div>
+                <div class="owm_profile_online" id="mailboxSidebarConversationsItemOnlineStatus" {if $item.onlineStatus<1}style="display: none;"{/if}></div>
+                <div class="owm_newsfeed_date">{$item.timeLabel}</div>
+            </div>
+        </div>
+    {/foreach}
+    </div>
+</div>

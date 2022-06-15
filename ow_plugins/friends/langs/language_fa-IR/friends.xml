@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="friends" label="Friends" language_tag="fa-IR" language_label="فارسی">
+<key name="accept_request">
+	<value>
+		تایید
+	</value>
+</key>
+<key name="accept_friendship_request">
+	<value>
+		تایید درخواست افزودن دوست
+	</value>
+</key>
+<key name="activity_content">
+	<value>
+		{$user_avatar} {$requester_avatar}
+	</value>
+</key>
+<key name="activity_title">
+	<value>
+		&lt;a href="{$user_url}"&gt;{$name}&lt;/a&gt; و &lt;a href="{$requester_url}"&gt;{$requester_name}&lt;/a&gt; اکنون دوست یکدیگر هستند
+	</value>
+</key>
+<key name="add_to_friends">
+	<value>
+		افزودن به دوستان
+	</value>
+</key>
+<key name="auth_action_label_add_friend">
+	<value>
+		ارسال درخواست افزودن دوست
+	</value>
+</key>
+<key name="auth_group_label">
+	<value>
+		دوستان
+	</value>
+</key>
+<key name="cancel_request">
+	<value>
+		لغو
+	</value>
+</key>
+<key name="comment_activity_string">
+	<value>
+		نظر داد بر روی {$user1} و {$user2} که اکنون دوست یکدیگر شدند
+	</value>
+</key>
+<key name="confirmed_mail_html">
+<value>&lt;p&gt;&#13;
+{$sender} گرامی&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+خیلی خوشحال هستیم که به شما خبر میدهیم اکنون شما و &lt;a href="{$receiver_url}"&gt;{$receiver}&lt;/a&gt; در &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt; دوست یکدیگر هستید&#13;
+&lt;/p&gt;&#13;
+</value></key>
+<key name="confirmed_mail_subject"><value>هم اکنون {$receiver} دوست شما است</value></key>
+<key name="confirmed_mail_txt">
+<value>
+{$sender} گرامی خیلی خوشحال هستیم که به شما خبر میدهیم اکنون شما و {$receiver} در {$site_name} دوست یکدیگر هستید&#13;
+&#13;
+{$receiver} نمایه : {$receiver_url}&#13;
+{$site_name}: {$site_url}&#13;
+&#13;
+</value></key>
+<key name="console_requests_title"><value>درخواست‌های افزودن دوست</value></key>
+<key name="console_request_item"><value>&lt;a target="_blank" href="{$userUrl}"&gt;{$displayName}&lt;/a&gt; برای شما درخواست دوستی ارسال کرده است</value></key>
+<key name="email_notifications_setting_accept"><value>کسی درخواست افزودن دوست من را تایید کرده است</value></key>
+<key name="email_notifications_setting_request"><value>کسی برای من درخواست افزودن دوست ارسال کرده است</value></key>
+<key name="feedback_cancelled"><value>کاربر مورد نظر از فهرست دوستان شما حذف شد</value></key>
+<key name="feedback_request_accepted"><value>دوست جدید افزوده شد</value></key>
+<key name="feedback_request_already_sent_error_message"><value>درخواست درحال حاضر فرستاده شده است</value></key>
+<key name="feedback_request_ignored"><value>درخواست رد شد</value></key>
+<key name="feedback_request_was_sent"><value>درخواست افزودن دوست ارسال شد</value></key>
+<key name="feed_content_label">
+	<value>
+		دوستان
+	</value>
+</key>
+<key name="friendship_management_area">
+	<value>
+		مدیریت دوستان
+	</value>
+</key>
+<key name="friends_tab">
+	<value>
+		دوست {$count}
+	</value>
+</key>
+<key name="friend_requests">
+	<value>
+		درخواست‌های افزودن دوست
+	</value>
+</key>
+<key name="friend_request_was_sent">
+	<value>
+		درخواست افزودن دوست فرستاده شد
+	</value>
+</key>
+<key name="got_requests_tab">
+	<value>
+		{$count} درخواست افزودن دوست
+	</value>
+</key>
+<key name="ignore_request">
+	<value>
+		رد کردن
+	</value>
+</key>
+<key name="like_activity_string">
+	<value>
+		پسندید که {$user1} و {$user2} اکنون دوست یکدیگر هستند
+	</value>
+</key>
+<key name="my_friends_page_heading">
+	<value>
+		دوستان من
+	</value>
+</key>
+<key name="my_friends_page_title">
+	<value>
+		دوستان من - {$site_name}
+	</value>
+</key>
+<key name="newsfeed_action_string">
+	<value>
+		و &lt;a href="{$user_url}"&gt;{$name}&lt;/a&gt; هم اکنون دوست یکدیگر هستند
+	</value>
+</key>
+<key name="new_friend_added">
+	<value>
+		دوست جدید افزوده شد
+	</value>
+</key>
+<key name="notification_section_label">
+	<value>
+		دوستان
+	</value>
+</key>
+<key name="notify_accept">
+	<value>
+		{$receiver} شما را به عنوان دوست تایید کرد
+	</value>
+</key>
+<key name="notify_request">
+	<value>
+		{$sender} می خواهد دوست شما شود
+	</value>
+</key>
+<key name="notify_request_content">
+	<value>
+		&lt;a href="{$request_url}"&gt;اینجا کلیک کنید&lt;/a&gt; برای تایید این درخواست &#13;
+		&lt;/p&gt;
+	</value>
+</key>
+<key name="notify_request_content_string">
+	<value>
+		&lt;p&gt;برای مشاهده تمام درخواست‌ها &lt;a href="{$url}"&gt;اینجا&lt;/a&gt; کلیک کنید &lt;/p&gt;
+	</value>
+</key>
+<key name="notify_request_string">
+	<value>
+		&lt;a href="{$userUrl}"&gt;{$displayName}&lt;/a&gt; درخواست افزودن شما به دوستان خود را دارد
+	</value>
+</key>
+<key name="privacy_action_view_friends"><value>مشاهده مخاطبان من</value></key>
+<key name="privacy_action_view_friends_description"><value>با تغییر این گزینه، حق دسترسی به مخطبان شما تغییر خواهد کرد</value></key>
+<key name="privacy_friends_only"><value>دوستان من</value></key>
+<key name="remove_from_friends"><value>حذف از دوستان</value></key>
+<key name="remove_from_friendship_button"><value>حذف از دوستان</value></key>
+<key name="remove_friendship_request"><value>حذف درخواست افزودن دوست</value></key>
+<key name="request_friendship_button"><value>ارسال درخواست افزودن دوست</value></key>
+<key name="request_mail_html"><value></value></key>
+<key name="request_mail_subject"><value>{$sender} درخواست افزودن شما به دوستان خود را دارد</value></key>
+<key name="request_mail_txt"><value></value></key>
+<key name="sent_requests_tab"><value>درخواست‌های ارسال شده {$count}</value></key>
+<key name="usercredits_action_add_friend"><value>درخواست افزودن دوست</value></key>
+<key name="user_friends_page_heading"><value>{$user} دوستان</value></key>
+<key name="user_friends_page_title"><value>{$user} دوستان - {$site_name}</value></key>
+<key name="user_widget_empty"><value>هنوز دوستی ندارد</value></key>
+<key name="user_widget_settings_count"><value>تعداد</value></key>
+<key name="user_widget_title"><value>دوستان</value></key>
+<key name="view_profile"><value>نمایش</value></key>
+<key name="widget_friends"><value>دوستان</value></key>
+<key name="widget_got_requests"><value>درخواست‌های رسیده</value></key>
+<key name="widget_sent_requests"><value>درخواست‌های فرستاده شده</value></key>
+<key name="widget_title"><value>دوستان من</value></key>
+<key name="request_title"><value>درخواست‌ها</value></key>
+<key name="total_friends"><value>تعداد دوستان: {$total}</value></key>
+</prefix>

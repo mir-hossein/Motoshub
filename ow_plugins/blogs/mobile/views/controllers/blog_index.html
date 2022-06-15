@@ -1,0 +1,75 @@
+<div class="clearfix">{add_content key='blogs.add_content.list.top' listType=$listType}</div>
+<div class="owm_blogs_page owm_blogs_section owm_list_page">
+	<div class="owm_items_stdmargin">
+		{if $addNew_isAuthorized}
+		{if $addNew_promoted}
+		<div class="ow_right">{decorator name='button' class='ow_ic_add owm-btn-add-new-entry' id='btn-add-new-post' langLabel='blogs+add_new'}</div>
+		{else}
+		<div class="ow_right " >
+			<div class="owm_blog_myBlog"  onclick="location.href='{$my_drafts_url}'" id='manage_blog' ></div>
+			{decorator name='button' style='display: inline-block;' class='ow_ic_add owm-btn-add-new-entry' id='btn-add-new-post' langLabel='blogs+add_new' onclick="location.href='`$url_new_post`'"}</div>
+		{/if}
+		{/if}
+		{$menu}
+
+		{$tagSearch}
+
+		{if $isBrowseByTagCase}
+		{if $tag}
+		<div class="owm_info owm_anno owm_box owm_searchTag">
+			{text key="blogs+results_by_tag" tag=$tag}
+		</div>
+		{else}
+		<div class="owm_box owm_left ow_superwide">
+			{$tagCloud}
+		</div>
+		{/if}
+		{else}
+		{/if}
+	</div>
+
+
+	<div class="owm_std_margin_bottom">
+		{if $showList}
+		{foreach from=$list item='entry'}
+		{assign var=dto value=$entry.dto}
+		{*-- decorator data*}
+		{assign var=userId value=$dto->getAuthorId()}
+		{assign var='id' value=$dto->getId()}
+
+		<div class="owm_list_item_view clearfix">
+			<a href="{$entry.url}">
+				<div class="owm_list_item_view_header clearfix">
+					{if isset($entry.imageSrc)}
+					<img class="owm_list_item_view_header_img" src="{$entry.imageSrc}" />
+					{/if}
+					<span class="owm_list_item_view_title">{$dto->getTitle()}</span>
+					<span class="owm_list_item_view_date">{format_date timestamp=$dto->getTimeStamp()}</span>
+				</div>
+			</a>
+
+			<div class="owm_list_item_view_body">
+				<div class="owm_list_item_view_body_text clearfix">
+					{$entry.text}{if $entry.showMore}... {/if}
+				</div>
+			</div>
+
+			<div class="owm_list_item_view_footer">
+				<a href="{$authorHref[$id]}">{$authorName[$id]}</a>
+				{if isset($tags) && isset($tags[$id])}
+				<span class="owm_list_footer_tags">
+					{text key='blogs+tags'}
+					{$tags[$id]}
+				</span>
+				{/if}
+				<a href="{$entry.url}"><div class="owm_list_footer_comments owm_newsfeed_control_comment ow_right">{$entry.commentCount}</div></a>
+
+			</div>
+		</div>
+		{foreachelse}
+		<div class="ow_nocontent">{text key='base+empty_list'}</div>
+		{/foreach}
+		{if $paging}{$paging}{/if}
+		{/if}
+	</div>
+</div>

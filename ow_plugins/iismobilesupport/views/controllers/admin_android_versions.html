@@ -1,0 +1,45 @@
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section' name='contentMenu'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+
+<table class="ow_table_1 ow_form" style="margin: 0">
+    <tbody>
+    <tr class="ow_center">
+        <td colspan="5">{text key="iismobilesupport+values"}</td>
+    </tr>
+    <tr>
+        <th>{text key="iismobilesupport+version_name"}</th>
+        <th>{text key="iismobilesupport+version_code"}</th>
+        <th colspan="2">{text key="iismobilesupport+time"}</th>
+        <th>{text key="iismobilesupport+message"}</th>
+    </tr>
+    {foreach from=$values item="value"}
+    <tr class="ow_alt1">
+        <td>
+            {$value.versionName}
+        </td>
+        <td>
+            {$value.versionCode}
+        </td>
+        <td>
+            {$value.time}
+        </td>
+        <td class="">
+            <a class="ow_lbutton ow_red" onclick="{$value.deleteUrl}" style="display: inline-block;">{text
+                key="iismobilesupport+delete"}</a>
+            {if !$value.isLastVersion}
+            <a class="ow_lbutton ow_green" onclick="{$value.deprecateUrl}" style="display: inline-block;">{$value.deprecateLabel}</a>
+            {/if}
+            <a class="ow_lbutton ow_green" href="{$value.downloadFile}" style="display: inline-block;">{text key="iismobilesupport+download_file"}</a>
+        </td>
+        <td>
+            {$value.message}
+        </td>
+    </tr>
+    {/foreach}
+    </tbody>
+</table>

@@ -1,0 +1,43 @@
+{style}{literal}
+.ow_ipc .ow_ipc_info .clearfix .ow_ipc_toolbar{
+    white-space: normal;
+}
+
+{/literal}{/style}
+
+{if !empty($list)}
+	{foreach from=$list item='entry'}
+		{*-- decorator data*}
+		{assign var="dto" value=$entry.dto}
+		{assign var=userId value=$dto->getAuthorId()}
+		{capture assign='info_string'}
+			<a href="{$entry.url}">{$entry.dto->getTitle()|strip_tags}</a>
+		{/capture}
+
+		{capture assign="moreLink"}<a class="ow_lbutton" href="{$entry.url}">{text key='iisnews+more'}</a>{/capture}
+
+		{capture assign='content'}
+			{if $commentInfo[$dto->id] > 0}
+				<div class="ow_small ow_smallmargin">
+					<a href="{$entry.url}">
+						{text key='iisnews+toolbar_comments'}
+					</a>
+					<span class="ow_txt_value">
+						{$commentInfo[$dto->id]}
+					</span>
+				</div>
+			{/if}
+			<div class="ow_smallmargin">{if $entry.truncated}{$entry.text}{$moreLink}{else}{$entry.text}{/if}</div>
+		{/capture}
+		{if $dto->image!=null}
+			{decorator name='ipc' infoString=$info_string data=$entry addClass="ow_stdmargin" content=$content toolbar=$tbars[$dto->id]}
+		{else}
+			{decorator name='ipc' addClass='ow_smallmargin' infoString=$info_string content=$content avatar=$avatars[$userId] toolbar=$tbars[$dto->id]}
+		{/if}
+	{/foreach}
+{else}
+	<div class="ow_nocontent">
+		{capture assign ='addnewurl'}{url_for_route for='entry-save-new'}{/capture}
+		{text key="iisnews+index_widget_empty"} <a href="{$addnewurl}">{text key='iisnews+add_new'}</a>
+	</div>
+{/if}

@@ -1,0 +1,42 @@
+{*
+
+/**
+* Copyright (c) 2018, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+{$menu}
+
+<div class="owm_iisuserlogin" style="margin-top: 10px;">
+    <div class="owm_box ow_stdmargin clearfix">
+        <div class="owm_box_cap clearfix owm_padding">
+            <a class="owm_btn_class_2 owm_small" href="javascript://" onclick="terminateAllDevices()">{text key="iisuserlogin+terminate_all_other_devices"}</a>
+        </div>
+    </div>
+    <div class="owm_box ow_stdmargin clearfix">
+        <div class="owm_box_body container" style="display: block;">
+            {foreach from=$items item="item"}
+            <div id="device_{$item.id}" class="owm_row">
+                <div class="owm_box_body">
+                    <div class="owm_box_body_cont clearfix">
+                        <div class="owm_box_padding">
+                            <p>
+                                {text key="iisuserlogin+login_details_ip_label"}: {$item.ip}
+                                <br/>
+                                {text key="iisuserlogin+login_details_last_activity_time_label"}: {$item.time}
+                                <br/>
+                                {text key="iisuserlogin+login_details_browser_label"}: {$item.browser}
+                                <br/>
+                                {$item.actions}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/foreach}
+        </div>
+    </div>
+</div>
+
+{if isset($paging)}{$paging}{/if}

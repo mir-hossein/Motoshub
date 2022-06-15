@@ -1,0 +1,85 @@
+<div class="clearfix">{add_content key='news.add_content.list.top' listType=$listType}</div>
+<div class="owm_iisnews_page owm_iisnews_section owm_list_page">
+    <div class="owm_items_stdmargin">
+        {if $addNew_isAuthorized}
+            {if $addNew_promoted}
+                <div class="ow_right owm_news_add_manage_my_news">{decorator name='button' class='ow_ic_add owm-btn-add-new-entry' id='btn-add-new-entry' langLabel='iisnews+add_new'}</div>
+            {else}
+            <div id="testNewsButtons" class="ow_right owm_news_add_manage_my_news">
+            <div class="owm_news_myNews"  onclick="location.href='{$my_drafts_url}'" id='manage_news'></div>
+            {decorator name='button' style='display: inline-block;' class='ow_ic_add owm-btn-add-new-entry' id='btn-add-new-entry' langLabel='iisnews+add_new' onclick="location.href='`$url_new_entry`'"}</div>
+
+        {/if}
+        {/if}
+        {$menu}
+    </div>
+
+    <div class="owm_iisnews_widgets">
+        {$entrySearch}
+        {$tagSearch}
+    </div>
+
+    <div class="owm_items_stdmargin">
+        {if $isBrowseByTagCase}
+            {if $tag}
+            <div class="owm_info owm_anno owm_box owm_searchTag">
+                {text key="iisnews+results_by_tag" tag=$tag}
+            </div>
+            {else}
+            <div class="owm_box owm_left ow_superwide">
+                {$tagCloud}
+            </div>
+            {/if}
+        {else}
+        {/if}
+        {if $isSearchResultsCase}
+        <div class="owm_info owm_anno owm_box">
+            {text key="iisnews+search_results_for" q=$q}
+        </div>
+        {/if}
+    </div>
+
+
+    <div class="owm_std_margin_bottom">
+
+
+    {if $showList}
+        {foreach from=$list item='entry'}
+            {assign var=dto value=$entry.dto}
+            {*-- decorator data*}
+            {assign var=userId value=$dto->getAuthorId()}
+            {assign var='id' value=$dto->getId()}
+
+            <div class="owm_list_item_view clearfix">
+                <a href="{$entry.url}">
+                    <div class="owm_list_item_view_header clearfix">
+                        {if isset($entry.imageSrc)}
+                        <img class="owm_list_item_view_header_img" src="{$entry.imageSrc}" />
+                        {/if}
+                        <span class="owm_list_item_view_title">{$dto->getTitle()}</span>
+                        <span class="owm_list_item_view_date">{format_date timestamp=$dto->getTimeStamp()}</span>
+                    </div>
+                </a>
+
+                <div class="owm_list_item_view_body">
+                    <div class="owm_list_item_view_body_text clearfix">
+                        {$entry.text}{if $entry.showMore}... <a class="ow_lbutton" href="{$entry.url}">{text key='iisnews+more'}</a>{/if}
+                    </div>
+                </div>
+
+                <div class="owm_list_item_view_footer">
+                    {if isset($tags) && isset($tags[$id])}
+                    <span class="owm_list_footer_tags">
+                        {text key='iisnews+tags'} {$tags[$id]}
+                    </span>
+                    {/if}
+                    <a href="{$entry.url}"><div class="owm_list_footer_comments owm_newsfeed_control_comment ow_right">{$entry.commentCount}</div></a>
+                </div>
+            </div>
+        {foreachelse}
+            <div class="ow_nocontent">{text key='base+empty_list'}</div>
+        {/foreach}
+        {if $paging}{$paging}{/if}
+    {/if}
+    </div>
+</div>

@@ -1,0 +1,19 @@
+{if  isset($options)}
+<div style="direction: initial">
+    <div class="category_section">
+        <select id="newsfeed_select_order" onchange="changeNewsfeedOrders()">
+            {foreach $options item="option"}
+            <option value={$option.value} {if isset($option.selected)} selected="selected"{/if}>{$option.text}</option>
+            {/foreach}
+        </select>
+    </div>
+</div>
+{/if}
+{if !empty($extra_component)}
+{$extra_component}
+{/if}
+
+<li {if count($feed)}style="display: none;"{/if} class="ow_newsfeed_item ow_nocontent newsfeed_nocontent">{text key="newsfeed+empty_feed_message"}</li>
+{foreach from=$feed item=item name=feed}
+    {newsfeed_item action=$item lastItem=$smarty.foreach.feed.last}
+{/foreach}

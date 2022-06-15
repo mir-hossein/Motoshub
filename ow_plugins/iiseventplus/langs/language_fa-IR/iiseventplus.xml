@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iiseventplus" label="iiseventplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="event_general">
+        <value>
+            آخرین‌ها
+        </value>
+    </key>
+    <key name="event_my">
+        <value>
+        رویدادهای من
+        </value>
+    </key>
+	<key name="leave_button_label">
+        <value>
+      ترک رویداد
+        </value>
+    </key>
+	<key name="leave_confirm_message">
+        <value>
+        آیا از ترک این رویداد مطمئن هستید؟
+        </value>
+    </key>
+	<key name="no_category">
+        <value>
+			بدون دسته
+        </value>
+    </key>
+	<key name="are_you_sure">
+        <value>
+			ایا مطمئن هستید؟‌(با حذف این دسته، تمامی رویدادهای دسته مورد نظر بدون دسته خواهند شد)
+        </value>
+    </key>
+	<key name="participate_all">
+        <value>
+			همه موارد
+        </value>
+    </key>
+		<key name="participate_sure">
+        <value>
+			شرکت می کنم
+        </value>
+    </key>
+		<key name="participate_maybe">
+        <value>
+			شاید شرکت کنم
+        </value>
+    </key>
+		<key name="participate_no">
+        <value>
+			شرکت نمی کنم
+        </value>
+    </key>
+		<key name="date_all">
+        <value>
+			هر زمان
+        </value>
+    </key>
+		<key name="date_latest">
+        <value>
+			آینده
+        </value>
+    </key>
+		<key name="date_past">
+        <value>
+			گذشته
+        </value>
+    </key>
+	<key name="search_btn_label">
+        <value>
+			جستجو
+        </value>
+    </key>
+	<key name="select_category">
+        <value>
+			هر دسته
+        </value>
+    </key>
+	<key name="view_category_label">
+        <value>
+			دسته:
+        </value>
+    </key>
+	<key name="event_general_heading">
+        <value>
+            آخرین‌ها
+        </value>
+    </key>
+	<key name="event_general_events_page_title">
+        <value>
+            آخرین‌ها
+        </value>
+    </key>
+	<key name="event_my_heading">
+        <value>
+		رویدادهایی که من عضو هستم
+        </value>
+    </key>
+	<key name="event_my_events_page_title">
+        <value>
+		رویدادهایی که من عضو هستم
+        </value>
+    </key>
+	<key name="admin_category_title">
+        <value>
+		تنظیمات افزونه رویداد پلاس
+        </value>
+    </key>
+	<key name="admin_category_heading">
+        <value>
+		تنظیمات افزونه رویداد پلاس
+        </value>
+    </key>
+	<key name="label_category_label">
+        <value>
+			دسته مورد نظر خود را وارد کنید
+        </value>
+    </key>
+	<key name="name_category">
+        <value>
+			نام دسته
+        </value>
+    </key>
+	<key name="form_add_category_submit">
+        <value>
+			ذخیره
+        </value>
+    </key>
+	<key name="edit_item">
+        <value>
+			ویرایش
+        </value>
+    </key>
+	<key name="edit_item_page_title">
+        <value>
+			ویرایش دسته
+        </value>
+    </key>
+	<key name="database_record_edit">
+        <value>
+			داده با موفقیت در پایگاه داده ذخیره شد
+        </value>
+    </key>
+	<key name="delete_item">
+        <value>
+			حذف
+        </value>
+    </key>
+	<key name="label_error_already_exist">
+        <value>
+			دسته مورد نظر در حال حاضر موجود است
+        </value>
+    </key>
+	<key name="search_title">
+        <value>
+			جستجو بر اساس عنوان رویداد
+        </value>
+    </key>
+	<key name="invited_events_page_title">
+        <value>
+			رویدادهای دعوت شده
+        </value>
+    </key>
+    <key name="choose_category">
+        <value>
+            انتخاب دسته
+        </value>
+    </key>
+    <key name="view_all_files">
+        <value>
+            مشاهده همه
+        </value>
+    </key>
+    <key name="add_file">
+        <value>
+            افزودن فایل
+        </value>
+    </key>
+    <key name="create_field_file_name_label">
+        <value>
+            نام فایل
+        </value>
+    </key>
+    <key name="create_field_file_upload_label">
+        <value>
+            بارگذاری فایل
+		 </value>
+    </key>
+    <key name="create_submit_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+	<key name="back">
+        <value>
+            بازگشت
+        </value>
+    </key>
+	<key name="are_you_sure_delete_file">
+        <value>
+               آیا از حذف این فایل مطمئن هستید؟
+        </value>
+    </key>
+	<key name="feed_add_file_string">
+        <value>
+            در رویداد  «&lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt;» فایل بارگذاری کرد: &lt;a href="{$eventUrl}"&gt;{$fileName}&lt;/a&gt;
+        </value>
+    </key>
+		<key name="name">
+        <value>
+               نام
+        </value>
+    </key>
+	<key name="created_date">
+        <value>
+               تاریخ ایجاد
+        </value>
+    </key>
+	<key name="by">
+        <value>
+               سازنده
+        </value>
+    </key>
+    <key name="file_list_widget_empty">
+        <value>
+هیچ فایلی وجود ندارد
+        </value>
+    </key>
+
+    <key name="widget_files_settings_count">
+        <value>
+            تعداد فایل
+        </value>
+    </key>
+    <key name="files_count">
+        <value>
+            تعداد کل فایل‌ها
+        </value>
+    </key>
+    <key name="widget_files_title">
+        <value>
+            فایل‌ها
+        </value>
+    </key>
+	    <key name="email_notification_section_label">
+        <value>
+           رویدادها
+        </value>
+    </key>
+    <key name="email_notifications_setting_file">
+        <value>
+            فایلی در رویداد ایجاد شد
+        </value>
+    </key>
+	<key name="notif_add_file_string">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; در رویداد  «&lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt;» فایل بارگذاری کرد: &lt;a href="{$eventUrl}"&gt;{$fileName}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="event_user_invitation_notification">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; شما را به رویداد &lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt; دعوت کرده است
+        </value>
+    </key>
+    <key name="accept_event_invitation_notification">
+        <value>
+            شما دعوتنامه شرکت در رویداد &lt;a href="{$eventUrl}">{$eventTitle}&lt;/a&gt; را پذیرفتید
+        </value>
+    </key>
+    <key name="ignore_event_invitation_notification">
+        <value>
+            شما از پذیرش دعوتنامه رویداد &lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt; چشم پوشی کردید
+        </value>
+    </key>
+    <key name="meta_title_event_files">
+        <value>
+            فایلهای رویداد {$event_title}
+        </value>
+    </key>
+    <key name="meta_desc_event_files">
+        <value>
+            تمامی فایلهای مربوط به رویداد {$event_title} اینجا قابل مشاهده هستند
+        </value>
+    </key>
+    <key name="meta_keywords_event_files">
+        <value>
+
+        </value>
+    </key>
+    <key name="leave_success_message">
+        <value>
+            شما این رویداد را ترک کردید
+        </value>
+    </key>
+</prefix>

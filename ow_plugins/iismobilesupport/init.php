@@ -1,0 +1,21 @@
+<?php
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin', 'admin/iismobilesupport/settings', "IISMOBILESUPPORT_CTRL_Admin", 'settings'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-versions', 'admin/iismobilesupport/versions', "IISMOBILESUPPORT_CTRL_Admin", 'versions'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-android-versions', 'admin/iismobilesupport/android-versions', "IISMOBILESUPPORT_CTRL_Admin", 'androidVersions'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-ios-versions', 'admin/iismobilesupport/ios-versions', "IISMOBILESUPPORT_CTRL_Admin", 'iosVersions'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-android-native-versions', 'admin/iismobilesupport/android-native-versions', "IISMOBILESUPPORT_CTRL_Admin", 'androidNativeVersions'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-download-show', 'admin/iismobilesupport/download-show', "IISMOBILESUPPORT_CTRL_Admin", 'downloadShow'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-delete-value', 'admin/iismobilesupport/delete-version/:id', "IISMOBILESUPPORT_CTRL_Admin", 'deleteVersion'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-web-settings', 'admin/iismobilesupport/web-settings', "IISMOBILESUPPORT_CTRL_Admin", 'webSettings'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-deprecate-value', 'admin/iismobilesupport/deprecate-version/:id', "IISMOBILESUPPORT_CTRL_Admin", 'deprecateVersion'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-admin-approve-value', 'admin/iismobilesupport/approve-version/:id', "IISMOBILESUPPORT_CTRL_Admin", 'approveVersion'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-index', 'mobile/service/:key', "IISMOBILESUPPORT_MCTRL_Service", 'index'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-use-mobile', 'mobile/use_mobile_only', "IISMOBILESUPPORT_CTRL_Service", 'useMobile'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-web-service-get-information', 'mobile/services/information/:type', "IISMOBILESUPPORT_MCTRL_Service", 'getInformation'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-web-service-get-information-without-type', 'mobile/services/information', "IISMOBILESUPPORT_MCTRL_Service", 'getInformation'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-web-service-action', 'mobile/services/action/:type', "IISMOBILESUPPORT_MCTRL_Service", 'action'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-web-service-action-without-type', 'mobile/services/action', "IISMOBILESUPPORT_MCTRL_Service", 'action'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-notifications', 'notifications', 'IISMOBILESUPPORT_MCTRL_Service', 'notifications'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-latest-version', 'mobile-app/latest/:type', "IISMOBILESUPPORT_CTRL_Service", 'downloadLatestVersion'));
+OW::getRouter()->addRoute(new OW_Route('iismobilesupport-web-set-token', 'setWebToken', "IISMOBILESUPPORT_CTRL_Service", 'setWebToken'));
+IISMOBILESUPPORT_CLASS_EventHandler::getInstance()->init();

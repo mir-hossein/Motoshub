@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>پشتیبانی از داده‌های حذف‌شده یا به‌روزرسانی شده</name>
+    <key>iisdatabackup</key>
+    <description>نگهداری داده‌های حذف یا به‌روزرسانی شده و مدیریت مدت‌زمان نگهداری داده‌ها</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10803</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+    <plan>2</plan>
+</plugin>

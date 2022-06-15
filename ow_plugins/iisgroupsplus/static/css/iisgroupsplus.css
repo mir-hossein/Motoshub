@@ -1,0 +1,65 @@
+td.delete_file,
+td.fileGroupImage{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+td.delete_file img{
+    max-width: 20px !important;
+    width: 20px !important;
+}
+
+.fileGroupImage img{
+    max-width: 28px !important;
+    width: 33px !important;
+    vertical-align: middle;
+}
+
+.owm_group_list.files_list span.ow_nowrap.delete_file a {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 15px;
+    display: block;
+}
+
+.owm_group_list.files_list span.ow_nowrap.delete_file a span {
+    font-size: 0px;
+}
+
+.owm_group_list.files_list .ow_delimiter {
+    display: none;
+}
+
+span.ow_nowrap.delete_file {
+    float: left;
+}
+
+.owm_group_list.files_list .ow_ipc_picture {
+    max-width: 30px;
+}
+
+img.add_item_icon {
+    width: 25px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.group-IISGROUPSPLUS_CMP_FileListWidget td,
+table.group_files td.file_name{
+    text-align: justify;
+    padding: 6px;
+}
+
+.group_files td.delete_file {
+    width: 40px;
+}
+
+.table_margin_right_thirty_five_percent {
+    margin-right: 35%;
+}
+.group_plus_table_border {
+    border: 1px solid #c6ced8 !important;
+}

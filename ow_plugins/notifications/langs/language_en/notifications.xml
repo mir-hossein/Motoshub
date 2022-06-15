@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="notifications" label="Email Notifications" language_tag="en" language_label="English">
+<key name="config_day_desc"><value>Day of the week when weekly summaries are sent</value></key>
+<key name="config_day_label"><value>Day</value></key>
+<key name="config_hour_desc"><value>Hour of the day when daily and weekly summaries are sent</value></key>
+<key name="config_hour_label"><value>Hour</value></key>
+<key name="config_page_heading"><value>Email Notifications</value></key>
+<key name="config_page_title"><value>Email Notifications</value></key>
+<key name="config_saved_message"><value>Settings saved</value></key>
+<key name="config_schedule_title"><value>Also send by email</value></key>
+<key name="config_title"><value>Schedule Settings</value></key>
+<key name="console_item_label"><value>Notifications</value></key>
+<key name="console_menu_label"><value>Mail Notifications</value></key>
+<key name="dashboard_menu_item"><value>Mail Notifications</value></key>
+<key name="dashboard_menu_item_label"><value>Email Notifications</value></key>
+<key name="email_html_bottom"><value>Talk soon,&lt;br /&gt;&#13;
+{$site_name}, administration&lt;br /&gt;&#13;
+{$site_url}</value></key>
+<key name="email_html_description"><value>Here's the latest activity on &lt;a href="{$site_url}"&gt; {$site_name}&lt;/a&gt; related to you:</value></key>
+<key name="email_html_head"><value>Dear {$userName},</value></key>
+<key name="email_subject"><value>Latest activity on {$site_name}</value></key>
+<key name="email_txt_bottom"><value></value></key>
+<key name="email_txt_head"><value>Dear user ({$userName}), 
+Here shows activities related to you at {$site_name}. 
+</value></key>
+<key name="preferences_legend"><value>Burada iki gün boyunca gerçekleşen tüm bildirileri görebilirsin.Geri kalanlarını ise eposta adresinden kontrol edebilirsin.</value></key>
+<key name="save_config_btn"><value>Save</value></key>
+<key name="save_setting_btn_label"><value>Save</value></key>
+<key name="schedule_auto"><value>Automatically</value></key>
+<key name="schedule_automatic"><value>Automatically (if you don't show up on the site for 2 days)</value></key>
+<key name="schedule_daily"><value>Daily</value></key>
+<key name="schedule_immediately"><value>Immediately</value></key>
+<key name="schedule_never"><value>Never</value></key>
+<key name="schedule_title"><value>Schedule</value></key>
+<key name="schedule_weekly"><value>Weekly</value></key>
+<key name="settings_changed"><value>Settings changed</value></key>
+<key name="settings_edit_label"><value>Change preferences and frequency of these notifications</value></key>
+<key name="settings_not_changed"><value>Settings not changed</value></key>
+<key name="settings_page_heading"><value>Email Notifications</value></key>
+<key name="settings_page_title"><value>Email Notifications</value></key>
+<key name="setup_page_heading"><value>Mail Notifications</value></key>
+<key name="setup_page_title"><value>Mail Notifications</value></key>
+<key name="unsubscribe_all_label"><value>Unsubscribe from all notifications</value></key>
+<key name="unsubscribe_code_expired"><value>Unsubscribe code expired</value></key>
+<key name="unsubscribe_completed"><value>You have been successfully unsubscribed</value></key>
+<key name="unsubscribe_confirm_msg"><value>Are you sure you want to unsubscribe from these notifications?</value></key>
+<key name="unsubscribe_one_label"><value>Unsubscribe from this type of notifications</value></key>
+<key name="view_all"><value>View All</value></key>
+</prefix>

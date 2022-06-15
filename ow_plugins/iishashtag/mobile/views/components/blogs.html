@@ -1,0 +1,27 @@
+{if empty($list)}
+<div class="ow_nocontent">{text key='base+empty_list'}</div>
+{else}
+{foreach from=$list item='post'}
+{assign var=dto value=$post.dto}
+{*-- decorator data*}
+{assign var=userId value=$dto->getAuthorId()}
+
+<div class="owm_list_item_without_image">
+    <div class="owm_list_section_body owm_bg_color_1 owm_padding">
+        <div class="owm_float_right">
+            <a class="owm_nav_cap_right" href="{$post.url}"></a>
+        </div>
+        <a class="owm_list_title_format owm_list_title_unread" href="{$post.url}">
+            <div class="owm_list_title_name owm_small_margin_bottom">
+                <div>{$dto->getTitle()}</div>
+            </div>
+        </a>
+        <div class="owm_list_body_body">
+            {$post.text}{if $post.showMore}... <a class="ow_lbutton" href="{$post.url}">{text key='base+more'}</a>{/if}
+        </div>
+    </div>
+</div>
+{/foreach}
+{if $paging}{$paging}{/if}
+{/if}
+

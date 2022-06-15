@@ -1,0 +1,57 @@
+{if $previewBox == true}
+
+<div class="ow_newsfeed_photo_grid clearfix">
+
+    <!-- Image container -->
+    <a class="ow_newsfeed_item_{$fileType}" id="Extended_link_{$postAttachmentId}" href="{$firstItemDownloadUrl}" target="_blank" {if $fileType ==""} style="display:block" {else} style="display:none" {/if} >
+        <div class="ow_newsfeed_extended_view_image" id="{$postAttachmentId}" {if $fileType ==""} style="background:url({$firstItemPreviewUrl})" {/if} ></div>
+    </a>
+
+    <!-- Video container -->
+    <div class="Extended_newsfeed_video" id="Extended_newsfeed_video_{$postAttachmentId}" {if $fileType=="video"} style="display:block" {else} style="display:none" {/if} >
+        <video class="mejs__player"  id="NewsfeedVideo_{$postAttachmentId}"  width="100%" height="100%" autobuffer  {$firstItemPoster} preload="none">
+            <source src="{$firstItemDownloadUrl}" type="video/mp4">
+            </video>
+        <canvas id="canvas" width="100%" height="100%"></canvas>
+    </div>
+
+    <!-- Audio container -->
+    <div class="Extended_newsfeed_audio" id="Extended_newsfeed_audio_{$postAttachmentId}" {if $fileType=="audio"} style="display:block" {else} style="display:none" {/if} >
+        <div class="ow_newsfeed_extended_view_image NewsfeedVideo_html5_audio_background"  id="NewsfeedAudio_{$postAttachmentId}"  ></div>
+        <audio class="mejs__player" id="NewsfeedAudio_{$postAttachmentId}"  width="100%" height="100%" autobuffer  preload="none">
+         <source src="{$firstItemDownloadUrl}" type="audio/mp3">
+        </audio>
+        <canvas id="canvas" width="100%" height="100%"></canvas>
+    </div>
+
+
+
+    {if $thumbnailItemBar == true}
+
+    <!--previous button-->
+    {if $nextPrevious == true}
+    <div class="ow_newsfeed_preview_grid_items_bar_control_buttons previous btn_{$postAttachmentId}" onclick="newsfeedImageViewerSliderNavigationLeft('{$postAttachmentId}','{$mobileMode}');"></div>
+    {/if}
+
+    <div class="ow_newsfeed_preview_grid_items_bar_limiter">
+
+            <div class="ow_newsfeed_preview_grid_items_bar"  id="items_bar_{$postAttachmentId}" style="width:{$itemBarWidth}px">
+
+                {foreach $attachmentItemsParams  item='item'}
+                    <div class="clearfix ow_newsfeed_preview_grid_item">
+                        <a onclick="newsfeedImageViewerSliderBarChanger( $(this),'{$postAttachmentId}' , '{$item.downloadUrl}', '{$item.previewUrl}', '{$item.itemType}' ); {$item.thumbnailCreator}" style="background: url('{$item.thumbnail}'); {if $item@iteration == 1} opacity: 1;box-shadow:0 0 8px 0px #353535;{/if} ">
+                        </a><br>
+                    </div>
+                {/foreach}
+
+            </div>
+    </div>
+
+    <!--next button-->
+    {if $nextPrevious == true}
+    <div class="ow_newsfeed_preview_grid_items_bar_control_buttons next btn_{$postAttachmentId}"  onclick="newsfeedImageViewerSliderNavigationRight('{$postAttachmentId}','{$mobileMode}');"></div>
+    {/if}
+
+    {/if}
+</div>
+{/if}

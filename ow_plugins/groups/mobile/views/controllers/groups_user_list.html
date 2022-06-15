@@ -1,0 +1,66 @@
+{style}{literal}
+.owm_btn_close_search{
+right: 2px;
+width: 20px;
+height: 20px;
+top:-28px;
+position: relative;
+display: block;
+}
+.owm_btn_close_search:lang(en){
+right: 0px !important;
+}
+input[type=text]{
+width: 65%;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+input[type=text]:lang(en){
+padding-left: 18px !important;
+}
+{/literal}{/style}
+
+<div class="owm_group_view">
+    <div class="owm_list_item_view_title  clearfix owm_nav_cap owm_nav_cap_left_cont owm_nav_cap_right_cont owm_bg_color_3">
+        <div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+        </div>
+        <h4>
+            {text key="base+back"}
+        </h4>
+    </div>
+
+    <div class="owm_brief_info" style="margin-top:10px">
+        {$groupBriefInfo}
+    </div>
+    {if isset($extraComponent)}
+    <div class="owm_box owm_view_user_list" >
+        <div class="owm_box_body" style="padding: 10px;">
+            {add_content key='groups.content.user_list.after_cap' groupId=$groupId}
+            {foreach from=$extraComponent item=componentInfo}
+                {block_decorator name='box' type='empty' iconClass='ow_ic_user' langLabel=$componentInfo.label}{/block_decorator}
+                {${$componentInfo.name}}
+            {/foreach}
+            {add_content key='groups.content.user_list.bottom' groupId=$groupId}
+        </div>
+    </div>
+    {/if}
+    <div class="owm_box owm_view_user_list" >
+        <div class="owm_box_body" style="padding: 10px;">
+            {add_content key='groups.content.user_list.after_cap' groupId=$groupId}
+            {block_decorator name='box' type='empty' iconClass='ow_ic_user' langLabel='groups+group_members'}{/block_decorator}
+            {form name="searchUserForm"}
+            <div><input type="text" name="searchValue" id="subject" placeholder="{text key='base+search_users'}" {if isset($searchValue)} value="{$searchValue}" style="padding-right: 20px; margin-bottom: 0px" {/if} >
+                {submit name="searchUsers" value="{text key='admin+search'}"}
+                {if isset($groupUserUrl)}
+
+                <a  href="{$groupUserUrl}" class="owm_btn_close_search" style="background-image: url({$backgroundImage}) ;"></a>
+                {/if}
+            </div>
+            {/form}
+
+            {if isset($listCmp)}{$listCmp} {/if}
+            {add_content key='groups.content.user_list.bottom' groupId=$groupId}
+        </div>
+    </div>
+</div>

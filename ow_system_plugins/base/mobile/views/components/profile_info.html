@@ -1,0 +1,32 @@
+<div class="{if $displaySections}owm_profile_info_all{else}owm_profile_info{/if} owm_std_margin_bottom">
+    <div {if $displaySections}class="owm_tab_info"{/if}>
+        {foreach  from=$questionArray key='section' item='questions'}
+            {if $displaySections}
+                <div class="owm_field_container owm_section owm_std_margin_bottom">
+                    <span class="owm_section_label">{text key="base+questions_section_`$section`_label"}</span>
+                </div>
+            {/if}
+
+            {foreach from=$questions key='sort' item='question' name='question'}
+                {if !empty($questionData[$question.name]) }
+                    <div class="owm_form_field_container">
+                        <div class="owm_form_field_wrap">
+                            <div class="owm_form_field_label">
+                                {if empty($questionLabelList[$question.name])}
+                                    {text key="base+questions_question_`$question.name`_label"}
+                                {else}
+                                    {$questionLabelList[$question.name]}
+                                {/if}
+                            </div>
+                            <div class="owm_form_field_value">
+                                <span class="{if !empty($question.hidden)}ow_field_eye ow_remark profile_hidden_field{/if}">
+                                    {$questionData[$question.name]}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                {/if}
+            {/foreach}
+        {/foreach}
+    </div>
+</div>

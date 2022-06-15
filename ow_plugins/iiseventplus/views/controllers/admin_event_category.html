@@ -1,0 +1,31 @@
+<table class="ow_table_1 ow_automargin">
+    <tr class="{cycle values='ow_alt2'}">
+     <th colspan="2">{text key="iiseventplus+name_category"}</th>
+    </tr>
+    {foreach from=$eventListCategory item=eventCategory name=eventCategory}
+    <tr class="{cycle values='ow_alt1,ow_alt2'} {if $smarty.foreach.eventCategory.last}ow_tr_last{/if} {if $smarty.foreach.eventCategory.first}ow_tr_first{/if}">
+        <td class="ow_valign_middle">{$eventCategory.label}</td>
+        <td>
+            <a class="ow_lbutton ow_green" onclick="{$editUrls[$eventCategory.name]}" style="display: inline-block;">{text key="iiseventplus+edit_item"}</a>
+            {if isset($deleteUrls[$eventCategory.name])}
+            <a class="ow_lbutton ow_green" href="{$deleteUrls[$eventCategory.name]}" onclick="return confirm('{text key="iiseventplus+are_you_sure"}');" style="display: inline-block;"> {text key="iiseventplus+delete_item"} </a>
+            {/if}
+        </td>
+    </tr>
+    {/foreach}
+</table>
+
+{form name='add_category'}
+<div style="margin:0 auto">
+    <table class="ow_table_1 ow_form ow_automargin">
+        <tr class="ow_alt1 ow_tr_first">
+            <td class="ow_value">{input name='label'}{error name='label'}</td>
+            <td class="ow_value">{submit name='add' class='ow_button ow_ic_save'}</td>
+        </tr>
+    </table>
+</div>
+
+{/form}
+
+{*<a href="{$deleteCatUrls[$id]}" onclick="return confirm('{text key="base+are_you_sure"}');" style="width:16px; height:16px; display:block; margin:0 auto;background-repeat:no-repeat;background-position: 50% 50%;" class="ow_ic_delete"></a>*}
+

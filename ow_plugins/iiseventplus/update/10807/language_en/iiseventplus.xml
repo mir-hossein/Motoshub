@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iiseventplus" label="iiseventplus" language_tag="en" language_label="English">
+	<key name="widget_files_title">
+        <value>
+                event file
+        </value>
+    </key>
+    <key name="view_all_files">
+        <value>
+                view all
+        </value>
+    </key>
+    <key name="add_file">
+        <value>
+                add file
+        </value>
+    </key>
+    <key name="create_field_file_name_label">
+        <value>
+                file name
+        </value>
+    </key>
+    <key name="create_field_file_upload_label">
+        <value>
+                file upload
+        </value>
+    </key>
+    <key name="create_submit_btn_label">
+        <value>
+                save
+        </value>
+    </key>
+	<key name="back">
+        <value>
+                back
+        </value>
+    </key>
+	<key name="are_you_sure_delete_file">
+        <value>
+               are you sure delete this file?
+        </value>
+    </key>
+	<key name="feed_add_file_string">
+        <value>
+            add &lt;a href="{$fileUrl}"&gt;{$file}&lt;/a&gt; to &lt;a href="{$eventUrl}"&gt;{$eventTitle}&lt;/a&gt;.
+        </value>
+    </key>
+	<key name="name">
+        <value>
+               name
+        </value>
+    </key>
+	<key name="created_date">
+        <value>
+               created date
+        </value>
+    </key>
+	<key name="by">
+        <value>
+               creator
+        </value>
+    </key>
+    <key name="file_list_widget_empty">
+        <value>
+            No file exists.
+        </value>
+    </key>
+    <key name="widget_files_settings_count">
+        <value>
+            Files number
+        </value>
+    </key>
+    <key name="files_count">
+        <value>
+            Files count
+        </value>
+    </key>
+    <key name="widget_files_title">
+        <value>
+            Files
+        </value>
+    </key>
+</prefix>

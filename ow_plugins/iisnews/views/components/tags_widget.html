@@ -1,0 +1,61 @@
+{*
+
+/**
+* @author Issa Annamoradnejad <i.moradnejad@gmail.com>
+*/
+
+*}
+{if isset($allInOne) && $allInOne}
+	{if !empty($tagNewsItems)}
+		{foreach from=$tagNewsItems item='tagNewsItem'}
+			{foreach from=$tagNewsItem.entries item='entry'}
+				<ul class="ow_regular ow_ic ow_rss_widget">
+					<li>
+						<div class="ow_ic_header">
+							<a target="_blank" href="https://www.certcc.ir/news/entry/12287">
+								<a href="{$entry.link}">{$entry.title}</a>
+							</a>
+						</div>
+						<div class="ow_ic_description">
+							{if isset($entrySourceImages[$entry.id])}
+								<a href="{$entry.link}" target="_blank">
+									<img src="{$entrySourceImages[$entry.id]}" class="rssImage" style="max-width: 100%;" hspace="5" vspace="5" align="left">
+								</a>
+							{/if}
+							{$entry.description}
+						</div>
+						<div class="ow_ic_toolbar ow_small ow_remark clearfix">
+							<span class="ow_nowrap">
+								{$entry.date}
+							</span>
+						</div>
+					</li>
+				</ul>
+			{/foreach}
+			<div class="news_widget_more"><a href="{$tagNewsItem.link}">{text key='base+view_all'}</a></div>
+		{/foreach}
+	{else}
+		<div class="ow_nocontent">{text key='base+empty_list'}</div>
+	{/if}
+{else if isset($allInOne) && !$allInOne}
+	{if !empty($list)}
+		<div class="news_samples">
+
+		{foreach from=$list item='tag'}
+			<div class="news_sample ow_box">
+				<div class="title ow_box_cap"><img alt="" src="." style="max-width: 100%;">
+					<h3><a href="{$tag.link}" style="color: white">{$tag.label}</a></h3>
+				</div>
+				<ul>
+					{foreach from=$tag.list item='entry'}
+					<li><a href="{$entry.link}">{$entry.title}</a></li>
+					{/foreach}
+				</ul>
+				<div class="news_widget_more"><a href="{$tag.link}">{text key='base+view_all'}</a></div>
+			</div>
+		{/foreach}
+		</div>
+	{else}
+		<div class="ow_nocontent">{text key='base+empty_list'}</div>
+	{/if}
+{/if}

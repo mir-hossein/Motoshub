@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnews" label="iisnews" language_tag="fa-IR" language_label="فارسی">
+<key name="activity_string">
+	<value>
+		&lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; نوشته جدید خبر ارسال کرد &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;
+	</value>
+</key>
+<key name="added">
+	<value>
+		تاریخ ایجاد:
+	</value>
+</key>
+<key name="add_new">
+	<value>
+		ایجاد نوشته جدید
+	</value>
+</key>
+<key name="add_new_link">
+	<value>
+		نوشتن خبر
+	</value>
+</key>
+<key name="admin_news_settings_heading">
+	<value>
+		تنظیمات افزونه اخبار
+	</value>
+</key>
+<key name="admin_settings_results_per_page">
+	<value>
+		نوشته‌های این صفحه
+	</value>
+</key>
+<key name="authorization_failed_view_news">
+	<value>
+		با عرض پوزش، شما مجاز به مشاهده این خبر نیستید .
+	</value>
+</key>
+<key name="auth_action_label_add">
+	<value>
+		افزودن نوشته‌های خبر
+	</value>
+</key>
+<key name="auth_action_label_add_comment">
+	<value>
+		نظرات خبر
+	</value>
+</key>
+<key name="auth_action_label_delete_comment_by_content_owner">
+	<value>
+		صاحب مطلب می تواند نظرات را حذف کند.
+	</value>
+</key>
+<key name="auth_action_label_view">
+	<value>
+		مشاهده نوشته‌های خبر
+	</value>
+</key>
+<key name="auth_group_label">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="news">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="news_archive_lbl_archives">
+	<value>
+		بایگانی
+	</value>
+</key>
+<key name="news_index">
+	<value>
+		خانه خبر
+	</value>
+</key>
+<key name="news_manage_delete">
+	<value>
+		حذف
+	</value>
+</key>
+<key name="news_entry_description">
+	<value>
+		{$entry_body} برچسب: {$tags}.
+	</value>
+</key>
+<key name="news_entry_title">
+	<value>
+		{$entry_title} | {$site_name}
+	</value>
+</key>
+<key name="news_widget_preview_length_lbl">
+	<value>
+		طول پیش نمایش
+	</value>
+</key>
+<key name="browse_by_tag_description">
+	<value>
+		مرور نوشته‌های اخبار بر اساس بر چسب‌ها : {$tags} و دیگران.
+	</value>
+</key>
+<key name="browse_by_tag_item_description">
+	<value>
+		مرور برچسب‌های نوشته‌های خبر به عنوان {$tag}.
+	</value>
+</key>
+<key name="browse_by_tag_item_title">
+	<value>
+		نوشته‌های مرتبط خبر با برچسب «{$tag}» - {$site_name}
+	</value>
+</key>
+<key name="browse_by_tag_title">
+	<value>
+		مرور نوشته‌های خبر به وسیله برچسب‌ها {$site_name}
+	</value>
+</key>
+<key name="by">
+	<value>
+		توسط
+	</value>
+</key>
+<key name="change_status_draft">
+	<value>
+		تغییر وضعیت به پیش‌نویس
+	</value>
+</key>
+<key name="cmp_widget_entry_count">
+	<value>
+		تعداد نوشته‌ها برای نمایش
+	</value>
+</key>
+<key name="comments">
+	<value>
+		نظرات :
+	</value>
+</key>
+<key name="comment_activity_string">
+	<value>
+		&lt;a href="{$actorUrl}"&gt;{$actor}&lt;/a&gt; نظر داده بر روی خبر  &lt;a href="{$ownerUrl}"&gt;{$owner}&lt;/a&gt;: &lt;a href="{$url}"&gt;{$title}&lt;/a&gt;
+	</value>
+</key>
+<key name="comment_notification_string">
+	<value>
+		&lt;a href="{$actorUrl}"&gt;{$actor}&lt;/a&gt; بر روی خبر «&lt;a href="{$url}"&gt;{$title}&lt;/a&gt;» نظر داد: {$comment}
+	</value>
+</key>
+
+<key name="news_notification_string">
+    <value>
+         خبر جدیدی منتشر شده است: &lt;a href="{$url}"&gt;«{$title}»&lt;/a&gt;
+    </value>
+</key>
+
+<key name="confirm_delete_photos">
+	<value>
+		آیا از حذف تصاویر همه کاربران اطمینان دارید؟
+	</value>
+</key>
+<key name="content_news_label">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="content_news_label">
+	<value>
+		نوشته‌های خبر
+	</value>
+</key>
+<key name="create_draft_success_msg">
+	<value>
+		نوشته به‌عنوان پیش‌نویس ذخیره شد
+	</value>
+</key>
+<key name="create_success_msg">
+	<value>
+		نوشته با موفقیت انتشار پیدا کرد
+	</value>
+</key>
+<key name="delete_content">
+	<value>
+		حذف مطالب و حذف افزونه
+	</value>
+</key>
+<key name="delete_content_desc">
+	<value>
+	قبل از حذف افزونه خبر ما باید تمام محتوای موجود کاربران را حذف کنیم . این ممکن است اندکی زمان‌بر باشد. در این زمان ما سایت را در حالت تعمیر و نگهداری قرار می دهیم و پس از پایان عملیات دوباره آن‌را فعال می‌کنیم.
+	</value>
+</key>
+<key name="delete_content_warning">
+	<value>
+		هشدار
+	</value>
+</key>
+<key name="edit_draft_success_msg">
+	<value>
+		تغییرات ذخیره شد، نوشته به‌عنوان پیش‌نویش ذخیره شد
+	</value>
+</key>
+<key name="edit_success_msg">
+	<value>
+		تغییرات ذخیره شد
+	</value>
+</key>
+<key name="email_notifications_setting_comment">
+	<value>
+		کسی بر روی نوشته‌ام نظر گذاشته است
+	</value>
+</key>
+<key name="feed_activity_owner_entry_string">
+	<value>
+		نظر خود را در خبر وارد کرد.
+	</value>
+</key>
+<key name="feed_activity_owner_entry_string_like">
+	<value>
+		نوشته خبرش را پسندید.
+	</value>
+</key>
+<key name="feed_activity_entry_string">
+	<value>
+		بر روی نوشته خبر {$user} نظر داد
+	</value>
+</key>
+<key name="feed_activity_entry_string_like">
+	<value>
+		نوشته خبر {$user} را پسندید
+	</value>
+</key>
+<key name="feed_add_item_label">
+	<value>
+		یک خبر جدید ایجاد کرد
+	</value>
+</key>
+<key name="feed_content_label">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="feed_edit_item_label">
+	<value>
+		ویرایش نوشته خبر خود
+	</value>
+</key>
+<key name="flags">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="go_to_news">
+	<value>
+		مشاهده همه
+	</value>
+</key>
+<key name="index_widget_empty">
+	<value>
+		خبر موجود نیست
+	</value>
+</key>
+<key name="last_saved">
+	<value>
+		زمان آخرین ذخیره
+	</value>
+</key>
+<key name="latest_description">
+	<value>
+		اخباریی که به تازگی در {$site_name} به‌روزرسانی شده‌اند
+	</value>
+</key>
+<key name="latest_entry">
+	<value>
+		آخرین نوشته‌ها
+	</value>
+</key>
+<key name="latest_title">
+	<value>
+		اخبار - {$site_name}
+	</value>
+</key>
+<key name="list_page_heading">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="main_menu_item">
+	<value>
+		اخبار
+	</value>
+</key>
+<key name="management_page_heading">
+	<value>
+		مدیریت اخبار من
+	</value>
+</key>
+<key name="manage_page_comment_deleted_msg">
+	<value>
+		نظر حذف گردید.
+	</value>
+</key>
+<key name="manage_page_last_updated">
+	<value>
+		آخرین به‌روزرسانی
+	</value>
+</key>
+<key name="manage_page_menu_comments">
+	<value>
+		نظرات ورودی
+	</value>
+</key>
+<key name="manage_page_menu_drafts">
+	<value>
+		پیش‌نویس‌ها
+	</value>
+</key>
+<key name="manage_page_menu_published">
+	<value>
+		اخبار منتشر شده
+	</value>
+</key>
+<key name="manage_page_entry_title">
+	<value>
+		عنوان نوشته
+	</value>
+</key>
+<key name="manage_page_status">
+	<value>
+		وضعیت
+	</value>
+</key>
+<key name="menuItemBrowseByTag">
+	<value>
+		مرور با برچسب
+	</value>
+</key>
+<key name="menuItemLatest">
+	<value>
+		آخرین‌ها
+	</value>
+</key>
+<key name="menuItemMostDiscussed">
+	<value>
+		بیشترین بحث شده‌ها
+	</value>
+</key>
+<key name="menuItemTopRated">
+	<value>
+		بالاترین امتیازدهی شده
+	</value>
+</key>
+<key name="meta_description_new_news_entry">
+	<value>
+		افزودن نوشته جدید در خبر شما
+	</value>
+</key>
+<key name="meta_title_new_news_entry">
+	<value>
+		نوشته جدید خبر - {$site_name}
+	</value>
+</key>
+<key name="more">
+	<value>
+		بیشتر
+	</value>
+</key>
+<key name="most_discussed_description">
+	<value>
+		بیشترین نوشته‌های بحث شده خبر کاربر در {$site_name}.
+	</value>
+</key>
+<key name="most_discussed_title">
+	<value>
+		بیشترین اخبار بحث شده  - {$site_name}
+	</value>
+</key>
+<key name="my_news">
+    <value>خبر من</value>
+</key>
+<key name="my_drafts">
+    <value>مدیریت اخبار من</value>
+</key>
+<key name="new_entry">
+    <value>نوشته جدید خبر</value>
+</key>
+<key name="next_entry">
+    <value>نوشته بعدی</value>
+</key>
+<key name="notification_section_label">
+    <value>اخبار</value>
+</key>
+<key name="not_yet">
+    <value>تاکنون چیزی افزوده نشده</value>
+</key>
+<key name="no_entrys">
+    <value>نوشته‌ای موجود نیست</value>
+</key>
+<key name="on">
+    <value>روی</value>
+</key>
+<key name="page_title_uninstall">
+    <value>حذف افزونه خبر</value>
+</key>
+<key name="plugin_set_for_uninstall">
+    <value>حذف افزونه اخبار آغاز شد</value>
+</key>
+<key name="entry_title">
+    <value>نوشته</value>
+</key>
+	<key name="news_specifications">
+    <value>مشخصات خبر</value>
+</key>
+<key name="prev_entry">
+    <value>نوشته قبلی</value>
+</key>
+<key name="privacy_action_comment_news_entrys">
+    <value>نظر نوشته‌های خبر من</value>
+</key>
+<key name="privacy_action_view_news_entrys">
+    <value>نمایش نوشته‌های خبر من</value>
+</key>
+<key name="rate">
+    <value>رتبه :</value>
+</key>
+<key name="read_more">
+    <value>ادامه مطلب</value>
+</key>
+<key name="results_by_tag">
+    <value>نتایج جستجو براساس برچسب: «&lt;b&gt;{$tag}&lt;/b&gt;»</value>
+</key>
+<key name="search_results_for">
+    <value>نتایج جستجو برای: «&lt;b&gt;{$q}&lt;/b&gt;»</value>
+</key>
+<key name="save_draft">
+    <value>ذخیره به عنوان پیش نویس</value>
+</key>
+<key name="save_btn_label">
+    <value>ذخیره</value>
+</key>
+<key name="save_form_lbl_entry">
+    <value>بدنه نوشته</value>
+</key>
+<key name="save_form_lbl_title">
+    <value>موضوع نوشته</value>
+</key>
+<key name="save_page_heading">
+    <value>ایجاد نوشته جدید خبر</value>
+</key>
+<key name="save_publish">
+    <value>انتشار</value>
+</key>
+<key name="settings">
+    <value>تنظیمات</value>
+</key>
+<key name="status">
+    <value>وضعیت</value>
+</key>
+<key name="status_draft">
+    <value>پیش نویس</value>
+</key>
+<key name="status_published">
+    <value>منتشر شده</value>
+</key>
+<key name="tags">
+	<value>
+		برچسب‌ها:
+	</value>
+</key>
+<key name="tags_field_label">
+    <value>
+        برچسب‌ها
+    </value>
+</key>
+<key name="this_entry">
+    <value>این نوشته</value>
+</key>
+<key name="toolbar_comments">
+    <value>تعداد نظرات: </value>
+</key>
+<key name="toolbar_delete">
+    <value>حذف</value>
+</key>
+<key name="toolbar_edit">
+    <value>ویرایش</value>
+</key>
+<key name="top_rated_description">
+    <value>نوشته‌های خبر کاربر با بالاترین امتیازدهی در {$site_name}</value>
+</key>
+<key name="top_rated_title">
+    <value>برترین خبرها - {$site_name}</value>
+</key>
+<key name="uninstall_inprogress">
+    <value>در پردازش و پیشرفت</value>
+</key>
+<key name="uninstall_inprogress_desc">
+    <value>لطفا تا وقتی که تصویرهای محتوا حذف می‌شوند منتظر بمانید، این عمل ممکن است بنا به تعداد تصاویر موجود در خبر اندکی زمان‌بر باشد.</value>
+</key>
+<key name="update">
+    <value>به‌روزرسانی</value>
+</key>
+<key name="usercredits_action_add_news">
+    <value>افزودن نوشته‌های خبر</value>
+</key>
+<key name="usercredits_action_add_comment">
+    <value>نظر دادن اخبار</value>
+</key>
+<key name="user_news_archive_description">
+    <value>نوشته‌های خبر {$display_name} ارسال شده در {$month_name} ،{$year}.</value>
+</key>
+<key name="user_news_archive_title">
+    <value>بایگانی خبر {$display_name} در {$month_name}</value>
+</key>
+<key name="user_news_description">
+    <value>پنوشته‌های اخیر توسط {$site_name}</value>
+</key>
+<key name="user_news_page_heading">
+    <value>{$name} خبر</value>
+</key>
+<key name="user_news_title">
+    <value>{$display_name} خبر - {$site_name}</value>
+</key>
+<key name="user_news_widget_drafts">
+    <value>پیش‌نویس‌ها</value>
+</key>
+<key name="user_news_widget_published_incoming_comments">
+    <value>نظرات وارد شده</value>
+</key>
+<key name="user_news_widget_published_entrys">
+    <value>نوشته‌های منتشر شده</value>
+</key>
+<key name="view_all">
+    <value>نمایش همه</value>
+</key>
+<key name="view_page_heading">
+    <value>{$entryTitle} &lt;span class="ow_small"&gt;از&lt;a href="{$url}"&gt;{$name}خبر&lt;/a&gt;&lt;/span&gt;</value>
+</key>
+<key name="notification_form_lbl_published">
+    <value>اعلان انتشار خبر</value>
+</key>
+<key name="email_notifications_setting_news">
+    <value>خبری منتشر شد</value>
+</key>
+<key name="save_form_lbl_date_enable">
+    <value>فعال‌سازی ویرایش تاریخ انتشار</value>
+</key>
+<key name="save_form_lbl_date">
+    <value>تاریخ انتشار</value>
+</key>
+<key name="iisnews_mobile">
+    <value>اخبار</value>
+</key>
+<key name="index_page_title">
+	<value>
+			{$title} | {$site_name}
+	</value>
+</key>
+<key name="index_page_heading">
+    <value>اخبار</value>
+</key>
+<key name="tag_widget_heading">
+    <value>اخبار دسته‌بندی‌شده توسط برچسب‌ها</value>
+</key>
+<key name="search_entries">
+    <value>جستجوی محتوا</value>
+</key>
+<key name="iisnews_sitemap">
+	<value>
+		اخبار
+	</value>
+</key>
+	<key name="add_form_image_label">
+		<value>
+			تصویر
+		</value>
+	</key>
+	<key name="search_by_entry_placeholder">
+		<value>
+			محتوای مورد نظر خود را وارد کنید
+		</value>
+	</key>
+	<key name="search_by_tag_placeholder">
+		<value>
+			برچسب مورد نظر خود را وارد کنید
+		</value>
+	</key>
+	<key name="cmp_tags_widget_view_all_in_one">
+		<value>
+			نمایش تمام اخبار در یک فهرست
+		</value>
+	</key>
+	<key name="select_language_tag_widget">
+		<value>
+			انتخاب زبانی که در آن نمایش داده می‌شود
+		</value>
+	</key>
+	<key name="delete_image">
+		<value>
+			حذف تصویر
+		</value>
+	</key>
+	<key name="edit_page_heading">
+		<value>ویرایش نوشته خبر</value>
+	</key>
+	<key name="meta_description_edit_news_entry">
+		<value>
+			ویرایش نوشته در خبر شما
+		</value>
+	</key>
+	<key name="meta_title_edit_news_entry">
+		<value>
+			ویرایش نوشته خبر - {$site_name}
+		</value>
+	</key>
+	<key name="archive_news_archive_title">
+		<value>
+		بایگانی خبر در {$month_name} ،{$year}
+		</value>
+	</key>
+	<key name="archive_news_archive_description">
+		<value>
+		 نوشته‌های خبر ارسال شده در {$month_name} ،{$year}
+		</value>
+	</key>
+	<key name="archive_news_title">
+		<value>
+		 خبر - {$site_name}
+		</value>
+	</key>
+	<key name="archive_news_description">
+		<value>خبر - {$site_name}</value>
+	</key>
+	<key name="comment_manage_my_news">
+		<value>نظرات</value>
+	</key>
+	<key name="date_manage_my_news">
+		<value>تاریخ</value>
+	</key>
+	<key name="are_you_sure_delete_news">
+		<value>
+			آیا از حذف این نوشته خبر اطمینان دارید؟
+		</value>
+	</key>
+	<key name="are_you_sure">
+		<value>
+			آیا از حذف این نظر اطمینان دارید؟
+		</value>
+	</key>
+	<key name="manage_comment_page_actions">
+		<value>
+			عملیات
+		</value>
+	</key>
+	<key name="total_news">
+		<value>تعداد اخبار: {$total}
+		</value>
+	</key>
+
+</prefix>

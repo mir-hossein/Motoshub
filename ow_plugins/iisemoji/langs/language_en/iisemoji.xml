@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisemoji" label="iisemoji" language_tag="en" language_label="English">
+    <key name="search">
+        <value>
+            Search
+        </value>
+    </key>
+    <key name="search_results">
+        <value>
+            Search Results
+        </value>
+    </key>
+    <key name="no_emoji_found">
+        <value>
+            No Emoji Found.
+        </value>
+    </key>
+
+    <key name="label_recent">
+        <value>
+            Recent
+        </value>
+    </key>
+    <key name="label_people">
+        <value>
+            People
+        </value>
+    </key>
+    <key name="label_nature">
+        <value>
+            Nature
+        </value>
+    </key>
+    <key name="label_foods">
+        <value>
+            Foods
+        </value>
+    </key>
+    <key name="label_activity">
+        <value>
+            Activity
+        </value>
+    </key>
+    <key name="label_places">
+        <value>
+            Places
+        </value>
+    </key>
+    <key name="label_objects">
+        <value>
+            Objects
+        </value>
+    </key>
+    <key name="label_symbols">
+        <value>
+            Symbols
+        </value>
+    </key>
+    <key name="label_flags">
+        <value>
+            Flags
+        </value>
+    </key>
+    <key name="admin_dept_title">
+    <value>
+        Emoji plugin settings
+    </value>
+</key>
+    <key name="form_add_dept_submit">
+        <value>
+            save
+        </value>
+    </key>
+    <key name="select_emojiType">
+        <value>
+          select emoji type
+        </value>
+    </key>
+    <key name="save_successful_message">
+        <value>
+            changes saved sucessfully
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisnewsfeedplus" label="iisnewsfeedplus" language_tag="en" language_label="English">
+    <key name="edit_post">
+        <value>
+            Edit text
+        </value>
+    </key>
+    <key name="edit_post_successfully">
+        <value>
+            Edited successfully
+        </value>
+    </key>
+	<key name="group_list_select_count_label">
+        <value>
+           #count# groups selected
+        </value>
+    </key>
+	    <key name="group_select_empty_list_message">
+        <value>
+            You should select user(s) to continue
+        </value>
+    </key>
+	    <key name="forward_post">
+        <value>
+            Forward
+        </value>
+    </key>
+	    <key name="search_groups">
+        <value>
+           Search
+        </value>
+    </key>
+	    <key name="group_list_select_button_label">
+        <value>
+           Forward
+        </value>
+    </key>
+	    <key name="error_in_forward_progress">
+        <value>
+            error in forward progress
+        </value>
+    </key>
+	    <key name="groups_invite_success_message">
+        <value>
+         newsfeed has been sent for {$count} group
+        </value>
+    </key>
+    <key name="forward_to_group">
+        <value>
+            Forward to group
+        </value>
+    </key>
+    <key name="source_user_information">
+        <value>
+            (Forwarded from &lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt;)
+        </value>
+    </key>
+    <key name="forward_to_user">
+        <value>
+            Forward to user
+        </value>
+    </key>
+    <key name="users_forward_success_message">
+        <value>
+            newsfeed has been sent for {$count} user
+        </value>
+    </key>
+	<key name="file_show">
+        <value>
+            show as a file
+        </value>
+    </key>
+	<key name="preview_show">
+        <value>
+            preview show
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            iisnewsfeedplus setting
+        </value>
+    </key>
+    <key name="sort_by_activity">
+        <value>
+            Last activity time
+        </value>
+    </key>
+    <key name="sort_by_action">
+        <value>
+            Creation time
+        </value>
+    </key>
+    <key name="sort_by">
+        <value>
+            Order by
+        </value>
+    </key>
+    <key name="newsfeed_list_display_order">
+        <value>
+            newsfeed order in dashboard
+        </value>
+    </key>
+    <key name="modified_successfully">
+        <value>
+            setting saved successfully
+        </value>
+    </key>
+    <key name="admin_allow_sort_label">
+        <value>
+            Allow users sort feeds
+        </value>
+    </key>
+    <key name="download">
+        <value>
+            Download
+        </value>
+    </key>
+</prefix>

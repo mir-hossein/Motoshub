@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismobilesupport" label="iismobilesupport" language_tag="en" language_label="English">
+	<key name="admin_save_settings"><value>Save Settings</value></key>
+	<key name="admin_settings_title"><value>Admin mobile support - Settings</value></key>
+	<key name="user_save_success"><value>Settings saved successfully</value></key>
+	<key name="fcm_api_key_label"><value>FCM key for sending notification</value></key>
+	<key name="fcm_api_url_label"><value>FCM Url for sending notification</value></key>
+    <key name="constraint_user_device_label"><value>The number of user apps(Min: 2, Max: 999)</value></key>
+    <key name="android_app_label"><value>Android Application</value></key>
+    <key name="ios_app_label"><value>iOS Application</value></key>
+	<key name="settings">
+		<value>
+			Settings
+		</value>
+	</key>
+	<key name="version_code">
+		<value>
+			Version code
+		</value>
+	</key>
+	<key name="version_name">
+		<value>
+			Version name
+		</value>
+	</key>
+	<key name="time">
+		<value>
+			Time of publishing
+		</value>
+	</key>
+	<key name="versions">
+		<value>
+			Publish new version
+		</value>
+	</key>
+	<key name="android_versions">
+		<value>
+			Android versions
+		</value>
+	</key>
+	<key name="ios_versions">
+		<value>
+			iOS versions
+		</value>
+	</key>
+	<key name="native_versions">
+		<value>
+			Android native version
+		</value>
+	</key>
+	<key name="delete">
+		<value>
+			Delete
+		</value>
+	</key>
+	<key name="deprecate">
+		<value>
+			Deprecate
+		</value>
+	</key>
+	<key name="approve">
+		<value>
+			Approve
+		</value>
+	</key>
+	<key name="values">
+		<value>
+			Values
+		</value>
+	</key>
+	<key name="type">
+		<value>
+			Type
+		</value>
+	</key>
+	<key name="delete_version_success">
+		<value>
+			Item deleted successfully.
+		</value>
+	</key>
+	<key name="approve_version_success">
+		<value>
+			Item deleted from deprecated list.
+		</value>
+	</key>
+	<key name="deprecate_version_success">
+		<value>
+			Item added into deprecated list.
+		</value>
+	</key>
+	<key name="save_success">
+		<value>
+			Item published successfully.
+		</value>
+	</key>
+	<key name="url">
+		<value>
+			Download url
+		</value>
+	</key>
+	<key name="disable_notification_content">
+		<value>
+			Remove content from notification
+		</value>
+	</key>
+	<key name="new_notification_label">
+		<value>
+			New notification
+		</value>
+	</key>
+	<key name="auth_action_label_show_desktop_version">
+		<value>
+			Use from Web (not from mobile app)
+		</value>
+	</key>
+	<key name="use_with_mobile_version">
+		<value>
+			You can only use mobile app.
+		</value>
+	</key>
+	<key name="android_app_download">
+		<value>
+			Download android version
+		</value>
+	</key>
+	<key name="ios_app_download">
+		<value>
+			Download iOS version
+		</value>
+	</key>
+	<key name="sign_out_description">
+		<value>
+			You are currently signed in to your account. You can use the link below, sign out of your account.
+		</value>
+	</key>
+	<key name="download_show">
+		<value>
+			Download show
+		</value>
+	</key>
+	<key name="custom_download_link_label">
+	<value>
+		custom Links' HTML
+	</value>
+	</key>
+	<key name="custom_download_link_desc">
+	<value>
+		Enter other related download links such as app store as HTML code
+	</value>
+	</key>
+	<key name="download_activation">
+		<value>
+			Activate download buttons in footer
+		</value>
+	</key>
+	<key name="add_file_string">
+		<value>
+			uploads a file.
+		</value>
+	</key>
+	<key name="upload_file">
+		<value>
+			upload file
+		</value>
+	</key>
+	<key name="download_file">
+		<value>
+			download_file
+		</value>
+	</key>
+	<key name="file_fileUrl_require">
+		<value>
+			uploading a file or entering file link address is required
+		</value>
+	</key>
+	<key name="web_settings">
+		<value>
+			Web Push Settings
+		</value>
+	</key>
+	<key name="web_settings_head_guide">
+		<value>
+			You can enable web notifications, if you are using HTTPS protocol for your website domain. You only need to create a web app in firebase console.
+		</value>
+	</key>
+	<key name="web_config">
+		<value>
+			Firebase Config
+		</value>
+	</key>
+	<key name="web_key">
+		<value>
+			Key pair
+		</value>
+	</key>
+	<key name="web_config_desc">
+		<value>
+			Copy firebaseConfig variable after creating a Web App or from Firebase Console > Settings > General > Your apps > Web apps > Firebase SDK snippet
+		</value>
+	</key>
+	<key name="web_key_desc">
+		<value>
+			Copy Key pair value from Firebase Console > Settings > Cloud Messaging > Web configuration > Web Push certificates
+		</value>
+	</key>
+	<key name="message">
+		<value>
+			Message
+		</value>
+	</key>
+</prefix>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisadvanceeditor" label="iisadvanceeditor" language_tag="en" language_label="English">
+    <key name="config_page_title">
+        <key>
+            Advanced Editor Plugin Settings
+        </key>
+    </key>
+    <key name="max_symbols_count_title">
+        <value>
+            Max symbols count
+        </value>
+    </key>
+    <key name="max_symbols_count_error">
+        <value>
+            enter a number greater than 0
+        </value>
+    </key>
+    <key name="set_max_symbols_count">
+        <value>
+            Set max symbols count
+        </value>
+    </key>
+</prefix>

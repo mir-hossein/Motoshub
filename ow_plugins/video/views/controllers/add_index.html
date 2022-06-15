@@ -1,0 +1,97 @@
+{script}
+$('.select_type_tr').hide();
+{if isset($input_type)}   $('#input_type_{$input_type}').click();$('#type_{$input_type}').show();   {/if}
+{literal}
+	$("[name=input_type]").click(function(){
+		$('.select_type_tr').hide();
+		if($('#input_type_code').is(':checked')){
+			$('#type_code').show();
+            $('#aparatURL').val('');
+		}
+		else if($('#input_type_aparat').is(':checked')){
+			$('#type_aparat').show();
+		}
+		else if($('#input_type_upload').is(':checked')){
+			$('#type_upload').show();
+            $('#aparatURL').val('');
+		}
+	});
+{/literal}
+{/script}
+
+<p class="ow_smallmargin">{text key='video+video_add_tip'}</p>
+
+<div class="ow_superwide ow_automargin ow_stdmargin">
+    
+{if !$auth_msg}
+    {form name='videoAddForm'}
+    <table class="ow_table_1 ow_form">
+        <tr class="ow_alt1 ow_tr_first">
+            <td class="ow_label"><label for="input_type_code">{text key='video+video_add_select_type'}</label></td>
+            <td class="ow_value" colspan="2">
+                {if isset($videoUploadField)}
+                    <input id="input_type_upload" name="input_type" type="radio" value="upload"><label for="input_type_upload">{text key='video+video_add_select_upload'}</label><br/>
+                {/if}
+                {if isset($aparatSupport)}<input id="input_type_aparat" name="input_type" type="radio" value="aparat"><label for="input_type_aparat">{text key='video+video_add_select_aparat'}</label><br/>{/if}
+                <input id="input_type_code" name="input_type" type="radio" value="code"><label for="input_type_code">{text key='video+video_add_select_code'}</label>
+                <br />
+                {if isset($videoUploadField)}{error name='videoUpload'}{/if}
+            </td>
+        </tr>
+        <tr class="ow_alt2 select_type_tr" id="type_code">
+            <td class="ow_label">{label name='code'}</td>
+            <td class="ow_value">{input name='code'}<br/>{error name='code'}</td>
+            <td class="ow_desc ow_small">{text key='video+code_desc'}</td>
+        </tr>
+        {if isset($videoUploadField)}
+        <tr class="ow_alt2 select_type_tr" id="type_upload">
+            <td class="ow_label">{label name='videoUpload'}</td>
+            <td class="ow_value">{input name='videoUpload'}
+                <video id="main-video" controls style="display: none;">
+                    <source type="video/mp4">
+                </video>
+                <canvas id="video-canvas" style="display: none;"></canvas>
+                <div id="thumbnail-container" style="display: none;">
+                    {text key="video+thumbnail_label"} <select id="set-video-seconds"></select>
+                </div>
+            </td>
+            <td class="ow_desc">{text key='iisvideoplus+video_add_upload_desc'}</td>
+        </tr>
+        {/if}
+        {if isset($aparatSupport)}
+        <tr class="ow_alt2 select_type_tr" id="type_aparat">
+            <td class="ow_label">{label name='aparatURL'}</td>
+            <td class="ow_value">{input name='aparatURL'}<br />{error name='aparatURL'}</td>
+            <td class="ow_desc">{desc name='aparatURL'}</td>
+        </tr>
+        {/if}
+        <tr class="ow_alt1">
+            <td class="ow_label">{label name='title'}</td>
+            <td class="ow_value">{input name='title'} <br /> {error name='title'}</td>
+            <td class="ow_desc ow_small"> </td>
+        </tr>
+        <tr class="ow_alt2">
+            <td class="ow_label">{label name='description'}</td>
+            <td class="ow_value">{input name='description'} <br /> {error name='description'}</td>
+            <td class="ow_desc ow_small">{text key='video+description_desc'}</td>
+        </tr>
+        <tr class="ow_alt1 ow_tr_last">
+            <td class="ow_label">{label name='tags'}</td>
+            <td class="ow_value">{input name='tags'}</td>
+            <td class="ow_desc ow_small">{text key='video+tags_desc'}</td>
+        </tr>
+        {if isset($statusPrivacyField)}
+        <tr class="ow_alt1 ow_tr_last">
+            <td class="ow_label">{label name='statusPrivacy'}</td>
+            <td class="ow_value">{input name='statusPrivacy'}</td>
+            <td class="ow_desc ow_small"></td>
+        </tr>
+        {/if}
+    </table>
+    <div class="clearfix ow_stdmargin"><div class="ow_right">{submit name='add' class='ow_ic_add ow_positive'}</div></div>
+    {/form}
+{else}
+    <div class="ow_anno ow_std_margin ow_nocontent">{$auth_msg}</div>
+{/if}
+
+</div>

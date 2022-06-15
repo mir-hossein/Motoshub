@@ -1,0 +1,4263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="admin" label="Admin" language_tag="fa-IR" language_label="فارسی">
+    <key name="account_type_sort_order">
+        <value>
+            چیدمان
+        </value>
+    </key>
+    <key name="account_type_translation">
+        <value>
+            ترجمه
+        </value>
+    </key>
+    <key name="active_languages">
+        <value>
+            زبان‌های فعال
+        </value>
+    </key>
+    <key name="add_button">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="add_key_form_lbl_add">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="add_key_form_lbl_key">
+        <value>
+            کلید
+        </value>
+    </key>
+    <key name="add_key_form_lbl_val">
+        <value>
+            متن در {$label} ( {$tag} )
+        </value>
+    </key>
+    <key name="add_language_pack_empty_file_error_message">
+        <value>
+            بسته زبان شما خالی یا غیر معتبر است، لطفا بسته زبان معتبر را انتخاب کنید و دوباره امتحان کنید
+        </value>
+    </key>
+    <key name="add_new_lang_or_pack">
+        <value>
+            افزودن زبان(بسته زبانی) جدید
+        </value>
+    </key>
+    <key name="add_new_role_block_cap_label">
+        <value>
+            افزودن نقش جدید
+        </value>
+    </key>
+    <key name="add_new_text">
+        <value>
+            افزودن متن جدید
+        </value>
+    </key>
+    <key name="add_password">
+        <value>
+            افزودن گذرواژه
+        </value>
+    </key>
+    <key name="add_question_value_description">
+        <value>
+            افزودن مقدار جدید &lt;span class="ow_small ow_highlight"&gt;با کاما از هم جدا کنید&lt;/span&gt;
+        </value>
+    </key>
+    <key name="admin_admin_dashboard">
+        <value>
+            اصلی
+        </value>
+    </key>
+    <key name="admin_dashboard">
+        <value>
+            صفحه مدیریت
+        </value>
+    </key>
+    <key name="admin_password">
+        <value>
+            گذرواژه وب‌گاه: {$password}
+        </value>
+    </key>
+    <key name="admin_password_html">
+        <value>
+            گذرواژه جدید برای {$sitename}&lt;br&gt; تنظیم شد. گذرواژه جدید شما &lt;b&gt;{$password}&lt;/b&gt;&lt;br&gt; است.
+        </value>
+    </key>
+    <key name="admin_suspend_floatbox_title">
+        <value>
+            تعلیق کاربران
+        </value>
+    </key>
+    <key name="album">
+        <value>
+            آلبوم
+        </value>
+    </key>
+    <key name="all_files">
+        <value>
+            همه فایل‌ها
+        </value>
+    </key>
+    <key name="all_sections">
+        <value>
+            همه بخش‌ها
+        </value>
+    </key>
+    <key name="all_time">
+        <value>
+            همیشه
+        </value>
+    </key>
+    <key name="are_you_sure">
+        <value>
+            آیا مطمئن هستید؟
+        </value>
+    </key>
+    <key name="auth_group_label">
+        <value>
+            مدیر
+        </value>
+    </key>
+    <key name="auth_success_message_not_ajax">
+        <value>
+            احراز هویت با موفقیت انجام شد
+        </value>
+    </key>
+    <key name="available_languages">
+        <value>
+            زبان‌های موجود
+        </value>
+    </key>
+    <key name="avatar_feed_string">
+        <value>
+            تصویر نمایه‌اش را تغییر داده است
+        </value>
+    </key>
+    <key name="avatar_label">
+        <value>
+            برچسب تصویر نمایه
+        </value>
+    </key>
+    <key name="avatar_label_color">
+        <value>
+            رنگ برچسب
+        </value>
+    </key>
+    <key name="avatar_pending_approval">
+        <value>
+             
+        </value>
+    </key>
+    <key name="back_to_roles">
+        <value>
+            بازگشت به نقش‌های کاربر
+        </value>
+    </key>
+    <key name="back_to_site_label">
+        <value>
+            بازگشت به وب‌گاه
+        </value>
+    </key>
+    <key name="back_to_theme_list">
+        <value>
+            بازگشت به فهرست پوشه‌ها
+        </value>
+    </key>
+    <key name="btn_label_activate">
+        <value>
+            فعال‌سازی
+        </value>
+    </key>
+    <key name="btn_label_clone">
+        <value>
+            تکثیر
+        </value>
+    </key>
+    <key name="btn_label_deactivate">
+        <value>
+            غیرفعال‌سازی
+        </value>
+    </key>
+    <key name="btn_label_delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="btn_label_edit">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="btn_label_edit_values">
+        <value>
+            مقدارها
+        </value>
+    </key>
+    <key name="captcha_settings">
+        <value>
+            تنظیمات عبارت امنیتی
+        </value>
+    </key>
+    <key name="changelog_heading">
+        <value>
+            فهرست تغییرات به صورت زیر است:
+        </value>
+    </key>
+    <key name="change_password">
+        <value>
+            تغییر گذرواژه
+        </value>
+    </key>
+    <key name="check_license_invalid_server_responce_err_msg">
+        <value>
+            امکان پاسخ‌گویی به پاسخ‌های نامعتبر وجود ندارد
+        </value>
+    </key>
+    <key name="check_other_langs">
+        <value>
+            هستید، انتخاب &lt;a href="languages/mod"&gt;زبان‌های دیگر&lt;/a&gt;
+        </value>
+    </key>
+    <key name="check_updates">
+        <value>
+            بررسی به‌روزرسانی
+        </value>
+    </key>
+    <key name="check_updates_fail_error_message">
+        <value>
+            عدم امکان اتصال به درگاه موتوشاب
+        </value>
+    </key>
+    <key name="check_updates_success_message">
+        <value>
+            وب‌گاه شما از طریق درگاه موتوشاب بررسی شد
+        </value>
+    </key>
+    <key name="clone_form_descr_label">
+        <value>
+            برای مثال &lt;b&gt;English&lt;/b&gt;
+        </value>
+    </key>
+    <key name="clone_form_descr_tag">
+        <value>
+            برای نمونه &lt;b&gt;en-US &lt;/b&gt;or &lt;b&gt;en-UK-custom&lt;/b&gt;
+        </value>
+    </key>
+    <key name="clone_form_lbl_label">
+        <value>
+            زبان
+        </value>
+    </key>
+    <key name="clone_form_lbl_submit">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="clone_form_lbl_tag">
+        <value>
+            برچسب استاندارد جهانی&#13;
+            &lt;a class="ow_lbutton ow_red" target="_blank" href="http://en.wikipedia.org/wiki/ISO_639"&gt;?&lt;/a&gt;
+        </value>
+    </key>
+    <key name="clone_language">
+        <value>
+            رونوشت زبان
+        </value>
+    </key>
+    <key name="clone_language_cap_label">
+        <value>
+            رونوشت زبان
+        </value>
+    </key>
+    <key name="com_plugin_request_key_label">
+        <value>
+            کلید مجوز (license key)
+        </value>
+    </key>
+    <key name="com_plugin_request_text">
+        <value>
+            آیا از به‌روزرسانی افزونه &lt;i&gt;'{$name}'&lt;/i&gt; از نسخه &lt;b&gt;{$oldVersion}&lt;/b&gt; به نسخه &lt;b&gt;{$newVersion}&lt;/b&gt;
+            اطمینان دارید؟ &#13;
+            این افزونه تجاری می‌باشد،لطفا برای به‌روز رسانی کلید مجوز را وارد نمایید و بر روی دکمه به‌روز رسانی کلیک
+            کنید
+        </value>
+    </key>
+    <key name="com_theme_request_name_label">
+        <value>
+            کلید مجوز (license key)
+        </value>
+    </key>
+    <key name="com_theme_request_text">
+        <value>
+            آیا از به‌روزرسانی &lt;i&gt;'{$name}'&lt;/i&gt; از نسخه &lt;b&gt;{$oldVersion}&lt;/b&gt; به نسخه &lt;b&gt;{$newVersion}
+            اطمینان دارید&lt;/b&gt;؟ این پوسته تجاری می‌باشد.برای به‌روز رسانی باید کلید مجوز را وارد نمایید.
+        </value>
+    </key>
+    <key name="confirm_avatar_delete">
+        <value>
+            آیا از حذف تصویر نمایه پیش‌فرض اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete">
+        <value>
+            آیا از حذف این تصویر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete_images">
+        <value>
+            آیا از حذف این تصاویر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_delete_users">
+        <value>
+            آیا از حذف کاربرانی که انتخاب کرده‌اید اطمینان دارید؟
+        </value>
+    </key>
+    <key name="confirm_suspend_users">
+        <value>
+            آیا از تعلیق کاربرانی که انتخاب کرده‌اید اطمینان دارید؟
+        </value>
+    </key>
+    <key name="console_item_admin_dashboard">
+        <value>
+            میز فرمان مدیریت
+        </value>
+    </key>
+    <key name="console_item_manage_pages">
+        <value>
+            مدیریت صفحه‌ها
+        </value>
+    </key>
+    <key name="console_item_manage_plugins">
+        <value>
+            مدیریت افزونه‌ها
+        </value>
+    </key>
+    <key name="console_item_manage_theme">
+        <value>
+            ویرایش پوسته
+        </value>
+    </key>
+    <key name="console_item_manage_users">
+        <value>
+            مدیریت کاربران
+        </value>
+    </key>
+    <key name="copy_url">
+        <value>
+            رونوشت نشانی
+        </value>
+    </key>
+    <key name="core_is_already_up_to_date">
+        <value>
+            نسخه نرم‌افزار در حال حاضر به‌روز است
+        </value>
+    </key>
+    <key name="core_update_download_error">
+        <value>
+            خطایی در بارگیری رخ داد
+        </value>
+    </key>
+    <key name="core_update_leave_button_label">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="core_update_unzip_error">
+        <value>
+            فایل بارگیری شده را نمی‌تواند از حالت فشرده خارج کند
+        </value>
+    </key>
+    <key name="cron_configuration_required_notice">
+        <value>
+            شما باید یک کرون جاب بسازید
+        </value>
+    </key>
+    <key name="css_edit_success_message">
+        <value>
+            CSS سفارشی پوسته ویرایش شد
+        </value>
+    </key>
+    <key name="currency">
+        <value>
+            واحد پول
+        </value>
+    </key>
+    <key name="custom_keys">
+        <value>
+            کلیدهای سفارشی
+        </value>
+    </key>
+    <key name="date">
+        <value>
+            تاریخ
+        </value>
+    </key>
+    <key name="def">
+        <value>
+            پیش‌فرض
+        </value>
+    </key>
+    <key name="default">
+        <value>
+            پیشفرض
+        </value>
+    </key>
+    <key name="default_avatar_deleted">
+        <value>
+            تصویر نمایه پیش‌فرض حذف گردید
+        </value>
+    </key>
+    <key name="default_role">
+        <value>
+            نقش کاربری پیش‌فرض
+        </value>
+    </key>
+    <key name="delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_btn_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_content_warning">
+        <value>
+            هشدار
+        </value>
+    </key>
+    <key name="delete_image">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="delete_selected">
+        <value>
+            حذف انتخاب شده
+        </value>
+    </key>
+    <key name="describe_photo">
+        <value>
+            شرح متن ...
+        </value>
+    </key>
+    <key name="display_avatar_label">
+        <value>
+            نمایش برچسب نقش بر روی تصویر نمایه
+        </value>
+    </key>
+    <key name="display_captcha_label">
+        <value>
+            فعال‌سازی در فرم ثبت‌نام
+        </value>
+    </key>
+    <key name="dnd_not_support">
+        <value>
+            کلیک برای مرور تصاویر
+        </value>
+    </key>
+    <key name="dnd_support">
+        <value>
+            تصاویر را بکشید و اینجا رها کنید یا این‌که روی فهرست کلیک کنید
+        </value>
+    </key>
+    <key name="drop_here">
+        <value>
+            تصویر را این‌جا رها کنید تا بارگذاری شود
+        </value>
+    </key>
+    <key name="edit_langs_cap_label">
+        <value>
+            ویرایش زبان
+        </value>
+    </key>
+    <key name="edit_language">
+        <value>
+            ویرایش زبان
+        </value>
+    </key>
+    <key name="email_already_verify">
+        <value>
+            این رایانشانی قبلا تایید شده است
+        </value>
+    </key>
+    <key name="empty">
+        <value>
+            خالی
+        </value>
+    </key>
+    <key name="error_cant_connect_to_host">
+        <value>
+            ویژگی‌های FTP نامعتبر است! نمی‌توانید با میزبان ارائه دهنده ارتباط برقرار کنند.
+        </value>
+    </key>
+    <key name="error_cant_write">
+        <value>
+            امکان ذخیره فایل وجود ندارد
+        </value>
+    </key>
+    <key name="error_empty_credentials_provided">
+        <value>
+            ویژگی‌های FTP نامعتبر است! نام کاربری یا گذرواژه خالی است
+        </value>
+    </key>
+    <key name="error_empty_host_provided">
+        <value>
+            ویژگی‌های FTP نامعتبر است! ورودی میزبان خالی است
+        </value>
+    </key>
+    <key name="error_extension">
+        <value>
+            یک گسترش PHP بارگذاری فایل را متوقف کرد. PHP هیچ راهی را ارائه نداده تا مشخص شود کدام گسترش سبب توقف
+            بارگذاری سند شده است؛ فهرست گسترش‌های بارگذاری شده با phpinfo() ممکن است کمک کننده باشد.
+        </value>
+    </key>
+    <key name="error_form_size">
+        <value>
+            اندازه فایل بارگذاری شده بیش ازتنظیمات سرور است بخش &#13;
+            upload_max_filesize و فایل را بررسی کنید HTML
+        </value>
+    </key>
+    <key name="error_ftp_function_is_not_available">
+        <value>
+            نمی‌توان عملیات تکمیل کرد. عملکرد `ftp_connect` در دسترس نیست
+        </value>
+    </key>
+    <key name="error_ini_size">
+        <value>
+            اندازه فایل بارگذاری شده بیش ازتنظیمات سرور است بخش &#13;
+            upload_max_filesize و فایل را بررسی کنید php.ini
+        </value>
+    </key>
+    <key name="error_invalid_credentials_provided">
+        <value>
+            FTP خطا در ورود! تأیید اعتبار انجام نشد، لطفا نام کاربری و گذرواژه ارائه شده را بررسی کنید
+        </value>
+    </key>
+    <key name="error_no_file">
+        <value>
+            هیچ فایلی بارگذاری نشده است
+        </value>
+    </key>
+    <key name="error_no_tmp_dir">
+        <value>
+            یک پوشه موقت حذف شده است
+        </value>
+    </key>
+    <key name="error_partial">
+        <value>
+            بخشی از فایل بارگذاری شده است
+        </value>
+    </key>
+    <key name="exit_select_mode">
+        <value>
+            خروج از حالت انتخاب چند مورد
+        </value>
+    </key>
+    <key name="export_lang_button_label">
+        <value>
+            استخراج
+        </value>
+    </key>
+    <key name="export_lang_button_label2">
+        <value>
+            استخراج موارد انتخابی
+        </value>
+    </key>
+    <key name="export_lang_header">
+        <value>
+            استخراج زبان
+        </value>
+    </key>
+    <key name="export_lang_note">
+        <value>
+            شما می‌توانید از هر زبانی برای هر افزونه‌ای که بر روی وب‌گاه خود نصب کرده‌اید پشتیبان تهیه نمایید
+        </value>
+    </key>
+    <key name="export_lang_note2">
+        <value>
+            انتخاب گزینه‌هایی که می‌خواهید از تمام افزونه‌ها و زبان‌ها استخراج کنید
+        </value>
+    </key>
+    <key name="external_url">
+        <value>
+            نشانی خارجی
+        </value>
+    </key>
+    <key name="feed_content_avatar_change">
+        <value>
+            تصویر نمایه کاربری عوض شد
+        </value>
+    </key>
+    <key name="feed_content_edit">
+        <value>
+            ویرایش نمایه کاربر
+        </value>
+    </key>
+    <key name="feed_content_registration">
+        <value>
+            کاربر تازه ثبت نام شده
+        </value>
+    </key>
+    <key name="feed_content_user_comment">
+        <value>
+            دیوار نظرات نمایه
+        </value>
+    </key>
+    <key name="filesize">
+        <value>
+            اندازه فایل
+        </value>
+    </key>
+    <key name="finance_settings">
+        <value>
+            سرمایه گذاری
+        </value>
+    </key>
+    <key name="found_users">
+        <value>
+            تعداد کاربران: {$count} نفر
+        </value>
+    </key>
+    <key name="free_plugin_request_text">
+        <value>
+            آیا از به‌روزرسانی افزونه &lt;i&gt;'{$name}'&lt;/i&gt;از نسخه &lt;b&gt;{$oldVersion}&lt;/b&gt; به نسخه &lt;b&gt;{$newVersion}
+            اطمینان دارید&lt;/b&gt;؟
+        </value>
+    </key>
+    <key name="free_theme_request_text">
+        <value>
+            آیا از به‌روز‌رسانی پوسته &lt;i&gt;'{$name}'&lt;/i&gt; از نسخه &lt;b&gt;{$oldVersion}&lt;/b&gt; به نسخه &lt;b&gt;{$newVersion}
+            اطمینان دارید؟&lt;/b&gt;
+        </value>
+    </key>
+    <key name="go">
+        <value>
+            برو
+        </value>
+    </key>
+    <key name="heading_browse_users">
+        <value>
+            مرور کاربران
+        </value>
+    </key>
+    <key name="heading_log_settings">
+        <value>
+            لاگ‌نویسی
+        </value>
+    </key>
+    <key name="heading_log_test">
+        <value>
+            ارسال یک لاگ دستی
+        </value>
+    </key>
+    <key name="heading_mail_settings">
+        <value>
+            SMTP
+        </value>
+    </key>
+    <key name="heading_main_settings">
+        <value>
+            عمومی
+        </value>
+    </key>
+    <key name="heading_mobile_settings">
+        <value>
+            تنظیمات موبایل
+        </value>
+    </key>
+    <key name="heading_page_settings">
+        <value>
+            تنظیمات صفحه
+        </value>
+    </key>
+    <key name="heading_questions">
+        <value>
+            پرسش‌های نمایه
+        </value>
+    </key>
+    <key name="heading_user_input_settings">
+        <value>
+            تنظیمات محتوا
+        </value>
+    </key>
+    <key name="heading_user_role">
+        <value>
+            نقش کاربر: {$role}
+        </value>
+    </key>
+    <key name="heading_user_roles">
+        <value>
+            نقش کاربر
+        </value>
+    </key>
+    <key name="heading_user_settings">
+        <value>
+            تنظیمات کاربر
+        </value>
+    </key>
+    <key name="import_lang_button_label">
+        <value>
+            واردسازی انتخاب شد
+        </value>
+    </key>
+    <key name="import_lang_note">
+        <value>
+            شما می‌توانید فایل زبانی مخصوص &lt;b&gt;یک افزونه&lt;/b&gt; را بارگذاری کنید (فایل &lt;b&gt;.XML&lt;/b&gt; )
+            یا یک بسته برای &lt;b&gt;افزونه‌ها&lt;/b&gt; بارگذاری کنید (فایل &lt;b&gt;.ZIP&lt;/b&gt; ).
+        </value>
+    </key>
+    <key name="inactive_languages">
+        <value>
+            زبان‌های غیرفعال
+        </value>
+    </key>
+    <key name="input_image_compression_percentage_desc">
+        <value>
+            درصد میزان فشرده‌سازی (مقادیر بین 0 و 99 باشد)
+        </value>
+    </key>
+    <key name="input_image_compression_percentage_label">
+        <value>
+            درصد فشرده‌سازی تصاویر
+        </value>
+    </key>
+    <key name="input_settings_attch_ext_list_desc">
+        <value>
+            انواع مجاز برای بارگذاری فایل. هر نوع در یک خط، فرمت: XXX
+        </value>
+    </key>
+    <key name="input_settings_attch_ext_list_label">
+        <value>
+            پسوند‌های مجاز
+        </value>
+    </key>
+    <key name="input_settings_attch_max_upload_size_label">
+        <value>
+            بیشینه اندازه فایل برای بارگذاری
+        </value>
+    </key>
+    <key name="input_settings_avatar_max_upload_size_label">
+        <value>
+            محدودیت حجم فایل تصویر نمایه
+        </value>
+    </key>
+    <key name="input_settings_comments_rich_media_disable_desc">
+        <value>
+            اگر نمی‌خواهید به کاربران خود اجازه افزودن رسانه(مانند تصویر و ویدیو) در نظرات را بدهید، این گزینه را انتخاب
+            کنید
+        </value>
+    </key>
+    <key name="input_settings_comments_rich_media_disable_label">
+        <value>
+            غیر فعال‌سازی چند رسانه‌ای
+        </value>
+    </key>
+    <key name="input_settings_max_upload_size_label">
+        <value>
+            بیشینه اندازه فایل بارگذاری
+        </value>
+    </key>
+    <key name="input_settings_resource_list_desc">
+        <value>
+            لیست دامنه‌هایی که شما اجازه می‌دهید تا کاربران از آن‌جا در شبکه فیلم قرار دهند، وب‌گاه‌هایی را قرار دهید که
+            از کد نشانی پشتیبانی می‌کنند(در هر خط یک دامنه وارد کنید)
+        </value>
+    </key>
+    <key name="input_settings_resource_list_label">
+        <value>
+            فهرست منابع معتبر
+        </value>
+    </key>
+    <key name="input_settings_user_custom_html_disable_desc">
+        <value>
+            اگر نمی‌خواهید به کاربران خود اجازه نوشتن کد HTML را بدهید، این را گزینه را فعال کنید، در صورت فعال بودن این گزینه افزونه ویرایشگر پیشرفته متن قابل استفاده نخواهد بود
+        </value>
+    </key>
+    <key name="input_settings_user_custom_html_disable_label">
+        <value>
+            غیر فعال‌سازی HTML
+        </value>
+    </key>
+    <key name="input_settings_user_rich_media_disable_desc">
+        <value>
+            اگر نمی‌خواهید به کاربران خود اجازه افزودن رسانه (مانند تصویر و ویدیو) در نوشته (مانند بلاگ و انجمن) را
+            بدهید، این گزینه را فعال کنید.
+        </value>
+    </key>
+    <key name="input_settings_user_rich_media_disable_label">
+        <value>
+            غیر فعال‌سازی رسانه‌ها
+        </value>
+    </key>
+    <key name="invalid _license_item_notification">
+        <value>
+            مجوز برای افزونه/پوسته &lt;a href=\"{$url}\"&gt;{$name}&lt;/a&gt; که برای استفاده از آن تلاش می‌کنید نامعتبر است.
+        </value>
+    </key>
+    <key name="invite_members_button_label">
+        <value>
+            دعوت کاربران جدید
+        </value>
+    </key>
+    <key name="invite_members_cap_label">
+        <value>
+            دعوت کاربران جدید
+        </value>
+    </key>
+    <key name="invite_members_max_limit_message">
+        <value>
+            بیشینه 50 رایانشانی وارد کنید
+        </value>
+    </key>
+    <key name="invite_members_min_limit_message">
+        <value>
+            شما باید حداقل یک رایانشانی وارد کنید
+        </value>
+    </key>
+    <key name="invite_members_submit_label">
+        <value>
+            دعوت
+        </value>
+    </key>
+    <key name="invite_members_success_message">
+        <value>
+            دعوت‌نامه شما با موفقیت ارسال شد
+        </value>
+    </key>
+    <key name="invite_members_textarea_invitation_text">
+        <value>
+            فهرست رایانامه‌ها را وارد کنید، بیشینه 50 رایانامه و در هر خط یک رایانامه وارد کنید
+        </value>
+    </key>
+    <key name="item_license_request_box_cap_label">
+        <value>
+            درخواست مجوز گزینه
+        </value>
+    </key>
+    <key name="item_update_request_platform_update_warning">
+        <value>
+            نسخه به‌روزرسانی هسته در دسترس است و قبل از انجام هر به‌روزرسانی موارد توصیه می‌شود
+        </value>
+    </key>
+    <key name="joined">
+        <value>
+            زمان پیوستن به وب‌گاه
+        </value>
+    </key>
+    <key name="join_display_photo_upload">
+        <value>
+            بارگذاری تصویر نمایه
+        </value>
+    </key>
+    <key name="join_display_photo_upload_desc">
+        <value>
+            به کاربران اجازه دهید هنگام ثبت‌نام تصویر نمایه خود را بارگذاری کنند
+        </value>
+    </key>
+    <key name="join_display_terms_of_use">
+        <value>
+            فعال‌سازی گزینه شرایط استفاده
+        </value>
+    </key>
+    <key name="join_display_terms_of_use_desc">
+        <value>
+            ضروری سازی موافقت کاربران با شرایط استفاده در هنگام ثبت‌نام
+        </value>
+    </key>
+    <key name="join_page">
+        <value>
+            صفحه ثبت نام
+        </value>
+    </key>
+    <key name="join_photo_upload_set_required">
+        <value>
+            ضروری کردن گزینه بارگذاری تصویر
+        </value>
+    </key>
+    <key name="join_photo_upload_set_required_desc">
+        <value>
+            کاربران می‌بایست در هنگام ثبت‌نام یک تصویر بارگذاری کنند
+        </value>
+    </key>
+    <key name="language">
+        <value>
+            زبان
+        </value>
+    </key>
+    <key name="languages_page_heading">
+        <value>
+            زبان
+        </value>
+    </key>
+    <key name="languages_values_updated">
+        <value>
+            مقدارها به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="language_activated">
+        <value>
+            زبان فعال شد
+        </value>
+    </key>
+    <key name="language_deactivated">
+        <value>
+            زبان غیرفعال شد
+        </value>
+    </key>
+    <key name="language_deleted">
+        <value>
+            زبان حذف گردید
+        </value>
+    </key>
+    <key name="language_edit_form_error_message">
+        <value>
+            ویرایش زبان ناموفق بود، لطفا دوباره امتحان کنید
+        </value>
+    </key>
+    <key name="language_edit_form_success_message">
+        <value>
+            زبان ویرایش شد، منتظر بمانید
+        </value>
+    </key>
+    <key name="language_import_complete_success_message">
+        <value>
+            بسته زبان(ها) وارد شد
+        </value>
+    </key>
+    <key name="language_search_placeholder">
+        <value>
+            کلید یا ترجمه
+        </value>
+    </key>
+    <key name="lang_edit_form_rtl_desc">
+        <value>
+            اگر جهت متن راست به چپ است این گزینه را انتخاب کنید
+        </value>
+    </key>
+    <key name="lang_edit_form_rtl_label">
+        <value>
+            راستچین
+        </value>
+    </key>
+    <key name="lang_file">
+        <value>
+            فایل زبان:
+        </value>
+    </key>
+    <key name="lang_import_check_all">
+        <value>
+            علامت‌گذاری تمام زبان‌ها برای تمامی افزونه‌ها
+        </value>
+    </key>
+    <key name="license_form_back_label">
+        <value>
+            بازگشت
+        </value>
+    </key>
+    <key name="license_form_button_label">
+        <value>
+            ارسال
+        </value>
+    </key>
+    <key name="license_form_leave_label">
+        <value>
+            بازگشت به فهرست افزونه‌ها
+        </value>
+    </key>
+    <key name="license_form_submit_label">
+        <value>
+            به‌روزرسانی
+        </value>
+    </key>
+    <key name="license_request_text">
+        <value>
+            برای ادامه لطفا کلید مجوز برای مورد {$title} را وارد کنید
+        </value>
+    </key>
+    <key name="local_page">
+        <value>
+            صفحه داخلی
+        </value>
+    </key>
+    <key name="log_sent_successfully">
+        <value>
+            با موفقیت ارسال شد
+        </value>
+    </key>
+    <key name="log_settings_failed_to_update">
+        <value>
+            عدم امکان ذخیره تنظیمات
+        </value>
+    </key>
+    <key name="log_settings_updated">
+        <value>
+            تغییرات با موفقیت ثبت شد
+        </value>
+    </key>
+    <key name="mail_settings_updated">
+        <value>
+            تنطیمات SMTP به‌روز شد
+        </value>
+    </key>
+    <key name="mail_smtp_connection_desc">
+        <value>
+            از آزمایش اتصال SMTP قبل از آغاز استفاده آن برای ارسال رایانامه اطمینان حاصل کنید. در غیر این‌صورت وب‌گاه شما
+            ممکن است فرستادن رایانامه‌ها را به طور کلی متوقف کند.
+        </value>
+    </key>
+    <key name="mail_smtp_connection_prefix">
+        <value>
+            اتصال امن
+        </value>
+    </key>
+    <key name="mail_smtp_connection_prefix_desc">
+        <value>
+            نوع امنیت اتصال SMTP
+        </value>
+    </key>
+    <key name="mail_smtp_secure_invitation">
+        <value>
+            خاموش
+        </value>
+    </key>
+    <key name="mail_smtp_test_connection_btn">
+        <value>
+            اتصال را بررسی کن
+        </value>
+    </key>
+    <key name="mail_smtp_test_connection_title">
+        <value>
+            امتحان کردن اتصال SMTP
+        </value>
+    </key>
+    <key name="mail_smtp_title_enabled">
+        <value>
+            فعال‌سازی
+        </value>
+    </key>
+    <key name="mail_smtp_title_enabled_desc">
+        <value>
+            لطفا اگر طریقه کار را نمی‌دانید آن‌را فعال نکنید، چون ممکن است وب‌گاه شما دیگر رایانامه نفرستد
+        </value>
+    </key>
+    <key name="mail_smtp_title_host">
+        <value>
+            میزبان: دروازه
+        </value>
+    </key>
+    <key name="mail_smtp_title_password">
+        <value>
+            گذرواژه
+        </value>
+    </key>
+    <key name="mail_smtp_title_user">
+        <value>
+            نام کاربری
+        </value>
+    </key>
+    <key name="mail_template_admin_invalid_license_content_html">
+        <value>
+             
+        </value>
+    </key>
+    <key name="mail_template_admin_invalid_license_content_text">
+        <value>
+             
+        </value>
+    </key>
+    <key name="mail_template_admin_invalid_license_subject">
+        <value>
+            هشدار در مورد افزونه/پوسته بدون مجوز
+        </value>
+    </key>
+    <key name="mail_template_admin_invalid_license_subject'">
+        <value>
+            هشدار در مورد افزونه/پوسته بدون مجوز
+        </value>
+    </key>
+    <key name="mail_template_admin_invite_user_content_html">
+        <value>
+            &lt;p&gt; سلام &lt;br/&gt; &lt;p&gt;  &lt;br/&gt; &lt;a href="{$avatar}"&gt;{$name}&lt;/a&gt; شما را دعوت کرده است تا به {$site_name}  بپیوندید. شما می توانید با استفاده از پیوند زیر وارد بخش ثبت‌نام شوید: &lt;br /&gt; &lt;a href="{$url}"&gt;ثبت‌نام&lt;/a&gt;
+        </value>
+    </key>
+    <key name="mail_template_admin_invite_user_content_text">
+        <value>
+            سلام ،&#13;
+&#13;
+&#13;
+&#13;
+     شما را دعوت کرده است تا به &lt;a href="{$avatar}"&gt;{$name}&lt;/a&gt; {$site_name}  بپیوندید.&#13;
+&#13;
+    شما می توانید با استفاده از پیوند زیر وارد بخش ثبت‌نام شوید:&#13;
+&#13;
+    {$url}&#13;
+&#13;
+&#13;
+&#13;
+    گروه توسعه&#13;
+&#13;
+    {$site_url}
+        </value>
+    </key>
+    <key name="mail_template_admin_invite_user_subject">
+        <value>
+            دعوت به {$site_name}
+        </value>
+    </key>
+    <key name="maintenance_enable_desc">
+        <value>
+            &lt;p&gt;این امکان وب‌گاه شما را از دسترس خارج می‌کند و به همه پیام تعمیراتی را نمایش می‌دهد&lt;/p&gt;&#13;
+            &lt;b&gt;ولی شما همچنان قادر خواهید بود که از این نشانی وارد شوید &lt;a href="{$site_url}sign-in"&gt;{$site_url}sign-in&lt;/a&gt;&lt;/b&gt;
+        </value>
+    </key>
+    <key name="maintenance_enable_label">
+        <value>
+            وب‌گاه خود را غیرفعال کنید تا صفحه تعمیر و نگهداری نمایش داده شود
+        </value>
+    </key>
+    <key name="maintenance_page_heading">
+        <value>
+            صفحات ویژه
+        </value>
+    </key>
+    <key name="maintenance_page_title">
+        <value>
+            صفحه نگهداری و تعمیر
+        </value>
+    </key>
+    <key name="maintenance_section_label">
+        <value>
+            صفحه تعمیر و نگهداری
+        </value>
+    </key>
+    <key name="maintenance_submit_success_message">
+        <value>
+            وضعیت تعمیر و نگهداری تغییر کرد
+        </value>
+    </key>
+    <key name="maintenance_text_desc">
+        <value>
+            HTML‌ مجاز است
+        </value>
+    </key>
+    <key name="maintenance_text_label">
+        <value>
+            پیام تعمیر و نگهداری
+        </value>
+    </key>
+    <key name="maintenance_text_value">
+        <value>
+            &lt;h1 class="ow_stdmargin ow_ic_gear_wheel"&gt;در حال تعمیر&lt;/h1&gt;&#13;
+            &lt;center&gt;&lt;b&gt;&#13;
+            با عرض پوزش، وب‌گاه در دست تعمیر و نگهداری است و به زودی آماده خدمت‌رسانی مجدد به شما کاربران خواهد بود.&lt;/b&gt;&lt;/center&gt;
+        </value>
+    </key>
+    <key name="main_menu_admin">
+        <value>
+            مدیریت
+        </value>
+    </key>
+    <key name="main_menu_item">
+        <value>
+            مدیر
+        </value>
+    </key>
+    <key name="main_settings_updated">
+        <value>
+            تنظیمات به‌روز رسانی شده است
+        </value>
+    </key>
+    <key name="manage_plugins_activate_button_label">
+        <value>
+            فعال‌سازی
+        </value>
+    </key>
+    <key name="manage_plugins_activate_success_message">
+        <value>
+            افزونه {$plugin} فعال شد
+        </value>
+    </key>
+    <key name="manage_plugins_active_box_cap_label">
+        <value>
+            افزونه‌های فعال
+        </value>
+    </key>
+    <key name="manage_plugins_add_box_cap_label">
+        <value>
+            بارگذاری افزونه (فایل zip)
+        </value>
+    </key>
+    <key name="manage_plugins_add_empty_field_error_message">
+        <value>
+            بایگانی افزونه نامعتبر است
+        </value>
+    </key>
+    <key name="manage_plugins_add_ftp_move_error">
+        <value>
+            نمی‌تواند بایگانی را با FTP بارگذاری کند
+        </value>
+    </key>
+    <key name="manage_plugins_add_license_label">
+        <value>
+            افزودن مجوز
+        </value>
+    </key>
+    <key name="manage_plugins_add_size_error_message">
+        <value>
+            انداره فایل بیشتر از حد مجاز سرویس دهنده {$limit} مگابایت است
+        </value>
+    </key>
+    <key name="manage_plugins_available_box_cap_label">
+        <value>
+            افزونه‌های موجود برای نصب
+        </value>
+    </key>
+    <key name="manage_plugins_batch_update_success_message">
+        <value>
+            افزونه‌ها با موفقیت به‌روزرسانی شدند
+        </value>
+    </key>
+    <key name="manage_plugins_core_update_request_box_cap_label">
+        <value>
+            درخواست به‌روزرسانی هسته
+        </value>
+    </key>
+    <key name="manage_plugins_core_update_request_text">
+        <value>
+            آیا از به‌روزرسانی هسته از نسخه &lt;b&gt;{$oldVersion}&lt;/b&gt; به &lt;b&gt;{$newVersion}&lt;/b&gt; اطمینان دارید؟{$info}
+        </value>
+    </key>
+    <key name="manage_plugins_core_update_request_text_manually">
+        <value>
+            کدهای نرم‌افزار شما از نسخه &lt;b&gt;{$oldVersion}&lt;/b&gt; به &lt;b&gt;{$newVersion}&lt;/b&gt; به‌روزرسانی شده‌اند. حال می‌بایست پایگاه داده نیز به‌روزرسانی شود. {$info}
+        </value>
+    </key>
+    <key name="manage_plugins_deactivate_button_label">
+        <value>
+            غیرفعال‌سازی
+        </value>
+    </key>
+    <key name="manage_plugins_deactivate_success_message">
+        <value>
+            افزونه {$plugin} غیرفعال شد
+        </value>
+    </key>
+    <key name="manage_plugins_delete_button_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="manage_plugins_delete_confirm_message">
+        <value>
+            آیا از حذف افزونه {$pluginName} به طور کامل اطمینان دارید؟
+        </value>
+    </key>
+    <key name="manage_plugins_delete_success_message">
+        <value>
+            افزونه {$plugin} حذف گردید
+        </value>
+    </key>
+    <key name="manage_plugins_ftp_box_cap_label">
+        <value>
+            ویژگی‌ها را وارد کنید
+        </value>
+    </key>
+    <key name="manage_plugins_inactive_box_cap_label">
+        <value>
+            افزونه‌های غیر‌فعال
+        </value>
+    </key>
+    <key name="manage_plugins_install_button_label">
+        <value>
+            نصب
+        </value>
+    </key>
+    <key name="manage_plugins_install_empty_key_error_message">
+        <value>
+            نصب افزونه امکان‌پذیر نیست زیرا شناسه یکتا برای این افزونه وجود ندارد
+        </value>
+    </key>
+    <key name="manage_plugins_install_error_message">
+        <value>
+            شناسه افزونه نامعتبر وارد شده است - {$key}
+        </value>
+    </key>
+    <key name="manage_plugins_install_success_message">
+        <value>
+            افزونه {$plugin} با موفقیت نصب شد
+        </value>
+    </key>
+    <key name="manage_plugins_manual_update_request">
+        <value>
+            کدهای افزونه &lt;i&gt;{$name}&lt;/i&gt; به‌روزرسانی شد، اکنون نیاز است تا پایگاه داده افزونه به‌روزرسانی شود
+        </value>
+    </key>
+    <key name="manage_plugins_plugin_not_found">
+        <value>
+            افزونه یافت نشد
+        </value>
+    </key>
+    <key name="manage_plugins_settings_button_label">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="manage_plugins_uninstall_button_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="manage_plugins_uninstall_confirm_message">
+        <value>
+            آیا از حذف افزونه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="manage_plugins_uninstall_error_message">
+        <value>
+            خطا در حذف افزونه
+        </value>
+    </key>
+    <key name="manage_plugins_uninstall_request_box_cap_label">
+        <value>
+            درخواست حذف افزونه
+        </value>
+    </key>
+    <key name="manage_plugins_uninstall_request_inactive">
+        <value>
+            این افزونه غیرفعال است. در صورت حذف آن، ممکن است داده‌های مرتبط به این افزونه در بخش‌های دیگر حذف نشود. توصیه می‌شود ابتدا افزونه را فعال کرده و سپس حذف نمایید.
+        </value>
+    </key>
+    <key name="manage_plugins_uninstall_success_message">
+        <value>
+            افزونه {$plugin} با موفقیت حذف گردید
+        </value>
+    </key>
+    <key name="manage_plugins_update_button_label">
+        <value>
+            به‌روزرسانی
+        </value>
+    </key>
+    <key name="manage_plugins_update_all">
+        <value>
+            به‌روزرسانی افزونه‌های فعال به آخرین نسخه
+        </value>
+    </key>
+    <key name="manage_plugins_update_process_error">
+        <value>
+            نمی‌تواند افزونه را به‌روزرسانی کند
+        </value>
+    </key>
+    <key name="manage_plugins_update_request_box_cap_label">
+        <value>
+            درخواست به‌روزرسانی افزونه
+        </value>
+    </key>
+    <key name="manage_plugins_update_success_message">
+        <value>
+            افزونه با موفقیت به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="manage_plugins_up_to_date_message">
+        <value>
+            افزونه به‌روز است
+        </value>
+    </key>
+    <key name="manage_plugin_add_extract_error">
+        <value>
+            فایل افزونه معتبر نیست
+        </value>
+    </key>
+    <key name="manage_plugin_add_move_file_error">
+        <value>
+            خطا در انتقال فایل آپلود شده به سرور
+        </value>
+    </key>
+    <key name="manage_plugin_cant_add_duplicate_key_error">
+        <value>
+            افزونه افزوده نمی‌شود. خطای تکرار در کلید افزونه
+        </value>
+    </key>
+    <key name="manage_themes_add_empty_field_error_message">
+        <value>
+            بایگانی پوسته نامعتبراست
+        </value>
+    </key>
+    <key name="manage_themes_theme_not_found">
+        <value>
+            پوسته پیدا نشد
+        </value>
+    </key>
+    <key name="manage_themes_update_process_error">
+        <value>
+            به‌روزرسانی پوسته امکان‌پذیر نیست
+        </value>
+    </key>
+    <key name="manage_themes_update_request_box_cap_label">
+        <value>
+            درخواست به‌روزرسانی پوسته
+        </value>
+    </key>
+    <key name="manage_themes_update_success_message">
+        <value>
+            پوسته با موفقیت به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="manage_themes_up_to_date_message">
+        <value>
+            پوسته به‌روز است
+        </value>
+    </key>
+    <key name="manage_theme_activate_invalid_license_key">
+        <value>
+            شناسه مجوز خالی یا نامعتبر است
+        </value>
+    </key>
+    <key name="manage_theme_add_extract_error">
+        <value>
+            لطفا فایل معتبر پوسته را بارگذاری کنید
+        </value>
+    </key>
+    <key name="mark_featured">
+        <value>
+            علامت‌گذاری به عنوان ویژه
+        </value>
+    </key>
+    <key name="massmailing">
+        <value>
+            رایانامه دسته جمعی
+        </value>
+    </key>
+    <key name="massmailing_body_label">
+        <value>
+            متن پیام رایانامه
+        </value>
+    </key>
+    <key name="massmailing_compose_email">
+        <value>
+            نوشتن رایانشانی
+        </value>
+    </key>
+    <key name="massmailing_email_format_html">
+        <value>
+            HTML
+        </value>
+    </key>
+    <key name="massmailing_email_format_label">
+        <value>
+            فرمت رایانامه
+        </value>
+    </key>
+    <key name="massmailing_email_format_text">
+        <value>
+            متن
+        </value>
+    </key>
+    <key name="massmailing_expire_text">
+        <value>
+            شما &lt;b&gt;{$hours}&lt;/b&gt; ساعت دیگر می‌توانید رایانامه دسته جمعی ارسال کنید
+        </value>
+    </key>
+    <key name="massmailing_following_variables_text">
+        <value>
+            شما می‌توانید هریک از متغیر‌های زیر که برای هر کاربر به صورت مختص خودش نوشته و ارسال می‌شود را در متن رایانامه خود استفاده کنید.به عنوان مثال در صورتی که از{$user_name} استفاده کنید برای هر کاربر نام خودش در رایانامه ارسال شده درج و نشان داده خواهد شد.  برای درج این متغیر روی آن کلیک کرده و یا آن را بکشید و در محل مورد نظر رها کنید.
+        </value>
+    </key>
+    <key name="massmailing_ignore_unsubscribe_label">
+        <value>
+            الویت ثبت نشده‌ها را نادیده بگیر
+        </value>
+    </key>
+    <key name="massmailing_preview_label">
+        <value>
+            پیش‌نمایش
+        </value>
+    </key>
+    <key name="massmailing_send_mails_message">
+        <value>
+            {$count} رایانشانی فرستاده شد
+        </value>
+    </key>
+    <key name="massmailing_start_mailing_button">
+        <value>
+            شروع ارسال رایانشانی
+        </value>
+    </key>
+    <key name="massmailing_subject_label">
+        <value>
+            موضوع
+        </value>
+    </key>
+    <key name="massmailing_total_members">
+        <value>
+            &lt;b&gt;تعداد کل کاربران فعال&lt;/b&gt; &lt;i&gt;{$count}&lt;/i&gt; است
+        </value>
+    </key>
+    <key name="massmailing_unsubscribe_link_html">
+        <value>
+            &lt;br /&gt;&#13;
+            &lt;br /&gt;&#13;
+            برای خارج شدن از فهرست رایانشانی اینجا &lt;a href="{$link}" &gt;کلیک کنید&lt;/a&gt;
+        </value>
+    </key>
+    <key name="massmailing_unsubscribe_link_text">
+        <value>
+            :برای خارج شدن از فهرست رایانشانی اینجا کلیک کنید&#13;
+            {$link}
+        </value>
+    </key>
+    <key name="massmailing_user_roles_label">
+        <value>
+            نقش‌های کاربر
+        </value>
+    </key>
+    <key name="massmailing_user_section_label">
+        <value>
+            انتخاب کاربر
+        </value>
+    </key>
+    <key name="menu_item_basics">
+        <value>
+            پایه
+        </value>
+    </key>
+    <key name="menu_item_mail_settings">
+        <value>
+            SMTP
+        </value>
+    </key>
+    <key name="menu_item_page_settings">
+        <value>
+            تنظیمات صفحه
+        </value>
+    </key>
+    <key name="menu_item_users_recently_active">
+        <value>
+            آخرین کاربران فعال
+        </value>
+    </key>
+    <key name="menu_item_users_suspended">
+        <value>
+            کاربران معلق شده
+        </value>
+    </key>
+    <key name="menu_item_users_unapproved">
+        <value>
+            در انتظار تایید مدیر
+        </value>
+    </key>
+    <key name="menu_item_users_unverified">
+        <value>
+در انتظار تایید رایانامه
+        </value>
+    </key>
+    <key name="menu_item_user_input_settings">
+        <value>
+            تنظیمات داده‌های کاربر
+        </value>
+    </key>
+    <key name="menu_item_user_roles">
+        <value>
+            نقش‌های کاربر
+        </value>
+    </key>
+    <key name="menu_item_user_settings">
+        <value>
+            تنظیمات کاربری
+        </value>
+    </key>
+    <key name="menu_item_user_settings_content_input">
+        <value>
+            ورودی مطالب
+        </value>
+    </key>
+    <key name="menu_item_user_settings_general">
+        <value>
+            پایه
+        </value>
+    </key>
+    <key name="missing_keys2">
+        <value>
+            کلیدهای گم شده
+        </value>
+    </key>
+    <key name="missing_text">
+        <value>
+            متن گم شده
+        </value>
+    </key>
+    <key name="mobile_settings_mobile_context_disable_desc">
+        <value>
+             &amp;nbsp; 
+        </value>
+    </key>
+    <key name="mobile_settings_mobile_context_disable_label">
+        <value>
+            غیرفعال‌سازی نسخه موبایل وب‌گاه
+        </value>
+    </key>
+    <key name="mobile_settings_tabe_heading">
+        <value>
+            عمومی
+        </value>
+    </key>
+    <key name="mobile_theme_css_edit_css_box_cap_label">
+        <value>
+            ویرایش CSS نسخه تلفن‌همراه
+        </value>
+    </key>
+    <key name="msg_dublicate_key">
+        <value>
+            با عرض پوزش، کلید از قبل وجود دارد
+        </value>
+    </key>
+    <key name="msg_lang_cloned">
+        <value>
+            رونوشت شد
+        </value>
+    </key>
+    <key name="msg_lang_clone_failed">
+        <value>
+            رونوشت از زبان ناموفق بود
+        </value>
+    </key>
+    <key name="msg_lang_invalid_language_tag">
+        <value>
+            برچسب ISO معتبر نیست
+        </value>
+    </key>
+    <key name="msg_one_active_constraint">
+        <value>
+            دست‌کم باید یک زبان فعال باشد
+        </value>
+    </key>
+    <key name="my_profile_heading">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="notification_plugins_to_update">
+        <value>
+            به‌روزرسانی جدید برای  &lt;b&gt;{$count}&lt;/b&gt; افزونه در دسترس است. &lt;a href="{$link}"&gt;مشاهده&lt;/a&gt;
+        </value>
+    </key>
+    <key name="notification_soft_update">
+        <value>
+            به‌روزرسانی برای نرم‌افزار در دسترس است. &lt;a href="{$link}"&gt;به‌روزرسانی کنید&lt;/a&gt;
+        </value>
+    </key>
+    <key name="notification_themes_to_update">
+        <value>
+            به‌روزرسانی چدید برای  &lt;b&gt;{$count}&lt;/b&gt; پوسته در دسترس است. &lt;a href="{$link}"&gt;مشاهده&lt;/a&gt;
+        </value>
+    </key>
+    <key name="not_all_photos_uploaded">
+        <value>
+            برخی از تصاویر به دلیل اندازه بیش از حد یا نوع اشتباه بارگذاری نشدند
+        </value>
+    </key>
+    <key name="not_enough_params">
+        <value>
+            پارامترها کافی نیست
+        </value>
+    </key>
+    <key name="no_items">
+        <value>
+            موردی موجود نیست
+        </value>
+    </key>
+    <key name="no_photo_selected">
+        <value>
+            تصویری انتخاب نشده است
+        </value>
+    </key>
+    <key name="no_photo_uploaded">
+        <value>
+            به دلیل اندازه بیش از حد یا نوع اشتباه هیچ تصویری به‌روزرسانی نشد
+        </value>
+    </key>
+    <key name="no_plugins_for_manual_updates">
+        <value>
+            افزونه‌ای برای به‌روزرسانی دستی یافت نشد
+        </value>
+    </key>
+    <key name="no_users">
+        <value>
+            کاربری نیست
+        </value>
+    </key>
+    <key name="no_values">
+        <value>
+            مقداری وجود ندارد
+        </value>
+    </key>
+    <key name="of">
+        <value>
+            از
+        </value>
+    </key>
+    <key name="or">
+        <value>
+            یا
+        </value>
+    </key>
+    <key name="original_value">
+        <value>
+            کلید: {$label} ({$tag})
+        </value>
+    </key>
+    <key name="pages_add_menu_name">
+        <value>
+            نام منو
+        </value>
+    </key>
+    <key name="pages_add_page_content">
+        <value>
+            محتوای صفحه
+        </value>
+    </key>
+    <key name="pages_and_menus_bottom_menu_label">
+        <value>
+            منوهای پایینی
+        </value>
+    </key>
+    <key name="pages_and_menus_hidden_desc">
+        <value>
+            این صفحه‌ها در واقع وجود دارند ولی در وب‌گاه نمایش داده نمی‌شوند،
+            بخش‌هایی را که می‌خواهید نمایش داده شود &lt;span class="ow_highlight"&gt; بکشید و رها&lt;/span&gt; کنید.
+        </value>
+    </key>
+    <key name="pages_and_menus_hidden_pages_label">
+        <value>
+            صفحه‌های پنهان
+        </value>
+    </key>
+    <key name="pages_and_menus_instructions">
+        <value>
+            شما می‌توانید صفحات و بخش‌های منو که در وب‌گاه شما وجود دارند را مشاهده کنید. بعضی از صفحات را شما به‌وجود
+            آورده‌اید و بعضی دیگر صفحاتی هستند که به‌وسیله افزونه فعال شده است، برای تغییر مکان منو‌ها شما باید &lt;span class="ow_highlight"&gt;بکشید و رها&lt;/span&gt; کنید.
+        </value>
+    </key>
+    <key name="pages_and_menus_item_label">
+        <value>
+            بخش
+        </value>
+    </key>
+    <key name="pages_and_menus_legend_everyone_label">
+        <value>
+            همه می‌توانند مشاهده کنند
+        </value>
+    </key>
+    <key name="pages_and_menus_legend_guests_label">
+        <value>
+            تنها مهمانان می‌توانند مشاهده کنند
+        </value>
+    </key>
+    <key name="pages_and_menus_legend_label">
+        <value>
+            شرح رنگ صفحات
+        </value>
+    </key>
+    <key name="pages_and_menus_legend_members_label">
+        <value>
+            تنها اعضا می‌توانند مشاهده کنند
+        </value>
+    </key>
+    <key name="pages_and_menus_main_menu_label">
+        <value>
+            منو اصلی
+        </value>
+    </key>
+    <key name="pages_edit_external_menu_name_label">
+        <value>
+            نام منو
+        </value>
+    </key>
+    <key name="pages_edit_external_url_label">
+        <value>
+            نشانی
+        </value>
+    </key>
+    <key name="pages_edit_external_url_open_in_new_window">
+        <value>
+            باز شدن در پنجره جدید
+        </value>
+    </key>
+    <key name="pages_edit_external_visible_for">
+        <value>
+            قابل مشاهده برای
+        </value>
+    </key>
+    <key name="pages_edit_local_menu_name">
+        <value>
+            نام منو
+        </value>
+    </key>
+    <key name="pages_edit_local_page_content">
+        <value>
+            محتوای صفحه
+        </value>
+    </key>
+    <key name="pages_edit_local_page_title">
+        <value>
+            عنوان صفحه
+        </value>
+    </key>
+    <key name="pages_edit_local_page_url">
+        <value>
+            نشانی
+        </value>
+    </key>
+    <key name="pages_edit_local_visible_for">
+        <value>
+            قابل مشاهده برای
+        </value>
+    </key>
+    <key name="pages_edit_visible_for_guests">
+        <value>
+            مهمانان
+        </value>
+    </key>
+    <key name="pages_edit_visible_for_members">
+        <value>
+            کاربران ثبت نام کرده
+        </value>
+    </key>
+    <key name="pages_new_form_or">
+        <value>
+            یا
+        </value>
+    </key>
+    <key name="pages_page_field_content_desc">
+        <value>
+            از HTML پشتیبانی می‌کند
+        </value>
+    </key>
+    <key name="pages_page_field_meta_desc">
+        <value>
+            فرا برچسب‌های بیشتر برای بخش بالایی صفحه
+        </value>
+    </key>
+    <key name="pages_page_heading">
+        <value>
+            مدیریت صفحات
+        </value>
+    </key>
+    <key name="page_add_page_address">
+        <value>
+            نشانی صفحه
+        </value>
+    </key>
+    <key name="page_default_heading">
+        <value>
+            مدیریت {$site_name}
+        </value>
+    </key>
+    <key name="page_default_title">
+        <value>
+            صفحه مدیریت {$site_name}
+        </value>
+    </key>
+    <key name="page_note_part_1">
+        <value>
+            کشیدن و رها کردن
+        </value>
+    </key>
+    <key name="page_note_part_2">
+        <value>
+            &lt;br /&gt;ترتیب زبان برای نمایش در وب‌گاه. اولین زبان به عنوان زبان پیش‌فرض وب‌گاه شما انتخاب می‌شود
+        </value>
+    </key>
+    <key name="page_settings_favicon_submit_error_message">
+        <value>
+            تصویر باید در فرمت معتبر ICO باشد
+        </value>
+    </key>
+    <key name="page_settings_form_bottomcode_desc">
+        <value>
+            کد HTML درست قبل از بستن برچسب &lt;/BODY&gt; افزوده می‌شود ( Javascript سفارشی شده).
+        </value>
+    </key>
+    <key name="page_settings_form_bottomcode_label">
+        <value>
+            شخصی‌سازی کد
+        </value>
+    </key>
+    <key name="page_settings_form_favicon_desc">
+        <value>
+            تصویر وب‌گاه با فرمت Ico با انداره 16 در 16
+        </value>
+    </key>
+    <key name="page_settings_form_favicon_label">
+        <value>
+            شمایل وب‌گاه (فاوآیکن)
+        </value>
+    </key>
+    <key name="page_settings_form_headcode_desc">
+        <value>
+            کد‌های HTML در قسمت "head" افزوده می‌شود ( Javascript/CSS یا METAهای سفارشی شده).
+        </value>
+    </key>
+    <key name="page_settings_form_headcode_label">
+        <value>
+            سفارشی‌سازی کد در قسمت سرآیند
+        </value>
+    </key>
+    <key name="page_settings_no_favicon_label">
+        <value>
+            شمایل وب‌گاه (فاوآیکن) تخصیص داده نشده است. برای انتخاب شمایل وب‌گاه، ابتدا این ویژگی را فعال و سپس شمایل مورد نظر خود را بارگذاری کنید.
+        </value>
+    </key>
+    <key name="page_title_add_new_plugin">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="page_title_available_plugins">
+        <value>
+            افزونه‌های در دسترس
+        </value>
+    </key>
+    <key name="page_title_finance">
+        <value>
+            سرمایه گذاری
+        </value>
+    </key>
+    <key name="page_title_manage_plugins">
+        <value>
+            افزونه‌های نصب شده
+        </value>
+    </key>
+    <key name="page_title_manage_plugins_ftp_info">
+        <value>
+            ویژگی‌های اف تی پی
+        </value>
+    </key>
+    <key name="page_title_mobile_menus">
+        <value>
+            منو موبایل
+        </value>
+    </key>
+    <key name="pending_approval">
+        <value>
+            در انتظار تایید. . .
+        </value>
+    </key>
+    <key name="period">
+        <value>
+            دوره زمانی
+        </value>
+    </key>
+    <key name="permissions">
+        <value>
+            حریم خصوصی
+        </value>
+    </key>
+    <key name="permissions_add_form_role_lbl">
+        <value>
+            نام نقش:
+        </value>
+    </key>
+    <key name="permissions_add_role_btn">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="permissions_are_you_sure">
+        <value>
+            آیا مطمئن هستید؟
+        </value>
+    </key>
+    <key name="permissions_check_all_selected">
+        <value>
+            انتخاب همه | انتخاب شده:
+        </value>
+    </key>
+    <key name="permissions_default_role">
+        <value>
+            پیش‌فرض
+        </value>
+    </key>
+    <key name="permissions_delete_confirmation">
+        <value>
+            آیا مایل هستید این نقش حذف شود؟
+        </value>
+    </key>
+    <key name="permissions_delete_role">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="permissions_edit_role">
+        <value>
+            ویرایش نقش
+        </value>
+    </key>
+    <key name="permissions_edit_role_btn">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="permissions_feedback_cant_remove_moder">
+        <value>
+            قبل از این‌که بتوانید ناظم‌ را به طور کامل حذف کنید، باید دسترسی‌ مدیر او را لغو کنید
+        </value>
+    </key>
+    <key name="permissions_feedback_moderator_added">
+        <value>
+            ناظم افزوده شد
+        </value>
+    </key>
+    <key name="permissions_feedback_user_is_already_moderator">
+        <value>
+            {$username} قبلا ناظم شده است
+        </value>
+    </key>
+    <key name="permissions_feedback_user_kicked_from_moders">
+        <value>
+            کاربر از بخش ناظم‌های وب‌گاه حذف شد
+        </value>
+    </key>
+    <key name="permissions_feedback_user_not_found">
+        <value>
+            کاربر یافت نشد
+        </value>
+    </key>
+    <key name="permissions_go_to_permissions_page">
+        <value>
+            به &lt;a href="{$url}"&gt; صفحه دسترسی‌ها &lt;/a&gt; بروید، تا تعیین کنید کدام ویژگی‌ها برای نقش‌های کاربری
+            خاص فعال باشد
+        </value>
+    </key>
+    <key name="permissions_go_to_role_management_page">
+        <value>
+            برای ساختن، ویرایش و حذف نقش‌های کاربر به &lt;a href="{$url}"&gt; صفحه مدیریت نقش &lt;/a&gt; بروید
+        </value>
+    </key>
+    <key name="permissions_idex_if_not_yes_will_override_settings">
+        <value>
+            درصورت انتخاب گزینه «بله»، تمامی تنظیمات دسترسی نادیده گرفته خواهند شد
+        </value>
+    </key>
+    <key name="permissions_index">
+        <value>
+            تنظیمات کلی حریم خصوصی
+        </value>
+    </key>
+    <key name="permissions_index_admin_only_can_invate">
+        <value>
+            فقط مدیریت
+        </value>
+    </key>
+    <key name="permissions_index_all_users_can_invate">
+        <value>
+            همه کاربران
+        </value>
+    </key>
+    <key name="permissions_index_anyone_can_join">
+        <value>
+            هر کس
+        </value>
+    </key>
+    <key name="permissions_index_by_invitation_only_can_join">
+        <value>
+            تنها با دعوت‌نامه من
+        </value>
+    </key>
+    <key name="permissions_index_guests_can_view_site">
+        <value>
+            مهمانان می‌توانند وب‌گاه را مشاهده کنند
+        </value>
+    </key>
+    <key name="permissions_index_mandatory_member_approve">
+        <value>
+            اجباری ساختن تایید کاربر
+        </value>
+    </key>
+    <key name="permissions_index_moders_approve_members_manually">
+        <value>
+            قبل از این‌که کاربران اجازه ورود پیدا کنند، ناظم‌ها باید آن‌ها را تایید کنند
+        </value>
+    </key>
+    <key name="permissions_index_no">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="permissions_index_save">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="permissions_index_user_approve">
+        <value>
+            اجباری ساختن تایید کاربر
+        </value>
+    </key>
+    <key name="permissions_index_who_can_invite">
+        <value>
+            کسی که می‌تواند دعوت کند:
+        </value>
+    </key>
+    <key name="permissions_index_who_can_join">
+        <value>
+            کسانی که می‌توانند عضو شوند:
+        </value>
+    </key>
+    <key name="permissions_index_with_password">
+        <value>
+            با گذرواژه:
+        </value>
+    </key>
+    <key name="permissions_index_yes">
+        <value>
+            بله
+        </value>
+    </key>
+    <key name="permissions_moderators">
+        <value>
+            ناظم‌ها
+        </value>
+    </key>
+    <key name="permissions_moders_add_moder">
+        <value>
+            ناظم جدید بیفزایید
+        </value>
+    </key>
+    <key name="permissions_moders_content">
+        <value>
+            کاربر
+        </value>
+    </key>
+    <key name="permissions_moders_make_moderator">
+        <value>
+            ناظم وب‌گاه شود
+        </value>
+    </key>
+    <key name="permissions_moders_username">
+        <value>
+            نام کاربری
+        </value>
+    </key>
+    <key name="permissions_number_of_users">
+        <value>
+            # از اعضا
+        </value>
+    </key>
+    <key name="permissions_page_heading">
+        <value>
+            حریم و دسترسی‌ها
+        </value>
+    </key>
+    <key name="permissions_please_select_role">
+        <value>
+            حداقل یک نفش انتخاب کنید
+        </value>
+    </key>
+    <key name="permissions_roles">
+        <value>
+            نقش‌های کاربر
+        </value>
+    </key>
+    <key name="permissions_roles_deleted_msg">
+        <value>
+            نقش(ها) حذف شد
+        </value>
+    </key>
+    <key name="permissions_role_actions_label">
+        <value>
+            ویژگی‌ها
+        </value>
+    </key>
+    <key name="permissions_role_added_msg">
+        <value>
+            نقش جدید افزوده شد
+        </value>
+    </key>
+    <key name="permissions_role_updated">
+        <value>
+            نقش به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="permissions_successfully_updated">
+        <value>
+            دسترسی‌ها با موفقیت به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="permissions_user_role">
+        <value>
+            نقش کاربر
+        </value>
+    </key>
+    <key name="permission_global_privacy_empty_pass_error_message">
+        <value>
+            گذرواژه را وارد کنید
+        </value>
+    </key>
+    <key name="permission_global_privacy_pass_length_error_message">
+        <value>
+            لطفا گذرواژه معتبر وارد کنید(کمینه 3 کاراکتر مختلف)
+        </value>
+    </key>
+    <key name="permission_global_privacy_settings_success_message">
+        <value>
+            تنظیمات ذخیره شد
+        </value>
+    </key>
+    <key name="photos_uploaded">
+        <value>
+            {$count} تصویر بارگذاری شده است
+        </value>
+    </key>
+    <key name="photo_upload_error">
+        <value>
+            خطا در بارگذاری تصویر
+        </value>
+    </key>
+    <key name="please_wait">
+        <value>
+            لطفا منتظر بمانید تا تصویر بارگذاری شود
+        </value>
+    </key>
+    <key name="plugin">
+        <value>
+            افزونه
+        </value>
+    </key>
+    <key name="plugins_manage_add_submit_label">
+        <value>
+            بارگذاری
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_attrs_invalid_host_message">
+        <value>
+            اتصال با شکست مواجه شد، لطفا اطلاعات دروازه و دسترسی به‌ میزبان را بررسی کنید
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_attrs_invalid_login_params_message">
+        <value>
+            اطلاعات نامعتبر برای دسترسی به FTP وارد شده است
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_attrs_invalid_user">
+        <value>
+            خطای FTP! کاربر اجازه بازنویسی فایل‌ها را ندارد
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_form_host_label">
+        <value>
+            میزبان
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_form_login_label">
+        <value>
+            ورود
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_form_password_label">
+        <value>
+            گذرواژه
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_form_port_label">
+        <value>
+            دروازه
+        </value>
+    </key>
+    <key name="plugins_manage_ftp_form_submit_label">
+        <value>
+            وارد کردن
+        </value>
+    </key>
+    <key name="plugins_manage_invalid_license_key_error_message">
+        <value>
+            لطفا کلید مجوز معتبر وارد کنید
+        </value>
+    </key>
+    <key name="plugins_manage_license_key_check_success">
+        <value>
+            شناسه مجوز اعتبار سنجی شد
+        </value>
+    </key>
+    <key name="plugins_manage_need_ftp_attrs_message">
+        <value>
+            برای کامل شدن عملیات دسترسی، به FTP نیاز است
+        </value>
+    </key>
+    <key name="plugins_manage_no_available_items">
+        <value>
+            شما افزونه در دسترسی ندارید
+        </value>
+    </key>
+    <key name="plugin_manual_update_all_button_label">
+        <value>
+            به‌روزرسانی تمام افزونه‌ها
+        </value>
+    </key>
+    <key name="plugin_manual_update_button_label">
+        <value>
+            به‌روزرسانی
+        </value>
+    </key>
+    <key name="plugin_uninstall_request_text">
+        <value>
+            آیا از حذف افزونه {$name} اطمینان دارید؟
+        </value>
+    </key>
+    <key name="plugin_update_download_error">
+        <value>
+            فایل به‌روزرسانی غیر معتبر یا خالی است
+        </value>
+    </key>
+    <key name="plugin_update_no_button_label">
+        <value>
+            خیر
+        </value>
+    </key>
+    <key name="plugin_update_platform_avail_yes_button_label">
+        <value>
+            بله (توصیه نمی‌شود)
+        </value>
+    </key>
+    <key name="plugin_update_platform_first_button_label">
+        <value>
+            ابتدا هسته به‌روزرسانی شود
+        </value>
+    </key>
+    <key name="plugin_update_platform_invalid_php_version_back_btn_label">
+        <value>
+             
+        </value>
+    </key>
+    <key name="plugin_update_platform_invalid_php_version_msg">
+        <value>
+             
+        </value>
+    </key>
+    <key name="plugin_update_request_error">
+        <value>
+            افزونه یافت نشد
+        </value>
+    </key>
+    <key name="plugin_update_yes_button_label">
+        <value>
+            بله
+        </value>
+    </key>
+    <key name="possible_values_disable_message">
+        <value>
+            شما نمی‌توانید مقادیر سوال را تغییر دهید
+        </value>
+    </key>
+    <key name="press_ctrl_c">
+        <value>
+             
+        </value>
+    </key>
+    <key name="profile_view_description">
+        <value>
+            مشخصات نمایه {$username} در {$site_name}
+        </value>
+    </key>
+    <key name="questions_account_type_has_exclusive_questions">
+        <value>
+            شما نمی‌توانید یک حساب را درحالی که پرسش‌های مخصوص نمایه به آن تعلق دارد حذف نمایید
+        </value>
+    </key>
+    <key name="questions_account_type_label">
+        <value>
+            نمایش پرسش برای نوع حساب
+        </value>
+    </key>
+    <key name="questions_account_type_was_added">
+        <value>
+            نوع حساب انتخابی افزوده شده
+        </value>
+    </key>
+    <key name="questions_account_type_was_deleted">
+        <value>
+            این نوع حساب حذف گردید
+        </value>
+    </key>
+    <key name="questions_account_type_was_updated">
+        <value>
+            نوع حساب به‌روز شده است
+        </value>
+    </key>
+    <key name="questions_add_account_type">
+        <value>
+            افزودن نوع حساب
+        </value>
+    </key>
+    <key name="questions_add_account_type_title">
+        <value>
+            افزودن نوع حساب
+        </value>
+    </key>
+    <key name="questions_add_edit_type_title">
+        <value>
+            ویرایش نوع حساب
+        </value>
+    </key>
+    <key name="questions_add_new_account_type">
+        <value>
+            افزودن حساب
+        </value>
+    </key>
+    <key name="questions_add_new_question_button">
+        <value>
+            افزودن پرسش جدید
+        </value>
+    </key>
+    <key name="questions_add_new_section_button">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="questions_add_profile_question_title">
+        <value>
+            افزودن پرسش جدید
+        </value>
+    </key>
+    <key name="questions_add_question_button">
+        <value>
+            افزودن پرسش
+        </value>
+    </key>
+    <key name="questions_add_question_message">
+        <value>
+            پرسش افزوده شد
+        </value>
+    </key>
+    <key name="questions_add_question_values_message">
+        <value>
+            {$count} مقدار برای پرسش افزوده شد
+        </value>
+    </key>
+    <key name="questions_add_question_values_title">
+        <value>
+            افزودن مقادیر جدید برای پرسش
+        </value>
+    </key>
+    <key name="questions_add_section_button">
+        <value>
+            افزودن بخش
+        </value>
+    </key>
+    <key name="questions_add_values_description">
+        <value>
+            شما می‌توانید بیشینه تا 31 مقدار بیافزایید
+        </value>
+    </key>
+    <key name="questions_add_values_label">
+        <value>
+            مقداری بیافزایید&#13;
+            (هر خط یکی)
+        </value>
+    </key>
+    <key name="questions_add_values_submit_button">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="questions_admin_add_new_values">
+        <value>
+            مقدارهای جدید بیافزایید
+        </value>
+    </key>
+    <key name="questions_admin_dragndrop_reorder">
+        <value>
+            برای مرتب‌سازی دوباره، بکشید و رها کنید
+        </value>
+    </key>
+    <key name="questions_admin_existing_values">
+        <value>
+            مقدار‌های موجود
+        </value>
+    </key>
+    <key name="questions_answer_type_label">
+        <value>
+            نوع پاسخ
+        </value>
+    </key>
+    <key name="questions_cant_delete_default_account_type">
+        <value>
+            شما نمی‌توانید نوع حساب کاربری پیش‌فرض را حذف کنید
+        </value>
+    </key>
+    <key name="questions_cant_delete_last_account_type">
+        <value>
+            شما نمی‌توانید این نوع حساب را حذف کنید. کمینه باید یک نوع حساب در وب‌گاه موجود باشد.
+        </value>
+    </key>
+    <key name="questions_columns_count_label">
+        <value>
+            تعداد ستون‌ها
+        </value>
+    </key>
+    <key name="questions_config_year_range_label">
+        <value>
+            محدوده سال
+        </value>
+    </key>
+    <key name="questions_delete_account_type_confirmation">
+        <value>
+            به خاطر داشته باشید کاربرانی که این حساب را دارند:
+            1- تمام اطلاعات نمایه مرتبط با این حساب را از دست می‌دهند؛
+            2- تا زمانی که وارد وب‌گاه شوند، نوع حساب دیگری را انتخاب کنند، و اطلاعات لازم را وارد کنند، نخواهند توانست از وب‌گاه استفاده کنند
+        </value>
+    </key>
+    <key name="questions_delete_question_confirmation">
+        <value>
+            آیا از حذف این پرسش اطمینان دارید؟
+        </value>
+    </key>
+    <key name="questions_delete_question_parent_confirmation">
+        <value>
+            آیا از حذف این پرسش اطمینان دارید؟&#13;
+            توجه :این عمل باعث حذف همیشگی پاسخ‌ها در نمایه کاربران خواشد شد.همچنین این پرسش یک وابستگی به
+            {$questions} دارد.این اطلاعات نیز همچنین حذف خواهند شد
+        </value>
+    </key>
+    <key name="questions_delete_section_confirmation">
+        <value>
+            آیا از حذف این بخش اطمینان دارید؟
+        </value>
+    </key>
+    <key name="questions_delete_section_confirmation_without_move_questions">
+        <value>
+            آیا از حذف این بخش اطمینان دارید؟ تمام سوالات و اطلاعاتشان حذف خواهند شد.
+        </value>
+    </key>
+    <key name="questions_delete_section_confirmation_with_move_questions">
+        <value>
+            آیا از حذف این بخش اطمینان دارید؟ تمام سوالات به {$sectionName} منتقل خواهد شد
+        </value>
+    </key>
+    <key name="questions_edit_account_types_button">
+        <value>
+            ویرایش نوع
+        </value>
+    </key>
+    <key name="questions_edit_account_type_name_title">
+        <value>
+            ویرایش نام نوع حساب
+        </value>
+    </key>
+    <key name="questions_edit_account_type_title">
+        <value>
+            ویرایش نوع حساب
+        </value>
+    </key>
+    <key name="questions_edit_delete_value_confirm_message">
+        <value>
+            آیا مطمئن هستید؟
+        </value>
+    </key>
+    <key name="questions_edit_profile_question_title">
+        <value>
+            ویرایش سوال نمایه
+        </value>
+    </key>
+    <key name="questions_edit_question_description_label">
+        <value>
+            توضیحات پرسش
+        </value>
+    </key>
+    <key name="questions_edit_question_description_title">
+        <value>
+            ویرایش توضیحات پرسش
+        </value>
+    </key>
+    <key name="questions_edit_question_name_title">
+        <value>
+            ویرایش نام پرسش
+        </value>
+    </key>
+    <key name="questions_edit_question_value_title">
+        <value>
+            ویرایش مقدار پرسش
+        </value>
+    </key>
+    <key name="questions_edit_section_name_title">
+        <value>
+            ویرایش نام بخش
+        </value>
+    </key>
+    <key name="questions_edit_username_warning">
+        <value>
+            &lt;b&gt;ما به شما توصیه می‌کنیم که تغییر نام کاربری را برای کاربر فعال نکنید، زیرا تغییر نام کاربری باعث
+            تغییر نشانی نمایه می‌شود&lt;/b&gt;
+        </value>
+    </key>
+    <key name="questions_empty_lang_value">
+        <value>
+            بدون مقدار
+        </value>
+    </key>
+    <key name="questions_for_account_type_description">
+        <value>
+            حساب مناسبی برای پرسش انتخاب کنید&lt;i&gt;فقط زمانی که&lt;/i&gt; پرسش برای بقیه مناسب نبود
+        </value>
+    </key>
+    <key name="questions_for_account_type_label">
+        <value>
+            نوع حساب
+        </value>
+    </key>
+    <key name="questions_index_drag_n_drop_info_txt">
+        <value>
+            اگر می‌خواهید محل بخش‌ها تغییر کند آن‌را &lt;span class="ow_highlight"&gt;بگیرید و رها کنید&lt;/span&gt;
+        </value>
+    </key>
+    <key name="questions_index_info_txt">
+        <value>
+            شما این‌جا می‌توانید اطلاعاتی را که کاربران باید وارد کنند را تغییر دهید، ""&lt;b&gt;شما می‌توانید تغییر
+            دهید، دوباره مرتب کنید و پرسش‌های جدید نمایه اضافه کنید&lt;/b&gt;
+        </value>
+    </key>
+    <key name="questions_infinite_possible_values_description">
+        <value>
+            افزودن تعداد نامحدودی از مقادیر. مقادیر فیلد به طور منظم ذخیره می‌شوند که ممکن است سرعت جستجوی نمایه‌ها را تحت تاثیر قرار دهد.
+        </value>
+    </key>
+    <key name="questions_infinite_possible_values_label">
+        <value>
+            مقادیر ممکن
+        </value>
+    </key>
+    <key name="questions_matched_question_values">
+        <value>
+            این پرسش با &lt;a href="{$url}"&gt;{$name}&lt;/a&gt;&#13;
+            تطبیق داده شده است
+        </value>
+    </key>
+    <key name="questions_new_question_label">
+        <value>
+            بخش جدید
+        </value>
+    </key>
+    <key name="questions_new_section_label">
+        <value>
+            بخش جدید
+        </value>
+    </key>
+    <key name="questions_on_edit_description">
+        <value>
+            کاربر باید بتواند این پرسش را ویرایش کند
+        </value>
+    </key>
+    <key name="questions_on_edit_label">
+        <value>
+            در هنگام ویرایش نمایه
+        </value>
+    </key>
+    <key name="questions_on_search_description">
+        <value>
+            پرسش باید در جستجوی کاربران نمایان شود
+        </value>
+    </key>
+    <key name="questions_on_search_label">
+        <value>
+            در &lt;b&gt;جستجو&lt;/b&gt;
+        </value>
+    </key>
+    <key name="questions_on_sing_up_description">
+        <value>
+            پرسش باید در صفحه ثبت نام باشد
+        </value>
+    </key>
+    <key name="questions_on_sing_up_label">
+        <value>
+            در هنگام ثبت‌نام
+        </value>
+    </key>
+    <key name="questions_on_view_description">
+        <value>
+            پرسش باید در صفحه نمایه نمایش داده شود
+        </value>
+    </key>
+    <key name="questions_on_view_label">
+        <value>
+            در هنگام نمایش نمایه
+        </value>
+    </key>
+    <key name="questions_page_description">
+        <value>
+            در اینجا شما می‌توانید اطلاعات اضافه شده توسط کاربران را ویرایش کنید
+        </value>
+    </key>
+    <key name="questions_possible_values_description">
+        <value>
+            شما می‌توانید تا 64 مقدار بیفزایید
+        </value>
+    </key>
+    <key name="questions_possible_values_label">
+        <value>
+            مقدار‌های ممکن
+        </value>
+    </key>
+    <key name="questions_profile_question_sections_title">
+        <value>
+            بخش پرسش‌های نمایه
+        </value>
+    </key>
+    <key name="questions_question_description_label">
+        <value>
+            شرح
+        </value>
+    </key>
+    <key name="questions_question_is_not_exist">
+        <value>
+            پرسش وجود ندارد
+        </value>
+    </key>
+    <key name="questions_question_name_label">
+        <value>
+            پرسش
+        </value>
+    </key>
+    <key name="questions_question_section_label">
+        <value>
+            بخش
+        </value>
+    </key>
+    <key name="questions_question_was_deleted">
+        <value>
+            پرسش حذف شد
+        </value>
+    </key>
+    <key name="questions_question_was_not_updated_message">
+        <value>
+            پرسش به‌روزرسانی نشد
+        </value>
+    </key>
+    <key name="questions_question_was_not_update_message">
+        <value>
+            پرسش به‌روزرسانی نشد
+        </value>
+    </key>
+    <key name="questions_required_description">
+        <value>
+            اگر کاربر پاسخ معتبری به این پرسش‌ها ندهد، فرم ارسال نخواهد نشد
+        </value>
+    </key>
+    <key name="questions_required_label">
+        <value>
+            مورد نیاز
+        </value>
+    </key>
+    <key name="questions_save_account_type">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="questions_save_and_new_label">
+        <value>
+            ذخیره و افزودن جدید
+        </value>
+    </key>
+    <key name="questions_section_info_txt">
+        <value>
+            اگر پرسش‌های شما در نمایه زیاد باشد، می‌تونید آن‌هارا بخش‌بندی کنید، مانند بخش‌های زیر "&lt;b&gt;&lt;i&gt;اطلاعات
+            اصلی&lt;/i&gt;&lt;/b&gt;" ،"&lt;b&gt;&lt;i&gt;تماس&lt;/i&gt;&lt;/b&gt;" ،"&lt;b&gt;&lt;i&gt;علایق&lt;/i&gt;&lt;/b&gt;" ،
+            و غیره
+        </value>
+    </key>
+    <key name="questions_section_was_added">
+        <value>
+            بخش افزوده شد
+        </value>
+    </key>
+    <key name="questions_section_was_deleted">
+        <value>
+            بخش حذف شده است
+        </value>
+    </key>
+    <key name="questions_update_question_message">
+        <value>
+            پرسش به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="questions_values_count">
+        <value>
+            {$count} مقدار
+        </value>
+    </key>
+    <key name="questions_values_should_not_be_empty">
+        <value>
+            این مقدار نباید خالی باشد
+        </value>
+    </key>
+    <key name="question_column_account_type">
+        <value>
+            نوع حساب
+        </value>
+    </key>
+    <key name="question_column_exclusive_questions">
+        <value>
+            پرسش‌های اختصاصی
+        </value>
+    </key>
+    <key name="question_column_profile_edit">
+        <value>
+            ویرایش
+        </value>
+    </key>
+    <key name="question_column_question">
+        <value>
+            پرسش
+        </value>
+    </key>
+    <key name="question_column_require">
+        <value>
+            مورد نیاز
+        </value>
+    </key>
+    <key name="question_column_operations">
+        <value>
+            عملیات
+        </value>
+    </key>
+    <key name="question_column_search">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="question_column_sign_up">
+        <value>
+            ثبت‌نام
+        </value>
+    </key>
+    <key name="question_column_type">
+        <value>
+            نوع
+        </value>
+    </key>
+    <key name="question_column_values">
+        <value>
+            مقدار‌ها
+        </value>
+    </key>
+    <key name="question_column_view">
+        <value>
+            مشاهده
+        </value>
+    </key>
+    <key name="question_menu_account_types">
+        <value>
+            نوع حساب
+        </value>
+    </key>
+    <key name="question_menu_properties">
+        <value>
+            ویژگی‌ها
+        </value>
+    </key>
+    <key name="question_possible_values_label">
+        <value>
+            مقدارهای ممکن
+        </value>
+    </key>
+    <key name="question_settings_updated">
+        <value>
+            تنظیمات به‌روز شده‌اند
+        </value>
+    </key>
+    <key name="rating_total">
+        <value>
+            (تعداد امتیاز دهندگان: {$count})
+        </value>
+    </key>
+    <key name="rating_your">
+        <value>
+            (تعداد امتیاز دهندگان: {$count} / امتیاز شما: {$score})
+        </value>
+    </key>
+    <key name="remove_from_featured">
+        <value>
+            حذف از برجسته
+        </value>
+    </key>
+    <key name="restrictedusernames">
+        <value>
+            نام‌های کاربری غیرمجاز
+        </value>
+    </key>
+    <key name="restrictedusernames_add_username">
+        <value>
+            افزودن به نام‌های کاربری غیرمجاز
+        </value>
+    </key>
+    <key name="restrictedusernames_add_username_button">
+        <value>
+            افزودن
+        </value>
+    </key>
+    <key name="restrictedusernames_restricted_list_label">
+        <value>
+            فهرست نام‌های کاربری غیرمجاز
+        </value>
+    </key>
+    <key name="restrictedusernames_username_added">
+        <value>
+            نام کاربری با موفقیت افزوده شد
+        </value>
+    </key>
+    <key name="restrictedusernames_username_already_exists">
+        <value>
+            نام کاربری از قبل در فهرست غیرمجاز وجود دارد
+        </value>
+    </key>
+    <key name="restrictedusernames_username_deleted">
+        <value>
+            نام کاربری از فهرست نام کاربری غیرمجاز حذف گردید
+        </value>
+    </key>
+    <key name="restrictedusernames_username_label">
+        <value>
+            نام کاربری
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="save_this_page">
+        <value>
+            ذخیره صفحه
+        </value>
+    </key>
+    <key name="search">
+        <value>
+            جستجو
+        </value>
+    </key>
+    <key name="search_by">
+        <value>
+            جستجو از طریق
+        </value>
+    </key>
+    <key name="search_by_name">
+        <value>
+            جستجو به وسیله نام
+        </value>
+    </key>
+    <key name="search_no_results_for_keyword">
+        <value>
+            کلید واژه ای با مقدار &lt;i&gt;&lt;b&gt;{$keyword}&lt;/b&gt;&lt;/i&gt; وجود ندارد
+        </value>
+    </key>
+    <key name="search_results_for_keyword">
+        <value>
+            نتایج جستجو برای کلید واژه: &lt;i&gt;&lt;b&gt;{$keyword}&lt;/b&gt;&lt;/i&gt;
+        </value>
+    </key>
+    <key name="section">
+        <value>
+            بخش
+        </value>
+    </key>
+    <key name="select_items_to_import_note">
+        <value>
+            گزینه‌هایی که از این زبان مایل به وارد کردن هستید را انتخاب کنید
+        </value>
+    </key>
+    <key name="select_mode">
+        <value>
+            انتخاب چند مورد
+        </value>
+    </key>
+    <key name="send_verification_email">
+        <value>
+            ارسال رایانامه تایید
+        </value>
+    </key>
+    <key name="seo_page">
+        <value>
+            صفحات سئو
+        </value>
+    </key>
+    <key name="seo_page_heading">
+        <value>
+            تنظیمات سئو
+        </value>
+    </key>
+    <key name="seo_sitemap">
+        <value>
+            نقشه وب‌گاه
+        </value>
+    </key>
+    <key name="seo_sitemap_base_pages">
+        <value>
+            صفحات پایه‌ای
+        </value>
+    </key>
+    <key name="seo_sitemap_note_desc">
+        <value>
+            توجه: لطفا &lt;b&gt; "Sitemap: {$siteMapUrl}"&lt;/b&gt; به انتهای فایل robots.txt اضافه شود.
+        </value>
+    </key>
+    <key name="seo_sitemap_page_types">
+        <value>
+            انواع صفحه
+        </value>
+    </key>
+    <key name="seo_sitemap_schedule_updates">
+        <value>
+            زمان‌بندی به‌روزرسانی‌ها
+        </value>
+    </key>
+    <key name="seo_sitemap_schedule_updates_desc">
+        <value>
+            بازه زمانی به‌روزرسانی نقشه وب‌گاه
+        </value>
+    </key>
+    <key name="seo_sitemap_settings">
+        <value>
+            تنظیمات نقشه وب‌گاه
+        </value>
+    </key>
+    <key name="seo_sitemap_settings_updated">
+        <value>
+            تنظیمات نقشه وب‌گاه به روز شد
+        </value>
+    </key>
+    <key name="seo_sitemap_update_daily">
+        <value>
+            روزانه
+        </value>
+    </key>
+    <key name="seo_sitemap_update_monthly">
+        <value>
+            ماهانه
+        </value>
+    </key>
+    <key name="seo_sitemap_update_weekly">
+        <value>
+            هفتگی
+        </value>
+    </key>
+    <key name="seo_sitemap_users">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="seo_sitemap_users_desc">
+        <value>
+             
+        </value>
+    </key>
+    <key name="seo_social_meta">
+        <value>
+            فرا داده
+        </value>
+    </key>
+    <key name="file_log_settings">
+        <value>
+            لاگ‌نویسی به فایل
+        </value>
+    </key>
+    <key name="stdout_log_settings">
+        <value>
+            لاگ‌نویسی به STDOUT
+        </value>
+    </key>
+    <key name="elastic_log_settings">
+        <value>
+            لاگ‌نویسی به Elasticsearch
+        </value>
+    </key>
+    <key name="settings_log_level_label">
+        <value>
+            سطح لاگ‌نویسی
+        </value>
+    </key>
+    <key name="settings_log_output_format_label">
+        <value>
+            نوع خروجی
+        </value>
+    </key>
+    <key name="settings_log_output_handler_desc">
+        <value>
+            تنظیمات پیشفرض و محل خروجی فایل در انتهای فایل ow_includes/init.php مشخص شده است.
+        </value>
+    </key>
+    <key name="settings_log_output_handler_label">
+        <value>
+            محل خروجی
+        </value>
+    </key>
+    <key name="settings_max_upload_size_error">
+        <value>
+            مقدار اشتباه یا بیش از حد مجاز سرویس‌دهنده هست
+        </value>
+    </key>
+    <key name="settings_submit_error_message">
+        <value>
+            در هنگام ذخیره اطلاعات خطایی اتفاق افتاد، لطفا دوباره امتحان کنید
+        </value>
+    </key>
+    <key name="settings_submit_success_message">
+        <value>
+            تنظیمات ذخیره شد
+        </value>
+    </key>
+    <key name="set_suspend_message_label">
+        <value>
+            لطفا دلیلی برای تعلیق کاربر ذکر نمایید
+        </value>
+    </key>
+    <key name="show">
+        <value>
+            نمایش:
+        </value>
+    </key>
+    <key name="sidebar_menu_admin">
+        <value>
+            صفحه مدیریت
+        </value>
+    </key>
+    <key name="sidebar_menu_appearance">
+        <value>
+            پوسته
+        </value>
+    </key>
+    <key name="sidebar_menu_basic_label">
+        <value>
+            اصلی
+        </value>
+    </key>
+    <key name="sidebar_menu_dashboard">
+        <value>
+            نگاه کلی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_content_settings">
+        <value>
+            تنظیمات محتوا
+        </value>
+    </key>
+    <key name="sidebar_menu_item_css">
+        <value>
+            CSS
+        </value>
+    </key>
+    <key name="sidebar_menu_item_dashboard_finance">
+        <value>
+            سرمایه گذاری
+        </value>
+    </key>
+    <key name="sidebar_menu_item_dev_langs">
+        <value>
+            زبان
+        </value>
+    </key>
+    <key name="sidebar_menu_item_general">
+        <value>
+            عمومی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_graphics">
+        <value>
+            بارگذاری المان‌های گرافیکی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_log">
+        <value>
+            لاگ‌نویسی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_maintenance">
+        <value>
+            تعمیر و نگهداری صفحه
+        </value>
+    </key>
+    <key name="sidebar_menu_item_main_settings">
+        <value>
+            صفحه اصلی تنظیمات
+        </value>
+    </key>
+    <key name="sidebar_menu_item_manage_pages">
+        <value>
+            مدیریت صفحات
+        </value>
+    </key>
+    <key name="sidebar_menu_item_pages_manage">
+        <value>
+            مدیریت صفحات
+        </value>
+    </key>
+    <key name="sidebar_menu_item_page_settings">
+        <value>
+            تنظیمات صفحه
+        </value>
+    </key>
+    <key name="sidebar_menu_item_permission">
+        <value>
+            حریم کلی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_permissions">
+        <value>
+            حریم و دسترسی‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_item_permission_moders">
+        <value>
+            ناظم‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_item_permission_role">
+        <value>
+            نقش‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_item_permission_roles">
+        <value>
+            نقش‌های کاربر
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_blogs">
+        <value>
+            بلاگ‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_contact_importer">
+        <value>
+            تماس با واردکننده
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_forum">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_links">
+        <value>
+            پیوند‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_mass_mailing">
+        <value>
+            رایانامه دسته جمعی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_photo">
+        <value>
+            تصویر
+        </value>
+    </key>
+    <key name="sidebar_menu_item_plugin_video">
+        <value>
+            ویدیو
+        </value>
+    </key>
+    <key name="sidebar_menu_item_questions">
+        <value>
+            پرسش‌های نمایه
+        </value>
+    </key>
+    <key name="sidebar_menu_item_restricted_usernames">
+        <value>
+            نام‌های کاربری غیرمجاز
+        </value>
+    </key>
+    <key name="sidebar_menu_item_roles">
+        <value>
+            نقش‌های کاربر
+        </value>
+    </key>
+    <key name="sidebar_menu_item_seo_settings">
+        <value>
+            سئو
+        </value>
+    </key>
+    <key name="sidebar_menu_item_settings">
+        <value>
+            تنظیمات پوسته
+        </value>
+    </key>
+    <key name="sidebar_menu_item_settings_language">
+        <value>
+            زبان
+        </value>
+    </key>
+    <key name="sidebar_menu_item_smtp_settings">
+        <value>
+            SMTP
+        </value>
+    </key>
+    <key name="sidebar_menu_item_special_pages">
+        <value>
+            صفحات ویژه
+        </value>
+    </key>
+    <key name="sidebar_menu_item_splash_screen">
+        <value>
+            صفحه نمایش(شروع)
+        </value>
+    </key>
+    <key name="sidebar_menu_item_themes">
+        <value>
+            پوسته‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_item_themes_customize">
+        <value>
+            شخصی‌سازی
+        </value>
+    </key>
+    <key name="sidebar_menu_item_theme_choose">
+        <value>
+            انتخاب پوسته
+        </value>
+    </key>
+    <key name="sidebar_menu_item_theme_edit">
+        <value>
+            ویرایش پوسته
+        </value>
+    </key>
+    <key name="sidebar_menu_item_users">
+        <value>
+            وضعیت کاربران
+        </value>
+    </key>
+    <key name="sidebar_menu_item_users_roles">
+        <value>
+            نقش‌های کاربران
+        </value>
+    </key>
+    <key name="sidebar_menu_item_user_dashboard">
+        <value>
+            صفحه داشبورد
+        </value>
+    </key>
+    <key name="sidebar_menu_item_user_profile">
+        <value>
+            نمایه کاربر
+        </value>
+    </key>
+    <key name="sidebar_menu_item_user_settings">
+        <value>
+            تنظیمات کاربری
+        </value>
+    </key>
+    <key name="sidebar_menu_main">
+        <value>
+            اصلی
+        </value>
+    </key>
+    <key name="sidebar_menu_mobile">
+        <value>
+            موبایل
+        </value>
+    </key>
+    <key name="sidebar_menu_pages">
+        <value>
+            صفحات
+        </value>
+    </key>
+    <key name="sidebar_menu_pages_menus_label">
+        <value>
+            نمایش تمامی صفحه‌ها/منو‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_plugins">
+        <value>
+            افزونه‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_plugins_add">
+        <value>
+            بارگذاری افزونه
+        </value>
+    </key>
+    <key name="sidebar_menu_plugins_available">
+        <value>
+            افزونه‌های در دسترس
+        </value>
+    </key>
+    <key name="sidebar_menu_plugins_installed">
+        <value>
+            افزونه‌های نصب شده
+        </value>
+    </key>
+    <key name="sidebar_menu_plugins_manage">
+        <value>
+            مدیریت افزونه‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_privacy">
+        <value>
+            حریم خصوصی و دسترسی‌ها
+        </value>
+    </key>
+    <key name="sidebar_menu_question_settings">
+        <value>
+            تنظیمات پرسش‌های نمایه
+        </value>
+    </key>
+    <key name="sidebar_menu_settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="sidebar_menu_themes_add">
+        <value>
+            افزودن پوسته
+        </value>
+    </key>
+    <key name="sidebar_menu_theme_css_label">
+        <value>
+            پوسته CSS
+        </value>
+    </key>
+    <key name="sidebar_menu_users">
+        <value>
+            کاربران
+        </value>
+    </key>
+    <key name="sign_in_button_list_text">
+        <value>
+            یا وارد شوید با
+        </value>
+    </key>
+    <key name="site_description">
+        <value>
+            توضیحات
+        </value>
+    </key>
+    <key name="site_description_desc">
+        <value>
+            لطفا در چند جمله کوتاه وب‌گاه خود را معرفی کنید
+        </value>
+    </key>
+    <key name="site_email">
+        <value>
+            رایانشانی وب‌گاه
+        </value>
+    </key>
+    <key name="site_email_desc">
+        <value>
+            رایانشانی‌هایی که کاربران شما از طریق آن تمام اطلاعیه‌ها و رایانامه‌‌های دسته جمعی را دریافت می‌کنند
+        </value>
+    </key>
+    <key name="site_email_verify_promo">
+        <value>
+            شما باید رایانشانی را تایید کنید، یک رایانشانی فعال‌سازی ارسال شد اما امکان ارسال مجدد نیز وجود دارد
+        </value>
+    </key>
+    <key name="site_installation">
+        <value>
+            نصب و راه‌اندازی وب‌گاه
+        </value>
+    </key>
+    <key name="site_password">
+        <value>
+            گذرواژه وب‌گاه
+        </value>
+    </key>
+    <key name="site_password_letter_subject">
+        <value>
+            {$site_name}: گذرواژه جدید تنظیم شد
+        </value>
+    </key>
+    <key name="site_password_letter_template_html">
+        <value>
+            گذرواژه جدید برای{$site_name}&lt;br&gt;تنظیم گذرواژه جدید شما &lt;b&gt;{$password}&lt;/b&gt;&lt;br&gt;
+        </value>
+    </key>
+    <key name="site_password_letter_template_text">
+        <value>
+            گذرواژه جدید برای{$site_name}تنظیم گذرواژه جدید شما {$password}
+        </value>
+    </key>
+    <key name="site_relative_time_desc">
+        <value>
+            بجای اول آبان 95 5:31، از دیروز 5:31 استفاده کنید
+        </value>
+    </key>
+    <key name="site_statistics_default_period">
+        <value>
+            دوره پیش‌فرض
+        </value>
+    </key>
+    <key name="site_statistics_finance_transactions">
+        <value>
+            تراکنش‌ها
+        </value>
+    </key>
+    <key name="site_statistics_finance_transactions_amount">
+        <value>
+            میزان
+        </value>
+    </key>
+    <key name="site_statistics_last_30_days_period">
+        <value>
+            سی روز گذشته
+        </value>
+    </key>
+    <key name="site_statistics_last_7_days_period">
+        <value>
+            هفت روز گذشته
+        </value>
+    </key>
+    <key name="site_statistics_last_year_period">
+        <value>
+            سال گذشته
+        </value>
+    </key>
+    <key name="site_statistics_today_period">
+        <value>
+            امروز
+        </value>
+    </key>
+    <key name="site_statistics_user_logins">
+        <value>
+            ورودها
+        </value>
+    </key>
+    <key name="site_statistics_user_registrations">
+        <value>
+            ثبت‌نام‌ها
+        </value>
+    </key>
+    <key name="site_statistics_yesterday_period">
+        <value>
+            دیروز
+        </value>
+    </key>
+    <key name="site_tagline">
+        <value>
+            شعار
+        </value>
+    </key>
+    <key name="site_tagline_desc">
+        <value>
+            شرح مختصر وب‌گاه شما
+        </value>
+    </key>
+    <key name="site_title">
+        <value>
+            نام وب‌گاه
+        </value>
+    </key>
+    <key name="size">
+        <value>
+            اندازه
+        </value>
+    </key>
+    <key name="size_limit">
+        <value>
+            اندازه تصویر {$name} نباید بیشتر از&lt;b&gt;{$size}&lt;/b&gt;مگابایت باشد
+        </value>
+    </key>
+    <key name="slideshow_interval">
+        <value>
+            زمان نمایش به صورت اسلاید &amp;nbsp;
+        </value>
+    </key>
+    <key name="smtp_test_connection_failed">
+        <value>
+            SMTP ارتباط ناموفق بود
+        </value>
+    </key>
+    <key name="smtp_test_connection_success">
+        <value>
+            آزمایش SMTP موفق بود، شما می‌توانید با استفاده از این اتصال رایانامه‌های خود را ارسال نمایید
+        </value>
+    </key>
+    <key name="soft_version">
+        <value>
+            نسخه نرم‌افزار شما :  {$build}
+        </value>
+    </key>
+    <key name="splash_button_label">
+        <value>
+            برچسب دکمه ورود به سامانه
+        </value>
+    </key>
+    <key name="splash_button_label_desc">
+        <value>
+            برچسب انتخابی شما برای ورود به وب‌گاه
+        </value>
+    </key>
+    <key name="splash_button_value">
+        <value>
+            ورود
+        </value>
+    </key>
+    <key name="splash_enable_desc">
+        <value>
+            با صفحه نمایش (شروع)، شما می‌توانید به طور مستقیم از کاربرانتان بپرسید که اگر آنها موافق هستند وارد وبوب‌گاه
+            شما شوند
+        </value>
+    </key>
+    <key name="splash_enable_label">
+        <value>
+            فعال‌سازی
+        </value>
+    </key>
+    <key name="splash_intro_desc">
+        <value>
+            صفحه نمایش(شروع) HTML را پشتیبانی می‌کند
+        </value>
+    </key>
+    <key name="splash_intro_label">
+        <value>
+            متن/HTML
+        </value>
+    </key>
+    <key name="splash_intro_value">
+        <value>
+            آیا از ورود به این وب‌گاه اطمینان دارید؟
+        </value>
+    </key>
+    <key name="splash_leave_button_label">
+        <value>
+            خروج
+        </value>
+    </key>
+    <key name="splash_leave_url_desc">
+        <value>
+            اگر کاربران خروج را انتخاب کنند، به جای وب‌گاه شما، به این آدرس می‌روند
+        </value>
+    </key>
+    <key name="splash_leave_url_label">
+        <value>
+            نشانی خروج
+        </value>
+    </key>
+    <key name="splash_screen_page_heading">
+        <value>
+            صفحه اسپلش
+        </value>
+    </key>
+    <key name="splash_screen_page_title">
+        <value>
+            تنظیمات صفحه اسپلش
+        </value>
+    </key>
+    <key name="splash_screen_section_label">
+        <value>
+            صفحه اسپلش
+        </value>
+    </key>
+    <key name="splash_screen_submit_success_message">
+        <value>
+            تنظیمات به‌روز شد
+        </value>
+    </key>
+    <key name="statistics_amount_for_period">
+        <value>
+            میزان برای دوره زمانی انتخاب شده
+        </value>
+    </key>
+    <key name="statistics_browse_users">
+        <value>
+            مرور کاربران
+        </value>
+    </key>
+    <key name="statistics_history">
+        <value>
+            تاریخچه
+        </value>
+    </key>
+    <key name="tb_edit_photo">
+        <value>
+            ویرایش تصویر
+        </value>
+    </key>
+    <key name="themes_add_new_box_cap_label">
+        <value>
+            بارگذاری پوسته (فایل zip)
+        </value>
+    </key>
+    <key name="themes_add_theme_page_heading">
+        <value>
+            افزودن پوسته جدید
+        </value>
+    </key>
+    <key name="themes_admin_list_cap_title">
+        <value>
+            پوسته‌های داشبورد مدیریت
+        </value>
+    </key>
+    <key name="themes_cant_delete_active_theme">
+        <value>
+            شما نمی‌توانید پوسته فعال را حذف کنید
+        </value>
+    </key>
+    <key name="themes_cant_delete_default_theme">
+        <value>
+            شما نمی‌توانید قالب پیش‌‌فرض را حذف ‌کنید
+        </value>
+    </key>
+    <key name="themes_choose_activate_button_label">
+        <value>
+            فعال‌سازی
+        </value>
+    </key>
+    <key name="themes_choose_delete_button_label">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="themes_choose_delete_confirm_msg">
+        <value>
+            آیا از حذف این پوسته اطمینان دارید؟
+        </value>
+    </key>
+    <key name="themes_choose_list_cap_title">
+        <value>
+            پوسته‌های فعال
+        </value>
+    </key>
+    <key name="themes_choose_page_title">
+        <value>
+            پوسته‌ها
+        </value>
+    </key>
+    <key name="themes_delete_success_message">
+        <value>
+            پوسته حذف شد
+        </value>
+    </key>
+    <key name="themes_item_add_success_message">
+        <value>
+            پوسته با موفقیت افزوده شد
+        </value>
+    </key>
+    <key name="themes_manage_invalid_license_key_error_message">
+        <value>
+            لطفا یک کلید مجوز معتبر وارد کنید
+        </value>
+    </key>
+    <key name="themes_settings_graphics_preview_cap_label">
+        <value>
+            پیش‌نمایش تصویر
+        </value>
+    </key>
+    <key name="themes_settings_page_title">
+        <value>
+            سفارشی سازی
+        </value>
+    </key>
+    <key name="themes_settings_reset_label">
+        <value>
+            برگرداندن به حالت اولیه
+        </value>
+    </key>
+    <key name="theme_add_duplicated_dir_error">
+        <value>
+            خطا در بارگذاری پوسته، پوشه پوسته {$dir} قبلا ساخته شده
+        </value>
+    </key>
+    <key name="theme_add_extract_error">
+        <value>
+            نمی‌تواند فایل پوسته را از حالت فشرده خارج کند
+        </value>
+    </key>
+    <key name="theme_change_success_message">
+        <value>
+            پوسته تغییر کرد
+        </value>
+    </key>
+    <key name="theme_css_edit_css_box_cap_label">
+        <value>
+            ویرایش CSS
+        </value>
+    </key>
+    <key name="theme_css_edit_submit_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="theme_css_existing_css_box_cap_label">
+        <value>
+            CSS موجود(فقط برای خواندن)
+        </value>
+    </key>
+    <key name="theme_graphics_delete_success_message">
+        <value>
+            تصویر حذف شد
+        </value>
+    </key>
+    <key name="theme_graphics_image_delete_confirm_message">
+        <value>
+            آیا از حذف این تصویر اطمینان دارید؟
+        </value>
+    </key>
+    <key name="theme_graphics_list_cap_label">
+        <value>
+            فهرست تصاویر
+        </value>
+    </key>
+    <key name="theme_graphics_table_delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="theme_graphics_table_preview">
+        <value>
+            پیش‌نمایش تصویر
+        </value>
+    </key>
+    <key name="theme_graphics_table_url">
+        <value>
+            پیوند
+        </value>
+    </key>
+    <key name="theme_graphics_upload_form_fail_message">
+        <value>
+            تصویر بارگذاری نشد
+        </value>
+    </key>
+    <key name="theme_graphics_upload_form_submit_label">
+        <value>
+            بارگذاری
+        </value>
+    </key>
+    <key name="theme_graphics_upload_form_success_message">
+        <value>
+            تصویر بارگذاری شد
+        </value>
+    </key>
+    <key name="theme_graphics_upload_label">
+        <value>
+            بارگذاری تصویر
+        </value>
+    </key>
+    <key name="theme_info_author_label">
+        <value>
+            نویسنده
+        </value>
+    </key>
+    <key name="theme_info_author_url_label">
+        <value>
+            آدرس نویسنده
+        </value>
+    </key>
+    <key name="theme_info_cap_label">
+        <value>
+            اطلاعات پوسته
+        </value>
+    </key>
+    <key name="theme_info_compatibility_label">
+        <value>
+            سازگاری
+        </value>
+    </key>
+    <key name="theme_info_version_label">
+        <value>
+            نسخه
+        </value>
+    </key>
+    <key name="theme_settings_cap_label">
+        <value>
+            شخصی‌سازی پوسته
+        </value>
+    </key>
+    <key name="theme_settings_form_submit_label">
+        <value>
+            ذخیره
+        </value>
+    </key>
+    <key name="theme_settings_no_controls_label">
+        <value>
+            این پوسته تنظیمات شخصی‌سازی ندارد
+        </value>
+    </key>
+    <key name="theme_settings_reset_confirm_message">
+        <value>
+            آیا از بازگردانی به حالت اولیه (قبل از شخصی سازی) اطمینان دارید؟
+        </value>
+    </key>
+    <key name="theme_update_download_error">
+        <value>
+            بسته به‌روزرسانی بایگانی نامعتبر یا خالی است
+        </value>
+    </key>
+    <key name="theme_update_not_available_error">
+        <value>
+            به‌روزرسانی پوسته در دسترس نیست
+        </value>
+    </key>
+    <key name="theme_update_request_error">
+        <value>
+            پوسته پیدا نشد
+        </value>
+    </key>
+    <key name="timezone">
+        <value>
+            منطقه زمانی
+        </value>
+    </key>
+    <key name="time_settings">
+        <value>
+            تنظیمات زمان
+        </value>
+    </key>
+    <key name="title">
+        <value>
+            عنوان
+        </value>
+    </key>
+    <key name="title_add_new_text">
+        <value>
+            افزودن متن جدید
+        </value>
+    </key>
+    <key name="total_users">
+        <value>
+            مجموع کاربران: &lt;b&gt;{$count}&lt;/b&gt; نفر
+        </value>
+    </key>
+    <key name="translation">
+        <value>
+            ترجمه: {$label} ({$tag})
+        </value>
+    </key>
+    <key name="type_error">
+        <value>
+            نوع فایل نامعتبر است {$name}
+        </value>
+    </key>
+    <key name="undefined_action">
+        <value>
+            عمل تعریف نشده
+        </value>
+    </key>
+    <key name="updated_msg">
+        <value>
+            با موفقیت به‌روزرسانی شد
+        </value>
+    </key>
+    <key name="upload_date">
+        <value>
+            تاریخ بارگذاری
+        </value>
+    </key>
+    <key name="url">
+        <value>
+            نشانی
+        </value>
+    </key>
+    <key name="url_copied">
+        <value>
+            نشانی اینترنتی رونوشت شد
+        </value>
+    </key>
+    <key name="user">
+        <value>
+            کاربر
+        </value>
+    </key>
+    <key name="user_active_status">
+        <value>
+            فعال
+        </value>
+    </key>
+    <key name="user_avatar_settings">
+        <value>
+            تنظیمات تصویر نمایه
+        </value>
+    </key>
+    <key name="user_delete_msg">
+        <value>
+            {$count} کاربر حذف گردید
+        </value>
+    </key>
+    <key name="user_display_settings">
+        <value>
+            تنظیمات نمایش
+        </value>
+    </key>
+    <key name="user_feedback_email_unverified">
+        <value>
+            رایانشانی کاربران انتخاب شده به عنوان تایید نشده‌ها علامت‌گذاری شدند
+        </value>
+    </key>
+    <key name="user_feedback_email_verified">
+        <value>
+            رایانشانی‌های کاربران انتخاب شده تایید شدند
+        </value>
+    </key>
+    <key name="user_feedback_profiles_approved">
+        <value>
+            کاربر(های) انتخاب شده تایید شد(ند)
+        </value>
+    </key>
+    <key name="user_feedback_profiles_disapproved">
+        <value>
+            کاربر(های) انتخاب شده تایید نشد(ند)
+        </value>
+    </key>
+    <key name="user_feedback_profiles_suspended">
+        <value>
+            نمایه معلق شد
+        </value>
+    </key>
+    <key name="user_feedback_profiles_unsuspended">
+        <value>
+            کاربران انتخابی دوباره فعال شدند
+        </value>
+    </key>
+    <key name="user_input_settings_attachments">
+        <value>
+            فایل‌های پیوست
+        </value>
+    </key>
+    <key name="user_input_settings_comments">
+        <value>
+            دیدگاه‌های مطلب
+        </value>
+    </key>
+    <key name="user_input_settings_rich_media">
+        <value>
+            تنظیمات متن(رسانه) پیشرفته
+        </value>
+    </key>
+    <key name="user_input_settings_user_content">
+        <value>
+            محتوی متن
+        </value>
+    </key>
+    <key name="user_role_permissions_cap_label">
+        <value>
+            دسترسی‌های نقش کاربری
+        </value>
+    </key>
+    <key name="user_search_result">
+        <value>
+            نتایج جستجوی کاربر "&lt;b&gt;{$for}&lt;/b&gt;"
+        </value>
+    </key>
+    <key name="user_settings_avatar_image">
+        <value>
+            تصویر پیش‌فرض نمایه
+        </value>
+    </key>
+    <key name="user_settings_avatar_image_desc">
+        <value>
+            تغییر دادن تصویر نمایه پیش‌فرض پوسته
+        </value>
+    </key>
+    <key name="user_settings_avatar_size">
+        <value>
+            اندازه تصویر نمایه
+        </value>
+    </key>
+    <key name="user_settings_avatar_size_desc">
+        <value>
+            در همه فهرست‌ها نمایش داده شده است،‌ همچنبن شما باید فایل CSS قالب خود را تغییر دهید
+        </value>
+    </key>
+    <key name="user_settings_avatar_size_error">
+        <value>
+            بیشینه اندازه تصویر نمایه قابل قبول {$max}px است
+        </value>
+    </key>
+    <key name="user_settings_avatar_size_label">
+        <value>
+            اندازه برش تصویر نمایه&lt;br /&gt;
+        </value>
+    </key>
+    <key name="user_settings_big_avatar_size">
+        <value>
+            تصویر نمایه با اندازه بزرگ
+        </value>
+    </key>
+    <key name="user_settings_big_avatar_size_desc">
+        <value>
+            در صفحه نمایه نمایش داده می‌شود
+        </value>
+    </key>
+    <key name="user_settings_big_avatar_size_error">
+        <value>
+            بیشینه اندازه تصویر نمایه بزرگ {$max}px است
+        </value>
+    </key>
+    <key name="user_settings_big_avatar_size_label">
+        <value>
+            ابعاد تصویر نمایه بزرگ
+        </value>
+    </key>
+    <key name="user_settings_confirm_email">
+        <value>
+            تایید رایانشانی
+        </value>
+    </key>
+    <key name="user_settings_confirm_email_desc">
+        <value>
+            با انتخاب این گزینه، کاربران قبل از دسترسی به وب‌گاه باید رایانشانی‌های خودشان را تایید کنند
+        </value>
+    </key>
+    <key name="user_settings_display_name">
+        <value>
+            نمایش نمایه کاربر با:
+        </value>
+    </key>
+    <key name="user_settings_display_name_desc">
+        <value>
+            معمولا لازم است تا میان &lt;b&gt;&lt;i&gt;نام کاربری&lt;/i&gt;&lt;/b&gt; و نام واقعی یکی را انتخاب
+            کنید، این از تنظیمات کلی وب‌گاه است.
+        </value>
+    </key>
+    <key name="user_settings_email">
+        <value>
+            تنظیمات رایانشانی
+        </value>
+    </key>
+    <key name="user_settings_permissions">
+        <value>
+            حریم خصوصی
+        </value>
+    </key>
+    <key name="user_settings_profile_questions">
+        <value>
+            سوالات نمایه
+        </value>
+    </key>
+    <key name="user_settings_updated">
+        <value>
+            تنظیمات کاربری بروز شده
+        </value>
+    </key>
+    <key name="user_settings_username_length_range_desc">
+        <value>
+            تعداد کاراکترهای مجاز نام کاربری را مشخص کنید
+        </value>
+    </key>
+    <key name="user_settings_username_length_range_label">
+        <value>
+            تعداد کاراکترهای مجاز نام کاربری
+        </value>
+    </key>
+    <key name="user_status">
+        <value>
+            حالت
+        </value>
+    </key>
+    <key name="user_status_suspended">
+        <value>
+            تعلیق
+        </value>
+    </key>
+    <key name="user_status_unapproved">
+        <value>
+            موافقت نشده
+        </value>
+    </key>
+    <key name="user_status_unverified">
+        <value>
+            تایید نشده
+        </value>
+    </key>
+    <key name="use_military_time">
+        <value>
+            استفاده از زمان نظامی
+        </value>
+    </key>
+    <key name="use_relative_time">
+        <value>
+            استفاده از تاریخ / زمان نسبی
+        </value>
+    </key>
+    <key name="verify_site_email">
+        <value>
+            تایید کردن
+        </value>
+    </key>
+    <key name="warning_cron_is_not_active">
+        <value>
+            اسکریپت کران جاب فعال نیست. لطفا آن را به فهرست کرون اضافه کنید ({$path})
+        </value>
+    </key>
+    <key name="warning_url_fopen_disabled">
+        <value>
+            درگاه به‌روزرسانی موتوشاب امکان برقراری ارتباط با نرم‌افزار شما را ندارد. به نظر می‌رسد که شما نیاز دارید تا url_fopen را در تنظیمات PHP فعال کنید
+        </value>
+    </key>
+    <key name="welcome_letter_subject">
+        <value>
+            ثبت نام {$site_name}
+        </value>
+    </key>
+    <key name="welcome_letter_template_html">
+        <value>
+            Welcome to &lt;a href=\"{$site_url}\"&gt;{$site_name}&lt;/a&gt;! Thanks for joining us. Here are some quick links that you need to find your way around:&lt;br/&gt;&lt;br/&gt;\r\n- &lt;a href=\"{$site_url}\"&gt;Main page&lt;/a&gt;&lt;br/&gt;\r\n- &lt;a href=\"{$site_url}my-profile\"&gt;Change profile picture&lt;/a&gt;&lt;br/&gt;\r\n- &lt;a href=\"{$site_url}photo/viewlist/latest\"&gt;Upload Photos&lt;/a&gt;&lt;br/&gt;\r\n- &lt;a href=\"{$site_url}profile/edit\"&gt;Change profile details&lt;/a&gt;&lt;br/&gt;\r\n- &lt;a href=\"{$site_url}users\"&gt;Look who's in&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;\r\nFeel free to participate in our community!&lt;br/&gt;&lt;br/&gt;\r\n&lt;a href=\"{$site_url}\"&gt;{$site_name}&lt;/a&gt; administration&lt;br/&gt;
+        </value>
+    </key>
+    <key name="widgets_admin_profile_heading">
+        <value>
+            نمایه کاربر
+        </value>
+    </key>
+    <key name="widget_content_statistics">
+        <value>
+            آمار محتوا
+        </value>
+    </key>
+    <key name="widget_content_statistics_default_content_group">
+        <value>
+            گروه محتوای پیش‌فرض
+        </value>
+    </key>
+    <key name="widget_finance_statistics">
+        <value>
+            آمارهای مالی
+        </value>
+    </key>
+    <key name="widget_user_statistics">
+        <value>
+            آمار فعالیت کاربر
+        </value>
+    </key>
+    <key name="wrong_file_extension">
+        <value>
+             
+        </value>
+    </key>
+    <key name="you_are_editing">
+        <value>
+            شما در حال ویرایش
+        </value>
+    </key>
+    <key name="custom">
+        <value>
+           مقدار فعلی
+        </value>
+    </key>
+    <key name="admin_settings_missed_keys_desc">
+        <value>
+            منظور از کلیدهای گم‌شده، کلیدهایی است که در سامانه برای آن‌ها مقداری تعیین نشده است
+        </value>
+    </key>
+    <key name="Revert_to_default">
+        <value>
+            بازگرداندن به حالت پیش‌فرض
+        </value>
+    </key>
+    <key name="Revert_to_default_success">
+        <value>
+            ترجمه‌ به حالت پیش‌فرض بازگشت
+        </value>
+    </key>
+    <key name="select_all_users_role">
+        <value>
+            انتخاب همه
+        </value>
+    </key>
+    <key name="select_all_action">
+        <value>
+            انتخاب همه
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,139 @@
+{script}
+    function nfShowStatusForm( focus ) {
+        OWM.FloatBox({
+            "content": $("#newsfeed-status-form")
+        });
+        
+        if ( focus !== false )
+            $("#newsfeed_status_input").focus();
+            
+        $("#newsfeed_status_save_btn_c").removeClass("owm_preloader_circle");
+            
+        return false;
+    };
+
+    $("#newsfeed-status-form-inv").click(nfShowStatusForm);
+    
+    {if !empty($focused)}
+        window.setTimeout(function() {
+            nfShowStatusForm(false);
+        }, 10);
+    {/if}
+    
+    $("#newsfeed-att-file").change(function() {
+        var container = $('#newsfeed-att-file-prevew');
+        var img = $('#newsfeed-att-file-prevew img');
+        var name = $("span#newsfeed-att-file-name");
+
+        container.hide();
+        img.hide();
+        name.text("");
+    
+        if (!this.files || !this.files[0]) {
+            return
+        };
+
+        name.text(this.files[0].name);
+        if ( window.FileReader ) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                container.show();
+                img.show().attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+{/script}
+
+{script}
+    {literal}
+function checkRtl( character ) {
+var RTL = ['ا','ب','پ','ت','س','ج','چ','ح','خ','د','ذ','ر','ز','ژ','س','ش','ص','ض','ط','ظ','ع','غ','ف','ق','ک','گ','ل','م','ن','و','ه','ی'];
+return RTL.indexOf( character ) > -1;
+}
+
+function checkLtr( character ) {
+var LTR = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+return LTR.indexOf( character ) > -1;
+}
+
+    function checkInput(){
+        var isRtl=true;
+        var inputValue = $(this).val();
+        inputValue = $.trim(inputValue);
+        if(inputValue.length==0){
+            jQuery( this ).css( 'direction','rtl');
+            isRtl =true;
+            return;
+        }
+        for ( var indexText = 0; indexText < inputValue.length; indexText++ )
+        {
+            if( checkRtl(inputValue[indexText]) )
+            {
+                jQuery( this ).css( 'direction','rtl');
+                isRtl =true;
+                break;
+            }else if( checkLtr(inputValue[indexText]) )
+            {
+                isRtl =false;
+                break;
+            }
+        }
+        if(!isRtl)
+        {
+            jQuery( this ).css( 'direction','ltr');
+        }
+    }
+
+        $('textarea').change( checkInput );
+        $('textarea').keydown( checkInput );
+        $('textarea').keyup( checkInput );
+        $('input').change( checkInput );
+        $('input').keydown( checkInput );
+        $('input').keyup( checkInput );
+    {/literal}
+{/script}
+<div class="owm_newsfeed_status_update_circle" id="newsfeed-status-form-inv"></div>
+<!--<div class="owm_newsfeed_status_update owm_bg_color_2 clearfix" id="newsfeed-status-form-inv">-->
+    <!--<span class="owm_newsfeed_status_update_add_icon"></span>-->
+    <!--<textarea class="owm_invitation">{$statusMessage}</textarea>-->
+<!--</div>-->
+
+<div style="display: none">
+    <iframe name="newsfeed-status-submit-frame"></iframe>
+    <div class="owm_newsfeed_block clearfix" id="newsfeed-status-form">
+        {form name="newsfeed_update_status" target="newsfeed-status-submit-frame"}
+        <div class="owm_newsfeed_status_update_edit owm_bg_color_2">
+            {input name="status" id="newsfeed_status_input"}
+        </div>
+        <div class="owm_newsfeed_status_update_btns owm_padding owm_bg_color_3 clearfix">
+            <div class="owm_newsfeed_status_update_btn owm_float_left" id="newsfeed_status_save_btn_c">{submit name="save"}</div>
+            <div class="owm_newsfeed_status_update_attachments_btn owm_float_left">
+                <div class="owm_newsfeed_status_update_add_cont">
+                {if !$hideDefaultAttachment}
+                    <a href="javascript://" class="owm_newsfeed_status_update_add_icon add_image_in_newsfeed_status"><input accept="image/*" type="file" id="newsfeed-att-file" name="attachment"></a>
+                    <span class="owm_newsfeed_status_update_add_name"><img style="height: 30px; display: none;" /><span></span></span>
+                {/if}
+                </div>
+            </div>
+            <div class="owm_newsfeed_status_update_privacy owm_float_right">
+                {if isset($statusPrivacyField)}
+                {input name='statusPrivacy'}
+                {error name='statusPrivacy'}
+                {/if}
+                {if isset($statusPrivacyLabel)}
+                {$statusPrivacyLabel}
+                {/if}
+            </div>
+        </div>
+        <div class="owm_newsfeed_status_update_preview">
+            <span class="owm_newsfeed_status_update_add_name" id="newsfeed-att-file-prevew" style="display: none;"><img style="height: 30px;" /><span class="ow_right" id="newsfeed-att-file-name"></span></span>
+            {if isset($attachments)}
+                {$attachments}
+            {/if}
+        </div>
+        {/form}
+    </div>
+</div>

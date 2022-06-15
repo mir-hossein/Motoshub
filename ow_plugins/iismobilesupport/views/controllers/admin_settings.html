@@ -1,0 +1,33 @@
+<div class="ow_content_menu_wrap">
+    <ul class="ow_content_menu clearfix">
+        {foreach from=$sections item='section' name='contentMenu'}
+        <li class="{if $section.active} active{/if}"><a href="{$section.url}"><span>{$section.label}</span></a></li>
+        {/foreach}
+    </ul>
+</div>
+
+<div class="ow_automargin ow_superwide">
+    {form name='adminForm'}
+         <table class="ow_table_1 ow_form">
+             <tr>
+                 <td class="ow_label">{label name="fcm_api_key"}</td>
+                 <td class="ow_value">{input name="fcm_api_key"} {error name='fcm_api_key'}</td>
+             </tr>
+             <tr>
+                 <td class="ow_label">{label name="fcm_api_url"}</td>
+                 <td class="ow_value">{input name="fcm_api_url"} {error name='fcm_api_url'}</td>
+             </tr>
+             <tr>
+                 <td class="ow_label">{label name="constraint_user_device"}</td>
+                 <td class="ow_value">{input name="constraint_user_device"} {error name='constraint_user_device'}</td>
+             </tr>
+             <tr>
+                 <td class="ow_label">{label name="disable_notification_content"}</td>
+                 <td class="ow_value">{input name="disable_notification_content"} {error name='disable_notification_content'}</td>
+             </tr>
+            <tr>
+                <td colspan="2" class="ow_submit">{submit name="saveSettings" class='ow_ic_save'}</td>
+            </tr>
+         </table>
+    {/form}
+</div>

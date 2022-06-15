@@ -1,0 +1,43 @@
+{style}
+    .owm_topic_list_format {
+        cursor:pointer;
+    }
+{/style}
+
+{foreach from=$topics item=topic}
+    <div class="owm_list_item_view {if $topic.new}owm_list_item_unread{/if} clearfix" data-id="{$topic.id}">
+        <a href="{$topic.topicUrl}">
+            <div class="owm_list_item_view_header clearfix">
+                <span class="owm_list_item_view_title">
+                    {if $topic.sticky}
+                        <span class="owm_topic_sticky_icon">{text key='forum+sticky'}</span>
+                    {/if}
+                    {if $topic.locked}<span class="owm_topic_list_locked"></span>{/if}
+                    {if isset($attachments[$topic.id])}
+                        <span class="owm_topic_attach_icon"></span>
+                    {/if}
+                    {$topic.title|more:100}
+                </span>
+            </div>
+        </a>
+
+        {if isset($topic.lastPost)}
+        <div class="owm_list_item_view_body">
+            <div class="owm_list_item_view_body_text clearfix">
+                <div class="owm_padding">{$topic.lastPost.text|more:500}</div>
+                <span class="owm_small owm_padding">{text key='forum+last_reply'} {text key='forum+by'} <a href="{$topic.lastPost.postUrl}">{$displayNames[$topic.lastPost.userId]}</a>
+                    <span class="owm_small owm_padding">({$topic.lastPost.createStamp})</span>
+                </span>
+            </div>
+        </div>
+        {/if}
+
+        <div class="owm_list_item_view_footer">
+            {text key='forum+author'}: <a href="{$authorsUrls[$topic.userId]}">{$displayNames[$topic.userId]}</a>
+            <a class="owm_float_right" href="{$topic.topicUrl}">
+                {if $topic.replyCount}<div class="owm_list_footer_comments owm_newsfeed_control_comment">{$topic.replyCount}</div>{/if}
+                <div class="owm_list_footer_comments owm_newsfeed_control_comment owm_list_additional_views">{$topic.viewCount}</div>
+            </a>
+        </div>
+    </div>
+{/foreach}

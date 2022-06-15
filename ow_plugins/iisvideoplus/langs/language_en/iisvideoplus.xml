@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisvideoplus" label="iisvideoplus" language_tag="en" language_label="English">
+    <key name="latest_friends">
+        <value>
+            videos of friends
+        </value>
+    </key>
+    <key name="meta_description_video_latest_friends">
+        <value>
+            You can see videos of your friend here.
+        </value>
+    </key>
+    <key name="meta_title_video_add_latest_friends">
+        <value>
+            Latest videos of friends
+        </value>
+    </key>
+	<key name="latest_myvideo">
+        <value>
+             my videos
+        </value>
+    </key>
+	<key name="meta_title_video_add_latest_myvideo">
+        <value>
+            my videos
+        </value>
+    </key>
+	<key name="meta_description_video_latest_myvideo">
+        <value>
+             You can see videos of yours here.
+        </value>
+    </key>
+	<key name="input_settings_max_upload_size_label">
+        <value>
+             maximum Size of a video file
+        </value>
+    </key>
+	<key name="settings_max_upload_size_error">
+        <value>
+             Value is incorrect or greater than server limit.
+        </value>
+    </key>
+	<key name="error_both_fields_empty">
+        <value>
+             Iframe must be added in the code field or video file must be uploaded.
+        </value>
+    </key>
+	<key name="errors_video_upload">
+        <value>
+            Error in uploading video file
+        </value>
+    </key>
+	<key name="upload_file_extension_is_not_allowed">
+        <value>
+            The file extension is not allowed. only mp4 format is accepted
+        </value>
+    </key>
+	<key name="upload_file_max_upload_filesize_error">
+        <value>
+            Maximum file Size must be: {$videofilesize} Mb
+        </value>
+    </key>
+	<key name="create_video_upload_label">
+        <value>
+            Upload video file
+        </value>
+    </key>
+	<key name="page_title_uninstall">
+        <value>
+            Uninstall Messages plugin
+        </value>
+    </key>
+	<key name="delete_content_warning">
+        <value>
+            Warning
+        </value>
+    </key>
+	<key name="delete_content_desc">
+        <value>
+            Before uninstalling iisvideoplus plugin we have to remove all existing video files. This may take awhile.
+        </value>
+    </key>
+	<key name="delete_content">
+        <value>
+            Delete content and uninstall plugin
+        </value>
+    </key>
+	<key name="confirm_delete_video_file">
+        <value>
+            Are you sure you want to delete these video files?
+        </value>
+    </key>
+	<key name="uninstall_inprogress">
+        <value>
+            In progress
+        </value>
+    </key>
+	<key name="uninstall_inprogress_desc">
+        <value>
+            Please wait while all video files is being removed. This make take awhile depending on the number of video files on your site.
+        </value>
+    </key>
+	<key name="modified_successfully">
+        <value>
+            Changes saved successfully
+        </value>
+    </key>
+	<key name="video_add_upload_desc">
+        <value>
+            Upload your video file
+        </value>
+    </key>
+	<key name="video_edit_upload_desc">
+        <value>
+		    If you want to keep the current file, you don't have to re-upload
+        </value>
+    </key>
+	<key name="admin_settings_heading">
+        <value>
+            Video plus plugin setting
+        </value>
+    </key>
+		<key name="download_file">
+        <value>
+            download video
+        </value>
+    </key>
+</prefix>

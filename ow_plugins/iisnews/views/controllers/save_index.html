@@ -1,0 +1,117 @@
+
+<div class="ow_blogentry_compose clearfix">
+
+{if !$authMsg}
+    <div class="ow_superwide ow_left">
+    {form name="save"}
+        <input type="hidden" id="save_entry_command" name="command" />
+        <table class="ow_table_1 ow_form ow_stdmargin">
+            <tr class="ow_alt2 ow_tr_first">
+                <td>
+                    {label name="title"}<br />{input name='title'}
+                    <br />{error name="title"}
+                </td>
+            </tr>
+            <tr class="ow_alt1">
+                <td>
+                    {label name="entry"}<br />
+                    {input name='entry'}
+                    <br />{error name="entry"}
+                </td>
+            </tr>
+            <tr class="ow_alt1">
+                <td>
+                    {label name='image'}
+                    {if !empty($imgsrc)}
+                        <a id="deleteImg" class="ow_lbutton">{text key='iisnews+delete_image'}</a>
+                    {/if}
+                    <br />
+                {if !empty($imgsrc)}
+                    <img src="{$imgsrc}" id="newsImg"/>&nbsp;&nbsp;
+                {/if}
+                    {input id='image' name='image'} <br />
+                    {error name='image'}
+                </td>
+            </tr>
+            {if isset($enPublishDate) && $enPublishDate}
+            <tr class="ow_alt1">
+                <td>
+                    {input name='enPublishDate'}
+                    {label name="enPublishDate"}
+                </td>
+            </tr>
+                <tr style="display: none;width: 99.99%;" class="ow_alt1 published_date">
+                    <td>
+                        {label name="publish_date"}<br />
+                        {input name='publish_date'}
+                        <br />{error name="publish_date"}
+                    </td>
+                </tr>
+            {/if}
+            <tr class="ow_alt1">
+                <td>
+                    {input name='enSentNotification'}
+                    {label name="enSentNotification"}
+                </td>
+            </tr>
+            <tr class="ow_alt2 ow_tr_last">
+                <td>
+                    {label name="tf"} <br />
+                    {input name='tf'}
+                    <br />{error name="tf"}
+                </td>
+            </tr>
+        </table>
+        <div class="clearfix ow_stdmargin ow_submit ow_btn_delimiter">
+        	<div class="ow_right">{submit name="draft" class="ow_ic_save"} {submit name="publish" class="ow_green ow_positive"}</div>
+		</div>
+    {/form}
+    </div>
+    <div class="news_widget">
+    <div class="ow_supernarrow ow_right ow_dnd_widget save_news_info_widget">
+    {block_decorator name="box" addClass="ow_stdmargin"  langLabel='iisnews+this_entry'}
+
+        <table class="ow_table_3 ow_small detail_table">
+            <tr>
+                <td class="ow_label">{text key="iisnews+status"}</td>
+	            <td>
+	                {if $info.dto->getId()}
+	                    {if $info.dto->isDraft()}
+	                        {text key="iisnews+status_draft"}
+	                    {else}
+	                        {text key="iisnews+status_published"}
+	                    {/if}
+	                {else}
+	                    {text key="iisnews+status_draft"}
+	                {/if}
+	            </td>
+            </tr>
+            <tr>
+                <td class="ow_label">{text key="iisnews+last_saved"}</td>
+                <td>
+					{if $info.dto->getId()}
+						{format_date timestamp=$info.dto->getTimestamp()}
+					{else}
+						{text key="iisnews+not_yet"}
+					{/if}
+                </td>
+            </tr>
+        </table>
+
+    {/block_decorator}
+    </div>
+    </div>
+{else}
+    <div class="ow_anno ow_std_margin ow_nocontent">{$authMsg}</div>
+{/if}
+</div>
+
+<script type="text/javascript">
+    {literal}
+    $('#deleteImg').click(function(){
+        $("#deleteImage").val(1);
+        $( "#newsImg" ).remove();
+        $( "#deleteImg" ).remove();
+        });
+    {/literal}
+</script>

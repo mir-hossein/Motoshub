@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisquestions" label="iisquestions" language_tag="en" language_label="English">
+    <key name="admin_allow_comments_label">
+        <value>Enable comments</value>
+    </key>
+    <key name="admin_allow_popups_desc">
+        <value>Open questions in pop-up window</value>
+    </key>
+    <key name="admin_allow_popups_label">
+        <value>Enable pop-ups</value>
+    </key>
+    <key name="admin_attachments_image_enable_desc">
+        <value>Allow users to add image to a question</value>
+    </key>
+    <key name="admin_attachments_image_enable_label">
+        <value>Image</value>
+    </key>
+    <key name="admin_attachments_link_enable_desc">
+        <value>Allow users to add external link to a question.</value>
+    </key>
+    <key name="admin_attachments_link_enable_label">
+        <value>Link</value>
+    </key>
+    <key name="admin_attachments_max_upload_images_desc">
+        <value>Maximum number of images user can upload at once.</value>
+    </key>
+    <key name="admin_attachments_max_upload_images_label">
+        <value>Maximum images</value>
+    </key>
+    <key name="admin_attachments_settings_title">
+        <value>Attachments</value>
+    </key>
+    <key name="admin_attachments_video_enable_desc">
+        <value>Allow users to add video to a question</value>
+    </key>
+    <key name="admin_attachments_video_enable_label">
+        <value>Video</value>
+    </key>
+    <key name="admin_attachments_youtube_key_desc">
+        <value>Server API key is a unique identifier that you generate using the Developers Console.&#13;
+            &lt;br /&gt;&lt;br /&gt;&#13;
+            To get Server API key read the following instructions:&#13;
+            &lt;br /&gt;&#13;
+            &lt;a href="http://www.oxwall.org/forum/topic/36419" target="_blank"&gt;YouTube Data API configuration&lt;/a&gt;
+        </value>
+    </key>
+    <key name="admin_attachments_yt_key_label">
+        <value>YouTube API key</value>
+    </key>
+    <key name="admin_attachments_yt_search_enable_label">
+        <value>Enable YouTube search</value>
+    </key>
+    <key name="admin_enable_ask_friends_desc">
+        <value>Allow users to share questions to other users</value>
+    </key>
+    <key name="admin_enable_ask_friends_label">
+        <value>Enable "Ask Users/Friends"</value>
+    </key>
+    <key name="admin_enable_attachments_desc">
+        <value>Allow users to add photo video or external link to a question</value>
+    </key>
+    <key name="admin_enable_attachments_label">
+        <value>Enable attachments</value>
+    </key>
+    <key name="admin_enable_follow_desc">
+        <value>Allow users to follow questions</value>
+    </key>
+    <key name="admin_enable_follow_label">
+        <value>Enable follow</value>
+    </key>
+    <key name="admin_enable_live_notifications_label">
+        <value>Live notifications</value>
+    </key>
+    <key name="admin_list_order_label">
+        <value>Default list order</value>
+    </key>
+    <key name="admin_live_notifications_desc">
+        <value>This feature periodically polls server and displays new invitations</value>
+    </key>
+    <key name="admin_live_notifications_period_label">
+        <value>Ping interval</value>
+    </key>
+    <key name="admin_live_notifications_settings_title">
+        <value>Live notifications</value>
+    </key>
+    <key name="admin_main_page_heading">
+        <value>Questions</value>
+    </key>
+    <key name="admin_main_page_title">
+        <value>Questions</value>
+    </key>
+    <key name="admin_main_settings_title">
+        <value>General Settings</value>
+    </key>
+    <key name="admin_save_btn">
+        <value>Save</value>
+    </key>
+    <key name="admin_settings_updated">
+        <value>Settings have been updated</value>
+    </key>
+    <key name="admin_setup_copy_data_label">
+        <value>Copy all existing questions to extended version</value>
+    </key>
+    <key name="admin_setup_required_notification">
+        <value>Extended version of Questions plugin was installed. &lt;a href="{$href}"&gt;Click here to Complete
+            Upgrade&lt;/a&gt;
+        </value>
+    </key>
+    <key name="admin_setup_upgrade_label">
+        <value>Upgrade</value>
+    </key>
+    <key name="admin_upgrade_complete">
+        <value>Questions plugin was successfully upgraded to Extended Version</value>
+    </key>
+    <key name="admin_upgrade_page_heading">
+        <value>Extended Questions</value>
+    </key>
+    <key name="admin_yt_configuration_required_notification">
+        <value>&lt;a href="{$url}"&gt;Extended Questions&lt;/a&gt; requires your attention. Go to &lt;a href="{$url}"&gt;settings
+            page&lt;/a&gt; to enable &lt;b&gt;YouTube&lt;/b&gt; search feature.
+        </value>
+    </key>
+    <key name="attachments_add_more_images">
+        <value>Add more images</value>
+    </key>
+    <key name="attachments_add_video_label">
+        <value>Add Video</value>
+    </key>
+    <key name="attachments_cancel_label">
+        <value>Cancel</value>
+    </key>
+    <key name="attachments_choose_image_label">
+        <value>Choose image</value>
+    </key>
+    <key name="attachments_choose_my_image_label">
+        <value>Add Photo</value>
+    </key>
+    <key name="attachments_choose_my_video_label">
+        <value>Add Video</value>
+    </key>
+    <key name="attachments_close_label">
+        <value>Close</value>
+    </key>
+    <key name="attachments_delete_photo_button_title">
+        <value>Delete the Photo</value>
+    </key>
+    <key name="attachments_delete_title">
+        <value>Delete attachment</value>
+    </key>
+    <key name="attachments_drag_image_label">
+        <value>Drag images here</value>
+    </key>
+    <key name="attachments_embed_video_inv">
+        <value>If you already have an embed paste it to the area below</value>
+    </key>
+    <key name="attachments_image_title">
+        <value>Image</value>
+    </key>
+    <key name="attachments_search_video_inv">
+        <value>Search a video on YouTube</value>
+    </key>
+    <key name="attachments_select_my_photo">
+        <value>Select from your photos</value>
+    </key>
+    <key name="attachments_select_my_photo_view_more">
+        <value>more</value>
+    </key>
+    <key name="attachments_select_my_video">
+        <value>Select from my video</value>
+    </key>
+    <key name="attachments_select_my_video_view_more">
+        <value>more</value>
+    </key>
+    <key name="attachments_select_other_images">
+        <value>Other Images</value>
+    </key>
+    <key name="attachments_select_other_images_title">
+        <value>Select image</value>
+    </key>
+    <key name="attachments_take_photo_button">
+        <value>take an instant shot »</value>
+    </key>
+    <key name="attachments_take_photo_button_title">
+        <value>Take a Photo</value>
+    </key>
+    <key name="attachments_take_photo_inv">
+        <value>If you have a web-cam, you can also {$takeButton}</value>
+    </key>
+    <key name="attachments_take_save_label">
+        <value>Save</value>
+    </key>
+    <key name="attachments_upload_image_inv">
+        <value>Upload an image. We accept &lt;b&gt;JPG&lt;/b&gt;, &lt;b&gt;JPEG&lt;/b&gt;,&lt;b&gt;PNG&lt;/b&gt; and
+            &lt;b&gt;GIF&lt;/b&gt;.
+        </value>
+    </key>
+    <key name="attachments_upload_save_label">
+        <value>Add Image</value>
+    </key>
+    <key name="attachments_upload_save_multy_label">
+        <value>Add Images</value>
+    </key>
+    <key name="attachments_video_duration">
+        <value>min</value>
+    </key>
+    <key name="attachments_video_list_more">
+        <value>more</value>
+    </key>
+    <key name="attachments_video_published">
+        <value>Published: {$date}</value>
+    </key>
+    <key name="attachments_video_title">
+        <value>Video</value>
+    </key>
+    <key name="attacments_yt_no_video">
+        <value>No videos found</value>
+    </key>
+    <key name="attchments_link_button_label">
+        <value>Add link</value>
+    </key>
+    <key name="attchments_photo_button_label">
+        <value>Add image</value>
+    </key>
+    <key name="attchments_video_button_label">
+        <value>Add video</value>
+    </key>
+    <key name="att_my_photo_no_items">
+        <value>No photos found</value>
+    </key>
+    <key name="att_my_video_no_items">
+        <value>No video found</value>
+    </key>
+    <key name="auth_add_answer">
+        <value>Add options to questions of other users</value>
+    </key>
+    <key name="auth_add_comment">
+        <value>Allow comments</value>
+    </key>
+    <key name="auth_answer">
+        <value>Answer questions</value>
+    </key>
+    <key name="auth_answer_delete_comment">
+        <value>The question author can delete comments</value>
+    </key>
+    <key name="auth_ask">
+        <value>Ask questions</value>
+    </key>
+    <key name="auth_ask_friend">
+        <value>Ask friend</value>
+    </key>
+    <key name="auth_group_label">
+        <value>Questions</value>
+    </key>
+    <key name="console_notifications_title">
+        <value>Questions</value>
+    </key>
+    <key name="counter_comments_label">
+        <value>comments</value>
+    </key>
+    <key name="counter_follows_label">
+        <value>follower(s)</value>
+    </key>
+    <key name="counter_votes_label">
+        <value>votes</value>
+    </key>
+    <key name="delete_question_confirm">
+        <value>Are you sure you want to delete this question? This cannot be undone.</value>
+    </key>
+    <key name="email_notifications_answer">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; answered on &lt;a href="{$questionUrl}"&gt;question&lt;/a&gt;
+            with &lt;a href="{$questionUrl}"&gt;{$answer}&lt;/a&gt;
+        </value>
+    </key>
+    <key name="email_notifications_ask">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; asked you: &lt;a href="{$questionUrl}"&gt;{$question}&lt;/a&gt;</value>
+    </key>
+    <key name="email_notifications_post">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; commented on &lt;a href="{$questionUrl}"&gt;{$question}&lt;/a&gt;</value>
+    </key>
+    <key name="email_notifications_section_label">
+        <value>Questions</value>
+    </key>
+    <key name="email_notifications_setting_answer">
+        <value>Someone answered on a question in I follow</value>
+    </key>
+    <key name="email_notifications_setting_ask">
+        <value>Someone asked me to answer a question</value>
+    </key>
+    <key name="email_notifications_setting_post">
+        <value>Someone commented on a question I follow</value>
+    </key>
+    <key name="embed_code_placeholder">
+        <value>Video embed code</value>
+    </key>
+    <key name="feedback_option_max_length">
+        <value>The answer you entered is too long. Please try again.</value>
+    </key>
+    <key name="feedback_question_dublicate_option">
+        <value>You were trying to add an option that already exists on this question</value>
+    </key>
+    <key name="feedback_question_empty">
+        <value>Please enter a valid (non-empty) question.</value>
+    </key>
+    <key name="feedback_question_max_length">
+        <value>The question you entered is too long. Please try again.</value>
+    </key>
+    <key name="feedback_question_min_length">
+        <value>The question you entered is too short. Please try again.</value>
+    </key>
+    <key name="feedback_question_two_apt_required">
+        <value>Please add at least two options or allow users to add options</value>
+    </key>
+    <key name="feed_content_label">
+        <value>Questions</value>
+    </key>
+    <key name="feed_order_latest">
+        <value>Most Recent</value>
+    </key>
+    <key name="feed_order_popular">
+        <value>Most Popular</value>
+    </key>
+    <key name="followers_fb_title">
+        <value>People who are following this question</value>
+    </key>
+    <key name="invitation_ignore_label">
+        <value>ignore</value>
+    </key>
+    <key name="invitation_string">
+        <value>{$user} asked you {$question}</value>
+    </key>
+    <key name="item_text_answer">
+        <value>answered "{$question}" with "{$with}".</value>
+    </key>
+    <key name="item_text_ask">
+        <value>asked you {$question}</value>
+    </key>
+    <key name="item_text_create">
+        <value>asked {$question}</value>
+    </key>
+    <key name="item_text_follow">
+        <value>followed {$question}</value>
+    </key>
+    <key name="item_text_post">
+        <value>commented {$question} with {$with}</value>
+    </key>
+    <key name="list_all_page_description">
+        <value>Latest questions at {$site_name}</value>
+    </key>
+    <key name="list_all_page_title">
+        <value>Questions at {$site_name}</value>
+    </key>
+    <key name="list_all_tab">
+        <value>All questions</value>
+    </key>
+    <key name="list_friends_page_title">
+        <value>Friends' questions at {$site_name}</value>
+    </key>
+    <key name="list_friends_tab">
+        <value>Friends' questions</value>
+    </key>
+    <key name="list_heading">
+        <value>Questions</value>
+    </key>
+    <key name="list_my_page_title">
+        <value>My questions at {$site_name}</value>
+    </key>
+    <key name="list_my_tab">
+        <value>My questions</value>
+    </key>
+    <key name="live_notifications_period_value">
+        <value>{$value} seconds</value>
+    </key>
+    <key name="main_menu_list">
+        <value>Questions</value>
+    </key>
+    <key name="mobile_main_menu_list">
+        <value>Questions</value>
+    </key>
+    <key name="more_options_btn">
+        <value>show &lt;span class="qa-vm-count"&gt;{$count}&lt;/span&gt; more selection(s)...</value>
+    </key>
+    <key name="more_users_title">
+        <value>{$count} other people</value>
+    </key>
+    <key name="newsfeed_question_tab">
+        <value>Question</value>
+    </key>
+    <key name="newsfeed_status_tab">
+        <value>Status</value>
+    </key>
+    <key name="notifications_answer">
+        <value>{$user} answered on {$question} with {$answer}</value>
+    </key>
+    <key name="notifications_feed_heading">
+        <value>Notifications</value>
+    </key>
+    <key name="notifications_feed_title">
+        <value>Question notifications on {$site_name}</value>
+    </key>
+    <key name="notifications_no_items">
+        <value>You have no notifications</value>
+    </key>
+    <key name="notifications_post">
+        <value>{$user} commented on {$question} with {$post}</value>
+    </key>
+    <key name="notifications_see_all">
+        <value>See All Notifications</value>
+    </key>
+    <key name="notification_ignore">
+        <value>Ignore</value>
+    </key>
+    <key name="notification_string">
+        <value>asked you {$question}</value>
+    </key>
+    <key name="not_authed_delete_warning">
+        <value>You need to be logged in to delete questions</value>
+    </key>
+    <key name="not_authed_follow_warning">
+        <value>You need to be logged in to follow questions</value>
+    </key>
+    <key name="not_authed_unfollow_warning">
+        <value>You need to be logged in to unfollow questions</value>
+    </key>
+    <key name="option_add_btn">
+        <value>Add</value>
+    </key>
+    <key name="option_add_inv">
+        <value>Add answer</value>
+    </key>
+    <key name="option_not_empty_delete_warning">
+        <value>Are you sure you want to delete this option and all votes on it? This cannot be undone.</value>
+    </key>
+    <key name="privacy_action_view_my_questions">
+        <value>View my questions</value>
+    </key>
+    <key name="question_add_allow_add_opt">
+        <value>Add option by</value>
+    </key>
+    <key name="question_add_answers_label">
+        <value>Poll options</value>
+    </key>
+    <key name="question_add_option_inv">
+        <value>Add an option...</value>
+    </key>
+    <key name="question_add_save">
+        <value>Ask Question</value>
+    </key>
+    <key name="question_add_show_options_btn">
+        <value>Add Poll Options</value>
+    </key>
+    <key name="question_add_text_inv">
+        <value>Ask something...</value>
+    </key>
+    <key name="question_asked_by">
+        <value>Asked by</value>
+    </key>
+    <key name="question_ask_complete_msg">
+        <value>Your request was sent to {$count} users</value>
+    </key>
+    <key name="question_delete_complete_msg">
+        <value>Question was removed</value>
+    </key>
+    <key name="question_fb_title">
+        <value>Question</value>
+    </key>
+    <key name="question_list_no_items">
+        <value>No questions found</value>
+    </key>
+    <key name="question_not_found">
+        <value>Question not found</value>
+    </key>
+    <key name="question_page_description">
+        <value>{$question}</value>
+    </key>
+    <key name="question_page_title">
+        <value>Question on {$site_name}</value>
+    </key>
+    <key name="selector_title_friends">
+        <value>Select friends</value>
+    </key>
+    <key name="selector_title_users">
+        <value>Select users</value>
+    </key>
+    <key name="toolbar_ask_friends">
+        <value>Ask friend</value>
+    </key>
+    <key name="toolbar_ask_users">
+        <value>Ask user</value>
+    </key>
+    <key name="toolbar_comment_btn">
+        <value>Comment</value>
+    </key>
+    <key name="toolbar_delete_btn">
+        <value>Delete</value>
+    </key>
+    <key name="toolbar_follow_btn">
+        <value>Follow</value>
+    </key>
+    <key name="toolbar_unfollow_btn">
+        <value>Unfollow</value>
+    </key>
+    <key name="toolbar_unvote_btn">
+        <value>Unvote</value>
+    </key>
+    <key name="usercredits_action_add_answer">
+        <value>Add question answer</value>
+    </key>
+    <key name="usercredits_action_add_comment">
+        <value>Comment question</value>
+    </key>
+    <key name="usercredits_action_answer_question">
+        <value>Answer question</value>
+    </key>
+    <key name="usercredits_action_ask_friend">
+        <value>Ask users to answer a question</value>
+    </key>
+    <key name="usercredits_action_ask_question">
+        <value>Ask question</value>
+    </key>
+    <key name="toolbar_unanswer_btn">
+        <value>Remove</value>
+    </key>
+    <key name="users_fb_title">
+        <value>Users</value>
+    </key>
+    <key name="user_select_all_users">
+        <value>all users</value>
+    </key>
+    <key name="user_select_button_ask">
+        <value>Ask</value>
+    </key>
+    <key name="user_select_counter_title">
+        <value>Selected users</value>
+    </key>
+    <key name="user_select_empty_search_result">
+        <value>No result for "{$searchWord}"</value>
+    </key>
+    <key name="user_select_from_all_users">
+        <value>All users</value>
+    </key>
+    <key name="user_select_no_friends">
+        <value>You do not have friends yet. Switch to {$switchToAllButton}</value>
+    </key>
+    <key name="user_select_no_items">
+        <value>No users found</value>
+    </key>
+    <key name="user_select_search_friends_inv">
+        <value>Search friends</value>
+    </key>
+    <key name="user_select_search_users_inv">
+        <value>Search users</value>
+    </key>
+    <key name="view_more_questions_btn">
+        <value>View more</value>
+    </key>
+    <key name="widget_settings_add_new">
+        <value>Allow add new questions</value>
+    </key>
+    <key name="widget_settings_count">
+        <value>Items to show</value>
+    </key>
+    <key name="widget_settings_order">
+        <value>List order</value>
+    </key>
+    <key name="widget_title">
+        <value>Questions</value>
+    </key>
+    <key name="invalid_video_file">
+        <value>Invalid video file</value>
+    </key>
+    <key name="view_my_questions">
+        <value>View my questions</value>
+    </key>
+    <key name="question_created">
+        <value> have created a question.</value>
+    </key>
+    <key name="question_create_successfully">
+        <value>Question was crated successfully.</value>
+    </key>
+    <key name="question_operation_successfully">
+        <value>Operation was done successfully.</value>
+    </key>
+    <key name="question_allow_multiple">
+        <value>Ability to add multiple answer</value>
+    </key>
+    <key name="question_add_option_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; added an option to  &lt;a href="{$questionUrl}"&gt;{$questionText}&lt;/a&gt; question: {$option}</value>
+    </key>
+    <key name="question_add_answer_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; answered &lt;a href="{$questionUrl}"&gt;{$option}&lt;/a&gt; to  &lt;a href="{$questionUrl}"&gt;question&lt;/a&gt;</value>
+    </key>
+    <key name="add_answer_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; answered to &lt;a href="{$questionUrl}"&gt;{$questionText}&lt;/a&gt; question: {$option}</value>
+    </key>
+    <key name="question_edit_question_notification">
+        <value>&lt;a href="{$userUrl}"&gt;{$userName}&lt;/a&gt; edit the &lt;a href="{$questionUrl}"&gt;question&lt;/a&gt; .</value>
+    </key>
+    <key name="toolbar_edit_btn">
+        <value>question setting</value>
+    </key>
+    <key name="toolbar_comment_btn">
+        <value>comments</value>
+    </key>
+    <key name="addAnswer_label">
+        <value>add answer</value>
+    </key>
+    <key name="addOption_label">
+        <value>add option</value>
+    </key>
+    <key name="editQuestion_label">
+        <value>edit question</value>
+    </key>
+    <key name="plugin_label">
+        <value>New question</value>
+    </key>
+    <key name="are_you_sure_empty_option">
+        <value>add question with empty option?</value>
+    </key>
+    <key name="question_add_allow_multiple_answer">
+        <value>selectable options</value>
+    </key>
+    <key name="one_answer">
+        <value>one answer</value>
+    </key>
+    <key name="multiple_answers">
+        <value>multiple answers</value>
+    </key>
+    <key name="guest_answer_error">
+        <value>Login to answer</value>
+    </key>
+    <key name="guest_subscribe_error">
+        <value>Login to subscribe</value>
+    </key>
+    <key name="make_questionaire">
+        <value>Make questionaire</value>
+    </key>
+</prefix>

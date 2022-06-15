@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>رویداد پلاس</name>
+    <key>iiseventplus</key>
+    <description>       امکانات جدیدی مانند دسته بندی رویدادها و همچنین منوهای جدید به افزونه رویداد اضافه‌شده است.</description>
+    <author>Mohammad Agha Abbasloo</author>
+    <authorEmail>a.mohammad85@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10838</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+    <category>
+        <item>essential</item>
+        <item>published</item>
+    </category>
+</plugin>

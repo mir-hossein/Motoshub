@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisdatabackup" label="iisdatabackup" language_tag="en" language_label="English">
+    <key name="deadline_label">
+        <value>
+            Save backup data time (.Day)
+        </value>
+    </key>
+	<key name="deadline_for_saving_data_time">
+        <value>{$value} Month</value>
+    </key>
+    <key name="deadline_for_saving_data_always">
+        <value>For ever</value>
+    </key>
+    <key name="newsfeed_status">
+        <value>Newsfeed status(Except the last)</value>
+    </key>
+    <key name="newsfeed_action">
+        <value>Newsfeed action</value>
+    </key>
+    <key name="action_remove">
+        <value>remove</value>
+    </key>
+    <key name="action_update">
+        <value>update</value>
+    </key>
+    <key name="returnToSetting">
+        <value>Return to setting</value>
+    </key>
+    <key name="setting_label">
+        <value>Data backup setting</value>
+    </key>
+    <key name="form_data_label">
+        <value>Show data backup</value>
+    </key>
+    <key name="tables_label">
+        <value>Choose table</value>
+    </key>
+    <key name="numberOfData_label">
+        <value>Number of data backup</value>
+    </key>
+    <key name="showFormData">
+        <value>Show data backup</value>
+    </key>
+    <key name="base_avatar">
+        <value>Avatars of users</value>
+    </key>
+    <key name="base_comment">
+        <value>Comments of users</value>
+    </key>
+    <key name="base_mail">
+        <value>Mails</value>
+    </key>
+    <key name="base_question_data">
+        <value>Questions</value>
+    </key>
+    <key name="base_tag">
+        <value>Tags</value>
+    </key>
+    <key name="base_entity_tag">
+        <value>Objects and tags</value>
+    </key>
+    <key name="base_user_reset_password">
+        <value>Users reset password</value>
+    </key>
+    <key name="cover_photo">
+        <value>Cover photo of users</value>
+    </key>
+    <key name="event_item">
+        <value>Events</value>
+    </key>
+    <key name="forum_post">
+        <value>Forum posts</value>
+    </key>
+    <key name="forum_post_attachment">
+        <value>Forum posts attachment</value>
+    </key>
+    <key name="forum_section">
+        <value>Forum sections</value>
+    </key>
+    <key name="forum_topic">
+        <value>Forum topics</value>
+    </key>
+    <key name="mailbox_attachment">
+        <value>Mailbox attachments</value>
+    </key>
+    <key name="mailbox_message">
+        <value>Mailbox messages</value>
+    </key>
+    <key name="photo">
+        <value>Photo</value>
+    </key>
+    <key name="photo_album">
+        <value>Photo album</value>
+    </key>
+    <key name="video_clip">
+        <value>Video clip</value>
+    </key>
+    <key name="backup_timestamp">
+        <value>Backup timestamp</value>
+    </key>
+    <key name="backup_action">
+        <value>Backup action</value>
+    </key>
+    <key name="backup_pk_id">
+        <value>Backup id</value>
+    </key>
+    <key name="admin_page_heading">
+        <value>Data backup plugin settings</value>
+    </key>
+    <key name="admin_page_title">
+        <value>Data backup plugin settings</value>
+    </key>
+
+</prefix>

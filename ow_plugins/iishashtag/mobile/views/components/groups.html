@@ -1,0 +1,11 @@
+<div class="owm_anno owm_info owm_padding">{$countInfo}</div>
+{if empty($list)}
+    <!--<div class="ow_nocontent">{text key='base+empty_list'}</div>-->
+{else}
+    <div class="clearfix">
+        {foreach from=$list key='key' item='group'}
+            {decorator name='ipc' addClass='owm_list_item_with_image ow_hashtag_group' data=$group infoString="<a href=\"`$group.url`\">`$group.title|more:75`</a>"}
+        {/foreach}
+    </div>
+    {if $paging}<center>{$paging}</center>{/if}
+{/if}

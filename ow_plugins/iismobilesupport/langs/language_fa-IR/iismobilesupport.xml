@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismobilesupport" label="iismobilesupport" language_tag="fa-IR" language_label="فارسی">
+    <key name="admin_save_settings">
+        <value>
+            ذخیره تنظیمات
+        </value>
+    </key>
+    <key name="admin_settings_title">
+        <value>
+            تنظیمات پشتیبان از سامانه ارسال اعلان به نرم‌افزار موبایل
+        </value>
+    </key>
+    <key name="user_save_success">
+        <value>
+            تنظیمات با موفقیت ذخیره شد.
+        </value>
+    </key>
+    <key name="fcm_api_key_label">
+        <value>
+            کلید پروژه FCM برای ارسال اعلان
+        </value>
+    </key>
+    <key name="fcm_api_url_label">
+        <value>
+            نشانی اینترنتی پروژه FCM برای ارسال اعلان
+        </value>
+    </key>
+    <key name="constraint_user_device_label">
+        <value>
+            میزان تعداد برنامه‌های فعال کاربران (حداقل: 2 و حداکثر: 999)
+        </value>
+    </key>
+    <key name="android_app_label">
+        <value>
+            برنامه Android
+        </value>
+    </key>
+    <key name="ios_app_label">
+        <value>
+            برنامه iOS
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="version_code">
+        <value>
+            نسخه ساخت
+        </value>
+    </key>
+    <key name="version_name">
+        <value>
+            عنوان نسخه
+        </value>
+    </key>
+    <key name="time">
+        <value>
+            زمان انتشار
+        </value>
+    </key>
+    <key name="versions">
+        <value>
+            انتشار نسخه جدید
+        </value>
+    </key>
+    <key name="android_versions">
+        <value>
+            نسخه‌های اندروید
+        </value>
+    </key>
+    <key name="ios_versions">
+        <value>
+            نسخه‌های آی‌او‌اس
+        </value>
+    </key>
+    <key name="native_versions">
+        <value>
+            نسخه‌های بومی اندروید
+        </value>
+    </key>
+    <key name="delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="deprecate">
+        <value>
+            منسوخ شدن نسخه
+        </value>
+    </key>
+    <key name="approve">
+        <value>
+            رایج شدن نسخه
+        </value>
+    </key>
+    <key name="values">
+        <value>
+            موارد
+        </value>
+    </key>
+    <key name="type">
+        <value>
+            نوع
+        </value>
+    </key>
+    <key name="delete_version_success">
+        <value>
+            حدف با موفقیت انجام شد.
+        </value>
+    </key>
+    <key name="approve_version_success">
+        <value>
+            این نسخه دیگر منسوخ نیست.
+        </value>
+    </key>
+    <key name="deprecate_version_success">
+        <value>
+            این نسخه منسوخ شد.
+        </value>
+    </key>
+    <key name="save_success">
+        <value>
+            نسخه جدید منتشر شد.
+        </value>
+    </key>
+    <key name="url">
+        <value>
+            نشانی اینترنتی دریافت فایل
+        </value>
+    </key>
+    <key name="disable_notification_content">
+        <value>
+            حذف محتوا در اعلان
+        </value>
+    </key>
+    <key name="new_notification_label">
+        <value>
+            اعلان جدید
+        </value>
+    </key>
+    <key name="auth_action_label_show_desktop_version">
+        <value>
+            مشاهده شبکه اجتماعی از طریق وب (خارج از نرم‌افزار موبایل)
+        </value>
+    </key>
+    <key name="use_with_mobile_version">
+        <value>
+            شما تنها قادر به استفاده از برنامه تلفن همراه این شبکه هستید.
+        </value>
+    </key>
+    <key name="android_app_download">
+        <value>
+            دریافت نسخه اندروید
+        </value>
+    </key>
+    <key name="ios_app_download">
+        <value>
+            دریافت نسخه iOS
+        </value>
+    </key>
+    <key name="sign_out_description">
+        <value>
+            شما هم‌اکنون وارد حساب کاربری خود شده‌اید. می‌توانید با استفاده از لینک زیر، از حساب کاربری خود خارج شوید.
+        </value>
+    </key>
+    <key name="download_show">
+        <value>
+            نمایش دریافت
+        </value>
+    </key>
+    <key name="custom_download_link_label">
+        <value>
+            کد HTML لینک‌های مرتبط
+        </value>
+    </key>
+    <key name="custom_download_link_desc">
+        <value>
+            سایر لینک‌های دریافت نرم‌افزار از طریق لینک‌های خارجی مانند بازار را به صورت کد HTML در این قسمت وارد کنید.
+        </value>
+    </key>
+    <key name="download_activation">
+        <value>
+            فعال‌سازی دکمه‌های دریافت در بخش فوتر
+        </value>
+    </key>
+    <key name="add_file_string">
+        <value>
+            فایل بارگذاری کرده است.
+        </value>
+    </key>
+    <key name="upload_file">
+        <value>
+            بارگذاری فایل
+        </value>
+    </key>
+    <key name="download_file">
+        <value>
+            دریافت فایل
+        </value>
+    </key>
+    <key name="file_fileUrl_require">
+        <value>
+            بارگذاری فایل یا وارد کردن آدرس دریافت فایل الزامی است
+        </value>
+    </key>
+    <key name="web_settings">
+        <value>
+            تنظیمات اعلان وب
+        </value>
+    </key>
+    <key name="web_settings_head_guide">
+        <value>
+             در این بخش می‌توانید اعلان مرورگر را برای وب‌گاه خود که از پروتکل HTTPS استفاده می‌کند، فعال نمایید. برای این کار کافی است یک پرو‌ژه web app در کنسول فایربیس ایجاد نموده و اطلاعات آن را در فیلدهای زیر وارد کنید.
+        </value>
+    </key>
+    <key name="web_config">
+        <value>
+            Firebase Config
+        </value>
+    </key>
+    <key name="web_key">
+        <value>
+            Key pair
+        </value>
+    </key>
+    <key name="web_config_desc">
+        <value>
+            مقدار firebaseConfig را بعد از ایجاد یک برنامه Web یا از مسیر روبرو کپی کنید: Firebase Console > Settings > General > Your apps > Web apps > Firebase SDK snippet
+        </value>
+    </key>
+    <key name="web_key_desc">
+        <value>
+            مقدار Key pair را از مسیر روبرو کپی کنید: Firebase Console > Settings > Cloud Messaging > Web configuration > Web Push certificates
+        </value>
+    </key>
+    <key name="message">
+        <value>
+            پیام
+        </value>
+    </key>
+</prefix>

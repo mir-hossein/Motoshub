@@ -1,0 +1,24 @@
+<div style="position: relative; margin-bottom: 10px;">
+    {block_decorator name='box'
+    capEnabled='1'
+    iconClass='ow_ic_info'
+    langLabel='base+label_user_info'
+    capAddClass="ow_dnd_configurable_component clearfix"
+    type=''
+    addClass="ow_stdmargin clearfix ow_group_users_view"}
+
+    <table>
+        <tr style="border-top: 0px !important;">
+            <td class="ow_label">
+                <a href="{$userData.url}"><img src="{$userData.avatarUrl}"/></a>
+            </td>
+            <td>
+                <div><a href="{$userData.url}">{$userData.fullname}</a></div>
+                <div>{text key='base+questions_question_username_label'}: {$userData.username}</div>
+                <div>{text key='base+questions_question_email_label'}: {$userData.email}</div>
+            </td>
+        </tr>
+    </table>
+
+    {/block_decorator}
+</div>

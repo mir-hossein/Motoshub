@@ -1,0 +1,52 @@
+<table class="ow_table_1 ow_automargin">
+    <tr class="{cycle values='ow_alt2'}">
+     <th colspan="2">{text key="iisgroupsplus+name_category"}</th>
+    </tr>
+    {foreach from=$groupListCategory item=groupCategory name=groupCategory}
+    <tr class="{cycle values='ow_alt1,ow_alt2'} {if $smarty.foreach.groupCategory.last}ow_tr_last{/if} {if $smarty.foreach.groupCategory.first}ow_tr_first{/if}">
+        <td class="ow_valign_middle">{$groupCategory.label}</td>
+        <td>
+            <a class="ow_lbutton ow_green" onclick="{$editUrls[$groupCategory.name]}" style="display: inline-block;">{text key="iisgroupsplus+edit_item"}</a>
+            {if isset($deleteUrls[$groupCategory.name])}
+            <a class="ow_lbutton ow_green" href="{$deleteUrls[$groupCategory.name]}" onclick="return confirm_redirect('{text key="iisgroupsplus+are_you_sure"}', '{$deleteUrls[$groupCategory.name]}');" style="display: inline-block;"> {text key="iisgroupsplus+delete_item"} </a>
+            {/if}
+        </td>
+    </tr>
+    {/foreach}
+</table>
+
+{form name='add_category'}
+<div style="margin:0 auto">
+    <table class="ow_table_1 ow_form ow_automargin">
+        <tr class="ow_alt1 ow_tr_first ow_tr_last">
+            <td class="ow_value">{input name='label'}{error name="label"}</td>
+            <td class="ow_value">{submit name='add' class='ow_button ow_ic_save'}</td>
+        </tr>
+    </table>
+</div>
+
+{/form}
+
+{*<a href="{$deleteCatUrls[$id]}" onclick="return confirm_redirect('{text key="base+are_you_sure"}','{$deleteCatUrls[$id]}');" style="width:16px; height:16px; display:block; margin:0 auto;background-repeat:no-repeat;background-position: 50% 50%;" class="ow_ic_delete"></a>*}
+
+{form name='notification_settings'}
+<table class="ow_table_1 ow_automargin">
+    <tr class="{cycle values='ow_alt2'}">
+        <th colspan="2">{text key="iisgroupsplus+notification_settings_label"}</th>
+    </tr>
+    <tr>
+        <td class="ow_label">{label name='fileUploadFeed'}</td>
+        <td class="ow_value">
+            {input name='fileUploadFeed'}
+        </td>
+    </tr>
+
+    <tr>
+        <td class="ow_label"><label>{text key="iisgroupsplus+create_group_settings"}</label></td>
+        <td>{input name='fileUploadSettings'}{label name='fileUploadSettings'}<br>{input name='createTopicSettings'}{label name='createTopicSettings'} </td>
+    </tr>
+</table>
+<div class="Button">
+    {submit name='notificationFormAdd' class='ow_button ow_ic_save'}
+</div>
+{/form}

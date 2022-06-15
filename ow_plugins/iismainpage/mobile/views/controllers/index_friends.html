@@ -1,0 +1,33 @@
+{*
+
+/**
+* Copyright (c) 2017, Issa Annamoradnejad
+* All rights reserved.
+*/
+
+*}
+{$menuCmp}
+<div class="iismainpage">
+    <div class="owm_user_list owm_list_page owm_content_list owm_std_margin_bottom clearfix">
+        {if isset($find_friends_url)}
+        <div class="owm_box owm_friendes_search_input">
+            <a href="{$find_friends_url}" class="owm_sidebar_profile_btn owm_find_friends_btn"><span>{text key="iismainpage+find_friends"}</span></a>
+            <div class="owm_list_search">
+                <div class="owm_form_field_wrap">
+                    <input id="iismainpage_friends_search" type="text" placeholder="{text key='iismainpage+search'}: {text key='iismainpage+username_or_realname'}">
+                </div>
+            </div>
+        </div>
+        {/if}
+
+        {if !empty($list)}
+
+            {$list}
+            <div class="owm_user_list_preloader owm_preloader"></div>
+            <div class="owm_user_list_search_preloader owm_preloader" style="visibility: hidden"></div>
+            <div class="ow_nocontent" style="display: none">{text key="base+user_no_users"}</div>
+        {else}
+            <div class="ow_nocontent">{text key="base+user_no_users"}</div>
+        {/if}
+    </div>
+</div>

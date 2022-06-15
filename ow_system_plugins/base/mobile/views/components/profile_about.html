@@ -1,0 +1,26 @@
+{style}
+    .owm_profile_desc {
+        display: block;
+    }
+{/style}
+
+{if $previewMode}
+<a href="{$aboutUrl}" class="owm_profile_desc owm_box_wrap owm_bg_color_2 owm_std_margin_bottom">
+    {$aboutMe}
+</a>
+{else}
+<div class="owm_profile_about_all">
+    <div class="owm_tab_info owm_section owm_std_margin_bottom">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">
+                {text key='base+about_me_widget_default_title'}
+            </div>
+            <div class="owm_form_field_value">
+                <span class="{if !empty($question.hidden)}ow_field_eye ow_remark profile_hidden_field{/if}">
+                    {$aboutMe}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+{/if}

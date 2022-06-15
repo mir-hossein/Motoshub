@@ -1,0 +1,111 @@
+<div class="owm_full_page_form ow_superwide ow_automargin">
+
+	{if empty($err_msg)}
+	<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+		<div class="owm_float_left">
+			<a class="owm_nav_cap_left" href="javascript:window.history.back();"></a>
+		</div>
+		<h3>{text key='event+back'}</h3>
+	</div>
+	{form name='event_edit'}
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{label name='title'}</div>
+			<div class="owm_form_field_value">{input name='title'}</div>
+		</div>
+		<div class="owm_error_txt">{error name='title'}</div>
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{text key='event+add_form_date_label'}</div>
+			<div class="owm_form_field_value">
+				<div class="ow_left owm_event_time_date">
+					{input name='start_time'}{input name='start_date'}
+				</div>
+			</div>
+		</div>
+		<div class="owm_error_txt">{error name='start_time'}{error name='start_date'}</div>
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap" id="{$tdId}">
+			<div class="owm_form_field_label">{text key='event+add_form_end_date_label'} <input type="checkbox" name="endDateFlag" id="{$chId}"{if !empty($endDateFlag)} checked="checked"{/if} /></div>
+			<div class="owm_form_field_value">
+				<div class="ow_left owm_event_time_date">
+					{if !empty($endDateFlag)}
+					{input name='end_time'}{input name='end_date'}
+					{else}{input name='end_time' disabled='disabled'}{input name='end_date' disabled='disabled' }
+					{/if}
+				</div>
+			</div>
+		</div>
+		<div class="owm_error_txt">{error name='end_time'}{error name='end_date'}</div>
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{label name='desc'}</div>
+			<div class="owm_form_field_value">{input name='desc'}</div>
+		</div>
+		<div class="owm_error_txt">{error name='desc'}</div>
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{label name='location'}</div>
+			<div class="owm_form_field_value">{input name='location'}</div>
+		</div>
+		<div class="owm_error_txt">{error name='location'}</div>
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{label name='image'}</div>
+			<div class="owm_form_field_value">{input name='image'}</div>
+		</div>
+		<div class="owm_error_txt">{error name='image'}</div>
+		{if !empty($imgsrc)}
+		<div class="owm_form_field_wrap" id="eventImageDiv">
+			<div class="owm_form_field_label"><a id="deleteEventImg" class="ow_lbutton">{text key='event+delete_image'}</a></div>
+			<div class="owm_form_field_value"><img src="{$imgsrc}" id="eventImg" /></div>
+		</div>
+		{/if}
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{label name='who_can_view'}</div>
+			<div class="owm_form_field_value">{input name='who_can_view'}</div>
+		</div>
+		<div class="owm_error_txt">{error name='who_can_view'}</div>
+	</div>
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label">{label name='who_can_invite'}</div>
+			<div class="owm_form_field_value">{input name='who_can_invite'}</div>
+		</div>
+		<div class="owm_error_txt">{error name='who_can_invite'}</div>
+	</div>
+    {if isset($hasCategoryFilter)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{text key='iiseventplus+select_category'}</div>
+            <div class="owm_form_field_value">{input name='categoryStatus'}</div>
+        </div>
+    </div>
+    {/if}
+	<div class="owm_form_field_container">
+		<div class="owm_form_field_wrap">
+			<div class="owm_form_field_label"></div>
+			<div class="owm_form_field_value">{submit name='submit' class='owm_form_submit'}</div>
+		</div>
+	</div>
+	{/form}
+	{else}
+	<div class="owm_anno ow_std_margin ow_nocontent">{$err_msg}</div>
+	{/if}
+</div>
+
+<script type="text/javascript">
+	{literal}
+	$('#deleteEventImg').click(function(){
+		$("#deleteEventImage").val(1);
+		$( "#eventImageDiv" ).remove();
+	});
+	{/literal}
+</script>

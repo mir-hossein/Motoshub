@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="groups" label="Groups" language_tag="fa-IR" language_label="فارسی">
+	 <key name="forum_btn_label">
+        <value>
+            انجمن
+        </value>
+    </key>
+    <key name="group_title">
+        <value>
+            عنوان گروه: {$title}
+        </value>
+    </key>
+</prefix>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisphotoplus" label="iisphotoplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="photo_friends">
+        <value>
+            تصاویر دوستان
+        </value>
+    </key>
+    <key name="meta_description_photo_friends">
+        <value>
+            می توانید تصاویر دوستان خود را در این صفحه مشاهده کنید.
+        </value>
+    </key>
+    <key name="meta_title_photo_add_friends">
+        <value>
+            تصاویر دوستان
+        </value>
+    </key>
+     <key name="latest_publicphoto">
+        <value>
+             تصاویر عمومی
+        </value>
+    </key>
+	<key name="meta_title_photo_add_publicphoto">
+        <value>
+            تصاویرعمومی
+        </value>
+    </key>
+	<key name="meta_description_photo_publicphoto">
+        <value>
+         می توانید تصاویر عمومی را در این صفحه مشاهده کنید.
+        </value>
+    </key>
+    <key name="meta_title_photo_photo_friends">
+        <value>تصاویر دوستان - {$site_name}</value>
+    </key>
+    <key name="list_type_label_photo_friends">
+        <value>تصاویر دوستان </value>
+    </key>
+    <key name="email_notifications_setting_like">
+        <value>کسی تصویر ارسالی من را پسندید</value>
+    </key>
+    <key name="multiple_photo_liked_notification">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; تصاویر شما را در آلبوم &lt;a href="{$albumUrl}"&gt;{$album}&lt;/a&gt; پسندید
+        </value>
+    </key>
+    <key name="photo_liked_notification">
+        <value>
+            &lt;a href="{$userUrl}"&gt;{$user}&lt;/a&gt; تصویر شما را پسندید
+        </value>
+    </key>
+    <key name="photo_gallery">
+        <value>آلبوم تصاویر</value>
+    </key>
+</prefix>

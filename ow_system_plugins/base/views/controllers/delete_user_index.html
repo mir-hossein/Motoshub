@@ -1,0 +1,29 @@
+{block_decorator name="box" type="empty" addClass="ow_stdmargin ow_wide ow_automargin ow_center"}
+    {text key="base+delete_user_confirmation"}
+{/block_decorator}
+
+{block_decorator name="box" type="empty" addClass="ow_stdmargin ow_wide ow_automargin ow_center"}
+{form name="deleteUser"}
+<span class="ow_red">{text key="base+delete_user_warning"}</span>
+<table class="ow_table_1 ow_form st_table_3" style="margin: 30px 0px 0px 0px;">
+    <tr class="ow_alt1 ow_tr_first">
+        <td class="ow_label">{label name='userName'}</td>
+        <td class="ow_value">{input name='userName'}{error name='userName'}</td>
+    </tr>
+    {if $passwordRequiredProfile}
+    <tr class="ow_alt1">
+        <td class="ow_label">{label name='password'}</td>
+        <td class="ow_value">{input name='password'}{error name='password'}</td>
+    </tr>
+    {/if}
+    {if isset($captcha_present)}
+    <tr class="ow_alt1 ow_tr_last">
+        <td class="ow_label"></td>
+        <td class="ow_value ow_center">{input name='captcha'}{error name='captcha'}</td>
+    </tr>
+    {/if}
+</table>
+    {submit name='submit'}
+    {submit name='cancel'}
+{/form}
+{/block_decorator}

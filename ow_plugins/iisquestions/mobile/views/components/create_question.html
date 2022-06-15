@@ -1,0 +1,30 @@
+<div class="questions-add clearfix" id="{$uniqueId}">
+    {form name="create_question_form"}
+    <div class="owm_submit_auto_click">
+        <div class="questions-add-answers">
+            <div class="eq-add-answers-field">
+                <div class="owm_smallmargin">
+                    <div class="qaa-label-c">
+                        <span class="qaa-label"><strong>{text key="iisquestions+question_add_answers_label"}</strong></span>
+                    </div>
+                </div>
+                {input name="options" style="margin-top: 10px;"}
+            </div>
+        </div>
+        <div class="clearfix qa-submit-c owm_border">
+            {if $addOptions}
+            <div class="owm_left questions-add-answers-btn-c">
+                <div class="questions-add-answers-options" style="text-align: right;">
+                    {label name="allowAddOptions"}{input name="allowAddOptions"}
+                </div>
+            </div>
+            {/if}
+            <div class="ow_right eq-save-c">
+                <span class="owm_attachment_btn">{submit name="save"}</span>
+            </div>
+
+            <div class="owm_inprogress eq-status-preloader EQ_StatusPreloader"></div>
+        </div>
+    </div>
+    {/form}
+</div>

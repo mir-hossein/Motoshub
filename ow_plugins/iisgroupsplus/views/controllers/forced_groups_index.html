@@ -1,0 +1,104 @@
+<div class="ow_lp_groups group_select_list">
+
+    {if $groups}
+    <table class="ow_table_1 ow_form ow_center" style="width: 100%">
+        <tr>
+            <th>
+                {text key='iisgroupsplus+group_name'}
+            </th>
+            <th>
+                {text key='iisgroupsplus+group_id'}
+            </th>
+            <th>
+                {text key='iisgroupsplus+update_buttons'}
+            </th>
+        </tr>
+        {foreach from=$groups item='group'}
+        <tr>
+            <td>
+                <a href="{$group.href}">{$group.name}</a>
+                <!--({$group.userCount})-->
+            </td>
+            <td>
+                <input name="gId" type="hidden" value="{$group.id}" />
+                {$group.id}
+            </td>
+            <td>
+                <a class="editForcedGroup ow_lbutton" href="{$group.editURL}">{text key='base+edit'}</a>
+                <a class="f_remove ow_lbutton">{text key='base+ow_ic_delete'}</a>
+                <!--<a class="f_add_all_users ow_lbutton">{text key='iisgroupsplus+add_all_users'}</a>-->
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    {else}
+        <p>{text key="iisgroupsplus+empty_forced_groups_list"}</p>
+    {/if}
+
+    <div style="visibility: hidden">
+        {form name="mainForm"}
+            {input name='gId'}
+            {input name='forcedStay'}
+            {input name='removing'}
+            {submit name='submit'}
+        {/form}
+    </div>
+
+    <hr>
+    <h1>{text key="iisgroupsplus+create_forced_group"}</h1>
+    <div class="addNewForcedGroupContainer">
+
+        {form name="addNewForcedGroup"}
+        <table class="create_new_forced_group">
+            <tr class="ow_center">
+                <th>
+                    {text key='iisgroupsplus+group_id'}
+                </th>
+                <th>
+                    {text key='iisgroupsplus+group_forced_stay'}
+                </th>
+            </tr>
+            <tr>
+                <td class="ow_value">
+                    {input name="gId"}
+                </td>
+                <td class="ow_value ow_center">
+                    <input name="forcedStay" type="checkbox" />
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    {text key="iisgroupsplus+conditions_according_to"}
+                </th>
+            </tr>
+            {foreach from=$profileQuestions item='question'}
+            <tr class>
+                <td class="ow_label">
+                    {$question.question_label}
+                </td>
+                <td class="ow_value">
+                    <input type="checkbox" id="select_all_options_{$question.custom_id}">
+                    <label for="select_all_options_{$question.custom_id}"><i>{text key='iisgroupsplus+select_all'}</i></label>
+                    {foreach from=$question.options item='option'}
+                        {input name=$option->getAttribute('name')}
+                        {label name=$option->getAttribute('name')}
+                    {/foreach}
+                </td>
+            </tr>
+            {/foreach}
+        </table>
+        {submit name='addNewForcedGroupButton' class='owm_float_left'}
+        {/form}
+
+    </div>
+</div>
+
+<style>
+    table.create_new_forced_group tr{
+        border: 1px solid gray;
+    }
+    table.create_new_forced_group{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+</style>

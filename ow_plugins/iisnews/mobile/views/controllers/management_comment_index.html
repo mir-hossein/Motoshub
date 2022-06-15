@@ -1,0 +1,119 @@
+
+{$menu}
+{if count($list) > 0}
+
+
+<div class="owm_news_table_2_comment owm_news_divTable_comment " align="center">
+	<div class="owm_news_divTableBody_comment ">
+		<div class="owm_news_divTableRow_comment">
+			<div class="owm_news_divTableCell_comment owm_news_divTableCellTopChild setContentCenter"><p>{text key="iisnews+comment_manage_my_news"}</p></div>
+			<div class="owm_news_divTableCell_comment owm_news_divTableCellTopChild setContentCenter"><p>	{text key="iisnews+date_manage_my_news"}</p></div>
+			<div class="owm_news_divTableCell_comment owm_news_divTableCellTopChild setContentCenter" style=" margin-top:0px;"><p>{text key="iisnews+manage_comment_page_actions"}</p></div>
+		</div>
+
+		{foreach from=$list item='item'}
+
+
+		<div class="owm_news_divTableRow_comment">
+			<div class="owm_news_divTableCell_comment owm_news_handle_large_comment owm_news_divTableCellBottomChild" >
+				<div class="owm_news_div_center owm_ipc_content">
+					{assign var='userId' value=$item.userId}
+					{capture assign='authorLink'}{user_link name=$displaynameList[$userId] username=$usernameList[$userId]}{/capture}
+					{assign var=id value=$item.entityId}
+					{capture assign='info_string'}{$authorLink} {text key="iisnews+on"} <a href="{$item.url}">{$entryList[$id]->title}</a>{/capture}
+					{decorator name='ipc'
+					infoString=$info_string
+					content=$item.message
+					imageSrc=$avatarUrlList[$userId]
+					imageTitle=$usernameList[$userId]
+					toolbar=''
+					displayName=$displaynameList[$userId]}
+				</div>
+
+			</div>
+			<div class="owm_news_divTableCell_comment setContentCenter owm_news_divTableCellBottomChild"><p>{format_date timestamp=$item.createStamp}</p>
+			</div>
+			<div class="owm_news_divTableCell_comment setContentCenter owm_news_divTableCellBottomChild">
+				<div >
+						<span class="management-controls">
+							<a href="{url_for for="IISNEWS_MCTRL_ManagementComment:deleteComment:[id=>`$item.id`]"}?back-to={$thisUrl}" class="ow_lbutton ow_red">{text key='iisnews+news_manage_delete'}</a>
+						</span>
+				</div>
+			</div>
+
+		</div>
+		{/foreach}
+	</div>
+
+	<div class="owm_news_divTableBody_comment_220">
+		{foreach from=$list item='item'}
+		<div class="owm_news_divTableRow_comment">
+			<div class="owm_news_divTableCell_comment owm_news_divTableCellTopChild setContentCenter"><p>{text key="iisnews+comment_manage_my_news"}</p></div>
+			<div class="owm_news_divTableCell_comment owm_news_divTableCellTopChild owm_news_handle_large_comment" style="margin-top: -1px;">
+
+				<div  class="owm_news_div_center owm_ipc_content">
+					{assign var='userId' value=$item.userId}
+					{capture assign='authorLink'}{user_link name=$displaynameList[$userId] username=$usernameList[$userId]}{/capture}
+					{assign var=id value=$item.entityId}
+					{capture assign='info_string'}{$authorLink} {text key="iisnews+on"} <a href="{$item.url}">{$entryList[$id]->title}</a>{/capture}
+					{decorator name='ipc'
+					infoString=$info_string
+					content=$item.message
+					imageSrc=$avatarUrlList[$userId]
+					imageTitle=$usernameList[$userId]
+					toolbar=''
+					displayName=$displaynameList[$userId]}
+				</div>
+
+
+			</div>
+		</div>
+
+
+
+
+		<div class="owm_news_divTableRow_comment">
+			<div class="owm_news_divTableCell_comment setContentCenter " >
+
+				<p>{text key="iisnews+date_manage_my_news"}</p></div>
+
+			<div class="owm_news_divTableCell_comment setContentCenter"  ><p>{format_date timestamp=$item.createStamp}</p>
+			</div>
+
+
+		</div>
+
+
+
+		<div class="owm_news_divTableRow_comment" >
+			<div class="owm_news_divTableCell_comment setContentCenter owm_news_divTableCellBottomChild" >
+
+				<p>{text key="iisnews+manage_comment_page_actions"}</p>
+			</div>
+
+
+			<div class="owm_news_divTableCell_comment setContentCenter owm_news_divTableCellBottomChild" >
+				<div >
+						<span class="management-controls" >
+							<a href="{url_for for="IISNEWS_MCTRL_ManagementComment:deleteComment:[id=>`$item.id`]"}?back-to={$thisUrl}" class="ow_lbutton ow_red">{text key='iisnews+news_manage_delete'}</a>
+						</span>
+				</div>
+			</div>
+
+		</div>
+		{/foreach}
+	</div>
+
+
+
+
+
+
+
+</div>
+{else}
+<div class="owm_news_center">
+	<p>{text key='base+comment_no_comments'}</p>
+</div>
+{/if}
+{$paging}

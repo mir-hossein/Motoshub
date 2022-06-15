@@ -1,0 +1,16 @@
+/**
+ * Created by Milad Heshmati    on 3/10/2018.
+ */
+
+.ow_right.edit_profile_link,
+.ow_button #change_password_button{
+    display: none;
+}
+
+#change_password_button{
+    cursor: pointer;
+}
+
+body div.user_profile_data div.change_password div.ow_right span.ow_button{
+    display: none;
+}

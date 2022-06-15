@@ -1,0 +1,6 @@
+.owm_notification_block_view_all_btn_wrap {
+    float: right;
+}
+.owm_notification_block_view_all_btn_wrap:lang(fa-IR) {
+    float: left;
+}

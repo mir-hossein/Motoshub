@@ -1,0 +1,41 @@
+<svg width="65" height="26" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="28" width="67" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_5">
+   <path stroke="null" id="svg_4" d="m0.928801,5.11976l11.267398,0l-9.114275,6.623588l3.485138,-10.719994l3.485138,10.719994l-9.123399,-6.623588z" fill="#00d1ae"/>
+  </g>
+  <g stroke="null" id="svg_8">
+   <path stroke="null" id="svg_7" d="m13.9288,5.119757l11.2674,0l-9.11428,6.62359l3.48514,-10.72l3.48514,10.72l-9.1234,-6.62359z" fill="#00d1ae"/>
+  </g>
+  <g stroke="null" id="svg_10">
+   <path stroke="null" id="svg_9" d="m26.8038,5.119757l11.2674,0l-9.11428,6.62359l3.48514,-10.72l3.48514,10.72l-9.1234,-6.62359z" fill="#00d1ae"/>
+  </g>
+  <g stroke="null" id="svg_12">
+   <path stroke="null" id="svg_11" d="m39.8038,5.119757l11.2674,0l-9.11428,6.62359l3.48514,-10.72l3.48514,10.72l-9.1234,-6.62359z" fill="#00d1ae"/>
+  </g>
+  <g stroke="null" id="svg_14">
+   <path stroke="null" id="svg_13" d="m52.5538,5.119757l11.2674,0l-9.11428,6.62359l3.48514,-10.72l3.48514,10.72l-9.1234,-6.62359z" fill="#00d1ae"/>
+  </g>
+  <g stroke="null" id="svg_19">
+   <path stroke="null" id="svg_18" d="m0.8038,18.085651l11.517399,0l-9.316503,6.770552l3.562467,-10.957849l3.562467,10.957849l-9.325829,-6.770552z" fill="#bebebe"/>
+  </g>
+  <g stroke="null" id="svg_21">
+   <path stroke="null" id="svg_20" d="m13.8038,18.085654l11.5174,0l-9.3165,6.77055l3.56246,-10.95785l3.56247,10.95785l-9.32583,-6.77055z" fill="#bebebe"/>
+  </g>
+  <g stroke="null" id="svg_23">
+   <path stroke="null" id="svg_22" d="m26.6788,18.085654l11.5174,0l-9.3165,6.77055l3.56246,-10.95785l3.56247,10.95785l-9.32583,-6.77055z" fill="#bebebe"/>
+  </g>
+  <g stroke="null" id="svg_25">
+   <path stroke="null" id="svg_24" d="m39.6788,18.085654l11.5174,0l-9.3165,6.77055l3.56246,-10.95785l3.56247,10.95785l-9.32583,-6.77055z" fill="#bebebe"/>
+  </g>
+  <g stroke="null" id="svg_27">
+   <path stroke="null" id="svg_26" d="m52.6788,18.085654l11.5174,0l-9.3165,6.77055l3.56246,-10.95785l3.56247,10.95785l-9.32583,-6.77055z" fill="#bebebe"/>
+  </g>
+ </g>
+</svg>

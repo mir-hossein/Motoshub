@@ -1,0 +1,11 @@
+{$menuCmp}
+<div class="iismainpage" id="videos_page">
+    {if !empty($list)}
+    <div class="owm_video_list clearfix">
+        {$list}
+        <div class="owm_user_list_preloader owm_preloader" style="visibility: hidden;float: left;width: 100%;"></div>
+    </div>
+    {else}
+    <div class="ow_nocontent">{text key='base+empty_list'}</div>
+    {/if}
+</div>
