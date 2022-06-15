@@ -167,12 +167,12 @@ class UTIL_Url
         $userFilesUrl = OW::getStorage()->getFileUrl(OW_DIR_USERFILES);
         $path = null;
 
-        if ( stripos($uri, OW_URL_HOME) !== false )
+        if ( stripos($uri, OW_URL_HOME) === 0 )
         {
             $path = str_replace(OW_URL_HOME, OW_DIR_ROOT, $uri);
             $path = str_replace('/', DS, $path);
         }
-        else if ( stripos($uri, $userFilesUrl) !== false )
+        else if ( stripos($uri, $userFilesUrl) === 0 )
         {
             $path = str_replace($userFilesUrl, OW_DIR_USERFILES, $uri);
             $path = str_replace('/', DS, $path);

@@ -115,7 +115,8 @@ class BASE_CMP_ComponentSettings extends OW_Component
 
             if ( $setting['presentation'] == BASE_CLASS_Widget::PRESENTATION_CUSTOM )
             {
-                $setting['markup'] = call_user_func($setting['render'], $this->uniqName, $name, empty($setting['value']) ? null : $setting['value']);
+                if ( $setting['render'] === "BASE_CMP_WelcomeWidget::renderTextField" )
+                    $setting['markup'] = call_user_func($setting['render'], $this->uniqName, $name, empty($setting['value']) ? null : $setting['value']);
             }
 
             $setting['display'] = !empty($setting['display']) ? $setting['display'] : 'table';

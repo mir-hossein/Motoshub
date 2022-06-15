@@ -57,7 +57,15 @@ class BASE_CTRL_AjaxUsersApi extends OW_ActionController
         $command = trim($_GET['command']);
         $query = json_decode($_GET['params'], true);
 
-        $response = call_user_func(array($this, $command), $query);
+        if ( $command !== __FUNCTION__ )
+        {
+            $response = call_user_func(array($this, $command), $query);
+            $response = empty($response) ? array() : $response;
+        }
+        else
+        {
+            $response = array();
+        }
         
         /*try
         {
@@ -71,8 +79,8 @@ class BASE_CTRL_AjaxUsersApi extends OW_ActionController
             );
         }*/
 
-        $response = empty($response) ? array() : $response;
         echo json_encode($response);
+        
         exit;
     }
 

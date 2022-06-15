@@ -406,6 +406,10 @@ class NEWSFEED_CTRL_Ajax extends OW_ActionController
         $feedData = $params['feedData'];
 
         $driverClass = $feedData['driver']['class'];
+
+        if ( strpos($driverClass, "_") == strrpos($driverClass, "_") )
+            throw new Redirect404Exception();
+
         /* @var $driver NEWSFEED_CLASS_Driver */
         $driver = OW::getClassInstance($driverClass);
         $driver->setup($feedData['driver']['params']);
@@ -508,6 +512,9 @@ class NEWSFEED_CTRL_Ajax extends OW_ActionController
         OW::getEventManager()->trigger($event);
 
         $driverClass = $params['driver']['class'];
+
+        if ( strpos($driverClass, "_") == strrpos($driverClass, "_") )
+            throw new Redirect404Exception();
 
         /*@var $cmp NEWSFEED_CLASS_Driver */
         $driver = OW::getClassInstance($driverClass);
